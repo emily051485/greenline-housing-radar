@@ -101,6 +101,41 @@ function addFloodControl(){
   $('#flood-toggle').addEventListener('change',updateFloodLayer);
   $('#flood-scenario').addEventListener('change',()=>{if($('#flood-toggle').checked)updateFloodLayer();});
 }
+function setupResponsiveMapPanels(){
+  const panels=[
+    {element:document.querySelector('.map-legend'),label:'圖例',id:'map-legend-panel'},
+    {element:document.querySelector('.flood-control'),label:'淹水模擬',id:'flood-control-panel'},
+  ];
+  panels.forEach(({element,label,id})=>{
+    if(!element||element.classList.contains('map-panel'))return;
+    const body=document.createElement('div');
+    body.className='map-panel-body';
+    body.id=id;
+    while(element.firstChild)body.append(element.firstChild);
+    const toggle=document.createElement('button');
+    toggle.type='button';
+    toggle.className='map-panel-toggle';
+    toggle.setAttribute('aria-controls',id);
+    toggle.setAttribute('aria-expanded','false');
+    toggle.innerHTML=`${label}<span aria-hidden="true">＋</span>`;
+    toggle.addEventListener('click',()=>{
+      const willOpen=!element.classList.contains('panel-open');
+      document.querySelectorAll('.map-panel').forEach(panel=>{
+        panel.classList.remove('panel-open');
+        panel.querySelector('.map-panel-toggle')?.setAttribute('aria-expanded','false');
+        const icon=panel.querySelector('.map-panel-toggle span');
+        if(icon)icon.textContent='＋';
+      });
+      if(willOpen){
+        element.classList.add('panel-open');
+        toggle.setAttribute('aria-expanded','true');
+        toggle.querySelector('span').textContent='−';
+      }
+    });
+    element.classList.add('map-panel');
+    element.append(toggle,body);
+  });
+}
 function removeFloodLayer(){
   if(map.getLayer(floodLayerId))map.removeLayer(floodLayerId);
   if(map.getSource(floodSourceId))map.removeSource(floodSourceId);
@@ -332,6 +367,7 @@ async function loadHazardsReliable(force=false){
 }
 
 addFloodControl();
+setupResponsiveMapPanels();
 map.on('load',()=>{addProjectAreas();showMetroLines(cachedMetroRoutes);addProjectMarkers();render();loadMetroLines();setTimeout(()=>loadHazardsReliable(false),600);});
 ['city-filter','status-filter','rating-filter','walk-filter'].forEach(id=>$('#'+id).addEventListener('change',render));
 $('#search-filter').addEventListener('input',render);
