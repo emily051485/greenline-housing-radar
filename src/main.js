@@ -9,6 +9,21 @@ const mapsUrl=project=>`https://www.google.com/maps/search/?api=1&query=${encode
 const ratingRank={NR:0,C:1,B:2,A:3,S:4};
 const metroColors={BR:'#c48c31',R:'#e3002c',G:'#008659',O:'#f8b61c',BL:'#0070bd',Y:'#ffdb00',A:'#8246af',K:'#7bbf43',LB:'#78c7d2',V:'#78c7d2',LG:'#9ac43c'};
 const state={projects:[...projects],markers:new Map()};
+const floodScenarios={
+  '6h150':{label:'6 小時降雨 150 mm',layers:[40,2,22,12]},
+  '6h250':{label:'6 小時降雨 250 mm',layers:[41,3,23,13]},
+  '6h350':{label:'6 小時降雨 350 mm',layers:[39,4,24,14]},
+  '12h200':{label:'12 小時降雨 200 mm',layers:[38,5,25,15]},
+  '12h300':{label:'12 小時降雨 300 mm',layers:[37,6,26,16]},
+  '12h400':{label:'12 小時降雨 400 mm',layers:[36,7,27,17]},
+  '24h200':{label:'24 小時降雨 200 mm',layers:[35,8,28,18]},
+  '24h350':{label:'24 小時降雨 350 mm',layers:[34,9,29,19]},
+  '24h500':{label:'24 小時降雨 500 mm',layers:[33,10,30,20]},
+  '24h650':{label:'24 小時降雨 650 mm',layers:[32,11,31,21]},
+};
+const floodSourceId='ncdr-flood-source';
+const floodLayerId='ncdr-flood-layer';
+let floodRequestId=0;
 
 const map=new maplibregl.Map({container:'map',style:'https://tiles.openfreemap.org/styles/liberty',center:[121.49,25.025],zoom:10.2,attributionControl:false});
 map.addControl(new maplibregl.NavigationControl({showCompass:false}),'bottom-right');
@@ -76,6 +91,49 @@ function showMetroLines(collection){
   map.on('mouseenter','metro-routes',()=>map.getCanvas().style.cursor='pointer');
   map.on('mouseleave','metro-routes',()=>map.getCanvas().style.cursor='');
   map.on('click','metro-routes',event=>new maplibregl.Popup().setLngLat(event.lngLat).setHTML(`<b>${escapeHtml(event.features?.[0]?.properties?.name||'捷運路線')}</b>`).addTo(map));
+}
+function addFloodControl(){
+  const control=document.createElement('section');
+  control.className='flood-control';
+  control.setAttribute('aria-label','降雨淹水模擬控制');
+  control.innerHTML=`<div class="flood-control-heading"><strong>降雨淹水模擬</strong><label class="switch"><input id="flood-toggle" type="checkbox"><span></span></label></div><label>降雨情境<select id="flood-scenario"><option value="6h150">6 小時／150 mm</option><option value="6h250">6 小時／250 mm</option><option value="6h350">6 小時／350 mm</option><option value="12h200">12 小時／200 mm</option><option value="12h300">12 小時／300 mm</option><option value="12h400">12 小時／400 mm</option><option value="24h200">24 小時／200 mm</option><option value="24h350">24 小時／350 mm</option><option value="24h500" selected>24 小時／500 mm</option><option value="24h650">24 小時／650 mm</option></select></label><div class="flood-depth" aria-label="模擬淹水深度圖例"><span><i class="depth-1"></i>0.5–1 m</span><span><i class="depth-2"></i>1–2 m</span><span><i class="depth-3"></i>2–3 m</span><span><i class="depth-4"></i>&gt;3 m</span></div><small id="flood-status">圖層目前關閉</small><a href="https://dmap.ncdr.nat.gov.tw/1109/map/?group-layer=%E6%B7%B9%E6%B0%B4%E6%BD%9B%E5%8B%A2" target="_blank" rel="noopener">NCDR 原始圖台 ↗</a>`;
+  $('.map-frame').append(control);
+  $('#flood-toggle').addEventListener('change',updateFloodLayer);
+  $('#flood-scenario').addEventListener('change',()=>{if($('#flood-toggle').checked)updateFloodLayer();});
+}
+function removeFloodLayer(){
+  if(map.getLayer(floodLayerId))map.removeLayer(floodLayerId);
+  if(map.getSource(floodSourceId))map.removeSource(floodSourceId);
+}
+async function getFloodToken(){
+  const response=await fetch('https://dmap.ncdr.nat.gov.tw/api/tokeninfo');
+  if(!response.ok)throw new Error(`NCDR token ${response.status}`);
+  const envelope=await response.json();
+  const tokenData=typeof envelope==='string'?JSON.parse(envelope):envelope;
+  if(!tokenData?.token)throw new Error('NCDR token missing');
+  return tokenData.token;
+}
+async function updateFloodLayer(){
+  const enabled=$('#flood-toggle').checked;
+  const status=$('#flood-status');
+  const scenario=floodScenarios[$('#flood-scenario').value];
+  const requestId=++floodRequestId;
+  removeFloodLayer();
+  if(!enabled){status.textContent='圖層目前關閉';return;}
+  status.textContent='正在載入官方淹水圖層…';
+  try{
+    const token=await getFloodToken();
+    if(requestId!==floodRequestId||!$('#flood-toggle').checked)return;
+    const base='https://dwgis2.ncdr.nat.gov.tw/server/services/WMS627/Flooding/MapServer/WMSServer';
+    const tileUrl=`${base}?REQUEST=GetMap&SERVICE=WMS&VERSION=1.1.1&LAYERS=${scenario.layers.join(',')}&STYLES=&FORMAT=image/png&BGCOLOR=0xFFFFFF&TRANSPARENT=TRUE&SRS=EPSG:3857&WIDTH=256&HEIGHT=256&BBOX={bbox-epsg-3857}&token=${encodeURIComponent(token)}`;
+    map.addSource(floodSourceId,{type:'raster',tiles:[tileUrl],tileSize:256,attribution:'淹水潛勢：經濟部水利署／NCDR'});
+    map.addLayer({id:floodLayerId,type:'raster',source:floodSourceId,paint:{'raster-opacity':.58,'raster-fade-duration':0}},map.getLayer('project-areas-fill')?'project-areas-fill':undefined);
+    status.textContent=`顯示：${scenario.label}（潛勢模擬）`;
+  }catch(error){
+    removeFloodLayer();
+    status.textContent='官方圖層暫時無法載入，請稍後再試';
+    console.error('NCDR 淹水圖層載入失敗',error);
+  }
 }
 async function loadMetroLines(){
   const query='[out:json][timeout:40];(rel[route="subway"](24.75,121.20,25.30,121.70);rel[route="light_rail"](24.75,121.20,25.30,121.70);rel[route="train"][network~"Taoyuan|桃園"](24.75,121.20,25.30,121.70););out geom;';
@@ -274,6 +332,7 @@ async function loadHazardsReliable(force=false){
   }
 }
 
+addFloodControl();
 map.on('load',()=>{addProjectAreas();showMetroLines(cachedMetroRoutes);addProjectMarkers();render();loadMetroLines();setTimeout(()=>loadHazardsReliable(false),600);});
 ['city-filter','status-filter','rating-filter','walk-filter'].forEach(id=>$('#'+id).addEventListener('change',render));
 $('#search-filter').addEventListener('input',render);
