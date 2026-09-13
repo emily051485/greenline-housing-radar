@@ -24,10 +24,24 @@ const floodScenarios={
 const floodSourceId='ncdr-flood-source';
 const floodLayerId='ncdr-flood-layer';
 let floodRequestId=0;
+const floodBounds={west:121.46,south:24.91,east:121.62,north:25.11};
 
 const map=new maplibregl.Map({container:'map',style:'https://tiles.openfreemap.org/styles/liberty',center:[121.49,25.025],zoom:10.2,attributionControl:false});
 map.addControl(new maplibregl.NavigationControl({showCompass:false}),'bottom-right');
 map.addControl(new maplibregl.AttributionControl({compact:true,customAttribution:'© OpenFreeMap · © OpenStreetMap contributors'}));
+{
+  const attribution=document.querySelector('.maplibregl-ctrl-attrib');
+  if(attribution){
+    attribution.classList.add('maplibregl-compact','attribution-force-compact');
+    attribution.classList.remove('attribution-open');
+    attribution.removeAttribute('open');
+    attribution.querySelector('.maplibregl-ctrl-attrib-button')?.addEventListener('click',event=>{
+      event.preventDefault();
+      event.stopPropagation();
+      attribution.classList.toggle('attribution-open');
+    },{capture:true});
+  }
+}
 
 function markerElement(project){
   const el=document.createElement('button');
@@ -140,13 +154,6 @@ function removeFloodLayer(){
   if(map.getLayer(floodLayerId))map.removeLayer(floodLayerId);
   if(map.getSource(floodSourceId))map.removeSource(floodSourceId);
 }
-function getFloodToken(){
-  const token=import.meta.env.VITE_NCDR_TOKEN;
-  const expires=Number(import.meta.env.VITE_NCDR_TOKEN_EXPIRES);
-  if(!token)throw new Error('NCDR token was not injected during the build');
-  if(Number.isFinite(expires)&&expires>0&&Date.now()>=expires)throw new Error('NCDR token has expired');
-  return token;
-}
 async function updateFloodLayer(){
   const enabled=$('#flood-toggle').checked;
   const status=$('#flood-status');
@@ -154,19 +161,21 @@ async function updateFloodLayer(){
   const requestId=++floodRequestId;
   removeFloodLayer();
   if(!enabled){status.textContent='圖層目前關閉';return;}
-  status.textContent='正在載入官方淹水圖層…';
+  status.textContent='正在載入本站淹水圖層…';
   try{
-    const token=getFloodToken();
     if(requestId!==floodRequestId||!$('#flood-toggle').checked)return;
-    const base='https://dwgis2.ncdr.nat.gov.tw/server/services/WMS627/Flooding/MapServer/WMSServer';
-    const tileUrl=`${base}?REQUEST=GetMap&SERVICE=WMS&VERSION=1.1.1&LAYERS=${scenario.layers.join(',')}&STYLES=&FORMAT=image/png&BGCOLOR=0xFFFFFF&TRANSPARENT=TRUE&SRS=EPSG:3857&WIDTH=256&HEIGHT=256&BBOX={bbox-epsg-3857}&token=${encodeURIComponent(token)}`;
-    map.addSource(floodSourceId,{type:'raster',tiles:[tileUrl],tileSize:256,attribution:'淹水潛勢：經濟部水利署／NCDR'});
+    const scenarioKey=$('#flood-scenario').value;
+    const imageUrl=`${import.meta.env.BASE_URL}data/flood/${scenarioKey}.png`;
+    map.addSource(floodSourceId,{type:'image',url:imageUrl,coordinates:[
+      [floodBounds.west,floodBounds.north],[floodBounds.east,floodBounds.north],
+      [floodBounds.east,floodBounds.south],[floodBounds.west,floodBounds.south],
+    ]});
     map.addLayer({id:floodLayerId,type:'raster',source:floodSourceId,paint:{'raster-opacity':.58,'raster-fade-duration':0}},map.getLayer('project-areas-fill')?'project-areas-fill':undefined);
-    status.textContent=`顯示：${scenario.label}（潛勢模擬）`;
+    status.textContent=`顯示：${scenario.label}（本站快取）`;
   }catch(error){
     removeFloodLayer();
-    status.textContent='官方圖層暫時無法載入，請稍後再試';
-    console.error('NCDR 淹水圖層載入失敗',error);
+    status.textContent='本站淹水圖層無法載入';
+    console.error('淹水快取圖層載入失敗',error);
   }
 }
 async function loadMetroLines(){
