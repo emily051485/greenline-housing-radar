@@ -105,13 +105,12 @@ function removeFloodLayer(){
   if(map.getLayer(floodLayerId))map.removeLayer(floodLayerId);
   if(map.getSource(floodSourceId))map.removeSource(floodSourceId);
 }
-async function getFloodToken(){
-  const response=await fetch('https://dmap.ncdr.nat.gov.tw/api/tokeninfo');
-  if(!response.ok)throw new Error(`NCDR token ${response.status}`);
-  const envelope=await response.json();
-  const tokenData=typeof envelope==='string'?JSON.parse(envelope):envelope;
-  if(!tokenData?.token)throw new Error('NCDR token missing');
-  return tokenData.token;
+function getFloodToken(){
+  const token=import.meta.env.VITE_NCDR_TOKEN;
+  const expires=Number(import.meta.env.VITE_NCDR_TOKEN_EXPIRES);
+  if(!token)throw new Error('NCDR token was not injected during the build');
+  if(Number.isFinite(expires)&&expires>0&&Date.now()>=expires)throw new Error('NCDR token has expired');
+  return token;
 }
 async function updateFloodLayer(){
   const enabled=$('#flood-toggle').checked;
@@ -122,7 +121,7 @@ async function updateFloodLayer(){
   if(!enabled){status.textContent='圖層目前關閉';return;}
   status.textContent='正在載入官方淹水圖層…';
   try{
-    const token=await getFloodToken();
+    const token=getFloodToken();
     if(requestId!==floodRequestId||!$('#flood-toggle').checked)return;
     const base='https://dwgis2.ncdr.nat.gov.tw/server/services/WMS627/Flooding/MapServer/WMSServer';
     const tileUrl=`${base}?REQUEST=GetMap&SERVICE=WMS&VERSION=1.1.1&LAYERS=${scenario.layers.join(',')}&STYLES=&FORMAT=image/png&BGCOLOR=0xFFFFFF&TRANSPARENT=TRUE&SRS=EPSG:3857&WIDTH=256&HEIGHT=256&BBOX={bbox-epsg-3857}&token=${encodeURIComponent(token)}`;
