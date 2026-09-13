@@ -1,0 +1,17 @@
+{
+  "name": "greenline-housing-radar",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "data:metro": "node scripts/build-metro-cache.mjs",
+    "data:locations": "node scripts/fetch-official-locations.mjs",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "data:integrate": "node scripts/integrate-renewal.mjs"
+  },
+  "devDependencies": {
+    "vite": "^7.1.5"
+  }
+}
