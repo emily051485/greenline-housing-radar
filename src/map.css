@@ -8,9 +8,11 @@
 .map-project-marker.marker-estimated{opacity:.68!important;box-shadow:0 2px 9px rgba(20,35,29,.22)}
 .map-project-marker.marker-estimated:hover,.map-project-marker.marker-estimated:focus{opacity:.92!important}
 .station-symbol{width:11px;height:11px;border:3px solid #68736d;border-radius:50%;background:#fff;display:inline-block}
-.filter-panel,.mature-filters{grid-template-columns:repeat(6,minmax(110px,1fr)) 1.4fr}
+.filter-panel,.mature-filters{grid-template-columns:repeat(5,minmax(110px,1fr)) 1.4fr}
 @media(max-width:900px){.filter-panel,.mature-filters{grid-template-columns:1fr 1fr}}
 @media(max-width:560px){.filter-panel,.mature-filters{grid-template-columns:1fr}}
+.separate-transit-filter{display:none}
+@media(max-width:900px){.combined-transit-filter{display:none}.separate-transit-filter{display:block}}
 .popup-location-warning{display:block;margin:-2px 0 8px;padding:6px 8px;background:#fff0d3;color:#875700;font-size:11px;line-height:1.45}
 .maplibregl-popup-content{border-radius:4px;padding:14px 16px;box-shadow:0 10px 30px #0003}
 .maplibregl-ctrl-attrib{font-size:10px}

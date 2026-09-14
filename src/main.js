@@ -24,6 +24,8 @@ for(const feature of cachedMetroStations.features){
   stationLines.set(stationKey(feature.properties.name),[...new Set(lines)]);
 }
 const projectLines=project=>project.lines?.length?project.lines:(stationLines.get(stationKey(project.station))||[]);
+const transitLineLabels={R:'淡水信義線',G:'松山新店線',O:'中和新蘆線',BL:'板南線',BR:'文湖線',Y:'環狀線',A:'機場捷運',LRT:'輕軌'};
+const stationsForLine=line=>[...new Set(projects.filter(project=>project.station&&project.station!=='待定位'&&(line==='all'||projectLines(project).includes(line))).map(project=>project.station))].sort((a,b)=>a.localeCompare(b,'zh-Hant'));
 const floodScenarios={
   '6h150':{label:'6 小時降雨 150 mm',layers:[40,2,22,12]},
   '6h250':{label:'6 小時降雨 250 mm',layers:[41,3,23,13]},
@@ -301,9 +303,27 @@ function render(){
 function updateStationOptions(){
   const select=$('#station-filter');if(!select)return;
   const line=$('#line-filter')?.value||'all',current=select.value;
-  const names=[...new Set(projects.filter(project=>project.station&&project.station!=='待定位'&&(line==='all'||projectLines(project).includes(line))).map(project=>project.station))].sort((a,b)=>a.localeCompare(b,'zh-Hant'));
+  const names=stationsForLine(line);
   select.innerHTML=`<option value="all">全部車站</option>${names.map(name=>`<option value="${escapeHtml(name)}">${escapeHtml(name)}站</option>`).join('')}`;
   select.value=names.includes(current)?current:'all';
+}
+function syncTransitFilter(){
+  const select=$('#transit-filter');if(!select)return;
+  const line=$('#line-filter')?.value||'all',station=$('#station-filter')?.value||'all';
+  select.value=line==='all'?'all':station==='all'?`line:${line}`:`station:${line}:${station}`;
+  if(select.selectedIndex<0)select.value='all';
+}
+function updateTransitOptions(){
+  const select=$('#transit-filter');if(!select)return;
+  select.innerHTML='<option value="all">全部路線與車站</option>';
+  for(const [line,label] of Object.entries(transitLineLabels)){
+    const names=stationsForLine(line);if(!names.length)continue;
+    const group=document.createElement('optgroup');group.label=label;
+    const wholeLine=document.createElement('option');wholeLine.value=`line:${line}`;wholeLine.textContent=`整條${label}`;group.append(wholeLine);
+    for(const name of names){const option=document.createElement('option');option.value=`station:${line}:${name}`;option.textContent=`↳ ${name}站`;group.append(option);}
+    select.append(group);
+  }
+  syncTransitFilter();
 }
 
 const hazardKinds={fuel:'加油站',substation:'變電所',cemetery:'公墓／墓園',waste:'廢棄物設施',wastewater:'污水處理設施'};
@@ -470,12 +490,21 @@ addScopeSwitcher();
 addFloodControl();
 setupResponsiveMapPanels();
 map.on('load',()=>{addProjectAreas();showMetroLines(cachedMetroRoutes);showMetroStations();addProjectMarkers();render();loadMetroLines();setTimeout(()=>loadHazardsReliable(false),600);});
-['city-filter','status-filter','rating-filter','walk-filter','station-filter'].forEach(id=>$('#'+id)?.addEventListener('change',render));
-$('#line-filter')?.addEventListener('change',()=>{updateStationOptions();render();});
+['city-filter','status-filter','rating-filter','walk-filter'].forEach(id=>$('#'+id)?.addEventListener('change',render));
+$('#station-filter')?.addEventListener('change',()=>{syncTransitFilter();render();});
+$('#line-filter')?.addEventListener('change',()=>{updateStationOptions();syncTransitFilter();render();});
+$('#transit-filter')?.addEventListener('change',event=>{
+  const [kind,line,...stationParts]=event.target.value.split(':');
+  $('#line-filter').value=kind==='all'?'all':line;
+  updateStationOptions();
+  if(kind==='station')$('#station-filter').value=stationParts.join(':');
+  syncTransitFilter();render();
+});
 $('#search-filter').addEventListener('input',render);
 document.querySelectorAll('[data-scroll]').forEach(button=>button.addEventListener('click',()=>$('#'+button.dataset.scroll).scrollIntoView({behavior:'smooth'})));
 $('#refresh-hazards').addEventListener('click',()=>loadHazardsReliable(true));
 updateStationOptions();
+updateTransitOptions();
 const mappedWalks=projects.map(project=>project.walk).filter(Number.isFinite);
 $('#total-count').textContent=projects.length;$('#district-count').textContent=new Set(projects.map(project=>project.district)).size;$('#walk-average').textContent=mappedWalks.length?(mappedWalks.reduce((sum,walk)=>sum+walk,0)/mappedWalks.length).toFixed(1):'—';
 render();
