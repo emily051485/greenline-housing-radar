@@ -12,6 +12,19 @@ const hasGoogleMapsListing=project=>isMapped(project)&&(
   /建案官網 Google Maps 導航點|Google Maps 建案標記|Google Maps「[^」]*(?:建案|建築基地)[^」]*」標記/i.test(project.locationAccuracy||'')
 );
 const mapsUrl=project=>`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(`${project.lat},${project.lng}`)}`;
+function sourceLinksHtml(project){
+  const candidates=[project.sourceUrl&&{url:project.sourceUrl,kind:'source'},project.officialWebsiteUrl&&{url:project.officialWebsiteUrl,kind:'official'}].filter(Boolean);
+  const unique=[...new Map(candidates.map(item=>[item.url,item])).values()];
+  return unique.flatMap(item=>{
+    try{
+      const url=new URL(item.url);if(!/^https?:$/.test(url.protocol))return [];
+      const government=/(?:^|\.)(?:gov\.tw|gov\.taipei|taipei|ntpc\.gov\.tw)$/.test(url.hostname)||/data\.taipei$/.test(url.hostname);
+      const marketplace=/591\.com\.tw$/.test(url.hostname);
+      const label=item.kind==='official'?'建案／建商官網':government?'政府來源':!marketplace&&/官網/.test(project.source||'')?'建案／建商官網':'查看資料來源';
+      return [`<a class="evidence-link" href="${escapeHtml(url.href)}" target="_blank" rel="noopener">${label} ↗</a>`];
+    }catch{return [];}
+  }).join('');
+}
 const ratingRank={NR:0,C:1,B:2,A:3,S:4};
 const metroColors={BR:'#c48c31',R:'#e3002c',G:'#008659',O:'#f8b61c',BL:'#0070bd',Y:'#ffdb00',A:'#8246af',K:'#7bbf43',LB:'#78c7d2',V:'#78c7d2',LG:'#9ac43c'};
 const pageScope=document.body.dataset.scope||'green';
@@ -306,7 +319,7 @@ function render(){
   const ratingMatches=project=>rating==='all'||(rating==='NR'?project.rating==='NR':ratingRank[project.rating]>=ratingRank[rating]);
   const walkMatches=project=>maxWalk>=999||(Number.isFinite(project.walk)&&project.walk<=maxWalk);
   state.projects=projects.filter(project=>(city==='all'||project.city===city)&&(status==='all'||project.status===status)&&(line==='all'||projectLines(project).includes(line))&&(station==='all'||stationKey(project.station)===stationKey(station))&&ratingMatches(project)&&walkMatches(project)&&(!query||[project.name,project.district,project.builder,project.station].join(' ').toLowerCase().includes(query)));
-  $('#project-rows').innerHTML=state.projects.map(project=>{const transit=Number.isFinite(project.walk)?`${escapeHtml(project.station)} <b>${project.walk} 分</b>`:'<b>待定位</b>',locationLabel=project.locationStatus==='estimated'?'範圍定位':isMapped(project)?'已定位':'待定位',locationClass=project.locationStatus==='estimated'?'estimated':isMapped(project)?'located':'pending',evidence=`${escapeHtml(project.source)}${project.locationAccuracy?` · ${escapeHtml(project.locationAccuracy)}`:''}`;return `<tr data-id="${escapeHtml(project.id)}" class="${isMapped(project)?'':'unlocated-row'}"><td><strong>${escapeHtml(project.name)}</strong><small><b class="location-tag ${locationClass}">${locationLabel}</b></small></td><td>${escapeHtml(project.district)}</td><td><span class="walk">${transit}</span></td><td><span class="grade grade-${project.rating.toLowerCase()}" title="${escapeHtml(project.ratingBasis||'建商研究評等')}">${project.rating}</span>${escapeHtml(project.builder)}</td><td><span class="status status-${project.status.includes('審議')||project.status.includes('核定')?'early':project.status.includes('建照')?'permit':'sale'}">${escapeHtml(project.status)}</span></td><td>${escapeHtml(project.completion)}</td><td>${escapeHtml(project.type)}</td><td>${escapeHtml(project.size)}</td><td>${escapeHtml(project.price)}</td><td>${escapeHtml(project.address)}</td><td class="data-evidence">${evidence}</td><td>${hasGoogleMapsListing(project)?`<a class="map-link" href="${mapsUrl(project)}" target="_blank" rel="noopener" title="在 Google Maps 開啟已確認的建案標記">↗</a>`:'—'}</td></tr>`;}).join('');
+  $('#project-rows').innerHTML=state.projects.map(project=>{const transit=Number.isFinite(project.walk)?`${escapeHtml(project.station)} <b>${project.walk} 分</b>`:'<b>待定位</b>',locationLabel=project.locationStatus==='estimated'?'範圍定位':isMapped(project)?'已定位':'待定位',locationClass=project.locationStatus==='estimated'?'estimated':isMapped(project)?'located':'pending',evidence=`${escapeHtml(project.source)}${project.locationAccuracy?` · ${escapeHtml(project.locationAccuracy)}`:''}<div class="evidence-links">${sourceLinksHtml(project)}</div>`;return `<tr data-id="${escapeHtml(project.id)}" class="${isMapped(project)?'':'unlocated-row'}"><td><strong>${escapeHtml(project.name)}</strong><small><b class="location-tag ${locationClass}">${locationLabel}</b></small></td><td>${escapeHtml(project.district)}</td><td><span class="walk">${transit}</span></td><td><span class="grade grade-${project.rating.toLowerCase()}" title="${escapeHtml(project.ratingBasis||'建商研究評等')}">${project.rating}</span>${escapeHtml(project.builder)}</td><td><span class="status status-${project.status.includes('審議')||project.status.includes('核定')?'early':project.status.includes('建照')?'permit':'sale'}">${escapeHtml(project.status)}</span></td><td>${escapeHtml(project.completion)}</td><td>${escapeHtml(project.type)}</td><td>${escapeHtml(project.size)}</td><td>${escapeHtml(project.price)}</td><td>${escapeHtml(project.address)}</td><td class="data-evidence">${evidence}</td><td>${hasGoogleMapsListing(project)?`<a class="map-link" href="${mapsUrl(project)}" target="_blank" rel="noopener" title="在 Google Maps 開啟已確認的建案標記">↗</a>`:'—'}</td></tr>`;}).join('');
   $('#result-count').textContent=state.projects.length;$('#empty-state').hidden=state.projects.length>0;
   const visible=new Set(state.projects.map(project=>String(project.id)));
   state.markers.forEach((marker,id)=>marker.getElement().style.display=visible.has(id)?'grid':'none');
