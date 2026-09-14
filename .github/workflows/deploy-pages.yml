@@ -33,8 +33,10 @@ jobs:
       - name: Install dependencies
         run: npm ci
       - name: Cache NCDR flood layers
+        continue-on-error: true
         run: npm run data:flood
       - name: Cache NCDR geology layers
+        continue-on-error: true
         run: npm run data:geology
       - name: Build
         run: npm run build -- --base=/greenline-housing-radar/
