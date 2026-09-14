@@ -8,6 +8,7 @@
     "data:locations": "node scripts/fetch-official-locations.mjs",
     "data:flood": "node scripts/cache-flood-layers.mjs",
     "data:geology": "node scripts/cache-geology-layers.mjs",
+    "data:hazards": "node scripts/cache-environment-facilities.mjs",
     "data:mature": "node scripts/build-mature-projects.mjs",
     "data:mature:geocode": "node scripts/build-mature-projects.mjs --geocode",
     "dev": "vite --configLoader runner",

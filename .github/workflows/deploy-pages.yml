@@ -38,6 +38,9 @@ jobs:
       - name: Cache NCDR geology layers
         continue-on-error: true
         run: npm run data:geology
+      - name: Cache OpenStreetMap environment facilities
+        continue-on-error: true
+        run: npm run data:hazards
       - name: Build
         run: npm run build -- --base=/greenline-housing-radar/
       - name: Upload Pages artifact

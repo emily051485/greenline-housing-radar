@@ -345,7 +345,7 @@ async function loadHazards(){
   }catch(error){status.textContent='查詢失敗，稍後可再試';console.error(error);}finally{button.disabled=false;}
 }
 
-const hazardCacheKey='greenline-hazards-v4';
+const hazardCacheKey='greenline-hazards-v5';
 const overpassEndpoints=['https://maps.mail.ru/osm/tools/overpass/api/interpreter','https://overpass.private.coffee/api/interpreter','https://lz4.overpass-api.de/api/interpreter','https://overpass-api.de/api/interpreter'];
 const expandedHazardKinds={
   fuel:{label:'加油站',group:'重大環境設施',radius:500},substation:{label:'變電所',group:'重大環境設施',radius:500},powerTower:{label:'高壓電塔',group:'重大環境設施',radius:500},
@@ -441,6 +441,19 @@ async function loadHazardsReliable(force=false){
     const critical=cached.collection.features.filter(feature=>feature.properties.group==='重大環境設施').length;
     status.textContent=`已載入 ${cached.collection.features.length} 個設施（重大 ${critical}；快取 ${ageHours} 小時）`;
     if(!force&&Date.now()-cached.updatedAt<12*3600000)return;
+  }
+  if(!force){
+    try{
+      const response=await fetch(`${import.meta.env.BASE_URL}data/environment-facilities.geojson`);
+      if(!response.ok)throw new Error(`HTTP ${response.status}`);
+      const collection=await response.json();
+      setHazardData(collection);
+      const critical=collection.features.filter(feature=>feature.properties.group==='重大環境設施').length;
+      const updatedAt=Date.parse(collection.metadata?.generatedAt)||Date.now();
+      localStorage.setItem(hazardCacheKey,JSON.stringify({updatedAt,collection}));
+      status.textContent=`已載入共用快取 ${collection.features.length} 個設施（重大 ${critical}）`;
+      return;
+    }catch(error){console.warn('共用環境設施快取無法載入，改用即時查詢',error);}
   }
   if(!centers.length){status.textContent='目前沒有已定位基地';return;}
   button.disabled=true;
