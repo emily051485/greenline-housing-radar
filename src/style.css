@@ -105,3 +105,8 @@ main{display:flex;flex-direction:column}.hero{order:1}.stats-wrap{order:2}.map-s
   .projects .location-status-note{display:block;padding:10px 12px;line-height:1.6}
   .projects .location-status-note b{display:block;margin-bottom:3px}
 }
+
+@media(min-width:701px){
+  .table-scroll th:first-child,.table-scroll td:first-child{width:175px;min-width:175px;max-width:185px}
+  .table-scroll td:first-child strong{white-space:normal;overflow-wrap:anywhere;line-height:1.45}
+}
