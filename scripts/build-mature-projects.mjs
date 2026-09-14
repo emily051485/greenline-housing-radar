@@ -1,5 +1,6 @@
 import fs from 'node:fs';
 import path from 'node:path';
+import { cachedMetroStations } from '../src/generated/metro-stations.js';
 
 const root=path.resolve(import.meta.dirname,'..');
 const raw=name=>path.join(root,'data/raw',name);
@@ -26,12 +27,19 @@ const registry=[
   ...records(raw('taipei-presale-registry.csv')).map(row=>({...row,city:'台北市'})),
   ...records(raw('newtaipei-presale-registry.csv')).map(row=>({...row,city:'新北市'})),
 ].filter(row=>{
-  const year=Number(String(row['申報備查日期']).slice(0,3)),residential=/住宅|住家/.test(row['主要用途']);
+  const year=Number(String(row['申報備查日期']).slice(0,3)),residential=/住宅|住家|住商/.test(row['主要用途']);
   const completed=Number(String(row['第1次登記日期']).slice(0,3))||0;
   // 納入自預售屋全面備查制度上路後的案件；較早申報但尚未完成第一次登記者也保留。
   return (year>=110||(!year&&row['建造執照']&&row['銷售期間']))&&residential&&(!completed||completed>=113)&&row['建案名稱']&&row['坐落街道'];
 });
-const exits=records(raw('taipei-metro-exits.csv'),'big5').map(row=>({station:row['出入口名稱'].replace(/站?出(?:入)?口.*$/,''),lng:Number(row['經度']),lat:Number(row['緯度'])})).filter(exit=>Number.isFinite(exit.lat)&&Number.isFinite(exit.lng));
+const stationKey=value=>String(value||'').replace(/臺/g,'台').replace(/站$/,'');
+const metroStations=cachedMetroStations.features.map(feature=>{
+  const ref=String(feature.properties.ref||''),rawLines=ref.split(';').map(value=>value.match(/^[A-Z]+/)?.[0]).filter(Boolean),lines=[...new Set(rawLines.flatMap(line=>/^(V|K|LB|LG)$/.test(line)?[line,'LRT']:[line]))];
+  return {station:feature.properties.name,lng:feature.geometry.coordinates[0],lat:feature.geometry.coordinates[1],lines};
+});
+const stationLinesByName=new Map(metroStations.map(station=>[stationKey(station.station),station.lines]));
+const exits=records(raw('taipei-metro-exits.csv'),'big5').map(row=>{const station=row['出入口名稱'].replace(/站?出(?:入)?口.*$/,'');return {station,lng:Number(row['經度']),lat:Number(row['緯度']),lines:stationLinesByName.get(stationKey(station))||[]};}).filter(exit=>Number.isFinite(exit.lat)&&Number.isFinite(exit.lng));
+const transitPoints=[...exits,...metroStations];
 
 // EPSG:3826 (TWD97 / TM2 zone 121) inverse Transverse Mercator.
 function twd97ToWgs84(east,north){
@@ -131,7 +139,7 @@ function locate(row){
 
 const radians=value=>value*Math.PI/180;
 function distanceMeters(a,b){const dLat=radians(b.lat-a.lat),dLng=radians(b.lng-a.lng),value=Math.sin(dLat/2)**2+Math.cos(radians(a.lat))*Math.cos(radians(b.lat))*Math.sin(dLng/2)**2;return 6371000*2*Math.atan2(Math.sqrt(value),Math.sqrt(1-value));}
-function nearestExit(point){let nearest=null;for(const exit of exits){const distance=distanceMeters(point,exit);if(!nearest||distance<nearest.distance)nearest={...exit,distance};}return nearest;}
+function nearestExit(point){let nearest=null;for(const exit of transitPoints){const distance=distanceMeters(point,exit);if(!nearest||distance<nearest.distance)nearest={...exit,distance};}return nearest;}
 function builderInfo(value=''){
   const clean=value.replace(/股份有限公司.*/,'股份有限公司').replace(/有限公司.*/,'有限公司').trim();
   const rules=[['S',/華固|潤泰/],['A',/國揚|國泰建設|大陸建設|富邦建設|忠泰|長虹|宏盛|冠德|皇翔|遠雄|璞園|亞昕|昇陽|宏普/],['B',/興富發|達麗|茂德|甲山林|愛山林|漢皇|將捷|麗寶|寶佳|合環|敦年|馥華|新碩/]];
@@ -159,10 +167,10 @@ for(const row of registry){
     status:completed?'近期完工':price.transactionCount?'預售中':'預售備查',completion:completed?`第一次登記 ${completed}`:'依官方備查時程',type:'預售屋',size:price.size,price:price.price,lat:mapped?point.lat:null,lng:mapped?point.lng:null,
     source:`內政部預售屋備查${mapped?`＋${point.googleMapsListing?'建案官網基地導航':'官方門牌座標'}`:''}${price.transactionCount?`＋實價登錄 ${price.transactionCount} 筆`:''}`,sourceUrl:point?.googleMapsListing?'https://www.townic.com.tw/baoyu/location':'https://data.gov.tw/dataset/176351',verified:mapped&&!point?.estimated,locationStatus:mapped?(point.estimated?'estimated':'verified'):'unlocated',googleMapsListing:point?.googleMapsListing===true,
     locationAccuracy:mapped?`${point.mode}；官方門牌座標至 ${nearest.station} 最近出口直線約 ${Math.round(nearest.distance)} 公尺，步行時間為保守估算`:'尚無可可靠配對的正式門牌或路口；案件保留於表格，暫不顯示地圖標記',governmentId:row['建造執照']||row['編號'],governmentStatus:`申報備查 ${row['申報備查日期']}`,
-    permit:row['建造執照'],households:row['層棟戶數'],buildingLand:row['坐落基地'],
+    permit:row['建造執照'],households:row['層棟戶數'],buildingLand:row['坐落基地'],lines:nearest?.lines||[],
   });
 }
-const unique=[...new Map(projects.map(project=>[`${project.city}|${normalize(project.name)}|${normalize(project.address)}`,project])).values()];
+const unique=[...new Map(projects.map(project=>[`${project.city}|${canonicalName(project.name)}|${normalize(project.address)}`,project])).values()];
 unique.sort((a,b)=>a.city.localeCompare(b.city,'zh-Hant')||a.district.localeCompare(b.district,'zh-Hant')||a.name.localeCompare(b.name,'zh-Hant'));
 fs.mkdirSync(path.dirname(output),{recursive:true});fs.writeFileSync(output,`// 由 scripts/build-mature-projects.mjs 產生；請勿直接編輯。\nexport const matureRegistryProjects = ${JSON.stringify(unique,null,2)};\n`);
 console.log(`Registry candidates: ${registry.length}; official address points: ${addressPoints.length}; published: ${unique.length}; mapped: ${unique.filter(project=>project.locationStatus!=='unlocated').length}; awaiting location: ${unique.filter(project=>project.locationStatus==='unlocated').length}`);

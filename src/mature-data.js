@@ -25,5 +25,5 @@ export const matureProjects=[
   ...verifiedExisting,
   ...matureRegistryProjects
     .filter(project=>!existingNames.has(project.name.replace(/[・。\s]/g,'')))
-    .map(project=>({...project,lines:stationLines[project.station]||[]})),
+    .map(project=>({...project,lines:project.lines?.length?project.lines:(stationLines[project.station]||[])})),
 ];

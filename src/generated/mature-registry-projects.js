@@ -28,7 +28,43 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1131021",
     "permit": "113建字第0212號",
     "households": "40",
-    "buildingLand": "三玉段五小段699地號"
+    "buildingLand": "三玉段五小段699地號",
+    "lines": [
+      "R"
+    ]
+  },
+  {
+    "id": "registry-台北市-士林區-士林竣",
+    "name": "士林竣",
+    "city": "台北市",
+    "district": "士林區",
+    "station": "劍潭",
+    "walk": 5,
+    "address": "台北市士林區文林路404巷13號",
+    "builder": "備查起造人：騰竣建設有限公司",
+    "rating": "C",
+    "ratingBasis": "官方備查起造人可辨識為建設／開發公司；暫列 C，待更多履歷資料再調整",
+    "status": "近期完工",
+    "completion": "第一次登記 1140922",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": 25.087516941153854,
+    "lng": 121.52555472389919,
+    "source": "內政部預售屋備查＋官方門牌座標",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": true,
+    "locationStatus": "verified",
+    "googleMapsListing": false,
+    "locationAccuracy": "政府備查門牌配對；官方門牌座標至 劍潭 最近出口直線約 279 公尺，步行時間為保守估算",
+    "governmentId": "109建字第93號",
+    "governmentStatus": "申報備查 1120105",
+    "permit": "109建字第93號",
+    "households": "20",
+    "buildingLand": "光華段一小段538地號",
+    "lines": [
+      "R"
+    ]
   },
   {
     "id": "registry-台北市-士林區-大將天母",
@@ -58,7 +94,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1130510",
     "permit": "",
     "households": "56",
-    "buildingLand": ""
+    "buildingLand": "",
+    "lines": []
   },
   {
     "id": "registry-台北市-士林區-山隱曼曼",
@@ -83,12 +120,15 @@ export const matureRegistryProjects = [
     "verified": true,
     "locationStatus": "verified",
     "googleMapsListing": false,
-    "locationAccuracy": "政府備查門牌配對；官方門牌座標至 士林 最近出口直線約 165 公尺，步行時間為保守估算",
+    "locationAccuracy": "政府備查門牌配對；官方門牌座標至 士林 最近出口直線約 161 公尺，步行時間為保守估算",
     "governmentId": "110建字第0152號",
     "governmentStatus": "申報備查 1100708",
     "permit": "110建字第0152號",
     "households": "19",
-    "buildingLand": "光華段一小段193地號"
+    "buildingLand": "光華段一小段193地號",
+    "lines": [
+      "R"
+    ]
   },
   {
     "id": "registry-台北市-士林區-中山北美",
@@ -118,7 +158,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1120728",
     "permit": "111建字第0241號",
     "households": "37",
-    "buildingLand": "福林段三小段435地號"
+    "buildingLand": "福林段三小段435地號",
+    "lines": [
+      "R"
+    ]
   },
   {
     "id": "registry-台北市-士林區-天母上苑",
@@ -148,7 +191,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1110708",
     "permit": "110建字第0127號",
     "households": "27",
-    "buildingLand": "天母段四小段469地號"
+    "buildingLand": "天母段四小段469地號",
+    "lines": [
+      "R"
+    ]
   },
   {
     "id": "registry-台北市-士林區-天母品川A棟",
@@ -178,7 +224,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1131208",
     "permit": "112建字第0059號",
     "households": "12",
-    "buildingLand": "蘭雅段一小段552地號"
+    "buildingLand": "蘭雅段一小段552地號",
+    "lines": [
+      "R"
+    ]
   },
   {
     "id": "registry-台北市-士林區-天母品川B棟",
@@ -208,7 +257,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1131222",
     "permit": "112建字第0278號",
     "households": "18",
-    "buildingLand": "蘭雅段一小段530地號"
+    "buildingLand": "蘭雅段一小段530地號",
+    "lines": [
+      "R"
+    ]
   },
   {
     "id": "registry-台北市-士林區-天母桓琚",
@@ -238,7 +290,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1100824",
     "permit": "110建字第0083號",
     "households": "34",
-    "buildingLand": "天山段二小段114地號"
+    "buildingLand": "天山段二小段114地號",
+    "lines": [
+      "R"
+    ]
   },
   {
     "id": "registry-台北市-士林區-天畝",
@@ -268,7 +323,105 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1110302",
     "permit": "109建字第0287號",
     "households": "19",
-    "buildingLand": "天山段一小段292地號"
+    "buildingLand": "天山段一小段292地號",
+    "lines": [
+      "R"
+    ]
+  },
+  {
+    "id": "registry-台北市-士林區-文心天母",
+    "name": "文心天母",
+    "city": "台北市",
+    "district": "士林區",
+    "station": "待定位",
+    "walk": null,
+    "address": "台北市士林區蘭雅里中山北路六段",
+    "builder": "備查起造人：文心建設股份有限公司",
+    "rating": "C",
+    "ratingBasis": "官方備查起造人可辨識為建設／開發公司；暫列 C，待更多履歷資料再調整",
+    "status": "預售備查",
+    "completion": "依官方備查時程",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": null,
+    "lng": null,
+    "source": "內政部預售屋備查",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": false,
+    "locationStatus": "unlocated",
+    "googleMapsListing": false,
+    "locationAccuracy": "尚無可可靠配對的正式門牌或路口；案件保留於表格，暫不顯示地圖標記",
+    "governmentId": "115建字第0002號",
+    "governmentStatus": "申報備查 1150304",
+    "permit": "115建字第0002號",
+    "households": "93",
+    "buildingLand": "三玉段四小段449地號",
+    "lines": []
+  },
+  {
+    "id": "registry-台北市-士林區-文林君閱",
+    "name": "文林君閱",
+    "city": "台北市",
+    "district": "士林區",
+    "station": "士林",
+    "walk": 8,
+    "address": "台北市士林區福佳里美崙街11號共12筆",
+    "builder": "備查起造人：藤霖國際開發股份有限公司",
+    "rating": "C",
+    "ratingBasis": "官方備查起造人可辨識為建設／開發公司；暫列 C，待更多履歷資料再調整",
+    "status": "預售備查",
+    "completion": "依官方備查時程",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": 25.09762906044902,
+    "lng": 121.5233803840555,
+    "source": "內政部預售屋備查＋官方門牌座標",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": true,
+    "locationStatus": "verified",
+    "googleMapsListing": false,
+    "locationAccuracy": "政府備查門牌配對；官方門牌座標至 士林 最近出口直線約 470 公尺，步行時間為保守估算",
+    "governmentId": "112建字第0141號",
+    "governmentStatus": "申報備查 1130311",
+    "permit": "112建字第0141號",
+    "households": "83",
+    "buildingLand": "陽明段三小段379-6地號",
+    "lines": [
+      "R"
+    ]
+  },
+  {
+    "id": "registry-台北市-士林區-甘霖僑琚",
+    "name": "甘霖僑琚",
+    "city": "台北市",
+    "district": "士林區",
+    "station": "待定位",
+    "walk": null,
+    "address": "台北市士林區中山北路7段14巷26號1樓共8筆",
+    "builder": "備查起造人：甘霖建設股份有限公司",
+    "rating": "C",
+    "ratingBasis": "官方備查起造人可辨識為建設／開發公司；暫列 C，待更多履歷資料再調整",
+    "status": "預售備查",
+    "completion": "依官方備查時程",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": null,
+    "lng": null,
+    "source": "內政部預售屋備查",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": false,
+    "locationStatus": "unlocated",
+    "googleMapsListing": false,
+    "locationAccuracy": "尚無可可靠配對的正式門牌或路口；案件保留於表格，暫不顯示地圖標記",
+    "governmentId": "114建字第0053號",
+    "governmentStatus": "申報備查 1140331",
+    "permit": "114建字第0053號",
+    "households": "21",
+    "buildingLand": "天山段二小段278地號",
+    "lines": []
   },
   {
     "id": "registry-台北市-士林區-禾碩芝山綻",
@@ -298,7 +451,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1120727",
     "permit": "112建字第0081號",
     "households": "73",
-    "buildingLand": "蘭雅段三小段311地號"
+    "buildingLand": "蘭雅段三小段311地號",
+    "lines": []
   },
   {
     "id": "registry-台北市-士林區-仰德至善-A",
@@ -328,7 +482,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1150205",
     "permit": "114建字第0131號",
     "households": "23",
-    "buildingLand": "至善段五小段402地號"
+    "buildingLand": "至善段五小段402地號",
+    "lines": []
   },
   {
     "id": "registry-台北市-士林區-仰德至善-B",
@@ -353,12 +508,15 @@ export const matureRegistryProjects = [
     "verified": true,
     "locationStatus": "verified",
     "googleMapsListing": false,
-    "locationAccuracy": "政府備查門牌配對；官方門牌座標至 士林 最近出口直線約 1578 公尺，步行時間為保守估算",
+    "locationAccuracy": "政府備查門牌配對；官方門牌座標至 士林 最近出口直線約 1574 公尺，步行時間為保守估算",
     "governmentId": "114建字第0187號",
     "governmentStatus": "申報備查 1150205",
     "permit": "114建字第0187號",
     "households": "32",
-    "buildingLand": "至善段五小段405地號"
+    "buildingLand": "至善段五小段405地號",
+    "lines": [
+      "R"
+    ]
   },
   {
     "id": "registry-台北市-士林區-合矩青澄",
@@ -388,7 +546,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1130205",
     "permit": "112建字第0289號",
     "households": "60",
-    "buildingLand": "海光段二小段561地號"
+    "buildingLand": "海光段二小段561地號",
+    "lines": [
+      "R"
+    ]
   },
   {
     "id": "registry-台北市-士林區-有川翩翩",
@@ -418,7 +579,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1110412",
     "permit": "110建字第0273號",
     "households": "43",
-    "buildingLand": "陽明段一小段759-2地號"
+    "buildingLand": "陽明段一小段759-2地號",
+    "lines": []
   },
   {
     "id": "registry-台北市-士林區-宏築天?",
@@ -448,7 +610,72 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1110301",
     "permit": "111建字第0056號",
     "households": "38",
-    "buildingLand": "天母段二小段66地號"
+    "buildingLand": "天母段二小段66地號",
+    "lines": []
+  },
+  {
+    "id": "registry-台北市-士林區-昇陽芙林",
+    "name": "昇陽芙林",
+    "city": "台北市",
+    "district": "士林區",
+    "station": "待定位",
+    "walk": null,
+    "address": "台北市士林區福志里福林路253號",
+    "builder": "備查起造人：昇陽建設企業股份有限公司",
+    "rating": "A",
+    "ratingBasis": "依已確認建商品牌套用本站評級",
+    "status": "預售備查",
+    "completion": "依官方備查時程",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": null,
+    "lng": null,
+    "source": "內政部預售屋備查",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": false,
+    "locationStatus": "unlocated",
+    "googleMapsListing": false,
+    "locationAccuracy": "尚無可可靠配對的正式門牌或路口；案件保留於表格，暫不顯示地圖標記",
+    "governmentId": "112建字第0187號",
+    "governmentStatus": "申報備查 1140521",
+    "permit": "112建字第0187號",
+    "households": "148",
+    "buildingLand": "福林段一小段227地號",
+    "lines": []
+  },
+  {
+    "id": "registry-台北市-士林區-昇陽醴居",
+    "name": "昇陽醴居",
+    "city": "台北市",
+    "district": "士林區",
+    "station": "芝山",
+    "walk": 9,
+    "address": "台北市士林區德行東路283巷3弄9號1樓等145戶",
+    "builder": "備查起造人：昇陽建設企業股份有限公司",
+    "rating": "A",
+    "ratingBasis": "依已確認建商品牌套用本站評級",
+    "status": "預售備查",
+    "completion": "依官方備查時程",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": 25.10656102750209,
+    "lng": 121.52696808171324,
+    "source": "內政部預售屋備查＋官方門牌座標",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": true,
+    "locationStatus": "verified",
+    "googleMapsListing": false,
+    "locationAccuracy": "政府備查門牌配對；官方門牌座標至 芝山 最近出口直線約 556 公尺，步行時間為保守估算",
+    "governmentId": "112建字第0241號",
+    "governmentStatus": "申報備查 1150213",
+    "permit": "112建字第0241號",
+    "households": "246",
+    "buildingLand": "芝蘭段一小段480地號",
+    "lines": [
+      "R"
+    ]
   },
   {
     "id": "registry-台北市-士林區-東村渥雲",
@@ -478,7 +705,72 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1110530",
     "permit": "111建字第0155號",
     "households": "34",
-    "buildingLand": "福林段三小段311地號"
+    "buildingLand": "福林段三小段311地號",
+    "lines": []
+  },
+  {
+    "id": "registry-台北市-士林區-炎洲隱玉",
+    "name": "炎洲隱玉",
+    "city": "台北市",
+    "district": "士林區",
+    "station": "待定位",
+    "walk": null,
+    "address": "台北市士林區承德路四段",
+    "builder": "備查起造人：炎洲股份有限公司",
+    "rating": "NR",
+    "ratingBasis": "官方備查有起造人，但可能是建經公司、金融機構或自然人，尚未可靠對應建商品牌",
+    "status": "預售備查",
+    "completion": "依官方備查時程",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": null,
+    "lng": null,
+    "source": "內政部預售屋備查",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": false,
+    "locationStatus": "unlocated",
+    "googleMapsListing": false,
+    "locationAccuracy": "尚無可可靠配對的正式門牌或路口；案件保留於表格，暫不顯示地圖標記",
+    "governmentId": "113建字第0122號",
+    "governmentStatus": "申報備查 1130917",
+    "permit": "113建字第0122號",
+    "households": "58",
+    "buildingLand": "百齡段一小段169地號",
+    "lines": []
+  },
+  {
+    "id": "registry-台北市-士林區-青隅",
+    "name": "青隅",
+    "city": "台北市",
+    "district": "士林區",
+    "station": "劍潭",
+    "walk": 10,
+    "address": "台北市士林區承德路四段2巷",
+    "builder": "備查起造人：僑馥建築經理股份有限公司",
+    "rating": "NR",
+    "ratingBasis": "官方備查有起造人，但可能是建經公司、金融機構或自然人，尚未可靠對應建商品牌",
+    "status": "近期完工",
+    "completion": "第一次登記 1150324",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": 25.078986378489546,
+    "lng": 121.52089910838728,
+    "source": "內政部預售屋備查＋官方門牌座標",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": false,
+    "locationStatus": "estimated",
+    "googleMapsListing": false,
+    "locationAccuracy": "政府備查巷弄範圍定位（4 個官方門牌範圍）；官方門牌座標至 劍潭 最近出口直線約 615 公尺，步行時間為保守估算",
+    "governmentId": "109建字第0190號",
+    "governmentStatus": "申報備查 1110803",
+    "permit": "109建字第0190號",
+    "households": "12",
+    "buildingLand": "百齡段六小段191地號",
+    "lines": [
+      "R"
+    ]
   },
   {
     "id": "registry-台北市-士林區-恆合芝山",
@@ -508,7 +800,41 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1110530",
     "permit": "111建字第0137號",
     "households": "30",
-    "buildingLand": "蘭雅段三小段361地號"
+    "buildingLand": "蘭雅段三小段361地號",
+    "lines": []
+  },
+  {
+    "id": "registry-台北市-士林區-原禾賦",
+    "name": "原禾賦",
+    "city": "台北市",
+    "district": "士林區",
+    "station": "芝山",
+    "walk": 27,
+    "address": "台北市士林區德行東路335號",
+    "builder": "備查起造人：台灣新光商業銀行股份有限公司",
+    "rating": "NR",
+    "ratingBasis": "官方備查有起造人，但可能是建經公司、金融機構或自然人，尚未可靠對應建商品牌",
+    "status": "近期完工",
+    "completion": "第一次登記 1150806",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": 25.110443899410306,
+    "lng": 121.53771291736217,
+    "source": "內政部預售屋備查＋官方門牌座標",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": true,
+    "locationStatus": "verified",
+    "googleMapsListing": false,
+    "locationAccuracy": "政府備查門牌配對；官方門牌座標至 芝山 最近出口直線約 1714 公尺，步行時間為保守估算",
+    "governmentId": "108建字第0100號",
+    "governmentStatus": "申報備查 1100705",
+    "permit": "108建字第0100號",
+    "households": "27",
+    "buildingLand": "芝蘭段一小段320地號",
+    "lines": [
+      "R"
+    ]
   },
   {
     "id": "registry-台北市-士林區-展宜常閑",
@@ -538,7 +864,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1120807",
     "permit": "112建字第0167號",
     "households": "28",
-    "buildingLand": "蘭雅段一小段345地號"
+    "buildingLand": "蘭雅段一小段345地號",
+    "lines": [
+      "R"
+    ]
   },
   {
     "id": "registry-台北市-士林區-紘石仰格",
@@ -568,7 +897,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1110119",
     "permit": "107建字第0193號",
     "households": "62",
-    "buildingLand": "陽明段一小段19地號"
+    "buildingLand": "陽明段一小段19地號",
+    "lines": []
   },
   {
     "id": "registry-台北市-士林區-耕心冉冉",
@@ -593,12 +923,46 @@ export const matureRegistryProjects = [
     "verified": false,
     "locationStatus": "estimated",
     "googleMapsListing": false,
-    "locationAccuracy": "政府備查巷弄範圍定位（218 個官方門牌範圍）；官方門牌座標至 石牌 最近出口直線約 2422 公尺，步行時間為保守估算",
+    "locationAccuracy": "政府備查巷弄範圍定位（218 個官方門牌範圍）；官方門牌座標至 石牌 最近出口直線約 2420 公尺，步行時間為保守估算",
     "governmentId": "112建字第0191號",
     "governmentStatus": "申報備查 1130315",
     "permit": "112建字第0191號",
     "households": "24",
-    "buildingLand": "天山段一小段59-1地號"
+    "buildingLand": "天山段一小段59-1地號",
+    "lines": [
+      "R"
+    ]
+  },
+  {
+    "id": "registry-台北市-士林區-圓山富璟",
+    "name": "圓山富璟",
+    "city": "台北市",
+    "district": "士林區",
+    "station": "待定位",
+    "walk": null,
+    "address": "台北市士林區福中里福港街",
+    "builder": "備查起造人：富璟建設股份有限公司",
+    "rating": "C",
+    "ratingBasis": "官方備查起造人可辨識為建設／開發公司；暫列 C，待更多履歷資料再調整",
+    "status": "預售備查",
+    "completion": "依官方備查時程",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": null,
+    "lng": null,
+    "source": "內政部預售屋備查",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": false,
+    "locationStatus": "unlocated",
+    "googleMapsListing": false,
+    "locationAccuracy": "尚無可可靠配對的正式門牌或路口；案件保留於表格，暫不顯示地圖標記",
+    "governmentId": "111建字第0317號",
+    "governmentStatus": "申報備查 1111116",
+    "permit": "111建字第0317號",
+    "households": "92",
+    "buildingLand": "百齡段三小段383-1地號",
+    "lines": []
   },
   {
     "id": "registry-台北市-士林區-溪泊林",
@@ -628,7 +992,41 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1130703",
     "permit": "113建字第0080號",
     "households": "71",
-    "buildingLand": "福林段一小段97地號"
+    "buildingLand": "福林段一小段97地號",
+    "lines": []
+  },
+  {
+    "id": "registry-台北市-士林區-義華N°1",
+    "name": "義華N°1",
+    "city": "台北市",
+    "district": "士林區",
+    "station": "士林",
+    "walk": 4,
+    "address": "台北市士林區舊佳里文林路464號共4筆",
+    "builder": "備查起造人：義華建設開發有限公司",
+    "rating": "C",
+    "ratingBasis": "官方備查起造人可辨識為建設／開發公司；暫列 C，待更多履歷資料再調整",
+    "status": "預售備查",
+    "completion": "依官方備查時程",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": 25.095739819008053,
+    "lng": 121.52453222800875,
+    "source": "內政部預售屋備查＋官方門牌座標",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": true,
+    "locationStatus": "verified",
+    "googleMapsListing": false,
+    "locationAccuracy": "政府備查門牌配對；官方門牌座標至 士林 最近出口直線約 232 公尺，步行時間為保守估算",
+    "governmentId": "115建字第0092號",
+    "governmentStatus": "申報備查 1150724",
+    "permit": "115建字第0092號",
+    "households": "43",
+    "buildingLand": "陽明段二小段524地號",
+    "lines": [
+      "R"
+    ]
   },
   {
     "id": "registry-台北市-士林區-漢皇韶光",
@@ -658,7 +1056,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1141016",
     "permit": "0049",
     "households": "162",
-    "buildingLand": "海光段一小段248地號"
+    "buildingLand": "海光段一小段248地號",
+    "lines": [
+      "R"
+    ]
   },
   {
     "id": "registry-台北市-士林區-碩樺Artist",
@@ -688,7 +1089,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1110817",
     "permit": "111建字第0222號",
     "households": "46",
-    "buildingLand": "福林段三小段456地號"
+    "buildingLand": "福林段三小段456地號",
+    "lines": []
   },
   {
     "id": "registry-台北市-士林區-綠野心?",
@@ -718,7 +1120,74 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1130829",
     "permit": "108建字第0095號",
     "households": "6",
-    "buildingLand": "芝蘭段一小段94地號"
+    "buildingLand": "芝蘭段一小段94地號",
+    "lines": []
+  },
+  {
+    "id": "registry-台北市-士林區-蒔嶼",
+    "name": "蒔嶼",
+    "city": "台北市",
+    "district": "士林區",
+    "station": "劍潭",
+    "walk": 24,
+    "address": "台北市士林區舊佳里中正路212巷8弄2號1樓 共9筆",
+    "builder": "備查起造人：圜寬生活開發股份有限公司",
+    "rating": "C",
+    "ratingBasis": "官方備查起造人可辨識為建設／開發公司；暫列 C，待更多履歷資料再調整",
+    "status": "預售備查",
+    "completion": "依官方備查時程",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": 25.087318445861104,
+    "lng": 121.51005873888066,
+    "source": "內政部預售屋備查＋官方門牌座標",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": true,
+    "locationStatus": "verified",
+    "googleMapsListing": false,
+    "locationAccuracy": "政府備查門牌配對；官方門牌座標至 劍潭 最近出口直線約 1538 公尺，步行時間為保守估算",
+    "governmentId": "111建字第0342號",
+    "governmentStatus": "申報備查 1131004",
+    "permit": "111建字第0342號",
+    "households": "58",
+    "buildingLand": "陽明段二小段224地號",
+    "lines": [
+      "R"
+    ]
+  },
+  {
+    "id": "registry-台北市-士林區-廣宇大涵",
+    "name": "廣宇大涵",
+    "city": "台北市",
+    "district": "士林區",
+    "station": "劍潭",
+    "walk": 24,
+    "address": "台北市士林區舊佳里中正路212巷3弄2號1樓共24筆",
+    "builder": "備查起造人：廣宇建設實業股份有限公司",
+    "rating": "C",
+    "ratingBasis": "官方備查起造人可辨識為建設／開發公司；暫列 C，待更多履歷資料再調整",
+    "status": "預售備查",
+    "completion": "依官方備查時程",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": 25.087318445861104,
+    "lng": 121.51005873888066,
+    "source": "內政部預售屋備查＋官方門牌座標",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": true,
+    "locationStatus": "verified",
+    "googleMapsListing": false,
+    "locationAccuracy": "政府備查門牌配對；官方門牌座標至 劍潭 最近出口直線約 1538 公尺，步行時間為保守估算",
+    "governmentId": "113建字第0218號",
+    "governmentStatus": "申報備查 1131107",
+    "permit": "113建字第0218號",
+    "households": "65",
+    "buildingLand": "陽明段二小段291地號",
+    "lines": [
+      "R"
+    ]
   },
   {
     "id": "registry-台北市-士林區-德林哲里",
@@ -748,7 +1217,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1120307",
     "permit": "112建字第0041號",
     "households": "58",
-    "buildingLand": "永平段二小段203地號"
+    "buildingLand": "永平段二小段203地號",
+    "lines": []
   },
   {
     "id": "registry-台北市-士林區-慕溪",
@@ -773,12 +1243,46 @@ export const matureRegistryProjects = [
     "verified": true,
     "locationStatus": "verified",
     "googleMapsListing": false,
-    "locationAccuracy": "政府備查門牌配對；官方門牌座標至 石牌 最近出口直線約 1299 公尺，步行時間為保守估算",
+    "locationAccuracy": "政府備查門牌配對；官方門牌座標至 石牌 最近出口直線約 1297 公尺，步行時間為保守估算",
     "governmentId": "114建字第0065號",
     "governmentStatus": "申報備查 1140624",
     "permit": "114建字第0065號",
     "households": "25",
-    "buildingLand": "天母段三小段42地號"
+    "buildingLand": "天母段三小段42地號",
+    "lines": [
+      "R"
+    ]
+  },
+  {
+    "id": "registry-台北市-士林區-樂行館",
+    "name": "樂行館",
+    "city": "台北市",
+    "district": "士林區",
+    "station": "待定位",
+    "walk": null,
+    "address": "台北市士林區永倫里永平街臨85號",
+    "builder": "備查起造人：三樂建設股份有限公司",
+    "rating": "C",
+    "ratingBasis": "官方備查起造人可辨識為建設／開發公司；暫列 C，待更多履歷資料再調整",
+    "status": "預售備查",
+    "completion": "依官方備查時程",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": null,
+    "lng": null,
+    "source": "內政部預售屋備查",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": false,
+    "locationStatus": "unlocated",
+    "googleMapsListing": false,
+    "locationAccuracy": "尚無可可靠配對的正式門牌或路口；案件保留於表格，暫不顯示地圖標記",
+    "governmentId": "110建字第0247號",
+    "governmentStatus": "申報備查 1101014",
+    "permit": "110建字第0247號",
+    "households": "104",
+    "buildingLand": "永平段三小段2-2地號",
+    "lines": []
   },
   {
     "id": "registry-台北市-士林區-璞知溪",
@@ -808,7 +1312,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1100929",
     "permit": "110建字第0223號",
     "households": "40",
-    "buildingLand": "天母段一小段230地號"
+    "buildingLand": "天母段一小段230地號",
+    "lines": [
+      "R"
+    ]
   },
   {
     "id": "registry-台北市-士林區-璞真上善",
@@ -838,7 +1345,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1121204",
     "permit": "112建字第0268號",
     "households": "70",
-    "buildingLand": "福林段二小段14-1地號"
+    "buildingLand": "福林段二小段14-1地號",
+    "lines": []
   },
   {
     "id": "registry-台北市-士林區-璞詠川",
@@ -868,7 +1376,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1101109",
     "permit": "110建字第0259號",
     "households": "27",
-    "buildingLand": "百齡段六小段318地號"
+    "buildingLand": "百齡段六小段318地號",
+    "lines": []
   },
   {
     "id": "registry-台北市-士林區-璞園泊隱",
@@ -898,7 +1407,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1110908",
     "permit": "111建字第0246號",
     "households": "32",
-    "buildingLand": "芝蘭段四小段159地號"
+    "buildingLand": "芝蘭段四小段159地號",
+    "lines": [
+      "R"
+    ]
   },
   {
     "id": "registry-台北市-士林區-璞園知山",
@@ -928,7 +1440,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1120220",
     "permit": "109建字第0103號",
     "households": "17",
-    "buildingLand": "福林段三小段140地號"
+    "buildingLand": "福林段三小段140地號",
+    "lines": [
+      "R"
+    ]
   },
   {
     "id": "registry-台北市-士林區-築觀",
@@ -958,7 +1473,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1110720",
     "permit": "110建字第0171號",
     "households": "95",
-    "buildingLand": "陽明段二小段23地號"
+    "buildingLand": "陽明段二小段23地號",
+    "lines": []
   },
   {
     "id": "registry-台北市-士林區-錸德文璞",
@@ -988,7 +1504,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1140307",
     "permit": "113年建字第0120號",
     "households": "45",
-    "buildingLand": "蘭雅段三小段359地號"
+    "buildingLand": "蘭雅段三小段359地號",
+    "lines": []
   },
   {
     "id": "registry-台北市-士林區-總盛擁翠",
@@ -1018,7 +1535,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1111019",
     "permit": "111建字第0111號",
     "households": "13",
-    "buildingLand": "蘭雅段一小段489地號"
+    "buildingLand": "蘭雅段一小段489地號",
+    "lines": [
+      "R"
+    ]
   },
   {
     "id": "registry-台北市-士林區-曜峰景",
@@ -1048,7 +1568,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1131104",
     "permit": "112建字第0120號",
     "households": "17",
-    "buildingLand": "芝山段一小段743地號"
+    "buildingLand": "芝山段一小段743地號",
+    "lines": [
+      "R"
+    ]
   },
   {
     "id": "registry-台北市-士林區-藏樂",
@@ -1078,7 +1601,41 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1131004",
     "permit": "113建字第0105號",
     "households": "27",
-    "buildingLand": "永平段三小段2地號"
+    "buildingLand": "永平段三小段2地號",
+    "lines": []
+  },
+  {
+    "id": "registry-台北市-士林區-豐萃",
+    "name": "豐萃",
+    "city": "台北市",
+    "district": "士林區",
+    "station": "劍潭",
+    "walk": 5,
+    "address": "台北市士林區承德路四段58巷31弄10號二樓共90筆",
+    "builder": "備查起造人：聖得福建設開發股份有限公司",
+    "rating": "C",
+    "ratingBasis": "官方備查起造人可辨識為建設／開發公司；暫列 C，待更多履歷資料再調整",
+    "status": "預售備查",
+    "completion": "依官方備查時程",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": 25.08238142181039,
+    "lng": 121.5219123202683,
+    "source": "內政部預售屋備查＋官方門牌座標",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": true,
+    "locationStatus": "verified",
+    "googleMapsListing": false,
+    "locationAccuracy": "政府備查門牌配對；官方門牌座標至 劍潭 最近出口直線約 303 公尺，步行時間為保守估算",
+    "governmentId": "113建字第0888號",
+    "governmentStatus": "申報備查 1131120",
+    "permit": "113建字第0888號",
+    "households": "174",
+    "buildingLand": "百齡段五小段543地號",
+    "lines": [
+      "R"
+    ]
   },
   {
     "id": "registry-台北市-士林區-璽琚",
@@ -1108,7 +1665,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1121023",
     "permit": "110建字第0175號",
     "households": "29",
-    "buildingLand": "三玉段五小段452地號"
+    "buildingLand": "三玉段五小段452地號",
+    "lines": [
+      "R"
+    ]
   },
   {
     "id": "registry-台北市-士林區-蘭雅琚-雅集",
@@ -1138,7 +1698,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1120509",
     "permit": "112建字0049地號",
     "households": "5",
-    "buildingLand": "三玉段四小段126地號"
+    "buildingLand": "三玉段四小段126地號",
+    "lines": []
   },
   {
     "id": "registry-台北市-士林區-蘭雅琚-蘭庭",
@@ -1168,7 +1729,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1111230",
     "permit": "111建字第0336號",
     "households": "12",
-    "buildingLand": "三玉段四小段130-2地號"
+    "buildingLand": "三玉段四小段130-2地號",
+    "lines": []
   },
   {
     "id": "registry-台北市-大同區-力銘?埕",
@@ -1198,7 +1760,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1150727",
     "permit": "115建字第0045號",
     "households": "72",
-    "buildingLand": "玉泉段二小段600地號"
+    "buildingLand": "玉泉段二小段600地號",
+    "lines": [
+      "G"
+    ]
   },
   {
     "id": "registry-台北市-大同區-三磐橋?",
@@ -1228,7 +1793,41 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1130726",
     "permit": "111建字第0068號",
     "households": "42",
-    "buildingLand": "橋北段三小段581地號"
+    "buildingLand": "橋北段三小段581地號",
+    "lines": [
+      "O"
+    ]
+  },
+  {
+    "id": "registry-台北市-大同區-三豐雲承",
+    "name": "三豐雲承",
+    "city": "台北市",
+    "district": "大同區",
+    "station": "待定位",
+    "walk": null,
+    "address": "台北市大同區大同區斯文里承德路三段",
+    "builder": "備查起造人：三豐建設股份有限公司",
+    "rating": "C",
+    "ratingBasis": "官方備查起造人可辨識為建設／開發公司；暫列 C，待更多履歷資料再調整",
+    "status": "預售備查",
+    "completion": "依官方備查時程",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": null,
+    "lng": null,
+    "source": "內政部預售屋備查",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": false,
+    "locationStatus": "unlocated",
+    "googleMapsListing": false,
+    "locationAccuracy": "尚無可可靠配對的正式門牌或路口；案件保留於表格，暫不顯示地圖標記",
+    "governmentId": "112建字第0218號",
+    "governmentStatus": "申報備查 1130621",
+    "permit": "112建字第0218號",
+    "households": "53",
+    "buildingLand": "大同段一小段248地號",
+    "lines": []
   },
   {
     "id": "registry-台北市-大同區-久年長慶",
@@ -1258,7 +1857,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1120925",
     "permit": "112建字第0225號",
     "households": "119",
-    "buildingLand": "市府段二小段712-2地號"
+    "buildingLand": "市府段二小段712-2地號",
+    "lines": [
+      "G"
+    ]
   },
   {
     "id": "registry-台北市-大同區-大同新豐采",
@@ -1288,7 +1890,72 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1131128",
     "permit": "113建字第0210號",
     "households": "64",
-    "buildingLand": "雙連段二小段517地號"
+    "buildingLand": "雙連段二小段517地號",
+    "lines": []
+  },
+  {
+    "id": "registry-台北市-大同區-大承",
+    "name": "大承",
+    "city": "台北市",
+    "district": "大同區",
+    "station": "待定位",
+    "walk": null,
+    "address": "台北市大同區南京西路",
+    "builder": "備查起造人：弘千建設股份有限公司",
+    "rating": "C",
+    "ratingBasis": "官方備查起造人可辨識為建設／開發公司；暫列 C，待更多履歷資料再調整",
+    "status": "預售備查",
+    "completion": "依官方備查時程",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": null,
+    "lng": null,
+    "source": "內政部預售屋備查",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": false,
+    "locationStatus": "unlocated",
+    "googleMapsListing": false,
+    "locationAccuracy": "尚無可可靠配對的正式門牌或路口；案件保留於表格，暫不顯示地圖標記",
+    "governmentId": "110建字第0226號",
+    "governmentStatus": "申報備查 1101020",
+    "permit": "110建字第0226號",
+    "households": "125",
+    "buildingLand": "玉泉段二小段40地號",
+    "lines": []
+  },
+  {
+    "id": "registry-台北市-大同區-丰實VISION ONE",
+    "name": "丰實VISION ONE",
+    "city": "台北市",
+    "district": "大同區",
+    "station": "大橋頭",
+    "walk": 5,
+    "address": "台北市大同區寧夏路144號共三筆",
+    "builder": "備查起造人：丰實建設有限公司",
+    "rating": "C",
+    "ratingBasis": "官方備查起造人可辨識為建設／開發公司；暫列 C，待更多履歷資料再調整",
+    "status": "預售備查",
+    "completion": "依官方備查時程",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": 25.06062563784123,
+    "lng": 121.51430350935516,
+    "source": "內政部預售屋備查＋官方門牌座標",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": true,
+    "locationStatus": "verified",
+    "googleMapsListing": false,
+    "locationAccuracy": "政府備查門牌配對；官方門牌座標至 大橋頭 最近出口直線約 304 公尺，步行時間為保守估算",
+    "governmentId": "115建字第0015號",
+    "governmentStatus": "申報備查 1150205",
+    "permit": "115建字第0015號",
+    "households": "53",
+    "buildingLand": "雙連段二小段660地號",
+    "lines": [
+      "O"
+    ]
   },
   {
     "id": "registry-台北市-大同區-公園首席",
@@ -1318,7 +1985,39 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1110627",
     "permit": "107建字第0239號",
     "households": "120",
-    "buildingLand": "雙連段三小段356地號"
+    "buildingLand": "雙連段三小段356地號",
+    "lines": []
+  },
+  {
+    "id": "registry-台北市-大同區-天光之埕",
+    "name": "天光之埕",
+    "city": "台北市",
+    "district": "大同區",
+    "station": "待定位",
+    "walk": null,
+    "address": "台北市大同區永樂里西寧北路",
+    "builder": "備查起造人：樂揚建設股份有限公司",
+    "rating": "C",
+    "ratingBasis": "官方備查起造人可辨識為建設／開發公司；暫列 C，待更多履歷資料再調整",
+    "status": "預售備查",
+    "completion": "依官方備查時程",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": null,
+    "lng": null,
+    "source": "內政部預售屋備查",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": false,
+    "locationStatus": "unlocated",
+    "googleMapsListing": false,
+    "locationAccuracy": "尚無可可靠配對的正式門牌或路口；案件保留於表格，暫不顯示地圖標記",
+    "governmentId": "114建字第0181號",
+    "governmentStatus": "申報備查 1141223",
+    "permit": "114建字第0181號",
+    "households": "111",
+    "buildingLand": "迪化段三小段343-8地號",
+    "lines": []
   },
   {
     "id": "registry-台北市-大同區-日新好好",
@@ -1348,7 +2047,41 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1101201",
     "permit": "110建字第0287號",
     "households": "37",
-    "buildingLand": "圓環段三小段336地號"
+    "buildingLand": "圓環段三小段336地號",
+    "lines": []
+  },
+  {
+    "id": "registry-台北市-大同區-世座友樂町",
+    "name": "世座友樂町",
+    "city": "台北市",
+    "district": "大同區",
+    "station": "大橋頭",
+    "walk": 10,
+    "address": "台北市大同區永樂里延平北路二段36巷1號共34筆",
+    "builder": "備查起造人：世座建設股份有限公司",
+    "rating": "C",
+    "ratingBasis": "官方備查起造人可辨識為建設／開發公司；暫列 C，待更多履歷資料再調整",
+    "status": "預售備查",
+    "completion": "依官方備查時程",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": 25.057676596204473,
+    "lng": 121.5112589335017,
+    "source": "內政部預售屋備查＋官方門牌座標",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": true,
+    "locationStatus": "verified",
+    "googleMapsListing": false,
+    "locationAccuracy": "政府備查門牌配對；官方門牌座標至 大橋頭 最近出口直線約 621 公尺，步行時間為保守估算",
+    "governmentId": "114建字第0001號",
+    "governmentStatus": "申報備查 1140123",
+    "permit": "114建字第0001號",
+    "households": "238",
+    "buildingLand": "迪化段二小段254地號",
+    "lines": [
+      "O"
+    ]
   },
   {
     "id": "registry-台北市-大同區-台北天河",
@@ -1378,7 +2111,44 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1150409",
     "permit": "114建字第0179號",
     "households": "120",
-    "buildingLand": "橋北段三小段842-1地號"
+    "buildingLand": "橋北段三小段842-1地號",
+    "lines": [
+      "O"
+    ]
+  },
+  {
+    "id": "registry-台北市-大同區-民權首富Ⅱ",
+    "name": "民權首富Ⅱ",
+    "city": "台北市",
+    "district": "大同區",
+    "station": "民權西路",
+    "walk": 4,
+    "address": "台北市大同區民權西路141號共9筆",
+    "builder": "備查起造人：華誼建設股份有限公司",
+    "rating": "C",
+    "ratingBasis": "官方備查起造人可辨識為建設／開發公司；暫列 C，待更多履歷資料再調整",
+    "status": "近期完工",
+    "completion": "第一次登記 1150303",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": 25.063125079861543,
+    "lng": 121.51674927307748,
+    "source": "內政部預售屋備查＋官方門牌座標",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": true,
+    "locationStatus": "verified",
+    "googleMapsListing": false,
+    "locationAccuracy": "政府備查門牌配對；官方門牌座標至 民權西路 最近出口直線約 204 公尺，步行時間為保守估算",
+    "governmentId": "110建字第0121號",
+    "governmentStatus": "申報備查 1110331",
+    "permit": "110建字第0121號",
+    "households": "57",
+    "buildingLand": "大同段二小段209地號",
+    "lines": [
+      "R",
+      "O"
+    ]
   },
   {
     "id": "registry-台北市-大同區-永保安康",
@@ -1408,7 +2178,39 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1100928",
     "permit": "109建字第0159號",
     "households": "47",
-    "buildingLand": "延平段一小段502地號"
+    "buildingLand": "延平段一小段502地號",
+    "lines": []
+  },
+  {
+    "id": "registry-台北市-大同區-永筑埕曦",
+    "name": "永筑埕曦",
+    "city": "台北市",
+    "district": "大同區",
+    "station": "待定位",
+    "walk": null,
+    "address": "台北市大同區民族西路188，190，192，194號",
+    "builder": "備查起造人：永筑建設股份有限公司",
+    "rating": "C",
+    "ratingBasis": "官方備查起造人可辨識為建設／開發公司；暫列 C，待更多履歷資料再調整",
+    "status": "預售備查",
+    "completion": "依官方備查時程",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": null,
+    "lng": null,
+    "source": "內政部預售屋備查",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": false,
+    "locationStatus": "unlocated",
+    "googleMapsListing": false,
+    "locationAccuracy": "尚無可可靠配對的正式門牌或路口；案件保留於表格，暫不顯示地圖標記",
+    "governmentId": "111建字第0013號",
+    "governmentStatus": "申報備查 1110321",
+    "permit": "111建字第0013號",
+    "households": "33",
+    "buildingLand": "大同段一小段609地號",
+    "lines": []
   },
   {
     "id": "registry-台北市-大同區-永豐泰 雲川",
@@ -1438,7 +2240,72 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1110430",
     "permit": "111建字第0121號",
     "households": "31",
-    "buildingLand": "文昌段二小段549地號"
+    "buildingLand": "文昌段二小段549地號",
+    "lines": [
+      "R"
+    ]
+  },
+  {
+    "id": "registry-台北市-大同區-伊寧橋寓",
+    "name": "伊寧橋寓",
+    "city": "台北市",
+    "district": "大同區",
+    "station": "待定位",
+    "walk": null,
+    "address": "台北市大同區伊寧街62號 共4筆",
+    "builder": "備查起造人：廣瑩智慧不動產股份有限公司",
+    "rating": "NR",
+    "ratingBasis": "官方備查有起造人，但可能是建經公司、金融機構或自然人，尚未可靠對應建商品牌",
+    "status": "預售備查",
+    "completion": "依官方備查時程",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": null,
+    "lng": null,
+    "source": "內政部預售屋備查",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": false,
+    "locationStatus": "unlocated",
+    "googleMapsListing": false,
+    "locationAccuracy": "尚無可可靠配對的正式門牌或路口；案件保留於表格，暫不顯示地圖標記",
+    "governmentId": "114建字第0029號",
+    "governmentStatus": "申報備查 1140225",
+    "permit": "114建字第0029號",
+    "households": "62",
+    "buildingLand": "橋北段三小段684地號",
+    "lines": []
+  },
+  {
+    "id": "registry-台北市-大同區-光合織森",
+    "name": "光合織森",
+    "city": "台北市",
+    "district": "大同區",
+    "station": "待定位",
+    "walk": null,
+    "address": "台北市大同區華亭街",
+    "builder": "備查起造人：光合建築股份有限公司",
+    "rating": "C",
+    "ratingBasis": "官方備查起造人可辨識為建設／開發公司；暫列 C，待更多履歷資料再調整",
+    "status": "預售備查",
+    "completion": "依官方備查時程",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": null,
+    "lng": null,
+    "source": "內政部預售屋備查",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": false,
+    "locationStatus": "unlocated",
+    "googleMapsListing": false,
+    "locationAccuracy": "尚無可可靠配對的正式門牌或路口；案件保留於表格，暫不顯示地圖標記",
+    "governmentId": "114建字第0172號",
+    "governmentStatus": "申報備查 1141017",
+    "permit": "114建字第0172號",
+    "households": "102",
+    "buildingLand": "玉泉段一小段539地號",
+    "lines": []
   },
   {
     "id": "registry-台北市-大同區-印涼州",
@@ -1468,7 +2335,235 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1120626",
     "permit": "112建字第0055號",
     "households": "34",
-    "buildingLand": "雙連段二小段670-1地號"
+    "buildingLand": "雙連段二小段670-1地號",
+    "lines": [
+      "O"
+    ]
+  },
+  {
+    "id": "registry-台北市-大同區-合砌埕家",
+    "name": "合砌埕家",
+    "city": "台北市",
+    "district": "大同區",
+    "station": "北門",
+    "walk": 8,
+    "address": "台北市大同區南京西路239巷11號 共6筆",
+    "builder": "備查起造人：臺億建築經理股份有限公司",
+    "rating": "NR",
+    "ratingBasis": "官方備查有起造人，但可能是建經公司、金融機構或自然人，尚未可靠對應建商品牌",
+    "status": "預售備查",
+    "completion": "依官方備查時程",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": 25.054230090116622,
+    "lng": 121.51049434335367,
+    "source": "內政部預售屋備查＋官方門牌座標",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": true,
+    "locationStatus": "verified",
+    "googleMapsListing": false,
+    "locationAccuracy": "政府備查門牌配對；官方門牌座標至 北門 最近出口直線約 477 公尺，步行時間為保守估算",
+    "governmentId": "112建字 第0022號",
+    "governmentStatus": "申報備查 1120215",
+    "permit": "112建字 第0022號",
+    "households": "58",
+    "buildingLand": "迪化段三小段497地號",
+    "lines": [
+      "G"
+    ]
+  },
+  {
+    "id": "registry-台北市-大同區-有鄰",
+    "name": "有鄰",
+    "city": "台北市",
+    "district": "大同區",
+    "station": "圓山",
+    "walk": 11,
+    "address": "台北市大同區隆和里重慶北路三段9巷2號2樓 共8筆 詳附件",
+    "builder": "備查起造人：年豐建設股份有限公司",
+    "rating": "C",
+    "ratingBasis": "官方備查起造人可辨識為建設／開發公司；暫列 C，待更多履歷資料再調整",
+    "status": "近期完工",
+    "completion": "第一次登記 1140815",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": 25.07348633602644,
+    "lng": 121.51340415327134,
+    "source": "內政部預售屋備查＋官方門牌座標",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": true,
+    "locationStatus": "verified",
+    "googleMapsListing": false,
+    "locationAccuracy": "政府備查門牌配對；官方門牌座標至 圓山 最近出口直線約 701 公尺，步行時間為保守估算",
+    "governmentId": "110建字第0200號",
+    "governmentStatus": "申報備查 1100924",
+    "permit": "110建字第0200號",
+    "households": "59",
+    "buildingLand": "大同段二小段898地號",
+    "lines": [
+      "R"
+    ]
+  },
+  {
+    "id": "registry-台北市-大同區-宏國大道城A區",
+    "name": "宏國大道城A區",
+    "city": "台北市",
+    "district": "大同區",
+    "station": "待定位",
+    "walk": null,
+    "address": "台北市大同區承德路二段",
+    "builder": "備查起造人：合眾建築經理股份有限公司",
+    "rating": "NR",
+    "ratingBasis": "官方備查有起造人，但可能是建經公司、金融機構或自然人，尚未可靠對應建商品牌",
+    "status": "預售備查",
+    "completion": "依官方備查時程",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": null,
+    "lng": null,
+    "source": "內政部預售屋備查",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": false,
+    "locationStatus": "unlocated",
+    "googleMapsListing": false,
+    "locationAccuracy": "尚無可可靠配對的正式門牌或路口；案件保留於表格，暫不顯示地圖標記",
+    "governmentId": "107建字第0091號",
+    "governmentStatus": "申報備查 1110309",
+    "permit": "107建字第0091號",
+    "households": "96",
+    "buildingLand": "圓環段一小段104-5地號",
+    "lines": []
+  },
+  {
+    "id": "registry-台北市-大同區-宏國大道城B區",
+    "name": "宏國大道城B區",
+    "city": "台北市",
+    "district": "大同區",
+    "station": "待定位",
+    "walk": null,
+    "address": "台北市大同區承德路二段",
+    "builder": "備查起造人：臺億建築經理股份有限公司",
+    "rating": "NR",
+    "ratingBasis": "官方備查有起造人，但可能是建經公司、金融機構或自然人，尚未可靠對應建商品牌",
+    "status": "近期完工",
+    "completion": "第一次登記 1140313",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": null,
+    "lng": null,
+    "source": "內政部預售屋備查",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": false,
+    "locationStatus": "unlocated",
+    "googleMapsListing": false,
+    "locationAccuracy": "尚無可可靠配對的正式門牌或路口；案件保留於表格，暫不顯示地圖標記",
+    "governmentId": "106建字第0215號",
+    "governmentStatus": "申報備查 1100730",
+    "permit": "106建字第0215號",
+    "households": "164",
+    "buildingLand": "圓環段一小段329地號",
+    "lines": []
+  },
+  {
+    "id": "registry-台北市-大同區-宏道一品",
+    "name": "宏道一品",
+    "city": "台北市",
+    "district": "大同區",
+    "station": "待定位",
+    "walk": null,
+    "address": "台北市大同區重慶北路一段",
+    "builder": "備查起造人：宏善開發股份有限公司",
+    "rating": "C",
+    "ratingBasis": "官方備查起造人可辨識為建設／開發公司；暫列 C，待更多履歷資料再調整",
+    "status": "預售備查",
+    "completion": "依官方備查時程",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": null,
+    "lng": null,
+    "source": "內政部預售屋備查",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": false,
+    "locationStatus": "unlocated",
+    "googleMapsListing": false,
+    "locationAccuracy": "尚無可可靠配對的正式門牌或路口；案件保留於表格，暫不顯示地圖標記",
+    "governmentId": "113建字第0232號",
+    "governmentStatus": "申報備查 1131127",
+    "permit": "113建字第0232號",
+    "households": "134",
+    "buildingLand": "玉泉段一小段676地號",
+    "lines": []
+  },
+  {
+    "id": "registry-台北市-大同區-亞昕華威",
+    "name": "亞昕華威",
+    "city": "台北市",
+    "district": "大同區",
+    "station": "北門",
+    "walk": 3,
+    "address": "台北市大同區延平北路一段25號旁",
+    "builder": "備查起造人：中國建築經理股份有限公司",
+    "rating": "NR",
+    "ratingBasis": "官方備查有起造人，但可能是建經公司、金融機構或自然人，尚未可靠對應建商品牌",
+    "status": "近期完工",
+    "completion": "第一次登記 1130709",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": 25.050335022179674,
+    "lng": 121.51210363293455,
+    "source": "內政部預售屋備查＋官方門牌座標",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": true,
+    "locationStatus": "verified",
+    "googleMapsListing": false,
+    "locationAccuracy": "政府備查門牌配對；官方門牌座標至 北門 最近出口直線約 181 公尺，步行時間為保守估算",
+    "governmentId": "107建字第0001號",
+    "governmentStatus": "申報備查 1100702",
+    "permit": "107建字第0001號",
+    "households": "130",
+    "buildingLand": "玉泉段一小段874地號",
+    "lines": [
+      "G"
+    ]
+  },
+  {
+    "id": "registry-台北市-大同區-京之硯",
+    "name": "京之硯",
+    "city": "台北市",
+    "district": "大同區",
+    "station": "圓山",
+    "walk": 12,
+    "address": "台北市大同區鄰江里迪化街二段243巷1號共5筆",
+    "builder": "備查起造人：得墾建設股份有限公司",
+    "rating": "C",
+    "ratingBasis": "官方備查起造人可辨識為建設／開發公司；暫列 C，待更多履歷資料再調整",
+    "status": "近期完工",
+    "completion": "第一次登記 1141118",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": 25.071917201851683,
+    "lng": 121.51269404223005,
+    "source": "內政部預售屋備查＋官方門牌座標",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": true,
+    "locationStatus": "verified",
+    "googleMapsListing": false,
+    "locationAccuracy": "政府備查門牌配對；官方門牌座標至 圓山 最近出口直線約 747 公尺，步行時間為保守估算",
+    "governmentId": "111建字第0149號",
+    "governmentStatus": "申報備查 1111108",
+    "permit": "111建字第0149號",
+    "households": "18",
+    "buildingLand": "文昌段二小段14地號",
+    "lines": [
+      "R"
+    ]
   },
   {
     "id": "registry-台北市-大同區-長見豐閱",
@@ -1498,7 +2593,72 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1120718",
     "permit": "111建字第0329號",
     "households": "21",
-    "buildingLand": "圓環段三小段250地號"
+    "buildingLand": "圓環段三小段250地號",
+    "lines": []
+  },
+  {
+    "id": "registry-台北市-大同區-品嘉-W house",
+    "name": "品嘉-W house",
+    "city": "台北市",
+    "district": "大同區",
+    "station": "待定位",
+    "walk": null,
+    "address": "台北市大同區蓬萊里民權西路133巷3弄1之1號2樓共15筆",
+    "builder": "備查起造人：品嘉建設股份有限公司",
+    "rating": "C",
+    "ratingBasis": "官方備查起造人可辨識為建設／開發公司；暫列 C，待更多履歷資料再調整",
+    "status": "近期完工",
+    "completion": "第一次登記 1150212",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": null,
+    "lng": null,
+    "source": "內政部預售屋備查",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": false,
+    "locationStatus": "unlocated",
+    "googleMapsListing": false,
+    "locationAccuracy": "尚無可可靠配對的正式門牌或路口；案件保留於表格，暫不顯示地圖標記",
+    "governmentId": "111建字第0133號",
+    "governmentStatus": "申報備查 1110622",
+    "permit": "111建字第0133號",
+    "households": "73",
+    "buildingLand": "大同段二小段180地號",
+    "lines": []
+  },
+  {
+    "id": "registry-台北市-大同區-品嘉傳承",
+    "name": "品嘉傳承",
+    "city": "台北市",
+    "district": "大同區",
+    "station": "圓山",
+    "walk": 6,
+    "address": "台北市大同區重慶里承德路三段328號等三筆",
+    "builder": "備查起造人：品嘉建設股份有限公司",
+    "rating": "C",
+    "ratingBasis": "官方備查起造人可辨識為建設／開發公司；暫列 C，待更多履歷資料再調整",
+    "status": "預售備查",
+    "completion": "依官方備查時程",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": 25.074914485786305,
+    "lng": 121.51979281918743,
+    "source": "內政部預售屋備查＋官方門牌座標",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": true,
+    "locationStatus": "verified",
+    "googleMapsListing": false,
+    "locationAccuracy": "政府備查門牌配對；官方門牌座標至 圓山 最近出口直線約 350 公尺，步行時間為保守估算",
+    "governmentId": "112建字第0048號",
+    "governmentStatus": "申報備查 1120425",
+    "permit": "112建字第0048號",
+    "households": "46",
+    "buildingLand": "大龍段一小段214-6地號",
+    "lines": [
+      "R"
+    ]
   },
   {
     "id": "registry-台北市-大同區-城心曜曜",
@@ -1528,7 +2688,11 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1100820",
     "permit": "110建字第0053號",
     "households": "227",
-    "buildingLand": "雙連段三小段1地號"
+    "buildingLand": "雙連段三小段1地號",
+    "lines": [
+      "R",
+      "O"
+    ]
   },
   {
     "id": "registry-台北市-大同區-首岳",
@@ -1558,7 +2722,11 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1110617",
     "permit": "111建字第0188號",
     "households": "390",
-    "buildingLand": "雙連段三小段689地號"
+    "buildingLand": "雙連段三小段689地號",
+    "lines": [
+      "R",
+      "G"
+    ]
   },
   {
     "id": "registry-台北市-大同區-原真界",
@@ -1588,7 +2756,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1110729",
     "permit": "111建字第0193號",
     "households": "38",
-    "buildingLand": "文昌段一小段168-13地號"
+    "buildingLand": "文昌段一小段168-13地號",
+    "lines": []
   },
   {
     "id": "registry-台北市-大同區-峰源-大方無隅",
@@ -1618,7 +2787,39 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1110103",
     "permit": "110建字第0351號",
     "households": "30",
-    "buildingLand": "延平段三小段749-4地號"
+    "buildingLand": "延平段三小段749-4地號",
+    "lines": []
+  },
+  {
+    "id": "registry-台北市-大同區-國王雙子星",
+    "name": "國王雙子星",
+    "city": "台北市",
+    "district": "大同區",
+    "station": "台北車站M5",
+    "walk": 6,
+    "address": "台北市大同區建功里鄭州路83巷10號",
+    "builder": "備查起造人：富裔實業股份有限公司",
+    "rating": "NR",
+    "ratingBasis": "官方備查有起造人，但可能是建經公司、金融機構或自然人，尚未可靠對應建商品牌",
+    "status": "預售備查",
+    "completion": "依官方備查時程",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": 25.04961861785172,
+    "lng": 121.51453182993389,
+    "source": "內政部預售屋備查＋官方門牌座標",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": true,
+    "locationStatus": "verified",
+    "googleMapsListing": false,
+    "locationAccuracy": "政府備查門牌配對；官方門牌座標至 台北車站M5 最近出口直線約 362 公尺，步行時間為保守估算",
+    "governmentId": "111建字1188號",
+    "governmentStatus": "申報備查 1111213",
+    "permit": "111建字1188號",
+    "households": "235",
+    "buildingLand": "玉泉段一小段963地號",
+    "lines": []
   },
   {
     "id": "registry-台北市-大同區-御品園",
@@ -1648,7 +2849,43 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1120214",
     "permit": "111建字第0130號",
     "households": "40",
-    "buildingLand": "橋北段三小段584地號"
+    "buildingLand": "橋北段三小段584地號",
+    "lines": [
+      "O"
+    ]
+  },
+  {
+    "id": "registry-台北市-大同區-復盛寧夏YES!",
+    "name": "復盛寧夏YES!",
+    "city": "台北市",
+    "district": "大同區",
+    "station": "雙連",
+    "walk": 10,
+    "address": "台北市大同區重慶北路二段97巷",
+    "builder": "備查起造人：復盛開發股份有限公司",
+    "rating": "C",
+    "ratingBasis": "官方備查起造人可辨識為建設／開發公司；暫列 C，待更多履歷資料再調整",
+    "status": "預售備查",
+    "completion": "依官方備查時程",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": 25.056601172431805,
+    "lng": 121.51466524379404,
+    "source": "內政部預售屋備查＋官方門牌座標",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": false,
+    "locationStatus": "estimated",
+    "googleMapsListing": false,
+    "locationAccuracy": "政府備查巷弄範圍定位（20 個官方門牌範圍）；官方門牌座標至 雙連 最近出口直線約 605 公尺，步行時間為保守估算",
+    "governmentId": "111建字第0226號",
+    "governmentStatus": "申報備查 1130904",
+    "permit": "111建字第0226號",
+    "households": "19",
+    "buildingLand": "圓環段三小段690地號",
+    "lines": [
+      "R"
+    ]
   },
   {
     "id": "registry-台北市-大同區-雲迪",
@@ -1678,7 +2915,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1110628",
     "permit": "110建字第0377號",
     "households": "111",
-    "buildingLand": "延平段三小段396地號"
+    "buildingLand": "延平段三小段396地號",
+    "lines": []
   },
   {
     "id": "registry-台北市-大同區-雲極",
@@ -1708,7 +2946,43 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1100830",
     "permit": "110建字第0196號",
     "households": "212",
-    "buildingLand": "雙連段三小段810地號"
+    "buildingLand": "雙連段三小段810地號",
+    "lines": [
+      "O"
+    ]
+  },
+  {
+    "id": "registry-台北市-大同區-圓山耑宇",
+    "name": "圓山耑宇",
+    "city": "台北市",
+    "district": "大同區",
+    "station": "圓山",
+    "walk": 8,
+    "address": "台北市大同區大龍街161號 共4筆",
+    "builder": "備查起造人：晶匯建設開發股份有限公司",
+    "rating": "C",
+    "ratingBasis": "官方備查起造人可辨識為建設／開發公司；暫列 C，待更多履歷資料再調整",
+    "status": "預售備查",
+    "completion": "依官方備查時程",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": 25.068143081962194,
+    "lng": 121.51596071672742,
+    "source": "內政部預售屋備查＋官方門牌座標",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": true,
+    "locationStatus": "verified",
+    "googleMapsListing": false,
+    "locationAccuracy": "政府備查門牌配對；官方門牌座標至 圓山 最近出口直線約 505 公尺，步行時間為保守估算",
+    "governmentId": "114建字第0607號",
+    "governmentStatus": "申報備查 1140626",
+    "permit": "114建字第0607號",
+    "households": "38",
+    "buildingLand": "大同段一小段541地號",
+    "lines": [
+      "R"
+    ]
   },
   {
     "id": "registry-台北市-大同區-圓山綻",
@@ -1738,7 +3012,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1110513",
     "permit": "110建字第0233號",
     "households": "6",
-    "buildingLand": "大龍段一小段482地號"
+    "buildingLand": "大龍段一小段482地號",
+    "lines": [
+      "R"
+    ]
   },
   {
     "id": "registry-台北市-大同區-當代1號院",
@@ -1768,7 +3045,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1110511",
     "permit": "111建字第0140號",
     "households": "167",
-    "buildingLand": "文昌段二小段217地號"
+    "buildingLand": "文昌段二小段217地號",
+    "lines": [
+      "R"
+    ]
   },
   {
     "id": "registry-台北市-大同區-嘉源埕驛",
@@ -1798,7 +3078,43 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1101108",
     "permit": "110建字第0169號",
     "households": "4",
-    "buildingLand": "玉泉段二小段305地號"
+    "buildingLand": "玉泉段二小段305地號",
+    "lines": [
+      "G"
+    ]
+  },
+  {
+    "id": "registry-台北市-大同區-漢特瑧邸",
+    "name": "漢特瑧邸",
+    "city": "台北市",
+    "district": "大同區",
+    "station": "圓山",
+    "walk": 11,
+    "address": "台北市大同區鄰江里重慶北路三段236巷25弄2號    共8筆",
+    "builder": "備查起造人：合眾建築經理股份有限公司",
+    "rating": "NR",
+    "ratingBasis": "官方備查有起造人，但可能是建經公司、金融機構或自然人，尚未可靠對應建商品牌",
+    "status": "預售備查",
+    "completion": "依官方備查時程",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": 25.07348633602644,
+    "lng": 121.51340415327134,
+    "source": "內政部預售屋備查＋官方門牌座標",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": true,
+    "locationStatus": "verified",
+    "googleMapsListing": false,
+    "locationAccuracy": "政府備查門牌配對；官方門牌座標至 圓山 最近出口直線約 701 公尺，步行時間為保守估算",
+    "governmentId": "110建字第0333號",
+    "governmentStatus": "申報備查 1130920",
+    "permit": "110建字第0333號",
+    "households": "41",
+    "buildingLand": "文昌段二小段156地號",
+    "lines": [
+      "R"
+    ]
   },
   {
     "id": "registry-台北市-大同區-綺埕",
@@ -1828,7 +3144,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1150508",
     "permit": "114建字第0123號",
     "households": "90",
-    "buildingLand": "玉泉段一小段236地號"
+    "buildingLand": "玉泉段一小段236地號",
+    "lines": [
+      "G"
+    ]
   },
   {
     "id": "registry-台北市-大同區-廣宇日和",
@@ -1858,7 +3177,72 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1120728",
     "permit": "112建字第0177號",
     "households": "80",
-    "buildingLand": "雙連段三小段98地號"
+    "buildingLand": "雙連段三小段98地號",
+    "lines": []
+  },
+  {
+    "id": "registry-台北市-大同區-樂揚心閱",
+    "name": "樂揚心閱",
+    "city": "台北市",
+    "district": "大同區",
+    "station": "大橋頭",
+    "walk": 8,
+    "address": "台北市大同區延平里保安街49巷4號2樓 共19筆",
+    "builder": "備查起造人：樂揚建設股份有限公司",
+    "rating": "C",
+    "ratingBasis": "官方備查起造人可辨識為建設／開發公司；暫列 C，待更多履歷資料再調整",
+    "status": "預售備查",
+    "completion": "依官方備查時程",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": 25.05876006319921,
+    "lng": 121.51198998354316,
+    "source": "內政部預售屋備查＋官方門牌座標",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": true,
+    "locationStatus": "verified",
+    "googleMapsListing": false,
+    "locationAccuracy": "政府備查門牌配對；官方門牌座標至 大橋頭 最近出口直線約 493 公尺，步行時間為保守估算",
+    "governmentId": "112建字第0088號",
+    "governmentStatus": "申報備查 1120414",
+    "permit": "112建字第0088號",
+    "households": "58",
+    "buildingLand": "延平段一小段291地號",
+    "lines": [
+      "O"
+    ]
+  },
+  {
+    "id": "registry-台北市-大同區-毅聯首馥",
+    "name": "毅聯首馥",
+    "city": "台北市",
+    "district": "大同區",
+    "station": "待定位",
+    "walk": null,
+    "address": "台北市大同區涼州街",
+    "builder": "備查起造人：毅聯建設股份有限公司",
+    "rating": "C",
+    "ratingBasis": "官方備查起造人可辨識為建設／開發公司；暫列 C，待更多履歷資料再調整",
+    "status": "預售備查",
+    "completion": "依官方備查時程",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": null,
+    "lng": null,
+    "source": "內政部預售屋備查",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": false,
+    "locationStatus": "unlocated",
+    "googleMapsListing": false,
+    "locationAccuracy": "尚無可可靠配對的正式門牌或路口；案件保留於表格，暫不顯示地圖標記",
+    "governmentId": "114建字第0091號",
+    "governmentStatus": "申報備查 1140522",
+    "permit": "114建字第0091號",
+    "households": "188",
+    "buildingLand": "雙連段二小段518-2地號",
+    "lines": []
   },
   {
     "id": "registry-台北市-大同區-毅聯WIN",
@@ -1888,7 +3272,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1131203",
     "permit": "113建字第0171號",
     "households": "90",
-    "buildingLand": "雙連段二小段590地號"
+    "buildingLand": "雙連段二小段590地號",
+    "lines": []
   },
   {
     "id": "registry-台北市-大同區-雙全星",
@@ -1918,7 +3303,39 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1121213",
     "permit": "112建字第0082號",
     "households": "34",
-    "buildingLand": "雙連段一小段555地號"
+    "buildingLand": "雙連段一小段555地號",
+    "lines": []
+  },
+  {
+    "id": "registry-台北市-大同區-雙星綻",
+    "name": "雙星綻",
+    "city": "台北市",
+    "district": "大同區",
+    "station": "待定位",
+    "walk": null,
+    "address": "台北市大同區雙連里歸綏街171號2樓 共6筆",
+    "builder": "備查起造人：敦仰建設股份有限公司",
+    "rating": "C",
+    "ratingBasis": "官方備查起造人可辨識為建設／開發公司；暫列 C，待更多履歷資料再調整",
+    "status": "預售備查",
+    "completion": "依官方備查時程",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": null,
+    "lng": null,
+    "source": "內政部預售屋備查",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": false,
+    "locationStatus": "unlocated",
+    "googleMapsListing": false,
+    "locationAccuracy": "尚無可可靠配對的正式門牌或路口；案件保留於表格，暫不顯示地圖標記",
+    "governmentId": "114建字第0027號",
+    "governmentStatus": "申報備查 1140815",
+    "permit": "114建字第0027號",
+    "households": "43",
+    "buildingLand": "雙連段三小段706地號",
+    "lines": []
   },
   {
     "id": "registry-台北市-大同區-SOHO筑富",
@@ -1948,7 +3365,39 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1140411",
     "permit": "113建字0107號",
     "households": "31",
-    "buildingLand": "雙連段二小段683地號"
+    "buildingLand": "雙連段二小段683地號",
+    "lines": []
+  },
+  {
+    "id": "registry-台北市-大安區-三創爵鼎",
+    "name": "三創爵鼎",
+    "city": "台北市",
+    "district": "大安區",
+    "station": "待定位",
+    "walk": null,
+    "address": "台北市大安區市民大道三段92號",
+    "builder": "備查起造人：僑馥建築經理股份有限公司",
+    "rating": "NR",
+    "ratingBasis": "官方備查有起造人，但可能是建經公司、金融機構或自然人，尚未可靠對應建商品牌",
+    "status": "近期完工",
+    "completion": "第一次登記 1150106",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": null,
+    "lng": null,
+    "source": "內政部預售屋備查",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": false,
+    "locationStatus": "unlocated",
+    "googleMapsListing": false,
+    "locationAccuracy": "尚無可可靠配對的正式門牌或路口；案件保留於表格，暫不顯示地圖標記",
+    "governmentId": "110建字第0020號",
+    "governmentStatus": "申報備查 1140320",
+    "permit": "110建字第0020號",
+    "households": "58",
+    "buildingLand": "懷生段三小段17地號",
+    "lines": []
   },
   {
     "id": "registry-台北市-大安區-上東門",
@@ -1978,7 +3427,11 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1140519",
     "permit": "114建字第0070號",
     "households": "30",
-    "buildingLand": "金華段三小段13地號"
+    "buildingLand": "金華段三小段13地號",
+    "lines": [
+      "O",
+      "R"
+    ]
   },
   {
     "id": "registry-台北市-大安區-大安文硯",
@@ -2008,7 +3461,41 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1131113",
     "permit": "111建字第0277號",
     "households": "60",
-    "buildingLand": "辛亥段四小段524地號"
+    "buildingLand": "辛亥段四小段524地號",
+    "lines": []
+  },
+  {
+    "id": "registry-台北市-大安區-大安昕居",
+    "name": "大安昕居",
+    "city": "台北市",
+    "district": "大安區",
+    "station": "科技大樓",
+    "walk": 7,
+    "address": "台北市大安區四維路154巷5之2號",
+    "builder": "備查起造人：大昕建設股份有限公司",
+    "rating": "C",
+    "ratingBasis": "官方備查起造人可辨識為建設／開發公司；暫列 C，待更多履歷資料再調整",
+    "status": "預售備查",
+    "completion": "依官方備查時程",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": 25.027355682510994,
+    "lng": 121.5476147996407,
+    "source": "內政部預售屋備查＋官方門牌座標",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": true,
+    "locationStatus": "verified",
+    "googleMapsListing": false,
+    "locationAccuracy": "政府備查門牌配對；官方門牌座標至 科技大樓 最近出口直線約 423 公尺，步行時間為保守估算",
+    "governmentId": "112建字第0085號",
+    "governmentStatus": "申報備查 1140604",
+    "permit": "112建字第0085號",
+    "households": "54",
+    "buildingLand": "大安段一小段171地號",
+    "lines": [
+      "BR"
+    ]
   },
   {
     "id": "registry-台北市-大安區-大安昕境",
@@ -2038,7 +3525,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1120117",
     "permit": "111建字第0333號",
     "households": "39",
-    "buildingLand": "龍泉段一小段961地號"
+    "buildingLand": "龍泉段一小段961地號",
+    "lines": []
   },
   {
     "id": "registry-台北市-大安區-大安信藝館",
@@ -2068,7 +3556,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1110128",
     "permit": "111建字第40號",
     "households": "17",
-    "buildingLand": "通化段一小段206地號"
+    "buildingLand": "通化段一小段206地號",
+    "lines": []
   },
   {
     "id": "registry-台北市-大安區-大安茗邸",
@@ -2098,7 +3587,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1111122",
     "permit": "111建字第0332號",
     "households": "18",
-    "buildingLand": "瑞安段三小段46地號"
+    "buildingLand": "瑞安段三小段46地號",
+    "lines": [
+      "BR"
+    ]
   },
   {
     "id": "registry-台北市-大安區-大安得逸",
@@ -2128,7 +3620,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1110322",
     "permit": "111建字第0050號",
     "households": "12",
-    "buildingLand": "龍泉段一小段896-1地號"
+    "buildingLand": "龍泉段一小段896-1地號",
+    "lines": [
+      "G"
+    ]
   },
   {
     "id": "registry-台北市-大安區-大安富御",
@@ -2158,7 +3653,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1110223",
     "permit": "109建字第0038號",
     "households": "38",
-    "buildingLand": "辛亥段四小段496-13地號"
+    "buildingLand": "辛亥段四小段496-13地號",
+    "lines": []
   },
   {
     "id": "registry-台北市-大安區-大安集合住宅新建工程",
@@ -2188,7 +3684,11 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1120825",
     "permit": "110建字第0272號",
     "households": "40",
-    "buildingLand": "復興段三小段279地號"
+    "buildingLand": "復興段三小段279地號",
+    "lines": [
+      "BR",
+      "R"
+    ]
   },
   {
     "id": "registry-台北市-大安區-大安潮",
@@ -2218,7 +3718,73 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1120214",
     "permit": "112建字第0020號",
     "households": "12",
-    "buildingLand": "金華段二小段854地號"
+    "buildingLand": "金華段二小段854地號",
+    "lines": []
+  },
+  {
+    "id": "registry-台北市-大安區-大安謙?",
+    "name": "大安謙?",
+    "city": "台北市",
+    "district": "大安區",
+    "station": "大安",
+    "walk": 5,
+    "address": "台北市大安區大安路一段206巷15號",
+    "builder": "備查起造人：興富謙建設股份有限公司",
+    "rating": "C",
+    "ratingBasis": "官方備查起造人可辨識為建設／開發公司；暫列 C，待更多履歷資料再調整",
+    "status": "近期完工",
+    "completion": "第一次登記 1140721",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": 25.03654226804704,
+    "lng": 121.54499461086662,
+    "source": "內政部預售屋備查＋官方門牌座標",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": true,
+    "locationStatus": "verified",
+    "googleMapsListing": false,
+    "locationAccuracy": "政府備查門牌配對；官方門牌座標至 大安 最近出口直線約 309 公尺，步行時間為保守估算",
+    "governmentId": "1100089",
+    "governmentStatus": "申報備查 1100708",
+    "permit": "1100089",
+    "households": "23",
+    "buildingLand": "復興段三小段770地號",
+    "lines": [
+      "BR",
+      "R"
+    ]
+  },
+  {
+    "id": "registry-台北市-大安區-大安ONE",
+    "name": "大安ONE",
+    "city": "台北市",
+    "district": "大安區",
+    "station": "待定位",
+    "walk": null,
+    "address": "台北市大安區和平東路二段",
+    "builder": "備查起造人：京旺建設股份有限公司",
+    "rating": "C",
+    "ratingBasis": "官方備查起造人可辨識為建設／開發公司；暫列 C，待更多履歷資料再調整",
+    "status": "近期完工",
+    "completion": "第一次登記 113建字第0227號",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": null,
+    "lng": null,
+    "source": "內政部預售屋備查",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": false,
+    "locationStatus": "unlocated",
+    "googleMapsListing": false,
+    "locationAccuracy": "尚無可可靠配對的正式門牌或路口；案件保留於表格，暫不顯示地圖標記",
+    "governmentId": "1131112",
+    "governmentStatus": "申報備查 1131120",
+    "permit": "1131112",
+    "households": "187",
+    "buildingLand": "至本案建照取得後12個月;",
+    "lines": []
   },
   {
     "id": "registry-台北市-大安區-山川不白",
@@ -2248,7 +3814,70 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1140714",
     "permit": "111建字第0199號",
     "households": "18",
-    "buildingLand": "學府段四小段125地號"
+    "buildingLand": "學府段四小段125地號",
+    "lines": []
+  },
+  {
+    "id": "registry-台北市-大安區-仁仰",
+    "name": "仁仰",
+    "city": "台北市",
+    "district": "大安區",
+    "station": "待定位",
+    "walk": null,
+    "address": "台北市大安區仁愛里復興南路一段177巷",
+    "builder": "備查起造人：璞慶建設股份有限公司",
+    "rating": "C",
+    "ratingBasis": "官方備查起造人可辨識為建設／開發公司；暫列 C，待更多履歷資料再調整",
+    "status": "預售備查",
+    "completion": "依官方備查時程",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": null,
+    "lng": null,
+    "source": "內政部預售屋備查",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": false,
+    "locationStatus": "unlocated",
+    "googleMapsListing": false,
+    "locationAccuracy": "尚無可可靠配對的正式門牌或路口；案件保留於表格，暫不顯示地圖標記",
+    "governmentId": "112建字第0216號",
+    "governmentStatus": "申報備查 1121013",
+    "permit": "112建字第0216號",
+    "households": "61",
+    "buildingLand": "復興段二小段142地號",
+    "lines": []
+  },
+  {
+    "id": "registry-台北市-大安區-仁愛玉璽",
+    "name": "仁愛玉璽",
+    "city": "台北市",
+    "district": "大安區",
+    "station": "待定位",
+    "walk": null,
+    "address": "台北市大安區延吉街230號一樓",
+    "builder": "備查起造人：琢樸建設有限公司",
+    "rating": "C",
+    "ratingBasis": "官方備查起造人可辨識為建設／開發公司；暫列 C，待更多履歷資料再調整",
+    "status": "預售備查",
+    "completion": "依官方備查時程",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": null,
+    "lng": null,
+    "source": "內政部預售屋備查",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": false,
+    "locationStatus": "unlocated",
+    "googleMapsListing": false,
+    "locationAccuracy": "尚無可可靠配對的正式門牌或路口；案件保留於表格，暫不顯示地圖標記",
+    "governmentId": "113建字第0069號",
+    "governmentStatus": "申報備查 1140102",
+    "permit": "113建字第0069號",
+    "households": "7",
+    "buildingLand": "仁愛段三小段24地號",
+    "lines": []
   },
   {
     "id": "registry-台北市-大安區-仁愛臻寶",
@@ -2278,7 +3907,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1150420",
     "permit": "110建字第0235號",
     "households": "6",
-    "buildingLand": "懷生段三小段589地號"
+    "buildingLand": "懷生段三小段589地號",
+    "lines": [
+      "R"
+    ]
   },
   {
     "id": "registry-台北市-大安區-友座安森",
@@ -2308,7 +3940,78 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1110208",
     "permit": "110建字第0292號",
     "households": "26",
-    "buildingLand": "懷生段四小段547地號"
+    "buildingLand": "懷生段四小段547地號",
+    "lines": [
+      "BL",
+      "O"
+    ]
+  },
+  {
+    "id": "registry-台北市-大安區-太平洋敦南麗舍",
+    "name": "太平洋敦南麗舍",
+    "city": "台北市",
+    "district": "大安區",
+    "station": "忠孝復興",
+    "walk": 5,
+    "address": "台北市大安區敦化南路一段177巷49號",
+    "builder": "備查起造人：太平洋建設股份有限公司",
+    "rating": "C",
+    "ratingBasis": "官方備查起造人可辨識為建設／開發公司；暫列 C，待更多履歷資料再調整",
+    "status": "近期完工",
+    "completion": "第一次登記 1150120",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": 25.043675058119728,
+    "lng": 121.54674865504897,
+    "source": "內政部預售屋備查＋官方門牌座標",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": true,
+    "locationStatus": "verified",
+    "googleMapsListing": false,
+    "locationAccuracy": "政府備查門牌配對；官方門牌座標至 忠孝復興 最近出口直線約 272 公尺，步行時間為保守估算",
+    "governmentId": "110建字第0102號",
+    "governmentStatus": "申報備查 1100917",
+    "permit": "110建字第0102號",
+    "households": "46",
+    "buildingLand": "仁愛段六小段305地號",
+    "lines": [
+      "BR",
+      "BL"
+    ]
+  },
+  {
+    "id": "registry-台北市-大安區-文与堂",
+    "name": "文与堂",
+    "city": "台北市",
+    "district": "大安區",
+    "station": "台電大樓",
+    "walk": 5,
+    "address": "台北市大安區古風里泰順街62巷與辛亥路一段77巷口",
+    "builder": "備查起造人：立樺建設股份有限公司",
+    "rating": "C",
+    "ratingBasis": "官方備查起造人可辨識為建設／開發公司；暫列 C，待更多履歷資料再調整",
+    "status": "預售備查",
+    "completion": "依官方備查時程",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": 25.022100937940372,
+    "lng": 121.53129924114197,
+    "source": "內政部預售屋備查＋官方門牌座標",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": true,
+    "locationStatus": "verified",
+    "googleMapsListing": false,
+    "locationAccuracy": "辛亥路一段／泰順街路口定位；官方門牌座標至 台電大樓 最近出口直線約 307 公尺，步行時間為保守估算",
+    "governmentId": "111建字第0323號",
+    "governmentStatus": "申報備查 1130411",
+    "permit": "111建字第0323號",
+    "households": "96",
+    "buildingLand": "龍泉段二小段771地號",
+    "lines": [
+      "G"
+    ]
   },
   {
     "id": "registry-台北市-大安區-文普享享瑞安",
@@ -2338,7 +4041,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1110506",
     "permit": "110建字第0358號",
     "households": "21",
-    "buildingLand": "瑞安段三小段650地號"
+    "buildingLand": "瑞安段三小段650地號",
+    "lines": [
+      "BR"
+    ]
   },
   {
     "id": "registry-台北市-大安區-永陞信義安和案",
@@ -2368,7 +4074,76 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1120508",
     "permit": "112建字第0100號",
     "households": "50",
-    "buildingLand": "通化段四小段336地號"
+    "buildingLand": "通化段四小段336地號",
+    "lines": []
+  },
+  {
+    "id": "registry-台北市-大安區-永陞韶華-華年(工研館)",
+    "name": "永陞韶華-華年(工研館)",
+    "city": "台北市",
+    "district": "大安區",
+    "station": "忠孝復興",
+    "walk": 3,
+    "address": "台北市大安區民輝里忠孝東路三段40號",
+    "builder": "備查起造人：永陞建設股份有限公司",
+    "rating": "C",
+    "ratingBasis": "官方備查起造人可辨識為建設／開發公司；暫列 C，待更多履歷資料再調整",
+    "status": "預售備查",
+    "completion": "依官方備查時程",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": 25.040197120175886,
+    "lng": 121.54244976162104,
+    "source": "內政部預售屋備查＋官方門牌座標",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": true,
+    "locationStatus": "verified",
+    "googleMapsListing": false,
+    "locationAccuracy": "政府備查門牌配對；官方門牌座標至 忠孝復興 最近出口直線約 155 公尺，步行時間為保守估算",
+    "governmentId": "112建字第0002號",
+    "governmentStatus": "申報備查 1120207",
+    "permit": "112建字第0002號",
+    "households": "84",
+    "buildingLand": "懷生段三小段432地號",
+    "lines": [
+      "BR",
+      "BL"
+    ]
+  },
+  {
+    "id": "registry-台北市-大安區-永陞韶華-韶光(大安館)",
+    "name": "永陞韶華-韶光(大安館)",
+    "city": "台北市",
+    "district": "大安區",
+    "station": "忠孝新生",
+    "walk": 3,
+    "address": "台北市大安區民輝里忠孝東路三段10巷1號",
+    "builder": "備查起造人：永陞建設股份有限公司",
+    "rating": "C",
+    "ratingBasis": "官方備查起造人可辨識為建設／開發公司；暫列 C，待更多履歷資料再調整",
+    "status": "預售備查",
+    "completion": "依官方備查時程",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": 25.04221387960377,
+    "lng": 121.53551459356879,
+    "source": "內政部預售屋備查＋官方門牌座標",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": true,
+    "locationStatus": "verified",
+    "googleMapsListing": false,
+    "locationAccuracy": "政府備查門牌配對；官方門牌座標至 忠孝新生 最近出口直線約 191 公尺，步行時間為保守估算",
+    "governmentId": "112建字第0227號",
+    "governmentStatus": "申報備查 1121004",
+    "permit": "112建字第0227號",
+    "households": "64",
+    "buildingLand": "懷生段三小段436地號",
+    "lines": [
+      "BL",
+      "O"
+    ]
   },
   {
     "id": "registry-台北市-大安區-全坤御大安",
@@ -2398,7 +4173,44 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1121004",
     "permit": "112建字第0186號",
     "households": "52",
-    "buildingLand": "大安段一小段404地號"
+    "buildingLand": "大安段一小段404地號",
+    "lines": [
+      "BR",
+      "R"
+    ]
+  },
+  {
+    "id": "registry-台北市-大安區-全坤御峰",
+    "name": "全坤御峰",
+    "city": "台北市",
+    "district": "大安區",
+    "station": "六張犁",
+    "walk": 6,
+    "address": "台北市大安區樂業街94巷",
+    "builder": "備查起造人：國家住宅及都市更新中心(代理董事長:花敬群).全坤建設開發股份有限公司",
+    "rating": "C",
+    "ratingBasis": "官方備查起造人可辨識為建設／開發公司；暫列 C，待更多履歷資料再調整",
+    "status": "預售備查",
+    "completion": "依官方備查時程",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": 25.020942928272348,
+    "lng": 121.55101619652375,
+    "source": "內政部預售屋備查＋官方門牌座標",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": false,
+    "locationStatus": "estimated",
+    "googleMapsListing": false,
+    "locationAccuracy": "政府備查巷弄範圍定位（13 個官方門牌範圍）；官方門牌座標至 六張犁 最近出口直線約 367 公尺，步行時間為保守估算",
+    "governmentId": "113建字第0049號",
+    "governmentStatus": "申報備查 1130327",
+    "permit": "113建字第0049號",
+    "households": "248",
+    "buildingLand": "辛亥段四小段61地號",
+    "lines": [
+      "BR"
+    ]
   },
   {
     "id": "registry-台北市-大安區-有青鳥",
@@ -2423,12 +4235,77 @@ export const matureRegistryProjects = [
     "verified": false,
     "locationStatus": "estimated",
     "googleMapsListing": false,
-    "locationAccuracy": "政府備查巷弄範圍定位（108 個官方門牌範圍）；官方門牌座標至 大安森林公園 最近出口直線約 123 公尺，步行時間為保守估算",
+    "locationAccuracy": "政府備查巷弄範圍定位（108 個官方門牌範圍）；官方門牌座標至 大安森林公園 最近出口直線約 113 公尺，步行時間為保守估算",
     "governmentId": "107建字第0226",
     "governmentStatus": "申報備查 1110729",
     "permit": "107建字第0226",
     "households": "20",
-    "buildingLand": "懷生段四小段319地號"
+    "buildingLand": "懷生段四小段319地號",
+    "lines": [
+      "R"
+    ]
+  },
+  {
+    "id": "registry-台北市-大安區-吾雙",
+    "name": "吾雙",
+    "city": "台北市",
+    "district": "大安區",
+    "station": "待定位",
+    "walk": null,
+    "address": "台北市大安區信義路四段",
+    "builder": "備查起造人：華璞建設股份有限公司",
+    "rating": "C",
+    "ratingBasis": "官方備查起造人可辨識為建設／開發公司；暫列 C，待更多履歷資料再調整",
+    "status": "預售備查",
+    "completion": "依官方備查時程",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": null,
+    "lng": null,
+    "source": "內政部預售屋備查",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": false,
+    "locationStatus": "unlocated",
+    "googleMapsListing": false,
+    "locationAccuracy": "尚無可可靠配對的正式門牌或路口；案件保留於表格，暫不顯示地圖標記",
+    "governmentId": "112 建字第0240 號",
+    "governmentStatus": "申報備查 1130619",
+    "permit": "112 建字第0240 號",
+    "households": "352",
+    "buildingLand": "通化段一小段113地號",
+    "lines": []
+  },
+  {
+    "id": "registry-台北市-大安區-宏普建設台灣川普瑞閣",
+    "name": "宏普建設台灣川普瑞閣",
+    "city": "台北市",
+    "district": "大安區",
+    "station": "待定位",
+    "walk": null,
+    "address": "台北市大安區忠孝東路三段279號2樓 共30筆",
+    "builder": "備查起造人：宏普建設股份有限公司",
+    "rating": "A",
+    "ratingBasis": "依已確認建商品牌套用本站評級",
+    "status": "預售備查",
+    "completion": "依官方備查時程",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": null,
+    "lng": null,
+    "source": "內政部預售屋備查",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": false,
+    "locationStatus": "unlocated",
+    "googleMapsListing": false,
+    "locationAccuracy": "尚無可可靠配對的正式門牌或路口；案件保留於表格，暫不顯示地圖標記",
+    "governmentId": "113建字第0196號",
+    "governmentStatus": "申報備查 1130918",
+    "permit": "113建字第0196號",
+    "households": "123",
+    "buildingLand": "懷生段一小段422地號",
+    "lines": []
   },
   {
     "id": "registry-台北市-大安區-志榮安邸",
@@ -2458,7 +4335,72 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1140609",
     "permit": "114建字第0090號",
     "households": "39",
-    "buildingLand": "仁愛段三小段579地號"
+    "buildingLand": "仁愛段三小段579地號",
+    "lines": [
+      "R"
+    ]
+  },
+  {
+    "id": "registry-台北市-大安區-亞昕敦南",
+    "name": "亞昕敦南",
+    "city": "台北市",
+    "district": "大安區",
+    "station": "待定位",
+    "walk": null,
+    "address": "台北市大安區敦南街103號 共11筆",
+    "builder": "備查起造人：臺億建築經理股份有限公司",
+    "rating": "NR",
+    "ratingBasis": "官方備查有起造人，但可能是建經公司、金融機構或自然人，尚未可靠對應建商品牌",
+    "status": "近期完工",
+    "completion": "第一次登記 1150602",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": null,
+    "lng": null,
+    "source": "內政部預售屋備查",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": false,
+    "locationStatus": "unlocated",
+    "googleMapsListing": false,
+    "locationAccuracy": "尚無可可靠配對的正式門牌或路口；案件保留於表格，暫不顯示地圖標記",
+    "governmentId": "110建字第0137號",
+    "governmentStatus": "申報備查 1110523",
+    "permit": "110建字第0137號",
+    "households": "56",
+    "buildingLand": "學府段一小段280地號",
+    "lines": []
+  },
+  {
+    "id": "registry-台北市-大安區-枝盈",
+    "name": "枝盈",
+    "city": "台北市",
+    "district": "大安區",
+    "station": "待定位",
+    "walk": null,
+    "address": "台北市大安區金山南路二段31巷9之1號等九筆",
+    "builder": "備查起造人：日冠建設股份有限公司",
+    "rating": "C",
+    "ratingBasis": "官方備查起造人可辨識為建設／開發公司；暫列 C，待更多履歷資料再調整",
+    "status": "預售備查",
+    "completion": "依官方備查時程",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": null,
+    "lng": null,
+    "source": "內政部預售屋備查",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": false,
+    "locationStatus": "unlocated",
+    "googleMapsListing": false,
+    "locationAccuracy": "尚無可可靠配對的正式門牌或路口；案件保留於表格，暫不顯示地圖標記",
+    "governmentId": "111建字第0208號",
+    "governmentStatus": "申報備查 1110719",
+    "permit": "111建字第0208號",
+    "households": "31",
+    "buildingLand": "金華段三小段56地號",
+    "lines": []
   },
   {
     "id": "registry-台北市-大安區-附中仁",
@@ -2488,7 +4430,11 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1110215",
     "permit": "110建字第0346號",
     "households": "36",
-    "buildingLand": "復興段三小段235地號"
+    "buildingLand": "復興段三小段235地號",
+    "lines": [
+      "BR",
+      "R"
+    ]
   },
   {
     "id": "registry-台北市-大安區-青田618",
@@ -2518,7 +4464,44 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1101021",
     "permit": "109建字第0135號",
     "households": "55",
-    "buildingLand": "金華段二小段244地號"
+    "buildingLand": "金華段二小段244地號",
+    "lines": [
+      "O",
+      "R"
+    ]
+  },
+  {
+    "id": "registry-台北市-大安區-青田玉",
+    "name": "青田玉",
+    "city": "台北市",
+    "district": "大安區",
+    "station": "大安森林公園",
+    "walk": 13,
+    "address": "台北市大安區和平東路一段193號2樓 共10筆",
+    "builder": "備查起造人：裕英建設有限公司",
+    "rating": "C",
+    "ratingBasis": "官方備查起造人可辨識為建設／開發公司；暫列 C，待更多履歷資料再調整",
+    "status": "近期完工",
+    "completion": "第一次登記 1150820",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": 25.02636620673946,
+    "lng": 121.53379196513174,
+    "source": "內政部預售屋備查＋官方門牌座標",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": true,
+    "locationStatus": "verified",
+    "googleMapsListing": false,
+    "locationAccuracy": "政府備查門牌配對；官方門牌座標至 大安森林公園 最近出口直線約 784 公尺，步行時間為保守估算",
+    "governmentId": "110建字第0306號",
+    "governmentStatus": "申報備查 1130604",
+    "permit": "110建字第0306號",
+    "households": "50",
+    "buildingLand": "金華段二小段387地號",
+    "lines": [
+      "R"
+    ]
   },
   {
     "id": "registry-台北市-大安區-青琉",
@@ -2548,7 +4531,75 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1110317",
     "permit": "111建字第0018號",
     "households": "17",
-    "buildingLand": "金華段二小段343地號"
+    "buildingLand": "金華段二小段343地號",
+    "lines": [
+      "R"
+    ]
+  },
+  {
+    "id": "registry-台北市-大安區-品嘉敦品藏",
+    "name": "品嘉敦品藏",
+    "city": "台北市",
+    "district": "大安區",
+    "station": "大安",
+    "walk": 6,
+    "address": "台北市大安區群賢里四維路216巷15之1號 共4筆",
+    "builder": "備查起造人：品嘉建設股份有限公司",
+    "rating": "C",
+    "ratingBasis": "官方備查起造人可辨識為建設／開發公司；暫列 C，待更多履歷資料再調整",
+    "status": "近期完工",
+    "completion": "第一次登記 1141229",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": 25.035616706653503,
+    "lng": 121.54695163946538,
+    "source": "內政部預售屋備查＋官方門牌座標",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": true,
+    "locationStatus": "verified",
+    "googleMapsListing": false,
+    "locationAccuracy": "政府備查門牌配對；官方門牌座標至 大安 最近出口直線約 369 公尺，步行時間為保守估算",
+    "governmentId": "111建字第0262號",
+    "governmentStatus": "申報備查 1120119",
+    "permit": "111建字第0262號",
+    "households": "27",
+    "buildingLand": "大安段三小段220地號",
+    "lines": [
+      "BR",
+      "R"
+    ]
+  },
+  {
+    "id": "registry-台北市-大安區-耑序",
+    "name": "耑序",
+    "city": "台北市",
+    "district": "大安區",
+    "station": "待定位",
+    "walk": null,
+    "address": "台北市大安區建安里敦化南路一段187巷",
+    "builder": "備查起造人：大陸建設股份有限公司",
+    "rating": "A",
+    "ratingBasis": "依已確認建商品牌套用本站評級",
+    "status": "預售備查",
+    "completion": "依官方備查時程",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": null,
+    "lng": null,
+    "source": "內政部預售屋備查",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": false,
+    "locationStatus": "unlocated",
+    "googleMapsListing": false,
+    "locationAccuracy": "尚無可可靠配對的正式門牌或路口；案件保留於表格，暫不顯示地圖標記",
+    "governmentId": "110建字第0228號",
+    "governmentStatus": "申報備查 1101103",
+    "permit": "110建字第0228號",
+    "households": "61",
+    "buildingLand": "仁愛段六小段418-1地號",
+    "lines": []
   },
   {
     "id": "registry-台北市-大安區-耑岫",
@@ -2578,7 +4629,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1120614",
     "permit": "112建字第0121號",
     "households": "90",
-    "buildingLand": "通化段五小段40地號"
+    "buildingLand": "通化段五小段40地號",
+    "lines": []
   },
   {
     "id": "registry-台北市-大安區-師大浦玉",
@@ -2608,7 +4660,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1110104",
     "permit": "110建字0205號",
     "households": "15",
-    "buildingLand": "龍泉段三小段430地號"
+    "buildingLand": "龍泉段三小段430地號",
+    "lines": []
   },
   {
     "id": "registry-台北市-大安區-桓桓溫州",
@@ -2638,7 +4691,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1120113",
     "permit": "106建字第0111號",
     "households": "78",
-    "buildingLand": "龍泉段一小段206地號"
+    "buildingLand": "龍泉段一小段206地號",
+    "lines": [
+      "G"
+    ]
   },
   {
     "id": "registry-台北市-大安區-真?和光",
@@ -2668,7 +4724,11 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1130826",
     "permit": "113建字第0136號",
     "households": "29",
-    "buildingLand": "懷生段三小段458地號"
+    "buildingLand": "懷生段三小段458地號",
+    "lines": [
+      "BR",
+      "BL"
+    ]
   },
   {
     "id": "registry-台北市-大安區-國美瑞安",
@@ -2698,7 +4758,42 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1131107",
     "permit": "113建字第0073號",
     "households": "38",
-    "buildingLand": "瑞安段三小段215地號"
+    "buildingLand": "瑞安段三小段215地號",
+    "lines": []
+  },
+  {
+    "id": "registry-台北市-大安區-將捷之琚",
+    "name": "將捷之琚",
+    "city": "台北市",
+    "district": "大安區",
+    "station": "忠孝復興",
+    "walk": 1,
+    "address": "台北市大安區忠孝東路四段181巷35弄16號",
+    "builder": "備查起造人：將捷建設股份有限公司",
+    "rating": "B",
+    "ratingBasis": "依已確認建商品牌套用本站評級",
+    "status": "預售備查",
+    "completion": "依官方備查時程",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": 25.042357700140382,
+    "lng": 121.54440573052919,
+    "source": "內政部預售屋備查＋官方門牌座標",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": true,
+    "locationStatus": "verified",
+    "googleMapsListing": false,
+    "locationAccuracy": "政府備查門牌配對；官方門牌座標至 忠孝復興 最近出口直線約 57 公尺，步行時間為保守估算",
+    "governmentId": "112建字第0053號",
+    "governmentStatus": "申報備查 1120413",
+    "permit": "112建字第0053號",
+    "households": "26",
+    "buildingLand": "仁愛段六小段265地號",
+    "lines": [
+      "BR",
+      "BL"
+    ]
   },
   {
     "id": "registry-台北市-大安區-連雲玥?",
@@ -2728,7 +4823,106 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1111013",
     "permit": "111建字第0276號",
     "households": "190",
-    "buildingLand": "懷生段一小段726地號"
+    "buildingLand": "懷生段一小段726地號",
+    "lines": []
+  },
+  {
+    "id": "registry-台北市-大安區-富邦藝庭",
+    "name": "富邦藝庭",
+    "city": "台北市",
+    "district": "大安區",
+    "station": "待定位",
+    "walk": null,
+    "address": "台北市大安區仁愛路三段143巷49、53、51號",
+    "builder": "備查起造人：富邦建設股份有限公司",
+    "rating": "A",
+    "ratingBasis": "依已確認建商品牌套用本站評級",
+    "status": "預售備查",
+    "completion": "依官方備查時程",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": null,
+    "lng": null,
+    "source": "內政部預售屋備查",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": false,
+    "locationStatus": "unlocated",
+    "googleMapsListing": false,
+    "locationAccuracy": "尚無可可靠配對的正式門牌或路口；案件保留於表格，暫不顯示地圖標記",
+    "governmentId": "111建字第0295號",
+    "governmentStatus": "申報備查 1120509",
+    "permit": "111建字第0295號",
+    "households": "108",
+    "buildingLand": "懷生段二小段5-4地號",
+    "lines": []
+  },
+  {
+    "id": "registry-台北市-大安區-富邦藝樹",
+    "name": "富邦藝樹",
+    "city": "台北市",
+    "district": "大安區",
+    "station": "忠孝敦化",
+    "walk": 3,
+    "address": "台北市大安區建安里敦化南路一段161巷5弄6號2樓",
+    "builder": "備查起造人：富邦建設股份有限公司",
+    "rating": "A",
+    "ratingBasis": "依已確認建商品牌套用本站評級",
+    "status": "預售備查",
+    "completion": "依官方備查時程",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": 25.040809030523953,
+    "lng": 121.54773489284005,
+    "source": "內政部預售屋備查＋官方門牌座標",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": true,
+    "locationStatus": "verified",
+    "googleMapsListing": false,
+    "locationAccuracy": "政府備查門牌配對；官方門牌座標至 忠孝敦化 最近出口直線約 147 公尺，步行時間為保守估算",
+    "governmentId": "109建字第0243號",
+    "governmentStatus": "申報備查 1100705",
+    "permit": "109建字第0243號",
+    "households": "60",
+    "buildingLand": "仁愛段六小段244地號",
+    "lines": [
+      "BL"
+    ]
+  },
+  {
+    "id": "registry-台北市-大安區-富藝居",
+    "name": "富藝居",
+    "city": "台北市",
+    "district": "大安區",
+    "station": "大安",
+    "walk": 2,
+    "address": "台北市大安區信義路四段30巷23號",
+    "builder": "備查起造人：富邦建設股份有限公司",
+    "rating": "A",
+    "ratingBasis": "依已確認建商品牌套用本站評級",
+    "status": "預售備查",
+    "completion": "依官方備查時程",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": 25.033550308834897,
+    "lng": 121.54460481067966,
+    "source": "內政部預售屋備查＋官方門牌座標",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": true,
+    "locationStatus": "verified",
+    "googleMapsListing": false,
+    "locationAccuracy": "政府備查門牌配對；官方門牌座標至 大安 最近出口直線約 79 公尺，步行時間為保守估算",
+    "governmentId": "114建字第0096號",
+    "governmentStatus": "申報備查 1140725",
+    "permit": "114建字第0096號",
+    "households": "172",
+    "buildingLand": "大安段一小段267地號",
+    "lines": [
+      "BR",
+      "R"
+    ]
   },
   {
     "id": "registry-台北市-大安區-敦南竣",
@@ -2758,7 +4952,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1100816",
     "permit": "110建字第0199號",
     "households": "20",
-    "buildingLand": "大安段二小段85地號"
+    "buildingLand": "大安段二小段85地號",
+    "lines": [
+      "BR"
+    ]
   },
   {
     "id": "registry-台北市-大安區-敦南詠?",
@@ -2788,7 +4985,43 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1131129",
     "permit": "113建字第0233號",
     "households": "52",
-    "buildingLand": "大安段三小段243地號"
+    "buildingLand": "大安段三小段243地號",
+    "lines": [
+      "BR"
+    ]
+  },
+  {
+    "id": "registry-台北市-大安區-敦南霖園",
+    "name": "敦南霖園",
+    "city": "台北市",
+    "district": "大安區",
+    "station": "忠孝敦化",
+    "walk": 8,
+    "address": "台北市大安區敦化南路一段288號",
+    "builder": "備查起造人：國泰建設股份有限公司",
+    "rating": "A",
+    "ratingBasis": "依已確認建商品牌套用本站評級",
+    "status": "預售備查",
+    "completion": "依官方備查時程",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": 25.03652860858949,
+    "lng": 121.54842515649369,
+    "source": "內政部預售屋備查＋官方門牌座標",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": true,
+    "locationStatus": "verified",
+    "googleMapsListing": false,
+    "locationAccuracy": "政府備查門牌配對；官方門牌座標至 忠孝敦化 最近出口直線約 506 公尺，步行時間為保守估算",
+    "governmentId": "110建字第0055號",
+    "governmentStatus": "申報備查 1110926",
+    "permit": "110建字第0055號",
+    "households": "36",
+    "buildingLand": "復興段三小段3地號",
+    "lines": [
+      "BL"
+    ]
   },
   {
     "id": "registry-台北市-大安區-植建築",
@@ -2818,7 +5051,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1111024",
     "permit": "111建字第0109號",
     "households": "27",
-    "buildingLand": "龍泉段一小段116地號"
+    "buildingLand": "龍泉段一小段116地號",
+    "lines": [
+      "G"
+    ]
   },
   {
     "id": "registry-台北市-大安區-統創翼",
@@ -2848,7 +5084,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1120323",
     "permit": "111建字0122號",
     "households": "106",
-    "buildingLand": "懷生段三小段249地號"
+    "buildingLand": "懷生段三小段249地號",
+    "lines": []
   },
   {
     "id": "registry-台北市-大安區-華固大安學府",
@@ -2878,7 +5115,72 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1101207",
     "permit": "110建字第0112號",
     "households": "94",
-    "buildingLand": "學府段一小段593-1地號"
+    "buildingLand": "學府段一小段593-1地號",
+    "lines": []
+  },
+  {
+    "id": "registry-台北市-大安區-德運元鼎",
+    "name": "德運元鼎",
+    "city": "台北市",
+    "district": "大安區",
+    "station": "國父紀念館",
+    "walk": 3,
+    "address": "台北市大安區光復南路240巷25之1號共45筆",
+    "builder": "備查起造人：德運建設股份有限公司",
+    "rating": "C",
+    "ratingBasis": "官方備查起造人可辨識為建設／開發公司；暫列 C，待更多履歷資料再調整",
+    "status": "預售備查",
+    "completion": "依官方備查時程",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": 25.039715706805673,
+    "lng": 121.55634685985436,
+    "source": "內政部預售屋備查＋官方門牌座標",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": true,
+    "locationStatus": "verified",
+    "googleMapsListing": false,
+    "locationAccuracy": "政府備查門牌配對；官方門牌座標至 國父紀念館 最近出口直線約 150 公尺，步行時間為保守估算",
+    "governmentId": "114建字第0018號",
+    "governmentStatus": "申報備查 1140627",
+    "permit": "114建字第0018號",
+    "households": "111",
+    "buildingLand": "仁愛段一小段92地號",
+    "lines": [
+      "BL"
+    ]
+  },
+  {
+    "id": "registry-台北市-大安區-德運安和",
+    "name": "德運安和",
+    "city": "台北市",
+    "district": "大安區",
+    "station": "待定位",
+    "walk": null,
+    "address": "台北市大安區和平東路三段",
+    "builder": "備查起造人：德運建設股份有限公司",
+    "rating": "C",
+    "ratingBasis": "官方備查起造人可辨識為建設／開發公司；暫列 C，待更多履歷資料再調整",
+    "status": "預售備查",
+    "completion": "依官方備查時程",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": null,
+    "lng": null,
+    "source": "內政部預售屋備查",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": false,
+    "locationStatus": "unlocated",
+    "googleMapsListing": false,
+    "locationAccuracy": "尚無可可靠配對的正式門牌或路口；案件保留於表格，暫不顯示地圖標記",
+    "governmentId": "",
+    "governmentStatus": "申報備查 1140310",
+    "permit": "",
+    "households": "187",
+    "buildingLand": "",
+    "lines": []
   },
   {
     "id": "registry-台北市-大安區-樂揚知森",
@@ -2908,7 +5210,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1110418",
     "permit": "111建字第0126號",
     "households": "25",
-    "buildingLand": "懷生段四小段321地號"
+    "buildingLand": "懷生段四小段321地號",
+    "lines": [
+      "R"
+    ]
   },
   {
     "id": "registry-台北市-大安區-潤泰大安富陽",
@@ -2938,7 +5243,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1100702",
     "permit": "108建字第0168號",
     "households": "130",
-    "buildingLand": "辛亥段四小段482地號"
+    "buildingLand": "辛亥段四小段482地號",
+    "lines": [
+      "BR"
+    ]
   },
   {
     "id": "registry-台北市-大安區-衡昀",
@@ -2968,7 +5276,106 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1150128",
     "permit": "114建字第0205號",
     "households": "46",
-    "buildingLand": "復興段一小段434-1地號"
+    "buildingLand": "復興段一小段434-1地號",
+    "lines": [
+      "BR",
+      "BL"
+    ]
+  },
+  {
+    "id": "registry-台北市-大安區-親家JIA",
+    "name": "親家JIA",
+    "city": "台北市",
+    "district": "大安區",
+    "station": "待定位",
+    "walk": null,
+    "address": "台北市大安區安東街",
+    "builder": "備查起造人：親家地產股份有限公司",
+    "rating": "C",
+    "ratingBasis": "官方備查起造人可辨識為建設／開發公司；暫列 C，待更多履歷資料再調整",
+    "status": "預售備查",
+    "completion": "依官方備查時程",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": null,
+    "lng": null,
+    "source": "內政部預售屋備查",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": false,
+    "locationStatus": "unlocated",
+    "googleMapsListing": false,
+    "locationAccuracy": "尚無可可靠配對的正式門牌或路口；案件保留於表格，暫不顯示地圖標記",
+    "governmentId": "106建字第0192號",
+    "governmentStatus": "申報備查 1110127",
+    "permit": "106建字第0192號",
+    "households": "107",
+    "buildingLand": "懷生段一小段32地號",
+    "lines": []
+  },
+  {
+    "id": "registry-台北市-大安區-寶舖全健築知行",
+    "name": "寶舖全健築知行",
+    "city": "台北市",
+    "district": "大安區",
+    "station": "待定位",
+    "walk": null,
+    "address": "台北市大安區復興南路2段142~146之7號 共24筆",
+    "builder": "備查起造人：寶舖建設股份有限公司",
+    "rating": "C",
+    "ratingBasis": "官方備查起造人可辨識為建設／開發公司；暫列 C，待更多履歷資料再調整",
+    "status": "預售備查",
+    "completion": "依官方備查時程",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": null,
+    "lng": null,
+    "source": "內政部預售屋備查",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": false,
+    "locationStatus": "unlocated",
+    "googleMapsListing": false,
+    "locationAccuracy": "尚無可可靠配對的正式門牌或路口；案件保留於表格，暫不顯示地圖標記",
+    "governmentId": "113建字第0151號",
+    "governmentStatus": "申報備查 1130802",
+    "permit": "113建字第0151號",
+    "households": "134",
+    "buildingLand": "瑞安段二小段513地號",
+    "lines": []
+  },
+  {
+    "id": "registry-台北市-大安區-鑄慕",
+    "name": "鑄慕",
+    "city": "台北市",
+    "district": "大安區",
+    "station": "國父紀念館",
+    "walk": 3,
+    "address": "台北市大安區正聲里光復南路260巷25之1號共64筆",
+    "builder": "備查起造人：合眾建築經理股份有限公司",
+    "rating": "NR",
+    "ratingBasis": "官方備查有起造人，但可能是建經公司、金融機構或自然人，尚未可靠對應建商品牌",
+    "status": "預售備查",
+    "completion": "依官方備查時程",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": 25.039715706805673,
+    "lng": 121.55634685985436,
+    "source": "內政部預售屋備查＋官方門牌座標",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": true,
+    "locationStatus": "verified",
+    "googleMapsListing": false,
+    "locationAccuracy": "政府備查門牌配對；官方門牌座標至 國父紀念館 最近出口直線約 150 公尺，步行時間為保守估算",
+    "governmentId": "111建字第0047號",
+    "governmentStatus": "申報備查 1111011",
+    "permit": "111建字第0047號",
+    "households": "226",
+    "buildingLand": "仁愛段一小段114地號",
+    "lines": [
+      "BL"
+    ]
   },
   {
     "id": "registry-台北市-大安區-Diamond Towers-台北之星",
@@ -2998,7 +5405,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1101206",
     "permit": "106建字第0120號",
     "households": "104",
-    "buildingLand": "懷生段二小段44地號"
+    "buildingLand": "懷生段二小段44地號",
+    "lines": []
   },
   {
     "id": "registry-台北市-中山區-?山",
@@ -3028,7 +5436,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1100729",
     "permit": "110建字第0030號",
     "households": "22",
-    "buildingLand": "正義段一小段341地號"
+    "buildingLand": "正義段一小段341地號",
+    "lines": []
   },
   {
     "id": "registry-台北市-中山區-?白",
@@ -3058,7 +5467,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1140616",
     "permit": "111建字第0128號",
     "households": "12",
-    "buildingLand": "德惠段三小段64地號"
+    "buildingLand": "德惠段三小段64地號",
+    "lines": [
+      "O"
+    ]
   },
   {
     "id": "registry-台北市-中山區-八德137",
@@ -3088,7 +5500,11 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1110805",
     "permit": "110建字第0190號",
     "households": "26",
-    "buildingLand": "長安段二小段335地號"
+    "buildingLand": "長安段二小段335地號",
+    "lines": [
+      "BR",
+      "G"
+    ]
   },
   {
     "id": "registry-台北市-中山區-三穎守禮",
@@ -3118,7 +5534,101 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1110720",
     "permit": "111建字第0147號",
     "households": "47",
-    "buildingLand": "正義段二小段437地號"
+    "buildingLand": "正義段二小段437地號",
+    "lines": []
+  },
+  {
+    "id": "registry-台北市-中山區-上城若水",
+    "name": "上城若水",
+    "city": "台北市",
+    "district": "中山區",
+    "station": "待定位",
+    "walk": null,
+    "address": "台北市中山區正義段一小段0842-0000地號等2筆",
+    "builder": "備查起造人：若水環境整合股份有限公司",
+    "rating": "NR",
+    "ratingBasis": "官方備查有起造人，但可能是建經公司、金融機構或自然人，尚未可靠對應建商品牌",
+    "status": "近期完工",
+    "completion": "第一次登記 1150409",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": null,
+    "lng": null,
+    "source": "內政部預售屋備查",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": false,
+    "locationStatus": "unlocated",
+    "googleMapsListing": false,
+    "locationAccuracy": "尚無可可靠配對的正式門牌或路口；案件保留於表格，暫不顯示地圖標記",
+    "governmentId": "111建字第0075號",
+    "governmentStatus": "申報備查 1110315",
+    "permit": "111建字第0075號",
+    "households": "115",
+    "buildingLand": "正義段一小段842地號",
+    "lines": []
+  },
+  {
+    "id": "registry-台北市-中山區-中山?吉美",
+    "name": "中山?吉美",
+    "city": "台北市",
+    "district": "中山區",
+    "station": "待定位",
+    "walk": null,
+    "address": "台北市中山區聚盛里錦州街30巷",
+    "builder": "備查起造人：吉美建設事業股份有限公司",
+    "rating": "C",
+    "ratingBasis": "官方備查起造人可辨識為建設／開發公司；暫列 C，待更多履歷資料再調整",
+    "status": "預售備查",
+    "completion": "依官方備查時程",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": null,
+    "lng": null,
+    "source": "內政部預售屋備查",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": false,
+    "locationStatus": "unlocated",
+    "googleMapsListing": false,
+    "locationAccuracy": "尚無可可靠配對的正式門牌或路口；案件保留於表格，暫不顯示地圖標記",
+    "governmentId": "110建字第0096號",
+    "governmentStatus": "申報備查 1101027",
+    "permit": "110建字第0096號",
+    "households": "197",
+    "buildingLand": "中山段三小段57地號",
+    "lines": []
+  },
+  {
+    "id": "registry-台北市-中山區-中山·吉美",
+    "name": "中山·吉美",
+    "city": "台北市",
+    "district": "中山區",
+    "station": "待定位",
+    "walk": null,
+    "address": "台北市中山區聚盛里錦州街30巷",
+    "builder": "備查起造人：吉美建設事業股份有限公司",
+    "rating": "C",
+    "ratingBasis": "官方備查起造人可辨識為建設／開發公司；暫列 C，待更多履歷資料再調整",
+    "status": "預售備查",
+    "completion": "依官方備查時程",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": null,
+    "lng": null,
+    "source": "內政部預售屋備查",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": false,
+    "locationStatus": "unlocated",
+    "googleMapsListing": false,
+    "locationAccuracy": "尚無可可靠配對的正式門牌或路口；案件保留於表格，暫不顯示地圖標記",
+    "governmentId": "110建字第0096號",
+    "governmentStatus": "申報備查 1110608",
+    "permit": "110建字第0096號",
+    "households": "197",
+    "buildingLand": "中山段三小段57地號",
+    "lines": []
   },
   {
     "id": "registry-台北市-中山區-中山之心",
@@ -3148,7 +5658,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1140205",
     "permit": "110建字第0150號",
     "households": "56",
-    "buildingLand": "中山段一小段573地號"
+    "buildingLand": "中山段一小段573地號",
+    "lines": []
   },
   {
     "id": "registry-台北市-中山區-中山直美",
@@ -3178,7 +5689,41 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1100809",
     "permit": "110建字第0003號",
     "households": "49",
-    "buildingLand": "吉林段四小段481地號"
+    "buildingLand": "吉林段四小段481地號",
+    "lines": []
+  },
+  {
+    "id": "registry-台北市-中山區-中山富寓",
+    "name": "中山富寓",
+    "city": "台北市",
+    "district": "中山區",
+    "station": "中山國小",
+    "walk": 3,
+    "address": "台北市中山區新生北路二段149巷30號等2筆",
+    "builder": "備查起造人：富晟科技股份有限公司",
+    "rating": "NR",
+    "ratingBasis": "官方備查有起造人，但可能是建經公司、金融機構或自然人，尚未可靠對應建商品牌",
+    "status": "預售備查",
+    "completion": "依官方備查時程",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": 25.06199810570271,
+    "lng": 121.52862359140558,
+    "source": "內政部預售屋備查＋官方門牌座標",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": true,
+    "locationStatus": "verified",
+    "googleMapsListing": false,
+    "locationAccuracy": "政府備查門牌配對；官方門牌座標至 中山國小 最近出口直線約 161 公尺，步行時間為保守估算",
+    "governmentId": "112建字第0248號",
+    "governmentStatus": "申報備查 1121108",
+    "permit": "112建字第0248號",
+    "households": "28",
+    "buildingLand": "吉林段三小段188地號",
+    "lines": [
+      "O"
+    ]
   },
   {
     "id": "registry-台北市-中山區-中山晶綻",
@@ -3208,7 +5753,169 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1120320",
     "permit": "111建字第0345號",
     "households": "52",
-    "buildingLand": "正義段四小段383地號"
+    "buildingLand": "正義段四小段383地號",
+    "lines": []
+  },
+  {
+    "id": "registry-台北市-中山區-中山隱",
+    "name": "中山隱",
+    "city": "台北市",
+    "district": "中山區",
+    "station": "中山國小",
+    "walk": 5,
+    "address": "台北市中山區新福里新生北路三段19巷41號2樓共5筆",
+    "builder": "備查起造人：力天開發股份有限公司",
+    "rating": "C",
+    "ratingBasis": "官方備查起造人可辨識為建設／開發公司；暫列 C，待更多履歷資料再調整",
+    "status": "預售備查",
+    "completion": "依官方備查時程",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": 25.064074466998886,
+    "lng": 121.52946818961084,
+    "source": "內政部預售屋備查＋官方門牌座標",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": true,
+    "locationStatus": "verified",
+    "googleMapsListing": false,
+    "locationAccuracy": "政府備查門牌配對；官方門牌座標至 中山國小 最近出口直線約 296 公尺，步行時間為保守估算",
+    "governmentId": "114建字第0215號",
+    "governmentStatus": "申報備查 1150324",
+    "permit": "114建字第0215號",
+    "households": "32",
+    "buildingLand": "德惠段三小段583地號",
+    "lines": [
+      "O"
+    ]
+  },
+  {
+    "id": "registry-台北市-中山區-中山鴻鼎",
+    "name": "中山鴻鼎",
+    "city": "台北市",
+    "district": "中山區",
+    "station": "待定位",
+    "walk": null,
+    "address": "台北市中山區中山北路二段100號",
+    "builder": "備查起造人：利大建設股份有限公司",
+    "rating": "C",
+    "ratingBasis": "官方備查起造人可辨識為建設／開發公司；暫列 C，待更多履歷資料再調整",
+    "status": "近期完工",
+    "completion": "第一次登記 1150707",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": null,
+    "lng": null,
+    "source": "內政部預售屋備查",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": false,
+    "locationStatus": "unlocated",
+    "googleMapsListing": false,
+    "locationAccuracy": "尚無可可靠配對的正式門牌或路口；案件保留於表格，暫不顯示地圖標記",
+    "governmentId": "110建字第0017號",
+    "governmentStatus": "申報備查 1100730",
+    "permit": "110建字第0017號",
+    "households": "52",
+    "buildingLand": "中山段四小段21地號",
+    "lines": []
+  },
+  {
+    "id": "registry-台北市-中山區-中山簡美",
+    "name": "中山簡美",
+    "city": "台北市",
+    "district": "中山區",
+    "station": "待定位",
+    "walk": null,
+    "address": "台北市中山區聚盛里林森北路",
+    "builder": "備查起造人：僑馥建築經理股份有限公司",
+    "rating": "NR",
+    "ratingBasis": "官方備查有起造人，但可能是建經公司、金融機構或自然人，尚未可靠對應建商品牌",
+    "status": "預售備查",
+    "completion": "依官方備查時程",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": null,
+    "lng": null,
+    "source": "內政部預售屋備查",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": false,
+    "locationStatus": "unlocated",
+    "googleMapsListing": false,
+    "locationAccuracy": "尚無可可靠配對的正式門牌或路口；案件保留於表格，暫不顯示地圖標記",
+    "governmentId": "北市111建字第181號",
+    "governmentStatus": "申報備查 1110706",
+    "permit": "北市111建字第181號",
+    "households": "39",
+    "buildingLand": "中山段三小段187地號",
+    "lines": []
+  },
+  {
+    "id": "registry-台北市-中山區-中山麗池",
+    "name": "中山麗池",
+    "city": "台北市",
+    "district": "中山區",
+    "station": "雙連",
+    "walk": 10,
+    "address": "台北市中山區新生北路二段68巷",
+    "builder": "備查起造人：祝園實業股份有限公司",
+    "rating": "NR",
+    "ratingBasis": "官方備查有起造人，但可能是建經公司、金融機構或自然人，尚未可靠對應建商品牌",
+    "status": "預售備查",
+    "completion": "依官方備查時程",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": 25.0565713588702,
+    "lng": 121.52642297789559,
+    "source": "內政部預售屋備查＋官方門牌座標",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": false,
+    "locationStatus": "estimated",
+    "googleMapsListing": false,
+    "locationAccuracy": "政府備查巷弄範圍定位（17 個官方門牌範圍）；官方門牌座標至 雙連 最近出口直線約 589 公尺，步行時間為保守估算",
+    "governmentId": "112建字第0171號",
+    "governmentStatus": "申報備查 1120921",
+    "permit": "112建字第0171號",
+    "households": "364",
+    "buildingLand": "吉林段四小段603地號",
+    "lines": [
+      "R"
+    ]
+  },
+  {
+    "id": "registry-台北市-中山區-中租名笙",
+    "name": "中租名笙",
+    "city": "台北市",
+    "district": "中山區",
+    "station": "行天宮",
+    "walk": 6,
+    "address": "台北市中山區民生東路二段66號",
+    "builder": "備查起造人：中租建設開發股份有限公司",
+    "rating": "C",
+    "ratingBasis": "官方備查起造人可辨識為建設／開發公司；暫列 C，待更多履歷資料再調整",
+    "status": "預售備查",
+    "completion": "依官方備查時程",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": 25.057865711974742,
+    "lng": 121.5297834989617,
+    "source": "內政部預售屋備查＋官方門牌座標",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": true,
+    "locationStatus": "verified",
+    "googleMapsListing": false,
+    "locationAccuracy": "政府備查門牌配對；官方門牌座標至 行天宮 最近出口直線約 330 公尺，步行時間為保守估算",
+    "governmentId": "114建字第0056號",
+    "governmentStatus": "申報備查 1140416",
+    "permit": "114建字第0056號",
+    "households": "44",
+    "buildingLand": "吉林段四小段8地號",
+    "lines": [
+      "O"
+    ]
   },
   {
     "id": "registry-台北市-中山區-日安吉林",
@@ -3238,7 +5945,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1101021",
     "permit": "110建字第0222號",
     "households": "13",
-    "buildingLand": "長安段三小段672地號"
+    "buildingLand": "長安段三小段672地號",
+    "lines": []
   },
   {
     "id": "registry-台北市-中山區-世田安",
@@ -3268,7 +5976,44 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1110107",
     "permit": "111建字第0002號",
     "households": "23",
-    "buildingLand": "長安段四小段125地號"
+    "buildingLand": "長安段四小段125地號",
+    "lines": [
+      "O",
+      "G"
+    ]
+  },
+  {
+    "id": "registry-台北市-中山區-台灣川普素晴",
+    "name": "台灣川普素晴",
+    "city": "台北市",
+    "district": "中山區",
+    "station": "行天宮",
+    "walk": 3,
+    "address": "台北市中山區中原里民生東路二段48號",
+    "builder": "備查起造人：台灣川普建設股份有限公司",
+    "rating": "C",
+    "ratingBasis": "官方備查起造人可辨識為建設／開發公司；暫列 C，待更多履歷資料再調整",
+    "status": "預售備查",
+    "completion": "依官方備查時程",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": 25.060217821908502,
+    "lng": 121.53162810671192,
+    "source": "內政部預售屋備查＋官方門牌座標",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": true,
+    "locationStatus": "verified",
+    "googleMapsListing": false,
+    "locationAccuracy": "政府備查門牌配對；官方門牌座標至 行天宮 最近出口直線約 138 公尺，步行時間為保守估算",
+    "governmentId": "115建字第0043號",
+    "governmentStatus": "申報備查 1150506",
+    "permit": "115建字第0043號",
+    "households": "45",
+    "buildingLand": "吉林段四小段14地號",
+    "lines": [
+      "O"
+    ]
   },
   {
     "id": "registry-台北市-中山區-后麗昕",
@@ -3298,7 +6043,42 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1140213",
     "permit": "113建字第0128號",
     "households": "43",
-    "buildingLand": "長安段四小段319地號"
+    "buildingLand": "長安段四小段319地號",
+    "lines": [
+      "O",
+      "G"
+    ]
+  },
+  {
+    "id": "registry-台北市-中山區-宏盛淬白",
+    "name": "宏盛淬白",
+    "city": "台北市",
+    "district": "中山區",
+    "station": "待定位",
+    "walk": null,
+    "address": "台北市中山區下埤里龍江路429巷",
+    "builder": "備查起造人：宏盛建設股份有限公司",
+    "rating": "A",
+    "ratingBasis": "依已確認建商品牌套用本站評級",
+    "status": "預售備查",
+    "completion": "依官方備查時程",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": null,
+    "lng": null,
+    "source": "內政部預售屋備查",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": false,
+    "locationStatus": "unlocated",
+    "googleMapsListing": false,
+    "locationAccuracy": "尚無可可靠配對的正式門牌或路口；案件保留於表格，暫不顯示地圖標記",
+    "governmentId": "110-0355",
+    "governmentStatus": "申報備查 1120307",
+    "permit": "110-0355",
+    "households": "17",
+    "buildingLand": "榮星段二小段53-2地號",
+    "lines": []
   },
   {
     "id": "registry-台北市-中山區-宏築臻玥",
@@ -3328,7 +6108,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1130704",
     "permit": "113建字第0016號",
     "households": "89",
-    "buildingLand": "長春段二小段295-4地號"
+    "buildingLand": "長春段二小段295-4地號",
+    "lines": [
+      "O"
+    ]
   },
   {
     "id": "registry-台北市-中山區-序東騰",
@@ -3358,7 +6141,11 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1100721",
     "permit": "110建字第0143號",
     "households": "37",
-    "buildingLand": "長安段三小段733地號"
+    "buildingLand": "長安段三小段733地號",
+    "lines": [
+      "O",
+      "G"
+    ]
   },
   {
     "id": "registry-台北市-中山區-沅陞青芷",
@@ -3388,7 +6175,72 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1130426",
     "permit": "112建字第0148號",
     "households": "24",
-    "buildingLand": "德惠段三小段166地號"
+    "buildingLand": "德惠段三小段166地號",
+    "lines": []
+  },
+  {
+    "id": "registry-台北市-中山區-佳元瑞吉",
+    "name": "佳元瑞吉",
+    "city": "台北市",
+    "district": "中山區",
+    "station": "待定位",
+    "walk": null,
+    "address": "台北市中山區吉林路284號2樓，共13筆",
+    "builder": "備查起造人：僑馥建築經理股份有限公司",
+    "rating": "NR",
+    "ratingBasis": "官方備查有起造人，但可能是建經公司、金融機構或自然人，尚未可靠對應建商品牌",
+    "status": "預售備查",
+    "completion": "依官方備查時程",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": null,
+    "lng": null,
+    "source": "內政部預售屋備查",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": false,
+    "locationStatus": "unlocated",
+    "googleMapsListing": false,
+    "locationAccuracy": "尚無可可靠配對的正式門牌或路口；案件保留於表格，暫不顯示地圖標記",
+    "governmentId": "114建字第0060號",
+    "governmentStatus": "申報備查 1140410",
+    "permit": "114建字第0060號",
+    "households": "50",
+    "buildingLand": "吉林段三小段382地號",
+    "lines": []
+  },
+  {
+    "id": "registry-台北市-中山區-佳元當代美術館",
+    "name": "佳元當代美術館",
+    "city": "台北市",
+    "district": "中山區",
+    "station": "中山國小",
+    "walk": 8,
+    "address": "台北市中山區中山區中庄里民生東路二段及新生北路二段",
+    "builder": "備查起造人：佳元地產股份有限公司",
+    "rating": "C",
+    "ratingBasis": "官方備查起造人可辨識為建設／開發公司；暫列 C，待更多履歷資料再調整",
+    "status": "預售備查",
+    "completion": "依官方備查時程",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": 25.05833920950166,
+    "lng": 121.52821726644792,
+    "source": "內政部預售屋備查＋官方門牌座標",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": true,
+    "locationStatus": "verified",
+    "googleMapsListing": false,
+    "locationAccuracy": "新生北路二段／民生東路二段路口定位；官方門牌座標至 中山國小 最近出口直線約 473 公尺，步行時間為保守估算",
+    "governmentId": "113建字第0026號",
+    "governmentStatus": "申報備查 1130322",
+    "permit": "113建字第0026號",
+    "households": "77",
+    "buildingLand": "吉林段三小段801地號",
+    "lines": [
+      "O"
+    ]
   },
   {
     "id": "registry-台北市-中山區-忠泰旭美",
@@ -3418,7 +6270,39 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1101230",
     "permit": "110建字第0036號",
     "households": "84",
-    "buildingLand": "中山段三小段181地號"
+    "buildingLand": "中山段三小段181地號",
+    "lines": []
+  },
+  {
+    "id": "registry-台北市-中山區-昀集柏寓",
+    "name": "昀集柏寓",
+    "city": "台北市",
+    "district": "中山區",
+    "station": "待定位",
+    "walk": null,
+    "address": "台北市中山區民生東路一段",
+    "builder": "備查起造人：晶匯建設開發股份有限公司",
+    "rating": "C",
+    "ratingBasis": "官方備查起造人可辨識為建設／開發公司；暫列 C，待更多履歷資料再調整",
+    "status": "預售備查",
+    "completion": "依官方備查時程",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": null,
+    "lng": null,
+    "source": "內政部預售屋備查",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": false,
+    "locationStatus": "unlocated",
+    "googleMapsListing": false,
+    "locationAccuracy": "尚無可可靠配對的正式門牌或路口；案件保留於表格，暫不顯示地圖標記",
+    "governmentId": "113建字第0087號",
+    "governmentStatus": "申報備查 1130422",
+    "permit": "113建字第0087號",
+    "households": "156",
+    "buildingLand": "中山段三小段277地號",
+    "lines": []
   },
   {
     "id": "registry-台北市-中山區-明明",
@@ -3448,7 +6332,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1140529",
     "permit": "113建字第0132號",
     "households": "19",
-    "buildingLand": "吉林段一小段278地號"
+    "buildingLand": "吉林段一小段278地號",
+    "lines": []
   },
   {
     "id": "registry-台北市-中山區-松江?阡語",
@@ -3478,7 +6363,45 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1130130",
     "permit": "112建字0180號",
     "households": "40",
-    "buildingLand": "吉林段二小段227地號"
+    "buildingLand": "吉林段二小段227地號",
+    "lines": [
+      "O",
+      "G"
+    ]
+  },
+  {
+    "id": "registry-台北市-中山區-松江桓?",
+    "name": "松江桓?",
+    "city": "台北市",
+    "district": "中山區",
+    "station": "松江南京",
+    "walk": 3,
+    "address": "台北市中山區中吉里四平街37號2樓 共8筆",
+    "builder": "備查起造人：桓茂建設股份有限公司",
+    "rating": "C",
+    "ratingBasis": "官方備查起造人可辨識為建設／開發公司；暫列 C，待更多履歷資料再調整",
+    "status": "預售備查",
+    "completion": "依官方備查時程",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": 25.05373527625665,
+    "lng": 121.53178173538699,
+    "source": "內政部預售屋備查＋官方門牌座標",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": true,
+    "locationStatus": "verified",
+    "googleMapsListing": false,
+    "locationAccuracy": "政府備查門牌配對；官方門牌座標至 松江南京 最近出口直線約 167 公尺，步行時間為保守估算",
+    "governmentId": "113建字第5688號",
+    "governmentStatus": "申報備查 1130731",
+    "permit": "113建字第5688號",
+    "households": "55",
+    "buildingLand": "吉林段二小段898地號",
+    "lines": [
+      "O",
+      "G"
+    ]
   },
   {
     "id": "registry-台北市-中山區-松江ONE",
@@ -3508,7 +6431,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1111117",
     "permit": "111建字第0318號",
     "households": "50",
-    "buildingLand": "吉林段一小段281地號"
+    "buildingLand": "吉林段一小段281地號",
+    "lines": [
+      "O"
+    ]
   },
   {
     "id": "registry-台北市-中山區-松江WOW",
@@ -3538,7 +6464,11 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1130423",
     "permit": "112建字 第0276號",
     "households": "30",
-    "buildingLand": "德惠段二小段990地號"
+    "buildingLand": "德惠段二小段990地號",
+    "lines": [
+      "O",
+      "G"
+    ]
   },
   {
     "id": "registry-台北市-中山區-長安馥",
@@ -3568,7 +6498,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1110207",
     "permit": "111建字第0036號",
     "households": "24",
-    "buildingLand": "正義段一小段429地號"
+    "buildingLand": "正義段一小段429地號",
+    "lines": []
   },
   {
     "id": "registry-台北市-中山區-長見豐翠",
@@ -3598,7 +6529,44 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1140529",
     "permit": "113建字第0182號",
     "households": "38",
-    "buildingLand": "中山段一小段339地號"
+    "buildingLand": "中山段一小段339地號",
+    "lines": [
+      "O"
+    ]
+  },
+  {
+    "id": "registry-台北市-中山區-南京阿曼",
+    "name": "南京阿曼",
+    "city": "台北市",
+    "district": "中山區",
+    "station": "南京復興",
+    "walk": 1,
+    "address": "台北市中山區力行里南京東路三段14巷2之1號等4筆",
+    "builder": "備查起造人：阿曼開發股份有限公司",
+    "rating": "C",
+    "ratingBasis": "官方備查起造人可辨識為建設／開發公司；暫列 C，待更多履歷資料再調整",
+    "status": "預售備查",
+    "completion": "依官方備查時程",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": 25.051420376007673,
+    "lng": 121.54337543809714,
+    "source": "內政部預售屋備查＋官方門牌座標",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": true,
+    "locationStatus": "verified",
+    "googleMapsListing": false,
+    "locationAccuracy": "政府備查門牌配對；官方門牌座標至 南京復興 最近出口直線約 46 公尺，步行時間為保守估算",
+    "governmentId": "111建字第0146號",
+    "governmentStatus": "申報備查 1110601",
+    "permit": "111建字第0146號",
+    "households": "82",
+    "buildingLand": "長安段一小段703地號",
+    "lines": [
+      "BR",
+      "G"
+    ]
   },
   {
     "id": "registry-台北市-中山區-南京葒",
@@ -3628,7 +6596,11 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1100720",
     "permit": "109建字0139號",
     "households": "33",
-    "buildingLand": "長安段三小段590地號"
+    "buildingLand": "長安段三小段590地號",
+    "lines": [
+      "O",
+      "G"
+    ]
   },
   {
     "id": "registry-台北市-中山區-恆合中山",
@@ -3658,7 +6630,42 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1130314",
     "permit": "113建字第0041號",
     "households": "83",
-    "buildingLand": "中山段四小段2地號"
+    "buildingLand": "中山段四小段2地號",
+    "lines": []
+  },
+  {
+    "id": "registry-台北市-中山區-恆合鈺璽",
+    "name": "恆合鈺璽",
+    "city": "台北市",
+    "district": "中山區",
+    "station": "南京復興",
+    "walk": 4,
+    "address": "台北市中山區長春路283之1號",
+    "builder": "備查起造人：瑋石建設有限公司",
+    "rating": "C",
+    "ratingBasis": "官方備查起造人可辨識為建設／開發公司；暫列 C，待更多履歷資料再調整",
+    "status": "預售備查",
+    "completion": "依官方備查時程",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": 25.054755480135352,
+    "lng": 121.54152433872439,
+    "source": "內政部預售屋備查＋官方門牌座標",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": true,
+    "locationStatus": "verified",
+    "googleMapsListing": false,
+    "locationAccuracy": "政府備查門牌配對；官方門牌座標至 南京復興 最近出口直線約 244 公尺，步行時間為保守估算",
+    "governmentId": "112建字第0245號",
+    "governmentStatus": "申報備查 1130221",
+    "permit": "112建字第0245號",
+    "households": "131",
+    "buildingLand": "長春段一小段462地號",
+    "lines": [
+      "BR",
+      "G"
+    ]
   },
   {
     "id": "registry-台北市-中山區-春風大院",
@@ -3688,7 +6695,139 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1140918",
     "permit": "114建字第0132號",
     "households": "118",
-    "buildingLand": "長春段一小段12-1地號"
+    "buildingLand": "長春段一小段12-1地號",
+    "lines": [
+      "BR",
+      "G"
+    ]
+  },
+  {
+    "id": "registry-台北市-中山區-原樹",
+    "name": "原樹",
+    "city": "台北市",
+    "district": "中山區",
+    "station": "待定位",
+    "walk": null,
+    "address": "台北市中山區中原街112號",
+    "builder": "備查起造人：郭春利",
+    "rating": "NR",
+    "ratingBasis": "官方備查有起造人，但可能是建經公司、金融機構或自然人，尚未可靠對應建商品牌",
+    "status": "近期完工",
+    "completion": "第一次登記 1150223",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": null,
+    "lng": null,
+    "source": "內政部預售屋備查",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": false,
+    "locationStatus": "unlocated",
+    "googleMapsListing": false,
+    "locationAccuracy": "尚無可可靠配對的正式門牌或路口；案件保留於表格，暫不顯示地圖標記",
+    "governmentId": "110建字第0012號",
+    "governmentStatus": "申報備查 1100923",
+    "permit": "110建字第0012號",
+    "households": "33",
+    "buildingLand": "吉林段三小段258地號",
+    "lines": []
+  },
+  {
+    "id": "registry-台北市-中山區-陞家松博",
+    "name": "陞家松博",
+    "city": "台北市",
+    "district": "中山區",
+    "station": "待定位",
+    "walk": null,
+    "address": "台北市中山區新喜里德惠街189之191號地下共16筆",
+    "builder": "備查起造人：陞家建設股份有限公司",
+    "rating": "C",
+    "ratingBasis": "官方備查起造人可辨識為建設／開發公司；暫列 C，待更多履歷資料再調整",
+    "status": "預售備查",
+    "completion": "依官方備查時程",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": null,
+    "lng": null,
+    "source": "內政部預售屋備查",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": false,
+    "locationStatus": "unlocated",
+    "googleMapsListing": false,
+    "locationAccuracy": "尚無可可靠配對的正式門牌或路口；案件保留於表格，暫不顯示地圖標記",
+    "governmentId": "114建字第0206號",
+    "governmentStatus": "申報備查 1150630",
+    "permit": "114建字第0206號",
+    "households": "40",
+    "buildingLand": "德惠段二小段39地號",
+    "lines": []
+  },
+  {
+    "id": "registry-台北市-中山區-國揚吉麟",
+    "name": "國揚吉麟",
+    "city": "台北市",
+    "district": "中山區",
+    "station": "行天宮",
+    "walk": 6,
+    "address": "台北市中山區吉林路168巷1號",
+    "builder": "備查起造人：國揚實業股份有限公司",
+    "rating": "A",
+    "ratingBasis": "依已確認建商品牌套用本站評級",
+    "status": "預售備查",
+    "completion": "依官方備查時程",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": 25.056883077433387,
+    "lng": 121.52986773281147,
+    "source": "內政部預售屋備查＋官方門牌座標",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": true,
+    "locationStatus": "verified",
+    "googleMapsListing": false,
+    "locationAccuracy": "政府備查門牌配對；官方門牌座標至 行天宮 最近出口直線約 348 公尺，步行時間為保守估算",
+    "governmentId": "111建字第0017號",
+    "governmentStatus": "申報備查 1110322",
+    "permit": "111建字第0017號",
+    "households": "64",
+    "buildingLand": "吉林段四小段63-1地號",
+    "lines": [
+      "O"
+    ]
+  },
+  {
+    "id": "registry-台北市-中山區-國賓皇琚",
+    "name": "國賓皇琚",
+    "city": "台北市",
+    "district": "中山區",
+    "station": "雙連",
+    "walk": 8,
+    "address": "台北市中山區中山北路二段63號",
+    "builder": "備查起造人：國賓大飯店股份有限公司",
+    "rating": "NR",
+    "ratingBasis": "官方備查有起造人，但可能是建經公司、金融機構或自然人，尚未可靠對應建商品牌",
+    "status": "近期完工",
+    "completion": "第一次登記 1130103",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": 25.05589022119003,
+    "lng": 121.52512179137523,
+    "source": "內政部預售屋備查＋官方門牌座標",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": true,
+    "locationStatus": "verified",
+    "googleMapsListing": false,
+    "locationAccuracy": "政府備查門牌配對；官方門牌座標至 雙連 最近出口直線約 486 公尺，步行時間為保守估算",
+    "governmentId": "112建字第0066號",
+    "governmentStatus": "申報備查 1120328",
+    "permit": "112建字第0066號",
+    "households": "75",
+    "buildingLand": "中山段三小段315地號",
+    "lines": [
+      "R"
+    ]
   },
   {
     "id": "registry-台北市-中山區-基泰大直",
@@ -3718,7 +6857,74 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1110106",
     "permit": "110建字第0363號",
     "households": "33",
-    "buildingLand": "北安段一小段161-1地號"
+    "buildingLand": "北安段一小段161-1地號",
+    "lines": [
+      "BR"
+    ]
+  },
+  {
+    "id": "registry-台北市-中山區-御上中山",
+    "name": "御上中山",
+    "city": "台北市",
+    "district": "中山區",
+    "station": "台北車站M2",
+    "walk": 5,
+    "address": "台北市中山區中山北路一段33巷2號共2筆",
+    "builder": "備查起造人：御上建設股份有限公司",
+    "rating": "C",
+    "ratingBasis": "官方備查起造人可辨識為建設／開發公司；暫列 C，待更多履歷資料再調整",
+    "status": "預售備查",
+    "completion": "依官方備查時程",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": 25.048497941904717,
+    "lng": 121.52206646008105,
+    "source": "內政部預售屋備查＋官方門牌座標",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": true,
+    "locationStatus": "verified",
+    "googleMapsListing": false,
+    "locationAccuracy": "政府備查門牌配對；官方門牌座標至 台北車站M2 最近出口直線約 303 公尺，步行時間為保守估算",
+    "governmentId": "112建字第0249號",
+    "governmentStatus": "申報備查 1131125",
+    "permit": "112建字第0249號",
+    "households": "31",
+    "buildingLand": "正義段三小段732地號",
+    "lines": []
+  },
+  {
+    "id": "registry-台北市-中山區-淞暘潮",
+    "name": "淞暘潮",
+    "city": "台北市",
+    "district": "中山區",
+    "station": "中山國小",
+    "walk": 5,
+    "address": "台北市中山區新生北路三段56巷14之1號共25筆",
+    "builder": "備查起造人：淞暘建設股份有限公司",
+    "rating": "C",
+    "ratingBasis": "官方備查起造人可辨識為建設／開發公司；暫列 C，待更多履歷資料再調整",
+    "status": "預售備查",
+    "completion": "依官方備查時程",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": 25.065307795027064,
+    "lng": 121.52693460777053,
+    "source": "內政部預售屋備查＋官方門牌座標",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": true,
+    "locationStatus": "verified",
+    "googleMapsListing": false,
+    "locationAccuracy": "政府備查門牌配對；官方門牌座標至 中山國小 最近出口直線約 275 公尺，步行時間為保守估算",
+    "governmentId": "113建字第0167號",
+    "governmentStatus": "申報備查 1131123",
+    "permit": "113建字第0167號",
+    "households": "64",
+    "buildingLand": "德惠段四小段441地號",
+    "lines": [
+      "O"
+    ]
   },
   {
     "id": "registry-台北市-中山區-紳藏",
@@ -3748,7 +6954,39 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1130815",
     "permit": "112建字第0067號",
     "households": "81",
-    "buildingLand": "長春段一小段172-6地號"
+    "buildingLand": "長春段一小段172-6地號",
+    "lines": []
+  },
+  {
+    "id": "registry-台北市-中山區-森仰",
+    "name": "森仰",
+    "city": "台北市",
+    "district": "中山區",
+    "station": "待定位",
+    "walk": null,
+    "address": "台北市中山區康樂里中山北路二段",
+    "builder": "備查起造人：璞全建設股份有限公司",
+    "rating": "C",
+    "ratingBasis": "官方備查起造人可辨識為建設／開發公司；暫列 C，待更多履歷資料再調整",
+    "status": "預售備查",
+    "completion": "依官方備查時程",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": null,
+    "lng": null,
+    "source": "內政部預售屋備查",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": false,
+    "locationStatus": "unlocated",
+    "googleMapsListing": false,
+    "locationAccuracy": "尚無可可靠配對的正式門牌或路口；案件保留於表格，暫不顯示地圖標記",
+    "governmentId": "112建字第0215號",
+    "governmentStatus": "申報備查 1130305",
+    "permit": "112建字第0215號",
+    "households": "106",
+    "buildingLand": "中山段三小段795地號",
+    "lines": []
   },
   {
     "id": "registry-台北市-中山區-華山松江",
@@ -3778,7 +7016,41 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1140304",
     "permit": "110建字第0051號",
     "households": "62",
-    "buildingLand": "長安段四小段140地號"
+    "buildingLand": "長安段四小段140地號",
+    "lines": []
+  },
+  {
+    "id": "registry-台北市-中山區-華山藝邸",
+    "name": "華山藝邸",
+    "city": "台北市",
+    "district": "中山區",
+    "station": "善導寺",
+    "walk": 8,
+    "address": "台北市中山區市民大道二段67巷",
+    "builder": "備查起造人：共同建設股份有限公司",
+    "rating": "C",
+    "ratingBasis": "官方備查起造人可辨識為建設／開發公司；暫列 C，待更多履歷資料再調整",
+    "status": "近期完工",
+    "completion": "第一次登記 1150105",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": 25.047108998486216,
+    "lng": 121.528866549541,
+    "source": "內政部預售屋備查＋官方門牌座標",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": false,
+    "locationStatus": "estimated",
+    "googleMapsListing": false,
+    "locationAccuracy": "政府備查巷弄範圍定位（30 個官方門牌範圍）；官方門牌座標至 善導寺 最近出口直線約 485 公尺，步行時間為保守估算",
+    "governmentId": "107建字第0222號",
+    "governmentStatus": "申報備查 1130825",
+    "permit": "107建字第0222號",
+    "households": "12",
+    "buildingLand": "正義段一小段593地號",
+    "lines": [
+      "BL"
+    ]
   },
   {
     "id": "registry-台北市-中山區-鄉林中山賦",
@@ -3808,7 +7080,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1120705",
     "permit": "112建字第0138號",
     "households": "129",
-    "buildingLand": "德惠段二小段687-3地號"
+    "buildingLand": "德惠段二小段687-3地號",
+    "lines": [
+      "O"
+    ]
   },
   {
     "id": "registry-台北市-中山區-新潤朗格",
@@ -3838,7 +7113,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1120204",
     "permit": "109建字第0048號",
     "households": "52",
-    "buildingLand": "長春段二小段775地號"
+    "buildingLand": "長春段二小段775地號",
+    "lines": []
   },
   {
     "id": "registry-台北市-中山區-睦月",
@@ -3868,7 +7144,42 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1120308",
     "permit": "112建字第0045號",
     "households": "68",
-    "buildingLand": "長安段四小段50地號"
+    "buildingLand": "長安段四小段50地號",
+    "lines": []
+  },
+  {
+    "id": "registry-台北市-中山區-葉財記愛瑪市",
+    "name": "葉財記愛瑪市",
+    "city": "台北市",
+    "district": "中山區",
+    "station": "忠孝復興",
+    "walk": 7,
+    "address": "台北市中山區埤頭里安東街18之2號共3筆",
+    "builder": "備查起造人：葉財記工程股份有限公司",
+    "rating": "NR",
+    "ratingBasis": "官方備查有起造人，但可能是建經公司、金融機構或自然人，尚未可靠對應建商品牌",
+    "status": "預售備查",
+    "completion": "依官方備查時程",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": 25.04527809012485,
+    "lng": 121.5421701368145,
+    "source": "內政部預售屋備查＋官方門牌座標",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": true,
+    "locationStatus": "verified",
+    "googleMapsListing": false,
+    "locationAccuracy": "政府備查門牌配對；官方門牌座標至 忠孝復興 最近出口直線約 399 公尺，步行時間為保守估算",
+    "governmentId": "114建字第0017號",
+    "governmentStatus": "申報備查 1140321",
+    "permit": "114建字第0017號",
+    "households": "25",
+    "buildingLand": "長安段二小段580-1地號",
+    "lines": [
+      "BR",
+      "BL"
+    ]
   },
   {
     "id": "registry-台北市-中山區-誠美知寓",
@@ -3898,7 +7209,42 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1100920",
     "permit": "110建字第0117號",
     "households": "31",
-    "buildingLand": "長安段一小段56-1地號"
+    "buildingLand": "長安段一小段56-1地號",
+    "lines": [
+      "BR",
+      "G"
+    ]
+  },
+  {
+    "id": "registry-台北市-中山區-達欣文和苑",
+    "name": "達欣文和苑",
+    "city": "台北市",
+    "district": "中山區",
+    "station": "待定位",
+    "walk": null,
+    "address": "台北市中山區力行里朱崙街",
+    "builder": "備查起造人：達欣工程股份有限公司",
+    "rating": "NR",
+    "ratingBasis": "官方備查有起造人，但可能是建經公司、金融機構或自然人，尚未可靠對應建商品牌",
+    "status": "預售備查",
+    "completion": "依官方備查時程",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": null,
+    "lng": null,
+    "source": "內政部預售屋備查",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": false,
+    "locationStatus": "unlocated",
+    "googleMapsListing": false,
+    "locationAccuracy": "尚無可可靠配對的正式門牌或路口；案件保留於表格，暫不顯示地圖標記",
+    "governmentId": "114建字第1168號",
+    "governmentStatus": "申報備查 1141007",
+    "permit": "114建字第1168號",
+    "households": "154",
+    "buildingLand": "長安段一小段454地號",
+    "lines": []
   },
   {
     "id": "registry-台北市-中山區-鉅興藏",
@@ -3928,7 +7274,110 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1120208",
     "permit": "111建字第0338號",
     "households": "28",
-    "buildingLand": "吉林段五小段209地號"
+    "buildingLand": "吉林段五小段209地號",
+    "lines": [
+      "O",
+      "G"
+    ]
+  },
+  {
+    "id": "registry-台北市-中山區-鼎吉中山",
+    "name": "鼎吉中山",
+    "city": "台北市",
+    "district": "中山區",
+    "station": "松江南京",
+    "walk": 11,
+    "address": "台北市中山區新生北路二段137巷1號共12筆 詳建照附表",
+    "builder": "備查起造人：鼎吉開發股份有限公司",
+    "rating": "C",
+    "ratingBasis": "官方備查起造人可辨識為建設／開發公司；暫列 C，待更多履歷資料再調整",
+    "status": "近期完工",
+    "completion": "第一次登記 1150701",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": 25.055395388777622,
+    "lng": 121.52717043425687,
+    "source": "內政部預售屋備查＋官方門牌座標",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": true,
+    "locationStatus": "verified",
+    "googleMapsListing": false,
+    "locationAccuracy": "政府備查門牌配對；官方門牌座標至 松江南京 最近出口直線約 651 公尺，步行時間為保守估算",
+    "governmentId": "111建字第0209號",
+    "governmentStatus": "申報備查 1110720",
+    "permit": "111建字第0209號",
+    "households": "106",
+    "buildingLand": "吉林段三小段228地號",
+    "lines": [
+      "O",
+      "G"
+    ]
+  },
+  {
+    "id": "registry-台北市-中山區-嘉潤一御",
+    "name": "嘉潤一御",
+    "city": "台北市",
+    "district": "中山區",
+    "station": "待定位",
+    "walk": null,
+    "address": "台北市中山區吉林路184號",
+    "builder": "備查起造人：嘉潤建設開發股份有限公司",
+    "rating": "C",
+    "ratingBasis": "官方備查起造人可辨識為建設／開發公司；暫列 C，待更多履歷資料再調整",
+    "status": "預售備查",
+    "completion": "依官方備查時程",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": null,
+    "lng": null,
+    "source": "內政部預售屋備查",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": false,
+    "locationStatus": "unlocated",
+    "googleMapsListing": false,
+    "locationAccuracy": "尚無可可靠配對的正式門牌或路口；案件保留於表格，暫不顯示地圖標記",
+    "governmentId": "112建字第0016號",
+    "governmentStatus": "申報備查 1120206",
+    "permit": "112建字第0016號",
+    "households": "50",
+    "buildingLand": "吉林段四小段4地號",
+    "lines": []
+  },
+  {
+    "id": "registry-台北市-中山區-睿泰?",
+    "name": "睿泰?",
+    "city": "台北市",
+    "district": "中山區",
+    "station": "中山",
+    "walk": 7,
+    "address": "台北市中山區中山北路一段53巷32號 共2筆",
+    "builder": "備查起造人：睿泰建設股份有限公司",
+    "rating": "C",
+    "ratingBasis": "官方備查起造人可辨識為建設／開發公司；暫列 C，待更多履歷資料再調整",
+    "status": "預售備查",
+    "completion": "依官方備查時程",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": 25.049729675898103,
+    "lng": 121.52420249727203,
+    "source": "內政部預售屋備查＋官方門牌座標",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": true,
+    "locationStatus": "verified",
+    "googleMapsListing": false,
+    "locationAccuracy": "政府備查門牌配對；官方門牌座標至 中山 最近出口直線約 432 公尺，步行時間為保守估算",
+    "governmentId": "112建字第0275號",
+    "governmentStatus": "申報備查 1140509",
+    "permit": "112建字第0275號",
+    "households": "40",
+    "buildingLand": "正義段三小段513地號",
+    "lines": [
+      "R",
+      "G"
+    ]
   },
   {
     "id": "registry-台北市-中山區-樂居雲璽",
@@ -3958,7 +7407,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1111026",
     "permit": "111建字第0183號",
     "households": "5",
-    "buildingLand": "正義段一小段211地號"
+    "buildingLand": "正義段一小段211地號",
+    "lines": [
+      "BL"
+    ]
   },
   {
     "id": "registry-台北市-中山區-潮中山",
@@ -3988,7 +7440,43 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1110217",
     "permit": "110建字第0230號",
     "households": "71",
-    "buildingLand": "中山段三小段32地號"
+    "buildingLand": "中山段三小段32地號",
+    "lines": [
+      "BR"
+    ]
+  },
+  {
+    "id": "registry-台北市-中山區-賦格對位",
+    "name": "賦格對位",
+    "city": "台北市",
+    "district": "中山區",
+    "station": "中山國小",
+    "walk": 3,
+    "address": "台北市中山區民權東路二段22號",
+    "builder": "備查起造人：中國建築經理股份有限公司",
+    "rating": "NR",
+    "ratingBasis": "官方備查有起造人，但可能是建經公司、金融機構或自然人，尚未可靠對應建商品牌",
+    "status": "預售備查",
+    "completion": "依官方備查時程",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": 25.062416070976685,
+    "lng": 121.52850645914579,
+    "source": "內政部預售屋備查＋官方門牌座標",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": true,
+    "locationStatus": "verified",
+    "googleMapsListing": false,
+    "locationAccuracy": "政府備查門牌配對；官方門牌座標至 中山國小 最近出口直線約 140 公尺，步行時間為保守估算",
+    "governmentId": "113建字0062號",
+    "governmentStatus": "申報備查 1140711",
+    "permit": "113建字0062號",
+    "households": "202",
+    "buildingLand": "吉林段三小段136地號",
+    "lines": [
+      "O"
+    ]
   },
   {
     "id": "registry-台北市-中山區-震大懷真",
@@ -4018,7 +7506,73 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1110322",
     "permit": "107建字第0250號",
     "households": "111",
-    "buildingLand": "北安段一小段14-2地號"
+    "buildingLand": "北安段一小段14-2地號",
+    "lines": []
+  },
+  {
+    "id": "registry-台北市-中山區-靚安",
+    "name": "靚安",
+    "city": "台北市",
+    "district": "中山區",
+    "station": "待定位",
+    "walk": null,
+    "address": "台北市中山區吉林路490號2樓共3筆",
+    "builder": "備查起造人：久裕盛開發建設股份有限公司",
+    "rating": "C",
+    "ratingBasis": "官方備查起造人可辨識為建設／開發公司；暫列 C，待更多履歷資料再調整",
+    "status": "預售備查",
+    "completion": "依官方備查時程",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": null,
+    "lng": null,
+    "source": "內政部預售屋備查",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": false,
+    "locationStatus": "unlocated",
+    "googleMapsListing": false,
+    "locationAccuracy": "尚無可可靠配對的正式門牌或路口；案件保留於表格，暫不顯示地圖標記",
+    "governmentId": "114建字第0055號",
+    "governmentStatus": "申報備查 1140411",
+    "permit": "114建字第0055號",
+    "households": "20",
+    "buildingLand": "德惠段三小段94地號",
+    "lines": []
+  },
+  {
+    "id": "registry-台北市-中山區-澤暘松江",
+    "name": "澤暘松江",
+    "city": "台北市",
+    "district": "中山區",
+    "station": "松江南京",
+    "walk": 8,
+    "address": "台北市中山區朱園里松江路25巷2號2樓共8筆",
+    "builder": "備查起造人：澤暘建設股份有限公司",
+    "rating": "C",
+    "ratingBasis": "官方備查起造人可辨識為建設／開發公司；暫列 C，待更多履歷資料再調整",
+    "status": "預售備查",
+    "completion": "依官方備查時程",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": 25.04699673335001,
+    "lng": 121.53339233104442,
+    "source": "內政部預售屋備查＋官方門牌座標",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": true,
+    "locationStatus": "verified",
+    "googleMapsListing": false,
+    "locationAccuracy": "政府備查門牌配對；官方門牌座標至 松江南京 最近出口直線約 458 公尺，步行時間為保守估算",
+    "governmentId": "114建字第0111號",
+    "governmentStatus": "申報備查 1140714",
+    "permit": "114建字第0111號",
+    "households": "98",
+    "buildingLand": "長安段四小段181-1地號",
+    "lines": [
+      "O",
+      "G"
+    ]
   },
   {
     "id": "registry-台北市-中山區-璞真之道",
@@ -4048,7 +7602,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1101201",
     "permit": "110建字第0243號",
     "households": "63",
-    "buildingLand": "中山段三小段111地號"
+    "buildingLand": "中山段三小段111地號",
+    "lines": []
   },
   {
     "id": "registry-台北市-中山區-璞園.榮",
@@ -4078,7 +7633,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1100909",
     "permit": "110建字第0006號",
     "households": "113",
-    "buildingLand": "正義段二小段315地號"
+    "buildingLand": "正義段二小段315地號",
+    "lines": []
   },
   {
     "id": "registry-台北市-中山區-璞園百聿",
@@ -4108,7 +7664,11 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1110825",
     "permit": "110建字第0111號",
     "households": "16",
-    "buildingLand": "長安段一小段737地號"
+    "buildingLand": "長安段一小段737地號",
+    "lines": [
+      "O",
+      "G"
+    ]
   },
   {
     "id": "registry-台北市-中山區-馥樂",
@@ -4138,7 +7698,178 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1140107",
     "permit": "111建字第0116號",
     "households": "39",
-    "buildingLand": "榮星段五小段204地號"
+    "buildingLand": "榮星段五小段204地號",
+    "lines": [
+      "BR",
+      "G"
+    ]
+  },
+  {
+    "id": "registry-台北市-中山區-麗明利百代",
+    "name": "麗明利百代",
+    "city": "台北市",
+    "district": "中山區",
+    "station": "雙連",
+    "walk": 6,
+    "address": "台北市中山區中山北路二段45巷21之1號共8筆",
+    "builder": "備查起造人：麗明營造股份有限公司",
+    "rating": "C",
+    "ratingBasis": "官方備查起造人可辨識為建設／開發公司；暫列 C，待更多履歷資料再調整",
+    "status": "預售備查",
+    "completion": "依官方備查時程",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": 25.057573962372302,
+    "lng": 121.52423999739425,
+    "source": "內政部預售屋備查＋官方門牌座標",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": true,
+    "locationStatus": "verified",
+    "googleMapsListing": false,
+    "locationAccuracy": "政府備查門牌配對；官方門牌座標至 雙連 最近出口直線約 357 公尺，步行時間為保守估算",
+    "governmentId": "113建字第0015號",
+    "governmentStatus": "申報備查 1140527",
+    "permit": "113建字第0015號",
+    "households": "58",
+    "buildingLand": "中山段三小段681地號",
+    "lines": [
+      "R"
+    ]
+  },
+  {
+    "id": "registry-台北市-中山區-躍大直",
+    "name": "躍大直",
+    "city": "台北市",
+    "district": "中山區",
+    "station": "大直",
+    "walk": 8,
+    "address": "台北市中山區大直里大直街84巷1號2樓共80筆",
+    "builder": "備查起造人：聖得福建設開發股份有限公司",
+    "rating": "C",
+    "ratingBasis": "官方備查起造人可辨識為建設／開發公司；暫列 C，待更多履歷資料再調整",
+    "status": "預售備查",
+    "completion": "依官方備查時程",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": 25.08450712837046,
+    "lng": 121.54718229941332,
+    "source": "內政部預售屋備查＋官方門牌座標",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": true,
+    "locationStatus": "verified",
+    "googleMapsListing": false,
+    "locationAccuracy": "政府備查門牌配對；官方門牌座標至 大直 最近出口直線約 462 公尺，步行時間為保守估算",
+    "governmentId": "110建字第0016號",
+    "governmentStatus": "申報備查 1110104",
+    "permit": "110建字第0016號",
+    "households": "127",
+    "buildingLand": "北安段一小段165地號",
+    "lines": [
+      "BR"
+    ]
+  },
+  {
+    "id": "registry-台北市-中山區-J PARK-A",
+    "name": "J PARK-A",
+    "city": "台北市",
+    "district": "中山區",
+    "station": "中山",
+    "walk": 3,
+    "address": "台北市中山區長安西路19巷1號",
+    "builder": "備查起造人：三橋建設股份有限公司",
+    "rating": "C",
+    "ratingBasis": "官方備查起造人可辨識為建設／開發公司；暫列 C，待更多履歷資料再調整",
+    "status": "預售備查",
+    "completion": "依官方備查時程",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": 25.050817768269074,
+    "lng": 121.5210808588943,
+    "source": "內政部預售屋備查＋官方門牌座標",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": true,
+    "locationStatus": "verified",
+    "googleMapsListing": false,
+    "locationAccuracy": "政府備查門牌配對；官方門牌座標至 中山 最近出口直線約 174 公尺，步行時間為保守估算",
+    "governmentId": "113建字第0030號",
+    "governmentStatus": "申報備查 1130701",
+    "permit": "113建字第0030號",
+    "households": "94",
+    "buildingLand": "正義段四小段174地號",
+    "lines": [
+      "R",
+      "G"
+    ]
+  },
+  {
+    "id": "registry-台北市-中山區-J PARK-B",
+    "name": "J PARK-B",
+    "city": "台北市",
+    "district": "中山區",
+    "station": "中山",
+    "walk": 3,
+    "address": "台北市中山區長安西路19巷",
+    "builder": "備查起造人：三橋建設股份有限公司",
+    "rating": "C",
+    "ratingBasis": "官方備查起造人可辨識為建設／開發公司；暫列 C，待更多履歷資料再調整",
+    "status": "預售備查",
+    "completion": "依官方備查時程",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": 25.05105622684502,
+    "lng": 121.52082667279916,
+    "source": "內政部預售屋備查＋官方門牌座標",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": false,
+    "locationStatus": "estimated",
+    "googleMapsListing": false,
+    "locationAccuracy": "政府備查巷弄範圍定位（37 個官方門牌範圍）；官方門牌座標至 中山 最近出口直線約 149 公尺，步行時間為保守估算",
+    "governmentId": "113建字第0208號",
+    "governmentStatus": "申報備查 1131009",
+    "permit": "113建字第0208號",
+    "households": "80",
+    "buildingLand": "正義段四小段133地號",
+    "lines": [
+      "R",
+      "G"
+    ]
+  },
+  {
+    "id": "registry-台北市-中山區-TOP31",
+    "name": "TOP31",
+    "city": "台北市",
+    "district": "中山區",
+    "station": "劍南路",
+    "walk": 4,
+    "address": "台北市中山區中山區北安里北安路759巷2號1~5F共27筆",
+    "builder": "備查起造人：聖得福建設開發股份有限公司",
+    "rating": "C",
+    "ratingBasis": "官方備查起造人可辨識為建設／開發公司；暫列 C，待更多履歷資料再調整",
+    "status": "預售備查",
+    "completion": "依官方備查時程",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": 25.086043709445647,
+    "lng": 121.5529149506268,
+    "source": "內政部預售屋備查＋官方門牌座標",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": true,
+    "locationStatus": "verified",
+    "googleMapsListing": false,
+    "locationAccuracy": "政府備查門牌配對；官方門牌座標至 劍南路 最近出口直線約 253 公尺，步行時間為保守估算",
+    "governmentId": "113建字第0188號",
+    "governmentStatus": "申報備查 1131021",
+    "permit": "113建字第0188號",
+    "households": "279",
+    "buildingLand": "北安段一小段60-1地號",
+    "lines": [
+      "BR"
+    ]
   },
   {
     "id": "registry-台北市-中山區-TWIN LINE",
@@ -4168,7 +7899,42 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1130123",
     "permit": "111建自第0161號",
     "households": "34",
-    "buildingLand": "長安段一小段80地號"
+    "buildingLand": "長安段一小段80地號",
+    "lines": [
+      "BR",
+      "G"
+    ]
+  },
+  {
+    "id": "registry-台北市-中正區-中正傑座-甄豪宅",
+    "name": "中正傑座-甄豪宅",
+    "city": "台北市",
+    "district": "中正區",
+    "station": "待定位",
+    "walk": null,
+    "address": "台北市中正區中華路二段117之1號 共4筆",
+    "builder": "備查起造人：傑座建設股份有限公司",
+    "rating": "C",
+    "ratingBasis": "官方備查起造人可辨識為建設／開發公司；暫列 C，待更多履歷資料再調整",
+    "status": "預售備查",
+    "completion": "依官方備查時程",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": null,
+    "lng": null,
+    "source": "內政部預售屋備查",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": false,
+    "locationStatus": "unlocated",
+    "googleMapsListing": false,
+    "locationAccuracy": "尚無可可靠配對的正式門牌或路口；案件保留於表格，暫不顯示地圖標記",
+    "governmentId": "111建字第0198號",
+    "governmentStatus": "申報備查 1120818",
+    "permit": "111建字第0198號",
+    "households": "20",
+    "buildingLand": "永昌段六小段33地號",
+    "lines": []
   },
   {
     "id": "registry-台北市-中正區-中星仁愛旭",
@@ -4198,7 +7964,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1110120",
     "permit": "110建字第0299號",
     "households": "18",
-    "buildingLand": "中正段一小段425地號"
+    "buildingLand": "中正段一小段425地號",
+    "lines": []
   },
   {
     "id": "registry-台北市-中正區-日健邸",
@@ -4228,7 +7995,72 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1120215",
     "permit": "110建字第0298號",
     "households": "41",
-    "buildingLand": "臨沂段二小段88地號"
+    "buildingLand": "臨沂段二小段88地號",
+    "lines": [
+      "BL"
+    ]
+  },
+  {
+    "id": "registry-台北市-中正區-世達懿居",
+    "name": "世達懿居",
+    "city": "台北市",
+    "district": "中正區",
+    "station": "待定位",
+    "walk": null,
+    "address": "台北市中正區中正區南昌路二段153號",
+    "builder": "備查起造人：世達建設股份有限公司",
+    "rating": "C",
+    "ratingBasis": "官方備查起造人可辨識為建設／開發公司；暫列 C，待更多履歷資料再調整",
+    "status": "近期完工",
+    "completion": "第一次登記 1150518",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": null,
+    "lng": null,
+    "source": "內政部預售屋備查",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": false,
+    "locationStatus": "unlocated",
+    "googleMapsListing": false,
+    "locationAccuracy": "尚無可可靠配對的正式門牌或路口；案件保留於表格，暫不顯示地圖標記",
+    "governmentId": "北市109建字第0173號",
+    "governmentStatus": "申報備查 1120906",
+    "permit": "北市109建字第0173號",
+    "households": "169",
+    "buildingLand": "河堤段二小段143地號",
+    "lines": []
+  },
+  {
+    "id": "registry-台北市-中正區-北城‧羅斯福",
+    "name": "北城‧羅斯福",
+    "city": "台北市",
+    "district": "中正區",
+    "station": "待定位",
+    "walk": null,
+    "address": "台北市中正區中正區頂東里里晉江街147之1號，共12筆，詳見附表",
+    "builder": "備查起造人：北城建設開發股份有限公司",
+    "rating": "C",
+    "ratingBasis": "官方備查起造人可辨識為建設／開發公司；暫列 C，待更多履歷資料再調整",
+    "status": "預售備查",
+    "completion": "依官方備查時程",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": null,
+    "lng": null,
+    "source": "內政部預售屋備查",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": false,
+    "locationStatus": "unlocated",
+    "googleMapsListing": false,
+    "locationAccuracy": "尚無可可靠配對的正式門牌或路口；案件保留於表格，暫不顯示地圖標記",
+    "governmentId": "109建字第0001號",
+    "governmentStatus": "申報備查 1121004",
+    "permit": "109建字第0001號",
+    "households": "77",
+    "buildingLand": "河堤段一小段191地號",
+    "lines": []
   },
   {
     "id": "registry-台北市-中正區-永御樂",
@@ -4258,7 +8090,11 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1130623",
     "permit": "111建字第0290號",
     "households": "18",
-    "buildingLand": "臨沂段一小段614地號"
+    "buildingLand": "臨沂段一小段614地號",
+    "lines": [
+      "BL",
+      "O"
+    ]
   },
   {
     "id": "registry-台北市-中正區-全坤富御",
@@ -4288,7 +8124,73 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1130111",
     "permit": "113建字第0003號",
     "households": "105",
-    "buildingLand": "永昌段一小段277地號"
+    "buildingLand": "永昌段一小段277地號",
+    "lines": [
+      "R",
+      "G"
+    ]
+  },
+  {
+    "id": "registry-台北市-中正區-全坤衡峰",
+    "name": "全坤衡峰",
+    "city": "台北市",
+    "district": "中正區",
+    "station": "待定位",
+    "walk": null,
+    "address": "台北市中正區衡陽路102號",
+    "builder": "備查起造人：全坤建設開發股份有限公司",
+    "rating": "C",
+    "ratingBasis": "官方備查起造人可辨識為建設／開發公司；暫列 C，待更多履歷資料再調整",
+    "status": "預售備查",
+    "completion": "依官方備查時程",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": null,
+    "lng": null,
+    "source": "內政部預售屋備查",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": false,
+    "locationStatus": "unlocated",
+    "googleMapsListing": false,
+    "locationAccuracy": "尚無可可靠配對的正式門牌或路口；案件保留於表格，暫不顯示地圖標記",
+    "governmentId": "113建字第0092號",
+    "governmentStatus": "申報備查 1130509",
+    "permit": "113建字第0092號",
+    "households": "194",
+    "buildingLand": "城中段二小段583地號",
+    "lines": []
+  },
+  {
+    "id": "registry-台北市-中正區-向陽上冠",
+    "name": "向陽上冠",
+    "city": "台北市",
+    "district": "中正區",
+    "station": "待定位",
+    "walk": null,
+    "address": "台北市中正區光復里漢口街一段",
+    "builder": "備查起造人：合眾建築經理股份有限公司",
+    "rating": "NR",
+    "ratingBasis": "官方備查有起造人，但可能是建經公司、金融機構或自然人，尚未可靠對應建商品牌",
+    "status": "近期完工",
+    "completion": "第一次登記 1130723",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": null,
+    "lng": null,
+    "source": "內政部預售屋備查",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": false,
+    "locationStatus": "unlocated",
+    "googleMapsListing": false,
+    "locationAccuracy": "尚無可可靠配對的正式門牌或路口；案件保留於表格，暫不顯示地圖標記",
+    "governmentId": "107建字第0128號",
+    "governmentStatus": "申報備查 1110513",
+    "permit": "107建字第0128號",
+    "households": "141",
+    "buildingLand": "城中段一小段147地號",
+    "lines": []
   },
   {
     "id": "registry-台北市-中正區-宏燁文華",
@@ -4318,7 +8220,42 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1140113",
     "permit": "113建字第0083號",
     "households": "32",
-    "buildingLand": "永昌段五小段158地號"
+    "buildingLand": "永昌段五小段158地號",
+    "lines": [
+      "R",
+      "G"
+    ]
+  },
+  {
+    "id": "registry-台北市-中正區-里哲",
+    "name": "里哲",
+    "city": "台北市",
+    "district": "中正區",
+    "station": "待定位",
+    "walk": null,
+    "address": "台北市中正區文盛里羅斯福路三段",
+    "builder": "備查起造人：保強建設開發股份有限公司",
+    "rating": "C",
+    "ratingBasis": "官方備查起造人可辨識為建設／開發公司；暫列 C，待更多履歷資料再調整",
+    "status": "預售備查",
+    "completion": "依官方備查時程",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": null,
+    "lng": null,
+    "source": "內政部預售屋備查",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": false,
+    "locationStatus": "unlocated",
+    "googleMapsListing": false,
+    "locationAccuracy": "尚無可可靠配對的正式門牌或路口；案件保留於表格，暫不顯示地圖標記",
+    "governmentId": "112建字第0163號",
+    "governmentStatus": "申報備查 1130311",
+    "permit": "112建字第0163號",
+    "households": "98",
+    "buildingLand": "福和段一小段536地號",
+    "lines": []
   },
   {
     "id": "registry-台北市-中正區-京典ATELIER 111",
@@ -4348,7 +8285,11 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1150318",
     "permit": "114建字第0209號",
     "households": "19",
-    "buildingLand": "中正段二小段246-1地號"
+    "buildingLand": "中正段二小段246-1地號",
+    "lines": [
+      "O",
+      "R"
+    ]
   },
   {
     "id": "registry-台北市-中正區-明袖寓",
@@ -4378,7 +8319,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1130903",
     "permit": "110建字第0225號",
     "households": "28",
-    "buildingLand": "南海段五小段506-2地號"
+    "buildingLand": "南海段五小段506-2地號",
+    "lines": [
+      "G"
+    ]
   },
   {
     "id": "registry-台北市-中正區-炎洲晴",
@@ -4408,7 +8352,70 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1110520",
     "permit": "111建字第0166號",
     "households": "12",
-    "buildingLand": "南海段三小段798地號"
+    "buildingLand": "南海段三小段798地號",
+    "lines": []
+  },
+  {
+    "id": "registry-台北市-中正區-南風裡",
+    "name": "南風裡",
+    "city": "台北市",
+    "district": "中正區",
+    "station": "待定位",
+    "walk": null,
+    "address": "台北市中正區中正區建國里愛國西路",
+    "builder": "備查起造人：京城國際建築經理股份有限公司",
+    "rating": "NR",
+    "ratingBasis": "官方備查有起造人，但可能是建經公司、金融機構或自然人，尚未可靠對應建商品牌",
+    "status": "預售備查",
+    "completion": "依官方備查時程",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": null,
+    "lng": null,
+    "source": "內政部預售屋備查",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": false,
+    "locationStatus": "unlocated",
+    "googleMapsListing": false,
+    "locationAccuracy": "尚無可可靠配對的正式門牌或路口；案件保留於表格，暫不顯示地圖標記",
+    "governmentId": "108建字0192",
+    "governmentStatus": "申報備查 1130215",
+    "permit": "108建字0192",
+    "households": "35",
+    "buildingLand": "城中段三小段118地號",
+    "lines": []
+  },
+  {
+    "id": "registry-台北市-中正區-南海1號苑",
+    "name": "南海1號苑",
+    "city": "台北市",
+    "district": "中正區",
+    "station": "待定位",
+    "walk": null,
+    "address": "台北市中正區南海路80、82號共二筆",
+    "builder": "備查起造人：禾申山股份有限公司",
+    "rating": "NR",
+    "ratingBasis": "官方備查有起造人，但可能是建經公司、金融機構或自然人，尚未可靠對應建商品牌",
+    "status": "近期完工",
+    "completion": "第一次登記 1140429",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": null,
+    "lng": null,
+    "source": "內政部預售屋備查",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": false,
+    "locationStatus": "unlocated",
+    "googleMapsListing": false,
+    "locationAccuracy": "尚無可可靠配對的正式門牌或路口；案件保留於表格，暫不顯示地圖標記",
+    "governmentId": "109建字第0171號",
+    "governmentStatus": "申報備查 1110718",
+    "permit": "109建字第0171號",
+    "households": "12",
+    "buildingLand": "永昌段五小段86地號",
+    "lines": []
   },
   {
     "id": "registry-台北市-中正區-南海敘",
@@ -4438,7 +8445,106 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1140424",
     "permit": "112建字第0261號",
     "households": "53",
-    "buildingLand": "永昌段四小段369地號"
+    "buildingLand": "永昌段四小段369地號",
+    "lines": [
+      "G"
+    ]
+  },
+  {
+    "id": "registry-台北市-中正區-南陽龍踞",
+    "name": "南陽龍踞",
+    "city": "台北市",
+    "district": "中正區",
+    "station": "待定位",
+    "walk": null,
+    "address": "台北市中正區南陽街21之3號等4筆",
+    "builder": "備查起造人：寶誼資產有限公司",
+    "rating": "NR",
+    "ratingBasis": "官方備查有起造人，但可能是建經公司、金融機構或自然人，尚未可靠對應建商品牌",
+    "status": "預售備查",
+    "completion": "依官方備查時程",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": null,
+    "lng": null,
+    "source": "內政部預售屋備查",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": false,
+    "locationStatus": "unlocated",
+    "googleMapsListing": false,
+    "locationAccuracy": "尚無可可靠配對的正式門牌或路口；案件保留於表格，暫不顯示地圖標記",
+    "governmentId": "113建字第0131號",
+    "governmentStatus": "申報備查 1130710",
+    "permit": "113建字第0131號",
+    "households": "41",
+    "buildingLand": "公園段二小段120地號",
+    "lines": []
+  },
+  {
+    "id": "registry-台北市-中正區-品嘉77",
+    "name": "品嘉77",
+    "city": "台北市",
+    "district": "中正區",
+    "station": "待定位",
+    "walk": null,
+    "address": "台北市中正區漢口街一段75號共三筆",
+    "builder": "備查起造人：品嘉建設股份有限公司",
+    "rating": "C",
+    "ratingBasis": "官方備查起造人可辨識為建設／開發公司；暫列 C，待更多履歷資料再調整",
+    "status": "預售備查",
+    "completion": "依官方備查時程",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": null,
+    "lng": null,
+    "source": "內政部預售屋備查",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": false,
+    "locationStatus": "unlocated",
+    "googleMapsListing": false,
+    "locationAccuracy": "尚無可可靠配對的正式門牌或路口；案件保留於表格，暫不顯示地圖標記",
+    "governmentId": "112建字第0058號",
+    "governmentStatus": "申報備查 1120329",
+    "permit": "112建字第0058號",
+    "households": "42",
+    "buildingLand": "城中段一小段183地號",
+    "lines": []
+  },
+  {
+    "id": "registry-台北市-中正區-恆美無界",
+    "name": "恆美無界",
+    "city": "台北市",
+    "district": "中正區",
+    "station": "忠孝新生",
+    "walk": 2,
+    "address": "台北市中正區新生南路一段150巷2之1號等9筆",
+    "builder": "備查起造人：建築學人地產發展股份有限公司",
+    "rating": "C",
+    "ratingBasis": "官方備查起造人可辨識為建設／開發公司；暫列 C，待更多履歷資料再調整",
+    "status": "預售備查",
+    "completion": "依官方備查時程",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": 25.04363307813331,
+    "lng": 121.5323600874264,
+    "source": "內政部預售屋備查＋官方門牌座標",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": true,
+    "locationStatus": "verified",
+    "googleMapsListing": false,
+    "locationAccuracy": "政府備查門牌配對；官方門牌座標至 忠孝新生 最近出口直線約 109 公尺，步行時間為保守估算",
+    "governmentId": "113建字第0185號",
+    "governmentStatus": "申報備查 1140321",
+    "permit": "113建字第0185號",
+    "households": "86",
+    "buildingLand": "臨沂段三小段219地號",
+    "lines": [
+      "BL",
+      "O"
+    ]
   },
   {
     "id": "registry-台北市-中正區-恆悅植心苑",
@@ -4468,7 +8574,11 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1120410",
     "permit": "112建字第0032號",
     "households": "80",
-    "buildingLand": "南海段五小段702地號"
+    "buildingLand": "南海段五小段702地號",
+    "lines": [
+      "O",
+      "G"
+    ]
   },
   {
     "id": "registry-台北市-中正區-柏金",
@@ -4498,7 +8608,11 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1140619",
     "permit": "113建字第0175號",
     "households": "130",
-    "buildingLand": "臨沂段三小段464地號"
+    "buildingLand": "臨沂段三小段464地號",
+    "lines": [
+      "O",
+      "R"
+    ]
   },
   {
     "id": "registry-台北市-中正區-皇翔柏悅",
@@ -4528,7 +8642,11 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1131106",
     "permit": "113建字第0130號",
     "households": "54",
-    "buildingLand": "中正段二小段552地號"
+    "buildingLand": "中正段二小段552地號",
+    "lines": [
+      "O",
+      "R"
+    ]
   },
   {
     "id": "registry-台北市-中正區-紀州樂章",
@@ -4558,7 +8676,41 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1101031",
     "permit": "110建字第0085號",
     "households": "18",
-    "buildingLand": "河堤段三小段687地號"
+    "buildingLand": "河堤段三小段687地號",
+    "lines": [
+      "G"
+    ]
+  },
+  {
+    "id": "registry-台北市-中正區-首學杭州",
+    "name": "首學杭州",
+    "city": "台北市",
+    "district": "中正區",
+    "station": "待定位",
+    "walk": null,
+    "address": "台北市中正區杭州南路一段旁",
+    "builder": "備查起造人：名軒開發股份有限公司",
+    "rating": "C",
+    "ratingBasis": "官方備查起造人可辨識為建設／開發公司；暫列 C，待更多履歷資料再調整",
+    "status": "預售備查",
+    "completion": "依官方備查時程",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": null,
+    "lng": null,
+    "source": "內政部預售屋備查",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": false,
+    "locationStatus": "unlocated",
+    "googleMapsListing": false,
+    "locationAccuracy": "尚無可可靠配對的正式門牌或路口；案件保留於表格，暫不顯示地圖標記",
+    "governmentId": "111建字第0357號",
+    "governmentStatus": "申報備查 ",
+    "permit": "111建字第0357號",
+    "households": "112",
+    "buildingLand": "中正段一小段31地號",
+    "lines": []
   },
   {
     "id": "registry-台北市-中正區-耕玥",
@@ -4588,7 +8740,11 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1120407",
     "permit": "110建字第0062號",
     "households": "13",
-    "buildingLand": "河堤段五小段148地號"
+    "buildingLand": "河堤段五小段148地號",
+    "lines": [
+      "O",
+      "G"
+    ]
   },
   {
     "id": "registry-台北市-中正區-陞遠琚",
@@ -4618,7 +8774,11 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1130717",
     "permit": "113建字第0075號",
     "households": "36",
-    "buildingLand": "南海段三小段751-1地號"
+    "buildingLand": "南海段三小段751-1地號",
+    "lines": [
+      "R",
+      "G"
+    ]
   },
   {
     "id": "registry-台北市-中正區-國雄中正",
@@ -4648,7 +8808,73 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1100929",
     "permit": "110建字第0027號",
     "households": "89",
-    "buildingLand": "永昌段五小段142-1地號"
+    "buildingLand": "永昌段五小段142-1地號",
+    "lines": [
+      "O",
+      "G"
+    ]
+  },
+  {
+    "id": "registry-台北市-中正區-博愛賦御",
+    "name": "博愛賦御",
+    "city": "台北市",
+    "district": "中正區",
+    "station": "待定位",
+    "walk": null,
+    "address": "台北市中正區博愛路110號 共3筆",
+    "builder": "備查起造人：?正利建設股份有限公司",
+    "rating": "C",
+    "ratingBasis": "官方備查起造人可辨識為建設／開發公司；暫列 C，待更多履歷資料再調整",
+    "status": "預售備查",
+    "completion": "依官方備查時程",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": null,
+    "lng": null,
+    "source": "內政部預售屋備查",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": false,
+    "locationStatus": "unlocated",
+    "googleMapsListing": false,
+    "locationAccuracy": "尚無可可靠配對的正式門牌或路口；案件保留於表格，暫不顯示地圖標記",
+    "governmentId": "112建字第0140號",
+    "governmentStatus": "申報備查 1120614",
+    "permit": "112建字第0140號",
+    "households": "154",
+    "buildingLand": "城中段二小段421地號",
+    "lines": []
+  },
+  {
+    "id": "registry-台北市-中正區-敦年臻?",
+    "name": "敦年臻?",
+    "city": "台北市",
+    "district": "中正區",
+    "station": "待定位",
+    "walk": null,
+    "address": "台北市中正區羅斯福路一段121號共6筆",
+    "builder": "備查起造人：敦年建設股份有限公司",
+    "rating": "B",
+    "ratingBasis": "依已確認建商品牌套用本站評級",
+    "status": "預售備查",
+    "completion": "依官方備查時程",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": null,
+    "lng": null,
+    "source": "內政部預售屋備查",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": false,
+    "locationStatus": "unlocated",
+    "googleMapsListing": false,
+    "locationAccuracy": "尚無可可靠配對的正式門牌或路口；案件保留於表格，暫不顯示地圖標記",
+    "governmentId": "115建字第0062號",
+    "governmentStatus": "申報備查 1150612",
+    "permit": "115建字第0062號",
+    "households": "51",
+    "buildingLand": "南海段一小段354地號",
+    "lines": []
   },
   {
     "id": "registry-台北市-中正區-菁席",
@@ -4678,7 +8904,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1111024",
     "permit": "111建字第0281號",
     "households": "18",
-    "buildingLand": "中正段二小段21地號"
+    "buildingLand": "中正段二小段21地號",
+    "lines": []
   },
   {
     "id": "registry-台北市-中正區-華和淳萃",
@@ -4708,7 +8935,11 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1110825",
     "permit": "110建字第0219號",
     "households": "67",
-    "buildingLand": "河堤段六小段487地號"
+    "buildingLand": "河堤段六小段487地號",
+    "lines": [
+      "O",
+      "G"
+    ]
   },
   {
     "id": "registry-台北市-中正區-廈川里美",
@@ -4738,7 +8969,70 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1141107",
     "permit": "113建字第0245號",
     "households": "50",
-    "buildingLand": "河堤段六小段417地號"
+    "buildingLand": "河堤段六小段417地號",
+    "lines": []
+  },
+  {
+    "id": "registry-台北市-中正區-新潤嘉潤Manhattan",
+    "name": "新潤嘉潤Manhattan",
+    "city": "台北市",
+    "district": "中正區",
+    "station": "台北車站M5",
+    "walk": 4,
+    "address": "台北市中正區黎明里懷寧街22號共8筆",
+    "builder": "備查起造人：嘉潤建設開發股份有限公司",
+    "rating": "C",
+    "ratingBasis": "官方備查起造人可辨識為建設／開發公司；暫列 C，待更多履歷資料再調整",
+    "status": "預售備查",
+    "completion": "依官方備查時程",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": 25.045614342576776,
+    "lng": 121.51410523722872,
+    "source": "內政部預售屋備查＋官方門牌座標",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": true,
+    "locationStatus": "verified",
+    "googleMapsListing": false,
+    "locationAccuracy": "政府備查門牌配對；官方門牌座標至 台北車站M5 最近出口直線約 250 公尺，步行時間為保守估算",
+    "governmentId": "115建字第0058號",
+    "governmentStatus": "申報備查 1150616",
+    "permit": "115建字第0058號",
+    "households": "89",
+    "buildingLand": "公園段二小段592地號",
+    "lines": []
+  },
+  {
+    "id": "registry-台北市-中正區-雍雋品",
+    "name": "雍雋品",
+    "city": "台北市",
+    "district": "中正區",
+    "station": "待定位",
+    "walk": null,
+    "address": "台北市中正區南海路70號",
+    "builder": "備查起造人：雋品建設股份有限公司",
+    "rating": "C",
+    "ratingBasis": "官方備查起造人可辨識為建設／開發公司；暫列 C，待更多履歷資料再調整",
+    "status": "預售備查",
+    "completion": "依官方備查時程",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": null,
+    "lng": null,
+    "source": "內政部預售屋備查",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": false,
+    "locationStatus": "unlocated",
+    "googleMapsListing": false,
+    "locationAccuracy": "尚無可可靠配對的正式門牌或路口；案件保留於表格，暫不顯示地圖標記",
+    "governmentId": "113建字第0040字號",
+    "governmentStatus": "申報備查 1130311",
+    "permit": "113建字第0040字號",
+    "households": "76",
+    "buildingLand": "永昌段四小段132-2地號",
+    "lines": []
   },
   {
     "id": "registry-台北市-中正區-鼎吉水岸",
@@ -4768,7 +9062,41 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1130124",
     "permit": "112建字第0277號",
     "households": "55",
-    "buildingLand": "永昌段一小段450地號"
+    "buildingLand": "永昌段一小段450地號",
+    "lines": []
+  },
+  {
+    "id": "registry-台北市-中正區-漢皇城?",
+    "name": "漢皇城?",
+    "city": "台北市",
+    "district": "中正區",
+    "station": "台大醫院",
+    "walk": 6,
+    "address": "台北市中正區光復里武昌街一段11號 共8筆",
+    "builder": "備查起造人：漢吉建設股份有限公司",
+    "rating": "C",
+    "ratingBasis": "官方備查起造人可辨識為建設／開發公司；暫列 C，待更多履歷資料再調整",
+    "status": "預售備查",
+    "completion": "依官方備查時程",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": 25.043292012374167,
+    "lng": 121.51261321787084,
+    "source": "內政部預售屋備查＋官方門牌座標",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": true,
+    "locationStatus": "verified",
+    "googleMapsListing": false,
+    "locationAccuracy": "政府備查門牌配對；官方門牌座標至 台大醫院 最近出口直線約 374 公尺，步行時間為保守估算",
+    "governmentId": "111建字第0093號",
+    "governmentStatus": "申報備查 1130402",
+    "permit": "111建字第0093號",
+    "households": "122",
+    "buildingLand": "城中段一小段262地號",
+    "lines": [
+      "R"
+    ]
   },
   {
     "id": "registry-台北市-中正區-熙鼎九簷",
@@ -4798,7 +9126,101 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1120531",
     "permit": "109建字0166號",
     "households": "17",
-    "buildingLand": "南海段五小段47-6地號"
+    "buildingLand": "南海段五小段47-6地號",
+    "lines": []
+  },
+  {
+    "id": "registry-台北市-中正區-潤泰菁英匯",
+    "name": "潤泰菁英匯",
+    "city": "台北市",
+    "district": "中正區",
+    "station": "待定位",
+    "walk": null,
+    "address": "台北市中正區龍光里重慶南路二段74號",
+    "builder": "備查起造人：潤泰創新國際股份有限公司",
+    "rating": "S",
+    "ratingBasis": "依已確認建商品牌套用本站評級",
+    "status": "預售備查",
+    "completion": "依官方備查時程",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": null,
+    "lng": null,
+    "source": "內政部預售屋備查",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": false,
+    "locationStatus": "unlocated",
+    "googleMapsListing": false,
+    "locationAccuracy": "尚無可可靠配對的正式門牌或路口；案件保留於表格，暫不顯示地圖標記",
+    "governmentId": "112建字第0097號",
+    "governmentStatus": "申報備查 1150319",
+    "permit": "112建字第0097號",
+    "households": "521",
+    "buildingLand": "南海段五小段68-1地號",
+    "lines": []
+  },
+  {
+    "id": "registry-台北市-中正區-震大懷?",
+    "name": "震大懷?",
+    "city": "台北市",
+    "district": "中正區",
+    "station": "待定位",
+    "walk": null,
+    "address": "台北市中正區幸市里仁愛路二段",
+    "builder": "備查起造人：震大建設股份有限公司",
+    "rating": "C",
+    "ratingBasis": "官方備查起造人可辨識為建設／開發公司；暫列 C，待更多履歷資料再調整",
+    "status": "預售備查",
+    "completion": "依官方備查時程",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": null,
+    "lng": null,
+    "source": "內政部預售屋備查",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": false,
+    "locationStatus": "unlocated",
+    "googleMapsListing": false,
+    "locationAccuracy": "尚無可可靠配對的正式門牌或路口；案件保留於表格，暫不顯示地圖標記",
+    "governmentId": "113建字第0262號",
+    "governmentStatus": "申報備查 1150525",
+    "permit": "113建字第0262號",
+    "households": "43",
+    "buildingLand": "臨沂段二小段108地號",
+    "lines": []
+  },
+  {
+    "id": "registry-台北市-中正區-璞真宇見",
+    "name": "璞真宇見",
+    "city": "台北市",
+    "district": "中正區",
+    "station": "待定位",
+    "walk": null,
+    "address": "台北市中正區文盛里羅斯福路三段",
+    "builder": "備查起造人：璞真誠美建築開發股份有限公司",
+    "rating": "C",
+    "ratingBasis": "官方備查起造人可辨識為建設／開發公司；暫列 C，待更多履歷資料再調整",
+    "status": "預售備查",
+    "completion": "依官方備查時程",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": null,
+    "lng": null,
+    "source": "內政部預售屋備查",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": false,
+    "locationStatus": "unlocated",
+    "googleMapsListing": false,
+    "locationAccuracy": "尚無可可靠配對的正式門牌或路口；案件保留於表格，暫不顯示地圖標記",
+    "governmentId": "112建字第0238號",
+    "governmentStatus": "申報備查 1121120",
+    "permit": "112建字第0238號",
+    "households": "170",
+    "buildingLand": "福和段一小段694地號",
+    "lines": []
   },
   {
     "id": "registry-台北市-中正區-璞園丹陽",
@@ -4828,7 +9250,137 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1110526",
     "permit": "110建字第0008號",
     "households": "17",
-    "buildingLand": "中正段一小段232地號"
+    "buildingLand": "中正段一小段232地號",
+    "lines": []
+  },
+  {
+    "id": "registry-台北市-中正區-豐基皇居",
+    "name": "豐基皇居",
+    "city": "台北市",
+    "district": "中正區",
+    "station": "待定位",
+    "walk": null,
+    "address": "台北市中正區漢口街一段",
+    "builder": "備查起造人：東亞建築經理股份有限公司",
+    "rating": "NR",
+    "ratingBasis": "官方備查有起造人，但可能是建經公司、金融機構或自然人，尚未可靠對應建商品牌",
+    "status": "預售備查",
+    "completion": "依官方備查時程",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": null,
+    "lng": null,
+    "source": "內政部預售屋備查",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": false,
+    "locationStatus": "unlocated",
+    "googleMapsListing": false,
+    "locationAccuracy": "尚無可可靠配對的正式門牌或路口；案件保留於表格，暫不顯示地圖標記",
+    "governmentId": "107建字第0092號",
+    "governmentStatus": "申報備查 1110831",
+    "permit": "107建字第0092號",
+    "households": "162",
+    "buildingLand": "城中段一小段215地號",
+    "lines": []
+  },
+  {
+    "id": "registry-台北市-中正區-寶舖care",
+    "name": "寶舖care",
+    "city": "台北市",
+    "district": "中正區",
+    "station": "待定位",
+    "walk": null,
+    "address": "台北市中正區羅斯福路3段",
+    "builder": "備查起造人：寶舖建設股份有限公司",
+    "rating": "C",
+    "ratingBasis": "官方備查起造人可辨識為建設／開發公司；暫列 C，待更多履歷資料再調整",
+    "status": "預售備查",
+    "completion": "依官方備查時程",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": null,
+    "lng": null,
+    "source": "內政部預售屋備查",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": false,
+    "locationStatus": "unlocated",
+    "googleMapsListing": false,
+    "locationAccuracy": "尚無可可靠配對的正式門牌或路口；案件保留於表格，暫不顯示地圖標記",
+    "governmentId": "110建字第0109號",
+    "governmentStatus": "申報備查 1100928",
+    "permit": "110建字第0109號",
+    "households": "69",
+    "buildingLand": "福和段一小段492地號",
+    "lines": []
+  },
+  {
+    "id": "registry-台北市-中正區-Vigorlin 東門",
+    "name": "Vigorlin 東門",
+    "city": "台北市",
+    "district": "中正區",
+    "station": "東門",
+    "walk": 4,
+    "address": "台北市中正區信義路二段79巷32號",
+    "builder": "備查起造人：佳毅國際有限公司",
+    "rating": "NR",
+    "ratingBasis": "官方備查有起造人，但可能是建經公司、金融機構或自然人，尚未可靠對應建商品牌",
+    "status": "近期完工",
+    "completion": "第一次登記 1140610",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": 25.03597583192104,
+    "lng": 121.52698433772571,
+    "source": "內政部預售屋備查＋官方門牌座標",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": true,
+    "locationStatus": "verified",
+    "googleMapsListing": false,
+    "locationAccuracy": "政府備查門牌配對；官方門牌座標至 東門 最近出口直線約 204 公尺，步行時間為保守估算",
+    "governmentId": "109建字第0206號",
+    "governmentStatus": "申報備查 1100830",
+    "permit": "109建字第0206號",
+    "households": "16",
+    "buildingLand": "中正段二小段294地號",
+    "lines": [
+      "O",
+      "R"
+    ]
+  },
+  {
+    "id": "registry-台北市-內湖區-力麒·寰山",
+    "name": "力麒·寰山",
+    "city": "台北市",
+    "district": "內湖區",
+    "station": "西湖",
+    "walk": 10,
+    "address": "台北市內湖區環山路二段23號旁邊",
+    "builder": "備查起造人：力麒建設股份有限公司",
+    "rating": "C",
+    "ratingBasis": "官方備查起造人可辨識為建設／開發公司；暫列 C，待更多履歷資料再調整",
+    "status": "預售備查",
+    "completion": "依官方備查時程",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": 25.086087002496544,
+    "lng": 121.57150987562956,
+    "source": "內政部預售屋備查＋官方門牌座標",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": true,
+    "locationStatus": "verified",
+    "googleMapsListing": false,
+    "locationAccuracy": "政府備查門牌配對；官方門牌座標至 西湖 最近出口直線約 605 公尺，步行時間為保守估算",
+    "governmentId": "113建字第0157號",
+    "governmentStatus": "申報備查 1130813",
+    "permit": "113建字第0157號",
+    "households": "109",
+    "buildingLand": "碧湖段四小段1036-7地號",
+    "lines": [
+      "BR"
+    ]
   },
   {
     "id": "registry-台北市-內湖區-三豐AIT",
@@ -4858,7 +9410,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1120206",
     "permit": "111建字第0090號",
     "households": "37",
-    "buildingLand": "康寧段三小段568-2地號"
+    "buildingLand": "康寧段三小段568-2地號",
+    "lines": []
   },
   {
     "id": "registry-台北市-內湖區-山釀",
@@ -4866,7 +9419,7 @@ export const matureRegistryProjects = [
     "city": "台北市",
     "district": "內湖區",
     "station": "西湖",
-    "walk": 11,
+    "walk": 10,
     "address": "台北市內湖區港華里環山路二段50巷14弄5號",
     "builder": "備查起造人：邑軒建設股份有限公司",
     "rating": "C",
@@ -4883,12 +9436,15 @@ export const matureRegistryProjects = [
     "verified": true,
     "locationStatus": "verified",
     "googleMapsListing": false,
-    "locationAccuracy": "政府備查門牌配對；官方門牌座標至 西湖 最近出口直線約 661 公尺，步行時間為保守估算",
+    "locationAccuracy": "政府備查門牌配對；官方門牌座標至 西湖 最近出口直線約 636 公尺，步行時間為保守估算",
     "governmentId": "112建字第0183號",
     "governmentStatus": "申報備查 1120825",
     "permit": "112建字第0183號",
     "households": "12",
-    "buildingLand": "碧湖段四小段897-3地號"
+    "buildingLand": "碧湖段四小段897-3地號",
+    "lines": [
+      "BR"
+    ]
   },
   {
     "id": "registry-台北市-內湖區-內湖福祿區案",
@@ -4913,12 +9469,48 @@ export const matureRegistryProjects = [
     "verified": true,
     "locationStatus": "verified",
     "googleMapsListing": false,
-    "locationAccuracy": "政府備查門牌配對；官方門牌座標至 東湖 最近出口直線約 993 公尺，步行時間為保守估算",
+    "locationAccuracy": "政府備查門牌配對；官方門牌座標至 東湖 最近出口直線約 988 公尺，步行時間為保守估算",
     "governmentId": "111建字第0227號",
     "governmentStatus": "申報備查 1150310",
     "permit": "111建字第0227號",
     "households": "70",
-    "buildingLand": "東湖段一小段14-2地號"
+    "buildingLand": "東湖段一小段14-2地號",
+    "lines": [
+      "BR"
+    ]
+  },
+  {
+    "id": "registry-台北市-內湖區-友座詠青",
+    "name": "友座詠青",
+    "city": "台北市",
+    "district": "內湖區",
+    "station": "內湖",
+    "walk": 4,
+    "address": "台北市內湖區金龍路67巷5弄4號2樓 共16筆",
+    "builder": "備查起造人：壕華建設股份有限公司",
+    "rating": "C",
+    "ratingBasis": "官方備查起造人可辨識為建設／開發公司；暫列 C，待更多履歷資料再調整",
+    "status": "預售備查",
+    "completion": "依官方備查時程",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": 25.085741101102876,
+    "lng": 121.59300687197326,
+    "source": "內政部預售屋備查＋官方門牌座標",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": true,
+    "locationStatus": "verified",
+    "googleMapsListing": false,
+    "locationAccuracy": "政府備查門牌配對；官方門牌座標至 內湖 最近出口直線約 256 公尺，步行時間為保守估算",
+    "governmentId": "114建字第0162號",
+    "governmentStatus": "申報備查 1141105",
+    "permit": "114建字第0162號",
+    "households": "32",
+    "buildingLand": "康寧段二小段238地號",
+    "lines": [
+      "BR"
+    ]
   },
   {
     "id": "registry-台北市-內湖區-文心靜靜",
@@ -4948,7 +9540,105 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1110620",
     "permit": "110建字第0309號",
     "households": "8",
-    "buildingLand": "石潭段四小段168地號"
+    "buildingLand": "石潭段四小段168地號",
+    "lines": [
+      "BR"
+    ]
+  },
+  {
+    "id": "registry-台北市-內湖區-日  麗",
+    "name": "日  麗",
+    "city": "台北市",
+    "district": "內湖區",
+    "station": "待定位",
+    "walk": null,
+    "address": "台北市內湖區內湖區港華里環山路2段81號 共3筆",
+    "builder": "備查起造人：三豐建設股份有限公司",
+    "rating": "C",
+    "ratingBasis": "官方備查起造人可辨識為建設／開發公司；暫列 C，待更多履歷資料再調整",
+    "status": "預售備查",
+    "completion": "依官方備查時程",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": null,
+    "lng": null,
+    "source": "內政部預售屋備查",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": false,
+    "locationStatus": "unlocated",
+    "googleMapsListing": false,
+    "locationAccuracy": "尚無可可靠配對的正式門牌或路口；案件保留於表格，暫不顯示地圖標記",
+    "governmentId": "112建字第0208號",
+    "governmentStatus": "申報備查 1140217",
+    "permit": "112建字第0208號",
+    "households": "41",
+    "buildingLand": "碧湖段四小段189地號",
+    "lines": []
+  },
+  {
+    "id": "registry-台北市-內湖區-光里蘊",
+    "name": "光里蘊",
+    "city": "台北市",
+    "district": "內湖區",
+    "station": "待定位",
+    "walk": null,
+    "address": "台北市內湖區行善路上",
+    "builder": "備查起造人：富樂群建設股份有限公司",
+    "rating": "C",
+    "ratingBasis": "官方備查起造人可辨識為建設／開發公司；暫列 C，待更多履歷資料再調整",
+    "status": "預售備查",
+    "completion": "依官方備查時程",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": null,
+    "lng": null,
+    "source": "內政部預售屋備查",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": false,
+    "locationStatus": "unlocated",
+    "googleMapsListing": false,
+    "locationAccuracy": "尚無可可靠配對的正式門牌或路口；案件保留於表格，暫不顯示地圖標記",
+    "governmentId": "(110)建字第0212號",
+    "governmentStatus": "申報備查 1100917",
+    "permit": "(110)建字第0212號",
+    "households": "45",
+    "buildingLand": "潭美段五小段149-1地號",
+    "lines": []
+  },
+  {
+    "id": "registry-台北市-內湖區-宏盛掬白",
+    "name": "宏盛掬白",
+    "city": "台北市",
+    "district": "內湖區",
+    "station": "葫洲",
+    "walk": 19,
+    "address": "台北市內湖區民權東路六段210巷",
+    "builder": "備查起造人：宏盛建設股份有限公司",
+    "rating": "A",
+    "ratingBasis": "依已確認建商品牌套用本站評級",
+    "status": "預售備查",
+    "completion": "依官方備查時程",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": 25.06611916969252,
+    "lng": 121.59777155101405,
+    "source": "內政部預售屋備查＋官方門牌座標",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": false,
+    "locationStatus": "estimated",
+    "googleMapsListing": false,
+    "locationAccuracy": "政府備查巷弄範圍定位（14 個官方門牌範圍）；官方門牌座標至 葫洲 最近出口直線約 1187 公尺，步行時間為保守估算",
+    "governmentId": "112建字第0178",
+    "governmentStatus": "申報備查 1120906",
+    "permit": "112建字第0178",
+    "households": "50",
+    "buildingLand": "石潭段四小段270地號",
+    "lines": [
+      "BR"
+    ]
   },
   {
     "id": "registry-台北市-內湖區-和暘夏灣",
@@ -4978,7 +9668,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1140114",
     "permit": "114-0009",
     "households": "67",
-    "buildingLand": "石潭段三小段445地號"
+    "buildingLand": "石潭段三小段445地號",
+    "lines": [
+      "BR"
+    ]
   },
   {
     "id": "registry-台北市-內湖區-岳泰峰山",
@@ -4986,7 +9679,7 @@ export const matureRegistryProjects = [
     "city": "台北市",
     "district": "內湖區",
     "station": "內湖",
-    "walk": 7,
+    "walk": 6,
     "address": "台北市內湖區康寧路一段156巷21號",
     "builder": "備查起造人：岳泰建設股份有限公司",
     "rating": "C",
@@ -5003,12 +9696,48 @@ export const matureRegistryProjects = [
     "verified": true,
     "locationStatus": "verified",
     "googleMapsListing": false,
-    "locationAccuracy": "政府備查門牌配對；官方門牌座標至 內湖 最近出口直線約 399 公尺，步行時間為保守估算",
+    "locationAccuracy": "政府備查門牌配對；官方門牌座標至 內湖 最近出口直線約 372 公尺，步行時間為保守估算",
     "governmentId": "111建字第0228號",
     "governmentStatus": "申報備查 1110803",
     "permit": "111建字第0228號",
     "households": "40",
-    "buildingLand": "康寧段四小段196地號"
+    "buildingLand": "康寧段四小段196地號",
+    "lines": [
+      "BR"
+    ]
+  },
+  {
+    "id": "registry-台北市-內湖區-品嘉新明殿",
+    "name": "品嘉新明殿",
+    "city": "台北市",
+    "district": "內湖區",
+    "station": "昆陽",
+    "walk": 18,
+    "address": "台北市內湖區新明路413巷1弄4號共7筆",
+    "builder": "備查起造人：品嘉建設股份有限公司",
+    "rating": "C",
+    "ratingBasis": "官方備查起造人可辨識為建設／開發公司；暫列 C，待更多履歷資料再調整",
+    "status": "預售備查",
+    "completion": "依官方備查時程",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": 25.06006820274623,
+    "lng": 121.58998094357119,
+    "source": "內政部預售屋備查＋官方門牌座標",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": true,
+    "locationStatus": "verified",
+    "googleMapsListing": false,
+    "locationAccuracy": "政府備查門牌配對；官方門牌座標至 昆陽 最近出口直線約 1112 公尺，步行時間為保守估算",
+    "governmentId": "112建字第0096號",
+    "governmentStatus": "申報備查 1120818",
+    "permit": "112建字第0096號",
+    "households": "35",
+    "buildingLand": "潭美段四小段94地號",
+    "lines": [
+      "BL"
+    ]
   },
   {
     "id": "registry-台北市-內湖區-恆悅麗山",
@@ -5038,7 +9767,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1130521",
     "permit": "113建字第0091號",
     "households": "69",
-    "buildingLand": "碧湖段四小段341-2地號"
+    "buildingLand": "碧湖段四小段341-2地號",
+    "lines": []
   },
   {
     "id": "registry-台北市-內湖區-家騰真",
@@ -5068,7 +9798,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1110523",
     "permit": "111建字第0103號",
     "households": "106",
-    "buildingLand": "東湖段一小段16-11地號"
+    "buildingLand": "東湖段一小段16-11地號",
+    "lines": [
+      "BR"
+    ]
   },
   {
     "id": "registry-台北市-內湖區-展宜本植",
@@ -5098,7 +9831,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1141125",
     "permit": "111建字第0359號",
     "households": "19",
-    "buildingLand": "石潭段四小段138地號"
+    "buildingLand": "石潭段四小段138地號",
+    "lines": [
+      "BR"
+    ]
   },
   {
     "id": "registry-台北市-內湖區-悅己誠群",
@@ -5128,7 +9864,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1101102",
     "permit": "110建字第0249號",
     "households": "6",
-    "buildingLand": "康寧段一小段354地號"
+    "buildingLand": "康寧段一小段354地號",
+    "lines": [
+      "BR"
+    ]
   },
   {
     "id": "registry-台北市-內湖區-國泰承真",
@@ -5158,7 +9897,70 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1130108",
     "permit": "112建字第0117號",
     "households": "78",
-    "buildingLand": "潭美段五小段61地號"
+    "buildingLand": "潭美段五小段61地號",
+    "lines": []
+  },
+  {
+    "id": "registry-台北市-內湖區-國泰蒔美",
+    "name": "國泰蒔美",
+    "city": "台北市",
+    "district": "內湖區",
+    "station": "待定位",
+    "walk": null,
+    "address": "台北市內湖區週美里行善路",
+    "builder": "備查起造人：國泰建設股份有限公司",
+    "rating": "A",
+    "ratingBasis": "依已確認建商品牌套用本站評級",
+    "status": "近期完工",
+    "completion": "第一次登記 1141104",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": null,
+    "lng": null,
+    "source": "內政部預售屋備查",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": false,
+    "locationStatus": "unlocated",
+    "googleMapsListing": false,
+    "locationAccuracy": "尚無可可靠配對的正式門牌或路口；案件保留於表格，暫不顯示地圖標記",
+    "governmentId": "111建字第0123號",
+    "governmentStatus": "申報備查 1110428",
+    "permit": "111建字第0123號",
+    "households": "70",
+    "buildingLand": "潭美段五小段112地號",
+    "lines": []
+  },
+  {
+    "id": "registry-台北市-內湖區-基泰碧湖",
+    "name": "基泰碧湖",
+    "city": "台北市",
+    "district": "內湖區",
+    "station": "待定位",
+    "walk": null,
+    "address": "台北市內湖區內湖區內湖路一段",
+    "builder": "備查起造人：基泰建設股份有限公司",
+    "rating": "C",
+    "ratingBasis": "官方備查起造人可辨識為建設／開發公司；暫列 C，待更多履歷資料再調整",
+    "status": "預售備查",
+    "completion": "依官方備查時程",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": null,
+    "lng": null,
+    "source": "內政部預售屋備查",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": false,
+    "locationStatus": "unlocated",
+    "googleMapsListing": false,
+    "locationAccuracy": "尚無可可靠配對的正式門牌或路口；案件保留於表格，暫不顯示地圖標記",
+    "governmentId": "104建字第0219號",
+    "governmentStatus": "申報備查 1100902",
+    "permit": "104建字第0219號",
+    "households": "81",
+    "buildingLand": "碧湖段三小段657地號",
+    "lines": []
   },
   {
     "id": "registry-台北市-內湖區-康寧日和",
@@ -5188,7 +9990,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1141023",
     "permit": "113建字第0045號",
     "households": "27",
-    "buildingLand": "康寧段四小段97地號"
+    "buildingLand": "康寧段四小段97地號",
+    "lines": []
   },
   {
     "id": "registry-台北市-內湖區-晶綻大直",
@@ -5218,7 +10021,41 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1120907",
     "permit": "112建字第0165號",
     "households": "33",
-    "buildingLand": "西湖段二小段474地號"
+    "buildingLand": "西湖段二小段474地號",
+    "lines": []
+  },
+  {
+    "id": "registry-台北市-內湖區-湖芯AIT",
+    "name": "湖芯AIT",
+    "city": "台北市",
+    "district": "內湖區",
+    "station": "內湖",
+    "walk": 6,
+    "address": "台北市內湖區康寧路一段255巷67號共三筆",
+    "builder": "備查起造人：和沂建設股份有限公司",
+    "rating": "C",
+    "ratingBasis": "官方備查起造人可辨識為建設／開發公司；暫列 C，待更多履歷資料再調整",
+    "status": "預售備查",
+    "completion": "依官方備查時程",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": 25.081602064498107,
+    "lng": 121.59693208357596,
+    "source": "內政部預售屋備查＋官方門牌座標",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": true,
+    "locationStatus": "verified",
+    "googleMapsListing": false,
+    "locationAccuracy": "政府備查門牌配對；官方門牌座標至 內湖 最近出口直線約 325 公尺，步行時間為保守估算",
+    "governmentId": "114建字第0183號",
+    "governmentStatus": "申報備查 1150123",
+    "permit": "114建字第0183號",
+    "households": "42",
+    "buildingLand": "康寧段三小段420地號",
+    "lines": [
+      "BR"
+    ]
   },
   {
     "id": "registry-台北市-內湖區-湖漾VISTA",
@@ -5248,7 +10085,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1140505",
     "permit": "114建字第0086號",
     "households": "20",
-    "buildingLand": "康寧段三小段545-11地號"
+    "buildingLand": "康寧段三小段545-11地號",
+    "lines": [
+      "BR"
+    ]
   },
   {
     "id": "registry-台北市-內湖區-紫陽新苑",
@@ -5278,7 +10118,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1110920",
     "permit": "111建字第0275號",
     "households": "55",
-    "buildingLand": "碧湖段二小段193-3地號"
+    "buildingLand": "碧湖段二小段193-3地號",
+    "lines": []
   },
   {
     "id": "registry-台北市-內湖區-隆雲心琚",
@@ -5308,7 +10149,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1141204",
     "permit": "114建字第0202號",
     "households": "14",
-    "buildingLand": "石潭段四小段163地號"
+    "buildingLand": "石潭段四小段163地號",
+    "lines": []
   },
   {
     "id": "registry-台北市-內湖區-奧斯卡內湖舊宗商辦案",
@@ -5338,7 +10180,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 鋼筋混凝土",
     "permit": "1130515",
     "households": "8",
-    "buildingLand": "自售:1140314~1180331;"
+    "buildingLand": "自售:1140314~1180331;",
+    "lines": []
   },
   {
     "id": "registry-台北市-內湖區-義泰田境",
@@ -5368,7 +10211,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1120921",
     "permit": "112建字第0201號",
     "households": "40",
-    "buildingLand": "潭美段五小段123地號"
+    "buildingLand": "潭美段五小段123地號",
+    "lines": []
   },
   {
     "id": "registry-台北市-內湖區-義泰吾境",
@@ -5398,7 +10242,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1101209",
     "permit": "110建字第0317號",
     "households": "106",
-    "buildingLand": "潭美段五小段139地號"
+    "buildingLand": "潭美段五小段139地號",
+    "lines": []
   },
   {
     "id": "registry-台北市-內湖區-義泰值境",
@@ -5428,7 +10273,72 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1120407",
     "permit": "112建字第0057號",
     "households": "38",
-    "buildingLand": "潭美段五小段118地號"
+    "buildingLand": "潭美段五小段118地號",
+    "lines": []
+  },
+  {
+    "id": "registry-台北市-內湖區-碧湖文森",
+    "name": "碧湖文森",
+    "city": "台北市",
+    "district": "內湖區",
+    "station": "待定位",
+    "walk": null,
+    "address": "台北市內湖區內湖路2段76巷3號共8筆",
+    "builder": "備查起造人：將作建設股份有限公司",
+    "rating": "C",
+    "ratingBasis": "官方備查起造人可辨識為建設／開發公司；暫列 C，待更多履歷資料再調整",
+    "status": "預售備查",
+    "completion": "依官方備查時程",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": null,
+    "lng": null,
+    "source": "內政部預售屋備查",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": false,
+    "locationStatus": "unlocated",
+    "googleMapsListing": false,
+    "locationAccuracy": "尚無可可靠配對的正式門牌或路口；案件保留於表格，暫不顯示地圖標記",
+    "governmentId": "112建字0021",
+    "governmentStatus": "申報備查 1120609",
+    "permit": "112建字0021",
+    "households": "70",
+    "buildingLand": "文德段一小段223-30地號",
+    "lines": []
+  },
+  {
+    "id": "registry-台北市-內湖區-碧湖泱玥",
+    "name": "碧湖泱玥",
+    "city": "台北市",
+    "district": "內湖區",
+    "station": "內湖",
+    "walk": 6,
+    "address": "台北市內湖區內湖路二段179巷224弄7號 共2筆",
+    "builder": "備查起造人：裕薪建設股份有限公司",
+    "rating": "C",
+    "ratingBasis": "官方備查起造人可辨識為建設／開發公司；暫列 C，待更多履歷資料再調整",
+    "status": "預售備查",
+    "completion": "依官方備查時程",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": 25.08271668432553,
+    "lng": 121.59045643698713,
+    "source": "內政部預售屋備查＋官方門牌座標",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": true,
+    "locationStatus": "verified",
+    "googleMapsListing": false,
+    "locationAccuracy": "政府備查門牌配對；官方門牌座標至 內湖 最近出口直線約 386 公尺，步行時間為保守估算",
+    "governmentId": "110建字第0310號",
+    "governmentStatus": "申報備查 1140825",
+    "permit": "110建字第0310號",
+    "households": "12",
+    "buildingLand": "碧湖段三小段76地號",
+    "lines": [
+      "BR"
+    ]
   },
   {
     "id": "registry-台北市-內湖區-碧湖首澤",
@@ -5453,12 +10363,15 @@ export const matureRegistryProjects = [
     "verified": true,
     "locationStatus": "verified",
     "googleMapsListing": false,
-    "locationAccuracy": "政府備查門牌配對；官方門牌座標至 內湖 最近出口直線約 427 公尺，步行時間為保守估算",
+    "locationAccuracy": "政府備查門牌配對；官方門牌座標至 內湖 最近出口直線約 413 公尺，步行時間為保守估算",
     "governmentId": "111建字第0029號",
     "governmentStatus": "申報備查 1110505",
     "permit": "111建字第0029號",
     "households": "6",
-    "buildingLand": "碧湖段二小段787地號"
+    "buildingLand": "碧湖段二小段787地號",
+    "lines": [
+      "BR"
+    ]
   },
   {
     "id": "registry-台北市-內湖區-碧湖海川",
@@ -5488,7 +10401,39 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1110804",
     "permit": "111建字第0207號",
     "households": "66",
-    "buildingLand": "文德段一小段110-3地號"
+    "buildingLand": "文德段一小段110-3地號",
+    "lines": []
+  },
+  {
+    "id": "registry-台北市-內湖區-碧湖雲景",
+    "name": "碧湖雲景",
+    "city": "台北市",
+    "district": "內湖區",
+    "station": "待定位",
+    "walk": null,
+    "address": "台北市內湖區內湖路一段691號地下一層",
+    "builder": "備查起造人：士林開發股份有限公司",
+    "rating": "C",
+    "ratingBasis": "官方備查起造人可辨識為建設／開發公司；暫列 C，待更多履歷資料再調整",
+    "status": "預售備查",
+    "completion": "依官方備查時程",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": null,
+    "lng": null,
+    "source": "內政部預售屋備查",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": false,
+    "locationStatus": "unlocated",
+    "googleMapsListing": false,
+    "locationAccuracy": "尚無可可靠配對的正式門牌或路口；案件保留於表格，暫不顯示地圖標記",
+    "governmentId": "112建字第0220號",
+    "governmentStatus": "申報備查 1130816",
+    "permit": "112建字第0220號",
+    "households": "363",
+    "buildingLand": "碧湖段四小段382地號",
+    "lines": []
   },
   {
     "id": "registry-台北市-內湖區-輕山?",
@@ -5496,7 +10441,7 @@ export const matureRegistryProjects = [
     "city": "台北市",
     "district": "內湖區",
     "station": "西湖",
-    "walk": 14,
+    "walk": 13,
     "address": "台北市內湖區環山路二段50巷14弄21號共2筆",
     "builder": "備查起造人：姮興開發股份有限公司",
     "rating": "C",
@@ -5513,12 +10458,15 @@ export const matureRegistryProjects = [
     "verified": true,
     "locationStatus": "verified",
     "googleMapsListing": false,
-    "locationAccuracy": "政府備查門牌配對；官方門牌座標至 西湖 最近出口直線約 870 公尺，步行時間為保守估算",
+    "locationAccuracy": "政府備查門牌配對；官方門牌座標至 西湖 最近出口直線約 844 公尺，步行時間為保守估算",
     "governmentId": "110建字第0290號",
     "governmentStatus": "申報備查 1101130",
     "permit": "110建字第0290號",
     "households": "13",
-    "buildingLand": "碧湖段四小段962地號"
+    "buildingLand": "碧湖段四小段962地號",
+    "lines": [
+      "BR"
+    ]
   },
   {
     "id": "registry-台北市-內湖區-廣宇江南",
@@ -5548,7 +10496,39 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1110519",
     "permit": "111建字第0162號",
     "households": "75",
-    "buildingLand": "文德段二小段615地號"
+    "buildingLand": "文德段二小段615地號",
+    "lines": []
+  },
+  {
+    "id": "registry-台北市-內湖區-德孚昀品",
+    "name": "德孚昀品",
+    "city": "台北市",
+    "district": "內湖區",
+    "station": "待定位",
+    "walk": null,
+    "address": "台北市內湖區文德路22巷44弄130號等10筆",
+    "builder": "備查起造人：德沐建設股份有限公司",
+    "rating": "C",
+    "ratingBasis": "官方備查起造人可辨識為建設／開發公司；暫列 C，待更多履歷資料再調整",
+    "status": "預售備查",
+    "completion": "依官方備查時程",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": null,
+    "lng": null,
+    "source": "內政部預售屋備查",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": false,
+    "locationStatus": "unlocated",
+    "googleMapsListing": false,
+    "locationAccuracy": "尚無可可靠配對的正式門牌或路口；案件保留於表格，暫不顯示地圖標記",
+    "governmentId": "112建字第0103號",
+    "governmentStatus": "申報備查 1120727",
+    "permit": "112建字第0103號",
+    "households": "40",
+    "buildingLand": "文德段二小段461地號",
+    "lines": []
   },
   {
     "id": "registry-台北市-內湖區-蓮園心邑",
@@ -5578,7 +10558,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1110323",
     "permit": "111建字第0098號",
     "households": "58",
-    "buildingLand": "石潭段四小段225-2地號"
+    "buildingLand": "石潭段四小段225-2地號",
+    "lines": []
   },
   {
     "id": "registry-台北市-內湖區-澧鈺12",
@@ -5608,7 +10589,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1100831",
     "permit": "110建字第0181號",
     "households": "12",
-    "buildingLand": "碧湖段二小段749地號"
+    "buildingLand": "碧湖段二小段749地號",
+    "lines": [
+      "BR"
+    ]
   },
   {
     "id": "registry-台北市-內湖區-麗湖嵐天",
@@ -5638,7 +10622,105 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1100716",
     "permit": "110建字第0160號",
     "households": "12",
-    "buildingLand": "石潭段四小段108地號"
+    "buildingLand": "石潭段四小段108地號",
+    "lines": [
+      "BR"
+    ]
+  },
+  {
+    "id": "registry-台北市-文山區-上陽羅斯福",
+    "name": "上陽羅斯福",
+    "city": "台北市",
+    "district": "文山區",
+    "station": "景美",
+    "walk": 1,
+    "address": "台北市文山區羅斯福路六段222巷",
+    "builder": "備查起造人：臺億建築經理股份有限公司",
+    "rating": "NR",
+    "ratingBasis": "官方備查有起造人，但可能是建經公司、金融機構或自然人，尚未可靠對應建商品牌",
+    "status": "預售備查",
+    "completion": "依官方備查時程",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": 24.993174783283056,
+    "lng": 121.54021665592003,
+    "source": "內政部預售屋備查＋官方門牌座標",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": false,
+    "locationStatus": "estimated",
+    "googleMapsListing": false,
+    "locationAccuracy": "政府備查巷弄範圍定位（1 個官方門牌範圍）；官方門牌座標至 景美 最近出口直線約 58 公尺，步行時間為保守估算",
+    "governmentId": "",
+    "governmentStatus": "申報備查 1141219",
+    "permit": "",
+    "households": "112",
+    "buildingLand": "",
+    "lines": [
+      "G"
+    ]
+  },
+  {
+    "id": "registry-台北市-文山區-丰景",
+    "name": "丰景",
+    "city": "台北市",
+    "district": "文山區",
+    "station": "待定位",
+    "walk": null,
+    "address": "台北市文山區景美里羅斯福路六段304之1號二層共16筆",
+    "builder": "備查起造人：僑馥建築經理股份有限公司",
+    "rating": "NR",
+    "ratingBasis": "官方備查有起造人，但可能是建經公司、金融機構或自然人，尚未可靠對應建商品牌",
+    "status": "預售備查",
+    "completion": "依官方備查時程",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": null,
+    "lng": null,
+    "source": "內政部預售屋備查",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": false,
+    "locationStatus": "unlocated",
+    "googleMapsListing": false,
+    "locationAccuracy": "尚無可可靠配對的正式門牌或路口；案件保留於表格，暫不顯示地圖標記",
+    "governmentId": "111建字第0177號",
+    "governmentStatus": "申報備查 1120811",
+    "permit": "111建字第0177號",
+    "households": "38",
+    "buildingLand": "萬慶段三小段213地號",
+    "lines": []
+  },
+  {
+    "id": "registry-台北市-文山區-元利四季莊園",
+    "name": "元利四季莊園",
+    "city": "台北市",
+    "district": "文山區",
+    "station": "待定位",
+    "walk": null,
+    "address": "台北市文山區華興里木柵路一段",
+    "builder": "備查起造人：元利建設企業股份有限公司",
+    "rating": "C",
+    "ratingBasis": "官方備查起造人可辨識為建設／開發公司；暫列 C，待更多履歷資料再調整",
+    "status": "預售備查",
+    "completion": "依官方備查時程",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": null,
+    "lng": null,
+    "source": "內政部預售屋備查",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": false,
+    "locationStatus": "unlocated",
+    "googleMapsListing": false,
+    "locationAccuracy": "尚無可可靠配對的正式門牌或路口；案件保留於表格，暫不顯示地圖標記",
+    "governmentId": "113建字第0168號",
+    "governmentStatus": "申報備查 1130730",
+    "permit": "113建字第0168號",
+    "households": "1656",
+    "buildingLand": "華興段一小段421地號",
+    "lines": []
   },
   {
     "id": "registry-台北市-文山區-公園首璽",
@@ -5668,7 +10750,41 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1110421",
     "permit": "111建字第0033號",
     "households": "65",
-    "buildingLand": "木柵段二小段535地號"
+    "buildingLand": "木柵段二小段535地號",
+    "lines": []
+  },
+  {
+    "id": "registry-台北市-文山區-友座大學之道",
+    "name": "友座大學之道",
+    "city": "台北市",
+    "district": "文山區",
+    "station": "公館",
+    "walk": 11,
+    "address": "台北市文山區羅斯福路五段150巷34號",
+    "builder": "備查起造人：住欣建設",
+    "rating": "NR",
+    "ratingBasis": "官方備查有起造人，但可能是建經公司、金融機構或自然人，尚未可靠對應建商品牌",
+    "status": "預售備查",
+    "completion": "依官方備查時程",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": 25.008988599369445,
+    "lng": 121.53750302711958,
+    "source": "內政部預售屋備查＋官方門牌座標",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": true,
+    "locationStatus": "verified",
+    "googleMapsListing": false,
+    "locationAccuracy": "政府備查門牌配對；官方門牌座標至 公館 最近出口直線約 690 公尺，步行時間為保守估算",
+    "governmentId": "114建字第0175號",
+    "governmentStatus": "申報備查 1150225",
+    "permit": "114建字第0175號",
+    "households": "51",
+    "buildingLand": "萬隆段一小段188地號",
+    "lines": [
+      "G"
+    ]
   },
   {
     "id": "registry-台北市-文山區-天成河悅",
@@ -5698,7 +10814,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1101203",
     "permit": "110建字第0265號",
     "households": "36",
-    "buildingLand": "萬慶段二小段676-1地號"
+    "buildingLand": "萬慶段二小段676-1地號",
+    "lines": []
   },
   {
     "id": "registry-台北市-文山區-文山青昀",
@@ -5728,7 +10845,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1150129",
     "permit": "114建字第0156號",
     "households": "41",
-    "buildingLand": "興隆段一小段2-1地號"
+    "buildingLand": "興隆段一小段2-1地號",
+    "lines": [
+      "BR"
+    ]
   },
   {
     "id": "registry-台北市-文山區-文山萃",
@@ -5758,7 +10878,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1110823",
     "permit": "111建字第0231",
     "households": "35",
-    "buildingLand": "實踐段一小段309地號"
+    "buildingLand": "實踐段一小段309地號",
+    "lines": [
+      "G"
+    ]
   },
   {
     "id": "registry-台北市-文山區-文山學",
@@ -5788,7 +10911,72 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1140612",
     "permit": "114建字第0198號",
     "households": "81",
-    "buildingLand": "華興段三小段52地號"
+    "buildingLand": "華興段三小段52地號",
+    "lines": [
+      "G"
+    ]
+  },
+  {
+    "id": "registry-台北市-文山區-安家湛",
+    "name": "安家湛",
+    "city": "台北市",
+    "district": "文山區",
+    "station": "待定位",
+    "walk": null,
+    "address": "台北市文山區明興里秀明路一段",
+    "builder": "備查起造人：安家國際企業股份有限公司",
+    "rating": "NR",
+    "ratingBasis": "官方備查有起造人，但可能是建經公司、金融機構或自然人，尚未可靠對應建商品牌",
+    "status": "預售備查",
+    "completion": "依官方備查時程",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": null,
+    "lng": null,
+    "source": "內政部預售屋備查",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": false,
+    "locationStatus": "unlocated",
+    "googleMapsListing": false,
+    "locationAccuracy": "尚無可可靠配對的正式門牌或路口；案件保留於表格，暫不顯示地圖標記",
+    "governmentId": "113建字 第0028號",
+    "governmentStatus": "申報備查 1130207",
+    "permit": "113建字 第0028號",
+    "households": "123",
+    "buildingLand": "萬芳段三小段563-1地號",
+    "lines": []
+  },
+  {
+    "id": "registry-台北市-文山區-和暘W",
+    "name": "和暘W",
+    "city": "台北市",
+    "district": "文山區",
+    "station": "待定位",
+    "walk": null,
+    "address": "台北市文山區景中街18號旁",
+    "builder": "備查起造人：和暘建設股份有限公司",
+    "rating": "C",
+    "ratingBasis": "官方備查起造人可辨識為建設／開發公司；暫列 C，待更多履歷資料再調整",
+    "status": "預售備查",
+    "completion": "依官方備查時程",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": null,
+    "lng": null,
+    "source": "內政部預售屋備查",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": false,
+    "locationStatus": "unlocated",
+    "googleMapsListing": false,
+    "locationAccuracy": "尚無可可靠配對的正式門牌或路口；案件保留於表格，暫不顯示地圖標記",
+    "governmentId": "110建字第0262號",
+    "governmentStatus": "申報備查 1101029",
+    "permit": "110建字第0262號",
+    "households": "205",
+    "buildingLand": "景美段五小段341地號",
+    "lines": []
   },
   {
     "id": "registry-台北市-文山區-岳泰峰?",
@@ -5818,7 +11006,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1101224",
     "permit": "110建字第0289號",
     "households": "25",
-    "buildingLand": "政大段四小段837地號"
+    "buildingLand": "政大段四小段837地號",
+    "lines": []
   },
   {
     "id": "registry-台北市-文山區-岳泰峰華",
@@ -5848,7 +11037,72 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1120220",
     "permit": "111建字第0270號",
     "households": "124",
-    "buildingLand": "景美段五小段40地號"
+    "buildingLand": "景美段五小段40地號",
+    "lines": []
+  },
+  {
+    "id": "registry-台北市-文山區-忠泰湛",
+    "name": "忠泰湛",
+    "city": "台北市",
+    "district": "文山區",
+    "station": "待定位",
+    "walk": null,
+    "address": "台北市文山區木新里開元街47號",
+    "builder": "備查起造人：忠泰建設股份有限公司",
+    "rating": "A",
+    "ratingBasis": "依已確認建商品牌套用本站評級",
+    "status": "預售備查",
+    "completion": "依官方備查時程",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": null,
+    "lng": null,
+    "source": "內政部預售屋備查",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": false,
+    "locationStatus": "unlocated",
+    "googleMapsListing": false,
+    "locationAccuracy": "尚無可可靠配對的正式門牌或路口；案件保留於表格，暫不顯示地圖標記",
+    "governmentId": "109建字第0212號",
+    "governmentStatus": "申報備查 1101008",
+    "permit": "109建字第0212號",
+    "households": "117",
+    "buildingLand": "木柵段一小段171地號",
+    "lines": []
+  },
+  {
+    "id": "registry-台北市-文山區-怡富景?",
+    "name": "怡富景?",
+    "city": "台北市",
+    "district": "文山區",
+    "station": "景美",
+    "walk": 2,
+    "address": "台北市文山區景華里景美街5巷13號2樓共九筆",
+    "builder": "備查起造人：怡富開發建設股份有限公司",
+    "rating": "C",
+    "ratingBasis": "官方備查起造人可辨識為建設／開發公司；暫列 C，待更多履歷資料再調整",
+    "status": "預售備查",
+    "completion": "依官方備查時程",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": 24.9923719077444,
+    "lng": 121.54174784143457,
+    "source": "內政部預售屋備查＋官方門牌座標",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": true,
+    "locationStatus": "verified",
+    "googleMapsListing": false,
+    "locationAccuracy": "政府備查門牌配對；官方門牌座標至 景美 最近出口直線約 81 公尺，步行時間為保守估算",
+    "governmentId": "114建字第0025號",
+    "governmentStatus": "申報備查 1140307",
+    "permit": "114建字第0025號",
+    "households": "79",
+    "buildingLand": "景美段三小段143地號",
+    "lines": [
+      "G"
+    ]
   },
   {
     "id": "registry-台北市-文山區-青耘上",
@@ -5878,7 +11132,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1110311",
     "permit": "109建字第0150號",
     "households": "66",
-    "buildingLand": "華興段三小段110地號"
+    "buildingLand": "華興段三小段110地號",
+    "lines": []
   },
   {
     "id": "registry-台北市-文山區-信義富境",
@@ -5908,7 +11163,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1130726",
     "permit": "106建字第0005號",
     "households": "349",
-    "buildingLand": "萬芳段二小段105地號"
+    "buildingLand": "萬芳段二小段105地號",
+    "lines": []
   },
   {
     "id": "registry-台北市-文山區-原禾呈真",
@@ -5938,7 +11194,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1130306",
     "permit": "113建字第0038號",
     "households": "51",
-    "buildingLand": "政大段二小段418地號"
+    "buildingLand": "政大段二小段418地號",
+    "lines": []
   },
   {
     "id": "registry-台北市-文山區-峰麗馥",
@@ -5968,7 +11225,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1130415",
     "permit": "112建字第0252號",
     "households": "23",
-    "buildingLand": "萬慶段三小段297地號"
+    "buildingLand": "萬慶段三小段297地號",
+    "lines": []
   },
   {
     "id": "registry-台北市-文山區-國泰.悠然",
@@ -5998,7 +11256,72 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1131103",
     "permit": "113建字第0099號",
     "households": "156",
-    "buildingLand": "木柵段三小段412-1地號"
+    "buildingLand": "木柵段三小段412-1地號",
+    "lines": []
+  },
+  {
+    "id": "registry-台北市-文山區-將捷旅境.-真境",
+    "name": "將捷旅境.-真境",
+    "city": "台北市",
+    "district": "文山區",
+    "station": "萬芳社區",
+    "walk": 19,
+    "address": "台北市文山區木柵路二段168巷1號1樓 共82筆",
+    "builder": "備查起造人：將捷股份有限公司",
+    "rating": "B",
+    "ratingBasis": "依已確認建商品牌套用本站評級",
+    "status": "預售備查",
+    "completion": "依官方備查時程",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": 24.988422196238993,
+    "lng": 121.56391677595397,
+    "source": "內政部預售屋備查＋官方門牌座標",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": true,
+    "locationStatus": "verified",
+    "googleMapsListing": false,
+    "locationAccuracy": "政府備查門牌配對；官方門牌座標至 萬芳社區 最近出口直線約 1209 公尺，步行時間為保守估算",
+    "governmentId": "111建字第0059號",
+    "governmentStatus": "申報備查 1130610",
+    "permit": "111建字第0059號",
+    "households": "292",
+    "buildingLand": "木柵段三小段623地號",
+    "lines": [
+      "BR"
+    ]
+  },
+  {
+    "id": "registry-台北市-文山區-將捷旅境.-善境",
+    "name": "將捷旅境.-善境",
+    "city": "台北市",
+    "district": "文山區",
+    "station": "待定位",
+    "walk": null,
+    "address": "台北市文山區木柵路二段",
+    "builder": "備查起造人：將捷股份有限公司",
+    "rating": "B",
+    "ratingBasis": "依已確認建商品牌套用本站評級",
+    "status": "預售備查",
+    "completion": "依官方備查時程",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": null,
+    "lng": null,
+    "source": "內政部預售屋備查",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": false,
+    "locationStatus": "unlocated",
+    "googleMapsListing": false,
+    "locationAccuracy": "尚無可可靠配對的正式門牌或路口；案件保留於表格，暫不顯示地圖標記",
+    "governmentId": "113建字第0225號",
+    "governmentStatus": "申報備查 1131217",
+    "permit": "113建字第0225號",
+    "households": "76",
+    "buildingLand": "木柵段三小段664地號",
+    "lines": []
   },
   {
     "id": "registry-台北市-文山區-敘文山",
@@ -6028,7 +11351,74 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1130409",
     "permit": "112建字第0176號",
     "households": "59",
-    "buildingLand": "華興段三小段50地號"
+    "buildingLand": "華興段三小段50地號",
+    "lines": [
+      "G"
+    ]
+  },
+  {
+    "id": "registry-台北市-文山區-象山主人",
+    "name": "象山主人",
+    "city": "台北市",
+    "district": "文山區",
+    "station": "待定位",
+    "walk": null,
+    "address": "台北市文山區木柵里木柵路三段",
+    "builder": "備查起造人：基泰建設股份有限公司",
+    "rating": "C",
+    "ratingBasis": "官方備查起造人可辨識為建設／開發公司；暫列 C，待更多履歷資料再調整",
+    "status": "預售備查",
+    "completion": "依官方備查時程",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": null,
+    "lng": null,
+    "source": "內政部預售屋備查",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": false,
+    "locationStatus": "unlocated",
+    "googleMapsListing": false,
+    "locationAccuracy": "尚無可可靠配對的正式門牌或路口；案件保留於表格，暫不顯示地圖標記",
+    "governmentId": "112建字第0015號",
+    "governmentStatus": "申報備查 1120206",
+    "permit": "112建字第0015號",
+    "households": "114",
+    "buildingLand": "木柵段一小段550地號",
+    "lines": []
+  },
+  {
+    "id": "registry-台北市-文山區-漢皇蒔序",
+    "name": "漢皇蒔序",
+    "city": "台北市",
+    "district": "文山區",
+    "station": "萬芳社區",
+    "walk": 18,
+    "address": "台北市文山區木柵里木柵路三段103巷19號　共8筆",
+    "builder": "備查起造人：漢吉建設股份有限公司",
+    "rating": "C",
+    "ratingBasis": "官方備查起造人可辨識為建設／開發公司；暫列 C，待更多履歷資料再調整",
+    "status": "預售備查",
+    "completion": "依官方備查時程",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": 24.988480843126503,
+    "lng": 121.56508017349802,
+    "source": "內政部預售屋備查＋官方門牌座標",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": true,
+    "locationStatus": "verified",
+    "googleMapsListing": false,
+    "locationAccuracy": "政府備查門牌配對；官方門牌座標至 萬芳社區 最近出口直線約 1167 公尺，步行時間為保守估算",
+    "governmentId": "112建字 第0262號",
+    "governmentStatus": "申報備查 1130522",
+    "permit": "112建字 第0262號",
+    "households": "94",
+    "buildingLand": "木柵段一小段410地號",
+    "lines": [
+      "BR"
+    ]
   },
   {
     "id": "registry-台北市-文山區-碧水岸",
@@ -6058,7 +11448,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1120421",
     "permit": "111建字第0070號",
     "households": "46",
-    "buildingLand": "華興段四小段21-4地號"
+    "buildingLand": "華興段四小段21-4地號",
+    "lines": [
+      "G"
+    ]
   },
   {
     "id": "registry-台北市-文山區-碩樺拾景",
@@ -6088,7 +11481,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1140910",
     "permit": "113建字第0239號",
     "households": "56",
-    "buildingLand": "萬慶段一小段419-3地號"
+    "buildingLand": "萬慶段一小段419-3地號",
+    "lines": [
+      "G"
+    ]
   },
   {
     "id": "registry-台北市-文山區-綠意久康",
@@ -6096,7 +11492,7 @@ export const matureRegistryProjects = [
     "city": "台北市",
     "district": "文山區",
     "station": "萬芳社區",
-    "walk": 19,
+    "walk": 18,
     "address": "台北市文山區木柵里久康街110巷1號  共6筆",
     "builder": "備查起造人：合眾建築經理股份有限公司",
     "rating": "NR",
@@ -6113,12 +11509,15 @@ export const matureRegistryProjects = [
     "verified": true,
     "locationStatus": "verified",
     "googleMapsListing": false,
-    "locationAccuracy": "政府備查門牌配對；官方門牌座標至 萬芳社區 最近出口直線約 1172 公尺，步行時間為保守估算",
+    "locationAccuracy": "政府備查門牌配對；官方門牌座標至 萬芳社區 最近出口直線約 1166 公尺，步行時間為保守估算",
     "governmentId": "111建字第0010號",
     "governmentStatus": "申報備查 1110902",
     "permit": "111建字第0010號",
     "households": "56",
-    "buildingLand": "木柵段一小段757-1地號"
+    "buildingLand": "木柵段一小段757-1地號",
+    "lines": [
+      "BR"
+    ]
   },
   {
     "id": "registry-台北市-文山區-蔚來之森",
@@ -6143,12 +11542,15 @@ export const matureRegistryProjects = [
     "verified": true,
     "locationStatus": "verified",
     "googleMapsListing": false,
-    "locationAccuracy": "政府備查門牌配對；官方門牌座標至 辛亥 最近出口直線約 803 公尺，步行時間為保守估算",
+    "locationAccuracy": "政府備查門牌配對；官方門牌座標至 辛亥 最近出口直線約 802 公尺，步行時間為保守估算",
     "governmentId": "110建字第0035號",
     "governmentStatus": "申報備查 1100713",
     "permit": "110建字第0035號",
     "households": "58",
-    "buildingLand": "興隆段一小段300地號"
+    "buildingLand": "興隆段一小段300地號",
+    "lines": [
+      "BR"
+    ]
   },
   {
     "id": "registry-台北市-文山區-樹語院",
@@ -6178,7 +11580,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1101214",
     "permit": "110建字第0337號",
     "households": "107",
-    "buildingLand": "萬芳段二小段662-3地號"
+    "buildingLand": "萬芳段二小段662-3地號",
+    "lines": [
+      "BR"
+    ]
   },
   {
     "id": "registry-台北市-文山區-寶亞得玥",
@@ -6208,7 +11613,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1150520",
     "permit": "115建字第0006號",
     "households": "19",
-    "buildingLand": "興隆段三小段1-47地號"
+    "buildingLand": "興隆段三小段1-47地號",
+    "lines": [
+      "G"
+    ]
   },
   {
     "id": "registry-台北市-北投區-一心居",
@@ -6238,7 +11646,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1110702",
     "permit": "111建字第0206號",
     "households": "37",
-    "buildingLand": "開明段三小段554地號"
+    "buildingLand": "開明段三小段554地號",
+    "lines": []
   },
   {
     "id": "registry-台北市-北投區-一目辰",
@@ -6268,7 +11677,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1130510",
     "permit": "113建字第0048號",
     "households": "43",
-    "buildingLand": "奇岩段二小段112地號"
+    "buildingLand": "奇岩段二小段112地號",
+    "lines": []
   },
   {
     "id": "registry-台北市-北投區-一青。悠",
@@ -6298,7 +11708,39 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1100810",
     "permit": "108建字第0252號",
     "households": "27",
-    "buildingLand": "溫泉段一小段186地號"
+    "buildingLand": "溫泉段一小段186地號",
+    "lines": []
+  },
+  {
+    "id": "registry-台北市-北投區-力方越",
+    "name": "力方越",
+    "city": "台北市",
+    "district": "北投區",
+    "station": "待定位",
+    "walk": null,
+    "address": "台北市北投區福興里承德路七段80號 共7筆",
+    "builder": "備查起造人：中華建築經理股份有限公司",
+    "rating": "NR",
+    "ratingBasis": "官方備查有起造人，但可能是建經公司、金融機構或自然人，尚未可靠對應建商品牌",
+    "status": "預售備查",
+    "completion": "依官方備查時程",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": null,
+    "lng": null,
+    "source": "內政部預售屋備查",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": false,
+    "locationStatus": "unlocated",
+    "googleMapsListing": false,
+    "locationAccuracy": "尚無可可靠配對的正式門牌或路口；案件保留於表格，暫不顯示地圖標記",
+    "governmentId": "111建字第0272號",
+    "governmentStatus": "申報備查 1130731",
+    "permit": "111建字第0272號",
+    "households": "65",
+    "buildingLand": "文林段五小段308地號",
+    "lines": []
   },
   {
     "id": "registry-台北市-北投區-力銘耘山",
@@ -6328,7 +11770,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1150102",
     "permit": "113建字第0221號",
     "households": "102",
-    "buildingLand": "軟橋段10地號"
+    "buildingLand": "軟橋段10地號",
+    "lines": []
   },
   {
     "id": "registry-台北市-北投區-上林富邑",
@@ -6358,7 +11801,70 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1141029",
     "permit": "111建字第0236號",
     "households": "6",
-    "buildingLand": "文林段四小段72地號"
+    "buildingLand": "文林段四小段72地號",
+    "lines": []
+  },
+  {
+    "id": "registry-台北市-北投區-千百度",
+    "name": "千百度",
+    "city": "台北市",
+    "district": "北投區",
+    "station": "待定位",
+    "walk": null,
+    "address": "台北市北投區中心里中山路1之2號",
+    "builder": "備查起造人：悅禧建設股份有限公司",
+    "rating": "C",
+    "ratingBasis": "官方備查起造人可辨識為建設／開發公司；暫列 C，待更多履歷資料再調整",
+    "status": "預售備查",
+    "completion": "依官方備查時程",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": null,
+    "lng": null,
+    "source": "內政部預售屋備查",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": false,
+    "locationStatus": "unlocated",
+    "googleMapsListing": false,
+    "locationAccuracy": "尚無可可靠配對的正式門牌或路口；案件保留於表格，暫不顯示地圖標記",
+    "governmentId": "113建字第0033號",
+    "governmentStatus": "申報備查 1130411",
+    "permit": "113建字第0033號",
+    "households": "93",
+    "buildingLand": "新民段二小段543地號",
+    "lines": []
+  },
+  {
+    "id": "registry-台北市-北投區-士科大院.",
+    "name": "士科大院.",
+    "city": "台北市",
+    "district": "北投區",
+    "station": "待定位",
+    "walk": null,
+    "address": "台北市北投區洲美里福善路",
+    "builder": "備查起造人：東亞建築經理股份有限公司",
+    "rating": "NR",
+    "ratingBasis": "官方備查有起造人，但可能是建經公司、金融機構或自然人，尚未可靠對應建商品牌",
+    "status": "預售備查",
+    "completion": "依官方備查時程",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": null,
+    "lng": null,
+    "source": "內政部預售屋備查",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": false,
+    "locationStatus": "unlocated",
+    "googleMapsListing": false,
+    "locationAccuracy": "尚無可可靠配對的正式門牌或路口；案件保留於表格，暫不顯示地圖標記",
+    "governmentId": "112建字第0108號",
+    "governmentStatus": "申報備查 1120727",
+    "permit": "112建字第0108號",
+    "households": "256",
+    "buildingLand": "新洲美段72地號",
+    "lines": []
   },
   {
     "id": "registry-台北市-北投區-士科潤山",
@@ -6388,7 +11894,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1111028",
     "permit": "111建字0313號",
     "households": "98",
-    "buildingLand": "軟橋段23地號"
+    "buildingLand": "軟橋段23地號",
+    "lines": []
   },
   {
     "id": "registry-台北市-北投區-大隱奇岩",
@@ -6418,7 +11925,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1141009",
     "permit": "114建字第0147號",
     "households": "36",
-    "buildingLand": "三合段61地號"
+    "buildingLand": "三合段61地號",
+    "lines": []
   },
   {
     "id": "registry-台北市-北投區-天母上城",
@@ -6448,7 +11956,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1120505",
     "permit": "111建字第0256號",
     "households": "9",
-    "buildingLand": "行義段四小段318-1地號"
+    "buildingLand": "行義段四小段318-1地號",
+    "lines": [
+      "R"
+    ]
   },
   {
     "id": "registry-台北市-北投區-天母常玉",
@@ -6478,7 +11989,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1100708",
     "permit": "109建字第0271號",
     "households": "201",
-    "buildingLand": "振興段四小段166-2地號"
+    "buildingLand": "振興段四小段166-2地號",
+    "lines": [
+      "R"
+    ]
   },
   {
     "id": "registry-台北市-北投區-天母蒔麗",
@@ -6508,7 +12022,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1150114",
     "permit": "112建字第0160號",
     "households": "41",
-    "buildingLand": "行義段二小段672地號"
+    "buildingLand": "行義段二小段672地號",
+    "lines": [
+      "R"
+    ]
   },
   {
     "id": "registry-台北市-北投區-天母鑲玉",
@@ -6538,7 +12055,76 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1130207",
     "permit": "112建字第0146號",
     "households": "31",
-    "buildingLand": "崇仰段三小段208地號"
+    "buildingLand": "崇仰段三小段208地號",
+    "lines": [
+      "R"
+    ]
+  },
+  {
+    "id": "registry-台北市-北投區-天郁",
+    "name": "天郁",
+    "city": "台北市",
+    "district": "北投區",
+    "station": "石牌",
+    "walk": 2,
+    "address": "台北市北投區裕民里裕民六路90巷1弄2號 共2筆",
+    "builder": "備查起造人：全家國際開發股份有限公司",
+    "rating": "C",
+    "ratingBasis": "官方備查起造人可辨識為建設／開發公司；暫列 C，待更多履歷資料再調整",
+    "status": "預售備查",
+    "completion": "依官方備查時程",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": 25.113459367838274,
+    "lng": 121.51716721690012,
+    "source": "內政部預售屋備查＋官方門牌座標",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": true,
+    "locationStatus": "verified",
+    "googleMapsListing": false,
+    "locationAccuracy": "政府備查門牌配對；官方門牌座標至 石牌 最近出口直線約 93 公尺，步行時間為保守估算",
+    "governmentId": "111建字第0079號",
+    "governmentStatus": "申報備查 1150603",
+    "permit": "111建字第0079號",
+    "households": "23",
+    "buildingLand": "振興段三小段440地號",
+    "lines": [
+      "R"
+    ]
+  },
+  {
+    "id": "registry-台北市-北投區-天匯",
+    "name": "天匯",
+    "city": "台北市",
+    "district": "北投區",
+    "station": "石牌",
+    "walk": 7,
+    "address": "台北市北投區石牌路一段58巷",
+    "builder": "備查起造人：建泰工藝股份有限公司",
+    "rating": "NR",
+    "ratingBasis": "官方備查有起造人，但可能是建經公司、金融機構或自然人，尚未可靠對應建商品牌",
+    "status": "預售備查",
+    "completion": "依官方備查時程",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": 25.112790652629272,
+    "lng": 121.51173718272027,
+    "source": "內政部預售屋備查＋官方門牌座標",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": false,
+    "locationStatus": "estimated",
+    "googleMapsListing": false,
+    "locationAccuracy": "政府備查巷弄範圍定位（45 個官方門牌範圍）；官方門牌座標至 石牌 最近出口直線約 429 公尺，步行時間為保守估算",
+    "governmentId": "110建字第0357號",
+    "governmentStatus": "申報備查 1120321",
+    "permit": "110建字第0357號",
+    "households": "42",
+    "buildingLand": "文林段五小段47地號",
+    "lines": [
+      "R"
+    ]
   },
   {
     "id": "registry-台北市-北投區-天綺",
@@ -6568,7 +12154,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1110414",
     "permit": "111建字第0006號",
     "households": "13",
-    "buildingLand": "奇岩段三小段544地號"
+    "buildingLand": "奇岩段三小段544地號",
+    "lines": []
   },
   {
     "id": "registry-台北市-北投區-文鄰常玉",
@@ -6598,7 +12185,41 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1110810",
     "permit": "110建字第0186號",
     "households": "46",
-    "buildingLand": "文林段三小段838-1地號"
+    "buildingLand": "文林段三小段838-1地號",
+    "lines": []
+  },
+  {
+    "id": "registry-台北市-北投區-文藝復興",
+    "name": "文藝復興",
+    "city": "台北市",
+    "district": "北投區",
+    "station": "復興崗",
+    "walk": 11,
+    "address": "台北市北投區中央北路四段30巷4號共七筆",
+    "builder": "備查起造人：泰昌建設股份有限公司",
+    "rating": "C",
+    "ratingBasis": "官方備查起造人可辨識為建設／開發公司；暫列 C，待更多履歷資料再調整",
+    "status": "預售備查",
+    "completion": "依官方備查時程",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": 25.13544660669355,
+    "lng": 121.47858152177746,
+    "source": "內政部預售屋備查＋官方門牌座標",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": true,
+    "locationStatus": "verified",
+    "googleMapsListing": false,
+    "locationAccuracy": "政府備查門牌配對；官方門牌座標至 復興崗 最近出口直線約 691 公尺，步行時間為保守估算",
+    "governmentId": "110建字0269號",
+    "governmentStatus": "申報備查 1120801",
+    "permit": "110建字0269號",
+    "households": "39",
+    "buildingLand": "桃源段四小段424-8地號",
+    "lines": [
+      "R"
+    ]
   },
   {
     "id": "registry-台北市-北投區-北投湛",
@@ -6628,7 +12249,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1130912",
     "permit": "113建字第0106號",
     "households": "17",
-    "buildingLand": "新民段三小段69地號"
+    "buildingLand": "新民段三小段69地號",
+    "lines": []
   },
   {
     "id": "registry-台北市-北投區-永信方圓",
@@ -6658,7 +12280,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1111003",
     "permit": "110建字第0130號",
     "households": "19",
-    "buildingLand": "三合段41地號"
+    "buildingLand": "三合段41地號",
+    "lines": []
   },
   {
     "id": "registry-台北市-北投區-禾碩沐晴",
@@ -6688,7 +12311,43 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1110121",
     "permit": "111建字第0026號",
     "households": "57",
-    "buildingLand": "大業段三小段229地號"
+    "buildingLand": "大業段三小段229地號",
+    "lines": [
+      "R"
+    ]
+  },
+  {
+    "id": "registry-台北市-北投區-成華織心?",
+    "name": "成華織心?",
+    "city": "台北市",
+    "district": "北投區",
+    "station": "唭哩岸",
+    "walk": 5,
+    "address": "台北市北投區立賢里吉利街106巷8號 共25筆",
+    "builder": "備查起造人：成華建設股份有限公司",
+    "rating": "C",
+    "ratingBasis": "官方備查起造人可辨識為建設／開發公司；暫列 C，待更多履歷資料再調整",
+    "status": "預售備查",
+    "completion": "依官方備查時程",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": 25.118089026740044,
+    "lng": 121.50565118213711,
+    "source": "內政部預售屋備查＋官方門牌座標",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": true,
+    "locationStatus": "verified",
+    "googleMapsListing": false,
+    "locationAccuracy": "政府備查門牌配對；官方門牌座標至 唭哩岸 最近出口直線約 308 公尺，步行時間為保守估算",
+    "governmentId": "114建字第0158號",
+    "governmentStatus": "申報備查 1141021",
+    "permit": "114建字第0158號",
+    "households": "91",
+    "buildingLand": "立農段四小段14地號",
+    "lines": [
+      "R"
+    ]
   },
   {
     "id": "registry-台北市-北投區-宏普陽明",
@@ -6718,7 +12377,39 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1110726",
     "permit": "111建字第0212號",
     "households": "102",
-    "buildingLand": "軟橋段22地號"
+    "buildingLand": "軟橋段22地號",
+    "lines": []
+  },
+  {
+    "id": "registry-台北市-北投區-玖原和美",
+    "name": "玖原和美",
+    "city": "台北市",
+    "district": "北投區",
+    "station": "待定位",
+    "walk": null,
+    "address": "台北市北投區中庸里中和街251號1樓  共36筆",
+    "builder": "備查起造人：玖原建設股份有限公司",
+    "rating": "C",
+    "ratingBasis": "官方備查起造人可辨識為建設／開發公司；暫列 C，待更多履歷資料再調整",
+    "status": "近期完工",
+    "completion": "第一次登記 1150313",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": null,
+    "lng": null,
+    "source": "內政部預售屋備查",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": false,
+    "locationStatus": "unlocated",
+    "googleMapsListing": false,
+    "locationAccuracy": "尚無可可靠配對的正式門牌或路口；案件保留於表格，暫不顯示地圖標記",
+    "governmentId": "110建字第0097號",
+    "governmentStatus": "申報備查 1110927",
+    "permit": "110建字第0097號",
+    "households": "129",
+    "buildingLand": "開明段二小段544地號",
+    "lines": []
   },
   {
     "id": "registry-台北市-北投區-佳元織川",
@@ -6748,7 +12439,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1140429",
     "permit": "114建字第0076號",
     "households": "54",
-    "buildingLand": "新洲美段8地號"
+    "buildingLand": "新洲美段8地號",
+    "lines": []
   },
   {
     "id": "registry-台北市-北投區-奇岩綠境",
@@ -6778,7 +12470,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1100827",
     "permit": "110建字第0207號",
     "households": "61",
-    "buildingLand": "奇岩段三小段1-1地號"
+    "buildingLand": "奇岩段三小段1-1地號",
+    "lines": []
   },
   {
     "id": "registry-台北市-北投區-岳泰明德",
@@ -6808,7 +12501,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1101227",
     "permit": "110建字第0332號",
     "households": "32",
-    "buildingLand": "振興段三小段76地號"
+    "buildingLand": "振興段三小段76地號",
+    "lines": [
+      "R"
+    ]
   },
   {
     "id": "registry-台北市-北投區-旺德福",
@@ -6838,7 +12534,107 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1100726",
     "permit": "109建字第0141號",
     "households": "24",
-    "buildingLand": "溫泉段二小段247地號"
+    "buildingLand": "溫泉段二小段247地號",
+    "lines": [
+      "R"
+    ]
+  },
+  {
+    "id": "registry-台北市-北投區-昇樺知玉",
+    "name": "昇樺知玉",
+    "city": "台北市",
+    "district": "北投區",
+    "station": "石牌",
+    "walk": 9,
+    "address": "台北市北投區承德路七段32巷31號2樓 共19筆",
+    "builder": "備查起造人：昇樺建設股份有限公司",
+    "rating": "C",
+    "ratingBasis": "官方備查起造人可辨識為建設／開發公司；暫列 C，待更多履歷資料再調整",
+    "status": "近期完工",
+    "completion": "第一次登記 114建字第0087號",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": 25.111553759612736,
+    "lng": 121.5115188760892,
+    "source": "內政部預售屋備查＋官方門牌座標",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": true,
+    "locationStatus": "verified",
+    "googleMapsListing": false,
+    "locationAccuracy": "政府備查門牌配對；官方門牌座標至 石牌 最近出口直線約 524 公尺，步行時間為保守估算",
+    "governmentId": "1140430",
+    "governmentStatus": "申報備查 1140820",
+    "permit": "1140430",
+    "households": "81",
+    "buildingLand": "經雙方議定自本案接待中心完成日或建造執照取得且向主管機關申報建案資訊備查日起18個月;",
+    "lines": [
+      "R"
+    ]
+  },
+  {
+    "id": "registry-台北市-北投區-東其駿",
+    "name": "東其駿",
+    "city": "台北市",
+    "district": "北投區",
+    "station": "北投",
+    "walk": 2,
+    "address": "台北市北投區大同里北投路二段1號2樓共30筆",
+    "builder": "備查起造人：東其建設股份有限公司",
+    "rating": "C",
+    "ratingBasis": "官方備查起造人可辨識為建設／開發公司；暫列 C，待更多履歷資料再調整",
+    "status": "近期完工",
+    "completion": "第一次登記 115建字第0026號",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": 25.13031949799536,
+    "lng": 121.49941380725055,
+    "source": "內政部預售屋備查＋官方門牌座標",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": true,
+    "locationStatus": "verified",
+    "googleMapsListing": false,
+    "locationAccuracy": "政府備查門牌配對；官方門牌座標至 北投 最近出口直線約 82 公尺，步行時間為保守估算",
+    "governmentId": "1150304",
+    "governmentStatus": "申報備查 1150409",
+    "permit": "1150304",
+    "households": "71",
+    "buildingLand": "完成交地起10個月;",
+    "lines": [
+      "R"
+    ]
+  },
+  {
+    "id": "registry-台北市-北投區-欣聯奇岩",
+    "name": "欣聯奇岩",
+    "city": "台北市",
+    "district": "北投區",
+    "station": "待定位",
+    "walk": null,
+    "address": "台北市北投區公館路350巷28號2樓共18筆",
+    "builder": "備查起造人：欣聯建設開發股份有限公司",
+    "rating": "C",
+    "ratingBasis": "官方備查起造人可辨識為建設／開發公司；暫列 C，待更多履歷資料再調整",
+    "status": "預售備查",
+    "completion": "依官方備查時程",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": null,
+    "lng": null,
+    "source": "內政部預售屋備查",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": false,
+    "locationStatus": "unlocated",
+    "googleMapsListing": false,
+    "locationAccuracy": "尚無可可靠配對的正式門牌或路口；案件保留於表格，暫不顯示地圖標記",
+    "governmentId": "111建字第0247號",
+    "governmentStatus": "申報備查 1110826",
+    "permit": "111建字第0247號",
+    "households": "64",
+    "buildingLand": "奇岩段三小段510地號",
+    "lines": []
   },
   {
     "id": "registry-台北市-北投區-洰賦",
@@ -6868,7 +12664,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1120731",
     "permit": "107建字第0150號",
     "households": "13",
-    "buildingLand": "開明段三小段491地號"
+    "buildingLand": "開明段三小段491地號",
+    "lines": [
+      "R"
+    ]
   },
   {
     "id": "registry-台北市-北投區-炎洲奇玉",
@@ -6898,7 +12697,39 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1130917",
     "permit": "106年建字第0213號",
     "households": "30",
-    "buildingLand": "三合段57地號"
+    "buildingLand": "三合段57地號",
+    "lines": []
+  },
+  {
+    "id": "registry-台北市-北投區-炎洲琉玉",
+    "name": "炎洲琉玉",
+    "city": "台北市",
+    "district": "北投區",
+    "station": "待定位",
+    "walk": null,
+    "address": "台北市北投區承平路",
+    "builder": "備查起造人：炎洲股份有限公司",
+    "rating": "NR",
+    "ratingBasis": "官方備查有起造人，但可能是建經公司、金融機構或自然人，尚未可靠對應建商品牌",
+    "status": "預售備查",
+    "completion": "依官方備查時程",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": null,
+    "lng": null,
+    "source": "內政部預售屋備查",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": false,
+    "locationStatus": "unlocated",
+    "googleMapsListing": false,
+    "locationAccuracy": "尚無可可靠配對的正式門牌或路口；案件保留於表格，暫不顯示地圖標記",
+    "governmentId": "114建字第0130號",
+    "governmentStatus": "申報備查 1150204",
+    "permit": "114建字第0130號",
+    "households": "59",
+    "buildingLand": "新洲美段92地號",
+    "lines": []
   },
   {
     "id": "registry-台北市-北投區-長耀四季",
@@ -6928,7 +12759,74 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1111123",
     "permit": "109建字第0269號",
     "households": "67",
-    "buildingLand": "三合段35地號"
+    "buildingLand": "三合段35地號",
+    "lines": [
+      "R"
+    ]
+  },
+  {
+    "id": "registry-台北市-北投區-長耀知音",
+    "name": "長耀知音",
+    "city": "台北市",
+    "district": "北投區",
+    "station": "待定位",
+    "walk": null,
+    "address": "台北市北投區中央南路一段",
+    "builder": "備查起造人：長耀建設股份有限公司",
+    "rating": "C",
+    "ratingBasis": "官方備查起造人可辨識為建設／開發公司；暫列 C，待更多履歷資料再調整",
+    "status": "預售備查",
+    "completion": "依官方備查時程",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": null,
+    "lng": null,
+    "source": "內政部預售屋備查",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": false,
+    "locationStatus": "unlocated",
+    "googleMapsListing": false,
+    "locationAccuracy": "尚無可可靠配對的正式門牌或路口；案件保留於表格，暫不顯示地圖標記",
+    "governmentId": "113建字第0063號",
+    "governmentStatus": "申報備查 1130909",
+    "permit": "113建字第0063號",
+    "households": "108",
+    "buildingLand": "大業段四小段5-1地號",
+    "lines": []
+  },
+  {
+    "id": "registry-台北市-北投區-品嘉-箴品序",
+    "name": "品嘉-箴品序",
+    "city": "台北市",
+    "district": "北投區",
+    "station": "新北投",
+    "walk": 5,
+    "address": "台北市北投區雙全街8號",
+    "builder": "備查起造人：品嘉建設股份有限公司",
+    "rating": "C",
+    "ratingBasis": "官方備查起造人可辨識為建設／開發公司；暫列 C，待更多履歷資料再調整",
+    "status": "預售備查",
+    "completion": "依官方備查時程",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": 25.138949462781966,
+    "lng": 121.50089154272989,
+    "source": "內政部預售屋備查＋官方門牌座標",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": true,
+    "locationStatus": "verified",
+    "googleMapsListing": false,
+    "locationAccuracy": "政府備查門牌配對；官方門牌座標至 新北投 最近出口直線約 283 公尺，步行時間為保守估算",
+    "governmentId": "112建字第0271號",
+    "governmentStatus": "申報備查 1121226",
+    "permit": "112建字第0271號",
+    "households": "125",
+    "buildingLand": "開明段二小段245地號",
+    "lines": [
+      "R"
+    ]
   },
   {
     "id": "registry-台北市-北投區-春聚",
@@ -6958,7 +12856,39 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1100727",
     "permit": "110建字第0182號",
     "households": "29",
-    "buildingLand": "行義段四小段402地號"
+    "buildingLand": "行義段四小段402地號",
+    "lines": []
+  },
+  {
+    "id": "registry-台北市-北投區-柏鴻君臨",
+    "name": "柏鴻君臨",
+    "city": "台北市",
+    "district": "北投區",
+    "station": "待定位",
+    "walk": null,
+    "address": "台北市北投區文林北路",
+    "builder": "備查起造人：柏鴻土地開發建設股份有限公司",
+    "rating": "C",
+    "ratingBasis": "官方備查起造人可辨識為建設／開發公司；暫列 C，待更多履歷資料再調整",
+    "status": "預售備查",
+    "completion": "依官方備查時程",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": null,
+    "lng": null,
+    "source": "內政部預售屋備查",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": false,
+    "locationStatus": "unlocated",
+    "googleMapsListing": false,
+    "locationAccuracy": "尚無可可靠配對的正式門牌或路口；案件保留於表格，暫不顯示地圖標記",
+    "governmentId": "111建字第0288號",
+    "governmentStatus": "申報備查 1110930",
+    "permit": "111建字第0288號",
+    "households": "144",
+    "buildingLand": "軟橋段79地號",
+    "lines": []
   },
   {
     "id": "registry-台北市-北投區-原禾御",
@@ -6988,7 +12918,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1101207",
     "permit": "108建字第0110號",
     "households": "32",
-    "buildingLand": "溫泉段四小段584地號"
+    "buildingLand": "溫泉段四小段584地號",
+    "lines": []
   },
   {
     "id": "registry-台北市-北投區-夏沐時",
@@ -7018,7 +12949,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1120426",
     "permit": "112建字第0083號",
     "households": "53",
-    "buildingLand": "立農段五小段387-2地號"
+    "buildingLand": "立農段五小段387-2地號",
+    "lines": [
+      "R"
+    ]
   },
   {
     "id": "registry-台北市-北投區-家居安曼",
@@ -7048,7 +12982,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1120224",
     "permit": "112建字第0037號",
     "households": "94",
-    "buildingLand": "軟橋段39地號"
+    "buildingLand": "軟橋段39地號",
+    "lines": [
+      "R"
+    ]
   },
   {
     "id": "registry-台北市-北投區-家居璽玉",
@@ -7078,7 +13015,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1101209",
     "permit": "110建字0329號",
     "households": "84",
-    "buildingLand": "軟橋段7地號"
+    "buildingLand": "軟橋段7地號",
+    "lines": []
   },
   {
     "id": "registry-台北市-北投區-神隱村",
@@ -7108,7 +13046,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1110124",
     "permit": "108建字第0055號",
     "households": "25",
-    "buildingLand": "新民段一小段193地號"
+    "buildingLand": "新民段一小段193地號",
+    "lines": []
   },
   {
     "id": "registry-台北市-北投區-國泰雍萃",
@@ -7138,7 +13077,39 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1110817",
     "permit": "111建字第0005號",
     "households": "125",
-    "buildingLand": "軟橋段74地號"
+    "buildingLand": "軟橋段74地號",
+    "lines": []
+  },
+  {
+    "id": "registry-台北市-北投區-常殷一域",
+    "name": "常殷一域",
+    "city": "台北市",
+    "district": "北投區",
+    "station": "待定位",
+    "walk": null,
+    "address": "台北市北投區文林北路",
+    "builder": "備查起造人：常殷建設股份有限公司",
+    "rating": "C",
+    "ratingBasis": "官方備查起造人可辨識為建設／開發公司；暫列 C，待更多履歷資料再調整",
+    "status": "近期完工",
+    "completion": "第一次登記 1141125",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": null,
+    "lng": null,
+    "source": "內政部預售屋備查",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": false,
+    "locationStatus": "unlocated",
+    "googleMapsListing": false,
+    "locationAccuracy": "尚無可可靠配對的正式門牌或路口；案件保留於表格，暫不顯示地圖標記",
+    "governmentId": "111建字第0220號",
+    "governmentStatus": "申報備查 1130415",
+    "permit": "111建字第0220號",
+    "households": "42",
+    "buildingLand": "軟橋段77地號",
+    "lines": []
   },
   {
     "id": "registry-台北市-北投區-康寶日出印象",
@@ -7168,7 +13139,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1100708",
     "permit": "110建字第0103號",
     "households": "60",
-    "buildingLand": "關渡段二小段303地號"
+    "buildingLand": "關渡段二小段303地號",
+    "lines": [
+      "R"
+    ]
   },
   {
     "id": "registry-台北市-北投區-捷運晶鑽",
@@ -7198,7 +13172,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1100709",
     "permit": "110建字第0157號",
     "households": "22",
-    "buildingLand": "奇岩段四小段77地號"
+    "buildingLand": "奇岩段四小段77地號",
+    "lines": []
   },
   {
     "id": "registry-台北市-北投區-富甲寶植",
@@ -7228,7 +13203,74 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1150518",
     "permit": "112建字第0170號",
     "households": "17",
-    "buildingLand": "文林段三小段304地號"
+    "buildingLand": "文林段三小段304地號",
+    "lines": [
+      "R"
+    ]
+  },
+  {
+    "id": "registry-台北市-北投區-富域",
+    "name": "富域",
+    "city": "台北市",
+    "district": "北投區",
+    "station": "待定位",
+    "walk": null,
+    "address": "台北市北投區中央南路一段81號等24筆",
+    "builder": "備查起造人：麗源建設股份有限公司",
+    "rating": "C",
+    "ratingBasis": "官方備查起造人可辨識為建設／開發公司；暫列 C，待更多履歷資料再調整",
+    "status": "預售備查",
+    "completion": "依官方備查時程",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": null,
+    "lng": null,
+    "source": "內政部預售屋備查",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": false,
+    "locationStatus": "unlocated",
+    "googleMapsListing": false,
+    "locationAccuracy": "尚無可可靠配對的正式門牌或路口；案件保留於表格，暫不顯示地圖標記",
+    "governmentId": "109建字第0066號",
+    "governmentStatus": "申報備查 1101026",
+    "permit": "109建字第0066號",
+    "households": "201",
+    "buildingLand": "溫泉段四小段533-4地號",
+    "lines": []
+  },
+  {
+    "id": "registry-台北市-北投區-揚昇雅韻",
+    "name": "揚昇雅韻",
+    "city": "台北市",
+    "district": "北投區",
+    "station": "北投",
+    "walk": 2,
+    "address": "台北市北投區大同里大業路452巷29之1號1樓共20筆",
+    "builder": "備查起造人：睦昇建設股份有限公司",
+    "rating": "C",
+    "ratingBasis": "官方備查起造人可辨識為建設／開發公司；暫列 C，待更多履歷資料再調整",
+    "status": "預售備查",
+    "completion": "依官方備查時程",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": 25.13215544636859,
+    "lng": 121.49716574169622,
+    "source": "內政部預售屋備查＋官方門牌座標",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": true,
+    "locationStatus": "verified",
+    "googleMapsListing": false,
+    "locationAccuracy": "政府備查門牌配對；官方門牌座標至 北投 最近出口直線約 98 公尺，步行時間為保守估算",
+    "governmentId": "114建字第0115號",
+    "governmentStatus": "申報備查 1140704",
+    "permit": "114建字第0115號",
+    "households": "52",
+    "buildingLand": "大業段三小段583地號",
+    "lines": [
+      "R"
+    ]
   },
   {
     "id": "registry-台北市-北投區-華固上文林",
@@ -7258,7 +13300,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1110624",
     "permit": "111建字第0185號",
     "households": "96",
-    "buildingLand": "軟橋段40地號"
+    "buildingLand": "軟橋段40地號",
+    "lines": []
   },
   {
     "id": "registry-台北市-北投區-華固文臨",
@@ -7288,7 +13331,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1101228",
     "permit": "110建字第0308號",
     "households": "50",
-    "buildingLand": "軟橋段15地號"
+    "buildingLand": "軟橋段15地號",
+    "lines": []
   },
   {
     "id": "registry-台北市-北投區-華固芙心",
@@ -7318,7 +13362,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1140703",
     "permit": "114建字第0120號",
     "households": "95",
-    "buildingLand": "軟橋段5地號"
+    "buildingLand": "軟橋段5地號",
+    "lines": []
   },
   {
     "id": "registry-台北市-北投區-華威豐耘",
@@ -7348,7 +13393,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1131016",
     "permit": "113建字第0191號",
     "households": "67",
-    "buildingLand": "桃源段一小段61地號"
+    "buildingLand": "桃源段一小段61地號",
+    "lines": []
   },
   {
     "id": "registry-台北市-北投區-鄉林靜岡",
@@ -7378,7 +13424,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1140702",
     "permit": "114建字第0101號",
     "households": "60",
-    "buildingLand": "桃源段二小段412地號"
+    "buildingLand": "桃源段二小段412地號",
+    "lines": [
+      "R"
+    ]
   },
   {
     "id": "registry-台北市-北投區-陽明迴鄉",
@@ -7408,7 +13457,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1110808",
     "permit": "109建字第0119",
     "households": "11",
-    "buildingLand": "新民段三小段66地號"
+    "buildingLand": "新民段三小段66地號",
+    "lines": []
   },
   {
     "id": "registry-台北市-北投區-隆雲心仝聚",
@@ -7438,7 +13488,136 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1110506",
     "permit": "111建字第0129號",
     "households": "76",
-    "buildingLand": "軟橋段72地號"
+    "buildingLand": "軟橋段72地號",
+    "lines": [
+      "R"
+    ]
+  },
+  {
+    "id": "registry-台北市-北投區-新碩大砌",
+    "name": "新碩大砌",
+    "city": "台北市",
+    "district": "北投區",
+    "station": "待定位",
+    "walk": null,
+    "address": "台北市北投區立賢里實踐街",
+    "builder": "備查起造人：新碩建設股份有限公司",
+    "rating": "B",
+    "ratingBasis": "依已確認建商品牌套用本站評級",
+    "status": "近期完工",
+    "completion": "第一次登記 1150327",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": null,
+    "lng": null,
+    "source": "內政部預售屋備查",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": false,
+    "locationStatus": "unlocated",
+    "googleMapsListing": false,
+    "locationAccuracy": "尚無可可靠配對的正式門牌或路口；案件保留於表格，暫不顯示地圖標記",
+    "governmentId": "110建字第0359號",
+    "governmentStatus": "申報備查 1110301",
+    "permit": "110建字第0359號",
+    "households": "65",
+    "buildingLand": "立農段四小段382地號",
+    "lines": []
+  },
+  {
+    "id": "registry-台北市-北投區-新潤潤心",
+    "name": "新潤潤心",
+    "city": "台北市",
+    "district": "北投區",
+    "station": "待定位",
+    "walk": null,
+    "address": "台北市北投區文承路",
+    "builder": "備查起造人：新潤建設股份有限公司",
+    "rating": "C",
+    "ratingBasis": "官方備查起造人可辨識為建設／開發公司；暫列 C，待更多履歷資料再調整",
+    "status": "近期完工",
+    "completion": "第一次登記 1150702",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": null,
+    "lng": null,
+    "source": "內政部預售屋備查",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": false,
+    "locationStatus": "unlocated",
+    "googleMapsListing": false,
+    "locationAccuracy": "尚無可可靠配對的正式門牌或路口；案件保留於表格，暫不顯示地圖標記",
+    "governmentId": "112建字第0243號",
+    "governmentStatus": "申報備查 1121027",
+    "permit": "112建字第0243號",
+    "households": "46",
+    "buildingLand": "軟橋段66地號",
+    "lines": []
+  },
+  {
+    "id": "registry-台北市-北投區-當代文匯",
+    "name": "當代文匯",
+    "city": "台北市",
+    "district": "北投區",
+    "station": "待定位",
+    "walk": null,
+    "address": "台北市北投區中央里中央南路一段",
+    "builder": "備查起造人：興富發建設股份有限公司",
+    "rating": "B",
+    "ratingBasis": "依已確認建商品牌套用本站評級",
+    "status": "預售備查",
+    "completion": "依官方備查時程",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": null,
+    "lng": null,
+    "source": "內政部預售屋備查",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": false,
+    "locationStatus": "unlocated",
+    "googleMapsListing": false,
+    "locationAccuracy": "尚無可可靠配對的正式門牌或路口；案件保留於表格，暫不顯示地圖標記",
+    "governmentId": "108建字第0106號",
+    "governmentStatus": "申報備查 1130806",
+    "permit": "108建字第0106號",
+    "households": "91",
+    "buildingLand": "大業段三小段323地號",
+    "lines": []
+  },
+  {
+    "id": "registry-台北市-北投區-睦昇天朗",
+    "name": "睦昇天朗",
+    "city": "台北市",
+    "district": "北投區",
+    "station": "石牌",
+    "walk": 3,
+    "address": "台北市北投區石牌路一段166巷",
+    "builder": "備查起造人：睦昇國際股份有限公司",
+    "rating": "NR",
+    "ratingBasis": "官方備查有起造人，但可能是建經公司、金融機構或自然人，尚未可靠對應建商品牌",
+    "status": "預售備查",
+    "completion": "依官方備查時程",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": 25.113052982528295,
+    "lng": 121.5148302232399,
+    "source": "內政部預售屋備查＋官方門牌座標",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": false,
+    "locationStatus": "estimated",
+    "googleMapsListing": false,
+    "locationAccuracy": "政府備查巷弄範圍定位（191 個官方門牌範圍）；官方門牌座標至 石牌 最近出口直線約 152 公尺，步行時間為保守估算",
+    "governmentId": "110建字第0258號",
+    "governmentStatus": "申報備查 1101202",
+    "permit": "110建字第0258號",
+    "households": "68",
+    "buildingLand": "文林段四小段460地號",
+    "lines": [
+      "R"
+    ]
   },
   {
     "id": "registry-台北市-北投區-達欣文萃",
@@ -7468,7 +13647,70 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1140416",
     "permit": "114建字第0168號",
     "households": "78",
-    "buildingLand": "軟橋段75地號"
+    "buildingLand": "軟橋段75地號",
+    "lines": []
+  },
+  {
+    "id": "registry-台北市-北投區-達麗天蒔",
+    "name": "達麗天蒔",
+    "city": "台北市",
+    "district": "北投區",
+    "station": "待定位",
+    "walk": null,
+    "address": "台北市北投區北投區建民里軟橋段未列號",
+    "builder": "備查起造人：達麗建設事業股份有限公司",
+    "rating": "B",
+    "ratingBasis": "依已確認建商品牌套用本站評級",
+    "status": "近期完工",
+    "completion": "第一次登記 1141117",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": null,
+    "lng": null,
+    "source": "內政部預售屋備查",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": false,
+    "locationStatus": "unlocated",
+    "googleMapsListing": false,
+    "locationAccuracy": "尚無可可靠配對的正式門牌或路口；案件保留於表格，暫不顯示地圖標記",
+    "governmentId": "111建字第0232號",
+    "governmentStatus": "申報備查 1111214",
+    "permit": "111建字第0232號",
+    "households": "80",
+    "buildingLand": "軟橋段33地號",
+    "lines": []
+  },
+  {
+    "id": "registry-台北市-北投區-達麗河?",
+    "name": "達麗河?",
+    "city": "台北市",
+    "district": "北投區",
+    "station": "待定位",
+    "walk": null,
+    "address": "台北市北投區洲美里福善路",
+    "builder": "備查起造人：達麗建設事業股份有限公司",
+    "rating": "B",
+    "ratingBasis": "依已確認建商品牌套用本站評級",
+    "status": "預售備查",
+    "completion": "依官方備查時程",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": null,
+    "lng": null,
+    "source": "內政部預售屋備查",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": false,
+    "locationStatus": "unlocated",
+    "googleMapsListing": false,
+    "locationAccuracy": "尚無可可靠配對的正式門牌或路口；案件保留於表格，暫不顯示地圖標記",
+    "governmentId": "112建字第0205號",
+    "governmentStatus": "申報備查 1130314",
+    "permit": "112建字第0205號",
+    "households": "179",
+    "buildingLand": "新洲美段60地號",
+    "lines": []
   },
   {
     "id": "registry-台北市-北投區-嘉磐日光",
@@ -7498,7 +13740,39 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1120323",
     "permit": "111建字第0315號",
     "households": "103",
-    "buildingLand": "大業段三小段515地號"
+    "buildingLand": "大業段三小段515地號",
+    "lines": []
+  },
+  {
+    "id": "registry-台北市-北投區-碩樺拾樂",
+    "name": "碩樺拾樂",
+    "city": "台北市",
+    "district": "北投區",
+    "station": "待定位",
+    "walk": null,
+    "address": "台北市北投區中央里中央南路一段162號 共8筆",
+    "builder": "備查起造人：碩樺建設股份有限公司",
+    "rating": "C",
+    "ratingBasis": "官方備查起造人可辨識為建設／開發公司；暫列 C，待更多履歷資料再調整",
+    "status": "預售備查",
+    "completion": "依官方備查時程",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": null,
+    "lng": null,
+    "source": "內政部預售屋備查",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": false,
+    "locationStatus": "unlocated",
+    "googleMapsListing": false,
+    "locationAccuracy": "尚無可可靠配對的正式門牌或路口；案件保留於表格，暫不顯示地圖標記",
+    "governmentId": "113建字第0001號",
+    "governmentStatus": "申報備查 1130604",
+    "permit": "113建字第0001號",
+    "households": "65",
+    "buildingLand": "大業段四小段92地號",
+    "lines": []
   },
   {
     "id": "registry-台北市-北投區-翠嶺2號",
@@ -7528,7 +13802,70 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1140701",
     "permit": "112建字第0017號",
     "households": "6",
-    "buildingLand": "新民段三小段72地號"
+    "buildingLand": "新民段三小段72地號",
+    "lines": []
+  },
+  {
+    "id": "registry-台北市-北投區-遠雄明玥",
+    "name": "遠雄明玥",
+    "city": "台北市",
+    "district": "北投區",
+    "station": "待定位",
+    "walk": null,
+    "address": "台北市北投區福真路",
+    "builder": "備查起造人：遠雄建設事業股份有限公司",
+    "rating": "A",
+    "ratingBasis": "依已確認建商品牌套用本站評級",
+    "status": "預售備查",
+    "completion": "依官方備查時程",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": null,
+    "lng": null,
+    "source": "內政部預售屋備查",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": false,
+    "locationStatus": "unlocated",
+    "googleMapsListing": false,
+    "locationAccuracy": "尚無可可靠配對的正式門牌或路口；案件保留於表格，暫不顯示地圖標記",
+    "governmentId": "114建字第0151號",
+    "governmentStatus": "申報備查 1150114",
+    "permit": "114建字第0151號",
+    "households": "211",
+    "buildingLand": "新洲美段68地號",
+    "lines": []
+  },
+  {
+    "id": "registry-台北市-北投區-遠雄泱玥",
+    "name": "遠雄泱玥",
+    "city": "台北市",
+    "district": "北投區",
+    "station": "待定位",
+    "walk": null,
+    "address": "台北市北投區北投區洲美里福美路211號旁",
+    "builder": "備查起造人：遠雄建設事業股份有限公司",
+    "rating": "A",
+    "ratingBasis": "依已確認建商品牌套用本站評級",
+    "status": "預售備查",
+    "completion": "依官方備查時程",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": null,
+    "lng": null,
+    "source": "內政部預售屋備查",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": false,
+    "locationStatus": "unlocated",
+    "googleMapsListing": false,
+    "locationAccuracy": "尚無可可靠配對的正式門牌或路口；案件保留於表格，暫不顯示地圖標記",
+    "governmentId": "113建字第0007號",
+    "governmentStatus": "申報備查 1130617",
+    "permit": "113建字第0007號",
+    "households": "112",
+    "buildingLand": "新洲美段112地號",
+    "lines": []
   },
   {
     "id": "registry-台北市-北投區-齊興_緻",
@@ -7558,7 +13895,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1140611",
     "permit": "114建字第0022號",
     "households": "57",
-    "buildingLand": "軟橋段12地號"
+    "buildingLand": "軟橋段12地號",
+    "lines": []
   },
   {
     "id": "registry-台北市-北投區-德安美麗綻",
@@ -7588,7 +13926,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1140806",
     "permit": "111建字第0356號",
     "households": "33",
-    "buildingLand": "立農段一小段391地號"
+    "buildingLand": "立農段一小段391地號",
+    "lines": [
+      "R"
+    ]
   },
   {
     "id": "registry-台北市-北投區-潤泰之森",
@@ -7618,7 +13959,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1131231",
     "permit": "113建字第0060號",
     "households": "196",
-    "buildingLand": "軟橋段28地號"
+    "buildingLand": "軟橋段28地號",
+    "lines": []
   },
   {
     "id": "registry-台北市-北投區-樸園璞開石",
@@ -7648,7 +13990,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1110401",
     "permit": "111建字第0095號",
     "households": "86",
-    "buildingLand": "軟橋段81地號"
+    "buildingLand": "軟橋段81地號",
+    "lines": []
   },
   {
     "id": "registry-台北市-北投區-樹沐",
@@ -7678,7 +14021,70 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1140822",
     "permit": "114建字第0058號",
     "households": "97",
-    "buildingLand": "桃源段四小段116地號"
+    "buildingLand": "桃源段四小段116地號",
+    "lines": []
+  },
+  {
+    "id": "registry-台北市-北投區-樺輝沐畇",
+    "name": "樺輝沐畇",
+    "city": "台北市",
+    "district": "北投區",
+    "station": "待定位",
+    "walk": null,
+    "address": "台北市北投區新洲美段96-97地號",
+    "builder": "備查起造人：樺輝建設股份有限公司",
+    "rating": "C",
+    "ratingBasis": "官方備查起造人可辨識為建設／開發公司；暫列 C，待更多履歷資料再調整",
+    "status": "預售備查",
+    "completion": "依官方備查時程",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": null,
+    "lng": null,
+    "source": "內政部預售屋備查",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": false,
+    "locationStatus": "unlocated",
+    "googleMapsListing": false,
+    "locationAccuracy": "尚無可可靠配對的正式門牌或路口；案件保留於表格，暫不顯示地圖標記",
+    "governmentId": "113建字第0088號",
+    "governmentStatus": "申報備查 1130429",
+    "permit": "113建字第0088號",
+    "households": "108",
+    "buildingLand": "新洲美段96地號",
+    "lines": []
+  },
+  {
+    "id": "registry-台北市-北投區-樺輝詠鑄",
+    "name": "樺輝詠鑄",
+    "city": "台北市",
+    "district": "北投區",
+    "station": "待定位",
+    "walk": null,
+    "address": "台北市北投區北投區洲美里洲美街",
+    "builder": "備查起造人：樺輝建設股份有限公司",
+    "rating": "C",
+    "ratingBasis": "官方備查起造人可辨識為建設／開發公司；暫列 C，待更多履歷資料再調整",
+    "status": "預售備查",
+    "completion": "依官方備查時程",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": null,
+    "lng": null,
+    "source": "內政部預售屋備查",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": false,
+    "locationStatus": "unlocated",
+    "googleMapsListing": false,
+    "locationAccuracy": "尚無可可靠配對的正式門牌或路口；案件保留於表格，暫不顯示地圖標記",
+    "governmentId": "114建字第0888號",
+    "governmentStatus": "申報備查 1140925",
+    "permit": "114建字第0888號",
+    "households": "106",
+    "buildingLand": "新洲美段100地號",
+    "lines": []
   },
   {
     "id": "registry-台北市-北投區-璞玥",
@@ -7708,7 +14114,70 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1101103",
     "permit": "110建字第0239號",
     "households": "47",
-    "buildingLand": "文林段三小段397地號"
+    "buildingLand": "文林段三小段397地號",
+    "lines": []
+  },
+  {
+    "id": "registry-台北市-北投區-璞真文學",
+    "name": "璞真文學",
+    "city": "台北市",
+    "district": "北投區",
+    "station": "待定位",
+    "walk": null,
+    "address": "台北市北投區建民里文林北路75巷中正高中對面",
+    "builder": "備查起造人：璞真建設股份有限公司",
+    "rating": "C",
+    "ratingBasis": "官方備查起造人可辨識為建設／開發公司；暫列 C，待更多履歷資料再調整",
+    "status": "近期完工",
+    "completion": "第一次登記 1140716",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": null,
+    "lng": null,
+    "source": "內政部預售屋備查",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": false,
+    "locationStatus": "unlocated",
+    "googleMapsListing": false,
+    "locationAccuracy": "尚無可可靠配對的正式門牌或路口；案件保留於表格，暫不顯示地圖標記",
+    "governmentId": "111建字號第0015號",
+    "governmentStatus": "申報備查 1110719",
+    "permit": "111建字號第0015號",
+    "households": "31",
+    "buildingLand": "軟橋段71地號",
+    "lines": []
+  },
+  {
+    "id": "registry-台北市-北投區-璞真映輝",
+    "name": "璞真映輝",
+    "city": "台北市",
+    "district": "北投區",
+    "station": "待定位",
+    "walk": null,
+    "address": "台北市北投區洲美里洲美街",
+    "builder": "備查起造人：璞真建設股份有限公司",
+    "rating": "C",
+    "ratingBasis": "官方備查起造人可辨識為建設／開發公司；暫列 C，待更多履歷資料再調整",
+    "status": "預售備查",
+    "completion": "依官方備查時程",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": null,
+    "lng": null,
+    "source": "內政部預售屋備查",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": false,
+    "locationStatus": "unlocated",
+    "googleMapsListing": false,
+    "locationAccuracy": "尚無可可靠配對的正式門牌或路口；案件保留於表格，暫不顯示地圖標記",
+    "governmentId": "115建字第0031號",
+    "governmentStatus": "申報備查 1150420",
+    "permit": "115建字第0031號",
+    "households": "82",
+    "buildingLand": "新洲美段102地號",
+    "lines": []
   },
   {
     "id": "registry-台北市-北投區-璞晛",
@@ -7738,7 +14207,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1100818",
     "permit": "110建字第0188號",
     "households": "66",
-    "buildingLand": "文林段三小段915-2地號"
+    "buildingLand": "文林段三小段915-2地號",
+    "lines": []
   },
   {
     "id": "registry-台北市-北投區-璞園?里東",
@@ -7768,7 +14238,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1110713",
     "permit": "111建字第0097號",
     "households": "45",
-    "buildingLand": "振興段三小段181地號"
+    "buildingLand": "振興段三小段181地號",
+    "lines": []
   },
   {
     "id": "registry-台北市-北投區-璞園樸洲美",
@@ -7798,7 +14269,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1150529",
     "permit": "115建字第0056號",
     "households": "166",
-    "buildingLand": "新洲美段45地號"
+    "buildingLand": "新洲美段45地號",
+    "lines": []
   },
   {
     "id": "registry-台北市-北投區-龍霖初心",
@@ -7828,7 +14300,72 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1101013",
     "permit": "110建字第0220號",
     "households": "82",
-    "buildingLand": "崇仰段三小段183地號"
+    "buildingLand": "崇仰段三小段183地號",
+    "lines": [
+      "R"
+    ]
+  },
+  {
+    "id": "registry-台北市-北投區-聯上和煦",
+    "name": "聯上和煦",
+    "city": "台北市",
+    "district": "北投區",
+    "station": "待定位",
+    "walk": null,
+    "address": "台北市北投區洲美里福善路",
+    "builder": "備查起造人：聯上開發股份有限公司",
+    "rating": "C",
+    "ratingBasis": "官方備查起造人可辨識為建設／開發公司；暫列 C，待更多履歷資料再調整",
+    "status": "預售備查",
+    "completion": "依官方備查時程",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": null,
+    "lng": null,
+    "source": "內政部預售屋備查",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": false,
+    "locationStatus": "unlocated",
+    "googleMapsListing": false,
+    "locationAccuracy": "尚無可可靠配對的正式門牌或路口；案件保留於表格，暫不顯示地圖標記",
+    "governmentId": "114建字第0045號",
+    "governmentStatus": "申報備查 1150319",
+    "permit": "114建字第0045號",
+    "households": "52",
+    "buildingLand": "新洲美段77地號",
+    "lines": []
+  },
+  {
+    "id": "registry-台北市-北投區-馥御中央",
+    "name": "馥御中央",
+    "city": "台北市",
+    "district": "北投區",
+    "station": "待定位",
+    "walk": null,
+    "address": "台北市北投區中央北路二段215號~225號",
+    "builder": "備查起造人：品嘉建設股份有限公司",
+    "rating": "C",
+    "ratingBasis": "官方備查起造人可辨識為建設／開發公司；暫列 C，待更多履歷資料再調整",
+    "status": "近期完工",
+    "completion": "第一次登記 1140224",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": null,
+    "lng": null,
+    "source": "內政部預售屋備查",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": false,
+    "locationStatus": "unlocated",
+    "googleMapsListing": false,
+    "locationAccuracy": "尚無可可靠配對的正式門牌或路口；案件保留於表格，暫不顯示地圖標記",
+    "governmentId": "110建字第0202號",
+    "governmentStatus": "申報備查 1101119",
+    "permit": "110建字第0202號",
+    "households": "50",
+    "buildingLand": "豐年段二小段382地號",
+    "lines": []
   },
   {
     "id": "registry-台北市-北投區-馥新綻",
@@ -7858,7 +14395,72 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1121121",
     "permit": "110建字第0173號",
     "households": "36",
-    "buildingLand": "桃源段四小段159地號"
+    "buildingLand": "桃源段四小段159地號",
+    "lines": [
+      "R"
+    ]
+  },
+  {
+    "id": "registry-台北市-北投區-麒源·拓",
+    "name": "麒源·拓",
+    "city": "台北市",
+    "district": "北投區",
+    "station": "待定位",
+    "walk": null,
+    "address": "台北市北投區公?路326巷11號2樓共8筆",
+    "builder": "備查起造人：麒源建設股份有限公司",
+    "rating": "C",
+    "ratingBasis": "官方備查起造人可辨識為建設／開發公司；暫列 C，待更多履歷資料再調整",
+    "status": "預售備查",
+    "completion": "依官方備查時程",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": null,
+    "lng": null,
+    "source": "內政部預售屋備查",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": false,
+    "locationStatus": "unlocated",
+    "googleMapsListing": false,
+    "locationAccuracy": "尚無可可靠配對的正式門牌或路口；案件保留於表格，暫不顯示地圖標記",
+    "governmentId": "112建字第0018號",
+    "governmentStatus": "申報備查 1120215",
+    "permit": "112建字第0018號",
+    "households": "51",
+    "buildingLand": "奇岩段三小段449地號",
+    "lines": []
+  },
+  {
+    "id": "registry-台北市-北投區-麟 璞真",
+    "name": "麟 璞真",
+    "city": "台北市",
+    "district": "北投區",
+    "station": "待定位",
+    "walk": null,
+    "address": "台北市北投區建民里文林北路",
+    "builder": "備查起造人：璞真建設股份有限公司",
+    "rating": "C",
+    "ratingBasis": "官方備查起造人可辨識為建設／開發公司；暫列 C，待更多履歷資料再調整",
+    "status": "近期完工",
+    "completion": "第一次登記 1150629",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": null,
+    "lng": null,
+    "source": "內政部預售屋備查",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": false,
+    "locationStatus": "unlocated",
+    "googleMapsListing": false,
+    "locationAccuracy": "尚無可可靠配對的正式門牌或路口；案件保留於表格，暫不顯示地圖標記",
+    "governmentId": "111件字第0016號",
+    "governmentStatus": "申報備查 1130626",
+    "permit": "111件字第0016號",
+    "households": "63",
+    "buildingLand": "軟橋段36地號",
+    "lines": []
   },
   {
     "id": "registry-台北市-松山區-九榮敦峰",
@@ -7888,7 +14490,73 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1120224",
     "permit": "111建字第0341號",
     "households": "12",
-    "buildingLand": "敦化段二小段180地號"
+    "buildingLand": "敦化段二小段180地號",
+    "lines": [
+      "BR",
+      "G"
+    ]
+  },
+  {
+    "id": "registry-台北市-松山區-八德采邑",
+    "name": "八德采邑",
+    "city": "台北市",
+    "district": "松山區",
+    "station": "待定位",
+    "walk": null,
+    "address": "台北市松山區八德路四段",
+    "builder": "備查起造人：台新建築經理股份有限公司",
+    "rating": "NR",
+    "ratingBasis": "官方備查有起造人，但可能是建經公司、金融機構或自然人，尚未可靠對應建商品牌",
+    "status": "預售備查",
+    "completion": "依官方備查時程",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": null,
+    "lng": null,
+    "source": "內政部預售屋備查",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": false,
+    "locationStatus": "unlocated",
+    "googleMapsListing": false,
+    "locationAccuracy": "尚無可可靠配對的正式門牌或路口；案件保留於表格，暫不顯示地圖標記",
+    "governmentId": "111建字第0092號",
+    "governmentStatus": "申報備查 1130614",
+    "permit": "111建字第0092號",
+    "households": "58",
+    "buildingLand": "西松段二小段426地號",
+    "lines": []
+  },
+  {
+    "id": "registry-台北市-松山區-三輝敦?",
+    "name": "三輝敦?",
+    "city": "台北市",
+    "district": "松山區",
+    "station": "待定位",
+    "walk": null,
+    "address": "台北市松山區八德路三段12巷7弄23號、八德路三段12巷7弄23之1號",
+    "builder": "備查起造人：山輝建設股份有限公司",
+    "rating": "C",
+    "ratingBasis": "官方備查起造人可辨識為建設／開發公司；暫列 C，待更多履歷資料再調整",
+    "status": "預售備查",
+    "completion": "依官方備查時程",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": null,
+    "lng": null,
+    "source": "內政部預售屋備查",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": false,
+    "locationStatus": "unlocated",
+    "googleMapsListing": false,
+    "locationAccuracy": "尚無可可靠配對的正式門牌或路口；案件保留於表格，暫不顯示地圖標記",
+    "governmentId": "113建字第0155號",
+    "governmentStatus": "申報備查 1140123",
+    "permit": "113建字第0155號",
+    "households": "66",
+    "buildingLand": "延吉段三小段567地號",
+    "lines": []
   },
   {
     "id": "registry-台北市-松山區-伊邸",
@@ -7918,7 +14586,106 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1120414",
     "permit": "112建字第0062號",
     "households": "63",
-    "buildingLand": "敦化段四小段17地號"
+    "buildingLand": "敦化段四小段17地號",
+    "lines": [
+      "BR",
+      "G"
+    ]
+  },
+  {
+    "id": "registry-台北市-松山區-吉美艾麗",
+    "name": "吉美艾麗",
+    "city": "台北市",
+    "district": "松山區",
+    "station": "待定位",
+    "walk": null,
+    "address": "台北市松山區慈祐里八德路四段",
+    "builder": "備查起造人：吉美建設事業股份有限公司",
+    "rating": "C",
+    "ratingBasis": "官方備查起造人可辨識為建設／開發公司；暫列 C，待更多履歷資料再調整",
+    "status": "近期完工",
+    "completion": "第一次登記 1150708",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": null,
+    "lng": null,
+    "source": "內政部預售屋備查",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": false,
+    "locationStatus": "unlocated",
+    "googleMapsListing": false,
+    "locationAccuracy": "尚無可可靠配對的正式門牌或路口；案件保留於表格，暫不顯示地圖標記",
+    "governmentId": "110建字第0271號",
+    "governmentStatus": "申報備查 1101112",
+    "permit": "110建字第0271號",
+    "households": "105",
+    "buildingLand": "寶清段二小段238-5地號",
+    "lines": []
+  },
+  {
+    "id": "registry-台北市-松山區-沐青",
+    "name": "沐青",
+    "city": "台北市",
+    "district": "松山區",
+    "station": "待定位",
+    "walk": null,
+    "address": "台北市松山區松山區慈祐里南京東路五段386號1樓等25筆",
+    "builder": "備查起造人：億安建設股份有限公司",
+    "rating": "C",
+    "ratingBasis": "官方備查起造人可辨識為建設／開發公司；暫列 C，待更多履歷資料再調整",
+    "status": "預售備查",
+    "completion": "依官方備查時程",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": null,
+    "lng": null,
+    "source": "內政部預售屋備查",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": false,
+    "locationStatus": "unlocated",
+    "googleMapsListing": false,
+    "locationAccuracy": "尚無可可靠配對的正式門牌或路口；案件保留於表格，暫不顯示地圖標記",
+    "governmentId": "114建字第0068號",
+    "governmentStatus": "申報備查 1140410",
+    "permit": "114建字第0068號",
+    "households": "88",
+    "buildingLand": "寶清段二小段122地號",
+    "lines": []
+  },
+  {
+    "id": "registry-台北市-松山區-京釀",
+    "name": "京釀",
+    "city": "台北市",
+    "district": "松山區",
+    "station": "南京三民",
+    "walk": 3,
+    "address": "台北市松山區安平里南京東路五段291巷29弄23號 共2筆",
+    "builder": "備查起造人：宏鋼建設開發有限公司",
+    "rating": "C",
+    "ratingBasis": "官方備查起造人可辨識為建設／開發公司；暫列 C，待更多履歷資料再調整",
+    "status": "預售備查",
+    "completion": "依官方備查時程",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": 25.050927130782824,
+    "lng": 121.5615575304574,
+    "source": "內政部預售屋備查＋官方門牌座標",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": true,
+    "locationStatus": "verified",
+    "googleMapsListing": false,
+    "locationAccuracy": "政府備查門牌配對；官方門牌座標至 南京三民 最近出口直線約 156 公尺，步行時間為保守估算",
+    "governmentId": "113建字第0096號",
+    "governmentStatus": "申報備查 1130701",
+    "permit": "113建字第0096號",
+    "households": "22",
+    "buildingLand": "寶清段三小段175地號",
+    "lines": [
+      "G"
+    ]
   },
   {
     "id": "registry-台北市-松山區-和風悅",
@@ -7948,7 +14715,41 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1110630",
     "permit": "111建字第0186號",
     "households": "15",
-    "buildingLand": "寶清段四小段18地號"
+    "buildingLand": "寶清段四小段18地號",
+    "lines": [
+      "G"
+    ]
+  },
+  {
+    "id": "registry-台北市-松山區-松玥學",
+    "name": "松玥學",
+    "city": "台北市",
+    "district": "松山區",
+    "station": "待定位",
+    "walk": null,
+    "address": "台北市松山區八德路三段201號二樓 共五筆",
+    "builder": "備查起造人：安信建築經理股份有限公司",
+    "rating": "NR",
+    "ratingBasis": "官方備查有起造人，但可能是建經公司、金融機構或自然人，尚未可靠對應建商品牌",
+    "status": "預售備查",
+    "completion": "依官方備查時程",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": null,
+    "lng": null,
+    "source": "內政部預售屋備查",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": false,
+    "locationStatus": "unlocated",
+    "googleMapsListing": false,
+    "locationAccuracy": "尚無可可靠配對的正式門牌或路口；案件保留於表格，暫不顯示地圖標記",
+    "governmentId": "110建字第0256號",
+    "governmentStatus": "申報備查 1130816",
+    "permit": "110建字第0256號",
+    "households": "41",
+    "buildingLand": "美仁段二小段301地號",
+    "lines": []
   },
   {
     "id": "registry-台北市-松山區-南京鉑蘊",
@@ -7978,7 +14779,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1140425",
     "permit": "114建字第0077號",
     "households": "41",
-    "buildingLand": "西松段二小段556地號"
+    "buildingLand": "西松段二小段556地號",
+    "lines": []
   },
   {
     "id": "registry-台北市-松山區-將捷行書",
@@ -8008,7 +14810,170 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1120517",
     "permit": "112建字第0109號",
     "households": "48",
-    "buildingLand": "寶清段三小段633地號"
+    "buildingLand": "寶清段三小段633地號",
+    "lines": []
+  },
+  {
+    "id": "registry-台北市-松山區-崧?",
+    "name": "崧?",
+    "city": "台北市",
+    "district": "松山區",
+    "station": "待定位",
+    "walk": null,
+    "address": "台北市松山區八德路四段",
+    "builder": "備查起造人：燾鼎建設股份有限公司",
+    "rating": "C",
+    "ratingBasis": "官方備查起造人可辨識為建設／開發公司；暫列 C，待更多履歷資料再調整",
+    "status": "預售備查",
+    "completion": "依官方備查時程",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": null,
+    "lng": null,
+    "source": "內政部預售屋備查",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": false,
+    "locationStatus": "unlocated",
+    "googleMapsListing": false,
+    "locationAccuracy": "尚無可可靠配對的正式門牌或路口；案件保留於表格，暫不顯示地圖標記",
+    "governmentId": "114建字第0112號",
+    "governmentStatus": "申報備查 1140709",
+    "permit": "114建字第0112號",
+    "households": "191",
+    "buildingLand": "寶清段二小段167地號",
+    "lines": []
+  },
+  {
+    "id": "registry-台北市-松山區-勝輝馥敦",
+    "name": "勝輝馥敦",
+    "city": "台北市",
+    "district": "松山區",
+    "station": "待定位",
+    "walk": null,
+    "address": "台北市松山區中崙里復興南路一段47巷9弄19號 共2筆",
+    "builder": "備查起造人：築苑建設股份有限公司",
+    "rating": "C",
+    "ratingBasis": "官方備查起造人可辨識為建設／開發公司；暫列 C，待更多履歷資料再調整",
+    "status": "近期完工",
+    "completion": "第一次登記 1141014",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": null,
+    "lng": null,
+    "source": "內政部預售屋備查",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": false,
+    "locationStatus": "unlocated",
+    "googleMapsListing": false,
+    "locationAccuracy": "尚無可可靠配對的正式門牌或路口；案件保留於表格，暫不顯示地圖標記",
+    "governmentId": "111建字 第0196號",
+    "governmentStatus": "申報備查 1110807",
+    "permit": "111建字 第0196號",
+    "households": "16",
+    "buildingLand": "敦化段三小段589-9地號",
+    "lines": []
+  },
+  {
+    "id": "registry-台北市-松山區-富品．南京",
+    "name": "富品．南京",
+    "city": "台北市",
+    "district": "松山區",
+    "station": "南京三民",
+    "walk": 8,
+    "address": "台北市松山區南京東路五段389巷6弄10號2樓等35筆",
+    "builder": "備查起造人：中國建築經理股份有限公司",
+    "rating": "NR",
+    "ratingBasis": "官方備查有起造人，但可能是建經公司、金融機構或自然人，尚未可靠對應建商品牌",
+    "status": "預售備查",
+    "completion": "依官方備查時程",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": 25.051337659149368,
+    "lng": 121.5584173672673,
+    "source": "內政部預售屋備查＋官方門牌座標",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": true,
+    "locationStatus": "verified",
+    "googleMapsListing": false,
+    "locationAccuracy": "政府備查門牌配對；官方門牌座標至 南京三民 最近出口直線約 469 公尺，步行時間為保守估算",
+    "governmentId": "113建字第8888號",
+    "governmentStatus": "申報備查 1140527",
+    "permit": "113建字第8888號",
+    "households": "144",
+    "buildingLand": "寶清段一小段582地號",
+    "lines": [
+      "G"
+    ]
+  },
+  {
+    "id": "registry-台北市-松山區-揚昇君悅",
+    "name": "揚昇君悅",
+    "city": "台北市",
+    "district": "松山區",
+    "station": "南京復興",
+    "walk": 8,
+    "address": "台北市松山區中崙里復興南路一段25巷1弄1號2樓 共60筆",
+    "builder": "備查起造人：睦昇建設股份有限公司",
+    "rating": "C",
+    "ratingBasis": "官方備查起造人可辨識為建設／開發公司；暫列 C，待更多履歷資料再調整",
+    "status": "預售備查",
+    "completion": "依官方備查時程",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": 25.047346082967337,
+    "lng": 121.54413957402652,
+    "source": "內政部預售屋備查＋官方門牌座標",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": true,
+    "locationStatus": "verified",
+    "googleMapsListing": false,
+    "locationAccuracy": "政府備查門牌配對；官方門牌座標至 南京復興 最近出口直線約 488 公尺，步行時間為保守估算",
+    "governmentId": "112建字第0126號",
+    "governmentStatus": "申報備查 1120530",
+    "permit": "112建字第0126號",
+    "households": "116",
+    "buildingLand": "敦化段三小段552地號",
+    "lines": [
+      "BR",
+      "G"
+    ]
+  },
+  {
+    "id": "registry-台北市-松山區-揚昇君隆",
+    "name": "揚昇君隆",
+    "city": "台北市",
+    "district": "松山區",
+    "station": "台北小巨蛋",
+    "walk": 8,
+    "address": "台北市松山區南京東路五段23巷9弄",
+    "builder": "備查起造人：楊昇建設股份有限公司",
+    "rating": "C",
+    "ratingBasis": "官方備查起造人可辨識為建設／開發公司；暫列 C，待更多履歷資料再調整",
+    "status": "預售備查",
+    "completion": "依官方備查時程",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": 25.052687345659386,
+    "lng": 121.55763036938045,
+    "source": "內政部預售屋備查＋官方門牌座標",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": false,
+    "locationStatus": "estimated",
+    "googleMapsListing": false,
+    "locationAccuracy": "政府備查巷弄範圍定位（10 個官方門牌範圍）；官方門牌座標至 台北小巨蛋 最近出口直線約 494 公尺，步行時間為保守估算",
+    "governmentId": "110建字第0221號",
+    "governmentStatus": "申報備查 1101008",
+    "permit": "110建字第0221號",
+    "households": "131",
+    "buildingLand": "西松段一小段742地號",
+    "lines": [
+      "G"
+    ]
   },
   {
     "id": "registry-台北市-松山區-敦北南京",
@@ -8038,7 +15003,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1100809",
     "permit": "110建字第 0166號",
     "households": "84",
-    "buildingLand": "美仁段一小段450地號"
+    "buildingLand": "美仁段一小段450地號",
+    "lines": []
   },
   {
     "id": "registry-台北市-松山區-敦北VOGUE",
@@ -8068,7 +15034,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1130529",
     "permit": "113建字第0095號",
     "households": "87",
-    "buildingLand": "美仁段二小段613地號"
+    "buildingLand": "美仁段二小段613地號",
+    "lines": []
   },
   {
     "id": "registry-台北市-松山區-敦仰",
@@ -8098,7 +15065,106 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1100705",
     "permit": "110建字第0139號",
     "households": "65",
-    "buildingLand": "敦化段二小段4地號"
+    "buildingLand": "敦化段二小段4地號",
+    "lines": [
+      "G"
+    ]
+  },
+  {
+    "id": "registry-台北市-松山區-敦睦",
+    "name": "敦睦",
+    "city": "台北市",
+    "district": "松山區",
+    "station": "南京復興",
+    "walk": 6,
+    "address": "台北市松山區中正里敦化北路50巷16號    共8筆",
+    "builder": "備查起造人：璞永建設股份有限公司",
+    "rating": "C",
+    "ratingBasis": "官方備查起造人可辨識為建設／開發公司；暫列 C，待更多履歷資料再調整",
+    "status": "預售備查",
+    "completion": "依官方備查時程",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": 25.05022490337311,
+    "lng": 121.5476074764294,
+    "source": "內政部預售屋備查＋官方門牌座標",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": true,
+    "locationStatus": "verified",
+    "googleMapsListing": false,
+    "locationAccuracy": "政府備查門牌配對；官方門牌座標至 南京復興 最近出口直線約 332 公尺，步行時間為保守估算",
+    "governmentId": "114建字第0059號",
+    "governmentStatus": "申報備查 1140515",
+    "permit": "114建字第0059號",
+    "households": "56",
+    "buildingLand": "敦化段二小段17地號",
+    "lines": [
+      "BR",
+      "G"
+    ]
+  },
+  {
+    "id": "registry-台北市-松山區-筑丰敦匯",
+    "name": "筑丰敦匯",
+    "city": "台北市",
+    "district": "松山區",
+    "station": "待定位",
+    "walk": null,
+    "address": "台北市松山區北寧路32巷5號",
+    "builder": "備查起造人：筑丰興業股份有限公司",
+    "rating": "C",
+    "ratingBasis": "官方備查起造人可辨識為建設／開發公司；暫列 C，待更多履歷資料再調整",
+    "status": "近期完工",
+    "completion": "第一次登記 1150420",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": null,
+    "lng": null,
+    "source": "內政部預售屋備查",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": false,
+    "locationStatus": "unlocated",
+    "googleMapsListing": false,
+    "locationAccuracy": "尚無可可靠配對的正式門牌或路口；案件保留於表格，暫不顯示地圖標記",
+    "governmentId": "110建字第0086號",
+    "governmentStatus": "申報備查 1100708",
+    "permit": "110建字第0086號",
+    "households": "78",
+    "buildingLand": "美仁段二小段831-3地號",
+    "lines": []
+  },
+  {
+    "id": "registry-台北市-松山區-詠綸湛",
+    "name": "詠綸湛",
+    "city": "台北市",
+    "district": "松山區",
+    "station": "待定位",
+    "walk": null,
+    "address": "台北市松山區南京東路五段251巷26、28、30號",
+    "builder": "備查起造人：詠綸建設股份有限公司",
+    "rating": "C",
+    "ratingBasis": "官方備查起造人可辨識為建設／開發公司；暫列 C，待更多履歷資料再調整",
+    "status": "預售備查",
+    "completion": "依官方備查時程",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": null,
+    "lng": null,
+    "source": "內政部預售屋備查",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": false,
+    "locationStatus": "unlocated",
+    "googleMapsListing": false,
+    "locationAccuracy": "尚無可可靠配對的正式門牌或路口；案件保留於表格，暫不顯示地圖標記",
+    "governmentId": "110建字第0183號",
+    "governmentStatus": "申報備查 1110415",
+    "permit": "110建字第0183號",
+    "households": "17",
+    "buildingLand": "寶清段三小段697地號",
+    "lines": []
   },
   {
     "id": "registry-台北市-松山區-勤美璞真城仰",
@@ -8128,7 +15194,166 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1120717",
     "permit": "112建字第0127號",
     "households": "84",
-    "buildingLand": "敦化段一小段385地號"
+    "buildingLand": "敦化段一小段385地號",
+    "lines": []
+  },
+  {
+    "id": "registry-台北市-松山區-睿泰曜",
+    "name": "睿泰曜",
+    "city": "台北市",
+    "district": "松山區",
+    "station": "待定位",
+    "walk": null,
+    "address": "台北市松山區南京東路五段253號",
+    "builder": "備查起造人：睿泰建設股份有限公司",
+    "rating": "C",
+    "ratingBasis": "官方備查起造人可辨識為建設／開發公司；暫列 C，待更多履歷資料再調整",
+    "status": "預售備查",
+    "completion": "依官方備查時程",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": null,
+    "lng": null,
+    "source": "內政部預售屋備查",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": false,
+    "locationStatus": "unlocated",
+    "googleMapsListing": false,
+    "locationAccuracy": "尚無可可靠配對的正式門牌或路口；案件保留於表格，暫不顯示地圖標記",
+    "governmentId": "110建字第0300號",
+    "governmentStatus": "申報備查 1140509",
+    "permit": "110建字第0300號",
+    "households": "121",
+    "buildingLand": "寶清段四小段478地號",
+    "lines": []
+  },
+  {
+    "id": "registry-台北市-松山區-鳴森苑",
+    "name": "鳴森苑",
+    "city": "台北市",
+    "district": "松山區",
+    "station": "待定位",
+    "walk": null,
+    "address": "台北市松山區鵬程里",
+    "builder": "備查起造人：中華工程股份有限公司",
+    "rating": "NR",
+    "ratingBasis": "官方備查有起造人，但可能是建經公司、金融機構或自然人，尚未可靠對應建商品牌",
+    "status": "預售備查",
+    "completion": "依官方備查時程",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": null,
+    "lng": null,
+    "source": "內政部預售屋備查",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": false,
+    "locationStatus": "unlocated",
+    "googleMapsListing": false,
+    "locationAccuracy": "尚無可可靠配對的正式門牌或路口；案件保留於表格，暫不顯示地圖標記",
+    "governmentId": "110建字第0140號",
+    "governmentStatus": "申報備查 1120724",
+    "permit": "110建字第0140號",
+    "households": "490",
+    "buildingLand": "寶清段一小段57地號",
+    "lines": []
+  },
+  {
+    "id": "registry-台北市-松山區-慶城匯",
+    "name": "慶城匯",
+    "city": "台北市",
+    "district": "松山區",
+    "station": "待定位",
+    "walk": null,
+    "address": "台北市松山區中正里慶城街",
+    "builder": "備查起造人：筑鴻合開發股份有限公司",
+    "rating": "C",
+    "ratingBasis": "官方備查起造人可辨識為建設／開發公司；暫列 C，待更多履歷資料再調整",
+    "status": "預售備查",
+    "completion": "依官方備查時程",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": null,
+    "lng": null,
+    "source": "內政部預售屋備查",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": false,
+    "locationStatus": "unlocated",
+    "googleMapsListing": false,
+    "locationAccuracy": "尚無可可靠配對的正式門牌或路口；案件保留於表格，暫不顯示地圖標記",
+    "governmentId": "115建字第0078號",
+    "governmentStatus": "申報備查 1150626",
+    "permit": "115建字第0078號",
+    "households": "96",
+    "buildingLand": "敦化段一小段693地號",
+    "lines": []
+  },
+  {
+    "id": "registry-台北市-松山區-璞真慶合",
+    "name": "璞真慶合",
+    "city": "台北市",
+    "district": "松山區",
+    "station": "南京復興",
+    "walk": 2,
+    "address": "台北市松山區中正里慶城街21號慶城街21之1號",
+    "builder": "備查起造人：璞真建設股份有限公司",
+    "rating": "C",
+    "ratingBasis": "官方備查起造人可辨識為建設／開發公司；暫列 C，待更多履歷資料再調整",
+    "status": "預售備查",
+    "completion": "依官方備查時程",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": 25.05335813721369,
+    "lng": 121.5450681077208,
+    "source": "內政部預售屋備查＋官方門牌座標",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": true,
+    "locationStatus": "verified",
+    "googleMapsListing": false,
+    "locationAccuracy": "政府備查門牌配對；官方門牌座標至 南京復興 最近出口直線約 108 公尺，步行時間為保守估算",
+    "governmentId": "115建字第0103號",
+    "governmentStatus": "申報備查 1150817",
+    "permit": "115建字第0103號",
+    "households": "30",
+    "buildingLand": "敦化段一小段709-1地號",
+    "lines": [
+      "BR",
+      "G"
+    ]
+  },
+  {
+    "id": "registry-台北市-松山區-聯合大樓",
+    "name": "聯合大樓",
+    "city": "台北市",
+    "district": "松山區",
+    "station": "待定位",
+    "walk": null,
+    "address": "台北市松山區南京東路四段",
+    "builder": "備查起造人：家騰建設股份有限公司",
+    "rating": "C",
+    "ratingBasis": "官方備查起造人可辨識為建設／開發公司；暫列 C，待更多履歷資料再調整",
+    "status": "預售備查",
+    "completion": "依官方備查時程",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": null,
+    "lng": null,
+    "source": "內政部預售屋備查",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": false,
+    "locationStatus": "unlocated",
+    "googleMapsListing": false,
+    "locationAccuracy": "尚無可可靠配對的正式門牌或路口；案件保留於表格，暫不顯示地圖標記",
+    "governmentId": "112建字第0001號",
+    "governmentStatus": "申報備查 1120811",
+    "permit": "112建字第0001號",
+    "households": "37",
+    "buildingLand": "美仁段一小段459地號",
+    "lines": []
   },
   {
     "id": "registry-台北市-松山區-聲光沁玥",
@@ -8158,7 +15383,103 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1140602",
     "permit": "110建字第0217",
     "households": "27",
-    "buildingLand": "西松段三小段692地號"
+    "buildingLand": "西松段三小段692地號",
+    "lines": [
+      "G"
+    ]
+  },
+  {
+    "id": "registry-台北市-松山區-織旅",
+    "name": "織旅",
+    "city": "台北市",
+    "district": "松山區",
+    "station": "待定位",
+    "walk": null,
+    "address": "台北市松山區八德路三段201號二樓共五筆",
+    "builder": "備查起造人：安信建築經理股份有限公司",
+    "rating": "NR",
+    "ratingBasis": "官方備查有起造人，但可能是建經公司、金融機構或自然人，尚未可靠對應建商品牌",
+    "status": "預售備查",
+    "completion": "依官方備查時程",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": null,
+    "lng": null,
+    "source": "內政部預售屋備查",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": false,
+    "locationStatus": "unlocated",
+    "googleMapsListing": false,
+    "locationAccuracy": "尚無可可靠配對的正式門牌或路口；案件保留於表格，暫不顯示地圖標記",
+    "governmentId": "110建字第0256號",
+    "governmentStatus": "申報備查 1150206",
+    "permit": "110建字第0256號",
+    "households": "41",
+    "buildingLand": "美仁段二小段301地號",
+    "lines": []
+  },
+  {
+    "id": "registry-台北市-松山區-馥蓊",
+    "name": "馥蓊",
+    "city": "台北市",
+    "district": "松山區",
+    "station": "待定位",
+    "walk": null,
+    "address": "台北市松山區敦化段二小段",
+    "builder": "備查起造人：金朋建設股份有限公司",
+    "rating": "C",
+    "ratingBasis": "官方備查起造人可辨識為建設／開發公司；暫列 C，待更多履歷資料再調整",
+    "status": "預售備查",
+    "completion": "依官方備查時程",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": null,
+    "lng": null,
+    "source": "內政部預售屋備查",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": false,
+    "locationStatus": "unlocated",
+    "googleMapsListing": false,
+    "locationAccuracy": "尚無可可靠配對的正式門牌或路口；案件保留於表格，暫不顯示地圖標記",
+    "governmentId": "112建字第1688號",
+    "governmentStatus": "申報備查 1130311",
+    "permit": "112建字第1688號",
+    "households": "90",
+    "buildingLand": "敦化段二小段449-12地號",
+    "lines": []
+  },
+  {
+    "id": "registry-台北市-信義區-全坤X101",
+    "name": "全坤X101",
+    "city": "台北市",
+    "district": "信義區",
+    "station": "待定位",
+    "walk": null,
+    "address": "台北市信義區光復南路485，487，489，491號",
+    "builder": "備查起造人：財團法人台北市都市更新推動中心  負責人:彭振聲等2名",
+    "rating": "NR",
+    "ratingBasis": "官方備查有起造人，但可能是建經公司、金融機構或自然人，尚未可靠對應建商品牌",
+    "status": "預售備查",
+    "completion": "依官方備查時程",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": null,
+    "lng": null,
+    "source": "內政部預售屋備查",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": false,
+    "locationStatus": "unlocated",
+    "googleMapsListing": false,
+    "locationAccuracy": "尚無可可靠配對的正式門牌或路口；案件保留於表格，暫不顯示地圖標記",
+    "governmentId": "110建字第0257號",
+    "governmentStatus": "申報備查 1101116",
+    "permit": "110建字第0257號",
+    "households": "84",
+    "buildingLand": "三興段一小段972地號",
+    "lines": []
   },
   {
     "id": "registry-台北市-信義區-吉祥．如藝",
@@ -8188,7 +15509,72 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1130322",
     "permit": "113建字第8899號",
     "households": "484",
-    "buildingLand": "雅祥段一小段614地號"
+    "buildingLand": "雅祥段一小段614地號",
+    "lines": []
+  },
+  {
+    "id": "registry-台北市-信義區-宏築信義",
+    "name": "宏築信義",
+    "city": "台北市",
+    "district": "信義區",
+    "station": "待定位",
+    "walk": null,
+    "address": "台北市信義區和平東路三段",
+    "builder": "備查起造人：立築開發股份有限公司",
+    "rating": "C",
+    "ratingBasis": "官方備查起造人可辨識為建設／開發公司；暫列 C，待更多履歷資料再調整",
+    "status": "預售備查",
+    "completion": "依官方備查時程",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": null,
+    "lng": null,
+    "source": "內政部預售屋備查",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": false,
+    "locationStatus": "unlocated",
+    "googleMapsListing": false,
+    "locationAccuracy": "尚無可可靠配對的正式門牌或路口；案件保留於表格，暫不顯示地圖標記",
+    "governmentId": "108建字第0111號",
+    "governmentStatus": "申報備查 1130619",
+    "permit": "108建字第0111號",
+    "households": "232",
+    "buildingLand": "和段一小段102地號",
+    "lines": []
+  },
+  {
+    "id": "registry-台北市-信義區-亞伯信義雅晑",
+    "name": "亞伯信義雅晑",
+    "city": "台北市",
+    "district": "信義區",
+    "station": "永春",
+    "walk": 8,
+    "address": "台北市信義區興雅里永吉路30巷157弄18號2樓共12筆",
+    "builder": "備查起造人：亞伯土地開發股份有限公司",
+    "rating": "C",
+    "ratingBasis": "官方備查起造人可辨識為建設／開發公司；暫列 C，待更多履歷資料再調整",
+    "status": "預售備查",
+    "completion": "依官方備查時程",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": 25.04495203632015,
+    "lng": 121.57335882788408,
+    "source": "內政部預售屋備查＋官方門牌座標",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": true,
+    "locationStatus": "verified",
+    "googleMapsListing": false,
+    "locationAccuracy": "政府備查門牌配對；官方門牌座標至 永春 最近出口直線約 474 公尺，步行時間為保守估算",
+    "governmentId": "111建字第0253號",
+    "governmentStatus": "申報備查 1120713",
+    "permit": "111建字第0253號",
+    "households": "38",
+    "buildingLand": "雅祥段三小段674地號",
+    "lines": [
+      "BL"
+    ]
   },
   {
     "id": "registry-台北市-信義區-亞伯信義頌",
@@ -8218,7 +15604,43 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1120715",
     "permit": "111建字第0322號",
     "households": "29",
-    "buildingLand": "永吉段一小段274地號"
+    "buildingLand": "永吉段一小段274地號",
+    "lines": [
+      "BL"
+    ]
+  },
+  {
+    "id": "registry-台北市-信義區-亞伯信義賦",
+    "name": "亞伯信義賦",
+    "city": "台北市",
+    "district": "信義區",
+    "station": "松山",
+    "walk": 8,
+    "address": "台北市信義區五全里永吉路278巷27弄10之1號 共4筆",
+    "builder": "備查起造人：亞伯土地開發股份有限公司",
+    "rating": "C",
+    "ratingBasis": "官方備查起造人可辨識為建設／開發公司；暫列 C，待更多履歷資料再調整",
+    "status": "預售備查",
+    "completion": "依官方備查時程",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": 25.046263077137546,
+    "lng": 121.57413502461108,
+    "source": "內政部預售屋備查＋官方門牌座標",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": true,
+    "locationStatus": "verified",
+    "googleMapsListing": false,
+    "locationAccuracy": "政府備查門牌配對；官方門牌座標至 松山 最近出口直線約 484 公尺，步行時間為保守估算",
+    "governmentId": "111建字第0115號",
+    "governmentStatus": "申報備查 1120715",
+    "permit": "111建字第0115號",
+    "households": "17",
+    "buildingLand": "永吉段二小段216地號",
+    "lines": [
+      "G"
+    ]
   },
   {
     "id": "registry-台北市-信義區-松裔",
@@ -8248,7 +15670,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1140519",
     "permit": "111建字0316號",
     "households": "45",
-    "buildingLand": "祥和段二小段101地號"
+    "buildingLand": "祥和段二小段101地號",
+    "lines": [
+      "R"
+    ]
   },
   {
     "id": "registry-台北市-信義區-玥隱",
@@ -8278,7 +15703,140 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1140213",
     "permit": "109建字第0248號",
     "households": "42",
-    "buildingLand": "信義段三小段43地號"
+    "buildingLand": "信義段三小段43地號",
+    "lines": [
+      "R"
+    ]
+  },
+  {
+    "id": "registry-台北市-信義區-青后",
+    "name": "青后",
+    "city": "台北市",
+    "district": "信義區",
+    "station": "待定位",
+    "walk": null,
+    "address": "台北市信義區敦厚里基隆路一段135之2號 共2筆",
+    "builder": "備查起造人：大隱開發建設股份有限公司",
+    "rating": "C",
+    "ratingBasis": "官方備查起造人可辨識為建設／開發公司；暫列 C，待更多履歷資料再調整",
+    "status": "預售備查",
+    "completion": "依官方備查時程",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": null,
+    "lng": null,
+    "source": "內政部預售屋備查",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": false,
+    "locationStatus": "unlocated",
+    "googleMapsListing": false,
+    "locationAccuracy": "尚無可可靠配對的正式門牌或路口；案件保留於表格，暫不顯示地圖標記",
+    "governmentId": "112建字第0229號",
+    "governmentStatus": "申報備查 1121012",
+    "permit": "112建字第0229號",
+    "households": "134",
+    "buildingLand": "雅祥段四小段278-2地號",
+    "lines": []
+  },
+  {
+    "id": "registry-台北市-信義區-信義蒔代",
+    "name": "信義蒔代",
+    "city": "台北市",
+    "district": "信義區",
+    "station": "松山",
+    "walk": 4,
+    "address": "台北市信義區虎林街202巷10號1樓共24筆",
+    "builder": "備查起造人：玉承欣國際股份有限公司",
+    "rating": "NR",
+    "ratingBasis": "官方備查有起造人，但可能是建經公司、金融機構或自然人，尚未可靠對應建商品牌",
+    "status": "預售備查",
+    "completion": "依官方備查時程",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": 25.047916708306087,
+    "lng": 121.57592499480172,
+    "source": "內政部預售屋備查＋官方門牌座標",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": true,
+    "locationStatus": "verified",
+    "googleMapsListing": false,
+    "locationAccuracy": "政府備查門牌配對；官方門牌座標至 松山 最近出口直線約 253 公尺，步行時間為保守估算",
+    "governmentId": "113建字第0152號",
+    "governmentStatus": "申報備查 1130816",
+    "permit": "113建字第0152號",
+    "households": "50",
+    "buildingLand": "永春段一小段151地號",
+    "lines": [
+      "G"
+    ]
+  },
+  {
+    "id": "registry-台北市-信義區-信義藏豐",
+    "name": "信義藏豐",
+    "city": "台北市",
+    "district": "信義區",
+    "station": "台北101/世貿",
+    "walk": 9,
+    "address": "台北市信義區吳興街190巷",
+    "builder": "備查起造人：君壘建設股份有限公司",
+    "rating": "C",
+    "ratingBasis": "官方備查起造人可辨識為建設／開發公司；暫列 C，待更多履歷資料再調整",
+    "status": "預售備查",
+    "completion": "依官方備查時程",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": 25.028087459987674,
+    "lng": 121.56205462788071,
+    "source": "內政部預售屋備查＋官方門牌座標",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": false,
+    "locationStatus": "estimated",
+    "googleMapsListing": false,
+    "locationAccuracy": "政府備查巷弄範圍定位（30 個官方門牌範圍）；官方門牌座標至 台北101/世貿 最近出口直線約 529 公尺，步行時間為保守估算",
+    "governmentId": "107建字第206號",
+    "governmentStatus": "申報備查 1100914",
+    "permit": "107建字第206號",
+    "households": "14",
+    "buildingLand": "三興段二小段430地號",
+    "lines": [
+      "R"
+    ]
+  },
+  {
+    "id": "registry-台北市-信義區-信義麗心",
+    "name": "信義麗心",
+    "city": "台北市",
+    "district": "信義區",
+    "station": "永春",
+    "walk": 7,
+    "address": "台北市信義區敦厚里松隆路46號2樓永吉路30巷74弄25號2樓共24筆",
+    "builder": "備查起造人：欣聯建設開發股份有限公司",
+    "rating": "C",
+    "ratingBasis": "官方備查起造人可辨識為建設／開發公司；暫列 C，待更多履歷資料再調整",
+    "status": "預售備查",
+    "completion": "依官方備查時程",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": 25.045013711494487,
+    "lng": 121.57490677052647,
+    "source": "內政部預售屋備查＋官方門牌座標",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": true,
+    "locationStatus": "verified",
+    "googleMapsListing": false,
+    "locationAccuracy": "政府備查門牌配對；官方門牌座標至 永春 最近出口直線約 447 公尺，步行時間為保守估算",
+    "governmentId": "111建字第0302號",
+    "governmentStatus": "申報備查 1111103",
+    "permit": "111建字第0302號",
+    "households": "51",
+    "buildingLand": "雅祥段四小段309地號",
+    "lines": [
+      "BL"
+    ]
   },
   {
     "id": "registry-台北市-信義區-信義WOW",
@@ -8308,7 +15866,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1110425",
     "permit": "111建字第0119號",
     "households": "30",
-    "buildingLand": "雅祥段四小段217地號"
+    "buildingLand": "雅祥段四小段217地號",
+    "lines": [
+      "G"
+    ]
   },
   {
     "id": "registry-台北市-信義區-國美森遇",
@@ -8338,7 +15899,41 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1150401",
     "permit": "114建字第0142號",
     "households": "88",
-    "buildingLand": "雅祥段一小段31-4地號"
+    "buildingLand": "雅祥段一小段31-4地號",
+    "lines": [
+      "G"
+    ]
+  },
+  {
+    "id": "registry-台北市-信義區-國美榕遇",
+    "name": "國美榕遇",
+    "city": "台北市",
+    "district": "信義區",
+    "station": "待定位",
+    "walk": null,
+    "address": "台北市信義區基隆路一段37巷1之15號2樓共17筆",
+    "builder": "備查起造人：國美建設股份有限公司",
+    "rating": "C",
+    "ratingBasis": "官方備查起造人可辨識為建設／開發公司；暫列 C，待更多履歷資料再調整",
+    "status": "預售備查",
+    "completion": "依官方備查時程",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": null,
+    "lng": null,
+    "source": "內政部預售屋備查",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": false,
+    "locationStatus": "unlocated",
+    "googleMapsListing": false,
+    "locationAccuracy": "尚無可可靠配對的正式門牌或路口；案件保留於表格，暫不顯示地圖標記",
+    "governmentId": "112建字第0288號",
+    "governmentStatus": "申報備查 1130524",
+    "permit": "112建字第0288號",
+    "households": "428",
+    "buildingLand": "雅祥段一小段578地號",
+    "lines": []
   },
   {
     "id": "registry-台北市-信義區-琢格77",
@@ -8368,7 +15963,70 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1110530",
     "permit": "111建字第0142號",
     "households": "57",
-    "buildingLand": "雅祥段三小段60地號"
+    "buildingLand": "雅祥段三小段60地號",
+    "lines": []
+  },
+  {
+    "id": "registry-台北市-信義區-華誼信義-閱明",
+    "name": "華誼信義-閱明",
+    "city": "台北市",
+    "district": "信義區",
+    "station": "待定位",
+    "walk": null,
+    "address": "台北市信義區基隆路2段26號",
+    "builder": "備查起造人：華誼建設股份有限公司",
+    "rating": "C",
+    "ratingBasis": "官方備查起造人可辨識為建設／開發公司；暫列 C，待更多履歷資料再調整",
+    "status": "預售備查",
+    "completion": "依官方備查時程",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": null,
+    "lng": null,
+    "source": "內政部預售屋備查",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": false,
+    "locationStatus": "unlocated",
+    "googleMapsListing": false,
+    "locationAccuracy": "尚無可可靠配對的正式門牌或路口；案件保留於表格，暫不顯示地圖標記",
+    "governmentId": "111建字第0339號",
+    "governmentStatus": "申報備查 1120517",
+    "permit": "111建字第0339號",
+    "households": "129",
+    "buildingLand": "三興段一小段1065地號",
+    "lines": []
+  },
+  {
+    "id": "registry-台北市-信義區-華誼信義-閱翠",
+    "name": "華誼信義-閱翠",
+    "city": "台北市",
+    "district": "信義區",
+    "station": "待定位",
+    "walk": null,
+    "address": "台北市信義區景聯里基隆路二段",
+    "builder": "備查起造人：華誼建設股份有限公司",
+    "rating": "C",
+    "ratingBasis": "官方備查起造人可辨識為建設／開發公司；暫列 C，待更多履歷資料再調整",
+    "status": "預售備查",
+    "completion": "依官方備查時程",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": null,
+    "lng": null,
+    "source": "內政部預售屋備查",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": false,
+    "locationStatus": "unlocated",
+    "googleMapsListing": false,
+    "locationAccuracy": "尚無可可靠配對的正式門牌或路口；案件保留於表格，暫不顯示地圖標記",
+    "governmentId": "111建字第0249號",
+    "governmentStatus": "申報備查 1120420",
+    "permit": "111建字第0249號",
+    "households": "124",
+    "buildingLand": "三興段一小段537地號",
+    "lines": []
   },
   {
     "id": "registry-台北市-信義區-詠綸朔望",
@@ -8398,7 +16056,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1130905",
     "permit": "113建字第0169號",
     "households": "54",
-    "buildingLand": "雅祥段四小段150地號"
+    "buildingLand": "雅祥段四小段150地號",
+    "lines": [
+      "BL"
+    ]
   },
   {
     "id": "registry-台北市-信義區-新濠信義",
@@ -8428,7 +16089,41 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1150324",
     "permit": "114建字第0212號",
     "households": "68",
-    "buildingLand": "和段二小段261-4地號"
+    "buildingLand": "和段二小段261-4地號",
+    "lines": []
+  },
+  {
+    "id": "registry-台北市-信義區-樂揚映白",
+    "name": "樂揚映白",
+    "city": "台北市",
+    "district": "信義區",
+    "station": "台北101/世貿",
+    "walk": 10,
+    "address": "台北市信義區嘉興街175巷9弄1號1-4樓，共5筆",
+    "builder": "備查起造人：樂揚建設股份有限公司",
+    "rating": "C",
+    "ratingBasis": "官方備查起造人可辨識為建設／開發公司；暫列 C，待更多履歷資料再調整",
+    "status": "預售備查",
+    "completion": "依官方備查時程",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": 25.02861239043947,
+    "lng": 121.55764371475243,
+    "source": "內政部預售屋備查＋官方門牌座標",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": true,
+    "locationStatus": "verified",
+    "googleMapsListing": false,
+    "locationAccuracy": "政府備查門牌配對；官方門牌座標至 台北101/世貿 最近出口直線約 639 公尺，步行時間為保守估算",
+    "governmentId": "111建字第0361號",
+    "governmentStatus": "申報備查 1111223",
+    "permit": "111建字第0361號",
+    "households": "43",
+    "buildingLand": "三興段三小段58地號",
+    "lines": [
+      "R"
+    ]
   },
   {
     "id": "registry-台北市-信義區-潤泰信義",
@@ -8436,7 +16131,7 @@ export const matureRegistryProjects = [
     "city": "台北市",
     "district": "信義區",
     "station": "六張犁",
-    "walk": 5,
+    "walk": 4,
     "address": "台北市信義區信安街162號",
     "builder": "備查起造人：潤泰創新國際股份有限公司",
     "rating": "S",
@@ -8453,12 +16148,79 @@ export const matureRegistryProjects = [
     "verified": true,
     "locationStatus": "verified",
     "googleMapsListing": false,
-    "locationAccuracy": "政府備查門牌配對；官方門牌座標至 六張犁 最近出口直線約 272 公尺，步行時間為保守估算",
+    "locationAccuracy": "政府備查門牌配對；官方門牌座標至 六張犁 最近出口直線約 233 公尺，步行時間為保守估算",
     "governmentId": "108建字第0103號",
     "governmentStatus": "申報備查 1110225",
     "permit": "108建字第0103號",
     "households": "116",
-    "buildingLand": "和段三小段302地號"
+    "buildingLand": "和段三小段302地號",
+    "lines": [
+      "BR"
+    ]
+  },
+  {
+    "id": "registry-台北市-信義區-緻信義",
+    "name": "緻信義",
+    "city": "台北市",
+    "district": "信義區",
+    "station": "待定位",
+    "walk": null,
+    "address": "台北市信義區基隆路二段64號2樓 共20筆",
+    "builder": "備查起造人：東亞建築經理股份有限公司",
+    "rating": "NR",
+    "ratingBasis": "官方備查有起造人，但可能是建經公司、金融機構或自然人，尚未可靠對應建商品牌",
+    "status": "預售備查",
+    "completion": "依官方備查時程",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": null,
+    "lng": null,
+    "source": "內政部預售屋備查",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": false,
+    "locationStatus": "unlocated",
+    "googleMapsListing": false,
+    "locationAccuracy": "尚無可可靠配對的正式門牌或路口；案件保留於表格，暫不顯示地圖標記",
+    "governmentId": "110建字第0255號",
+    "governmentStatus": "申報備查 1130403",
+    "permit": "110建字第0255號",
+    "households": "61",
+    "buildingLand": "三興段一小段1043地號",
+    "lines": []
+  },
+  {
+    "id": "registry-台北市-信義區-璞松高",
+    "name": "璞松高",
+    "city": "台北市",
+    "district": "信義區",
+    "station": "後山埤",
+    "walk": 1,
+    "address": "台北市信義區忠孝東路五段236巷10弄10號2樓共44筆",
+    "builder": "備查起造人：璞慧建設股份有限公司",
+    "rating": "C",
+    "ratingBasis": "官方備查起造人可辨識為建設／開發公司；暫列 C，待更多履歷資料再調整",
+    "status": "預售備查",
+    "completion": "依官方備查時程",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": 25.04319003747838,
+    "lng": 121.5818634602468,
+    "source": "內政部預售屋備查＋官方門牌座標",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": true,
+    "locationStatus": "verified",
+    "googleMapsListing": false,
+    "locationAccuracy": "政府備查門牌配對；官方門牌座標至 後山埤 最近出口直線約 57 公尺，步行時間為保守估算",
+    "governmentId": "113建字第0047號",
+    "governmentStatus": "申報備查 1130628",
+    "permit": "113建字第0047號",
+    "households": "102",
+    "buildingLand": "信義段二小段142地號",
+    "lines": [
+      "BL"
+    ]
   },
   {
     "id": "registry-台北市-信義區-璞園一隅",
@@ -8488,7 +16250,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1140609",
     "permit": "110建字第0099號",
     "households": "12",
-    "buildingLand": "雅祥段一小段429地號"
+    "buildingLand": "雅祥段一小段429地號",
+    "lines": [
+      "R"
+    ]
   },
   {
     "id": "registry-台北市-南港區-八方玥",
@@ -8518,7 +16283,41 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1100818",
     "permit": "105建字第0133號",
     "households": "19",
-    "buildingLand": "南港段二小段485地號"
+    "buildingLand": "南港段二小段485地號",
+    "lines": [
+      "BR"
+    ]
+  },
+  {
+    "id": "registry-台北市-南港區-中工雋詠",
+    "name": "中工雋詠",
+    "city": "台北市",
+    "district": "南港區",
+    "station": "待定位",
+    "walk": null,
+    "address": "台北市南港區東新里向陽路120巷19號2樓共60筆",
+    "builder": "備查起造人：中華工程股份有限公司",
+    "rating": "NR",
+    "ratingBasis": "官方備查有起造人，但可能是建經公司、金融機構或自然人，尚未可靠對應建商品牌",
+    "status": "預售備查",
+    "completion": "依官方備查時程",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": null,
+    "lng": null,
+    "source": "內政部預售屋備查",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": false,
+    "locationStatus": "unlocated",
+    "googleMapsListing": false,
+    "locationAccuracy": "尚無可可靠配對的正式門牌或路口；案件保留於表格，暫不顯示地圖標記",
+    "governmentId": "113建字第0108號",
+    "governmentStatus": "申報備查 1140522",
+    "permit": "113建字第0108號",
+    "households": "120",
+    "buildingLand": "南港段三小段316地號",
+    "lines": []
   },
   {
     "id": "registry-台北市-南港區-中研苑士",
@@ -8548,7 +16347,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1140728",
     "permit": "110建字第0131號",
     "households": "13",
-    "buildingLand": "中南段四小段551-2地號"
+    "buildingLand": "中南段四小段551-2地號",
+    "lines": []
   },
   {
     "id": "registry-台北市-南港區-中研首席",
@@ -8578,7 +16378,41 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1110816",
     "permit": "110建字第0088號",
     "households": "101",
-    "buildingLand": "中南段二小段608地號"
+    "buildingLand": "中南段二小段608地號",
+    "lines": [
+      "BR"
+    ]
+  },
+  {
+    "id": "registry-台北市-南港區-中研硯",
+    "name": "中研硯",
+    "city": "台北市",
+    "district": "南港區",
+    "station": "待定位",
+    "walk": null,
+    "address": "台北市南港區舊莊里舊莊街一段",
+    "builder": "備查起造人：茂德建設股份有限公司",
+    "rating": "B",
+    "ratingBasis": "依已確認建商品牌套用本站評級",
+    "status": "預售備查",
+    "completion": "依官方備查時程",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": null,
+    "lng": null,
+    "source": "內政部預售屋備查",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": false,
+    "locationStatus": "unlocated",
+    "googleMapsListing": false,
+    "locationAccuracy": "尚無可可靠配對的正式門牌或路口；案件保留於表格，暫不顯示地圖標記",
+    "governmentId": "113建字第0251號",
+    "governmentStatus": "申報備查 1131218",
+    "permit": "113建字第0251號",
+    "households": "71",
+    "buildingLand": "中南段四小段340地號",
+    "lines": []
   },
   {
     "id": "registry-台北市-南港區-中瑋吾年",
@@ -8608,7 +16442,41 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1110718",
     "permit": "111建字第0191號",
     "households": "31",
-    "buildingLand": "向陽段19-2地號"
+    "buildingLand": "向陽段19-2地號",
+    "lines": []
+  },
+  {
+    "id": "registry-台北市-南港區-四季嘉禾",
+    "name": "四季嘉禾",
+    "city": "台北市",
+    "district": "南港區",
+    "station": "南港展覽館",
+    "walk": 3,
+    "address": "台北市南港區南港路一段287巷2弄1號",
+    "builder": "備查起造人：聯勤建設實業股份有限公司",
+    "rating": "C",
+    "ratingBasis": "官方備查起造人可辨識為建設／開發公司；暫列 C，待更多履歷資料再調整",
+    "status": "預售備查",
+    "completion": "依官方備查時程",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": 25.05514197069719,
+    "lng": 121.61968182695607,
+    "source": "內政部預售屋備查＋官方門牌座標",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": true,
+    "locationStatus": "verified",
+    "googleMapsListing": false,
+    "locationAccuracy": "政府備查門牌配對；官方門牌座標至 南港展覽館 最近出口直線約 145 公尺，步行時間為保守估算",
+    "governmentId": "113建字第1688號",
+    "governmentStatus": "申報備查 1140529",
+    "permit": "113建字第1688號",
+    "households": "143",
+    "buildingLand": "南港段二小段652-1地號",
+    "lines": [
+      "BR"
+    ]
   },
   {
     "id": "registry-台北市-南港區-玉成大樹",
@@ -8638,7 +16506,72 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1120206",
     "permit": "112建字第0013號",
     "households": "38",
-    "buildingLand": "玉成段五小段313地號"
+    "buildingLand": "玉成段五小段313地號",
+    "lines": []
+  },
+  {
+    "id": "registry-台北市-南港區-全陽馥",
+    "name": "全陽馥",
+    "city": "台北市",
+    "district": "南港區",
+    "station": "待定位",
+    "walk": null,
+    "address": "台北市南港區三重里經貿一路",
+    "builder": "備查起造人：全陽建設股份有限公司",
+    "rating": "C",
+    "ratingBasis": "官方備查起造人可辨識為建設／開發公司；暫列 C，待更多履歷資料再調整",
+    "status": "預售備查",
+    "completion": "依官方備查時程",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": null,
+    "lng": null,
+    "source": "內政部預售屋備查",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": false,
+    "locationStatus": "unlocated",
+    "googleMapsListing": false,
+    "locationAccuracy": "尚無可可靠配對的正式門牌或路口；案件保留於表格，暫不顯示地圖標記",
+    "governmentId": "110建字第0245號",
+    "governmentStatus": "申報備查 1101207",
+    "permit": "110建字第0245號",
+    "households": "174",
+    "buildingLand": "南港段一小段19-1地號",
+    "lines": []
+  },
+  {
+    "id": "registry-台北市-南港區-沐松琚",
+    "name": "沐松琚",
+    "city": "台北市",
+    "district": "南港區",
+    "station": "後山埤",
+    "walk": 7,
+    "address": "台北市南港區南港區聯成里東新街77巷15弄1號2樓共36筆",
+    "builder": "備查起造人：興合力建設股份有限公司",
+    "rating": "C",
+    "ratingBasis": "官方備查起造人可辨識為建設／開發公司；暫列 C，待更多履歷資料再調整",
+    "status": "預售備查",
+    "completion": "依官方備查時程",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": 25.046254220291438,
+    "lng": 121.58708904683888,
+    "source": "內政部預售屋備查＋官方門牌座標",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": true,
+    "locationStatus": "verified",
+    "googleMapsListing": false,
+    "locationAccuracy": "政府備查門牌配對；官方門牌座標至 後山埤 最近出口直線約 400 公尺，步行時間為保守估算",
+    "governmentId": "111建字第0127號",
+    "governmentStatus": "申報備查 1130112",
+    "permit": "111建字第0127號",
+    "households": "58",
+    "buildingLand": "玉成段四小段584地號",
+    "lines": [
+      "BL"
+    ]
   },
   {
     "id": "registry-台北市-南港區-東方大境",
@@ -8668,7 +16601,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1130909",
     "permit": "112建字第0190號",
     "households": "515",
-    "buildingLand": "玉成段一小段169-3地號"
+    "buildingLand": "玉成段一小段169-3地號",
+    "lines": []
   },
   {
     "id": "registry-台北市-南港區-信義好境",
@@ -8698,7 +16632,136 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1110621",
     "permit": "111建字第0007號",
     "households": "32",
-    "buildingLand": "新光段二小段278-5地號"
+    "buildingLand": "新光段二小段278-5地號",
+    "lines": [
+      "BL"
+    ]
+  },
+  {
+    "id": "registry-台北市-南港區-南港之星",
+    "name": "南港之星",
+    "city": "台北市",
+    "district": "南港區",
+    "station": "待定位",
+    "walk": null,
+    "address": "台北市南港區忠孝東路七段",
+    "builder": "備查起造人：潤泰創新國際股份有限公司",
+    "rating": "S",
+    "ratingBasis": "依已確認建商品牌套用本站評級",
+    "status": "預售備查",
+    "completion": "依官方備查時程",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": null,
+    "lng": null,
+    "source": "內政部預售屋備查",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": false,
+    "locationStatus": "unlocated",
+    "googleMapsListing": false,
+    "locationAccuracy": "尚無可可靠配對的正式門牌或路口；案件保留於表格，暫不顯示地圖標記",
+    "governmentId": "111建字第0311號",
+    "governmentStatus": "申報備查 1130902",
+    "permit": "111建字第0311號",
+    "households": "1553",
+    "buildingLand": "南港段二小段671-6地號",
+    "lines": []
+  },
+  {
+    "id": "registry-台北市-南港區-南港國際 SKYPARK",
+    "name": "南港國際 SKYPARK",
+    "city": "台北市",
+    "district": "南港區",
+    "station": "待定位",
+    "walk": null,
+    "address": "台北市南港區南港區玉成里玉成段",
+    "builder": "備查起造人：南港國際一股份有限公司",
+    "rating": "NR",
+    "ratingBasis": "官方備查有起造人，但可能是建經公司、金融機構或自然人，尚未可靠對應建商品牌",
+    "status": "預售備查",
+    "completion": "依官方備查時程",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": null,
+    "lng": null,
+    "source": "內政部預售屋備查",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": false,
+    "locationStatus": "unlocated",
+    "googleMapsListing": false,
+    "locationAccuracy": "尚無可可靠配對的正式門牌或路口；案件保留於表格，暫不顯示地圖標記",
+    "governmentId": "111建字第0085號",
+    "governmentStatus": "申報備查 1140210",
+    "permit": "111建字第0085號",
+    "households": "559",
+    "buildingLand": "玉成段二小段253地號",
+    "lines": []
+  },
+  {
+    "id": "registry-台北市-南港區-首泰大?",
+    "name": "首泰大?",
+    "city": "台北市",
+    "district": "南港區",
+    "station": "南港軟體園區",
+    "walk": 4,
+    "address": "台北市南港區三重路67巷",
+    "builder": "備查起造人：首泰建設股份有限公司",
+    "rating": "C",
+    "ratingBasis": "官方備查起造人可辨識為建設／開發公司；暫列 C，待更多履歷資料再調整",
+    "status": "預售備查",
+    "completion": "依官方備查時程",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": 25.060682177682008,
+    "lng": 121.61367929778862,
+    "source": "內政部預售屋備查＋官方門牌座標",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": false,
+    "locationStatus": "estimated",
+    "googleMapsListing": false,
+    "locationAccuracy": "政府備查巷弄範圍定位（3 個官方門牌範圍）；官方門牌座標至 南港軟體園區 最近出口直線約 222 公尺，步行時間為保守估算",
+    "governmentId": "112建字第0888號",
+    "governmentStatus": "申報備查 1120926",
+    "permit": "112建字第0888號",
+    "households": "306",
+    "buildingLand": "南港段一小段366地號",
+    "lines": [
+      "BR"
+    ]
+  },
+  {
+    "id": "registry-台北市-南港區-國協天玥",
+    "name": "國協天玥",
+    "city": "台北市",
+    "district": "南港區",
+    "station": "待定位",
+    "walk": null,
+    "address": "台北市南港區南港路一段20之1號",
+    "builder": "備查起造人：國協建設實業股份有限公司",
+    "rating": "C",
+    "ratingBasis": "官方備查起造人可辨識為建設／開發公司；暫列 C，待更多履歷資料再調整",
+    "status": "預售備查",
+    "completion": "依官方備查時程",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": null,
+    "lng": null,
+    "source": "內政部預售屋備查",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": false,
+    "locationStatus": "unlocated",
+    "googleMapsListing": false,
+    "locationAccuracy": "尚無可可靠配對的正式門牌或路口；案件保留於表格，暫不顯示地圖標記",
+    "governmentId": "112建字第0223號",
+    "governmentStatus": "申報備查 1130206",
+    "permit": "112建字第0223號",
+    "households": "178",
+    "buildingLand": "南港段一小段101地號",
+    "lines": []
   },
   {
     "id": "registry-台北市-南港區-國泰悠陽",
@@ -8728,7 +16791,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1100714",
     "permit": "110建字0153號",
     "households": "112",
-    "buildingLand": "南港段三小段274地號"
+    "buildingLand": "南港段三小段274地號",
+    "lines": []
   },
   {
     "id": "registry-台北市-南港區-國泰悠境",
@@ -8758,7 +16822,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1101216",
     "permit": "110建字第0338號",
     "households": "120",
-    "buildingLand": "南港段三小段68-3地號"
+    "buildingLand": "南港段三小段68-3地號",
+    "lines": [
+      "BL"
+    ]
   },
   {
     "id": "registry-台北市-南港區-御心綻-御館",
@@ -8788,7 +16855,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1140924",
     "permit": "114建字第0160號",
     "households": "37",
-    "buildingLand": "經貿段77-1地號"
+    "buildingLand": "經貿段77-1地號",
+    "lines": []
   },
   {
     "id": "registry-台北市-南港區-雄邦—序曜",
@@ -8818,7 +16886,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1140522",
     "permit": "114建字第0047號",
     "households": "44",
-    "buildingLand": "中南段一小段251地號"
+    "buildingLand": "中南段一小段251地號",
+    "lines": []
   },
   {
     "id": "registry-台北市-南港區-達欣東匯",
@@ -8848,7 +16917,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1110414",
     "permit": "111建字第0120號",
     "households": "94",
-    "buildingLand": "經貿段8地號"
+    "buildingLand": "經貿段8地號",
+    "lines": []
   },
   {
     "id": "registry-台北市-南港區-慕曦",
@@ -8878,7 +16948,103 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1150303",
     "permit": "114建字第0067號",
     "households": "22",
-    "buildingLand": "玉成段四小段861地號"
+    "buildingLand": "玉成段四小段861地號",
+    "lines": []
+  },
+  {
+    "id": "registry-台北市-南港區-築源南港-東御苑",
+    "name": "築源南港-東御苑",
+    "city": "台北市",
+    "district": "南港區",
+    "station": "待定位",
+    "walk": null,
+    "address": "台北市南港區南港路一段175之1號1F  共26筆",
+    "builder": "備查起造人：築源建設股份有限公司",
+    "rating": "C",
+    "ratingBasis": "官方備查起造人可辨識為建設／開發公司；暫列 C，待更多履歷資料再調整",
+    "status": "預售備查",
+    "completion": "依官方備查時程",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": null,
+    "lng": null,
+    "source": "內政部預售屋備查",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": false,
+    "locationStatus": "unlocated",
+    "googleMapsListing": false,
+    "locationAccuracy": "尚無可可靠配對的正式門牌或路口；案件保留於表格，暫不顯示地圖標記",
+    "governmentId": "111建字第0320號",
+    "governmentStatus": "申報備查 1140221",
+    "permit": "111建字第0320號",
+    "households": "132",
+    "buildingLand": "南港段二小段528地號",
+    "lines": []
+  },
+  {
+    "id": "registry-台北市-南港區-築源南港-南御苑",
+    "name": "築源南港-南御苑",
+    "city": "台北市",
+    "district": "南港區",
+    "station": "南港展覽館",
+    "walk": 3,
+    "address": "台北市南港區南港路一 段187巷1號共30筆",
+    "builder": "備查起造人：築源建設股份有限公司",
+    "rating": "C",
+    "ratingBasis": "官方備查起造人可辨識為建設／開發公司；暫列 C，待更多履歷資料再調整",
+    "status": "預售備查",
+    "completion": "依官方備查時程",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": 25.05514197069719,
+    "lng": 121.61968182695607,
+    "source": "內政部預售屋備查＋官方門牌座標",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": true,
+    "locationStatus": "verified",
+    "googleMapsListing": false,
+    "locationAccuracy": "政府備查門牌配對；官方門牌座標至 南港展覽館 最近出口直線約 145 公尺，步行時間為保守估算",
+    "governmentId": "111建字第0352號",
+    "governmentStatus": "申報備查 1131212",
+    "permit": "111建字第0352號",
+    "households": "80",
+    "buildingLand": "南港段二小段533-1地號",
+    "lines": [
+      "BR"
+    ]
+  },
+  {
+    "id": "registry-台北市-南港區-衡?",
+    "name": "衡?",
+    "city": "台北市",
+    "district": "南港區",
+    "station": "待定位",
+    "walk": null,
+    "address": "台北市南港區三重里三重路39號",
+    "builder": "備查起造人：大陸建設股份有限公司",
+    "rating": "A",
+    "ratingBasis": "依已確認建商品牌套用本站評級",
+    "status": "預售備查",
+    "completion": "依官方備查時程",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": null,
+    "lng": null,
+    "source": "內政部預售屋備查",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": false,
+    "locationStatus": "unlocated",
+    "googleMapsListing": false,
+    "locationAccuracy": "尚無可可靠配對的正式門牌或路口；案件保留於表格，暫不顯示地圖標記",
+    "governmentId": "114建字第0150號",
+    "governmentStatus": "申報備查 1140829",
+    "permit": "114建字第0150號",
+    "households": "163",
+    "buildingLand": "南港段一小段561地號",
+    "lines": []
   },
   {
     "id": "registry-台北市-南港區-豐?",
@@ -8908,7 +17074,72 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1150520",
     "permit": "113建字第0070號",
     "households": "66",
-    "buildingLand": "南港段三小段231-2地號"
+    "buildingLand": "南港段三小段231-2地號",
+    "lines": []
+  },
+  {
+    "id": "registry-台北市-南港區-豐琚",
+    "name": "豐琚",
+    "city": "台北市",
+    "district": "南港區",
+    "station": "待定位",
+    "walk": null,
+    "address": "台北市南港區台北市南港區昆陽街193號",
+    "builder": "備查起造人：國家住宅及都市更新中心等2名",
+    "rating": "NR",
+    "ratingBasis": "官方備查有起造人，但可能是建經公司、金融機構或自然人，尚未可靠對應建商品牌",
+    "status": "預售備查",
+    "completion": "依官方備查時程",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": null,
+    "lng": null,
+    "source": "內政部預售屋備查",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": false,
+    "locationStatus": "unlocated",
+    "googleMapsListing": false,
+    "locationAccuracy": "尚無可可靠配對的正式門牌或路口；案件保留於表格，暫不顯示地圖標記",
+    "governmentId": "112建字第0182號",
+    "governmentStatus": "申報備查 1121018",
+    "permit": "112建字第0182號",
+    "households": "231",
+    "buildingLand": "玉成段四小段303地號",
+    "lines": []
+  },
+  {
+    "id": "registry-台北市-萬華區-三輝序慕",
+    "name": "三輝序慕",
+    "city": "台北市",
+    "district": "萬華區",
+    "station": "龍山寺",
+    "walk": 2,
+    "address": "台北市萬華區萬華區福音里和平西路三段51巷1號共19筆",
+    "builder": "備查起造人：安信建築經理股份有限公司",
+    "rating": "NR",
+    "ratingBasis": "官方備查有起造人，但可能是建經公司、金融機構或自然人，尚未可靠對應建商品牌",
+    "status": "預售備查",
+    "completion": "依官方備查時程",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": 25.03556894961925,
+    "lng": 121.49836271737546,
+    "source": "內政部預售屋備查＋官方門牌座標",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": true,
+    "locationStatus": "verified",
+    "googleMapsListing": false,
+    "locationAccuracy": "政府備查門牌配對；官方門牌座標至 龍山寺 最近出口直線約 118 公尺，步行時間為保守估算",
+    "governmentId": "111建字第5688號",
+    "governmentStatus": "申報備查 1141029",
+    "permit": "111建字第5688號",
+    "households": "95",
+    "buildingLand": "萬華段二小段268-2地號",
+    "lines": [
+      "BL"
+    ]
   },
   {
     "id": "registry-台北市-萬華區-久年慕舍",
@@ -8938,7 +17169,43 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1100916",
     "permit": "110建字第0093號",
     "households": "50",
-    "buildingLand": "漢中段一小段706地號"
+    "buildingLand": "漢中段一小段706地號",
+    "lines": [
+      "BL"
+    ]
+  },
+  {
+    "id": "registry-台北市-萬華區-大理ONE",
+    "name": "大理ONE",
+    "city": "台北市",
+    "district": "萬華區",
+    "station": "龍山寺",
+    "walk": 4,
+    "address": "台北市萬華區糖?里大理街135號 共4筆",
+    "builder": "備查起造人：花樣有限公司",
+    "rating": "NR",
+    "ratingBasis": "官方備查有起造人，但可能是建經公司、金融機構或自然人，尚未可靠對應建商品牌",
+    "status": "預售備查",
+    "completion": "依官方備查時程",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": 25.034288075926604,
+    "lng": 121.49725533204882,
+    "source": "內政部預售屋備查＋官方門牌座標",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": true,
+    "locationStatus": "verified",
+    "googleMapsListing": false,
+    "locationAccuracy": "政府備查門牌配對；官方門牌座標至 龍山寺 最近出口直線約 259 公尺，步行時間為保守估算",
+    "governmentId": "110建字第0028號",
+    "governmentStatus": "申報備查 1130110",
+    "permit": "110建字第0028號",
+    "households": "40",
+    "buildingLand": "華江段三小段365地號",
+    "lines": [
+      "BL"
+    ]
   },
   {
     "id": "registry-台北市-萬華區-友座哲園",
@@ -8968,7 +17235,107 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1100805",
     "permit": "107建字第0016號",
     "households": "64",
-    "buildingLand": "莒光段三小段275-1地號"
+    "buildingLand": "莒光段三小段275-1地號",
+    "lines": [
+      "BL"
+    ]
+  },
+  {
+    "id": "registry-台北市-萬華區-安家秀",
+    "name": "安家秀",
+    "city": "台北市",
+    "district": "萬華區",
+    "station": "龍山寺",
+    "walk": 8,
+    "address": "台北市萬華區青山里環河南路二段5巷1號",
+    "builder": "備查起造人：安家道生股份有限公司",
+    "rating": "NR",
+    "ratingBasis": "官方備查有起造人，但可能是建經公司、金融機構或自然人，尚未可靠對應建商品牌",
+    "status": "預售備查",
+    "completion": "依官方備查時程",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": 25.039041264813598,
+    "lng": 121.49728605873328,
+    "source": "內政部預售屋備查＋官方門牌座標",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": true,
+    "locationStatus": "verified",
+    "googleMapsListing": false,
+    "locationAccuracy": "政府備查門牌配對；官方門牌座標至 龍山寺 最近出口直線約 456 公尺，步行時間為保守估算",
+    "governmentId": "111建字第0167號",
+    "governmentStatus": "申報備查 1110611",
+    "permit": "111建字第0167號",
+    "households": "157",
+    "buildingLand": "直興段二小段500地號",
+    "lines": [
+      "BL"
+    ]
+  },
+  {
+    "id": "registry-台北市-萬華區-西門翫",
+    "name": "西門翫",
+    "city": "台北市",
+    "district": "萬華區",
+    "station": "待定位",
+    "walk": null,
+    "address": "台北市萬華區新起里內江街82號",
+    "builder": "備查起造人：陳同實業股份有限公司",
+    "rating": "NR",
+    "ratingBasis": "官方備查有起造人，但可能是建經公司、金融機構或自然人，尚未可靠對應建商品牌",
+    "status": "預售備查",
+    "completion": "依官方備查時程",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": null,
+    "lng": null,
+    "source": "內政部預售屋備查",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": false,
+    "locationStatus": "unlocated",
+    "googleMapsListing": false,
+    "locationAccuracy": "尚無可可靠配對的正式門牌或路口；案件保留於表格，暫不顯示地圖標記",
+    "governmentId": "114建字第0125號",
+    "governmentStatus": "申報備查 1141212",
+    "permit": "114建字第0125號",
+    "households": "78",
+    "buildingLand": "漢中段二小段674地號",
+    "lines": []
+  },
+  {
+    "id": "registry-台北市-萬華區-玖原馥悅",
+    "name": "玖原馥悅",
+    "city": "台北市",
+    "district": "萬華區",
+    "station": "龍山寺",
+    "walk": 7,
+    "address": "台北市萬華區頂碩里莒光路178巷1號 共四筆",
+    "builder": "備查起造人：玖恩建設股份有限公司",
+    "rating": "C",
+    "ratingBasis": "官方備查起造人可辨識為建設／開發公司；暫列 C，待更多履歷資料再調整",
+    "status": "預售備查",
+    "completion": "依官方備查時程",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": 25.031731591567542,
+    "lng": 121.5035208506457,
+    "source": "內政部預售屋備查＋官方門牌座標",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": true,
+    "locationStatus": "verified",
+    "googleMapsListing": false,
+    "locationAccuracy": "政府備查門牌配對；官方門牌座標至 龍山寺 最近出口直線約 453 公尺，步行時間為保守估算",
+    "governmentId": "112建字第0251號",
+    "governmentStatus": "申報備查 1150504",
+    "permit": "112建字第0251號",
+    "households": "25",
+    "buildingLand": "莒光段二小段682-1地號",
+    "lines": [
+      "BL"
+    ]
   },
   {
     "id": "registry-台北市-萬華區-和平首璽",
@@ -8998,7 +17365,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1110301",
     "permit": "106建字第0055號",
     "households": "15",
-    "buildingLand": "華江段三小段427地號"
+    "buildingLand": "華江段三小段427地號",
+    "lines": [
+      "BL"
+    ]
   },
   {
     "id": "registry-台北市-萬華區-和岩心悅",
@@ -9028,7 +17398,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1130611",
     "permit": "112建字第0181號",
     "households": "11",
-    "buildingLand": "莒光段一小段408地號"
+    "buildingLand": "莒光段一小段408地號",
+    "lines": [
+      "BL"
+    ]
   },
   {
     "id": "registry-台北市-萬華區-幸福安家",
@@ -9058,7 +17431,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1110914",
     "permit": "108建字第0116號",
     "households": "49",
-    "buildingLand": "華中段二小段191地號"
+    "buildingLand": "華中段二小段191地號",
+    "lines": []
   },
   {
     "id": "registry-台北市-萬華區-長虹MVP",
@@ -9088,7 +17462,137 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1131106",
     "permit": "111建字第0100號",
     "households": "331",
-    "buildingLand": "福星段四小段371地號"
+    "buildingLand": "福星段四小段371地號",
+    "lines": []
+  },
+  {
+    "id": "registry-台北市-萬華區-冠輝文蔚",
+    "name": "冠輝文蔚",
+    "city": "台北市",
+    "district": "萬華區",
+    "station": "龍山寺",
+    "walk": 22,
+    "address": "台北市萬華區寶興街188巷4號共四筆",
+    "builder": "備查起造人：冠輝建設股份有限公司",
+    "rating": "C",
+    "ratingBasis": "官方備查起造人可辨識為建設／開發公司；暫列 C，待更多履歷資料再調整",
+    "status": "預售備查",
+    "completion": "依官方備查時程",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": 25.023781413755586,
+    "lng": 121.49432487422614,
+    "source": "內政部預售屋備查＋官方門牌座標",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": true,
+    "locationStatus": "verified",
+    "googleMapsListing": false,
+    "locationAccuracy": "政府備查門牌配對；官方門牌座標至 龍山寺 最近出口直線約 1375 公尺，步行時間為保守估算",
+    "governmentId": "114建字第0139號",
+    "governmentStatus": "申報備查 1150206",
+    "permit": "114建字第0139號",
+    "households": "37",
+    "buildingLand": "華中段二小段140地號",
+    "lines": [
+      "BL"
+    ]
+  },
+  {
+    "id": "registry-台北市-萬華區-南海御景",
+    "name": "南海御景",
+    "city": "台北市",
+    "district": "萬華區",
+    "station": "待定位",
+    "walk": null,
+    "address": "台北市萬華區西藏路430號",
+    "builder": "備查起造人：和暘建設股份有限公司",
+    "rating": "C",
+    "ratingBasis": "官方備查起造人可辨識為建設／開發公司；暫列 C，待更多履歷資料再調整",
+    "status": "預售備查",
+    "completion": "依官方備查時程",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": null,
+    "lng": null,
+    "source": "內政部預售屋備查",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": false,
+    "locationStatus": "unlocated",
+    "googleMapsListing": false,
+    "locationAccuracy": "尚無可可靠配對的正式門牌或路口；案件保留於表格，暫不顯示地圖標記",
+    "governmentId": "113建字第0217號",
+    "governmentStatus": "申報備查 1131028",
+    "permit": "113建字第0217號",
+    "households": "52",
+    "buildingLand": "莒光段三小段587地號",
+    "lines": []
+  },
+  {
+    "id": "registry-台北市-萬華區-城中京湛",
+    "name": "城中京湛",
+    "city": "台北市",
+    "district": "萬華區",
+    "station": "西門",
+    "walk": 4,
+    "address": "台北市萬華區漢口街二段53巷18號，共7筆",
+    "builder": "備查起造人：東亞建築經理股份有限公司",
+    "rating": "NR",
+    "ratingBasis": "官方備查有起造人，但可能是建經公司、金融機構或自然人，尚未可靠對應建商品牌",
+    "status": "近期完工",
+    "completion": "第一次登記 1150205",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": 25.045219894948115,
+    "lng": 121.50831302381904,
+    "source": "內政部預售屋備查＋官方門牌座標",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": true,
+    "locationStatus": "verified",
+    "googleMapsListing": false,
+    "locationAccuracy": "政府備查門牌配對；官方門牌座標至 西門 最近出口直線約 259 公尺，步行時間為保守估算",
+    "governmentId": "110建字第0049號",
+    "governmentStatus": "申報備查 1121130",
+    "permit": "110建字第0049號",
+    "households": "75",
+    "buildingLand": "福星段二小段388地號",
+    "lines": [
+      "G",
+      "BL"
+    ]
+  },
+  {
+    "id": "registry-台北市-萬華區-城西蒔光",
+    "name": "城西蒔光",
+    "city": "台北市",
+    "district": "萬華區",
+    "station": "待定位",
+    "walk": null,
+    "address": "台北市萬華區和德里興義街17號共10筆",
+    "builder": "備查起造人：華鼎建設開發股份有限公司",
+    "rating": "C",
+    "ratingBasis": "官方備查起造人可辨識為建設／開發公司；暫列 C，待更多履歷資料再調整",
+    "status": "預售備查",
+    "completion": "依官方備查時程",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": null,
+    "lng": null,
+    "source": "內政部預售屋備查",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": false,
+    "locationStatus": "unlocated",
+    "googleMapsListing": false,
+    "locationAccuracy": "尚無可可靠配對的正式門牌或路口；案件保留於表格，暫不顯示地圖標記",
+    "governmentId": "112建字第0151號",
+    "governmentStatus": "申報備查 1120810",
+    "permit": "112建字第0151號",
+    "households": "57",
+    "buildingLand": "雙園段一小段282-1地號",
+    "lines": []
   },
   {
     "id": "registry-台北市-萬華區-恆隆聚",
@@ -9118,7 +17622,41 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1111227",
     "permit": "111建第0237號",
     "households": "43",
-    "buildingLand": "華江段三小段473-14地號"
+    "buildingLand": "華江段三小段473-14地號",
+    "lines": [
+      "BL"
+    ]
+  },
+  {
+    "id": "registry-台北市-萬華區-康HOME",
+    "name": "康HOME",
+    "city": "台北市",
+    "district": "萬華區",
+    "station": "待定位",
+    "walk": null,
+    "address": "台北市萬華區永福街104號等10筆",
+    "builder": "備查起造人：康景建設股份有限公司",
+    "rating": "C",
+    "ratingBasis": "官方備查起造人可辨識為建設／開發公司；暫列 C，待更多履歷資料再調整",
+    "status": "近期完工",
+    "completion": "第一次登記 1140926",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": null,
+    "lng": null,
+    "source": "內政部預售屋備查",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": false,
+    "locationStatus": "unlocated",
+    "googleMapsListing": false,
+    "locationAccuracy": "尚無可可靠配對的正式門牌或路口；案件保留於表格，暫不顯示地圖標記",
+    "governmentId": "111建字第0182號",
+    "governmentStatus": "申報備查 1110616",
+    "permit": "111建字第0182號",
+    "households": "44",
+    "buildingLand": "漢中段三小段895地號",
+    "lines": []
   },
   {
     "id": "registry-台北市-萬華區-華穗",
@@ -9148,7 +17686,75 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1101022",
     "permit": "110建字第0250號",
     "households": "67",
-    "buildingLand": "華江段三小段380地號"
+    "buildingLand": "華江段三小段380地號",
+    "lines": []
+  },
+  {
+    "id": "registry-台北市-萬華區-貴暘御景-逸景樓",
+    "name": "貴暘御景-逸景樓",
+    "city": "台北市",
+    "district": "萬華區",
+    "station": "龍山寺",
+    "walk": 8,
+    "address": "台北市萬華區新起里貴陽街二段3之2號共3筆",
+    "builder": "備查起造人：和暘建設股份有限公司",
+    "rating": "C",
+    "ratingBasis": "官方備查起造人可辨識為建設／開發公司；暫列 C，待更多履歷資料再調整",
+    "status": "預售備查",
+    "completion": "依官方備查時程",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": 25.03942443865912,
+    "lng": 121.50332245798222,
+    "source": "內政部預售屋備查＋官方門牌座標",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": true,
+    "locationStatus": "verified",
+    "googleMapsListing": false,
+    "locationAccuracy": "政府備查門牌配對；官方門牌座標至 龍山寺 最近出口直線約 477 公尺，步行時間為保守估算",
+    "governmentId": "111建字第0286號",
+    "governmentStatus": "申報備查 1110926",
+    "permit": "111建字第0286號",
+    "households": "56",
+    "buildingLand": "漢中段二小段5-14地號",
+    "lines": [
+      "BL"
+    ]
+  },
+  {
+    "id": "registry-台北市-萬華區-貴暘御景-豪景樓",
+    "name": "貴暘御景-豪景樓",
+    "city": "台北市",
+    "district": "萬華區",
+    "station": "西門",
+    "walk": 6,
+    "address": "台北市萬華區貴陽街二段1之3號共3筆",
+    "builder": "備查起造人：和暘建設股份有限公司",
+    "rating": "C",
+    "ratingBasis": "官方備查起造人可辨識為建設／開發公司；暫列 C，待更多履歷資料再調整",
+    "status": "預售備查",
+    "completion": "依官方備查時程",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": 25.039165656310743,
+    "lng": 121.50591815637465,
+    "source": "內政部預售屋備查＋官方門牌座標",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": true,
+    "locationStatus": "verified",
+    "googleMapsListing": false,
+    "locationAccuracy": "政府備查門牌配對；官方門牌座標至 西門 最近出口直線約 366 公尺，步行時間為保守估算",
+    "governmentId": "111建字第0118號",
+    "governmentStatus": "申報備查 1110513",
+    "permit": "111建字第0118號",
+    "households": "57",
+    "buildingLand": "漢中段二小段5-1地號",
+    "lines": [
+      "G",
+      "BL"
+    ]
   },
   {
     "id": "registry-台北市-萬華區-萬大境",
@@ -9178,7 +17784,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1100706",
     "permit": "110建字第0116號",
     "households": "56",
-    "buildingLand": "雙園段三小段406地號"
+    "buildingLand": "雙園段三小段406地號",
+    "lines": [
+      "BL"
+    ]
   },
   {
     "id": "registry-台北市-萬華區-萬錦",
@@ -9208,7 +17817,198 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1101201",
     "permit": "108建字第0171號",
     "households": "146",
-    "buildingLand": "萬大段一小段519-2地號"
+    "buildingLand": "萬大段一小段519-2地號",
+    "lines": []
+  },
+  {
+    "id": "registry-台北市-萬華區-漢寶西門綻",
+    "name": "漢寶西門綻",
+    "city": "台北市",
+    "district": "萬華區",
+    "station": "待定位",
+    "walk": null,
+    "address": "台北市萬華區新起里西寧南路120號共7筆",
+    "builder": "備查起造人：漢璞建築股份有限公司",
+    "rating": "C",
+    "ratingBasis": "官方備查起造人可辨識為建設／開發公司；暫列 C，待更多履歷資料再調整",
+    "status": "預售備查",
+    "completion": "依官方備查時程",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": null,
+    "lng": null,
+    "source": "內政部預售屋備查",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": false,
+    "locationStatus": "unlocated",
+    "googleMapsListing": false,
+    "locationAccuracy": "尚無可可靠配對的正式門牌或路口；案件保留於表格，暫不顯示地圖標記",
+    "governmentId": "112建字第0125號",
+    "governmentStatus": "申報備查 1120618",
+    "permit": "112建字第0125號",
+    "households": "108",
+    "buildingLand": "漢中段一小段416地號",
+    "lines": []
+  },
+  {
+    "id": "registry-台北市-萬華區-橡樹貴麗",
+    "name": "橡樹貴麗",
+    "city": "台北市",
+    "district": "萬華區",
+    "station": "待定位",
+    "walk": null,
+    "address": "台北市萬華區西寧南路271號2樓共10筆",
+    "builder": "備查起造人：橡樹建設股份有限公司",
+    "rating": "C",
+    "ratingBasis": "官方備查起造人可辨識為建設／開發公司；暫列 C，待更多履歷資料再調整",
+    "status": "預售備查",
+    "completion": "依官方備查時程",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": null,
+    "lng": null,
+    "source": "內政部預售屋備查",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": false,
+    "locationStatus": "unlocated",
+    "googleMapsListing": false,
+    "locationAccuracy": "尚無可可靠配對的正式門牌或路口；案件保留於表格，暫不顯示地圖標記",
+    "governmentId": "113建字第0230號",
+    "governmentStatus": "申報備查 1140115",
+    "permit": "113建字第0230號",
+    "households": "95",
+    "buildingLand": "漢中段二小段93地號",
+    "lines": []
+  },
+  {
+    "id": "registry-台北市-萬華區-興洋君冠",
+    "name": "興洋君冠",
+    "city": "台北市",
+    "district": "萬華區",
+    "station": "待定位",
+    "walk": null,
+    "address": "台北市萬華區萬壽里漢口街二段64號",
+    "builder": "備查起造人：興洋建設股份有限公司",
+    "rating": "C",
+    "ratingBasis": "官方備查起造人可辨識為建設／開發公司；暫列 C，待更多履歷資料再調整",
+    "status": "預售備查",
+    "completion": "依官方備查時程",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": null,
+    "lng": null,
+    "source": "內政部預售屋備查",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": false,
+    "locationStatus": "unlocated",
+    "googleMapsListing": false,
+    "locationAccuracy": "尚無可可靠配對的正式門牌或路口；案件保留於表格，暫不顯示地圖標記",
+    "governmentId": "107建字第0235號",
+    "governmentStatus": "申報備查 1130202",
+    "permit": "107建字第0235號",
+    "households": "93",
+    "buildingLand": "福星段二小段576地號",
+    "lines": []
+  },
+  {
+    "id": "registry-台北市-萬華區-龍邦豐馥",
+    "name": "龍邦豐馥",
+    "city": "台北市",
+    "district": "萬華區",
+    "station": "龍山寺",
+    "walk": 8,
+    "address": "台北市萬華區西園路二段52巷12弄27號共22筆",
+    "builder": "備查起造人：龍邦國際興業股份有限公司",
+    "rating": "C",
+    "ratingBasis": "官方備查起造人可辨識為建設／開發公司；暫列 C，待更多履歷資料再調整",
+    "status": "預售備查",
+    "completion": "依官方備查時程",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": 25.03230674363896,
+    "lng": 121.4957547155615,
+    "source": "內政部預售屋備查＋官方門牌座標",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": true,
+    "locationStatus": "verified",
+    "googleMapsListing": false,
+    "locationAccuracy": "政府備查門牌配對；官方門牌座標至 龍山寺 最近出口直線約 508 公尺，步行時間為保守估算",
+    "governmentId": "112建字第0270號",
+    "governmentStatus": "申報備查 1130731",
+    "permit": "112建字第0270號",
+    "households": "106",
+    "buildingLand": "莒光段四小段57-2地號",
+    "lines": [
+      "BL"
+    ]
+  },
+  {
+    "id": "registry-台北市-萬華區-寶舖全健築點悅",
+    "name": "寶舖全健築點悅",
+    "city": "台北市",
+    "district": "萬華區",
+    "station": "龍山寺",
+    "walk": 6,
+    "address": "台北市萬華區南寧路26號",
+    "builder": "備查起造人：寶舖建設股份有限公司",
+    "rating": "C",
+    "ratingBasis": "官方備查起造人可辨識為建設／開發公司；暫列 C，待更多履歷資料再調整",
+    "status": "預售備查",
+    "completion": "依官方備查時程",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": 25.034846259082368,
+    "lng": 121.50489929515038,
+    "source": "內政部預售屋備查＋官方門牌座標",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": true,
+    "locationStatus": "verified",
+    "googleMapsListing": false,
+    "locationAccuracy": "政府備查門牌配對；官方門牌座標至 龍山寺 最近出口直線約 336 公尺，步行時間為保守估算",
+    "governmentId": "114建字第0008號",
+    "governmentStatus": "申報備查 1140225",
+    "permit": "114建字第0008號",
+    "households": "117",
+    "buildingLand": "萬華段一小段103地號",
+    "lines": [
+      "BL"
+    ]
+  },
+  {
+    "id": "registry-台北市-萬華區-ASTER ONE",
+    "name": "ASTER ONE",
+    "city": "台北市",
+    "district": "萬華區",
+    "station": "待定位",
+    "walk": null,
+    "address": "台北市萬華區新起里中華路一段",
+    "builder": "備查起造人：皇翔建設股份有限公司",
+    "rating": "A",
+    "ratingBasis": "依已確認建商品牌套用本站評級",
+    "status": "預售備查",
+    "completion": "依官方備查時程",
+    "type": "預售屋",
+    "size": "尚無可靠坪數",
+    "price": "尚無可靠實登",
+    "lat": null,
+    "lng": null,
+    "source": "內政部預售屋備查",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": false,
+    "locationStatus": "unlocated",
+    "googleMapsListing": false,
+    "locationAccuracy": "尚無可可靠配對的正式門牌或路口；案件保留於表格，暫不顯示地圖標記",
+    "governmentId": "112建字第0111號",
+    "governmentStatus": "申報備查 1130507",
+    "permit": "112建字第0111號",
+    "households": "158",
+    "buildingLand": "漢中段一小段93地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-八里區-大新田幸福之森",
@@ -9238,7 +18038,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1140414",
     "permit": "112八建字第00233號",
     "households": "61",
-    "buildingLand": "中庄段218地號"
+    "buildingLand": "中庄段218地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-八里區-中庄新墅",
@@ -9268,7 +18069,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1141231",
     "permit": "114八建字第00101號",
     "households": "4",
-    "buildingLand": "中庄段88地號"
+    "buildingLand": "中庄段88地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-八里區-文昌匯",
@@ -9298,15 +18100,16 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 ",
     "permit": "114八建字第00017號",
     "households": "41",
-    "buildingLand": "中庄段47地號"
+    "buildingLand": "中庄段47地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-八里區-四季Lavie",
     "name": "四季Lavie",
     "city": "新北市",
     "district": "八里區",
-    "station": "淡水",
-    "walk": 83,
+    "station": "淡水漁人碼頭",
+    "walk": 67,
     "address": "新北市八里區商港三路",
     "builder": "備查起造人：和毅建設股份有限公司",
     "rating": "C",
@@ -9323,12 +18126,16 @@ export const matureRegistryProjects = [
     "verified": true,
     "locationStatus": "verified",
     "googleMapsListing": false,
-    "locationAccuracy": "商港三路／商港六路路口定位；官方門牌座標至 淡水 最近出口直線約 5391 公尺，步行時間為保守估算",
+    "locationAccuracy": "商港三路／商港六路路口定位；官方門牌座標至 淡水漁人碼頭 最近出口直線約 4313 公尺，步行時間為保守估算",
     "governmentId": "106八建字第00279-01號",
     "governmentStatus": "申報備查 1120330",
     "permit": "106八建字第00279-01號",
     "households": "94",
-    "buildingLand": "商港段22地號"
+    "buildingLand": "商港段22地號",
+    "lines": [
+      "V",
+      "LRT"
+    ]
   },
   {
     "id": "registry-新北市-八里區-左岸日初",
@@ -9358,7 +18165,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1131017",
     "permit": "112八建字第00031號",
     "households": "16",
-    "buildingLand": "龍源段901地號"
+    "buildingLand": "龍源段901地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-八里區-永雄海城",
@@ -9388,15 +18196,16 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1130815",
     "permit": "107八建字第00049號",
     "households": "76",
-    "buildingLand": "中山段549地號"
+    "buildingLand": "中山段549地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-八里區-全坤家宜",
     "name": "全坤家宜",
     "city": "新北市",
     "district": "八里區",
-    "station": "淡水",
-    "walk": 73,
+    "station": "淡水漁人碼頭",
+    "walk": 58,
     "address": "新北市八里區頂罟一路",
     "builder": "備查起造人：全坤建設開發股份有限公司",
     "rating": "C",
@@ -9413,12 +18222,16 @@ export const matureRegistryProjects = [
     "verified": true,
     "locationStatus": "verified",
     "googleMapsListing": false,
-    "locationAccuracy": "政府備查門牌配對；官方門牌座標至 淡水 最近出口直線約 4730 公尺，步行時間為保守估算",
+    "locationAccuracy": "政府備查門牌配對；官方門牌座標至 淡水漁人碼頭 最近出口直線約 3728 公尺，步行時間為保守估算",
     "governmentId": "108八建字第00554-02號",
     "governmentStatus": "申報備查 1120201",
     "permit": "108八建字第00554-02號",
     "households": "152",
-    "buildingLand": "臺北港段72地號"
+    "buildingLand": "臺北港段72地號",
+    "lines": [
+      "V",
+      "LRT"
+    ]
   },
   {
     "id": "registry-新北市-八里區-百欣豐光",
@@ -9448,7 +18261,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1130930",
     "permit": "112八建字第00338-01號",
     "households": "50",
-    "buildingLand": "中山段1240地號"
+    "buildingLand": "中山段1240地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-八里區-君品苑",
@@ -9478,7 +18292,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1130709",
     "permit": "111八建字第00074號",
     "households": "54",
-    "buildingLand": "中山段1160地號"
+    "buildingLand": "中山段1160地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-八里區-城市君臨",
@@ -9508,7 +18323,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1130503",
     "permit": "112八建字第00418-01號",
     "households": "29",
-    "buildingLand": "中庄段98地號"
+    "buildingLand": "中庄段98地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-八里區-星禾苑",
@@ -9538,7 +18354,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1130322",
     "permit": "111八建字第00499-01號",
     "households": "46",
-    "buildingLand": "龍米段1869地號"
+    "buildingLand": "龍米段1869地號",
+    "lines": [
+      "R"
+    ]
   },
   {
     "id": "registry-新北市-八里區-春城新港灣",
@@ -9568,7 +18387,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1130726",
     "permit": "111八建字第00333號",
     "households": "198",
-    "buildingLand": "訊塘段26地號"
+    "buildingLand": "訊塘段26地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-八里區-紐約心光",
@@ -9598,7 +18418,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1140723",
     "permit": "113八建字第00006-01號",
     "households": "59",
-    "buildingLand": "中庄段232地號"
+    "buildingLand": "中庄段232地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-八里區-紐約沐光",
@@ -9628,7 +18449,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 ",
     "permit": "112八建字第00373-01號",
     "households": "106",
-    "buildingLand": "訊塘段22-2地號"
+    "buildingLand": "訊塘段22-2地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-八里區-智寶好苑景",
@@ -9658,7 +18480,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1110905",
     "permit": "111八建字第00297號",
     "households": "67",
-    "buildingLand": "訊塘段12地號"
+    "buildingLand": "訊塘段12地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-八里區-勤樸天闊",
@@ -9688,7 +18511,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1101117",
     "permit": "110八建字第00093號",
     "households": "379",
-    "buildingLand": "龍米段1692地號"
+    "buildingLand": "龍米段1692地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-八里區-蒔光．墅",
@@ -9718,7 +18542,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1110207",
     "permit": "111八建字第00029號",
     "households": "17",
-    "buildingLand": "大堀段30地號"
+    "buildingLand": "大堀段30地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-八里區-翰林苑",
@@ -9748,7 +18573,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1110816",
     "permit": "109八建字第00363-01號",
     "households": "70",
-    "buildingLand": "龍米段1863地號"
+    "buildingLand": "龍米段1863地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-八里區-豐邑港麗",
@@ -9778,7 +18604,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1140527",
     "permit": "112八建字第00005-01號",
     "households": "251",
-    "buildingLand": "訊塘段18地號"
+    "buildingLand": "訊塘段18地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-八里區-馥桂園",
@@ -9808,7 +18635,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1120825",
     "permit": "108八建字第00127號",
     "households": "14",
-    "buildingLand": "龍米段572地號"
+    "buildingLand": "龍米段572地號",
+    "lines": [
+      "R"
+    ]
   },
   {
     "id": "registry-新北市-三芝區-山之花墅B區",
@@ -9838,15 +18668,16 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1120712",
     "permit": "112芝建字第00086號",
     "households": "24",
-    "buildingLand": "茂長段1271-16地號"
+    "buildingLand": "茂長段1271-16地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-三芝區-日初 不老莊園2",
     "name": "日初 不老莊園2",
     "city": "新北市",
     "district": "三芝區",
-    "station": "淡水",
-    "walk": 161,
+    "station": "崁頂",
+    "walk": 117,
     "address": "新北市三芝區錫板里臺2線海尾14號旁",
     "builder": "備查起造人：日勝生活科技股份有限公司",
     "rating": "NR",
@@ -9863,12 +18694,16 @@ export const matureRegistryProjects = [
     "verified": true,
     "locationStatus": "verified",
     "googleMapsListing": false,
-    "locationAccuracy": "政府備查門牌配對；官方門牌座標至 淡水 最近出口直線約 10421 公尺，步行時間為保守估算",
+    "locationAccuracy": "政府備查門牌配對；官方門牌座標至 崁頂 最近出口直線約 7594 公尺，步行時間為保守估算",
     "governmentId": "109芝建字第00462-02號",
     "governmentStatus": "申報備查 1110629",
     "permit": "109芝建字第00462-02號",
     "households": "136",
-    "buildingLand": "福海段508地號"
+    "buildingLand": "福海段508地號",
+    "lines": [
+      "V",
+      "LRT"
+    ]
   },
   {
     "id": "registry-新北市-三重區-久年.水玥",
@@ -9898,7 +18733,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1101214",
     "permit": "110重建字第00475號",
     "households": "67",
-    "buildingLand": "三重段168地號"
+    "buildingLand": "三重段168地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-三重區-久年快晴",
@@ -9928,7 +18764,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1110630",
     "permit": "111重建字第00243號",
     "households": "78",
-    "buildingLand": "五谷王段237地號"
+    "buildingLand": "五谷王段237地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-三重區-大有豐光",
@@ -9958,7 +18795,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1120615",
     "permit": "109重建字第00118號",
     "households": "66",
-    "buildingLand": "三重段4地號"
+    "buildingLand": "三重段4地號",
+    "lines": [
+      "O"
+    ]
   },
   {
     "id": "registry-新北市-三重區-大將水硯",
@@ -9988,7 +18828,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1110713",
     "permit": "110重建字號第00361-2號",
     "households": "70",
-    "buildingLand": "仁信段61地號"
+    "buildingLand": "仁信段61地號",
+    "lines": [
+      "O"
+    ]
   },
   {
     "id": "registry-新北市-三重區-大盛麗",
@@ -10018,7 +18861,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1130417",
     "permit": "113重建字第0079-1號",
     "households": "63",
-    "buildingLand": "三重段117地號"
+    "buildingLand": "三重段117地號",
+    "lines": [
+      "O"
+    ]
   },
   {
     "id": "registry-新北市-三重區-元利樂樺",
@@ -10048,7 +18894,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1110504",
     "permit": "110重建字第00626號",
     "households": "85",
-    "buildingLand": "仁信段84地號"
+    "buildingLand": "仁信段84地號",
+    "lines": [
+      "O"
+    ]
   },
   {
     "id": "registry-新北市-三重區-公園66",
@@ -10078,7 +18927,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1130311",
     "permit": "112重建字第00249號",
     "households": "337",
-    "buildingLand": "三重段66地號"
+    "buildingLand": "三重段66地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-三重區-公園漾",
@@ -10108,7 +18958,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1110708",
     "permit": "111重建字第00019號-02",
     "households": "47",
-    "buildingLand": "永安段1426地號"
+    "buildingLand": "永安段1426地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-三重區-公園yoyo",
@@ -10138,7 +18989,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1130311",
     "permit": "112重建字第00212號",
     "households": "207",
-    "buildingLand": "三重段82地號"
+    "buildingLand": "三重段82地號",
+    "lines": [
+      "O"
+    ]
   },
   {
     "id": "registry-新北市-三重區-天麗",
@@ -10168,7 +19022,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1120324",
     "permit": "107重建字第00084-01號",
     "households": "23",
-    "buildingLand": "光興段257-1地號"
+    "buildingLand": "光興段257-1地號",
+    "lines": [
+      "O"
+    ]
   },
   {
     "id": "registry-新北市-三重區-日日囍",
@@ -10176,7 +19033,7 @@ export const matureRegistryProjects = [
     "city": "新北市",
     "district": "三重區",
     "station": "三重國小",
-    "walk": 9,
+    "walk": 8,
     "address": "新北市三重區長榮路55號",
     "builder": "備查起造人：群豐開發股份有限公司",
     "rating": "C",
@@ -10193,12 +19050,15 @@ export const matureRegistryProjects = [
     "verified": true,
     "locationStatus": "verified",
     "googleMapsListing": false,
-    "locationAccuracy": "政府備查門牌配對；官方門牌座標至 三重國小 最近出口直線約 565 公尺，步行時間為保守估算",
+    "locationAccuracy": "政府備查門牌配對；官方門牌座標至 三重國小 最近出口直線約 486 公尺，步行時間為保守估算",
     "governmentId": "109重建字第00143號",
     "governmentStatus": "申報備查 1121002",
     "permit": "109重建字第00143號",
     "households": "48",
-    "buildingLand": "長壽段1107地號"
+    "buildingLand": "長壽段1107地號",
+    "lines": [
+      "O"
+    ]
   },
   {
     "id": "registry-新北市-三重區-世界芯A棟",
@@ -10228,7 +19088,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1120913",
     "permit": "110重建字第00640號",
     "households": "59",
-    "buildingLand": "成功段749地號"
+    "buildingLand": "成功段749地號",
+    "lines": [
+      "O"
+    ]
   },
   {
     "id": "registry-新北市-三重區-世界芯B棟",
@@ -10258,7 +19121,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1120915",
     "permit": "110重建字第00470號",
     "households": "79",
-    "buildingLand": "成功段714地號"
+    "buildingLand": "成功段714地號",
+    "lines": [
+      "O"
+    ]
   },
   {
     "id": "registry-新北市-三重區-左岸瀾庭",
@@ -10288,7 +19154,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1120526",
     "permit": "107重建字第00352-1號",
     "households": "79",
-    "buildingLand": "五谷王段106地號"
+    "buildingLand": "五谷王段106地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-三重區-市政官邸1號",
@@ -10318,7 +19185,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1110309",
     "permit": "111重建字第00086號",
     "households": "166",
-    "buildingLand": "五谷王段283地號"
+    "buildingLand": "五谷王段283地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-三重區-市政官邸2號",
@@ -10343,12 +19211,15 @@ export const matureRegistryProjects = [
     "verified": true,
     "locationStatus": "verified",
     "googleMapsListing": false,
-    "locationAccuracy": "政府備查門牌配對；官方門牌座標至 先嗇宮 最近出口直線約 801 公尺，步行時間為保守估算",
+    "locationAccuracy": "政府備查門牌配對；官方門牌座標至 先嗇宮 最近出口直線約 796 公尺，步行時間為保守估算",
     "governmentId": "112重建字第214號",
     "governmentStatus": "申報備查 1120703",
     "permit": "112重建字第214號",
     "households": "241",
-    "buildingLand": "五谷王段160地號"
+    "buildingLand": "五谷王段160地號",
+    "lines": [
+      "O"
+    ]
   },
   {
     "id": "registry-新北市-三重區-市政官邸3號",
@@ -10378,7 +19249,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1121220",
     "permit": "112重建字第357號",
     "households": "345",
-    "buildingLand": "五谷王段310地號"
+    "buildingLand": "五谷王段310地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-三重區-市政帝景",
@@ -10408,7 +19280,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 ",
     "permit": "114重建字第00112號",
     "households": "412",
-    "buildingLand": "五谷王段20地號"
+    "buildingLand": "五谷王段20地號",
+    "lines": [
+      "O"
+    ]
   },
   {
     "id": "registry-新北市-三重區-市政帝寶",
@@ -10438,7 +19313,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1140122",
     "permit": "113重字第00267號",
     "households": "499",
-    "buildingLand": "五谷王段172地號"
+    "buildingLand": "五谷王段172地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-三重區-市政愛悅",
@@ -10468,7 +19344,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1110707",
     "permit": "111重建字00240號",
     "households": "86",
-    "buildingLand": "三重段48地號"
+    "buildingLand": "三重段48地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-三重區-正義綻",
@@ -10498,7 +19375,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1100928",
     "permit": "110重建字第00409號",
     "households": "33",
-    "buildingLand": "正義段254地號"
+    "buildingLand": "正義段254地號",
+    "lines": [
+      "O"
+    ]
   },
   {
     "id": "registry-新北市-三重區-永峰上鈺",
@@ -10528,7 +19408,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1111227",
     "permit": "111重建字第00376號",
     "households": "119",
-    "buildingLand": "福德南段386地號"
+    "buildingLand": "福德南段386地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-三重區-永悅天漾",
@@ -10558,7 +19439,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1110915",
     "permit": "111重建字第00360-1號",
     "households": "50",
-    "buildingLand": "仁信段49地號"
+    "buildingLand": "仁信段49地號",
+    "lines": [
+      "O"
+    ]
   },
   {
     "id": "registry-新北市-三重區-立信藏玉",
@@ -10588,7 +19472,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 ",
     "permit": "114重建字第00092號",
     "households": "85",
-    "buildingLand": "永德段1270-6地號"
+    "buildingLand": "永德段1270-6地號",
+    "lines": [
+      "O"
+    ]
   },
   {
     "id": "registry-新北市-三重區-光曜",
@@ -10618,7 +19505,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1130312",
     "permit": "110重建字第00552號",
     "households": "84",
-    "buildingLand": "大同南段1316地號"
+    "buildingLand": "大同南段1316地號",
+    "lines": [
+      "O"
+    ]
   },
   {
     "id": "registry-新北市-三重區-全坤雙星",
@@ -10648,7 +19538,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1150504",
     "permit": "115重建字第00050號",
     "households": "197",
-    "buildingLand": "大安段735地號"
+    "buildingLand": "大安段735地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-三重區-印象左岸",
@@ -10678,7 +19569,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1140806",
     "permit": "114重建字第00170號",
     "households": "105",
-    "buildingLand": "五谷王段175地號"
+    "buildingLand": "五谷王段175地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-三重區-吉晟賦",
@@ -10708,7 +19600,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1130619",
     "permit": "110重建字第00161號",
     "households": "68",
-    "buildingLand": "碧華段600地號"
+    "buildingLand": "碧華段600地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-三重區-安慶首澤",
@@ -10716,7 +19609,7 @@ export const matureRegistryProjects = [
     "city": "新北市",
     "district": "三重區",
     "station": "三重國小",
-    "walk": 3,
+    "walk": 2,
     "address": "新北市三重區安慶街38號",
     "builder": "備查起造人：勝泰豐建設股份有限公司",
     "rating": "C",
@@ -10733,12 +19626,15 @@ export const matureRegistryProjects = [
     "verified": true,
     "locationStatus": "verified",
     "googleMapsListing": false,
-    "locationAccuracy": "政府備查門牌配對；官方門牌座標至 三重國小 最近出口直線約 150 公尺，步行時間為保守估算",
+    "locationAccuracy": "政府備查門牌配對；官方門牌座標至 三重國小 最近出口直線約 97 公尺，步行時間為保守估算",
     "governmentId": "111重建字第00284號",
     "governmentStatus": "申報備查 1111129",
     "permit": "111重建字第00284號",
     "households": "25",
-    "buildingLand": "正義段573地號"
+    "buildingLand": "正義段573地號",
+    "lines": [
+      "O"
+    ]
   },
   {
     "id": "registry-新北市-三重區-成功集美",
@@ -10768,7 +19664,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1130918",
     "permit": "113重建字第00157-1號",
     "households": "209",
-    "buildingLand": "三重段427地號"
+    "buildingLand": "三重段427地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-三重區-米蘭花園",
@@ -10793,12 +19690,15 @@ export const matureRegistryProjects = [
     "verified": true,
     "locationStatus": "verified",
     "googleMapsListing": false,
-    "locationAccuracy": "竹圍仔街／成功路路口定位；官方門牌座標至 三重 最近出口直線約 636 公尺，步行時間為保守估算",
+    "locationAccuracy": "竹圍仔街／成功路路口定位；官方門牌座標至 三重 最近出口直線約 627 公尺，步行時間為保守估算",
     "governmentId": "111重建字第00151號",
     "governmentStatus": "申報備查 1110511",
     "permit": "111重建字第00151號",
     "households": "134",
-    "buildingLand": "三重段346地號"
+    "buildingLand": "三重段346地號",
+    "lines": [
+      "O"
+    ]
   },
   {
     "id": "registry-新北市-三重區-自由綠洲",
@@ -10828,7 +19728,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1120604",
     "permit": "112重建字第00188號",
     "households": "327",
-    "buildingLand": "三重段57地號"
+    "buildingLand": "三重段57地號",
+    "lines": [
+      "O"
+    ]
   },
   {
     "id": "registry-新北市-三重區-宏道仁?",
@@ -10858,7 +19761,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1130815",
     "permit": "113重建字第00245號",
     "households": "70",
-    "buildingLand": "仁信段97地號"
+    "buildingLand": "仁信段97地號",
+    "lines": [
+      "O"
+    ]
   },
   {
     "id": "registry-新北市-三重區-宏道巴黎花都",
@@ -10888,7 +19794,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1130804",
     "permit": "113重建字第00249號",
     "households": "168",
-    "buildingLand": "仁信段46地號"
+    "buildingLand": "仁信段46地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-三重區-宏燁文旅",
@@ -10918,7 +19825,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1130503",
     "permit": "113重建字第00059號",
     "households": "89",
-    "buildingLand": "仁興段2375地號"
+    "buildingLand": "仁興段2375地號",
+    "lines": [
+      "O"
+    ]
   },
   {
     "id": "registry-新北市-三重區-沐得晶品",
@@ -10948,7 +19858,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 ",
     "permit": "115重建字第00155號",
     "households": "54",
-    "buildingLand": "正義段413地號"
+    "buildingLand": "正義段413地號",
+    "lines": [
+      "O"
+    ]
   },
   {
     "id": "registry-新北市-三重區-玖長匯比壽",
@@ -10978,7 +19891,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1110330",
     "permit": "111重建字第00115號",
     "households": "47",
-    "buildingLand": "仁愛段2127地號"
+    "buildingLand": "仁愛段2127地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-三重區-邑城仰睦",
@@ -11008,7 +19922,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1131210",
     "permit": "113重建字第396號",
     "households": "115",
-    "buildingLand": "文化北段939地號"
+    "buildingLand": "文化北段939地號",
+    "lines": [
+      "O"
+    ]
   },
   {
     "id": "registry-新北市-三重區-亞昕昕富琚",
@@ -11038,7 +19955,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1150130",
     "permit": "115重建字第00008號",
     "households": "166",
-    "buildingLand": "菜寮段50地號"
+    "buildingLand": "菜寮段50地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-三重區-亞昕淳白",
@@ -11068,7 +19986,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1100702",
     "permit": "110重建字第00270號",
     "households": "211",
-    "buildingLand": "三重段90地號"
+    "buildingLand": "三重段90地號",
+    "lines": [
+      "O"
+    ]
   },
   {
     "id": "registry-新北市-三重區-府上",
@@ -11098,7 +20019,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1110923",
     "permit": "111重建字第00105號",
     "households": "97",
-    "buildingLand": "忠孝段18地號"
+    "buildingLand": "忠孝段18地號",
+    "lines": [
+      "O"
+    ]
   },
   {
     "id": "registry-新北市-三重區-東村淳峰",
@@ -11123,12 +20047,15 @@ export const matureRegistryProjects = [
     "verified": true,
     "locationStatus": "verified",
     "googleMapsListing": false,
-    "locationAccuracy": "實價登錄後續門牌配對（1 個門牌）；官方門牌座標至 先嗇宮 最近出口直線約 604 公尺，步行時間為保守估算",
+    "locationAccuracy": "實價登錄後續門牌配對（1 個門牌）；官方門牌座標至 先嗇宮 最近出口直線約 598 公尺，步行時間為保守估算",
     "governmentId": "111重建字第00170號",
     "governmentStatus": "申報備查 1111124",
     "permit": "111重建字第00170號",
     "households": "49",
-    "buildingLand": "五谷王段221地號"
+    "buildingLand": "五谷王段221地號",
+    "lines": [
+      "O"
+    ]
   },
   {
     "id": "registry-新北市-三重區-東煒玉川",
@@ -11158,7 +20085,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 ",
     "permit": "114重建字00289號",
     "households": "155",
-    "buildingLand": "三重段200地號"
+    "buildingLand": "三重段200地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-三重區-信銓星宇廣場",
@@ -11188,7 +20116,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1130419",
     "permit": "113重建字第00022號",
     "households": "235",
-    "buildingLand": "中興段57地號"
+    "buildingLand": "中興段57地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-三重區-冠德心天匯",
@@ -11218,7 +20147,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1111005",
     "permit": "108重建字第410號",
     "households": "449",
-    "buildingLand": "中興段796地號"
+    "buildingLand": "中興段796地號",
+    "lines": [
+      "O"
+    ]
   },
   {
     "id": "registry-新北市-三重區-拾初明昕",
@@ -11248,7 +20180,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1120614",
     "permit": "112重建字第00129號",
     "households": "21",
-    "buildingLand": "福德北段1257地號"
+    "buildingLand": "福德北段1257地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-三重區-星河帝寶",
@@ -11278,7 +20211,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1150529",
     "permit": "115重建字第00118號",
     "households": "281",
-    "buildingLand": "仁信段63地號"
+    "buildingLand": "仁信段63地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-三重區-柏克萊",
@@ -11308,7 +20242,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1101122",
     "permit": "110重建字第00538號",
     "households": "61",
-    "buildingLand": "五華段395地號"
+    "buildingLand": "五華段395地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-三重區-風華雙城匯",
@@ -11338,7 +20273,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1120807",
     "permit": "112重建字第00270號",
     "households": "76",
-    "buildingLand": "三重段418地號"
+    "buildingLand": "三重段418地號",
+    "lines": [
+      "O"
+    ]
   },
   {
     "id": "registry-新北市-三重區-香朵",
@@ -11368,7 +20306,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1131205",
     "permit": "113重建字第00346號",
     "households": "37",
-    "buildingLand": "仁義段1655地號"
+    "buildingLand": "仁義段1655地號",
+    "lines": [
+      "O"
+    ]
   },
   {
     "id": "registry-新北市-三重區-家泰豐和",
@@ -11398,15 +20339,16 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1110825",
     "permit": "111重建字00326號",
     "households": "126",
-    "buildingLand": "成功段931地號"
+    "buildingLand": "成功段931地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-三重區-悅田吾澍",
     "name": "悅田吾澍",
     "city": "新北市",
     "district": "三重區",
-    "station": "台北橋",
-    "walk": 10,
+    "station": "臺北橋",
+    "walk": 9,
     "address": "新北市三重區河邊北街與長元街",
     "builder": "備查起造人：悅田建設股份有限公司",
     "rating": "C",
@@ -11423,12 +20365,15 @@ export const matureRegistryProjects = [
     "verified": true,
     "locationStatus": "verified",
     "googleMapsListing": false,
-    "locationAccuracy": "河邊北街／長元街路口定位；官方門牌座標至 台北橋 最近出口直線約 617 公尺，步行時間為保守估算",
+    "locationAccuracy": "河邊北街／長元街路口定位；官方門牌座標至 臺北橋 最近出口直線約 582 公尺，步行時間為保守估算",
     "governmentId": "115重建字第0136號",
     "governmentStatus": "申報備查 1150624",
     "permit": "115重建字第0136號",
     "households": "42",
-    "buildingLand": "長壽段490地號"
+    "buildingLand": "長壽段490地號",
+    "lines": [
+      "O"
+    ]
   },
   {
     "id": "registry-新北市-三重區-益欣湛陽",
@@ -11458,7 +20403,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1120417",
     "permit": "110重建字第00264號",
     "households": "72",
-    "buildingLand": "三重段406地號"
+    "buildingLand": "三重段406地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-三重區-國湛",
@@ -11488,7 +20434,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1110119",
     "permit": "110重建字第00164號",
     "households": "127",
-    "buildingLand": "仁信段9地號"
+    "buildingLand": "仁信段9地號",
+    "lines": [
+      "O"
+    ]
   },
   {
     "id": "registry-新北市-三重區-崇利元信",
@@ -11518,7 +20467,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 ",
     "permit": "109重建字00476-02號",
     "households": "49",
-    "buildingLand": "仁信段126地號"
+    "buildingLand": "仁信段126地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-三重區-捷洋蔚來",
@@ -11548,7 +20498,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1130614",
     "permit": "112重建字第00225號",
     "households": "82",
-    "buildingLand": "三重段87地號"
+    "buildingLand": "三重段87地號",
+    "lines": [
+      "O"
+    ]
   },
   {
     "id": "registry-新北市-三重區-莘聖沐光居",
@@ -11578,7 +20531,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1120714",
     "permit": "112年重建字第00222號",
     "households": "16",
-    "buildingLand": "新海段805地號"
+    "buildingLand": "新海段805地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-三重區-覓靚101",
@@ -11608,7 +20562,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1140918",
     "permit": "112重建字第00326號",
     "households": "35",
-    "buildingLand": "二重段999地號"
+    "buildingLand": "二重段999地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-三重區-都匯大極-誠驛",
@@ -11638,7 +20593,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1131111",
     "permit": "113重建字第00353",
     "households": "156",
-    "buildingLand": "三重段384地號"
+    "buildingLand": "三重段384地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-三重區-都廳大院",
@@ -11668,7 +20624,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1110930",
     "permit": "111重建字第00395-2號",
     "households": "2291",
-    "buildingLand": "中興段1442-5地號"
+    "buildingLand": "中興段1442-5地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-三重區-都廳大院2",
@@ -11698,7 +20655,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1120918",
     "permit": "112重建字第00321-1號",
     "households": "1626",
-    "buildingLand": "中興段1441地號"
+    "buildingLand": "中興段1441地號",
+    "lines": [
+      "O"
+    ]
   },
   {
     "id": "registry-新北市-三重區-都廳PARK",
@@ -11728,7 +20688,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 ",
     "permit": "115重建宇第00182號",
     "households": "342",
-    "buildingLand": "五谷王段77地號"
+    "buildingLand": "五谷王段77地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-三重區-陸江和",
@@ -11758,7 +20719,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1130102",
     "permit": "112重建字第00029號",
     "households": "52",
-    "buildingLand": "永安段1102地號"
+    "buildingLand": "永安段1102地號",
+    "lines": [
+      "O"
+    ]
   },
   {
     "id": "registry-新北市-三重區-陸江澐莊",
@@ -11788,7 +20752,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1120615",
     "permit": "112重建字第00182號",
     "households": "84",
-    "buildingLand": "仁信段3地號"
+    "buildingLand": "仁信段3地號",
+    "lines": [
+      "O"
+    ]
   },
   {
     "id": "registry-新北市-三重區-凱風久年",
@@ -11818,7 +20785,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1110712",
     "permit": "111重建字第00268號",
     "households": "103",
-    "buildingLand": "五谷王段276地號"
+    "buildingLand": "五谷王段276地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-三重區-凱越豐汎",
@@ -11848,7 +20816,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1141028",
     "permit": "114重建字第00212號",
     "households": "165",
-    "buildingLand": "仁信段86地號"
+    "buildingLand": "仁信段86地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-三重區-勝旺升",
@@ -11878,7 +20847,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1110803",
     "permit": "107重建字第00039-01號",
     "households": "108",
-    "buildingLand": "五谷王段357地號"
+    "buildingLand": "五谷王段357地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-三重區-富麗天景",
@@ -11908,7 +20878,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1120727",
     "permit": "110重建字第00252-01號",
     "households": "167",
-    "buildingLand": "三重段275地號"
+    "buildingLand": "三重段275地號",
+    "lines": [
+      "O"
+    ]
   },
   {
     "id": "registry-新北市-三重區-敦美集",
@@ -11938,7 +20911,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1130206",
     "permit": "112重建字第00241號",
     "households": "149",
-    "buildingLand": "過田段895地號"
+    "buildingLand": "過田段895地號",
+    "lines": [
+      "O"
+    ]
   },
   {
     "id": "registry-新北市-三重區-晴合豐川",
@@ -11968,7 +20944,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1141127",
     "permit": "114重建字第00238號",
     "households": "23",
-    "buildingLand": "富貴段76地號"
+    "buildingLand": "富貴段76地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-三重區-晴空大地",
@@ -11998,7 +20975,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1120411",
     "permit": "112重建字第00110號",
     "households": "1297",
-    "buildingLand": "仁義段731-2地號"
+    "buildingLand": "仁義段731-2地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-三重區-統元極美",
@@ -12028,7 +21006,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1140509",
     "permit": "113重建字第00096號",
     "households": "104",
-    "buildingLand": "三重段411地號"
+    "buildingLand": "三重段411地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-三重區-華固慕川",
@@ -12058,7 +21037,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1130814",
     "permit": "113重建字第00264號",
     "households": "186",
-    "buildingLand": "仁信段57地號"
+    "buildingLand": "仁信段57地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-三重區-華固織幸",
@@ -12088,7 +21068,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1130926",
     "permit": "113重建字第00314號",
     "households": "117",
-    "buildingLand": "仁信段89地號"
+    "buildingLand": "仁信段89地號",
+    "lines": [
+      "O"
+    ]
   },
   {
     "id": "registry-新北市-三重區-萊茵水花園",
@@ -12118,7 +21101,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1120131",
     "permit": "111重建字第00394號",
     "households": "178",
-    "buildingLand": "三重段35地號"
+    "buildingLand": "三重段35地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-三重區-詠芙",
@@ -12148,7 +21132,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1141020",
     "permit": "113重建字第00336號",
     "households": "85",
-    "buildingLand": "永安段2175地號"
+    "buildingLand": "永安段2175地號",
+    "lines": [
+      "O"
+    ]
   },
   {
     "id": "registry-新北市-三重區-集緻美",
@@ -12178,14 +21165,17 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1130905",
     "permit": "113重建字第00130號",
     "households": "69",
-    "buildingLand": "集美段254地號"
+    "buildingLand": "集美段254地號",
+    "lines": [
+      "O"
+    ]
   },
   {
     "id": "registry-新北市-三重區-圓富ONE",
     "name": "圓富ONE",
     "city": "新北市",
     "district": "三重區",
-    "station": "台北橋",
+    "station": "菜寮",
     "walk": 11,
     "address": "新北市三重區大同南路172巷",
     "builder": "備查起造人：圓富建設企業股份有限公司",
@@ -12203,12 +21193,15 @@ export const matureRegistryProjects = [
     "verified": false,
     "locationStatus": "estimated",
     "googleMapsListing": false,
-    "locationAccuracy": "政府備查巷弄範圍定位（46 個官方門牌範圍）；官方門牌座標至 台北橋 最近出口直線約 664 公尺，步行時間為保守估算",
+    "locationAccuracy": "政府備查巷弄範圍定位（46 個官方門牌範圍）；官方門牌座標至 菜寮 最近出口直線約 651 公尺，步行時間為保守估算",
     "governmentId": "113重建字第00270號",
     "governmentStatus": "申報備查 1140427",
     "permit": "113重建字第00270號",
     "households": "86",
-    "buildingLand": "大同南段1385地號"
+    "buildingLand": "大同南段1385地號",
+    "lines": [
+      "O"
+    ]
   },
   {
     "id": "registry-新北市-三重區-新美齊The Top",
@@ -12238,7 +21231,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1110525",
     "permit": "111重建字第00177號",
     "households": "184",
-    "buildingLand": "集美段681地號"
+    "buildingLand": "集美段681地號",
+    "lines": [
+      "O"
+    ]
   },
   {
     "id": "registry-新北市-三重區-新富雙宇",
@@ -12268,7 +21264,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1140116",
     "permit": "111重建字第00295號",
     "households": "28",
-    "buildingLand": "明志段57地號"
+    "buildingLand": "明志段57地號",
+    "lines": [
+      "O"
+    ]
   },
   {
     "id": "registry-新北市-三重區-新濠漾4英倫公園",
@@ -12298,7 +21297,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1131227",
     "permit": "113重建字第00419號",
     "households": "494",
-    "buildingLand": "五谷王段61地號"
+    "buildingLand": "五谷王段61地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-三重區-新濠漾II-紐約公園",
@@ -12328,7 +21328,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1110221",
     "permit": "111重建字第00054號",
     "households": "168",
-    "buildingLand": "五谷王段44地號"
+    "buildingLand": "五谷王段44地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-三重區-新濠漾III-巴黎公園",
@@ -12358,7 +21359,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1130315",
     "permit": "109重建字第00230號",
     "households": "300",
-    "buildingLand": "五谷王段109地號"
+    "buildingLand": "五谷王段109地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-三重區-暉騰靚",
@@ -12388,7 +21390,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1150127",
     "permit": "110重建字第00013號",
     "households": "107",
-    "buildingLand": "集美段246地號"
+    "buildingLand": "集美段246地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-三重區-極綻",
@@ -12418,7 +21421,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1120119",
     "permit": "108重建字第430-2號",
     "households": "150",
-    "buildingLand": "大智段328地號"
+    "buildingLand": "大智段328地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-三重區-群禾青禾",
@@ -12448,7 +21452,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1140716",
     "permit": "114重建字第00070號",
     "households": "63",
-    "buildingLand": "三重段103地號"
+    "buildingLand": "三重段103地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-三重區-詮美湛",
@@ -12478,7 +21483,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 ",
     "permit": "111重建字第00422號",
     "households": "52",
-    "buildingLand": "三重段425地號"
+    "buildingLand": "三重段425地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-三重區-鼎藏豐碩",
@@ -12508,7 +21514,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1130227",
     "permit": "112重建字第00439號",
     "households": "99",
-    "buildingLand": "富貴段721地號"
+    "buildingLand": "富貴段721地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-三重區-漢皇一寓",
@@ -12538,7 +21545,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1140702",
     "permit": "114重建字第00155號",
     "households": "91",
-    "buildingLand": "五谷王段243地號"
+    "buildingLand": "五谷王段243地號",
+    "lines": [
+      "O"
+    ]
   },
   {
     "id": "registry-新北市-三重區-漾時光",
@@ -12568,7 +21578,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1100816",
     "permit": "108重建字第00536號",
     "households": "76",
-    "buildingLand": "仁信段25地號"
+    "buildingLand": "仁信段25地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-三重區-漾漾Taipei",
@@ -12598,7 +21609,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1110215",
     "permit": "111重建字第00056號",
     "households": "133",
-    "buildingLand": "三重段373地號"
+    "buildingLand": "三重段373地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-三重區-睿暘沁",
@@ -12628,7 +21640,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1101104",
     "permit": "109重建字第00388號",
     "households": "42",
-    "buildingLand": "五谷王段166地號"
+    "buildingLand": "五谷王段166地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-三重區-福容大都會",
@@ -12658,7 +21671,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1131212",
     "permit": "111重建字第00298號",
     "households": "50",
-    "buildingLand": "五谷王段2地號"
+    "buildingLand": "五谷王段2地號",
+    "lines": [
+      "O"
+    ]
   },
   {
     "id": "registry-新北市-三重區-聚泰綻",
@@ -12688,7 +21704,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1140108",
     "permit": "113重建字第00406號",
     "households": "29",
-    "buildingLand": "仁興段354地號"
+    "buildingLand": "仁興段354地號",
+    "lines": [
+      "O"
+    ]
   },
   {
     "id": "registry-新北市-三重區-潤泰左岸生活",
@@ -12718,7 +21737,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1110722",
     "permit": "108重建字第00128號",
     "households": "135",
-    "buildingLand": "五谷王段200地號"
+    "buildingLand": "五谷王段200地號",
+    "lines": [
+      "O"
+    ]
   },
   {
     "id": "registry-新北市-三重區-潤泰峰左岸",
@@ -12748,7 +21770,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1120428",
     "permit": "108重建字第00441號",
     "households": "351",
-    "buildingLand": "五谷王段136地號"
+    "buildingLand": "五谷王段136地號",
+    "lines": [
+      "O"
+    ]
   },
   {
     "id": "registry-新北市-三重區-潤泰CITY PARK",
@@ -12778,7 +21803,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1130809",
     "permit": "102重建字第00708號",
     "households": "439",
-    "buildingLand": "成功段1007地號"
+    "buildingLand": "成功段1007地號",
+    "lines": [
+      "O"
+    ]
   },
   {
     "id": "registry-新北市-三重區-潤鴻日昕",
@@ -12803,12 +21831,15 @@ export const matureRegistryProjects = [
     "verified": true,
     "locationStatus": "verified",
     "googleMapsListing": false,
-    "locationAccuracy": "實價登錄後續門牌配對（1 個門牌）；官方門牌座標至 先嗇宮 最近出口直線約 675 公尺，步行時間為保守估算",
+    "locationAccuracy": "實價登錄後續門牌配對（1 個門牌）；官方門牌座標至 先嗇宮 最近出口直線約 667 公尺，步行時間為保守估算",
     "governmentId": "113重建字第00048號",
     "governmentStatus": "申報備查 1130611",
     "permit": "113重建字第00048號",
     "households": "88",
-    "buildingLand": "五谷王段216地號"
+    "buildingLand": "五谷王段216地號",
+    "lines": [
+      "O"
+    ]
   },
   {
     "id": "registry-新北市-三重區-樺輝品世界",
@@ -12838,7 +21869,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1101014",
     "permit": "110重建字第00491號",
     "households": "110",
-    "buildingLand": "富貴段377地號"
+    "buildingLand": "富貴段377地號",
+    "lines": [
+      "O"
+    ]
   },
   {
     "id": "registry-新北市-三重區-璟銳青",
@@ -12868,7 +21902,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1110726",
     "permit": "109重建字第00128-2號",
     "households": "51",
-    "buildingLand": "三重段13地號"
+    "buildingLand": "三重段13地號",
+    "lines": [
+      "Y"
+    ]
   },
   {
     "id": "registry-新北市-三重區-環泥水蓉",
@@ -12898,7 +21935,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1150420",
     "permit": "115重建字第00064號",
     "households": "85",
-    "buildingLand": "三重段207地號"
+    "buildingLand": "三重段207地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-三重區-環泥水澍",
@@ -12928,7 +21966,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1140213",
     "permit": "113重建字第00304號",
     "households": "50",
-    "buildingLand": "三重段337地號"
+    "buildingLand": "三重段337地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-三重區-環泥水澐",
@@ -12958,7 +21997,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1130822",
     "permit": "113重建字第00132號",
     "households": "92",
-    "buildingLand": "三重段212地號"
+    "buildingLand": "三重段212地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-三重區-聯上琚川",
@@ -12988,7 +22028,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1130430",
     "permit": "113重建字第00005號",
     "households": "103",
-    "buildingLand": "仁信段18地號"
+    "buildingLand": "仁信段18地號",
+    "lines": [
+      "O"
+    ]
   },
   {
     "id": "registry-新北市-三重區-謙宇玥華",
@@ -13018,7 +22061,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1130319",
     "permit": "112重建字第00149號",
     "households": "19",
-    "buildingLand": "田安段220地號"
+    "buildingLand": "田安段220地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-三重區-謙和御璟",
@@ -13048,7 +22092,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 ",
     "permit": "111重建字第00115號",
     "households": "49",
-    "buildingLand": "仁愛段2127地號"
+    "buildingLand": "仁愛段2127地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-三重區-鴻華天?",
@@ -13078,7 +22123,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1110912",
     "permit": "107重建字第00425號",
     "households": "80",
-    "buildingLand": "富貴段225地號"
+    "buildingLand": "富貴段225地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-三重區-寶石承岳",
@@ -13108,7 +22154,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1130805",
     "permit": "106重建字第00222號",
     "households": "113",
-    "buildingLand": "五谷王段85地號"
+    "buildingLand": "五谷王段85地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-三重區-寶石敦岳",
@@ -13138,7 +22185,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1150223",
     "permit": "107重建字第00142號-4",
     "households": "232",
-    "buildingLand": "五谷王段371地號"
+    "buildingLand": "五谷王段371地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-三重區-寶石睿岳",
@@ -13168,7 +22216,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1130125",
     "permit": "106重建字第00317號",
     "households": "121",
-    "buildingLand": "三重段307地號"
+    "buildingLand": "三重段307地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-三重區-寶和妍稙",
@@ -13198,7 +22247,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1121004",
     "permit": "112重建字第00283號",
     "households": "18",
-    "buildingLand": "德新段138地號"
+    "buildingLand": "德新段138地號",
+    "lines": [
+      "O"
+    ]
   },
   {
     "id": "registry-新北市-三重區-RiVER PARK",
@@ -13228,15 +22280,18 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1130108",
     "permit": "112重建字第00155號",
     "households": "301",
-    "buildingLand": "三重段174地號"
+    "buildingLand": "三重段174地號",
+    "lines": [
+      "O"
+    ]
   },
   {
     "id": "registry-新北市-三峽區-上林云",
     "name": "上林云",
     "city": "新北市",
     "district": "三峽區",
-    "station": "頂埔",
-    "walk": 93,
+    "station": "臺北大學",
+    "walk": 6,
     "address": "新北市三峽區中山路184巷",
     "builder": "備查起造人：上林建設股份有限公司",
     "rating": "C",
@@ -13253,20 +22308,24 @@ export const matureRegistryProjects = [
     "verified": false,
     "locationStatus": "estimated",
     "googleMapsListing": false,
-    "locationAccuracy": "政府備查巷弄範圍定位（10 個官方門牌範圍）；官方門牌座標至 頂埔 最近出口直線約 5982 公尺，步行時間為保守估算",
+    "locationAccuracy": "政府備查巷弄範圍定位（10 個官方門牌範圍）；官方門牌座標至 臺北大學 最近出口直線約 370 公尺，步行時間為保守估算",
     "governmentId": "115峽建字第00053號",
     "governmentStatus": "申報備查 1150515",
     "permit": "115峽建字第00053號",
     "households": "26",
-    "buildingLand": "大仁段726地號"
+    "buildingLand": "大仁段726地號",
+    "lines": [
+      "LB",
+      "LRT"
+    ]
   },
   {
     "id": "registry-新北市-三峽區-久年??",
     "name": "久年??",
     "city": "新北市",
     "district": "三峽區",
-    "station": "頂埔",
-    "walk": 93,
+    "station": "臺北大學",
+    "walk": 17,
     "address": "新北市三峽區民族街、民權街交叉口",
     "builder": "備查起造人：久年置地股份有限公司",
     "rating": "NR",
@@ -13283,12 +22342,16 @@ export const matureRegistryProjects = [
     "verified": true,
     "locationStatus": "verified",
     "googleMapsListing": false,
-    "locationAccuracy": "民族街／民權街路口定位；官方門牌座標至 頂埔 最近出口直線約 6036 公尺，步行時間為保守估算",
+    "locationAccuracy": "民族街／民權街路口定位；官方門牌座標至 臺北大學 最近出口直線約 1054 公尺，步行時間為保守估算",
     "governmentId": "115峽建字第00047號",
     "governmentStatus": "申報備查 1150505",
     "permit": "115峽建字第00047號",
     "households": "121",
-    "buildingLand": "民族段543地號"
+    "buildingLand": "民族段543地號",
+    "lines": [
+      "LB",
+      "LRT"
+    ]
   },
   {
     "id": "registry-新北市-三峽區-女王萬歲(2)",
@@ -13318,15 +22381,16 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1120421",
     "permit": "110峽建字第00421號",
     "households": "41",
-    "buildingLand": "大學段一小段163地號"
+    "buildingLand": "大學段一小段163地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-三峽區-心家家",
     "name": "心家家",
     "city": "新北市",
     "district": "三峽區",
-    "station": "頂埔",
-    "walk": 94,
+    "station": "臺北大學",
+    "walk": 20,
     "address": "新北市三峽區中園街5號旁",
     "builder": "備查起造人：家元建設股份有限公司",
     "rating": "C",
@@ -13343,12 +22407,16 @@ export const matureRegistryProjects = [
     "verified": true,
     "locationStatus": "verified",
     "googleMapsListing": false,
-    "locationAccuracy": "政府備查門牌配對；官方門牌座標至 頂埔 最近出口直線約 6053 公尺，步行時間為保守估算",
+    "locationAccuracy": "政府備查門牌配對；官方門牌座標至 臺北大學 最近出口直線約 1257 公尺，步行時間為保守估算",
     "governmentId": "107峽建字第00500號",
     "governmentStatus": "申報備查 1110517",
     "permit": "107峽建字第00500號",
     "households": "42",
-    "buildingLand": "民族段851地號"
+    "buildingLand": "民族段851地號",
+    "lines": [
+      "LB",
+      "LRT"
+    ]
   },
   {
     "id": "registry-新北市-三峽區-文傑愛樂",
@@ -13378,15 +22446,16 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1141112",
     "permit": "113峽建字第00241號",
     "households": "45",
-    "buildingLand": "十三添一段787地號"
+    "buildingLand": "十三添一段787地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-三峽區-文傑鉑悅",
     "name": "文傑鉑悅",
     "city": "新北市",
     "district": "三峽區",
-    "station": "頂埔",
-    "walk": 82,
+    "station": "三峽",
+    "walk": 19,
     "address": "新北市三峽區大同路5巷",
     "builder": "備查起造人：文傑建設股份有限公司",
     "rating": "C",
@@ -13403,20 +22472,24 @@ export const matureRegistryProjects = [
     "verified": false,
     "locationStatus": "estimated",
     "googleMapsListing": false,
-    "locationAccuracy": "政府備查巷弄範圍定位（27 個官方門牌範圍）；官方門牌座標至 頂埔 最近出口直線約 5281 公尺，步行時間為保守估算",
+    "locationAccuracy": "政府備查巷弄範圍定位（27 個官方門牌範圍）；官方門牌座標至 三峽 最近出口直線約 1185 公尺，步行時間為保守估算",
     "governmentId": "113峽建字第00181號",
     "governmentStatus": "申報備查 1130708",
     "permit": "113峽建字第00181號",
     "households": "38",
-    "buildingLand": "介壽段3-7地號"
+    "buildingLand": "介壽段3-7地號",
+    "lines": [
+      "LB",
+      "LRT"
+    ]
   },
   {
     "id": "registry-新北市-三峽區-北大悠揚",
     "name": "北大悠揚",
     "city": "新北市",
     "district": "三峽區",
-    "station": "頂埔",
-    "walk": 75,
+    "station": "三峽",
+    "walk": 5,
     "address": "新北市三峽區學成路與國慶路交叉路口",
     "builder": "備查起造人：和耀建設股份有限公司",
     "rating": "C",
@@ -13433,12 +22506,16 @@ export const matureRegistryProjects = [
     "verified": true,
     "locationStatus": "verified",
     "googleMapsListing": false,
-    "locationAccuracy": "國慶路／學成路路口定位；官方門牌座標至 頂埔 最近出口直線約 4829 公尺，步行時間為保守估算",
+    "locationAccuracy": "國慶路／學成路路口定位；官方門牌座標至 三峽 最近出口直線約 269 公尺，步行時間為保守估算",
     "governmentId": "113峽建字第00277號",
     "governmentStatus": "申報備查 1140224",
     "permit": "113峽建字第00277號",
     "households": "144",
-    "buildingLand": "大學段一小段181地號"
+    "buildingLand": "大學段一小段181地號",
+    "lines": [
+      "LB",
+      "LRT"
+    ]
   },
   {
     "id": "registry-新北市-三峽區-北大富御",
@@ -13468,7 +22545,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1110415",
     "permit": "111峽建字第00002號",
     "households": "40",
-    "buildingLand": "大學段一小段154-10地號"
+    "buildingLand": "大學段一小段154-10地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-三峽區-立信園中心",
@@ -13498,7 +22576,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1110324",
     "permit": "110峽建字第00472號",
     "households": "42",
-    "buildingLand": "安溪段689地號"
+    "buildingLand": "安溪段689地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-三峽區-立信園立方",
@@ -13528,7 +22607,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1140513",
     "permit": "113峽建字第00421號",
     "households": "74",
-    "buildingLand": "安溪段692地號"
+    "buildingLand": "安溪段692地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-三峽區-合昶澄真",
@@ -13558,7 +22638,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 ",
     "permit": "115峽建字第00026號",
     "households": "24",
-    "buildingLand": "麻園段197-1地號"
+    "buildingLand": "麻園段197-1地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-三峽區-長月",
@@ -13588,15 +22669,16 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 ",
     "permit": "111峽建字第00038-01號",
     "households": "282",
-    "buildingLand": "安溪段644地號"
+    "buildingLand": "安溪段644地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-三峽區-青松安家",
     "name": "青松安家",
     "city": "新北市",
     "district": "三峽區",
-    "station": "頂埔",
-    "walk": 104,
+    "station": "臺北大學",
+    "walk": 25,
     "address": "新北市三峽區大同路286巷",
     "builder": "備查起造人：僑馥建築經理股份有限公司",
     "rating": "NR",
@@ -13613,20 +22695,24 @@ export const matureRegistryProjects = [
     "verified": false,
     "locationStatus": "estimated",
     "googleMapsListing": false,
-    "locationAccuracy": "政府備查巷弄範圍定位（37 個官方門牌範圍）；官方門牌座標至 頂埔 最近出口直線約 6726 公尺，步行時間為保守估算",
+    "locationAccuracy": "政府備查巷弄範圍定位（37 個官方門牌範圍）；官方門牌座標至 臺北大學 最近出口直線約 1569 公尺，步行時間為保守估算",
     "governmentId": "109峽建字第00458號",
     "governmentStatus": "申報備查 1111230",
     "permit": "109峽建字第00458號",
     "households": "133",
-    "buildingLand": "中園段622地號"
+    "buildingLand": "中園段622地號",
+    "lines": [
+      "LB",
+      "LRT"
+    ]
   },
   {
     "id": "registry-新北市-三峽區-青鳥之美",
     "name": "青鳥之美",
     "city": "新北市",
     "district": "三峽區",
-    "station": "頂埔",
-    "walk": 47,
+    "station": "長壽山",
+    "walk": 12,
     "address": "新北市三峽區橫溪路99巷",
     "builder": "備查起造人：嘉福開發股份有限公司",
     "rating": "C",
@@ -13643,20 +22729,24 @@ export const matureRegistryProjects = [
     "verified": false,
     "locationStatus": "estimated",
     "googleMapsListing": false,
-    "locationAccuracy": "政府備查巷弄範圍定位（120 個官方門牌範圍）；官方門牌座標至 頂埔 最近出口直線約 3001 公尺，步行時間為保守估算",
+    "locationAccuracy": "政府備查巷弄範圍定位（120 個官方門牌範圍）；官方門牌座標至 長壽山 最近出口直線約 778 公尺，步行時間為保守估算",
     "governmentId": "112峽建字第00210號",
     "governmentStatus": "申報備查 1130419",
     "permit": "112峽建字第00210號",
     "households": "40",
-    "buildingLand": "佳興段7-1地號"
+    "buildingLand": "佳興段7-1地號",
+    "lines": [
+      "LB",
+      "LRT"
+    ]
   },
   {
     "id": "registry-新北市-三峽區-青鳥之森",
     "name": "青鳥之森",
     "city": "新北市",
     "district": "三峽區",
-    "station": "頂埔",
-    "walk": 47,
+    "station": "長壽山",
+    "walk": 12,
     "address": "新北市三峽區橫溪路99巷",
     "builder": "備查起造人：群揚建設有限公司",
     "rating": "C",
@@ -13673,12 +22763,16 @@ export const matureRegistryProjects = [
     "verified": false,
     "locationStatus": "estimated",
     "googleMapsListing": false,
-    "locationAccuracy": "政府備查巷弄範圍定位（120 個官方門牌範圍）；官方門牌座標至 頂埔 最近出口直線約 3001 公尺，步行時間為保守估算",
+    "locationAccuracy": "政府備查巷弄範圍定位（120 個官方門牌範圍）；官方門牌座標至 長壽山 最近出口直線約 778 公尺，步行時間為保守估算",
     "governmentId": "110峽建字第00391號",
     "governmentStatus": "申報備查 1120107",
     "permit": "110峽建字第00391號",
     "households": "67",
-    "buildingLand": "佳興段5地號"
+    "buildingLand": "佳興段5地號",
+    "lines": [
+      "LB",
+      "LRT"
+    ]
   },
   {
     "id": "registry-新北市-三峽區-信義聚",
@@ -13708,15 +22802,16 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 ",
     "permit": "113峽建字第00064號",
     "households": "19",
-    "buildingLand": "麻園段111-1地號"
+    "buildingLand": "麻園段111-1地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-三峽區-家豪.大將",
     "name": "家豪.大將",
     "city": "新北市",
     "district": "三峽區",
-    "station": "頂埔",
-    "walk": 73,
+    "station": "三峽",
+    "walk": 14,
     "address": "新北市三峽區大觀路90號旁",
     "builder": "備查起造人：家信建設有限公司",
     "rating": "C",
@@ -13733,20 +22828,24 @@ export const matureRegistryProjects = [
     "verified": true,
     "locationStatus": "verified",
     "googleMapsListing": false,
-    "locationAccuracy": "政府備查門牌配對；官方門牌座標至 頂埔 最近出口直線約 4682 公尺，步行時間為保守估算",
+    "locationAccuracy": "政府備查門牌配對；官方門牌座標至 三峽 最近出口直線約 886 公尺，步行時間為保守估算",
     "governmentId": "113峽建字第00187號",
     "governmentStatus": "申報備查 1150113",
     "permit": "113峽建字第00187號",
     "households": "35",
-    "buildingLand": "大學段一小段27地號"
+    "buildingLand": "大學段一小段27地號",
+    "lines": [
+      "LB",
+      "LRT"
+    ]
   },
   {
     "id": "registry-新北市-三峽區-家豪.大將2",
     "name": "家豪.大將2",
     "city": "新北市",
     "district": "三峽區",
-    "station": "頂埔",
-    "walk": 77,
+    "station": "三峽",
+    "walk": 9,
     "address": "新北市三峽區國際一街66-1號旁",
     "builder": "備查起造人：家豪建設有限公司",
     "rating": "C",
@@ -13763,12 +22862,16 @@ export const matureRegistryProjects = [
     "verified": true,
     "locationStatus": "verified",
     "googleMapsListing": false,
-    "locationAccuracy": "政府備查門牌配對；官方門牌座標至 頂埔 最近出口直線約 4986 公尺，步行時間為保守估算",
+    "locationAccuracy": "政府備查門牌配對；官方門牌座標至 三峽 最近出口直線約 539 公尺，步行時間為保守估算",
     "governmentId": "113峽建字第00337號",
     "governmentStatus": "申報備查 1150316",
     "permit": "113峽建字第00337號",
     "households": "30",
-    "buildingLand": "大學段一小段112-1地號"
+    "buildingLand": "大學段一小段112-1地號",
+    "lines": [
+      "LB",
+      "LRT"
+    ]
   },
   {
     "id": "registry-新北市-三峽區-荷蘊謙",
@@ -13798,15 +22901,16 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1101019",
     "permit": "110峽建字第00335號",
     "households": "7",
-    "buildingLand": "介壽段18地號"
+    "buildingLand": "介壽段18地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-三峽區-僑家晶鑽",
     "name": "僑家晶鑽",
     "city": "新北市",
     "district": "三峽區",
-    "station": "頂埔",
-    "walk": 83,
+    "station": "三峽",
+    "walk": 17,
     "address": "新北市三峽區光明路69巷",
     "builder": "備查起造人：伊洛熊多媒體科技有限公司",
     "rating": "NR",
@@ -13823,20 +22927,24 @@ export const matureRegistryProjects = [
     "verified": false,
     "locationStatus": "estimated",
     "googleMapsListing": false,
-    "locationAccuracy": "政府備查巷弄範圍定位（33 個官方門牌範圍）；官方門牌座標至 頂埔 最近出口直線約 5381 公尺，步行時間為保守估算",
+    "locationAccuracy": "政府備查巷弄範圍定位（33 個官方門牌範圍）；官方門牌座標至 三峽 最近出口直線約 1099 公尺，步行時間為保守估算",
     "governmentId": "111峽建字第00352號",
     "governmentStatus": "申報備查 1141223",
     "permit": "111峽建字第00352號",
     "households": "17",
-    "buildingLand": "介壽段8-4地號"
+    "buildingLand": "介壽段8-4地號",
+    "lines": [
+      "LB",
+      "LRT"
+    ]
   },
   {
     "id": "registry-新北市-三峽區-僑福晶鑽",
     "name": "僑福晶鑽",
     "city": "新北市",
     "district": "三峽區",
-    "station": "頂埔",
-    "walk": 37,
+    "station": "長壽山",
+    "walk": 3,
     "address": "新北市三峽區介壽路三段185巷",
     "builder": "備查起造人：僑福國際建設有限公司",
     "rating": "C",
@@ -13853,12 +22961,16 @@ export const matureRegistryProjects = [
     "verified": false,
     "locationStatus": "estimated",
     "googleMapsListing": false,
-    "locationAccuracy": "政府備查巷弄範圍定位（11 個官方門牌範圍）；官方門牌座標至 頂埔 最近出口直線約 2398 公尺，步行時間為保守估算",
+    "locationAccuracy": "政府備查巷弄範圍定位（11 個官方門牌範圍）；官方門牌座標至 長壽山 最近出口直線約 136 公尺，步行時間為保守估算",
     "governmentId": "113峽建字第00390號",
     "governmentStatus": "申報備查 1150123",
     "permit": "113峽建字第00390號",
     "households": "11",
-    "buildingLand": "溪北段987地號"
+    "buildingLand": "溪北段987地號",
+    "lines": [
+      "LB",
+      "LRT"
+    ]
   },
   {
     "id": "registry-新北市-土城區-?暘城中央",
@@ -13888,7 +23000,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1110510",
     "permit": "111土建字第00112號",
     "households": "68",
-    "buildingLand": "員福段127地號"
+    "buildingLand": "員福段127地號",
+    "lines": [
+      "BL"
+    ]
   },
   {
     "id": "registry-新北市-土城區-一品學苑",
@@ -13918,7 +23033,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1120707",
     "permit": "112年土建字第00229號",
     "households": "170",
-    "buildingLand": "明德段288地號"
+    "buildingLand": "明德段288地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-土城區-力璞紘-日莘",
@@ -13948,7 +23064,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1120310",
     "permit": "111土建字第00154號",
     "households": "127",
-    "buildingLand": "永福段92地號"
+    "buildingLand": "永福段92地號",
+    "lines": [
+      "BL"
+    ]
   },
   {
     "id": "registry-新北市-土城區-力璞紘-月藝",
@@ -13978,7 +23097,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1120310",
     "permit": "111土建字第00153號",
     "households": "50",
-    "buildingLand": "永福段77地號"
+    "buildingLand": "永福段77地號",
+    "lines": [
+      "BL"
+    ]
   },
   {
     "id": "registry-新北市-土城區-大同莊園III",
@@ -14008,7 +23130,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1101202",
     "permit": "110土建字第00005號",
     "households": "648",
-    "buildingLand": "員和段123地號"
+    "buildingLand": "員和段123地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-土城區-中央之星",
@@ -14038,7 +23161,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1130619",
     "permit": "112土建字第00230號",
     "households": "26",
-    "buildingLand": "學成段19地號"
+    "buildingLand": "學成段19地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-土城區-仁基京品",
@@ -14068,7 +23192,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1110603",
     "permit": "110土建字第00288-01號",
     "households": "123",
-    "buildingLand": "頂福段19地號"
+    "buildingLand": "頂福段19地號",
+    "lines": [
+      "BL"
+    ]
   },
   {
     "id": "registry-新北市-土城區-天好運1",
@@ -14098,7 +23225,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1110913",
     "permit": "111土建字第00283號",
     "households": "62",
-    "buildingLand": "永福段28地號"
+    "buildingLand": "永福段28地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-土城區-天好運2",
@@ -14128,7 +23256,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1110214",
     "permit": "111土建字第0049號",
     "households": "45",
-    "buildingLand": "永福段6地號"
+    "buildingLand": "永福段6地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-土城區-天好運3",
@@ -14158,7 +23287,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1141215",
     "permit": "114土建字第00319號",
     "households": "83",
-    "buildingLand": "永福段10地號"
+    "buildingLand": "永福段10地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-土城區-心上城2",
@@ -14188,7 +23318,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1130326",
     "permit": "111土建字第00026號",
     "households": "20",
-    "buildingLand": "大安段504地號"
+    "buildingLand": "大安段504地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-土城區-台信琢岳",
@@ -14218,7 +23349,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1121219",
     "permit": "112土建字第00368號",
     "households": "128",
-    "buildingLand": "明德段11-1地號"
+    "buildingLand": "明德段11-1地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-土城區-永雄.詠序",
@@ -14248,7 +23380,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1150625",
     "permit": "109土建字第00383號",
     "households": "98",
-    "buildingLand": "清水段1001地號"
+    "buildingLand": "清水段1001地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-土城區-合康雙匯",
@@ -14278,7 +23411,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1130920",
     "permit": "111土建字第00291號",
     "households": "217",
-    "buildingLand": "永福段72地號"
+    "buildingLand": "永福段72地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-土城區-合謙上謙城",
@@ -14308,7 +23442,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1111103",
     "permit": "111土建字第00012號",
     "households": "176",
-    "buildingLand": "青雲段214地號"
+    "buildingLand": "青雲段214地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-土城區-有富.彩玉",
@@ -14338,7 +23473,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1110503",
     "permit": "111土建字第00160號",
     "households": "64",
-    "buildingLand": "明德段119地號"
+    "buildingLand": "明德段119地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-土城區-有富藍玉",
@@ -14368,7 +23504,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1120704",
     "permit": "111土建字第00415號",
     "households": "60",
-    "buildingLand": "明德段98地號"
+    "buildingLand": "明德段98地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-土城區-有富寶玉",
@@ -14398,7 +23535,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1130412",
     "permit": "112土建字第00383號",
     "households": "76",
-    "buildingLand": "明德段323地號"
+    "buildingLand": "明德段323地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-土城區-芊翠",
@@ -14428,7 +23566,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1101004",
     "permit": "110土建字第00219號",
     "households": "76",
-    "buildingLand": "明德段222地號"
+    "buildingLand": "明德段222地號",
+    "lines": [
+      "BL"
+    ]
   },
   {
     "id": "registry-新北市-土城區-芊樾",
@@ -14458,7 +23599,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1101223",
     "permit": "110土建字第00428號",
     "households": "108",
-    "buildingLand": "明德段109地號"
+    "buildingLand": "明德段109地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-土城區-協富禮寓",
@@ -14488,7 +23630,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1140428",
     "permit": "113土建字第00395號",
     "households": "32",
-    "buildingLand": "員福段352地號"
+    "buildingLand": "員福段352地號",
+    "lines": [
+      "BL"
+    ]
   },
   {
     "id": "registry-新北市-土城區-和耀美居",
@@ -14518,7 +23663,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1121117",
     "permit": "111土建字第00312號",
     "households": "60",
-    "buildingLand": "永福段90地號"
+    "buildingLand": "永福段90地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-土城區-和耀美家 雅居",
@@ -14548,7 +23694,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1140225",
     "permit": "113土建字第00280號",
     "households": "175",
-    "buildingLand": "永福段33地號"
+    "buildingLand": "永福段33地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-土城區-松陽馥麗",
@@ -14578,7 +23725,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1140512",
     "permit": "113土建字第00215號",
     "households": "200",
-    "buildingLand": "永寧一段4地號"
+    "buildingLand": "永寧一段4地號",
+    "lines": [
+      "BL"
+    ]
   },
   {
     "id": "registry-新北市-土城區-泱美",
@@ -14608,7 +23758,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1120915",
     "permit": "111土建字第00245號",
     "households": "281",
-    "buildingLand": "運校段505地號"
+    "buildingLand": "運校段505地號",
+    "lines": [
+      "BL"
+    ]
   },
   {
     "id": "registry-新北市-土城區-金城帝寶1號",
@@ -14638,7 +23791,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1120307",
     "permit": "107土建字第00544號",
     "households": "182",
-    "buildingLand": "大安段731-6地號"
+    "buildingLand": "大安段731-6地號",
+    "lines": [
+      "BL"
+    ]
   },
   {
     "id": "registry-新北市-土城區-金城帝寶2號",
@@ -14668,7 +23824,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1120505",
     "permit": "107土建字00574號",
     "households": "577",
-    "buildingLand": "大安段729-1地號"
+    "buildingLand": "大安段729-1地號",
+    "lines": [
+      "BL"
+    ]
   },
   {
     "id": "registry-新北市-土城區-品山月",
@@ -14698,7 +23857,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1111202",
     "permit": "108土建字第00298號",
     "households": "13",
-    "buildingLand": "永寧段165地號"
+    "buildingLand": "永寧段165地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-土城區-恆海山",
@@ -14723,12 +23883,15 @@ export const matureRegistryProjects = [
     "verified": true,
     "locationStatus": "verified",
     "googleMapsListing": false,
-    "locationAccuracy": "政府備查門牌配對；官方門牌座標至 海山 最近出口直線約 250 公尺，步行時間為保守估算",
+    "locationAccuracy": "政府備查門牌配對；官方門牌座標至 海山 最近出口直線約 247 公尺，步行時間為保守估算",
     "governmentId": "113年土建字第00333號",
     "governmentStatus": "申報備查 1141223",
     "permit": "113年土建字第00333號",
     "households": "35",
-    "buildingLand": "樂利段613地號"
+    "buildingLand": "樂利段613地號",
+    "lines": [
+      "BL"
+    ]
   },
   {
     "id": "registry-新北市-土城區-皇翔MRT",
@@ -14758,7 +23921,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1111125",
     "permit": "108土建字第00238號",
     "households": "368",
-    "buildingLand": "永和段207地號"
+    "buildingLand": "永和段207地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-土城區-紅布朗花園",
@@ -14788,7 +23952,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1111205",
     "permit": "111土建字第00488號",
     "households": "373",
-    "buildingLand": "明德段327地號"
+    "buildingLand": "明德段327地號",
+    "lines": [
+      "BL"
+    ]
   },
   {
     "id": "registry-新北市-土城區-美德市",
@@ -14818,7 +23985,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1120323",
     "permit": "111土建字第00374號",
     "households": "288",
-    "buildingLand": "大安段742-1地號"
+    "buildingLand": "大安段742-1地號",
+    "lines": [
+      "BL"
+    ]
   },
   {
     "id": "registry-新北市-土城區-若水秧翠",
@@ -14848,7 +24018,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1141231",
     "permit": "114土建字第00021號",
     "households": "68",
-    "buildingLand": "運校段18地號"
+    "buildingLand": "運校段18地號",
+    "lines": [
+      "BL"
+    ]
   },
   {
     "id": "registry-新北市-土城區-家泰嘉潤丰藏",
@@ -14878,7 +24051,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1140527",
     "permit": "114土建字第00128號",
     "households": "152",
-    "buildingLand": "明德段212地號"
+    "buildingLand": "明德段212地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-土城區-悅峰 I HOME",
@@ -14908,7 +24082,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1110509",
     "permit": "111土建字第00158號",
     "households": "26",
-    "buildingLand": "明德段286地號"
+    "buildingLand": "明德段286地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-土城區-朗沐",
@@ -14938,7 +24113,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1130918",
     "permit": "112土建字第00350號",
     "households": "151",
-    "buildingLand": "永福段70地號"
+    "buildingLand": "永福段70地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-土城區-迴東騰",
@@ -14968,7 +24144,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1140922",
     "permit": "114土建字第00173",
     "households": "90",
-    "buildingLand": "永福段94地號"
+    "buildingLand": "永福段94地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-土城區-彩桐莊園",
@@ -14998,15 +24175,18 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1130312",
     "permit": "112土建字00144號",
     "households": "29",
-    "buildingLand": "南天母段709地號"
+    "buildingLand": "南天母段709地號",
+    "lines": [
+      "BL"
+    ]
   },
   {
     "id": "registry-新北市-土城區-頂埔綻",
     "name": "頂埔綻",
     "city": "新北市",
     "district": "土城區",
-    "station": "頂埔",
-    "walk": 9,
+    "station": "媽祖田",
+    "walk": 7,
     "address": "新北市土城區中州路27巷",
     "builder": "備查起造人：永豐隆建設股份有限公司",
     "rating": "C",
@@ -15023,12 +24203,16 @@ export const matureRegistryProjects = [
     "verified": false,
     "locationStatus": "estimated",
     "googleMapsListing": false,
-    "locationAccuracy": "政府備查巷弄範圍定位（102 個官方門牌範圍）；官方門牌座標至 頂埔 最近出口直線約 573 公尺，步行時間為保守估算",
+    "locationAccuracy": "政府備查巷弄範圍定位（102 個官方門牌範圍）；官方門牌座標至 媽祖田 最近出口直線約 409 公尺，步行時間為保守估算",
     "governmentId": "111土建字第00041號",
     "governmentStatus": "申報備查 1110802",
     "permit": "111土建字第00041號",
     "households": "17",
-    "buildingLand": "頂福段494地號"
+    "buildingLand": "頂福段494地號",
+    "lines": [
+      "LB",
+      "LRT"
+    ]
   },
   {
     "id": "registry-新北市-土城區-新潤花路",
@@ -15058,7 +24242,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1111004",
     "permit": "111土建字第401號",
     "households": "127",
-    "buildingLand": "永福段46地號"
+    "buildingLand": "永福段46地號",
+    "lines": [
+      "BL"
+    ]
   },
   {
     "id": "registry-新北市-土城區-新潤青樺",
@@ -15088,7 +24275,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1110526",
     "permit": "111土建字第00192號",
     "households": "299",
-    "buildingLand": "明德段65地號"
+    "buildingLand": "明德段65地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-土城區-新濠岳",
@@ -15118,7 +24306,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1130325",
     "permit": "112土建字第00442號",
     "households": "693",
-    "buildingLand": "永福段99地號"
+    "buildingLand": "永福段99地號",
+    "lines": [
+      "BL"
+    ]
   },
   {
     "id": "registry-新北市-土城區-瑞堯禾芯",
@@ -15148,7 +24339,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1140117",
     "permit": "112土建字00091號",
     "households": "13",
-    "buildingLand": "清水段111地號"
+    "buildingLand": "清水段111地號",
+    "lines": [
+      "BL"
+    ]
   },
   {
     "id": "registry-新北市-土城區-福容雙捷A+",
@@ -15178,7 +24372,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1150102",
     "permit": "112土建字第00232號",
     "households": "112",
-    "buildingLand": "永福段24地號"
+    "buildingLand": "永福段24地號",
+    "lines": [
+      "BL"
+    ]
   },
   {
     "id": "registry-新北市-土城區-德友植仁",
@@ -15208,7 +24405,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1110901",
     "permit": "111土建字第00347號",
     "households": "83",
-    "buildingLand": "永福段30地號"
+    "buildingLand": "永福段30地號",
+    "lines": [
+      "BL"
+    ]
   },
   {
     "id": "registry-新北市-土城區-慕軒",
@@ -15238,7 +24438,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1111219",
     "permit": "110土建字第00632號",
     "households": "115",
-    "buildingLand": "清水段645地號"
+    "buildingLand": "清水段645地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-土城區-馥春錦-山紫",
@@ -15268,7 +24469,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1130912",
     "permit": "113土建字第00169號",
     "households": "81",
-    "buildingLand": "廷寮段313地號"
+    "buildingLand": "廷寮段313地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-土城區-馥春錦-水明",
@@ -15298,7 +24500,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1130912",
     "permit": "113土建字第00170號",
     "households": "12",
-    "buildingLand": "廷寮段318地號"
+    "buildingLand": "廷寮段318地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-土城區-馥華之丘-四季",
@@ -15328,7 +24531,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1120925",
     "permit": "111土建字第00509號",
     "households": "467",
-    "buildingLand": "明德段235地號"
+    "buildingLand": "明德段235地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-土城區-馥華之丘-光茵",
@@ -15358,7 +24562,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1110818",
     "permit": "111土建字第00335號",
     "households": "362",
-    "buildingLand": "明德段240地號"
+    "buildingLand": "明德段240地號",
+    "lines": [
+      "BL"
+    ]
   },
   {
     "id": "registry-新北市-土城區-馥華之丘－光茵",
@@ -15388,7 +24595,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1130515",
     "permit": "111土建字第00335號",
     "households": "362",
-    "buildingLand": "明德段240地號"
+    "buildingLand": "明德段240地號",
+    "lines": [
+      "BL"
+    ]
   },
   {
     "id": "registry-新北市-土城區-馥華城奕",
@@ -15418,7 +24628,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1101008",
     "permit": "110土建字第00482號",
     "households": "91",
-    "buildingLand": "明德段6地號"
+    "buildingLand": "明德段6地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-土城區-寶佳淳青",
@@ -15448,7 +24659,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1130321",
     "permit": "109土建字第00450-01號",
     "households": "240",
-    "buildingLand": "明德段360地號"
+    "buildingLand": "明德段360地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-土城區-耀承一品",
@@ -15478,7 +24690,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1110524",
     "permit": "111土建字第00185號",
     "households": "53",
-    "buildingLand": "永福段37地號"
+    "buildingLand": "永福段37地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-中和區-?和心",
@@ -15508,7 +24721,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1110803",
     "permit": "新北市111中建字第00127號",
     "households": "129",
-    "buildingLand": "莊敬段517地號"
+    "buildingLand": "莊敬段517地號",
+    "lines": [
+      "Y"
+    ]
   },
   {
     "id": "registry-新北市-中和區-?捷橙品",
@@ -15538,7 +24754,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1140608",
     "permit": "112中建字第00296號",
     "households": "77",
-    "buildingLand": "橋和段425地號"
+    "buildingLand": "橋和段425地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-中和區-大同新紀元",
@@ -15563,12 +24780,15 @@ export const matureRegistryProjects = [
     "verified": true,
     "locationStatus": "verified",
     "googleMapsListing": false,
-    "locationAccuracy": "連城路／錦和路路口定位；官方門牌座標至 中和 最近出口直線約 958 公尺，步行時間為保守估算",
+    "locationAccuracy": "連城路／錦和路路口定位；官方門牌座標至 中和 最近出口直線約 922 公尺，步行時間為保守估算",
     "governmentId": "112中建字第00289號",
     "governmentStatus": "申報備查 1130419",
     "permit": "112中建字第00289號",
     "households": "1384",
-    "buildingLand": "健康段478地號"
+    "buildingLand": "健康段478地號",
+    "lines": [
+      "Y"
+    ]
   },
   {
     "id": "registry-新北市-中和區-左岸明珠",
@@ -15598,7 +24818,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1130911",
     "permit": "105中建字第00510號",
     "households": "357",
-    "buildingLand": "福祥段648地號"
+    "buildingLand": "福祥段648地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-中和區-左岸明珠A區",
@@ -15628,7 +24849,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 ",
     "permit": "105中建字第00511號",
     "households": "127",
-    "buildingLand": "福祥段660地號"
+    "buildingLand": "福祥段660地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-中和區-左岸明珠B區",
@@ -15658,7 +24880,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 ",
     "permit": "105中建字第00510號",
     "households": "357",
-    "buildingLand": "福祥段648地號"
+    "buildingLand": "福祥段648地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-中和區-弘暉大禧",
@@ -15688,7 +24911,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1100917",
     "permit": "109中建字第00339-1號",
     "households": "160",
-    "buildingLand": "大同段143地號"
+    "buildingLand": "大同段143地號",
+    "lines": [
+      "O"
+    ]
   },
   {
     "id": "registry-新北市-中和區-民有琚",
@@ -15718,7 +24944,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1130515",
     "permit": "113中建字第00110號",
     "households": "34",
-    "buildingLand": "員山段98地號"
+    "buildingLand": "員山段98地號",
+    "lines": [
+      "Y"
+    ]
   },
   {
     "id": "registry-新北市-中和區-永邦恆美",
@@ -15748,7 +24977,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1110623",
     "permit": "104中建字第00050號",
     "households": "187",
-    "buildingLand": "盛昌段155地號"
+    "buildingLand": "盛昌段155地號",
+    "lines": [
+      "O"
+    ]
   },
   {
     "id": "registry-新北市-中和區-永琦見璞",
@@ -15756,7 +24988,7 @@ export const matureRegistryProjects = [
     "city": "新北市",
     "district": "中和區",
     "station": "景安",
-    "walk": 10,
+    "walk": 8,
     "address": "新北市中和區保健路50巷",
     "builder": "備查起造人：永琦國際開發股份有限公司",
     "rating": "C",
@@ -15773,12 +25005,15 @@ export const matureRegistryProjects = [
     "verified": false,
     "locationStatus": "estimated",
     "googleMapsListing": false,
-    "locationAccuracy": "政府備查巷弄範圍定位（57 個官方門牌範圍）；官方門牌座標至 景安 最近出口直線約 596 公尺，步行時間為保守估算",
+    "locationAccuracy": "政府備查巷弄範圍定位（57 個官方門牌範圍）；官方門牌座標至 景安 最近出口直線約 517 公尺，步行時間為保守估算",
     "governmentId": "110中建字第00526號",
     "governmentStatus": "申報備查 1110621",
     "permit": "110中建字第00526號",
     "households": "20",
-    "buildingLand": "保健段308地號"
+    "buildingLand": "保健段308地號",
+    "lines": [
+      "Y"
+    ]
   },
   {
     "id": "registry-新北市-中和區-兆璞之森",
@@ -15808,7 +25043,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 ",
     "permit": "113中建字第00106-02號",
     "households": "155",
-    "buildingLand": "三民段2地號"
+    "buildingLand": "三民段2地號",
+    "lines": [
+      "Y"
+    ]
   },
   {
     "id": "registry-新北市-中和區-好植",
@@ -15838,7 +25076,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1140408",
     "permit": "110中建字第00151-01號",
     "households": "76",
-    "buildingLand": "景華段340地號"
+    "buildingLand": "景華段340地號",
+    "lines": [
+      "O"
+    ]
   },
   {
     "id": "registry-新北市-中和區-成家心悅",
@@ -15868,7 +25109,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1140527",
     "permit": "114中建字第00130號",
     "households": "28",
-    "buildingLand": "廟美段676地號"
+    "buildingLand": "廟美段676地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-中和區-君奕華品",
@@ -15898,7 +25140,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1140103",
     "permit": "113中建字第00422號",
     "households": "175",
-    "buildingLand": "景華段227地號"
+    "buildingLand": "景華段227地號",
+    "lines": [
+      "O"
+    ]
   },
   {
     "id": "registry-新北市-中和區-和典永峰",
@@ -15923,12 +25168,15 @@ export const matureRegistryProjects = [
     "verified": false,
     "locationStatus": "estimated",
     "googleMapsListing": false,
-    "locationAccuracy": "政府備查巷弄範圍定位（106 個官方門牌範圍）；官方門牌座標至 景平 最近出口直線約 471 公尺，步行時間為保守估算",
+    "locationAccuracy": "政府備查巷弄範圍定位（106 個官方門牌範圍）；官方門牌座標至 景平 最近出口直線約 456 公尺，步行時間為保守估算",
     "governmentId": "112中建字第00073號",
     "governmentStatus": "申報備查 1130809",
     "permit": "112中建字第00073號",
     "households": "141",
-    "buildingLand": "秀山段272地號"
+    "buildingLand": "秀山段272地號",
+    "lines": [
+      "Y"
+    ]
   },
   {
     "id": "registry-新北市-中和區-和御",
@@ -15953,12 +25201,15 @@ export const matureRegistryProjects = [
     "verified": true,
     "locationStatus": "verified",
     "googleMapsListing": false,
-    "locationAccuracy": "政府備查門牌配對；官方門牌座標至 橋和 最近出口直線約 1287 公尺，步行時間為保守估算",
+    "locationAccuracy": "政府備查門牌配對；官方門牌座標至 橋和 最近出口直線約 1267 公尺，步行時間為保守估算",
     "governmentId": "113中建字第398號",
     "governmentStatus": "申報備查 1131210",
     "permit": "113中建字第398號",
     "households": "329",
-    "buildingLand": "信和段1135地號"
+    "buildingLand": "信和段1135地號",
+    "lines": [
+      "Y"
+    ]
   },
   {
     "id": "registry-新北市-中和區-和雅琚",
@@ -15988,15 +25239,18 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1130920",
     "permit": "111中建字第00486號",
     "households": "115",
-    "buildingLand": "福祥段131地號"
+    "buildingLand": "福祥段131地號",
+    "lines": [
+      "Y"
+    ]
   },
   {
     "id": "registry-新北市-中和區-宜安三六",
     "name": "宜安三六",
     "city": "新北市",
     "district": "中和區",
-    "station": "景平",
-    "walk": 11,
+    "station": "景安",
+    "walk": 10,
     "address": "新北市中和區保健路76巷",
     "builder": "備查起造人：廣鴻建設股份有限公司",
     "rating": "C",
@@ -16013,20 +25267,23 @@ export const matureRegistryProjects = [
     "verified": false,
     "locationStatus": "estimated",
     "googleMapsListing": false,
-    "locationAccuracy": "政府備查巷弄範圍定位（11 個官方門牌範圍）；官方門牌座標至 景平 最近出口直線約 675 公尺，步行時間為保守估算",
+    "locationAccuracy": "政府備查巷弄範圍定位（11 個官方門牌範圍）；官方門牌座標至 景安 最近出口直線約 642 公尺，步行時間為保守估算",
     "governmentId": "112中建字第00228號",
     "governmentStatus": "申報備查 1120711",
     "permit": "112中建字第00228號",
     "households": "37",
-    "buildingLand": "安平段603地號"
+    "buildingLand": "安平段603地號",
+    "lines": [
+      "Y"
+    ]
   },
   {
     "id": "registry-新北市-中和區-忠孝芯城",
     "name": "忠孝芯城",
     "city": "新北市",
     "district": "中和區",
-    "station": "南勢角",
-    "walk": 11,
+    "station": "新和國小",
+    "walk": 9,
     "address": "新北市中和區忠孝街62巷",
     "builder": "備查起造人：臺億建築經理股份有限公司",
     "rating": "NR",
@@ -16043,12 +25300,16 @@ export const matureRegistryProjects = [
     "verified": false,
     "locationStatus": "estimated",
     "googleMapsListing": false,
-    "locationAccuracy": "政府備查巷弄範圍定位（66 個官方門牌範圍）；官方門牌座標至 南勢角 最近出口直線約 702 公尺，步行時間為保守估算",
+    "locationAccuracy": "政府備查巷弄範圍定位（66 個官方門牌範圍）；官方門牌座標至 新和國小 最近出口直線約 582 公尺，步行時間為保守估算",
     "governmentId": "111中建字第00226號",
     "governmentStatus": "申報備查 1120721",
     "permit": "111中建字第00226號",
     "households": "113",
-    "buildingLand": "華新段239地號"
+    "buildingLand": "華新段239地號",
+    "lines": [
+      "K",
+      "LRT"
+    ]
   },
   {
     "id": "registry-新北市-中和區-昇陽國旭",
@@ -16078,7 +25339,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1150415",
     "permit": "115中建字第00078號",
     "households": "193",
-    "buildingLand": "景福段205地號"
+    "buildingLand": "景福段205地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-中和區-昌田捷境",
@@ -16108,7 +25370,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1110208",
     "permit": "110中建字第00637號",
     "households": "35",
-    "buildingLand": "橋和段423地號"
+    "buildingLand": "橋和段423地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-中和區-東瑩玥光 涵光區",
@@ -16133,12 +25396,15 @@ export const matureRegistryProjects = [
     "verified": true,
     "locationStatus": "verified",
     "googleMapsListing": false,
-    "locationAccuracy": "政府備查門牌配對；官方門牌座標至 中原 最近出口直線約 1414 公尺，步行時間為保守估算",
+    "locationAccuracy": "政府備查門牌配對；官方門牌座標至 中原 最近出口直線約 1398 公尺，步行時間為保守估算",
     "governmentId": "111年中建字第00147號",
     "governmentStatus": "申報備查 1140811",
     "permit": "111年中建字第00147號",
     "households": "53",
-    "buildingLand": "民利段593地號"
+    "buildingLand": "民利段593地號",
+    "lines": [
+      "Y"
+    ]
   },
   {
     "id": "registry-新北市-中和區-東瑩玥光 涵玥區",
@@ -16163,12 +25429,15 @@ export const matureRegistryProjects = [
     "verified": true,
     "locationStatus": "verified",
     "googleMapsListing": false,
-    "locationAccuracy": "政府備查門牌配對；官方門牌座標至 中原 最近出口直線約 1414 公尺，步行時間為保守估算",
+    "locationAccuracy": "政府備查門牌配對；官方門牌座標至 中原 最近出口直線約 1398 公尺，步行時間為保守估算",
     "governmentId": "113中建字第00244號",
     "governmentStatus": "申報備查 1140924",
     "permit": "113中建字第00244號",
     "households": "192",
-    "buildingLand": "民利段586地號"
+    "buildingLand": "民利段586地號",
+    "lines": [
+      "Y"
+    ]
   },
   {
     "id": "registry-新北市-中和區-欣聯和心",
@@ -16198,7 +25467,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1111228",
     "permit": "111中建字第00507號",
     "households": "97",
-    "buildingLand": "南工段483地號"
+    "buildingLand": "南工段483地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-中和區-泓鼎秀山",
@@ -16228,7 +25498,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1140219",
     "permit": "113中建字第00385號",
     "households": "60",
-    "buildingLand": "秀山段78地號"
+    "buildingLand": "秀山段78地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-中和區-南山大苑",
@@ -16258,7 +25529,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1110729",
     "permit": "111中建字第00121號",
     "households": "136",
-    "buildingLand": "南勢段20-2地號"
+    "buildingLand": "南勢段20-2地號",
+    "lines": [
+      "O"
+    ]
   },
   {
     "id": "registry-新北市-中和區-虹爵琢悅",
@@ -16288,7 +25562,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1110221",
     "permit": "111中建字第00046號",
     "households": "64",
-    "buildingLand": "連城段118地號"
+    "buildingLand": "連城段118地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-中和區-泰隆丰和",
@@ -16318,7 +25593,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1130517",
     "permit": "109中建字第00456號",
     "households": "82",
-    "buildingLand": "福祥段61地號"
+    "buildingLand": "福祥段61地號",
+    "lines": [
+      "Y"
+    ]
   },
   {
     "id": "registry-新北市-中和區-偉鉅中山?匯",
@@ -16348,7 +25626,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1150507",
     "permit": "113中建字第00328號",
     "households": "75",
-    "buildingLand": "莊敬段519地號"
+    "buildingLand": "莊敬段519地號",
+    "lines": [
+      "Y"
+    ]
   },
   {
     "id": "registry-新北市-中和區-偉鉅雙捷韻",
@@ -16378,7 +25659,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1150515",
     "permit": "112中建字第00271號",
     "households": "40",
-    "buildingLand": "圓通段556地號"
+    "buildingLand": "圓通段556地號",
+    "lines": [
+      "O"
+    ]
   },
   {
     "id": "registry-新北市-中和區-將捷MRT",
@@ -16408,7 +25692,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1131216",
     "permit": "111中建字第00417號",
     "households": "95",
-    "buildingLand": "景新段9地號"
+    "buildingLand": "景新段9地號",
+    "lines": [
+      "Y"
+    ]
   },
   {
     "id": "registry-新北市-中和區-景安文匯",
@@ -16438,14 +25725,17 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1110923",
     "permit": "110中建字第00176號",
     "households": "275",
-    "buildingLand": "圓通段267地號"
+    "buildingLand": "圓通段267地號",
+    "lines": [
+      "O"
+    ]
   },
   {
     "id": "registry-新北市-中和區-景安旭",
     "name": "景安旭",
     "city": "新北市",
     "district": "中和區",
-    "station": "景平",
+    "station": "新和國小",
     "walk": 9,
     "address": "新北市中和區景新街114號旁",
     "builder": "備查起造人：金豐建設股份有限公司",
@@ -16463,12 +25753,16 @@ export const matureRegistryProjects = [
     "verified": true,
     "locationStatus": "verified",
     "googleMapsListing": false,
-    "locationAccuracy": "政府備查門牌配對；官方門牌座標至 景平 最近出口直線約 583 公尺，步行時間為保守估算",
+    "locationAccuracy": "政府備查門牌配對；官方門牌座標至 新和國小 最近出口直線約 540 公尺，步行時間為保守估算",
     "governmentId": "109中建字第00581-1號",
     "governmentStatus": "申報備查 1131104",
     "permit": "109中建字第00581-1號",
     "households": "26",
-    "buildingLand": "景華段480地號"
+    "buildingLand": "景華段480地號",
+    "lines": [
+      "K",
+      "LRT"
+    ]
   },
   {
     "id": "registry-新北市-中和區-華固得月",
@@ -16498,7 +25792,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1110413",
     "permit": "111中建字第00139號",
     "households": "114",
-    "buildingLand": "華中段13地號"
+    "buildingLand": "華中段13地號",
+    "lines": [
+      "Y"
+    ]
   },
   {
     "id": "registry-新北市-中和區-楓韻元山居",
@@ -16506,7 +25803,7 @@ export const matureRegistryProjects = [
     "city": "新北市",
     "district": "中和區",
     "station": "中原",
-    "walk": 7,
+    "walk": 6,
     "address": "新北市中和區中山路二段４６１號旁",
     "builder": "備查起造人：楓韻開發股份有限公司",
     "rating": "C",
@@ -16523,12 +25820,15 @@ export const matureRegistryProjects = [
     "verified": true,
     "locationStatus": "verified",
     "googleMapsListing": false,
-    "locationAccuracy": "實價登錄後續門牌配對（1 個門牌）；官方門牌座標至 中原 最近出口直線約 399 公尺，步行時間為保守估算",
+    "locationAccuracy": "實價登錄後續門牌配對（1 個門牌）；官方門牌座標至 中原 最近出口直線約 375 公尺，步行時間為保守估算",
     "governmentId": "108中建字第00126號",
     "governmentStatus": "申報備查 1111014",
     "permit": "108中建字第00126號",
     "households": "133",
-    "buildingLand": "民樂段12地號"
+    "buildingLand": "民樂段12地號",
+    "lines": [
+      "Y"
+    ]
   },
   {
     "id": "registry-新北市-中和區-漢皇方圓",
@@ -16558,7 +25858,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1140123",
     "permit": "114中建字第00019號",
     "households": "140",
-    "buildingLand": "中安段115-2地號"
+    "buildingLand": "中安段115-2地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-中和區-漢皇里寓",
@@ -16566,7 +25867,7 @@ export const matureRegistryProjects = [
     "city": "新北市",
     "district": "中和區",
     "station": "景安",
-    "walk": 7,
+    "walk": 6,
     "address": "新北市中和區景新街133號旁",
     "builder": "備查起造人：漢吉建設股份有限公司",
     "rating": "C",
@@ -16583,12 +25884,15 @@ export const matureRegistryProjects = [
     "verified": true,
     "locationStatus": "verified",
     "googleMapsListing": false,
-    "locationAccuracy": "實價登錄後續門牌配對（1 個門牌）；官方門牌座標至 景安 最近出口直線約 404 公尺，步行時間為保守估算",
+    "locationAccuracy": "實價登錄後續門牌配對（1 個門牌）；官方門牌座標至 景安 最近出口直線約 384 公尺，步行時間為保守估算",
     "governmentId": "111中建字第00136號",
     "governmentStatus": "申報備查 1110701",
     "permit": "111中建字第00136號",
     "households": "47",
-    "buildingLand": "景華段51地號"
+    "buildingLand": "景華段51地號",
+    "lines": [
+      "O"
+    ]
   },
   {
     "id": "registry-新北市-中和區-漢皇洸境Aqua One",
@@ -16618,7 +25922,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 ",
     "permit": "115中建字第00176號",
     "households": "160",
-    "buildingLand": "尖山腳段3地號"
+    "buildingLand": "尖山腳段3地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-中和區-漢寶捷運學府No.5",
@@ -16643,12 +25948,15 @@ export const matureRegistryProjects = [
     "verified": true,
     "locationStatus": "verified",
     "googleMapsListing": false,
-    "locationAccuracy": "政府備查門牌配對；官方門牌座標至 橋和 最近出口直線約 1719 公尺，步行時間為保守估算",
+    "locationAccuracy": "政府備查門牌配對；官方門牌座標至 橋和 最近出口直線約 1701 公尺，步行時間為保守估算",
     "governmentId": "113中建字第00372號",
     "governmentStatus": "申報備查 1140729",
     "permit": "113中建字第00372號",
     "households": "245",
-    "buildingLand": "國道段145地號"
+    "buildingLand": "國道段145地號",
+    "lines": [
+      "Y"
+    ]
   },
   {
     "id": "registry-新北市-中和區-漢寶捷運學府No.6",
@@ -16678,14 +25986,17 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 ",
     "permit": "114中 建字第00240號",
     "households": "322",
-    "buildingLand": "華新段665地號"
+    "buildingLand": "華新段665地號",
+    "lines": [
+      "O"
+    ]
   },
   {
     "id": "registry-新北市-中和區-綻賞",
     "name": "綻賞",
     "city": "新北市",
     "district": "中和區",
-    "station": "橋和",
+    "station": "中和",
     "walk": 15,
     "address": "新北市中和區連城路307號旁",
     "builder": "備查起造人：大賞建設股份有限公司",
@@ -16703,12 +26014,15 @@ export const matureRegistryProjects = [
     "verified": true,
     "locationStatus": "verified",
     "googleMapsListing": false,
-    "locationAccuracy": "政府備查門牌配對；官方門牌座標至 橋和 最近出口直線約 967 公尺，步行時間為保守估算",
+    "locationAccuracy": "政府備查門牌配對；官方門牌座標至 中和 最近出口直線約 931 公尺，步行時間為保守估算",
     "governmentId": "113中建字第00086號",
     "governmentStatus": "申報備查 1140227",
     "permit": "113中建字第00086號",
     "households": "34",
-    "buildingLand": "台貿段419-2地號"
+    "buildingLand": "台貿段419-2地號",
+    "lines": [
+      "Y"
+    ]
   },
   {
     "id": "registry-新北市-中和區-蒲陽·南山",
@@ -16738,7 +26052,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1101029",
     "permit": "110中建字第00517號",
     "households": "119",
-    "buildingLand": "景華段791地號"
+    "buildingLand": "景華段791地號",
+    "lines": [
+      "O"
+    ]
   },
   {
     "id": "registry-新北市-中和區-擎天峰和",
@@ -16763,12 +26080,15 @@ export const matureRegistryProjects = [
     "verified": false,
     "locationStatus": "estimated",
     "googleMapsListing": false,
-    "locationAccuracy": "政府備查巷弄範圍定位（13 個官方門牌範圍）；官方門牌座標至 中原 最近出口直線約 738 公尺，步行時間為保守估算",
+    "locationAccuracy": "政府備查巷弄範圍定位（13 個官方門牌範圍）；官方門牌座標至 中原 最近出口直線約 716 公尺，步行時間為保守估算",
     "governmentId": "110中建字第00530號",
     "governmentStatus": "申報備查 1110120",
     "permit": "110中建字第00530號",
     "households": "262",
-    "buildingLand": "民樂段878地號"
+    "buildingLand": "民樂段878地號",
+    "lines": [
+      "Y"
+    ]
   },
   {
     "id": "registry-新北市-中和區-藏富HOUSE",
@@ -16793,12 +26113,15 @@ export const matureRegistryProjects = [
     "verified": false,
     "locationStatus": "estimated",
     "googleMapsListing": false,
-    "locationAccuracy": "政府備查巷弄範圍定位（110 個官方門牌範圍）；官方門牌座標至 景平 最近出口直線約 317 公尺，步行時間為保守估算",
+    "locationAccuracy": "政府備查巷弄範圍定位（110 個官方門牌範圍）；官方門牌座標至 景平 最近出口直線約 316 公尺，步行時間為保守估算",
     "governmentId": "111中建字第00229號",
     "governmentStatus": "申報備查 1111205",
     "permit": "111中建字第00229號",
     "households": "46",
-    "buildingLand": "景平段227地號"
+    "buildingLand": "景平段227地號",
+    "lines": [
+      "Y"
+    ]
   },
   {
     "id": "registry-新北市-中和區-豐森大境",
@@ -16828,7 +26151,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1140820",
     "permit": "114中建字第00213號",
     "households": "446",
-    "buildingLand": "圓通段57地號"
+    "buildingLand": "圓通段57地號",
+    "lines": [
+      "O"
+    ]
   },
   {
     "id": "registry-新北市-中和區-雙捷萃",
@@ -16858,7 +26184,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1140522",
     "permit": "113中建字第00413號",
     "households": "25",
-    "buildingLand": "捷運段164-1地號"
+    "buildingLand": "捷運段164-1地號",
+    "lines": [
+      "O"
+    ]
   },
   {
     "id": "registry-新北市-中和區-寶亞世界公?",
@@ -16883,12 +26212,15 @@ export const matureRegistryProjects = [
     "verified": false,
     "locationStatus": "estimated",
     "googleMapsListing": false,
-    "locationAccuracy": "政府備查巷弄範圍定位（27 個官方門牌範圍）；官方門牌座標至 永安市場 最近出口直線約 686 公尺，步行時間為保守估算",
+    "locationAccuracy": "政府備查巷弄範圍定位（27 個官方門牌範圍）；官方門牌座標至 永安市場 最近出口直線約 681 公尺，步行時間為保守估算",
     "governmentId": "115中建字第00101號",
     "governmentStatus": "申報備查 1150519",
     "permit": "115中建字第00101號",
     "households": "344",
-    "buildingLand": "南工段782地號"
+    "buildingLand": "南工段782地號",
+    "lines": [
+      "O"
+    ]
   },
   {
     "id": "registry-新北市-中和區-寶和植青",
@@ -16918,7 +26250,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1110616",
     "permit": "110中建字第00040號",
     "households": "34",
-    "buildingLand": "南勢段557地號"
+    "buildingLand": "南勢段557地號",
+    "lines": [
+      "O"
+    ]
   },
   {
     "id": "registry-新北市-中和區-META PARK",
@@ -16948,7 +26283,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1111031",
     "permit": "109中建字第00178號",
     "households": "457",
-    "buildingLand": "板南段619地號"
+    "buildingLand": "板南段619地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-中和區-METRO PARK",
@@ -16978,7 +26314,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1130320",
     "permit": "109中建字第00179-01號",
     "households": "502",
-    "buildingLand": "板南段621地號"
+    "buildingLand": "板南段621地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-五股區-一抹綠",
@@ -17008,7 +26345,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1101213",
     "permit": "109股建字第00126號",
     "households": "69",
-    "buildingLand": "五股段755地號"
+    "buildingLand": "五股段755地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-五股區-九揚雙子星",
@@ -17038,7 +26376,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1131125",
     "permit": "113股建字第00288號",
     "households": "124",
-    "buildingLand": "芳洲段242地號"
+    "buildingLand": "芳洲段242地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-五股區-山水城州",
@@ -17068,7 +26407,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1101112",
     "permit": "109股建字第00393號",
     "households": "184",
-    "buildingLand": "成州段45地號"
+    "buildingLand": "成州段45地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-五股區-日進學A區",
@@ -17098,7 +26438,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1110822",
     "permit": "111股建字第00332號",
     "households": "227",
-    "buildingLand": "成州段54地號"
+    "buildingLand": "成州段54地號",
+    "lines": [
+      "O"
+    ]
   },
   {
     "id": "registry-新北市-五股區-日進學B區",
@@ -17128,7 +26471,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1110620",
     "permit": "111股建字第00210號",
     "households": "40",
-    "buildingLand": "成州段52地號"
+    "buildingLand": "成州段52地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-五股區-四季禾禾",
@@ -17158,7 +26502,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 ",
     "permit": "112股建字第00297號",
     "households": "44",
-    "buildingLand": "芳洲段227地號"
+    "buildingLand": "芳洲段227地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-五股區-立信-珠洲醴",
@@ -17188,7 +26533,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1130325",
     "permit": "113股建字第00036號",
     "households": "187",
-    "buildingLand": "芳洲段105-2地號"
+    "buildingLand": "芳洲段105-2地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-五股區-立信微美之星",
@@ -17218,15 +26564,16 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1140102",
     "permit": "113股建字第00366號",
     "households": "35",
-    "buildingLand": "御史段369-1地號"
+    "buildingLand": "御史段369-1地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-五股區-成泰美",
     "name": "成泰美",
     "city": "新北市",
     "district": "五股區",
-    "station": "新北產業園區",
-    "walk": 48,
+    "station": "新莊副都心",
+    "walk": 35,
     "address": "新北市五股區成泰路一段189巷",
     "builder": "備查起造人：合登建設股份有限公司",
     "rating": "C",
@@ -17243,12 +26590,15 @@ export const matureRegistryProjects = [
     "verified": false,
     "locationStatus": "estimated",
     "googleMapsListing": false,
-    "locationAccuracy": "政府備查巷弄範圍定位（73 個官方門牌範圍）；官方門牌座標至 新北產業園區 最近出口直線約 3098 公尺，步行時間為保守估算",
+    "locationAccuracy": "政府備查巷弄範圍定位（73 個官方門牌範圍）；官方門牌座標至 新莊副都心 最近出口直線約 2272 公尺，步行時間為保守估算",
     "governmentId": "111股建字第00342號",
     "governmentStatus": "申報備查 1121026",
     "permit": "111股建字第00342號",
     "households": "183",
-    "buildingLand": "德音段110地號"
+    "buildingLand": "德音段110地號",
+    "lines": [
+      "A"
+    ]
   },
   {
     "id": "registry-新北市-五股區-快樂王國-理享城",
@@ -17278,7 +26628,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1111121",
     "permit": "111股建字第00331號",
     "households": "233",
-    "buildingLand": "成州段17地號"
+    "buildingLand": "成州段17地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-五股區-快樂王國-夢享城",
@@ -17308,7 +26659,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1110812",
     "permit": "111股建字00318號",
     "households": "91",
-    "buildingLand": "成州段28地號"
+    "buildingLand": "成州段28地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-五股區-幸福享享",
@@ -17338,7 +26690,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1130205",
     "permit": "112年股建字第00396號",
     "households": "111",
-    "buildingLand": "成蘆段958地號"
+    "buildingLand": "成蘆段958地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-五股區-忠茂左岸",
@@ -17368,7 +26721,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1140730",
     "permit": "114股建字第00077號",
     "households": "27",
-    "buildingLand": "成州段72地號"
+    "buildingLand": "成州段72地號",
+    "lines": [
+      "O"
+    ]
   },
   {
     "id": "registry-新北市-五股區-芳洲漾",
@@ -17398,7 +26754,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1110210",
     "permit": "111股建字00028號",
     "households": "274",
-    "buildingLand": "芳洲段19地號"
+    "buildingLand": "芳洲段19地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-五股區-芳洲PARK",
@@ -17428,7 +26785,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1130729",
     "permit": "111股建字第00334-02號",
     "households": "71",
-    "buildingLand": "芳洲段49地號"
+    "buildingLand": "芳洲段49地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-五股區-青沐",
@@ -17458,7 +26816,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1110602",
     "permit": "111股建字第00186號",
     "households": "30",
-    "buildingLand": "芳洲段255地號"
+    "buildingLand": "芳洲段255地號",
+    "lines": [
+      "O"
+    ]
   },
   {
     "id": "registry-新北市-五股區-星波畔",
@@ -17488,7 +26849,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1140110",
     "permit": "111股建字第00222-02號",
     "households": "54",
-    "buildingLand": "成州段74地號"
+    "buildingLand": "成州段74地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-五股區-美富.加倍家",
@@ -17518,7 +26880,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1110512",
     "permit": "111建字第00138號",
     "households": "72",
-    "buildingLand": "芳洲段221地號"
+    "buildingLand": "芳洲段221地號",
+    "lines": [
+      "O"
+    ]
   },
   {
     "id": "registry-新北市-五股區-香寓",
@@ -17548,7 +26913,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1130126",
     "permit": "",
     "households": "70",
-    "buildingLand": ""
+    "buildingLand": "",
+    "lines": []
   },
   {
     "id": "registry-新北市-五股區-紘盛逸居",
@@ -17578,15 +26944,18 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1120908",
     "permit": "109股建第00141號",
     "households": "96",
-    "buildingLand": "御史段460地號"
+    "buildingLand": "御史段460地號",
+    "lines": [
+      "O"
+    ]
   },
   {
     "id": "registry-新北市-五股區-盛溪八方",
     "name": "盛溪八方",
     "city": "新北市",
     "district": "五股區",
-    "station": "新北產業園區",
-    "walk": 44,
+    "station": "新莊副都心",
+    "walk": 28,
     "address": "新北市五股區明德路７３號旁",
     "builder": "備查起造人：盈寶建設股份有限公司",
     "rating": "C",
@@ -17603,12 +26972,15 @@ export const matureRegistryProjects = [
     "verified": true,
     "locationStatus": "verified",
     "googleMapsListing": false,
-    "locationAccuracy": "實價登錄後續門牌配對（1 個門牌）；官方門牌座標至 新北產業園區 最近出口直線約 2855 公尺，步行時間為保守估算",
+    "locationAccuracy": "實價登錄後續門牌配對（1 個門牌）；官方門牌座標至 新莊副都心 最近出口直線約 1816 公尺，步行時間為保守估算",
     "governmentId": "111股建字第00381號",
     "governmentStatus": "申報備查 1111004",
     "permit": "111股建字第00381號",
     "households": "80",
-    "buildingLand": "登林段197地號"
+    "buildingLand": "登林段197地號",
+    "lines": [
+      "A"
+    ]
   },
   {
     "id": "registry-新北市-五股區-微風水漾",
@@ -17638,7 +27010,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1130221",
     "permit": "111股建字第00031號",
     "households": "90",
-    "buildingLand": "成州段5地號"
+    "buildingLand": "成州段5地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-五股區-新花開",
@@ -17668,7 +27041,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1120628",
     "permit": "112股建字第00219號",
     "households": "70",
-    "buildingLand": "登林段837地號"
+    "buildingLand": "登林段837地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-五股區-蒔光",
@@ -17698,7 +27072,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1130126",
     "permit": "",
     "households": "47",
-    "buildingLand": ""
+    "buildingLand": "",
+    "lines": []
   },
   {
     "id": "registry-新北市-五股區-璨美家",
@@ -17728,7 +27103,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1140506",
     "permit": "112股建字第00114號",
     "households": "40",
-    "buildingLand": "芳洲段53地號"
+    "buildingLand": "芳洲段53地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-永和區-中正吻鑽",
@@ -17753,12 +27129,15 @@ export const matureRegistryProjects = [
     "verified": true,
     "locationStatus": "verified",
     "googleMapsListing": false,
-    "locationAccuracy": "政府備查門牌配對；官方門牌座標至 景平 最近出口直線約 494 公尺，步行時間為保守估算",
+    "locationAccuracy": "政府備查門牌配對；官方門牌座標至 景平 最近出口直線約 468 公尺，步行時間為保守估算",
     "governmentId": "113永建字第294號",
     "governmentStatus": "申報備查 ",
     "permit": "113永建字第294號",
     "households": "34",
-    "buildingLand": "民治段803地號"
+    "buildingLand": "民治段803地號",
+    "lines": [
+      "Y"
+    ]
   },
   {
     "id": "registry-新北市-永和區-友座豐禾",
@@ -17788,7 +27167,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1141106",
     "permit": "114永建字第00279號",
     "households": "190",
-    "buildingLand": "樂華段295地號"
+    "buildingLand": "樂華段295地號",
+    "lines": [
+      "O"
+    ]
   },
   {
     "id": "registry-新北市-永和區-比漾好境",
@@ -17818,7 +27200,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1100727",
     "permit": "107永建字第00498號",
     "households": "125",
-    "buildingLand": "保平段266地號"
+    "buildingLand": "保平段266地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-永和區-民有印象",
@@ -17848,7 +27231,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1111004",
     "permit": "111永建字第00397號",
     "households": "22",
-    "buildingLand": "民權段873地號"
+    "buildingLand": "民權段873地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-永和區-竹林涵舍",
@@ -17878,7 +27262,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1150324",
     "permit": "109永建字第00266號",
     "households": "19",
-    "buildingLand": "中信段29地號"
+    "buildingLand": "中信段29地號",
+    "lines": [
+      "O"
+    ]
   },
   {
     "id": "registry-新北市-永和區-周泰詠安",
@@ -17903,12 +27290,15 @@ export const matureRegistryProjects = [
     "verified": true,
     "locationStatus": "verified",
     "googleMapsListing": false,
-    "locationAccuracy": "政府備查門牌配對；官方門牌座標至 永安市場 最近出口直線約 364 公尺，步行時間為保守估算",
+    "locationAccuracy": "政府備查門牌配對；官方門牌座標至 永安市場 最近出口直線約 360 公尺，步行時間為保守估算",
     "governmentId": "112永建字第00161號",
     "governmentStatus": "申報備查 1120516",
     "permit": "112永建字第00161號",
     "households": "42",
-    "buildingLand": "雙和段281地號"
+    "buildingLand": "雙和段281地號",
+    "lines": [
+      "O"
+    ]
   },
   {
     "id": "registry-新北市-永和區-恆詠",
@@ -17938,7 +27328,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 ",
     "permit": "110永建字第00292號",
     "households": "96",
-    "buildingLand": "信義段1135地號"
+    "buildingLand": "信義段1135地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-永和區-星喬逸家人",
@@ -17968,7 +27359,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1110520",
     "permit": "110永建字第225-1號",
     "households": "28",
-    "buildingLand": "永利段577地號"
+    "buildingLand": "永利段577地號",
+    "lines": [
+      "O"
+    ]
   },
   {
     "id": "registry-新北市-永和區-國泰民樂",
@@ -17998,7 +27392,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1120517",
     "permit": "112永建字第00165號",
     "households": "64",
-    "buildingLand": "長堤段241地號"
+    "buildingLand": "長堤段241地號",
+    "lines": [
+      "Y"
+    ]
   },
   {
     "id": "registry-新北市-永和區-頂溪大苑",
@@ -18028,7 +27425,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1121122",
     "permit": "112永建字第00386號",
     "households": "268",
-    "buildingLand": "信義段422地號"
+    "buildingLand": "信義段422地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-永和區-尊貴昕帝王",
@@ -18058,7 +27456,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1111111",
     "permit": "111永建字第00371號",
     "households": "70",
-    "buildingLand": "中興段526地號"
+    "buildingLand": "中興段526地號",
+    "lines": [
+      "O"
+    ]
   },
   {
     "id": "registry-新北市-永和區-敦南宴",
@@ -18088,7 +27489,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1130723",
     "permit": "113永建字第0219號",
     "households": "139",
-    "buildingLand": "林森段667地號"
+    "buildingLand": "林森段667地號",
+    "lines": [
+      "Y"
+    ]
   },
   {
     "id": "registry-新北市-永和區-詠和頌",
@@ -18118,7 +27522,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1120925",
     "permit": "112永建字第00015號",
     "households": "26",
-    "buildingLand": "國光段652地號"
+    "buildingLand": "國光段652地號",
+    "lines": [
+      "O"
+    ]
   },
   {
     "id": "registry-新北市-永和區-新碩永傳",
@@ -18148,7 +27555,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1131122",
     "permit": "113永建字第00376號",
     "households": "322",
-    "buildingLand": "得和段936-1地號"
+    "buildingLand": "得和段936-1地號",
+    "lines": [
+      "O"
+    ]
   },
   {
     "id": "registry-新北市-永和區-漢皇River Sky",
@@ -18178,7 +27588,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1141009",
     "permit": "114永建字第00253號",
     "households": "1282",
-    "buildingLand": "保福段1-1地號"
+    "buildingLand": "保福段1-1地號",
+    "lines": [
+      "O"
+    ]
   },
   {
     "id": "registry-新北市-永和區-蒲陽頂溪",
@@ -18203,12 +27616,15 @@ export const matureRegistryProjects = [
     "verified": true,
     "locationStatus": "verified",
     "googleMapsListing": false,
-    "locationAccuracy": "政府備查門牌配對；官方門牌座標至 頂溪 最近出口直線約 209 公尺，步行時間為保守估算",
+    "locationAccuracy": "政府備查門牌配對；官方門牌座標至 頂溪 最近出口直線約 200 公尺，步行時間為保守估算",
     "governmentId": "114永建字第00244號",
     "governmentStatus": "申報備查 1141020",
     "permit": "114永建字第00244號",
     "households": "59",
-    "buildingLand": "中信段1006地號"
+    "buildingLand": "中信段1006地號",
+    "lines": [
+      "O"
+    ]
   },
   {
     "id": "registry-新北市-永和區-億安和和",
@@ -18238,7 +27654,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1130521",
     "permit": "113永建字第00138號",
     "households": "58",
-    "buildingLand": "國光段345地號"
+    "buildingLand": "國光段345地號",
+    "lines": [
+      "O"
+    ]
   },
   {
     "id": "registry-新北市-永和區-樂華新苑",
@@ -18268,7 +27687,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1120901",
     "permit": "112永建字第00003號",
     "households": "12",
-    "buildingLand": "大新段478地號"
+    "buildingLand": "大新段478地號",
+    "lines": [
+      "O"
+    ]
   },
   {
     "id": "registry-新北市-永和區-豐后",
@@ -18298,7 +27720,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1100930",
     "permit": "110永建字第00444號",
     "households": "80",
-    "buildingLand": "長堤段622-2地號"
+    "buildingLand": "長堤段622-2地號",
+    "lines": [
+      "G"
+    ]
   },
   {
     "id": "registry-新北市-永和區-M PLUS",
@@ -18328,7 +27753,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1130828",
     "permit": "113永建字第00131號",
     "households": "137",
-    "buildingLand": "竹林段21地號"
+    "buildingLand": "竹林段21地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-汐止區-文心慕慕",
@@ -18358,7 +27784,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1140819",
     "permit": "111汐建字第00302號",
     "households": "279",
-    "buildingLand": "智興段279地號"
+    "buildingLand": "智興段279地號",
+    "lines": [
+      "BR"
+    ]
   },
   {
     "id": "registry-新北市-汐止區-汐科爵鼎",
@@ -18388,7 +27817,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1130611",
     "permit": "112汐建字第00429號",
     "households": "59",
-    "buildingLand": "白雲段24地號"
+    "buildingLand": "白雲段24地號",
+    "lines": [
+      "BR"
+    ]
   },
   {
     "id": "registry-新北市-汐止區-明峰佳園",
@@ -18418,7 +27850,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1111012",
     "permit": "111汐建字第00337號",
     "households": "18",
-    "buildingLand": "金龍段598地號"
+    "buildingLand": "金龍段598地號",
+    "lines": [
+      "BR"
+    ]
   },
   {
     "id": "registry-新北市-汐止區-金湖漾",
@@ -18448,7 +27883,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1120830",
     "permit": "112汐建字第00171號",
     "households": "13",
-    "buildingLand": "金龍段476地號"
+    "buildingLand": "金龍段476地號",
+    "lines": [
+      "BR"
+    ]
   },
   {
     "id": "registry-新北市-汐止區-帝利采極",
@@ -18478,7 +27916,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1101105",
     "permit": "110汐建字第00244號",
     "households": "12",
-    "buildingLand": "福德段274地號"
+    "buildingLand": "福德段274地號",
+    "lines": [
+      "BR"
+    ]
   },
   {
     "id": "registry-新北市-汐止區-星野之森-沐川",
@@ -18508,7 +27949,43 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1110923",
     "permit": "108汐建字第00089-02號",
     "households": "140",
-    "buildingLand": "水源段1076-1地號"
+    "buildingLand": "水源段1076-1地號",
+    "lines": [
+      "BR"
+    ]
+  },
+  {
+    "id": "registry-新北市-汐止區-星野之森-沐嵐",
+    "name": "星野之森-沐嵐",
+    "city": "新北市",
+    "district": "汐止區",
+    "station": "南港展覽館",
+    "walk": 86,
+    "address": "新北市汐止區新臺五路二段238巷",
+    "builder": "備查起造人：臺億建築經理股份有限公司",
+    "rating": "NR",
+    "ratingBasis": "官方備查有起造人，但可能是建經公司、金融機構或自然人，尚未可靠對應建商品牌",
+    "status": "預售中",
+    "completion": "依官方備查時程",
+    "type": "預售屋",
+    "size": "18–55 坪",
+    "price": "實登均價 44.5 萬/坪",
+    "lat": 25.06557205958069,
+    "lng": 121.67210072278522,
+    "source": "內政部預售屋備查＋官方門牌座標＋實價登錄 45 筆",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": true,
+    "locationStatus": "verified",
+    "googleMapsListing": false,
+    "locationAccuracy": "政府備查門牌配對；官方門牌座標至 南港展覽館 最近出口直線約 5541 公尺，步行時間為保守估算",
+    "governmentId": "108汐建字第00108-02號",
+    "governmentStatus": "申報備查 1121004",
+    "permit": "108汐建字第00108-02號",
+    "households": "68",
+    "buildingLand": "水源段1063地號",
+    "lines": [
+      "BR"
+    ]
   },
   {
     "id": "registry-新北市-汐止區-耕謙?",
@@ -18538,7 +28015,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1101026",
     "permit": "110汐建字第00505號",
     "households": "83",
-    "buildingLand": "中正段206地號"
+    "buildingLand": "中正段206地號",
+    "lines": [
+      "BR"
+    ]
   },
   {
     "id": "registry-新北市-汐止區-梓園NEXT",
@@ -18568,7 +28048,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 ",
     "permit": "114汐建字第00326號",
     "households": "42",
-    "buildingLand": "福興段130地號"
+    "buildingLand": "福興段130地號",
+    "lines": [
+      "BR"
+    ]
   },
   {
     "id": "registry-新北市-汐止區-富都康莊",
@@ -18598,7 +28081,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1140425",
     "permit": "114汐建字第00076號",
     "households": "248",
-    "buildingLand": "北山段84地號"
+    "buildingLand": "北山段84地號",
+    "lines": [
+      "BR"
+    ]
   },
   {
     "id": "registry-新北市-汐止區-琢壹",
@@ -18628,7 +28114,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1111107",
     "permit": "111汐建字第00359號",
     "households": "42",
-    "buildingLand": "北山段186地號"
+    "buildingLand": "北山段186地號",
+    "lines": [
+      "BR"
+    ]
   },
   {
     "id": "registry-新北市-汐止區-華鋐晴光",
@@ -18658,7 +28147,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1110714",
     "permit": "",
     "households": "38",
-    "buildingLand": ""
+    "buildingLand": "",
+    "lines": [
+      "BR"
+    ]
   },
   {
     "id": "registry-新北市-汐止區-雲禾月",
@@ -18688,7 +28180,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1140728",
     "permit": "110汐建字第00415-02號",
     "households": "112",
-    "buildingLand": "昊天段182地號"
+    "buildingLand": "昊天段182地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-汐止區-寶亞新公?",
@@ -18718,7 +28211,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1110920",
     "permit": "110汐建字第00642號",
     "households": "100",
-    "buildingLand": "新峰段1045地號"
+    "buildingLand": "新峰段1045地號",
+    "lines": [
+      "BR"
+    ]
   },
   {
     "id": "registry-新北市-板橋區-九欣觀宸",
@@ -18748,7 +28244,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1140104",
     "permit": "113板建字第000356號",
     "households": "91",
-    "buildingLand": "環翠段4-1地號"
+    "buildingLand": "環翠段4-1地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-板橋區-三松 Jade Park",
@@ -18778,7 +28275,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1100813",
     "permit": "110板建字第00105號",
     "households": "144",
-    "buildingLand": "永翠段50地號"
+    "buildingLand": "永翠段50地號",
+    "lines": [
+      "BL"
+    ]
   },
   {
     "id": "registry-新北市-板橋區-三輝白昀",
@@ -18808,7 +28308,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1130430",
     "permit": "108板建字第00492號",
     "households": "176",
-    "buildingLand": "中山段1779地號"
+    "buildingLand": "中山段1779地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-板橋區-久泰宸品",
@@ -18838,7 +28339,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1120926",
     "permit": "111板建字第00398-01號",
     "households": "264",
-    "buildingLand": "環翠段12地號"
+    "buildingLand": "環翠段12地號",
+    "lines": [
+      "BL"
+    ]
   },
   {
     "id": "registry-新北市-板橋區-大業",
@@ -18868,7 +28372,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1130729",
     "permit": "113板建字第00168號",
     "households": "205",
-    "buildingLand": "江翠段184-2地號"
+    "buildingLand": "江翠段184-2地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-板橋區-心晴好",
@@ -18898,7 +28403,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1120112",
     "permit": "111板建字第00484號",
     "households": "64",
-    "buildingLand": "新興段130地號"
+    "buildingLand": "新興段130地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-板橋區-文化金鎂",
@@ -18928,7 +28434,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1100903",
     "permit": "110板建字第00223號",
     "households": "93",
-    "buildingLand": "公館段698-8地號"
+    "buildingLand": "公館段698-8地號",
+    "lines": [
+      "BL"
+    ]
   },
   {
     "id": "registry-新北市-板橋區-文化翡格",
@@ -18958,7 +28467,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1130925",
     "permit": "110板建字第00162號",
     "households": "13",
-    "buildingLand": "江子翠段第二崁小段200-47地號"
+    "buildingLand": "江子翠段第二崁小段200-47地號",
+    "lines": [
+      "BL"
+    ]
   },
   {
     "id": "registry-新北市-板橋區-日安 TOKYO",
@@ -18988,7 +28500,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1120907",
     "permit": "112板建字第00264號",
     "households": "328",
-    "buildingLand": "永翠段28地號"
+    "buildingLand": "永翠段28地號",
+    "lines": [
+      "BL"
+    ]
   },
   {
     "id": "registry-新北市-板橋區-日安PARK",
@@ -19018,7 +28533,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1140417",
     "permit": "114板建字第00085-01號",
     "households": "452",
-    "buildingLand": "永翠段76地號"
+    "buildingLand": "永翠段76地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-板橋區-日健?",
@@ -19048,7 +28564,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1101021",
     "permit": "110板建字第00441號",
     "households": "56",
-    "buildingLand": "江翠段99-4地號"
+    "buildingLand": "江翠段99-4地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-板橋區-日健芯",
@@ -19078,7 +28595,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1111209",
     "permit": "110板建字第00289號",
     "households": "85",
-    "buildingLand": "光仁段796-26地號"
+    "buildingLand": "光仁段796-26地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-板橋區-永康芬揚",
@@ -19108,7 +28626,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1120512",
     "permit": "109板建字第00482-01號",
     "households": "49",
-    "buildingLand": "文化段243地號"
+    "buildingLand": "文化段243地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-板橋區-永康真",
@@ -19138,7 +28657,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1131113",
     "permit": "112板建字第00162號",
     "households": "66",
-    "buildingLand": "忠孝段958-9地號"
+    "buildingLand": "忠孝段958-9地號",
+    "lines": [
+      "BL"
+    ]
   },
   {
     "id": "registry-新北市-板橋區-立信-首馥",
@@ -19168,7 +28690,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1130709",
     "permit": "113板建字第00033號",
     "households": "79",
-    "buildingLand": "江翠段76地號"
+    "buildingLand": "江翠段76地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-板橋區-立信-御景",
@@ -19198,7 +28721,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1110502",
     "permit": "111板建字第00146號",
     "households": "93",
-    "buildingLand": "新都段59地號"
+    "buildingLand": "新都段59地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-板橋區-立信天朗",
@@ -19228,7 +28752,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1110707",
     "permit": "111板建字第00168號",
     "households": "197",
-    "buildingLand": "新都段100地號"
+    "buildingLand": "新都段100地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-板橋區-立信晴朗",
@@ -19258,7 +28783,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1130521",
     "permit": "113板建字第00085號",
     "households": "162",
-    "buildingLand": "新都段90地號"
+    "buildingLand": "新都段90地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-板橋區-立信雙星",
@@ -19288,7 +28814,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1130321",
     "permit": "112板建字第00243號",
     "households": "303",
-    "buildingLand": "江翠段182地號"
+    "buildingLand": "江翠段182地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-板橋區-沅陞幸福PLUS",
@@ -19318,7 +28845,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1111107",
     "permit": "111板建字第00442號",
     "households": "77",
-    "buildingLand": "江翠段8地號"
+    "buildingLand": "江翠段8地號",
+    "lines": [
+      "BL"
+    ]
   },
   {
     "id": "registry-新北市-板橋區-玖原璽苑",
@@ -19348,7 +28878,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1150629",
     "permit": "110板建字第00644號",
     "households": "120",
-    "buildingLand": "忠孝段897地號"
+    "buildingLand": "忠孝段897地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-板橋區-京東賞",
@@ -19378,7 +28909,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1131021",
     "permit": "112板建字第00069號",
     "households": "75",
-    "buildingLand": "港子嘴段197-6地號"
+    "buildingLand": "港子嘴段197-6地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-板橋區-佳元植",
@@ -19408,7 +28940,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1111121",
     "permit": "111板建字第00460號",
     "households": "110",
-    "buildingLand": "文化段404地號"
+    "buildingLand": "文化段404地號",
+    "lines": [
+      "BL"
+    ]
   },
   {
     "id": "registry-新北市-板橋區-協和新中興",
@@ -19438,7 +28973,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1140807",
     "permit": "111板建字第00007號",
     "households": "304",
-    "buildingLand": "中興段178地號"
+    "buildingLand": "中興段178地號",
+    "lines": [
+      "BL"
+    ]
   },
   {
     "id": "registry-新北市-板橋區-和岩誼居",
@@ -19468,7 +29006,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1121113",
     "permit": "110板建字第00149號",
     "households": "13",
-    "buildingLand": "民生段75地號"
+    "buildingLand": "民生段75地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-板橋區-尚新板",
@@ -19498,7 +29037,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1120414",
     "permit": "111板建字第00473號",
     "households": "38",
-    "buildingLand": "新興段108地號"
+    "buildingLand": "新興段108地號",
+    "lines": [
+      "BL"
+    ]
   },
   {
     "id": "registry-新北市-板橋區-府中興",
@@ -19528,7 +29070,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1150604",
     "permit": "115板建字第110號",
     "households": "113",
-    "buildingLand": "府中段1430地號"
+    "buildingLand": "府中段1430地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-板橋區-昇陽匯翠-松翠",
@@ -19558,7 +29101,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 ",
     "permit": "115板建字第00060號",
     "households": "183",
-    "buildingLand": "江子翠段第一崁小段22-6地號"
+    "buildingLand": "江子翠段第一崁小段22-6地號",
+    "lines": [
+      "BL"
+    ]
   },
   {
     "id": "registry-新北市-板橋區-昇陽匯翠-柏翠",
@@ -19588,7 +29134,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1150312",
     "permit": "114板建字第00330號",
     "households": "55",
-    "buildingLand": "江子翠段第一崁小段21地號"
+    "buildingLand": "江子翠段第一崁小段21地號",
+    "lines": [
+      "BL"
+    ]
   },
   {
     "id": "registry-新北市-板橋區-東瑩日光",
@@ -19618,7 +29167,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1110719",
     "permit": "111板建字第00274號",
     "households": "143",
-    "buildingLand": "重慶段673地號"
+    "buildingLand": "重慶段673地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-板橋區-松柏大院",
@@ -19648,7 +29198,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1140328",
     "permit": "114板建字第00003號",
     "households": "158",
-    "buildingLand": "江子翠段第二崁小段143-8地號"
+    "buildingLand": "江子翠段第二崁小段143-8地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-板橋區-板心恆鑽",
@@ -19678,7 +29229,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 ",
     "permit": "113板建字第00388號",
     "households": "13",
-    "buildingLand": "光仁段2931地號"
+    "buildingLand": "光仁段2931地號",
+    "lines": [
+      "Y"
+    ]
   },
   {
     "id": "registry-新北市-板橋區-芯哲園",
@@ -19708,7 +29262,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1131205",
     "permit": "112板建字第00331號",
     "households": "179",
-    "buildingLand": "和平段3地號"
+    "buildingLand": "和平段3地號",
+    "lines": [
+      "BL"
+    ]
   },
   {
     "id": "registry-新北市-板橋區-城德華福",
@@ -19738,7 +29295,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1130517",
     "permit": "111板建字第00468號",
     "households": "101",
-    "buildingLand": "亞東段1-19地號"
+    "buildingLand": "亞東段1-19地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-板橋區-帝景6號",
@@ -19768,7 +29326,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1111202",
     "permit": "111板建字第408號",
     "households": "213",
-    "buildingLand": "板翠段74地號"
+    "buildingLand": "板翠段74地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-板橋區-帝景7號",
@@ -19798,7 +29357,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1140326",
     "permit": "114板建字第00074號",
     "households": "42",
-    "buildingLand": "板翠段10地號"
+    "buildingLand": "板翠段10地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-板橋區-科達琢真文化",
@@ -19828,7 +29388,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1121011",
     "permit": "112板建字第00127號",
     "households": "96",
-    "buildingLand": "江子翠段第三崁小段163地號"
+    "buildingLand": "江子翠段第三崁小段163地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-板橋區-耑芃",
@@ -19858,7 +29419,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1130315",
     "permit": "113板建字第00088號",
     "households": "158",
-    "buildingLand": "新雅段1175地號"
+    "buildingLand": "新雅段1175地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-板橋區-家泰豐澤",
@@ -19888,7 +29450,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1111207",
     "permit": "111板建字第00477號",
     "households": "85",
-    "buildingLand": "仁愛段5地號"
+    "buildingLand": "仁愛段5地號",
+    "lines": [
+      "BL"
+    ]
   },
   {
     "id": "registry-新北市-板橋區-海山皇郡",
@@ -19918,7 +29483,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1121201",
     "permit": "112板建字第00191號",
     "households": "51",
-    "buildingLand": "海山段1721地號"
+    "buildingLand": "海山段1721地號",
+    "lines": [
+      "Y"
+    ]
   },
   {
     "id": "registry-新北市-板橋區-悠森學",
@@ -19948,7 +29516,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1140603",
     "permit": "114板建字第00116號",
     "households": "70",
-    "buildingLand": "國光段525地號"
+    "buildingLand": "國光段525地號",
+    "lines": [
+      "BL"
+    ]
   },
   {
     "id": "registry-新北市-板橋區-祥泓大觀",
@@ -19978,7 +29549,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 ",
     "permit": "113板建字第00153號",
     "households": "181",
-    "buildingLand": "大同段278-1地號"
+    "buildingLand": "大同段278-1地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-板橋區-勝輝一邸",
@@ -20008,7 +29580,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1120502",
     "permit": "112板建字第00093號",
     "households": "36",
-    "buildingLand": "中山段598-46地號"
+    "buildingLand": "中山段598-46地號",
+    "lines": [
+      "BL"
+    ]
   },
   {
     "id": "registry-新北市-板橋區-晶合豐川",
@@ -20033,12 +29608,15 @@ export const matureRegistryProjects = [
     "verified": false,
     "locationStatus": "estimated",
     "googleMapsListing": false,
-    "locationAccuracy": "政府備查巷弄範圍定位（23 個官方門牌範圍）；官方門牌座標至 板新 最近出口直線約 478 公尺，步行時間為保守估算",
+    "locationAccuracy": "政府備查巷弄範圍定位（23 個官方門牌範圍）；官方門牌座標至 板新 最近出口直線約 476 公尺，步行時間為保守估算",
     "governmentId": "112板建字第00180號",
     "governmentStatus": "申報備查 1120605",
     "permit": "112板建字第00180號",
     "households": "61",
-    "buildingLand": "海山段1269地號"
+    "buildingLand": "海山段1269地號",
+    "lines": [
+      "Y"
+    ]
   },
   {
     "id": "registry-新北市-板橋區-統創曜",
@@ -20068,7 +29646,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1101207",
     "permit": "110板建字第00583號",
     "households": "254",
-    "buildingLand": "新都段48-1地號"
+    "buildingLand": "新都段48-1地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-板橋區-新板東京",
@@ -20098,7 +29677,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1140327",
     "permit": "109板建字第00468號",
     "households": "177",
-    "buildingLand": "文化段1777地號"
+    "buildingLand": "文化段1777地號",
+    "lines": [
+      "BL"
+    ]
   },
   {
     "id": "registry-新北市-板橋區-新板樂睦",
@@ -20128,7 +29710,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1120328",
     "permit": "106板建字第00422號",
     "households": "77",
-    "buildingLand": "介壽段543地號"
+    "buildingLand": "介壽段543地號",
+    "lines": [
+      "BL"
+    ]
   },
   {
     "id": "registry-新北市-板橋區-新板寶蒔",
@@ -20158,7 +29743,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1111005",
     "permit": "111板建字第00399號",
     "households": "47",
-    "buildingLand": "光華段255地號"
+    "buildingLand": "光華段255地號",
+    "lines": [
+      "BL"
+    ]
   },
   {
     "id": "registry-新北市-板橋區-新潤世界城",
@@ -20188,7 +29776,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1131021",
     "permit": "113板建字第00342號",
     "households": "487",
-    "buildingLand": "新興段1027地號"
+    "buildingLand": "新興段1027地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-板橋區-新潤RIVER ONE",
@@ -20218,7 +29807,41 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1120427",
     "permit": "112板建字第00102號",
     "households": "259",
-    "buildingLand": "江翠段160地號"
+    "buildingLand": "江翠段160地號",
+    "lines": [
+      "BL"
+    ]
+  },
+  {
+    "id": "registry-新北市-板橋區-新濠一?",
+    "name": "新濠一?",
+    "city": "新北市",
+    "district": "板橋區",
+    "station": "待定位",
+    "walk": null,
+    "address": "新北市板橋區還河西路四段６９９巷口旁",
+    "builder": "備查起造人：新濠建設事業股份有限公司",
+    "rating": "C",
+    "ratingBasis": "官方備查起造人可辨識為建設／開發公司；暫列 C，待更多履歷資料再調整",
+    "status": "預售中",
+    "completion": "依官方備查時程",
+    "type": "預售屋",
+    "size": "19–53 坪",
+    "price": "實登均價 72.9 萬/坪",
+    "lat": null,
+    "lng": null,
+    "source": "內政部預售屋備查＋實價登錄 211 筆",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": false,
+    "locationStatus": "unlocated",
+    "googleMapsListing": false,
+    "locationAccuracy": "尚無可可靠配對的正式門牌或路口；案件保留於表格，暫不顯示地圖標記",
+    "governmentId": "112板建字第00077號",
+    "governmentStatus": "申報備查 1120406",
+    "permit": "112板建字第00077號",
+    "households": "512",
+    "buildingLand": "環翠段52-2地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-板橋區-新濠一閱",
@@ -20248,7 +29871,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1110905",
     "permit": "111板建字第00228號",
     "households": "50",
-    "buildingLand": "環翠段30地號"
+    "buildingLand": "環翠段30地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-板橋區-鼎隆大苑",
@@ -20278,7 +29902,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1101014",
     "permit": "108板建字第00316-1號",
     "households": "143",
-    "buildingLand": "江子翠段溪頭小段121地號"
+    "buildingLand": "江子翠段溪頭小段121地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-板橋區-福林沄典",
@@ -20308,7 +29933,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1120419",
     "permit": "112板建字第124號",
     "households": "58",
-    "buildingLand": "板翠段35地號"
+    "buildingLand": "板翠段35地號",
+    "lines": [
+      "BL"
+    ]
   },
   {
     "id": "registry-新北市-板橋區-遠揚之森A+",
@@ -20338,7 +29966,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1140829",
     "permit": "110板建字第00207號",
     "households": "430",
-    "buildingLand": "亞東段982-1地號"
+    "buildingLand": "亞東段982-1地號",
+    "lines": [
+      "BL"
+    ]
   },
   {
     "id": "registry-新北市-板橋區-遠雄合雅",
@@ -20368,7 +29999,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1141120",
     "permit": "114板建字第00127號",
     "households": "323",
-    "buildingLand": "新興段1172地號"
+    "buildingLand": "新興段1172地號",
+    "lines": [
+      "BL"
+    ]
   },
   {
     "id": "registry-新北市-板橋區-德鄰豊",
@@ -20398,7 +30032,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1111007",
     "permit": "111板建字第00413號",
     "households": "171",
-    "buildingLand": "江翠段98地號"
+    "buildingLand": "江翠段98地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-板橋區-德鄰織漾",
@@ -20428,7 +30063,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1130426",
     "permit": "113板建字第00123號",
     "households": "62",
-    "buildingLand": "江翠段99地號"
+    "buildingLand": "江翠段99地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-板橋區-德鄰織樺",
@@ -20458,7 +30094,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1130415",
     "permit": "112板建字第00113號",
     "households": "25",
-    "buildingLand": "江子翠段溪頭小段243-114地號"
+    "buildingLand": "江子翠段溪頭小段243-114地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-板橋區-樂富家",
@@ -20488,7 +30125,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1130131",
     "permit": "112板建字第00142號",
     "households": "18",
-    "buildingLand": "中正段432地號"
+    "buildingLand": "中正段432地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-板橋區-樂晴",
@@ -20518,7 +30156,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1110728",
     "permit": "109板建字第00584號",
     "households": "46",
-    "buildingLand": "成功段137地號"
+    "buildingLand": "成功段137地號",
+    "lines": [
+      "BL"
+    ]
   },
   {
     "id": "registry-新北市-板橋區-樂晴2",
@@ -20548,7 +30189,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1110728",
     "permit": "109板建字第00583號",
     "households": "13",
-    "buildingLand": "成功段139地號"
+    "buildingLand": "成功段139地號",
+    "lines": [
+      "BL"
+    ]
   },
   {
     "id": "registry-新北市-板橋區-潤佑家璽",
@@ -20556,7 +30200,7 @@ export const matureRegistryProjects = [
     "city": "新北市",
     "district": "板橋區",
     "station": "亞東醫院",
-    "walk": 7,
+    "walk": 5,
     "address": "新北市板橋區四川路二段92號",
     "builder": "備查起造人：智寶建設股份有限公司",
     "rating": "C",
@@ -20573,12 +30217,15 @@ export const matureRegistryProjects = [
     "verified": true,
     "locationStatus": "verified",
     "googleMapsListing": false,
-    "locationAccuracy": "政府備查門牌配對；官方門牌座標至 亞東醫院 最近出口直線約 399 公尺，步行時間為保守估算",
+    "locationAccuracy": "政府備查門牌配對；官方門牌座標至 亞東醫院 最近出口直線約 318 公尺，步行時間為保守估算",
     "governmentId": "112板建字第00397號",
     "governmentStatus": "申報備查 ",
     "permit": "112板建字第00397號",
     "households": "19",
-    "buildingLand": "亞東段1078-5地號"
+    "buildingLand": "亞東段1078-5地號",
+    "lines": [
+      "BL"
+    ]
   },
   {
     "id": "registry-新北市-板橋區-潤泰峘翠",
@@ -20608,7 +30255,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 ",
     "permit": "113板建字第00166號",
     "households": "297",
-    "buildingLand": "環翠段109地號"
+    "buildingLand": "環翠段109地號",
+    "lines": [
+      "BL"
+    ]
   },
   {
     "id": "registry-新北市-板橋區-樹學院",
@@ -20633,12 +30283,15 @@ export const matureRegistryProjects = [
     "verified": true,
     "locationStatus": "verified",
     "googleMapsListing": false,
-    "locationAccuracy": "實價登錄後續門牌配對（1 個門牌）；官方門牌座標至 新埔民生 最近出口直線約 1299 公尺，步行時間為保守估算",
+    "locationAccuracy": "實價登錄後續門牌配對（1 個門牌）；官方門牌座標至 新埔民生 最近出口直線約 1282 公尺，步行時間為保守估算",
     "governmentId": "(108)板建字第00026-1號",
     "governmentStatus": "申報備查 1100903",
     "permit": "(108)板建字第00026-1號",
     "households": "61",
-    "buildingLand": "新都段115地號"
+    "buildingLand": "新都段115地號",
+    "lines": [
+      "Y"
+    ]
   },
   {
     "id": "registry-新北市-板橋區-衡沐",
@@ -20668,7 +30321,39 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1130515",
     "permit": "113板建字第00159號",
     "households": "127",
-    "buildingLand": "江子翠段新埔小段27-6地號"
+    "buildingLand": "江子翠段新埔小段27-6地號",
+    "lines": []
+  },
+  {
+    "id": "registry-新北市-板橋區-濱河帝景",
+    "name": "濱河帝景",
+    "city": "新北市",
+    "district": "板橋區",
+    "station": "待定位",
+    "walk": null,
+    "address": "新北市板橋區環河西路四段",
+    "builder": "備查起造人：甲山林建設股份有限公司",
+    "rating": "B",
+    "ratingBasis": "依已確認建商品牌套用本站評級",
+    "status": "預售中",
+    "completion": "依官方備查時程",
+    "type": "預售屋",
+    "size": "22–50 坪",
+    "price": "實登均價 76.7 萬/坪",
+    "lat": null,
+    "lng": null,
+    "source": "內政部預售屋備查＋實價登錄 249 筆",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": false,
+    "locationStatus": "unlocated",
+    "googleMapsListing": false,
+    "locationAccuracy": "尚無可可靠配對的正式門牌或路口；案件保留於表格，暫不顯示地圖標記",
+    "governmentId": "114板建字第00034號",
+    "governmentStatus": "申報備查 1140219",
+    "permit": "114板建字第00034號",
+    "households": "448",
+    "buildingLand": "港子嘴段1-18地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-板橋區-縵庭吾境",
@@ -20698,7 +30383,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 ",
     "permit": "115板建字第00095號",
     "households": "174",
-    "buildingLand": "永翠段54地號"
+    "buildingLand": "永翠段54地號",
+    "lines": [
+      "BL"
+    ]
   },
   {
     "id": "registry-新北市-板橋區-謙和文化博",
@@ -20728,7 +30416,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1120824",
     "permit": "112板建字第00290號",
     "households": "111",
-    "buildingLand": "文化段993地號"
+    "buildingLand": "文化段993地號",
+    "lines": [
+      "BL"
+    ]
   },
   {
     "id": "registry-新北市-板橋區-禮御",
@@ -20758,7 +30449,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1111228",
     "permit": "109板建字第00381號",
     "households": "176",
-    "buildingLand": "重慶段4地號"
+    "buildingLand": "重慶段4地號",
+    "lines": [
+      "BL"
+    ]
   },
   {
     "id": "registry-新北市-板橋區-馥華沐白",
@@ -20788,7 +30482,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1100812",
     "permit": "110板建字第00373號",
     "households": "114",
-    "buildingLand": "永翠段91地號"
+    "buildingLand": "永翠段91地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-板橋區-馥華原真",
@@ -20818,7 +30513,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1120428",
     "permit": "112板建字第00141號",
     "households": "224",
-    "buildingLand": "大觀段864-2地號"
+    "buildingLand": "大觀段864-2地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-板橋區-寶格利",
@@ -20848,7 +30544,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1150320",
     "permit": "114板建字第00151號",
     "households": "501",
-    "buildingLand": "民權段436地號"
+    "buildingLand": "民權段436地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-板橋區-鑄見",
@@ -20878,7 +30575,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1140718",
     "permit": "114板建字第00135號",
     "households": "145",
-    "buildingLand": "江子翠段溪頭小段119-47地號"
+    "buildingLand": "江子翠段溪頭小段119-47地號",
+    "lines": [
+      "BL"
+    ]
   },
   {
     "id": "registry-新北市-板橋區-觀翠",
@@ -20908,7 +30608,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1120616",
     "permit": "111板建字第00120號",
     "households": "58",
-    "buildingLand": "江翠段178地號"
+    "buildingLand": "江翠段178地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-板橋區-Hello Win 迎家",
@@ -20938,7 +30639,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1130125",
     "permit": "112板建字第00447號",
     "households": "38",
-    "buildingLand": "江子翠段第二崁小段156-30地號"
+    "buildingLand": "江子翠段第二崁小段156-30地號",
+    "lines": [
+      "BL"
+    ]
   },
   {
     "id": "registry-新北市-板橋區-J12",
@@ -20968,7 +30672,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1121201",
     "permit": "112板建字第00410號",
     "households": "89",
-    "buildingLand": "介壽段1061地號"
+    "buildingLand": "介壽段1061地號",
+    "lines": [
+      "BL"
+    ]
   },
   {
     "id": "registry-新北市-林口區-九揚華都",
@@ -20998,7 +30705,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1101022",
     "permit": "109林建字第00004-01號",
     "households": "295",
-    "buildingLand": "力行段722地號"
+    "buildingLand": "力行段722地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-林口區-九揚華樂",
@@ -21028,15 +30736,16 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1130903",
     "permit": "113林建字第00250號",
     "households": "153",
-    "buildingLand": "力行段955地號"
+    "buildingLand": "力行段955地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-林口區-大新青慕",
     "name": "大新青慕",
     "city": "新北市",
     "district": "林口區",
-    "station": "丹鳳",
-    "walk": 121,
+    "station": "長庚醫院",
+    "walk": 56,
     "address": "新北市林口區文化二路二段與中華路口",
     "builder": "備查起造人：大新田開發股份有限公司",
     "rating": "C",
@@ -21053,12 +30762,15 @@ export const matureRegistryProjects = [
     "verified": true,
     "locationStatus": "verified",
     "googleMapsListing": false,
-    "locationAccuracy": "文化二路二段／中華路路口定位；官方門牌座標至 丹鳳 最近出口直線約 7840 公尺，步行時間為保守估算",
+    "locationAccuracy": "文化二路二段／中華路路口定位；官方門牌座標至 長庚醫院 最近出口直線約 3590 公尺，步行時間為保守估算",
     "governmentId": "111林建字第00313號",
     "governmentStatus": "申報備查 1140331",
     "permit": "111林建字第00313號",
     "households": "43",
-    "buildingLand": "麗林段69地號"
+    "buildingLand": "麗林段69地號",
+    "lines": [
+      "A"
+    ]
   },
   {
     "id": "registry-新北市-林口區-小·學堂",
@@ -21088,15 +30800,16 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1130503",
     "permit": "111林建字第00252號",
     "households": "43",
-    "buildingLand": "力行段499地號"
+    "buildingLand": "力行段499地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-林口區-山侘一生",
     "name": "山侘一生",
     "city": "新北市",
     "district": "林口區",
-    "station": "迴龍",
-    "walk": 114,
+    "station": "長庚醫院",
+    "walk": 24,
     "address": "新北市林口區惠民街88巷及惠民街口",
     "builder": "備查起造人：立陽開發股份有限公司",
     "rating": "C",
@@ -21113,20 +30826,23 @@ export const matureRegistryProjects = [
     "verified": false,
     "locationStatus": "estimated",
     "googleMapsListing": false,
-    "locationAccuracy": "政府備查巷弄範圍定位（3 個官方門牌範圍）；官方門牌座標至 迴龍 最近出口直線約 7410 公尺，步行時間為保守估算",
+    "locationAccuracy": "政府備查巷弄範圍定位（3 個官方門牌範圍）；官方門牌座標至 長庚醫院 最近出口直線約 1531 公尺，步行時間為保守估算",
     "governmentId": "113林建字第00197號",
     "governmentStatus": "申報備查 1130626",
     "permit": "113林建字第00197號",
     "households": "67",
-    "buildingLand": "建林段645地號"
+    "buildingLand": "建林段645地號",
+    "lines": [
+      "A"
+    ]
   },
   {
     "id": "registry-新北市-林口區-山業寓璽",
     "name": "山業寓璽",
     "city": "新北市",
     "district": "林口區",
-    "station": "迴龍",
-    "walk": 118,
+    "station": "長庚醫院",
+    "walk": 35,
     "address": "新北市林口區民權路73號旁邊",
     "builder": "備查起造人：山業建設股份有限公司",
     "rating": "C",
@@ -21143,20 +30859,23 @@ export const matureRegistryProjects = [
     "verified": true,
     "locationStatus": "verified",
     "googleMapsListing": false,
-    "locationAccuracy": "政府備查門牌配對；官方門牌座標至 迴龍 最近出口直線約 7669 公尺，步行時間為保守估算",
+    "locationAccuracy": "政府備查門牌配對；官方門牌座標至 長庚醫院 最近出口直線約 2263 公尺，步行時間為保守估算",
     "governmentId": "110林建字第00612號",
     "governmentStatus": "申報備查 1110506",
     "permit": "110林建字第00612號",
     "households": "18",
-    "buildingLand": "力行段631地號"
+    "buildingLand": "力行段631地號",
+    "lines": [
+      "A"
+    ]
   },
   {
     "id": "registry-新北市-林口區-川弘INSIGHT",
     "name": "川弘INSIGHT",
     "city": "新北市",
     "district": "林口區",
-    "station": "丹鳳",
-    "walk": 92,
+    "station": "長庚醫院",
+    "walk": 37,
     "address": "新北市林口區興林路151巷10號旁",
     "builder": "備查起造人：晟銘建設有限公司",
     "rating": "C",
@@ -21173,20 +30892,23 @@ export const matureRegistryProjects = [
     "verified": true,
     "locationStatus": "verified",
     "googleMapsListing": false,
-    "locationAccuracy": "政府備查門牌配對；官方門牌座標至 丹鳳 最近出口直線約 5929 公尺，步行時間為保守估算",
+    "locationAccuracy": "政府備查門牌配對；官方門牌座標至 長庚醫院 最近出口直線約 2358 公尺，步行時間為保守估算",
     "governmentId": "111林建字第00421號",
     "governmentStatus": "申報備查 1120306",
     "permit": "111林建字第00421號",
     "households": "27",
-    "buildingLand": "新林段330地號"
+    "buildingLand": "新林段330地號",
+    "lines": [
+      "A"
+    ]
   },
   {
     "id": "registry-新北市-林口區-中光極",
     "name": "中光極",
     "city": "新北市",
     "district": "林口區",
-    "station": "丹鳳",
-    "walk": 93,
+    "station": "長庚醫院",
+    "walk": 30,
     "address": "新北市林口區西林里33鄰東湖路75巷56號",
     "builder": "備查起造人：中光建設股份有限公司",
     "rating": "C",
@@ -21203,20 +30925,23 @@ export const matureRegistryProjects = [
     "verified": true,
     "locationStatus": "verified",
     "googleMapsListing": false,
-    "locationAccuracy": "實價登錄後續門牌配對（1 個門牌）；官方門牌座標至 丹鳳 最近出口直線約 6038 公尺，步行時間為保守估算",
+    "locationAccuracy": "實價登錄後續門牌配對（1 個門牌）；官方門牌座標至 長庚醫院 最近出口直線約 1937 公尺，步行時間為保守估算",
     "governmentId": "111林建字第00310號",
     "governmentStatus": "申報備查 1120523",
     "permit": "111林建字第00310號",
     "households": "4",
-    "buildingLand": "新林段921地號"
+    "buildingLand": "新林段921地號",
+    "lines": [
+      "A"
+    ]
   },
   {
     "id": "registry-新北市-林口區-仁愛金鑽",
     "name": "仁愛金鑽",
     "city": "新北市",
     "district": "林口區",
-    "station": "丹鳳",
-    "walk": 93,
+    "station": "長庚醫院",
+    "walk": 45,
     "address": "新北市林口區仁愛路一段與新生街路街口",
     "builder": "備查起造人：金鑽號事業有限公司",
     "rating": "NR",
@@ -21233,12 +30958,15 @@ export const matureRegistryProjects = [
     "verified": true,
     "locationStatus": "verified",
     "googleMapsListing": false,
-    "locationAccuracy": "仁愛路一段／新生街路口定位；官方門牌座標至 丹鳳 最近出口直線約 6007 公尺，步行時間為保守估算",
+    "locationAccuracy": "仁愛路一段／新生街路口定位；官方門牌座標至 長庚醫院 最近出口直線約 2909 公尺，步行時間為保守估算",
     "governmentId": "114林建字第00065號",
     "governmentStatus": "申報備查 1140408",
     "permit": "114林建字第00065號",
     "households": "165",
-    "buildingLand": "行政段203地號"
+    "buildingLand": "行政段203地號",
+    "lines": [
+      "A"
+    ]
   },
   {
     "id": "registry-新北市-林口區-弘達樂居",
@@ -21268,7 +30996,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1140423",
     "permit": "113林建字第00104號",
     "households": "5",
-    "buildingLand": "新林段512地號"
+    "buildingLand": "新林段512地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-林口區-立軒天玥",
@@ -21298,7 +31027,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 ",
     "permit": "112林建字第00006號",
     "households": "103",
-    "buildingLand": "力行段246地號"
+    "buildingLand": "力行段246地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-林口區-立軒天邸",
@@ -21328,7 +31058,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1130116",
     "permit": "113林建字第00010號",
     "households": "144",
-    "buildingLand": "力行段570地號"
+    "buildingLand": "力行段570地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-林口區-立軒天翠",
@@ -21358,15 +31089,16 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1110708",
     "permit": "111年林建字第00265號",
     "households": "77",
-    "buildingLand": "力行段1144地號"
+    "buildingLand": "力行段1144地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-林口區-立軒天蒔",
     "name": "立軒天蒔",
     "city": "新北市",
     "district": "林口區",
-    "station": "丹鳳",
-    "walk": 113,
+    "station": "長庚醫院",
+    "walk": 34,
     "address": "新北市林口區文化二路二段與吉祥路交叉口",
     "builder": "備查起造人：兆軒建設股份有限公司",
     "rating": "C",
@@ -21383,12 +31115,15 @@ export const matureRegistryProjects = [
     "verified": true,
     "locationStatus": "verified",
     "googleMapsListing": false,
-    "locationAccuracy": "文化二路二段／吉祥路路口定位；官方門牌座標至 丹鳳 最近出口直線約 7281 公尺，步行時間為保守估算",
+    "locationAccuracy": "文化二路二段／吉祥路路口定位；官方門牌座標至 長庚醫院 最近出口直線約 2181 公尺，步行時間為保守估算",
     "governmentId": "114林建字第00100號",
     "governmentStatus": "申報備查 1140421",
     "permit": "114林建字第00100號",
     "households": "154",
-    "buildingLand": "力行段179地號"
+    "buildingLand": "力行段179地號",
+    "lines": [
+      "A"
+    ]
   },
   {
     "id": "registry-新北市-林口區-立軒天語",
@@ -21418,7 +31153,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1120508",
     "permit": "112林建字第00140號",
     "households": "57",
-    "buildingLand": "力行段39地號"
+    "buildingLand": "力行段39地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-林口區-立軒天頤",
@@ -21448,7 +31184,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1101116",
     "permit": "110林建字第00533號",
     "households": "91",
-    "buildingLand": "力行段1043地號"
+    "buildingLand": "力行段1043地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-林口區-立軒慕玥",
@@ -21478,7 +31215,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1150203",
     "permit": "115林建字第00020號",
     "households": "146",
-    "buildingLand": "力行段749地號"
+    "buildingLand": "力行段749地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-林口區-立陽頤興",
@@ -21508,15 +31246,16 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1140729",
     "permit": "114林建字第00161號",
     "households": "174",
-    "buildingLand": "力行段243地號"
+    "buildingLand": "力行段243地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-林口區-合峰品境",
     "name": "合峰品境",
     "city": "新北市",
     "district": "林口區",
-    "station": "丹鳳",
-    "walk": 110,
+    "station": "長庚醫院",
+    "walk": 43,
     "address": "新北市林口區文化一路二段197巷",
     "builder": "備查起造人：合峰建設股份有限公司",
     "rating": "C",
@@ -21533,20 +31272,23 @@ export const matureRegistryProjects = [
     "verified": false,
     "locationStatus": "estimated",
     "googleMapsListing": false,
-    "locationAccuracy": "政府備查巷弄範圍定位（1 個官方門牌範圍）；官方門牌座標至 丹鳳 最近出口直線約 7136 公尺，步行時間為保守估算",
+    "locationAccuracy": "政府備查巷弄範圍定位（1 個官方門牌範圍）；官方門牌座標至 長庚醫院 最近出口直線約 2769 公尺，步行時間為保守估算",
     "governmentId": "112林建字第00216號",
     "governmentStatus": "申報備查 ",
     "permit": "112林建字第00216號",
     "households": "58",
-    "buildingLand": "麗林段284-1地號"
+    "buildingLand": "麗林段284-1地號",
+    "lines": [
+      "A"
+    ]
   },
   {
     "id": "registry-新北市-林口區-合峰曜境",
     "name": "合峰曜境",
     "city": "新北市",
     "district": "林口區",
-    "station": "迴龍",
-    "walk": 116,
+    "station": "長庚醫院",
+    "walk": 34,
     "address": "新北市林口區文化三路二段41巷",
     "builder": "備查起造人：合峰建設股份有限公司",
     "rating": "C",
@@ -21563,20 +31305,23 @@ export const matureRegistryProjects = [
     "verified": false,
     "locationStatus": "estimated",
     "googleMapsListing": false,
-    "locationAccuracy": "政府備查巷弄範圍定位（35 個官方門牌範圍）；官方門牌座標至 迴龍 最近出口直線約 7539 公尺，步行時間為保守估算",
+    "locationAccuracy": "政府備查巷弄範圍定位（35 個官方門牌範圍）；官方門牌座標至 長庚醫院 最近出口直線約 2164 公尺，步行時間為保守估算",
     "governmentId": "110林建字第00017號",
     "governmentStatus": "申報備查 1101201",
     "permit": "110林建字第00017號",
     "households": "86",
-    "buildingLand": "力行段592地號"
+    "buildingLand": "力行段592地號",
+    "lines": [
+      "A"
+    ]
   },
   {
     "id": "registry-新北市-林口區-竹林苑",
     "name": "竹林苑",
     "city": "新北市",
     "district": "林口區",
-    "station": "丹鳳",
-    "walk": 109,
+    "station": "長庚醫院",
+    "walk": 45,
     "address": "新北市林口區竹林路606巷",
     "builder": "備查起造人：金東興建設股份有限公司",
     "rating": "C",
@@ -21593,20 +31338,23 @@ export const matureRegistryProjects = [
     "verified": false,
     "locationStatus": "estimated",
     "googleMapsListing": false,
-    "locationAccuracy": "政府備查巷弄範圍定位（43 個官方門牌範圍）；官方門牌座標至 丹鳳 最近出口直線約 7043 公尺，步行時間為保守估算",
+    "locationAccuracy": "政府備查巷弄範圍定位（43 個官方門牌範圍）；官方門牌座標至 長庚醫院 最近出口直線約 2889 公尺，步行時間為保守估算",
     "governmentId": "110林建字第00120號",
     "governmentStatus": "申報備查 1100714",
     "permit": "110林建字第00120號",
     "households": "22",
-    "buildingLand": "佳林段151地號"
+    "buildingLand": "佳林段151地號",
+    "lines": [
+      "A"
+    ]
   },
   {
     "id": "registry-新北市-林口區-竹城.日和",
     "name": "竹城.日和",
     "city": "新北市",
     "district": "林口區",
-    "station": "迴龍",
-    "walk": 121,
+    "station": "長庚醫院",
+    "walk": 30,
     "address": "新北市林口區南勢六街與南勢四街交叉口",
     "builder": "備查起造人：竹泰建設股份有限公司",
     "rating": "C",
@@ -21623,12 +31371,15 @@ export const matureRegistryProjects = [
     "verified": true,
     "locationStatus": "verified",
     "googleMapsListing": false,
-    "locationAccuracy": "政府備查門牌配對；官方門牌座標至 迴龍 最近出口直線約 7864 公尺，步行時間為保守估算",
+    "locationAccuracy": "政府備查門牌配對；官方門牌座標至 長庚醫院 最近出口直線約 1948 公尺，步行時間為保守估算",
     "governmentId": "112林建字第00200-01號",
     "governmentStatus": "申報備查 1130816",
     "permit": "112林建字第00200-01號",
     "households": "218",
-    "buildingLand": "建林段1261地號"
+    "buildingLand": "建林段1261地號",
+    "lines": [
+      "A"
+    ]
   },
   {
     "id": "registry-新北市-林口區-竹城世田谷",
@@ -21658,15 +31409,16 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 ",
     "permit": "114林建字第00159-01號",
     "households": "109",
-    "buildingLand": "行政段628地號"
+    "buildingLand": "行政段628地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-林口區-聿見美璟",
     "name": "聿見美璟",
     "city": "新北市",
     "district": "林口區",
-    "station": "迴龍",
-    "walk": 96,
+    "station": "長庚醫院",
+    "walk": 16,
     "address": "新北市林口區忠孝路604巷",
     "builder": "備查起造人：聿璟建設股份有限公司",
     "rating": "C",
@@ -21683,12 +31435,15 @@ export const matureRegistryProjects = [
     "verified": false,
     "locationStatus": "estimated",
     "googleMapsListing": false,
-    "locationAccuracy": "政府備查巷弄範圍定位（20 個官方門牌範圍）；官方門牌座標至 迴龍 最近出口直線約 6181 公尺，步行時間為保守估算",
+    "locationAccuracy": "政府備查巷弄範圍定位（20 個官方門牌範圍）；官方門牌座標至 長庚醫院 最近出口直線約 999 公尺，步行時間為保守估算",
     "governmentId": "111林建字第00289號",
     "governmentStatus": "申報備查 1130912",
     "permit": "111林建字第00289號",
     "households": "16",
-    "buildingLand": "國宅段78-9地號"
+    "buildingLand": "國宅段78-9地號",
+    "lines": [
+      "A"
+    ]
   },
   {
     "id": "registry-新北市-林口區-聿翔沐風",
@@ -21718,7 +31473,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1130221",
     "permit": "112林建字第00400號",
     "households": "51",
-    "buildingLand": "力行段1233地號"
+    "buildingLand": "力行段1233地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-林口區-聿德觀璟",
@@ -21748,7 +31504,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1120314",
     "permit": "112林建字第00030號",
     "households": "93",
-    "buildingLand": "麗林段911-1地號"
+    "buildingLand": "麗林段911-1地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-林口區-宏樸18HOUSE",
@@ -21778,7 +31535,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1100929",
     "permit": "110林建字第00397號",
     "households": "19",
-    "buildingLand": "力行段1216地號"
+    "buildingLand": "力行段1216地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-林口區-宏樸日心說",
@@ -21808,7 +31566,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1120406",
     "permit": "111林建字第00443號",
     "households": "22",
-    "buildingLand": "麗林段342地號"
+    "buildingLand": "麗林段342地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-林口區-宏樸如嶼",
@@ -21838,15 +31597,16 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 ",
     "permit": "114林建字第00194號",
     "households": "70",
-    "buildingLand": "麗林段725地號"
+    "buildingLand": "麗林段725地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-林口區-宏樸曉霧",
     "name": "宏樸曉霧",
     "city": "新北市",
     "district": "林口區",
-    "station": "迴龍",
-    "walk": 116,
+    "station": "長庚醫院",
+    "walk": 26,
     "address": "新北市林口區八德路500巷",
     "builder": "備查起造人：宏樸建設有限公司",
     "rating": "C",
@@ -21863,12 +31623,15 @@ export const matureRegistryProjects = [
     "verified": false,
     "locationStatus": "estimated",
     "googleMapsListing": false,
-    "locationAccuracy": "政府備查巷弄範圍定位（7 個官方門牌範圍）；官方門牌座標至 迴龍 最近出口直線約 7492 公尺，步行時間為保守估算",
+    "locationAccuracy": "政府備查巷弄範圍定位（7 個官方門牌範圍）；官方門牌座標至 長庚醫院 最近出口直線約 1633 公尺，步行時間為保守估算",
     "governmentId": "111林建字第00494-01號",
     "governmentStatus": "申報備查 1131202",
     "permit": "111林建字第00494-01號",
     "households": "22",
-    "buildingLand": "建林段683地號"
+    "buildingLand": "建林段683地號",
+    "lines": [
+      "A"
+    ]
   },
   {
     "id": "registry-新北市-林口區-亞昕·寓邸",
@@ -21898,7 +31661,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1140317",
     "permit": "112林建字第00262-02號",
     "households": "77",
-    "buildingLand": "麗林段382地號"
+    "buildingLand": "麗林段382地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-林口區-亞昕昕銀座",
@@ -21928,15 +31692,16 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1101118",
     "permit": "110林建字第00556號",
     "households": "181",
-    "buildingLand": "力行段718地號"
+    "buildingLand": "力行段718地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-林口區-亞昕森匯·天匯(天匯)",
     "name": "亞昕森匯·天匯(天匯)",
     "city": "新北市",
     "district": "林口區",
-    "station": "丹鳳",
-    "walk": 114,
+    "station": "長庚醫院",
+    "walk": 36,
     "address": "新北市林口區信義路與吉祥路交叉口",
     "builder": "備查起造人：亞昕國際開發股份有限公司",
     "rating": "A",
@@ -21953,20 +31718,23 @@ export const matureRegistryProjects = [
     "verified": true,
     "locationStatus": "verified",
     "googleMapsListing": false,
-    "locationAccuracy": "吉祥路／信義路路口定位；官方門牌座標至 丹鳳 最近出口直線約 7402 公尺，步行時間為保守估算",
+    "locationAccuracy": "吉祥路／信義路路口定位；官方門牌座標至 長庚醫院 最近出口直線約 2291 公尺，步行時間為保守估算",
     "governmentId": "112林建字第00453號",
     "governmentStatus": "申報備查 1130109",
     "permit": "112林建字第00453號",
     "households": "364",
-    "buildingLand": "力行段174地號"
+    "buildingLand": "力行段174地號",
+    "lines": [
+      "A"
+    ]
   },
   {
     "id": "registry-新北市-林口區-亞昕森匯·天匯(森匯)",
     "name": "亞昕森匯·天匯(森匯)",
     "city": "新北市",
     "district": "林口區",
-    "station": "丹鳳",
-    "walk": 114,
+    "station": "長庚醫院",
+    "walk": 36,
     "address": "新北市林口區信義路與吉祥路交叉口",
     "builder": "備查起造人：亞昕國際開發股份有限公司",
     "rating": "A",
@@ -21983,12 +31751,15 @@ export const matureRegistryProjects = [
     "verified": true,
     "locationStatus": "verified",
     "googleMapsListing": false,
-    "locationAccuracy": "吉祥路／信義路路口定位；官方門牌座標至 丹鳳 最近出口直線約 7402 公尺，步行時間為保守估算",
+    "locationAccuracy": "吉祥路／信義路路口定位；官方門牌座標至 長庚醫院 最近出口直線約 2291 公尺，步行時間為保守估算",
     "governmentId": "112林建字第00453號",
     "governmentStatus": "申報備查 1130105",
     "permit": "112林建字第00453號",
     "households": "364",
-    "buildingLand": "力行段174地號"
+    "buildingLand": "力行段174地號",
+    "lines": [
+      "A"
+    ]
   },
   {
     "id": "registry-新北市-林口區-侘壹",
@@ -22018,7 +31789,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1110602",
     "permit": "111林建字第00207號",
     "households": "84",
-    "buildingLand": "國宅段24地號"
+    "buildingLand": "國宅段24地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-林口區-侘極",
@@ -22048,15 +31820,16 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1110915",
     "permit": "111林建字第00357號",
     "households": "113",
-    "buildingLand": "力行段1176地號"
+    "buildingLand": "力行段1176地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-林口區-和洲艾美",
     "name": "和洲艾美",
     "city": "新北市",
     "district": "林口區",
-    "station": "丹鳳",
-    "walk": 111,
+    "station": "長庚醫院",
+    "walk": 47,
     "address": "新北市林口區文化一路二段與寶林路口",
     "builder": "備查起造人：和洲建設股份有限公司",
     "rating": "C",
@@ -22073,20 +31846,23 @@ export const matureRegistryProjects = [
     "verified": true,
     "locationStatus": "verified",
     "googleMapsListing": false,
-    "locationAccuracy": "文化一路二段／寶林路路口定位；官方門牌座標至 丹鳳 最近出口直線約 7168 公尺，步行時間為保守估算",
+    "locationAccuracy": "文化一路二段／寶林路路口定位；官方門牌座標至 長庚醫院 最近出口直線約 3018 公尺，步行時間為保守估算",
     "governmentId": "111林建字第00425號",
     "governmentStatus": "申報備查 1120419",
     "permit": "111林建字第00425號",
     "households": "208",
-    "buildingLand": "佳林段84地號"
+    "buildingLand": "佳林段84地號",
+    "lines": [
+      "A"
+    ]
   },
   {
     "id": "registry-新北市-林口區-易捷聿白",
     "name": "易捷聿白",
     "city": "新北市",
     "district": "林口區",
-    "station": "迴龍",
-    "walk": 114,
+    "station": "長庚醫院",
+    "walk": 24,
     "address": "新北市林口區惠民街30巷25號旁",
     "builder": "備查起造人：易捷興業股份有限公司",
     "rating": "C",
@@ -22103,20 +31879,23 @@ export const matureRegistryProjects = [
     "verified": false,
     "locationStatus": "estimated",
     "googleMapsListing": false,
-    "locationAccuracy": "政府備查巷弄範圍定位（2 個官方門牌範圍）；官方門牌座標至 迴龍 最近出口直線約 7365 公尺，步行時間為保守估算",
+    "locationAccuracy": "政府備查巷弄範圍定位（2 個官方門牌範圍）；官方門牌座標至 長庚醫院 最近出口直線約 1516 公尺，步行時間為保守估算",
     "governmentId": "114林建字第00045號",
     "governmentStatus": "申報備查 1140416",
     "permit": "114林建字第00045號",
     "households": "24",
-    "buildingLand": "建林段610地號"
+    "buildingLand": "建林段610地號",
+    "lines": [
+      "A"
+    ]
   },
   {
     "id": "registry-新北市-林口區-松柏硯",
     "name": "松柏硯",
     "city": "新北市",
     "district": "林口區",
-    "station": "丹鳳",
-    "walk": 127,
+    "station": "長庚醫院",
+    "walk": 55,
     "address": "新北市林口區文化北路二段550巷30弄",
     "builder": "備查起造人：聿瑞建設股份有限公司",
     "rating": "C",
@@ -22133,20 +31912,23 @@ export const matureRegistryProjects = [
     "verified": false,
     "locationStatus": "estimated",
     "googleMapsListing": false,
-    "locationAccuracy": "政府備查巷弄範圍定位（19 個官方門牌範圍）；官方門牌座標至 丹鳳 最近出口直線約 8215 公尺，步行時間為保守估算",
+    "locationAccuracy": "政府備查巷弄範圍定位（19 個官方門牌範圍）；官方門牌座標至 長庚醫院 最近出口直線約 3538 公尺，步行時間為保守估算",
     "governmentId": "111林建字第00060號",
     "governmentStatus": "申報備查 1110225",
     "permit": "111林建字第00060號",
     "households": "71",
-    "buildingLand": "麗林段547地號"
+    "buildingLand": "麗林段547地號",
+    "lines": [
+      "A"
+    ]
   },
   {
     "id": "registry-新北市-林口區-泓昇昇美",
     "name": "泓昇昇美",
     "city": "新北市",
     "district": "林口區",
-    "station": "迴龍",
-    "walk": 127,
+    "station": "長庚醫院",
+    "walk": 36,
     "address": "新北市林口區南勢三街1巷",
     "builder": "備查起造人：泓昇建設股份有限公司",
     "rating": "C",
@@ -22163,20 +31945,23 @@ export const matureRegistryProjects = [
     "verified": false,
     "locationStatus": "estimated",
     "googleMapsListing": false,
-    "locationAccuracy": "政府備查巷弄範圍定位（26 個官方門牌範圍）；官方門牌座標至 迴龍 最近出口直線約 8234 公尺，步行時間為保守估算",
+    "locationAccuracy": "政府備查巷弄範圍定位（26 個官方門牌範圍）；官方門牌座標至 長庚醫院 最近出口直線約 2334 公尺，步行時間為保守估算",
     "governmentId": "110林建字第00589號",
     "governmentStatus": "申報備查 1120325",
     "permit": "110林建字第00589號",
     "households": "40",
-    "buildingLand": "建林段903地號"
+    "buildingLand": "建林段903地號",
+    "lines": [
+      "A"
+    ]
   },
   {
     "id": "registry-新北市-林口區-長虹天聚",
     "name": "長虹天聚",
     "city": "新北市",
     "district": "林口區",
-    "station": "丹鳳",
-    "walk": 122,
+    "station": "長庚醫院",
+    "walk": 44,
     "address": "新北市林口區中山路與民權路路口",
     "builder": "備查起造人：長虹建設股份有限公司",
     "rating": "A",
@@ -22193,12 +31978,15 @@ export const matureRegistryProjects = [
     "verified": true,
     "locationStatus": "verified",
     "googleMapsListing": false,
-    "locationAccuracy": "中山路／民權路路口定位；官方門牌座標至 丹鳳 最近出口直線約 7883 公尺，步行時間為保守估算",
+    "locationAccuracy": "中山路／民權路路口定位；官方門牌座標至 長庚醫院 最近出口直線約 2832 公尺，步行時間為保守估算",
     "governmentId": "111林建字第00253號",
     "governmentStatus": "申報備查 1130124",
     "permit": "111林建字第00253號",
     "households": "486",
-    "buildingLand": "力行段281地號"
+    "buildingLand": "力行段281地號",
+    "lines": [
+      "A"
+    ]
   },
   {
     "id": "registry-新北市-林口區-長耀 i PARK",
@@ -22228,15 +32016,16 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1120626",
     "permit": "112林建字第00179號",
     "households": "117",
-    "buildingLand": "力行段983地號"
+    "buildingLand": "力行段983地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-林口區-長耀加",
     "name": "長耀加",
     "city": "新北市",
     "district": "林口區",
-    "station": "迴龍",
-    "walk": 114,
+    "station": "長庚醫院",
+    "walk": 28,
     "address": "新北市林口區文化三路一段555巷F-10F",
     "builder": "備查起造人：長耀國際興業有限公司",
     "rating": "C",
@@ -22253,12 +32042,15 @@ export const matureRegistryProjects = [
     "verified": false,
     "locationStatus": "estimated",
     "googleMapsListing": false,
-    "locationAccuracy": "政府備查巷弄範圍定位（18 個官方門牌範圍）；官方門牌座標至 迴龍 最近出口直線約 7405 公尺，步行時間為保守估算",
+    "locationAccuracy": "政府備查巷弄範圍定位（18 個官方門牌範圍）；官方門牌座標至 長庚醫院 最近出口直線約 1803 公尺，步行時間為保守估算",
     "governmentId": "111林建字第00308號",
     "governmentStatus": "申報備查 1110914",
     "permit": "111林建字第00308號",
     "households": "114",
-    "buildingLand": "力行段1031地號"
+    "buildingLand": "力行段1031地號",
+    "lines": [
+      "A"
+    ]
   },
   {
     "id": "registry-新北市-林口區-長耀里",
@@ -22288,15 +32080,16 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1110110",
     "permit": "110林建字第00628號",
     "households": "201",
-    "buildingLand": "力行段137地號"
+    "buildingLand": "力行段137地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-林口區-長耀會",
     "name": "長耀會",
     "city": "新北市",
     "district": "林口區",
-    "station": "丹鳳",
-    "walk": 118,
+    "station": "長庚醫院",
+    "walk": 44,
     "address": "新北市林口區文化三路二段與中山路口",
     "builder": "備查起造人：仕院建設股份有限公司",
     "rating": "C",
@@ -22313,20 +32106,23 @@ export const matureRegistryProjects = [
     "verified": true,
     "locationStatus": "verified",
     "googleMapsListing": false,
-    "locationAccuracy": "文化三路二段／中山路路口定位；官方門牌座標至 丹鳳 最近出口直線約 7613 公尺，步行時間為保守估算",
+    "locationAccuracy": "文化三路二段／中山路路口定位；官方門牌座標至 長庚醫院 最近出口直線約 2808 公尺，步行時間為保守估算",
     "governmentId": "111林建字第00319-03號",
     "governmentStatus": "申報備查 1140224",
     "permit": "111林建字第00319-03號",
     "households": "399",
-    "buildingLand": "力行段266地號"
+    "buildingLand": "力行段266地號",
+    "lines": [
+      "A"
+    ]
   },
   {
     "id": "registry-新北市-林口區-冠宸星野",
     "name": "冠宸星野",
     "city": "新北市",
     "district": "林口區",
-    "station": "丹鳳",
-    "walk": 90,
+    "station": "長庚醫院",
+    "walk": 44,
     "address": "新北市林口區仁愛路一段335巷",
     "builder": "備查起造人：冠宸建設有限公司",
     "rating": "C",
@@ -22343,20 +32139,23 @@ export const matureRegistryProjects = [
     "verified": false,
     "locationStatus": "estimated",
     "googleMapsListing": false,
-    "locationAccuracy": "政府備查巷弄範圍定位（13 個官方門牌範圍）；官方門牌座標至 丹鳳 最近出口直線約 5825 公尺，步行時間為保守估算",
+    "locationAccuracy": "政府備查巷弄範圍定位（13 個官方門牌範圍）；官方門牌座標至 長庚醫院 最近出口直線約 2808 公尺，步行時間為保守估算",
     "governmentId": "112林建字第00332號",
     "governmentStatus": "申報備查 1130606",
     "permit": "112林建字第00332號",
     "households": "11",
-    "buildingLand": "新林段286地號"
+    "buildingLand": "新林段286地號",
+    "lines": [
+      "A"
+    ]
   },
   {
     "id": "registry-新北市-林口區-春耕雅苑",
     "name": "春耕雅苑",
     "city": "新北市",
     "district": "林口區",
-    "station": "丹鳳",
-    "walk": 80,
+    "station": "長庚醫院",
+    "walk": 45,
     "address": "新北市林口區仁愛路一段61巷",
     "builder": "備查起造人：廣立建設有限公司",
     "rating": "C",
@@ -22373,12 +32172,15 @@ export const matureRegistryProjects = [
     "verified": false,
     "locationStatus": "estimated",
     "googleMapsListing": false,
-    "locationAccuracy": "政府備查巷弄範圍定位（18 個官方門牌範圍）；官方門牌座標至 丹鳳 最近出口直線約 5169 公尺，步行時間為保守估算",
+    "locationAccuracy": "政府備查巷弄範圍定位（18 個官方門牌範圍）；官方門牌座標至 長庚醫院 最近出口直線約 2862 公尺，步行時間為保守估算",
     "governmentId": "113林建字第00122號",
     "governmentStatus": "申報備查 1140807",
     "permit": "113林建字第00122號",
     "households": "6",
-    "buildingLand": "新林段190地號"
+    "buildingLand": "新林段190地號",
+    "lines": [
+      "A"
+    ]
   },
   {
     "id": "registry-新北市-林口區-原昕吾旭",
@@ -22408,15 +32210,16 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1130723",
     "permit": "113林建字第00165號",
     "households": "58",
-    "buildingLand": "麗林段644地號"
+    "buildingLand": "麗林段644地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-林口區-原昕吾為",
     "name": "原昕吾為",
     "city": "新北市",
     "district": "林口區",
-    "station": "迴龍",
-    "walk": 116,
+    "station": "長庚醫院",
+    "walk": 34,
     "address": "新北市林口區文化三路二段41巷",
     "builder": "備查起造人：原昕建設股份有限公司",
     "rating": "C",
@@ -22433,20 +32236,23 @@ export const matureRegistryProjects = [
     "verified": false,
     "locationStatus": "estimated",
     "googleMapsListing": false,
-    "locationAccuracy": "政府備查巷弄範圍定位（35 個官方門牌範圍）；官方門牌座標至 迴龍 最近出口直線約 7539 公尺，步行時間為保守估算",
+    "locationAccuracy": "政府備查巷弄範圍定位（35 個官方門牌範圍）；官方門牌座標至 長庚醫院 最近出口直線約 2164 公尺，步行時間為保守估算",
     "governmentId": "111林建字第00133號",
     "governmentStatus": "申報備查 1110704",
     "permit": "111林建字第00133號",
     "households": "60",
-    "buildingLand": "力行段610地號"
+    "buildingLand": "力行段610地號",
+    "lines": [
+      "A"
+    ]
   },
   {
     "id": "registry-新北市-林口區-原森 TWIN TOWERS",
     "name": "原森 TWIN TOWERS",
     "city": "新北市",
     "district": "林口區",
-    "station": "迴龍",
-    "walk": 115,
+    "station": "長庚醫院",
+    "walk": 27,
     "address": "新北市林口區文化三路一段與仁愛二路口",
     "builder": "備查起造人：德弘建設有限公司",
     "rating": "C",
@@ -22463,20 +32269,23 @@ export const matureRegistryProjects = [
     "verified": true,
     "locationStatus": "verified",
     "googleMapsListing": false,
-    "locationAccuracy": "文化三路一段／仁愛二路路口定位；官方門牌座標至 迴龍 最近出口直線約 7450 公尺，步行時間為保守估算",
+    "locationAccuracy": "文化三路一段／仁愛二路路口定位；官方門牌座標至 長庚醫院 最近出口直線約 1745 公尺，步行時間為保守估算",
     "governmentId": "113林建字第00021號",
     "governmentStatus": "申報備查 1130522",
     "permit": "113林建字第00021號",
     "households": "293",
-    "buildingLand": "力行段1025-1地號"
+    "buildingLand": "力行段1025-1地號",
+    "lines": [
+      "A"
+    ]
   },
   {
     "id": "registry-新北市-林口區-家?美",
     "name": "家?美",
     "city": "新北市",
     "district": "林口區",
-    "station": "迴龍",
-    "walk": 113,
+    "station": "長庚醫院",
+    "walk": 24,
     "address": "新北市林口區文化三路一段385號旁",
     "builder": "備查起造人：家?建設股份有限公司",
     "rating": "C",
@@ -22493,20 +32302,23 @@ export const matureRegistryProjects = [
     "verified": true,
     "locationStatus": "verified",
     "googleMapsListing": false,
-    "locationAccuracy": "政府備查門牌配對；官方門牌座標至 迴龍 最近出口直線約 7333 公尺，步行時間為保守估算",
+    "locationAccuracy": "政府備查門牌配對；官方門牌座標至 長庚醫院 最近出口直線約 1509 公尺，步行時間為保守估算",
     "governmentId": "114林建字第00270號",
     "governmentStatus": "申報備查 1141105",
     "permit": "114林建字第00270號",
     "households": "49",
-    "buildingLand": "建林段62地號"
+    "buildingLand": "建林段62地號",
+    "lines": [
+      "A"
+    ]
   },
   {
     "id": "registry-新北市-林口區-家睦中山",
     "name": "家睦中山",
     "city": "新北市",
     "district": "林口區",
-    "station": "丹鳳",
-    "walk": 102,
+    "station": "長庚醫院",
+    "walk": 41,
     "address": "新北市林口區中山路151號旁",
     "builder": "備查起造人：家睦建設股份有限公司",
     "rating": "C",
@@ -22523,12 +32335,15 @@ export const matureRegistryProjects = [
     "verified": true,
     "locationStatus": "verified",
     "googleMapsListing": false,
-    "locationAccuracy": "實價登錄後續門牌配對（1 個門牌）；官方門牌座標至 丹鳳 最近出口直線約 6616 公尺，步行時間為保守估算",
+    "locationAccuracy": "實價登錄後續門牌配對（1 個門牌）；官方門牌座標至 長庚醫院 最近出口直線約 2628 公尺，步行時間為保守估算",
     "governmentId": "113林建字地00242號",
     "governmentStatus": "申報備查 1131226",
     "permit": "113林建字地00242號",
     "households": "36",
-    "buildingLand": "佳林段723地號"
+    "buildingLand": "佳林段723地號",
+    "lines": [
+      "A"
+    ]
   },
   {
     "id": "registry-新北市-林口區-敘日",
@@ -22558,7 +32373,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1110315",
     "permit": "111林建字第00084號",
     "households": "44",
-    "buildingLand": "國宅段6-1地號"
+    "buildingLand": "國宅段6-1地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-林口區-盛德富",
@@ -22588,15 +32404,16 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1100802",
     "permit": "110林建字第00337號",
     "households": "75",
-    "buildingLand": "建林段594地號"
+    "buildingLand": "建林段594地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-林口區-盛德誠",
     "name": "盛德誠",
     "city": "新北市",
     "district": "林口區",
-    "station": "迴龍",
-    "walk": 124,
+    "station": "長庚醫院",
+    "walk": 33,
     "address": "新北市林口區過崙街與南勢四街口",
     "builder": "備查起造人：盛德建設股份有限公司",
     "rating": "C",
@@ -22613,20 +32430,23 @@ export const matureRegistryProjects = [
     "verified": true,
     "locationStatus": "verified",
     "googleMapsListing": false,
-    "locationAccuracy": "政府備查門牌配對；官方門牌座標至 迴龍 最近出口直線約 8023 公尺，步行時間為保守估算",
+    "locationAccuracy": "政府備查門牌配對；官方門牌座標至 長庚醫院 最近出口直線約 2104 公尺，步行時間為保守估算",
     "governmentId": "114林建字第00060號",
     "governmentStatus": "申報備查 1140309",
     "permit": "114林建字第00060號",
     "households": "108",
-    "buildingLand": "建林段1087地號"
+    "buildingLand": "建林段1087地號",
+    "lines": [
+      "A"
+    ]
   },
   {
     "id": "registry-新北市-林口區-盛德藝",
     "name": "盛德藝",
     "city": "新北市",
     "district": "林口區",
-    "station": "迴龍",
-    "walk": 116,
+    "station": "長庚醫院",
+    "walk": 26,
     "address": "新北市林口區八德路500巷",
     "builder": "備查起造人：盛德建設股份有限公司",
     "rating": "C",
@@ -22643,12 +32463,15 @@ export const matureRegistryProjects = [
     "verified": false,
     "locationStatus": "estimated",
     "googleMapsListing": false,
-    "locationAccuracy": "政府備查巷弄範圍定位（7 個官方門牌範圍）；官方門牌座標至 迴龍 最近出口直線約 7492 公尺，步行時間為保守估算",
+    "locationAccuracy": "政府備查巷弄範圍定位（7 個官方門牌範圍）；官方門牌座標至 長庚醫院 最近出口直線約 1633 公尺，步行時間為保守估算",
     "governmentId": "112林建字第000245號",
     "governmentStatus": "申報備查 1120721",
     "permit": "112林建字第000245號",
     "households": "63",
-    "buildingLand": "建林段640地號"
+    "buildingLand": "建林段640地號",
+    "lines": [
+      "A"
+    ]
   },
   {
     "id": "registry-新北市-林口區-富匠",
@@ -22678,7 +32501,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1140510",
     "permit": "113林建字第00154號",
     "households": "31",
-    "buildingLand": "林口段921地號"
+    "buildingLand": "林口段921地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-林口區-富浤一響",
@@ -22708,15 +32532,16 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1140919",
     "permit": "114林建字00239號",
     "households": "28",
-    "buildingLand": "新林段1176地號"
+    "buildingLand": "新林段1176地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-林口區-富堡晶鑄",
     "name": "富堡晶鑄",
     "city": "新北市",
     "district": "林口區",
-    "station": "迴龍",
-    "walk": 112,
+    "station": "長庚醫院",
+    "walk": 21,
     "address": "新北市林口區文化三路一段39巷",
     "builder": "備查起造人：富棠建設股份有限公司",
     "rating": "C",
@@ -22733,20 +32558,23 @@ export const matureRegistryProjects = [
     "verified": false,
     "locationStatus": "estimated",
     "googleMapsListing": false,
-    "locationAccuracy": "政府備查巷弄範圍定位（38 個官方門牌範圍）；官方門牌座標至 迴龍 最近出口直線約 7263 公尺，步行時間為保守估算",
+    "locationAccuracy": "政府備查巷弄範圍定位（38 個官方門牌範圍）；官方門牌座標至 長庚醫院 最近出口直線約 1365 公尺，步行時間為保守估算",
     "governmentId": "112林建字第00239號",
     "governmentStatus": "申報備查 1130308",
     "permit": "112林建字第00239號",
     "households": "186",
-    "buildingLand": "建林段444地號"
+    "buildingLand": "建林段444地號",
+    "lines": [
+      "A"
+    ]
   },
   {
     "id": "registry-新北市-林口區-森鉅旭",
     "name": "森鉅旭",
     "city": "新北市",
     "district": "林口區",
-    "station": "迴龍",
-    "walk": 121,
+    "station": "長庚醫院",
+    "walk": 31,
     "address": "新北市林口區南勢一街",
     "builder": "備查起造人：森鉅建設股份有限公司",
     "rating": "C",
@@ -22763,20 +32591,23 @@ export const matureRegistryProjects = [
     "verified": true,
     "locationStatus": "verified",
     "googleMapsListing": false,
-    "locationAccuracy": "政府備查門牌配對；官方門牌座標至 迴龍 最近出口直線約 7854 公尺，步行時間為保守估算",
+    "locationAccuracy": "政府備查門牌配對；官方門牌座標至 長庚醫院 最近出口直線約 1983 公尺，步行時間為保守估算",
     "governmentId": "112林建字第00057號",
     "governmentStatus": "申報備查 1120516",
     "permit": "112林建字第00057號",
     "households": "77",
-    "buildingLand": "建林段750地號"
+    "buildingLand": "建林段750地號",
+    "lines": [
+      "A"
+    ]
   },
   {
     "id": "registry-新北市-林口區-森鉅M 林境",
     "name": "森鉅M 林境",
     "city": "新北市",
     "district": "林口區",
-    "station": "丹鳳",
-    "walk": 129,
+    "station": "長庚醫院",
+    "walk": 57,
     "address": "新北市林口區文化北路",
     "builder": "備查起造人：森鉅建設股份有限公司",
     "rating": "C",
@@ -22793,20 +32624,23 @@ export const matureRegistryProjects = [
     "verified": true,
     "locationStatus": "verified",
     "googleMapsListing": false,
-    "locationAccuracy": "政府備查門牌配對；官方門牌座標至 丹鳳 最近出口直線約 8350 公尺，步行時間為保守估算",
+    "locationAccuracy": "政府備查門牌配對；官方門牌座標至 長庚醫院 最近出口直線約 3642 公尺，步行時間為保守估算",
     "governmentId": "113林建字第00136號",
     "governmentStatus": "申報備查 1130627",
     "permit": "113林建字第00136號",
     "households": "111",
-    "buildingLand": "麗林段512地號"
+    "buildingLand": "麗林段512地號",
+    "lines": [
+      "A"
+    ]
   },
   {
     "id": "registry-新北市-林口區-森鉅M 逸境",
     "name": "森鉅M 逸境",
     "city": "新北市",
     "district": "林口區",
-    "station": "丹鳳",
-    "walk": 128,
+    "station": "長庚醫院",
+    "walk": 57,
     "address": "新北市林口區文化北路550巷",
     "builder": "備查起造人：森鉅建設股份有限公司",
     "rating": "C",
@@ -22823,12 +32657,15 @@ export const matureRegistryProjects = [
     "verified": false,
     "locationStatus": "estimated",
     "googleMapsListing": false,
-    "locationAccuracy": "政府備查巷弄範圍定位（7 個官方門牌範圍）；官方門牌座標至 丹鳳 最近出口直線約 8294 公尺，步行時間為保守估算",
+    "locationAccuracy": "政府備查巷弄範圍定位（7 個官方門牌範圍）；官方門牌座標至 長庚醫院 最近出口直線約 3672 公尺，步行時間為保守估算",
     "governmentId": "113林建字第00179號",
     "governmentStatus": "申報備查 1130705",
     "permit": "113林建字第00179號",
     "households": "77",
-    "buildingLand": "麗林段492地號"
+    "buildingLand": "麗林段492地號",
+    "lines": [
+      "A"
+    ]
   },
   {
     "id": "registry-新北市-林口區-森聯上上謙(森治)",
@@ -22858,15 +32695,16 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1120203",
     "permit": "111林建字第00479號",
     "households": "226",
-    "buildingLand": "力行段338地號"
+    "buildingLand": "力行段338地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-林口區-森聯上上謙(森越)",
     "name": "森聯上上謙(森越)",
     "city": "新北市",
     "district": "林口區",
-    "station": "丹鳳",
-    "walk": 119,
+    "station": "長庚醫院",
+    "walk": 39,
     "address": "新北市林口區民權路110號對面",
     "builder": "備查起造人：森寶開發股份有限公司",
     "rating": "C",
@@ -22883,12 +32721,15 @@ export const matureRegistryProjects = [
     "verified": true,
     "locationStatus": "verified",
     "googleMapsListing": false,
-    "locationAccuracy": "政府備查門牌配對；官方門牌座標至 丹鳳 最近出口直線約 7719 公尺，步行時間為保守估算",
+    "locationAccuracy": "政府備查門牌配對；官方門牌座標至 長庚醫院 最近出口直線約 2496 公尺，步行時間為保守估算",
     "governmentId": "111林建字第00271號",
     "governmentStatus": "申報備查 1111110",
     "permit": "111林建字第00271號",
     "households": "226",
-    "buildingLand": "力行段437地號"
+    "buildingLand": "力行段437地號",
+    "lines": [
+      "A"
+    ]
   },
   {
     "id": "registry-新北市-林口區-雲天下",
@@ -22918,15 +32759,16 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1110722",
     "permit": "111林建字第00193號",
     "households": "23",
-    "buildingLand": "新林段167地號"
+    "buildingLand": "新林段167地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-林口區-雲玥",
     "name": "雲玥",
     "city": "新北市",
     "district": "林口區",
-    "station": "丹鳳",
-    "walk": 94,
+    "station": "長庚醫院",
+    "walk": 32,
     "address": "新北市林口區東湖路55巷",
     "builder": "備查起造人：鉅翰建設股份有限公司",
     "rating": "C",
@@ -22943,12 +32785,15 @@ export const matureRegistryProjects = [
     "verified": false,
     "locationStatus": "estimated",
     "googleMapsListing": false,
-    "locationAccuracy": "政府備查巷弄範圍定位（15 個官方門牌範圍）；官方門牌座標至 丹鳳 最近出口直線約 6106 公尺，步行時間為保守估算",
+    "locationAccuracy": "政府備查巷弄範圍定位（15 個官方門牌範圍）；官方門牌座標至 長庚醫院 最近出口直線約 2021 公尺，步行時間為保守估算",
     "governmentId": "114林建字第00042號",
     "governmentStatus": "申報備查 1140508",
     "permit": "114林建字第00042號",
     "households": "11",
-    "buildingLand": "新林段890地號"
+    "buildingLand": "新林段890地號",
+    "lines": [
+      "A"
+    ]
   },
   {
     "id": "registry-新北市-林口區-愛家匯",
@@ -22978,7 +32823,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1100929",
     "permit": "110林建字第00445號",
     "households": "84",
-    "buildingLand": "建林段152地號"
+    "buildingLand": "建林段152地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-林口區-新潤世界都心",
@@ -23008,7 +32854,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1131227",
     "permit": "113林建字第00416號",
     "households": "804",
-    "buildingLand": "力行段105地號"
+    "buildingLand": "力行段105地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-林口區-新潤Double",
@@ -23038,15 +32885,16 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1101104",
     "permit": "110林建字第00496號",
     "households": "312",
-    "buildingLand": "力行段145地號"
+    "buildingLand": "力行段145地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-林口區-源峰上境",
     "name": "源峰上境",
     "city": "新北市",
     "district": "林口區",
-    "station": "丹鳳",
-    "walk": 125,
+    "station": "長庚醫院",
+    "walk": 54,
     "address": "新北市林口區松柏路78號旁",
     "builder": "備查起造人：源峰建設股份有限公司",
     "rating": "C",
@@ -23063,20 +32911,23 @@ export const matureRegistryProjects = [
     "verified": true,
     "locationStatus": "verified",
     "googleMapsListing": false,
-    "locationAccuracy": "政府備查門牌配對；官方門牌座標至 丹鳳 最近出口直線約 8110 公尺，步行時間為保守估算",
+    "locationAccuracy": "政府備查門牌配對；官方門牌座標至 長庚醫院 最近出口直線約 3476 公尺，步行時間為保守估算",
     "governmentId": "111林建字第00387號",
     "governmentStatus": "申報備查 1130903",
     "permit": "111林建字第00387號",
     "households": "70",
-    "buildingLand": "麗林段549地號"
+    "buildingLand": "麗林段549地號",
+    "lines": [
+      "A"
+    ]
   },
   {
     "id": "registry-新北市-林口區-瑞德豐錦",
     "name": "瑞德豐錦",
     "city": "新北市",
     "district": "林口區",
-    "station": "丹鳳",
-    "walk": 108,
+    "station": "長庚醫院",
+    "walk": 54,
     "address": "新北市林口區竹林路309巷",
     "builder": "備查起造人：瑞德開發股份有限公司",
     "rating": "C",
@@ -23093,20 +32944,23 @@ export const matureRegistryProjects = [
     "verified": false,
     "locationStatus": "estimated",
     "googleMapsListing": false,
-    "locationAccuracy": "政府備查巷弄範圍定位（4 個官方門牌範圍）；官方門牌座標至 丹鳳 最近出口直線約 7019 公尺，步行時間為保守估算",
+    "locationAccuracy": "政府備查巷弄範圍定位（4 個官方門牌範圍）；官方門牌座標至 長庚醫院 最近出口直線約 3502 公尺，步行時間為保守估算",
     "governmentId": "114林建字第00054號",
     "governmentStatus": "申報備查 1140410",
     "permit": "114林建字第00054號",
     "households": "6",
-    "buildingLand": "竹林段16地號"
+    "buildingLand": "竹林段16地號",
+    "lines": [
+      "A"
+    ]
   },
   {
     "id": "registry-新北市-林口區-群和FUTURE LINK",
     "name": "群和FUTURE LINK",
     "city": "新北市",
     "district": "林口區",
-    "station": "丹鳳",
-    "walk": 109,
+    "station": "長庚醫院",
+    "walk": 37,
     "address": "新北市林口區民享路",
     "builder": "備查起造人：群和建設股份有限公司",
     "rating": "C",
@@ -23123,12 +32977,15 @@ export const matureRegistryProjects = [
     "verified": true,
     "locationStatus": "verified",
     "googleMapsListing": false,
-    "locationAccuracy": "政府備查門牌配對；官方門牌座標至 丹鳳 最近出口直線約 7029 公尺，步行時間為保守估算",
+    "locationAccuracy": "政府備查門牌配對；官方門牌座標至 長庚醫院 最近出口直線約 2352 公尺，步行時間為保守估算",
     "governmentId": "113林建字第00282 號",
     "governmentStatus": "申報備查 1130828",
     "permit": "113林建字第00282 號",
     "households": "100",
-    "buildingLand": "力行段11地號"
+    "buildingLand": "力行段11地號",
+    "lines": [
+      "A"
+    ]
   },
   {
     "id": "registry-新北市-林口區-群祥謙",
@@ -23158,15 +33015,16 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1130701",
     "permit": "113林建字第00212號",
     "households": "39",
-    "buildingLand": "力行段383地號"
+    "buildingLand": "力行段383地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-林口區-遇見",
     "name": "遇見",
     "city": "新北市",
     "district": "林口區",
-    "station": "迴龍",
-    "walk": 116,
+    "station": "長庚醫院",
+    "walk": 34,
     "address": "新北市林口區文化三路二段41巷",
     "builder": "備查起造人：春宏建設有限公司",
     "rating": "C",
@@ -23183,20 +33041,54 @@ export const matureRegistryProjects = [
     "verified": false,
     "locationStatus": "estimated",
     "googleMapsListing": false,
-    "locationAccuracy": "政府備查巷弄範圍定位（35 個官方門牌範圍）；官方門牌座標至 迴龍 最近出口直線約 7539 公尺，步行時間為保守估算",
+    "locationAccuracy": "政府備查巷弄範圍定位（35 個官方門牌範圍）；官方門牌座標至 長庚醫院 最近出口直線約 2164 公尺，步行時間為保守估算",
     "governmentId": "109林建字第00465號",
     "governmentStatus": "申報備查 1110331",
     "permit": "109林建字第00465號",
     "households": "116",
-    "buildingLand": "力行段598地號"
+    "buildingLand": "力行段598地號",
+    "lines": [
+      "A"
+    ]
+  },
+  {
+    "id": "registry-新北市-林口區-福樺富貴莊園",
+    "name": "福樺富貴莊園",
+    "city": "新北市",
+    "district": "林口區",
+    "station": "待定位",
+    "walk": null,
+    "address": "新北市林口區富貴路",
+    "builder": "備查起造人：福樺建設股份有限公司",
+    "rating": "C",
+    "ratingBasis": "官方備查起造人可辨識為建設／開發公司；暫列 C，待更多履歷資料再調整",
+    "status": "預售中",
+    "completion": "依官方備查時程",
+    "type": "預售屋",
+    "size": "68–90 坪",
+    "price": "實登均價 58.1 萬/坪",
+    "lat": null,
+    "lng": null,
+    "source": "內政部預售屋備查＋實價登錄 32 筆",
+    "sourceUrl": "https://data.gov.tw/dataset/176351",
+    "verified": false,
+    "locationStatus": "unlocated",
+    "googleMapsListing": false,
+    "locationAccuracy": "尚無可可靠配對的正式門牌或路口；案件保留於表格，暫不顯示地圖標記",
+    "governmentId": "112林建字第00278號",
+    "governmentStatus": "申報備查 1120928",
+    "permit": "112林建字第00278號",
+    "households": "65",
+    "buildingLand": "力行段167地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-林口區-聚美家",
     "name": "聚美家",
     "city": "新北市",
     "district": "林口區",
-    "station": "迴龍",
-    "walk": 123,
+    "station": "長庚醫院",
+    "walk": 32,
     "address": "新北市林口區南勢一街17巷",
     "builder": "備查起造人：聚美建設股份有限公司",
     "rating": "C",
@@ -23213,20 +33105,23 @@ export const matureRegistryProjects = [
     "verified": false,
     "locationStatus": "estimated",
     "googleMapsListing": false,
-    "locationAccuracy": "政府備查巷弄範圍定位（19 個官方門牌範圍）；官方門牌座標至 迴龍 最近出口直線約 7931 公尺，步行時間為保守估算",
+    "locationAccuracy": "政府備查巷弄範圍定位（19 個官方門牌範圍）；官方門牌座標至 長庚醫院 最近出口直線約 2051 公尺，步行時間為保守估算",
     "governmentId": "110林建字第00096-01號",
     "governmentStatus": "申報備查 1110607",
     "permit": "110林建字第00096-01號",
     "households": "31",
-    "buildingLand": "建林段789地號"
+    "buildingLand": "建林段789地號",
+    "lines": [
+      "A"
+    ]
   },
   {
     "id": "registry-新北市-林口區-蒔山晏",
     "name": "蒔山晏",
     "city": "新北市",
     "district": "林口區",
-    "station": "迴龍",
-    "walk": 90,
+    "station": "長庚醫院",
+    "walk": 23,
     "address": "新北市林口區麗園二街89巷口",
     "builder": "備查起造人：柏潤建設開發事業股份有限公司",
     "rating": "C",
@@ -23243,12 +33138,15 @@ export const matureRegistryProjects = [
     "verified": false,
     "locationStatus": "estimated",
     "googleMapsListing": false,
-    "locationAccuracy": "政府備查巷弄範圍定位（20 個官方門牌範圍）；官方門牌座標至 迴龍 最近出口直線約 5821 公尺，步行時間為保守估算",
+    "locationAccuracy": "政府備查巷弄範圍定位（20 個官方門牌範圍）；官方門牌座標至 長庚醫院 最近出口直線約 1446 公尺，步行時間為保守估算",
     "governmentId": "112林建字第00013號",
     "governmentStatus": "申報備查 1120421",
     "permit": "112林建字第00013號",
     "households": "13",
-    "buildingLand": "國宅段60地號"
+    "buildingLand": "國宅段60地號",
+    "lines": [
+      "A"
+    ]
   },
   {
     "id": "registry-新北市-林口區-潤鴻日麗",
@@ -23278,7 +33176,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1110418",
     "permit": "111林建字第00125號",
     "households": "187",
-    "buildingLand": "力行段60地號"
+    "buildingLand": "力行段60地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-林口區-質琢",
@@ -23308,7 +33207,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1130613",
     "permit": "112林建字第00347-01號",
     "households": "4",
-    "buildingLand": "新林段191地號"
+    "buildingLand": "新林段191地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-林口區-築禾忠孝苑",
@@ -23338,15 +33238,16 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1130423",
     "permit": "111林建字第00164號",
     "households": "211",
-    "buildingLand": "建林段59地號"
+    "buildingLand": "建林段59地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-林口區-築禾琢立",
     "name": "築禾琢立",
     "city": "新北市",
     "district": "林口區",
-    "station": "迴龍",
-    "walk": 125,
+    "station": "長庚醫院",
+    "walk": 34,
     "address": "新北市林口區南勢六街及過崙街交叉路口",
     "builder": "備查起造人：築禾建設股份有限公司",
     "rating": "C",
@@ -23363,12 +33264,15 @@ export const matureRegistryProjects = [
     "verified": true,
     "locationStatus": "verified",
     "googleMapsListing": false,
-    "locationAccuracy": "南勢六街／過崙街路口定位；官方門牌座標至 迴龍 最近出口直線約 8084 公尺，步行時間為保守估算",
+    "locationAccuracy": "南勢六街／過崙街路口定位；官方門牌座標至 長庚醫院 最近出口直線約 2166 公尺，步行時間為保守估算",
     "governmentId": "112林建字第00307號",
     "governmentStatus": "申報備查 1130531",
     "permit": "112林建字第00307號",
     "households": "67",
-    "buildingLand": "建林段1173地號"
+    "buildingLand": "建林段1173地號",
+    "lines": [
+      "A"
+    ]
   },
   {
     "id": "registry-新北市-林口區-築禾琢玥",
@@ -23398,15 +33302,16 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1130807",
     "permit": "112林建字第00344號",
     "households": "188",
-    "buildingLand": "建林段828地號"
+    "buildingLand": "建林段828地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-林口區-頤昌松玥",
     "name": "頤昌松玥",
     "city": "新北市",
     "district": "林口區",
-    "station": "丹鳳",
-    "walk": 119,
+    "station": "長庚醫院",
+    "walk": 40,
     "address": "新北市林口區文化三路二段211巷",
     "builder": "備查起造人：頤叡建設股份有限公司",
     "rating": "C",
@@ -23423,20 +33328,23 @@ export const matureRegistryProjects = [
     "verified": false,
     "locationStatus": "estimated",
     "googleMapsListing": false,
-    "locationAccuracy": "政府備查巷弄範圍定位（25 個官方門牌範圍）；官方門牌座標至 丹鳳 最近出口直線約 7715 公尺，步行時間為保守估算",
+    "locationAccuracy": "政府備查巷弄範圍定位（25 個官方門牌範圍）；官方門牌座標至 長庚醫院 最近出口直線約 2592 公尺，步行時間為保守估算",
     "governmentId": "113林 建字第00292號",
     "governmentStatus": "申報備查 1131011",
     "permit": "113林 建字第00292號",
     "households": "153",
-    "buildingLand": "力行段327地號"
+    "buildingLand": "力行段327地號",
+    "lines": [
+      "A"
+    ]
   },
   {
     "id": "registry-新北市-林口區-頤昌松琚",
     "name": "頤昌松琚",
     "city": "新北市",
     "district": "林口區",
-    "station": "丹鳳",
-    "walk": 124,
+    "station": "長庚醫院",
+    "walk": 46,
     "address": "新北市林口區民生路與中山路交叉路口",
     "builder": "備查起造人：頤昌建設股份有限公司",
     "rating": "C",
@@ -23453,20 +33361,23 @@ export const matureRegistryProjects = [
     "verified": true,
     "locationStatus": "verified",
     "googleMapsListing": false,
-    "locationAccuracy": "文林三街／中山路路口定位；官方門牌座標至 丹鳳 最近出口直線約 8010 公尺，步行時間為保守估算",
+    "locationAccuracy": "文林三街／中山路路口定位；官方門牌座標至 長庚醫院 最近出口直線約 2949 公尺，步行時間為保守估算",
     "governmentId": "111林建字第00485號",
     "governmentStatus": "申報備查 1120113",
     "permit": "111林建字第00485號",
     "households": "78",
-    "buildingLand": "麗林段902地號"
+    "buildingLand": "麗林段902地號",
+    "lines": [
+      "A"
+    ]
   },
   {
     "id": "registry-新北市-林口區-頤昌柏舍",
     "name": "頤昌柏舍",
     "city": "新北市",
     "district": "林口區",
-    "station": "丹鳳",
-    "walk": 124,
+    "station": "長庚醫院",
+    "walk": 46,
     "address": "新北市林口區中山路、文林三街交叉口",
     "builder": "備查起造人：頤昌建設股份有限公司",
     "rating": "C",
@@ -23483,12 +33394,15 @@ export const matureRegistryProjects = [
     "verified": true,
     "locationStatus": "verified",
     "googleMapsListing": false,
-    "locationAccuracy": "文林三街／中山路路口定位；官方門牌座標至 丹鳳 最近出口直線約 8010 公尺，步行時間為保守估算",
+    "locationAccuracy": "文林三街／中山路路口定位；官方門牌座標至 長庚醫院 最近出口直線約 2949 公尺，步行時間為保守估算",
     "governmentId": "112林建字第00028號",
     "governmentStatus": "申報備查 1120320",
     "permit": "112林建字第00028號",
     "households": "80",
-    "buildingLand": "麗林段905地號"
+    "buildingLand": "麗林段905地號",
+    "lines": [
+      "A"
+    ]
   },
   {
     "id": "registry-新北市-林口區-優學",
@@ -23518,15 +33432,16 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1121004",
     "permit": "111林建字第00452號",
     "households": "93",
-    "buildingLand": "新林段1095地號"
+    "buildingLand": "新林段1095地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-林口區-擎天賦域．恆匯經貿中心",
     "name": "擎天賦域．恆匯經貿中心",
     "city": "新北市",
     "district": "林口區",
-    "station": "丹鳳",
-    "walk": 112,
+    "station": "長庚醫院",
+    "walk": 39,
     "address": "新北市林口區文化二路二段5號旁",
     "builder": "備查起造人：亞昕國際開發股份有限公司",
     "rating": "A",
@@ -23543,20 +33458,23 @@ export const matureRegistryProjects = [
     "verified": true,
     "locationStatus": "verified",
     "googleMapsListing": false,
-    "locationAccuracy": "政府備查門牌配對；官方門牌座標至 丹鳳 最近出口直線約 7274 公尺，步行時間為保守估算",
+    "locationAccuracy": "政府備查門牌配對；官方門牌座標至 長庚醫院 最近出口直線約 2529 公尺，步行時間為保守估算",
     "governmentId": "115林建字第00034號",
     "governmentStatus": "申報備查 1150402",
     "permit": "115林建字第00034號",
     "households": "488",
-    "buildingLand": "力行段77地號"
+    "buildingLand": "力行段77地號",
+    "lines": [
+      "A"
+    ]
   },
   {
     "id": "registry-新北市-林口區-聯太淳青",
     "name": "聯太淳青",
     "city": "新北市",
     "district": "林口區",
-    "station": "迴龍",
-    "walk": 114,
+    "station": "長庚醫院",
+    "walk": 24,
     "address": "新北市林口區惠民街38巷",
     "builder": "備查起造人：聯太建設股份有限公司",
     "rating": "C",
@@ -23573,20 +33491,23 @@ export const matureRegistryProjects = [
     "verified": false,
     "locationStatus": "estimated",
     "googleMapsListing": false,
-    "locationAccuracy": "政府備查巷弄範圍定位（2 個官方門牌範圍）；官方門牌座標至 迴龍 最近出口直線約 7365 公尺，步行時間為保守估算",
+    "locationAccuracy": "政府備查巷弄範圍定位（2 個官方門牌範圍）；官方門牌座標至 長庚醫院 最近出口直線約 1516 公尺，步行時間為保守估算",
     "governmentId": "110林建字第00375號",
     "governmentStatus": "申報備查 1110412",
     "permit": "110林建字第00375號",
     "households": "24",
-    "buildingLand": "建林段609地號"
+    "buildingLand": "建林段609地號",
+    "lines": [
+      "A"
+    ]
   },
   {
     "id": "registry-新北市-林口區-聯虹珺玥",
     "name": "聯虹珺玥",
     "city": "新北市",
     "district": "林口區",
-    "station": "丹鳳",
-    "walk": 117,
+    "station": "長庚醫院",
+    "walk": 50,
     "address": "新北市林口區竹林一路與民享路路口",
     "builder": "備查起造人：聯虹建設股份有限公司",
     "rating": "C",
@@ -23603,20 +33524,23 @@ export const matureRegistryProjects = [
     "verified": true,
     "locationStatus": "verified",
     "googleMapsListing": false,
-    "locationAccuracy": "竹林一路／民享路路口定位；官方門牌座標至 丹鳳 最近出口直線約 7543 公尺，步行時間為保守估算",
+    "locationAccuracy": "竹林一路／民享路路口定位；官方門牌座標至 長庚醫院 最近出口直線約 3245 公尺，步行時間為保守估算",
     "governmentId": "112林建字第00324號",
     "governmentStatus": "申報備查 1130823",
     "permit": "112林建字第00324號",
     "households": "54",
-    "buildingLand": "麗林段182地號"
+    "buildingLand": "麗林段182地號",
+    "lines": [
+      "A"
+    ]
   },
   {
     "id": "registry-新北市-林口區-聯廣闊境",
     "name": "聯廣闊境",
     "city": "新北市",
     "district": "林口區",
-    "station": "迴龍",
-    "walk": 110,
+    "station": "長庚醫院",
+    "walk": 23,
     "address": "新北市林口區文化二路一段309巷",
     "builder": "備查起造人：聯廣建設股份有限公司",
     "rating": "C",
@@ -23633,12 +33557,15 @@ export const matureRegistryProjects = [
     "verified": false,
     "locationStatus": "estimated",
     "googleMapsListing": false,
-    "locationAccuracy": "政府備查巷弄範圍定位（6 個官方門牌範圍）；官方門牌座標至 迴龍 最近出口直線約 7110 公尺，步行時間為保守估算",
+    "locationAccuracy": "政府備查巷弄範圍定位（6 個官方門牌範圍）；官方門牌座標至 長庚醫院 最近出口直線約 1439 公尺，步行時間為保守估算",
     "governmentId": "111林建字第00455號",
     "governmentStatus": "申報備查 1120329",
     "permit": "111林建字第00455號",
     "households": "119",
-    "buildingLand": "力行段871地號"
+    "buildingLand": "力行段871地號",
+    "lines": [
+      "A"
+    ]
   },
   {
     "id": "registry-新北市-林口區-謙旭",
@@ -23668,15 +33595,16 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1130705",
     "permit": "112林建字第00159號",
     "households": "14",
-    "buildingLand": "新林段292地號"
+    "buildingLand": "新林段292地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-林口區-璽來登日朗",
     "name": "璽來登日朗",
     "city": "新北市",
     "district": "林口區",
-    "station": "丹鳳",
-    "walk": 118,
+    "station": "長庚醫院",
+    "walk": 38,
     "address": "新北市林口區民權路與文化三路二段41巷",
     "builder": "備查起造人：家?建設股份有限公司",
     "rating": "C",
@@ -23693,20 +33621,23 @@ export const matureRegistryProjects = [
     "verified": true,
     "locationStatus": "verified",
     "googleMapsListing": false,
-    "locationAccuracy": "文化三路二段／民權路路口定位；官方門牌座標至 丹鳳 最近出口直線約 7668 公尺，步行時間為保守估算",
+    "locationAccuracy": "文化三路二段／民權路路口定位；官方門牌座標至 長庚醫院 最近出口直線約 2412 公尺，步行時間為保守估算",
     "governmentId": "111林建字00392號",
     "governmentStatus": "申報備查 1111004",
     "permit": "111林建字00392號",
     "households": "183",
-    "buildingLand": "力行段609地號"
+    "buildingLand": "力行段609地號",
+    "lines": [
+      "A"
+    ]
   },
   {
     "id": "registry-新北市-林口區-璽來登帝璽",
     "name": "璽來登帝璽",
     "city": "新北市",
     "district": "林口區",
-    "station": "迴龍",
-    "walk": 112,
+    "station": "長庚醫院",
+    "walk": 22,
     "address": "新北市林口區八德路與三民路口",
     "builder": "備查起造人：家?開發地產有限公司",
     "rating": "C",
@@ -23723,20 +33654,23 @@ export const matureRegistryProjects = [
     "verified": true,
     "locationStatus": "verified",
     "googleMapsListing": false,
-    "locationAccuracy": "八德路／三民路路口定位；官方門牌座標至 迴龍 最近出口直線約 7270 公尺，步行時間為保守估算",
+    "locationAccuracy": "八德路／三民路路口定位；官方門牌座標至 長庚醫院 最近出口直線約 1415 公尺，步行時間為保守估算",
     "governmentId": "113林建字第00271號",
     "governmentStatus": "申報備查 1130902",
     "permit": "113林建字第00271號",
     "households": "255",
-    "buildingLand": "建林段497地號"
+    "buildingLand": "建林段497地號",
+    "lines": [
+      "A"
+    ]
   },
   {
     "id": "registry-新北市-林口區-證源富承",
     "name": "證源富承",
     "city": "新北市",
     "district": "林口區",
-    "station": "丹鳳",
-    "walk": 106,
+    "station": "長庚醫院",
+    "walk": 46,
     "address": "新北市林口區林口路158號對面",
     "builder": "備查起造人：證源建設股份有限公司",
     "rating": "C",
@@ -23753,20 +33687,23 @@ export const matureRegistryProjects = [
     "verified": true,
     "locationStatus": "verified",
     "googleMapsListing": false,
-    "locationAccuracy": "實價登錄後續門牌配對（1 個門牌）；官方門牌座標至 丹鳳 最近出口直線約 6871 公尺，步行時間為保守估算",
+    "locationAccuracy": "實價登錄後續門牌配對（1 個門牌）；官方門牌座標至 長庚醫院 最近出口直線約 2988 公尺，步行時間為保守估算",
     "governmentId": "113林建字第00053號",
     "governmentStatus": "申報備查 1140319",
     "permit": "113林建字第00053號",
     "households": "30",
-    "buildingLand": "林口段909地號"
+    "buildingLand": "林口段909地號",
+    "lines": [
+      "A"
+    ]
   },
   {
     "id": "registry-新北市-林口區-寶閣",
     "name": "寶閣",
     "city": "新北市",
     "district": "林口區",
-    "station": "丹鳳",
-    "walk": 113,
+    "station": "長庚醫院",
+    "walk": 45,
     "address": "新北市林口區民享路206號旁",
     "builder": "備查起造人：擇林建設股份有限公司",
     "rating": "C",
@@ -23783,20 +33720,23 @@ export const matureRegistryProjects = [
     "verified": true,
     "locationStatus": "verified",
     "googleMapsListing": false,
-    "locationAccuracy": "實價登錄後續門牌配對（1 個門牌）；官方門牌座標至 丹鳳 最近出口直線約 7326 公尺，步行時間為保守估算",
+    "locationAccuracy": "實價登錄後續門牌配對（1 個門牌）；官方門牌座標至 長庚醫院 最近出口直線約 2921 公尺，步行時間為保守估算",
     "governmentId": "112林建字第00275號",
     "governmentStatus": "申報備查 1121027",
     "permit": "112林建字第00275號",
     "households": "35",
-    "buildingLand": "麗林段278地號"
+    "buildingLand": "麗林段278地號",
+    "lines": [
+      "A"
+    ]
   },
   {
     "id": "registry-新北市-林口區-CLASSY HOME",
     "name": "CLASSY HOME",
     "city": "新北市",
     "district": "林口區",
-    "station": "迴龍",
-    "walk": 116,
+    "station": "長庚醫院",
+    "walk": 27,
     "address": "新北市林口區建林段80地號",
     "builder": "備查起造人：森築開發股份有限公司",
     "rating": "C",
@@ -23813,12 +33753,15 @@ export const matureRegistryProjects = [
     "verified": true,
     "locationStatus": "verified",
     "googleMapsListing": false,
-    "locationAccuracy": "政府備查門牌配對；官方門牌座標至 迴龍 最近出口直線約 7481 公尺，步行時間為保守估算",
+    "locationAccuracy": "政府備查門牌配對；官方門牌座標至 長庚醫院 最近出口直線約 1690 公尺，步行時間為保守估算",
     "governmentId": "112林建字第00101號",
     "governmentStatus": "申報備查 1120523",
     "permit": "112林建字第00101號",
     "households": "510",
-    "buildingLand": "建林段80地號"
+    "buildingLand": "建林段80地號",
+    "lines": [
+      "A"
+    ]
   },
   {
     "id": "registry-新北市-金山區-太川茗園",
@@ -23848,7 +33791,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1110104",
     "permit": "109金建字第00426號",
     "households": "48",
-    "buildingLand": "文化段844地號"
+    "buildingLand": "文化段844地號",
+    "lines": [
+      "BR"
+    ]
   },
   {
     "id": "registry-新北市-金山區-合唐焞晶",
@@ -23878,7 +33824,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1130129",
     "permit": "110金建字第00262號",
     "households": "27",
-    "buildingLand": "金山二段3地號"
+    "buildingLand": "金山二段3地號",
+    "lines": [
+      "BR"
+    ]
   },
   {
     "id": "registry-新北市-金山區-築麗園",
@@ -23908,7 +33857,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1120823",
     "permit": "112金建字第00247號",
     "households": "67",
-    "buildingLand": "文化段1046地號"
+    "buildingLand": "文化段1046地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-金山區-築馨園",
@@ -23938,7 +33888,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1100817",
     "permit": "109金建字第00529號",
     "households": "35",
-    "buildingLand": "五福段546地號"
+    "buildingLand": "五福段546地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-金山區-縵云",
@@ -23968,7 +33919,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1140303",
     "permit": "113年金建字第00061號",
     "households": "117",
-    "buildingLand": "金山一段9地號"
+    "buildingLand": "金山一段9地號",
+    "lines": [
+      "BR"
+    ]
   },
   {
     "id": "registry-新北市-泰山區-文華閱",
@@ -23998,15 +33952,16 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1101216",
     "permit": "110泰建字第00607號",
     "households": "83",
-    "buildingLand": "信華段五小段33地號"
+    "buildingLand": "信華段五小段33地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-泰山區-合嘉楓疆",
     "name": "合嘉楓疆",
     "city": "新北市",
     "district": "泰山區",
-    "station": "新北產業園區",
-    "walk": 40,
+    "station": "新莊副都心",
+    "walk": 22,
     "address": "新北市泰山區和平街",
     "builder": "備查起造人：合嘉建設股份有限公司",
     "rating": "C",
@@ -24023,20 +33978,23 @@ export const matureRegistryProjects = [
     "verified": true,
     "locationStatus": "verified",
     "googleMapsListing": false,
-    "locationAccuracy": "政府備查門牌配對；官方門牌座標至 新北產業園區 最近出口直線約 2599 公尺，步行時間為保守估算",
+    "locationAccuracy": "政府備查門牌配對；官方門牌座標至 新莊副都心 最近出口直線約 1370 公尺，步行時間為保守估算",
     "governmentId": "112泰建字第00096號",
     "governmentStatus": "申報備查 1131220",
     "permit": "112泰建字第00096號",
     "households": "209",
-    "buildingLand": "楓江段3地號"
+    "buildingLand": "楓江段3地號",
+    "lines": [
+      "A"
+    ]
   },
   {
     "id": "registry-新北市-泰山區-地景富邑",
     "name": "地景富邑",
     "city": "新北市",
     "district": "泰山區",
-    "station": "新北產業園區",
-    "walk": 42,
+    "station": "泰山",
+    "walk": 18,
     "address": "新北市泰山區明志路一段213號",
     "builder": "備查起造人：富麗旺建設股份有限公司",
     "rating": "C",
@@ -24053,20 +34011,23 @@ export const matureRegistryProjects = [
     "verified": true,
     "locationStatus": "verified",
     "googleMapsListing": false,
-    "locationAccuracy": "政府備查門牌配對；官方門牌座標至 新北產業園區 最近出口直線約 2728 公尺，步行時間為保守估算",
+    "locationAccuracy": "政府備查門牌配對；官方門牌座標至 泰山 最近出口直線約 1131 公尺，步行時間為保守估算",
     "governmentId": "111泰建字第00483號",
     "governmentStatus": "申報備查 1120614",
     "permit": "111泰建字第00483號",
     "households": "136",
-    "buildingLand": "黎明段69地號"
+    "buildingLand": "黎明段69地號",
+    "lines": [
+      "A"
+    ]
   },
   {
     "id": "registry-新北市-泰山區-地景新世代",
     "name": "地景新世代",
     "city": "新北市",
     "district": "泰山區",
-    "station": "新北產業園區",
-    "walk": 42,
+    "station": "泰山",
+    "walk": 20,
     "address": "新北市泰山區明志路一段",
     "builder": "備查起造人：興榮建設股份有限公司",
     "rating": "C",
@@ -24083,12 +34044,15 @@ export const matureRegistryProjects = [
     "verified": true,
     "locationStatus": "verified",
     "googleMapsListing": false,
-    "locationAccuracy": "政府備查門牌配對；官方門牌座標至 新北產業園區 最近出口直線約 2678 公尺，步行時間為保守估算",
+    "locationAccuracy": "政府備查門牌配對；官方門牌座標至 泰山 最近出口直線約 1252 公尺，步行時間為保守估算",
     "governmentId": "113泰建字第00402號",
     "governmentStatus": "申報備查 1140321",
     "permit": "113泰建字第00402號",
     "households": "171",
-    "buildingLand": "泰林段271地號"
+    "buildingLand": "泰林段271地號",
+    "lines": [
+      "A"
+    ]
   },
   {
     "id": "registry-新北市-泰山區-百達莊園",
@@ -24118,7 +34082,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1140807",
     "permit": "111泰建字第00502號",
     "households": "498",
-    "buildingLand": "新泰段11地號"
+    "buildingLand": "新泰段11地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-泰山區-宏道豐?",
@@ -24148,7 +34113,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1110617",
     "permit": "111泰建字第00171號",
     "households": "186",
-    "buildingLand": "信華段一小段40地號"
+    "buildingLand": "信華段一小段40地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-泰山區-佳鋐運",
@@ -24178,15 +34144,16 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1111226",
     "permit": "109泰建字第00082號",
     "households": "81",
-    "buildingLand": "信華段五小段21地號"
+    "buildingLand": "信華段五小段21地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-泰山區-明志書苑",
     "name": "明志書苑",
     "city": "新北市",
     "district": "泰山區",
-    "station": "輔大",
-    "walk": 29,
+    "station": "泰山貴和",
+    "walk": 24,
     "address": "新北市泰山區明志路二段298巷",
     "builder": "備查起造人：茂德建設股份有限公司",
     "rating": "B",
@@ -24203,12 +34170,15 @@ export const matureRegistryProjects = [
     "verified": false,
     "locationStatus": "estimated",
     "googleMapsListing": false,
-    "locationAccuracy": "政府備查巷弄範圍定位（31 個官方門牌範圍）；官方門牌座標至 輔大 最近出口直線約 1851 公尺，步行時間為保守估算",
+    "locationAccuracy": "政府備查巷弄範圍定位（31 個官方門牌範圍）；官方門牌座標至 泰山貴和 最近出口直線約 1534 公尺，步行時間為保守估算",
     "governmentId": "111泰建字00427",
     "governmentStatus": "申報備查 1111020",
     "permit": "111泰建字00427",
     "households": "141",
-    "buildingLand": "南林段476地號"
+    "buildingLand": "南林段476地號",
+    "lines": [
+      "A"
+    ]
   },
   {
     "id": "registry-新北市-泰山區-明志學",
@@ -24238,15 +34208,16 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1110609",
     "permit": "110泰建字第00516號",
     "households": "69",
-    "buildingLand": "中山段33地號"
+    "buildingLand": "中山段33地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-泰山區-朗朗城心",
     "name": "朗朗城心",
     "city": "新北市",
     "district": "泰山區",
-    "station": "輔大",
-    "walk": 24,
+    "station": "泰山",
+    "walk": 12,
     "address": "新北市泰山區坡雅路信華三街口",
     "builder": "備查起造人：統一工商綜合開發股份有限公司",
     "rating": "C",
@@ -24263,12 +34234,15 @@ export const matureRegistryProjects = [
     "verified": true,
     "locationStatus": "verified",
     "googleMapsListing": false,
-    "locationAccuracy": "信華三街／坡雅路路口定位；官方門牌座標至 輔大 最近出口直線約 1537 公尺，步行時間為保守估算",
+    "locationAccuracy": "信華三街／坡雅路路口定位；官方門牌座標至 泰山 最近出口直線約 757 公尺，步行時間為保守估算",
     "governmentId": "109泰建字第00192-1號",
     "governmentStatus": "申報備查 1101004",
     "permit": "109泰建字第00192-1號",
     "households": "124",
-    "buildingLand": "信華段三小段7地號"
+    "buildingLand": "信華段三小段7地號",
+    "lines": [
+      "A"
+    ]
   },
   {
     "id": "registry-新北市-泰山區-國鉅興",
@@ -24298,7 +34272,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1121005",
     "permit": "112泰建字第00306號",
     "households": "114",
-    "buildingLand": "信華段五小段39地號"
+    "buildingLand": "信華段五小段39地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-泰山區-勝輝凰邸",
@@ -24328,7 +34303,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1120904",
     "permit": "112泰建字第00207號",
     "households": "32",
-    "buildingLand": "信華段五小段5地號"
+    "buildingLand": "信華段五小段5地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-泰山區-景賀",
@@ -24358,15 +34334,16 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1120426",
     "permit": "110泰建字第00141號",
     "households": "130",
-    "buildingLand": "信華段五小段24地號"
+    "buildingLand": "信華段五小段24地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-泰山區-華固一莊",
     "name": "華固一莊",
     "city": "新北市",
     "district": "泰山區",
-    "station": "輔大",
-    "walk": 19,
+    "station": "泰山",
+    "walk": 18,
     "address": "新北市泰山區信華三街及莊田路口",
     "builder": "備查起造人：華固建設股份有限公司",
     "rating": "S",
@@ -24383,20 +34360,23 @@ export const matureRegistryProjects = [
     "verified": true,
     "locationStatus": "verified",
     "googleMapsListing": false,
-    "locationAccuracy": "信華三街／莊田路路口定位；官方門牌座標至 輔大 最近出口直線約 1202 公尺，步行時間為保守估算",
+    "locationAccuracy": "信華三街／莊田路路口定位；官方門牌座標至 泰山 最近出口直線約 1108 公尺，步行時間為保守估算",
     "governmentId": "111泰建字第00214號",
     "governmentStatus": "申報備查 1110608",
     "permit": "111泰建字第00214號",
     "households": "168",
-    "buildingLand": "信華段五小段76地號"
+    "buildingLand": "信華段五小段76地號",
+    "lines": [
+      "A"
+    ]
   },
   {
     "id": "registry-新北市-泰山區-新潤 THE RICH",
     "name": "新潤 THE RICH",
     "city": "新北市",
     "district": "泰山區",
-    "station": "輔大",
-    "walk": 28,
+    "station": "泰山",
+    "walk": 9,
     "address": "新北市泰山區新北大道五段與幸福路口",
     "builder": "備查起造人：新潤建設股份有限公司",
     "rating": "C",
@@ -24413,20 +34393,23 @@ export const matureRegistryProjects = [
     "verified": true,
     "locationStatus": "verified",
     "googleMapsListing": false,
-    "locationAccuracy": "新北大道五段／幸福路路口定位；官方門牌座標至 輔大 最近出口直線約 1803 公尺，步行時間為保守估算",
+    "locationAccuracy": "新北大道五段／幸福路路口定位；官方門牌座標至 泰山 最近出口直線約 523 公尺，步行時間為保守估算",
     "governmentId": "110泰建字第00480-3號",
     "governmentStatus": "申報備查 1120203",
     "permit": "110泰建字第00480-3號",
     "households": "199",
-    "buildingLand": "新泰段18地號"
+    "buildingLand": "新泰段18地號",
+    "lines": [
+      "A"
+    ]
   },
   {
     "id": "registry-新北市-泰山區-新潤A5Ⅱ大道鎏域",
     "name": "新潤A5Ⅱ大道鎏域",
     "city": "新北市",
     "district": "泰山區",
-    "station": "輔大",
-    "walk": 28,
+    "station": "泰山",
+    "walk": 9,
     "address": "新北市泰山區新北大道五段與幸福路旁",
     "builder": "備查起造人：新潤建設股份有限公司",
     "rating": "C",
@@ -24443,12 +34426,15 @@ export const matureRegistryProjects = [
     "verified": true,
     "locationStatus": "verified",
     "googleMapsListing": false,
-    "locationAccuracy": "新北大道五段／幸福路路口定位；官方門牌座標至 輔大 最近出口直線約 1803 公尺，步行時間為保守估算",
+    "locationAccuracy": "新北大道五段／幸福路路口定位；官方門牌座標至 泰山 最近出口直線約 523 公尺，步行時間為保守估算",
     "governmentId": "110泰建字第00480-3號",
     "governmentStatus": "申報備查 1101006",
     "permit": "110泰建字第00480-3號",
     "households": "199",
-    "buildingLand": "新泰段18地號"
+    "buildingLand": "新泰段18地號",
+    "lines": [
+      "A"
+    ]
   },
   {
     "id": "registry-新北市-泰山區-當代帝寶",
@@ -24478,7 +34464,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 ",
     "permit": "110泰建字第00316號",
     "households": "576",
-    "buildingLand": "中山段1004-3地號"
+    "buildingLand": "中山段1004-3地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-泰山區-義泰信",
@@ -24508,7 +34495,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1141014",
     "permit": "114泰建字第00252號",
     "households": "165",
-    "buildingLand": "信華段五小段15地號"
+    "buildingLand": "信華段五小段15地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-泰山區-義泰華",
@@ -24538,15 +34526,16 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1130705",
     "permit": "112泰建字第00042號",
     "households": "189",
-    "buildingLand": "信華段五小段69地號"
+    "buildingLand": "信華段五小段69地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-泰山區-碧瑤一品雋",
     "name": "碧瑤一品雋",
     "city": "新北市",
     "district": "泰山區",
-    "station": "新北產業園區",
-    "walk": 40,
+    "station": "泰山",
+    "walk": 11,
     "address": "新北市泰山區仁德路與福興街口",
     "builder": "備查起造人：碧瑤開發股份有限公司",
     "rating": "C",
@@ -24563,20 +34552,23 @@ export const matureRegistryProjects = [
     "verified": true,
     "locationStatus": "verified",
     "googleMapsListing": false,
-    "locationAccuracy": "仁德路／福興街路口定位；官方門牌座標至 新北產業園區 最近出口直線約 2554 公尺，步行時間為保守估算",
+    "locationAccuracy": "仁德路／福興街路口定位；官方門牌座標至 泰山 最近出口直線約 652 公尺，步行時間為保守估算",
     "governmentId": "111泰建字第00129號",
     "governmentStatus": "申報備查 1110529",
     "permit": "111泰建字第00129號",
     "households": "61",
-    "buildingLand": "同興段76地號"
+    "buildingLand": "同興段76地號",
+    "lines": [
+      "A"
+    ]
   },
   {
     "id": "registry-新北市-泰山區-潤見築",
     "name": "潤見築",
     "city": "新北市",
     "district": "泰山區",
-    "station": "輔大",
-    "walk": 19,
+    "station": "泰山",
+    "walk": 18,
     "address": "新北市泰山區莊田路與信華三街交叉口",
     "builder": "備查起造人：新潤建設股份有限公司",
     "rating": "C",
@@ -24593,12 +34585,15 @@ export const matureRegistryProjects = [
     "verified": true,
     "locationStatus": "verified",
     "googleMapsListing": false,
-    "locationAccuracy": "信華三街／莊田路路口定位；官方門牌座標至 輔大 最近出口直線約 1202 公尺，步行時間為保守估算",
+    "locationAccuracy": "信華三街／莊田路路口定位；官方門牌座標至 泰山 最近出口直線約 1108 公尺，步行時間為保守估算",
     "governmentId": "111泰建字第00064號",
     "governmentStatus": "申報備查 1110217",
     "permit": "111泰建字第00064號",
     "households": "202",
-    "buildingLand": "信華段五小段53地號"
+    "buildingLand": "信華段五小段53地號",
+    "lines": [
+      "A"
+    ]
   },
   {
     "id": "registry-新北市-泰山區-閱讀台灣",
@@ -24628,7 +34623,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1110527",
     "permit": "110泰建字第00269號",
     "households": "200",
-    "buildingLand": "信華段五小段43地號"
+    "buildingLand": "信華段五小段43地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-泰山區-築億峰尚",
@@ -24658,15 +34654,16 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1101013",
     "permit": "110泰建字第00464號",
     "households": "69",
-    "buildingLand": "信華段五小段61地號"
+    "buildingLand": "信華段五小段61地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-泰山區-雙捷大院",
     "name": "雙捷大院",
     "city": "新北市",
     "district": "泰山區",
-    "station": "輔大",
-    "walk": 19,
+    "station": "泰山貴和",
+    "walk": 12,
     "address": "新北市泰山區明志路三段145巷",
     "builder": "備查起造人：興榮建設股份有限公司",
     "rating": "C",
@@ -24683,20 +34680,23 @@ export const matureRegistryProjects = [
     "verified": false,
     "locationStatus": "estimated",
     "googleMapsListing": false,
-    "locationAccuracy": "政府備查巷弄範圍定位（186 個官方門牌範圍）；官方門牌座標至 輔大 最近出口直線約 1185 公尺，步行時間為保守估算",
+    "locationAccuracy": "政府備查巷弄範圍定位（186 個官方門牌範圍）；官方門牌座標至 泰山貴和 最近出口直線約 755 公尺，步行時間為保守估算",
     "governmentId": "110泰建字第00201號",
     "governmentStatus": "申報備查 1110308",
     "permit": "110泰建字第00201號",
     "households": "43",
-    "buildingLand": "貴和段264地號"
+    "buildingLand": "貴和段264地號",
+    "lines": [
+      "A"
+    ]
   },
   {
     "id": "registry-新北市-泰山區-寶偉遇花園",
     "name": "寶偉遇花園",
     "city": "新北市",
     "district": "泰山區",
-    "station": "丹鳳",
-    "walk": 22,
+    "station": "泰山貴和",
+    "walk": 15,
     "address": "新北市泰山區明志路三段７４巷２４號旁",
     "builder": "備查起造人：寶偉建設有限公司",
     "rating": "C",
@@ -24713,12 +34713,15 @@ export const matureRegistryProjects = [
     "verified": true,
     "locationStatus": "verified",
     "googleMapsListing": false,
-    "locationAccuracy": "實價登錄後續門牌配對（1 個門牌）；官方門牌座標至 丹鳳 最近出口直線約 1430 公尺，步行時間為保守估算",
+    "locationAccuracy": "實價登錄後續門牌配對（1 個門牌）；官方門牌座標至 泰山貴和 最近出口直線約 941 公尺，步行時間為保守估算",
     "governmentId": "113泰建字00066號",
     "governmentStatus": "申報備查 1130307",
     "permit": "113泰建字00066號",
     "households": "84",
-    "buildingLand": "明志段159地號"
+    "buildingLand": "明志段159地號",
+    "lines": [
+      "A"
+    ]
   },
   {
     "id": "registry-新北市-淡水區-山河帝寶",
@@ -24748,7 +34751,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1120109",
     "permit": "111淡建字第00465號",
     "households": "374",
-    "buildingLand": "海天段71地號"
+    "buildingLand": "海天段71地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-淡水區-山河帝寶2號",
@@ -24778,15 +34782,16 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1121211",
     "permit": "112淡建字第00268號",
     "households": "46",
-    "buildingLand": "海天段67-2地號"
+    "buildingLand": "海天段67-2地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-淡水區-天生卓閱",
     "name": "天生卓閱",
     "city": "新北市",
     "district": "淡水區",
-    "station": "淡水",
-    "walk": 34,
+    "station": "淡水漁人碼頭",
+    "walk": 15,
     "address": "新北市淡水區中正路一段62巷旁",
     "builder": "備查起造人：興格建設股份有限公司",
     "rating": "C",
@@ -24803,20 +34808,24 @@ export const matureRegistryProjects = [
     "verified": false,
     "locationStatus": "estimated",
     "googleMapsListing": false,
-    "locationAccuracy": "政府備查巷弄範圍定位（40 個官方門牌範圍）；官方門牌座標至 淡水 最近出口直線約 2199 公尺，步行時間為保守估算",
+    "locationAccuracy": "政府備查巷弄範圍定位（40 個官方門牌範圍）；官方門牌座標至 淡水漁人碼頭 最近出口直線約 912 公尺，步行時間為保守估算",
     "governmentId": "110淡建字第00057號",
     "governmentStatus": "申報備查 1120510",
     "permit": "110淡建字第00057號",
     "households": "85",
-    "buildingLand": "天生段1323地號"
+    "buildingLand": "天生段1323地號",
+    "lines": [
+      "V",
+      "LRT"
+    ]
   },
   {
     "id": "registry-新北市-淡水區-水天靚",
     "name": "水天靚",
     "city": "新北市",
     "district": "淡水區",
-    "station": "淡水",
-    "walk": 44,
+    "station": "臺北海洋大學",
+    "walk": 7,
     "address": "新北市淡水區沙崙路331號旁",
     "builder": "備查起造人：麥當勞建設股份有限公司",
     "rating": "C",
@@ -24833,20 +34842,24 @@ export const matureRegistryProjects = [
     "verified": true,
     "locationStatus": "verified",
     "googleMapsListing": false,
-    "locationAccuracy": "政府備查門牌配對；官方門牌座標至 淡水 最近出口直線約 2827 公尺，步行時間為保守估算",
+    "locationAccuracy": "政府備查門牌配對；官方門牌座標至 臺北海洋大學 最近出口直線約 392 公尺，步行時間為保守估算",
     "governmentId": "107淡建字第00276-01號",
     "governmentStatus": "申報備查 1120830",
     "permit": "107淡建字第00276-01號",
     "households": "71",
-    "buildingLand": "望高樓段97地號"
+    "buildingLand": "望高樓段97地號",
+    "lines": [
+      "V",
+      "LRT"
+    ]
   },
   {
     "id": "registry-新北市-淡水區-水天靚2",
     "name": "水天靚2",
     "city": "新北市",
     "district": "淡水區",
-    "station": "淡水",
-    "walk": 44,
+    "station": "臺北海洋大學",
+    "walk": 7,
     "address": "新北市淡水區沙崙路327號9樓",
     "builder": "備查起造人：麥當勞建設股份有限公司",
     "rating": "C",
@@ -24863,20 +34876,24 @@ export const matureRegistryProjects = [
     "verified": true,
     "locationStatus": "verified",
     "googleMapsListing": false,
-    "locationAccuracy": "政府備查門牌配對；官方門牌座標至 淡水 最近出口直線約 2827 公尺，步行時間為保守估算",
+    "locationAccuracy": "政府備查門牌配對；官方門牌座標至 臺北海洋大學 最近出口直線約 392 公尺，步行時間為保守估算",
     "governmentId": "107淡建字第00150號",
     "governmentStatus": "申報備查 1120830",
     "permit": "107淡建字第00150號",
     "households": "52",
-    "buildingLand": "望高樓段100地號"
+    "buildingLand": "望高樓段100地號",
+    "lines": [
+      "V",
+      "LRT"
+    ]
   },
   {
     "id": "registry-新北市-淡水區-水美慕河",
     "name": "水美慕河",
     "city": "新北市",
     "district": "淡水區",
-    "station": "淡水",
-    "walk": 14,
+    "station": "竿蓁林",
+    "walk": 6,
     "address": "新北市淡水區中正東路一段45號旁",
     "builder": "備查起造人：崇陽開發股份有限公司",
     "rating": "C",
@@ -24893,12 +34910,16 @@ export const matureRegistryProjects = [
     "verified": true,
     "locationStatus": "verified",
     "googleMapsListing": false,
-    "locationAccuracy": "政府備查門牌配對；官方門牌座標至 淡水 最近出口直線約 869 公尺，步行時間為保守估算",
+    "locationAccuracy": "政府備查門牌配對；官方門牌座標至 竿蓁林 最近出口直線約 381 公尺，步行時間為保守估算",
     "governmentId": "112淡建字第00277號",
     "governmentStatus": "申報備查 1120825",
     "permit": "112淡建字第00277號",
     "households": "126",
-    "buildingLand": "海鷗段763地號"
+    "buildingLand": "海鷗段763地號",
+    "lines": [
+      "V",
+      "LRT"
+    ]
   },
   {
     "id": "registry-新北市-淡水區-水悅日光",
@@ -24928,7 +34949,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1120503",
     "permit": "111淡建字第00505號",
     "households": "47",
-    "buildingLand": "沙崙段530地號"
+    "buildingLand": "沙崙段530地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-淡水區-台北別墅",
@@ -24958,7 +34980,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1120419",
     "permit": "112淡建字第00036號",
     "households": "57",
-    "buildingLand": "坪頂段1470地號"
+    "buildingLand": "坪頂段1470地號",
+    "lines": [
+      "R"
+    ]
   },
   {
     "id": "registry-新北市-淡水區-台北灣銀河",
@@ -24988,7 +35013,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1100823",
     "permit": "106淡建字第00364-02號",
     "households": "1467",
-    "buildingLand": "公司田段184地號"
+    "buildingLand": "公司田段184地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-淡水區-石上青",
@@ -25018,7 +35044,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1130827",
     "permit": "113淡建字第263號",
     "households": "34",
-    "buildingLand": "海天段566地號"
+    "buildingLand": "海天段566地號",
+    "lines": [
+      "R"
+    ]
   },
   {
     "id": "registry-新北市-淡水區-伊豆莊園",
@@ -25048,7 +35077,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1120810",
     "permit": "111淡建字第00263-01號",
     "households": "169",
-    "buildingLand": "馬偕段91地號"
+    "buildingLand": "馬偕段91地號",
+    "lines": [
+      "R"
+    ]
   },
   {
     "id": "registry-新北市-淡水區-伊豆莊園II",
@@ -25078,15 +35110,16 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1130325",
     "permit": "112淡建字第00292號",
     "households": "236",
-    "buildingLand": "馬偕段87地號"
+    "buildingLand": "馬偕段87地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-淡水區-兆美萬海",
     "name": "兆美萬海",
     "city": "新北市",
     "district": "淡水區",
-    "station": "淡水",
-    "walk": 45,
+    "station": "淡水漁人碼頭",
+    "walk": 5,
     "address": "新北市淡水區觀海路與淡海路交叉口望高樓段535等2筆地號",
     "builder": "備查起造人：財團法人土地改革紀念館(代表人:蕭經)等3人",
     "rating": "NR",
@@ -25103,12 +35136,16 @@ export const matureRegistryProjects = [
     "verified": true,
     "locationStatus": "verified",
     "googleMapsListing": false,
-    "locationAccuracy": "中正路二段／淡海路路口定位；官方門牌座標至 淡水 最近出口直線約 2886 公尺，步行時間為保守估算",
+    "locationAccuracy": "中正路二段／淡海路路口定位；官方門牌座標至 淡水漁人碼頭 最近出口直線約 300 公尺，步行時間為保守估算",
     "governmentId": "110淡建字第00001號",
     "governmentStatus": "申報備查 1110623",
     "permit": "110淡建字第00001號",
     "households": "191",
-    "buildingLand": "望高樓段535-1地號"
+    "buildingLand": "望高樓段535-1地號",
+    "lines": [
+      "V",
+      "LRT"
+    ]
   },
   {
     "id": "registry-新北市-淡水區-光全御苑",
@@ -25138,7 +35175,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1140805",
     "permit": "110淡建字第00178-2號",
     "households": "168",
-    "buildingLand": "飛歌段1045-1地號"
+    "buildingLand": "飛歌段1045-1地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-淡水區-合康植芯",
@@ -25168,7 +35206,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1130429",
     "permit": "111淡建字第00191-01號",
     "households": "165",
-    "buildingLand": "新市段181地號"
+    "buildingLand": "新市段181地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-淡水區-合陽齊美",
@@ -25198,15 +35237,16 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1110608",
     "permit": "109淡建字第00398-01號",
     "households": "110",
-    "buildingLand": "新市段133地號"
+    "buildingLand": "新市段133地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-淡水區-合新美遇",
     "name": "合新美遇",
     "city": "新北市",
     "district": "淡水區",
-    "station": "淡水",
-    "walk": 43,
+    "station": "濱海義山",
+    "walk": 5,
     "address": "新北市淡水區濱海路二段202巷與義山路一段401巷口",
     "builder": "備查起造人：合新建設股份有限公司",
     "rating": "C",
@@ -25223,12 +35263,16 @@ export const matureRegistryProjects = [
     "verified": true,
     "locationStatus": "verified",
     "googleMapsListing": false,
-    "locationAccuracy": "義山路一段／濱海路二段路口定位；官方門牌座標至 淡水 最近出口直線約 2762 公尺，步行時間為保守估算",
+    "locationAccuracy": "義山路一段／濱海路二段路口定位；官方門牌座標至 濱海義山 最近出口直線約 287 公尺，步行時間為保守估算",
     "governmentId": "113淡建字第00150號",
     "governmentStatus": "申報備查 ",
     "permit": "113淡建字第00150號",
     "households": "230",
-    "buildingLand": "新市段116地號"
+    "buildingLand": "新市段116地號",
+    "lines": [
+      "V",
+      "LRT"
+    ]
   },
   {
     "id": "registry-新北市-淡水區-合嘉素晴",
@@ -25258,7 +35302,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1110218",
     "permit": "109淡建字第00418號",
     "households": "146",
-    "buildingLand": "新市段132地號"
+    "buildingLand": "新市段132地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-淡水區-合謙飛時代",
@@ -25288,15 +35333,16 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1110527",
     "permit": "110淡建字第00211號",
     "households": "153",
-    "buildingLand": "新市段89地號"
+    "buildingLand": "新市段89地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-淡水區-合謙劃時代",
     "name": "合謙劃時代",
     "city": "新北市",
     "district": "淡水區",
-    "station": "淡水",
-    "walk": 48,
+    "station": "淡海新市鎮",
+    "walk": 4,
     "address": "新北市淡水區新市二路三段36巷37弄",
     "builder": "備查起造人：合謙建設股份有限公司",
     "rating": "C",
@@ -25313,12 +35359,16 @@ export const matureRegistryProjects = [
     "verified": true,
     "locationStatus": "verified",
     "googleMapsListing": false,
-    "locationAccuracy": "政府備查門牌配對；官方門牌座標至 淡水 最近出口直線約 3091 公尺，步行時間為保守估算",
+    "locationAccuracy": "政府備查門牌配對；官方門牌座標至 淡海新市鎮 最近出口直線約 239 公尺，步行時間為保守估算",
     "governmentId": "112淡建字第00088號",
     "governmentStatus": "申報備查 1141230",
     "permit": "112淡建字第00088號",
     "households": "271",
-    "buildingLand": "新市段190地號"
+    "buildingLand": "新市段190地號",
+    "lines": [
+      "V",
+      "LRT"
+    ]
   },
   {
     "id": "registry-新北市-淡水區-合謙耀時代",
@@ -25348,15 +35398,16 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1130422",
     "permit": "111淡建字第00356號",
     "households": "140",
-    "buildingLand": "新市段185地號"
+    "buildingLand": "新市段185地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-淡水區-向陽",
     "name": "向陽",
     "city": "新北市",
     "district": "淡水區",
-    "station": "淡水",
-    "walk": 35,
+    "station": "濱海義山",
+    "walk": 6,
     "address": "新北市淡水區濱海路一段與濱海路一段111巷口",
     "builder": "備查起造人：十得建設股份有限公司",
     "rating": "C",
@@ -25373,12 +35424,16 @@ export const matureRegistryProjects = [
     "verified": false,
     "locationStatus": "estimated",
     "googleMapsListing": false,
-    "locationAccuracy": "政府備查巷弄範圍定位（131 個官方門牌範圍）；官方門牌座標至 淡水 最近出口直線約 2233 公尺，步行時間為保守估算",
+    "locationAccuracy": "政府備查巷弄範圍定位（131 個官方門牌範圍）；官方門牌座標至 濱海義山 最近出口直線約 345 公尺，步行時間為保守估算",
     "governmentId": "113淡建字第00371號",
     "governmentStatus": "申報備查 1140306",
     "permit": "113淡建字第00371號",
     "households": "41",
-    "buildingLand": "公司田段119地號"
+    "buildingLand": "公司田段119地號",
+    "lines": [
+      "V",
+      "LRT"
+    ]
   },
   {
     "id": "registry-新北市-淡水區-米蘭日光",
@@ -25408,15 +35463,16 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1110103",
     "permit": "110淡建字第00573號",
     "households": "34",
-    "buildingLand": "米蘭段574地號"
+    "buildingLand": "米蘭段574地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-淡水區-自遊城",
     "name": "自遊城",
     "city": "新北市",
     "district": "淡水區",
-    "station": "淡水",
-    "walk": 20,
+    "station": "新市一路",
+    "walk": 12,
     "address": "新北市淡水區中山北路一段247巷",
     "builder": "備查起造人：溪福建設股份有限公司",
     "rating": "C",
@@ -25433,20 +35489,24 @@ export const matureRegistryProjects = [
     "verified": false,
     "locationStatus": "estimated",
     "googleMapsListing": false,
-    "locationAccuracy": "政府備查巷弄範圍定位（45 個官方門牌範圍）；官方門牌座標至 淡水 最近出口直線約 1289 公尺，步行時間為保守估算",
+    "locationAccuracy": "政府備查巷弄範圍定位（45 個官方門牌範圍）；官方門牌座標至 新市一路 最近出口直線約 719 公尺，步行時間為保守估算",
     "governmentId": "109淡建字第00539號",
     "governmentStatus": "申報備查 1110728",
     "permit": "109淡建字第00539號",
     "households": "171",
-    "buildingLand": "大義段32地號"
+    "buildingLand": "大義段32地號",
+    "lines": [
+      "V",
+      "LRT"
+    ]
   },
   {
     "id": "registry-新北市-淡水區-宏國海天案",
     "name": "宏國海天案",
     "city": "新北市",
     "district": "淡水區",
-    "station": "紅樹林",
-    "walk": 11,
+    "station": "竿蓁林",
+    "walk": 6,
     "address": "新北市淡水區淡金路16巷",
     "builder": "備查起造人：建陞開發股份有限公司",
     "rating": "C",
@@ -25463,12 +35523,16 @@ export const matureRegistryProjects = [
     "verified": false,
     "locationStatus": "estimated",
     "googleMapsListing": false,
-    "locationAccuracy": "政府備查巷弄範圍定位（96 個官方門牌範圍）；官方門牌座標至 紅樹林 最近出口直線約 671 公尺，步行時間為保守估算",
+    "locationAccuracy": "政府備查巷弄範圍定位（96 個官方門牌範圍）；官方門牌座標至 竿蓁林 最近出口直線約 365 公尺，步行時間為保守估算",
     "governmentId": "110淡建字第00629-01號",
     "governmentStatus": "申報備查 ",
     "permit": "110淡建字第00629-01號",
     "households": "236",
-    "buildingLand": "海天段47-1地號"
+    "buildingLand": "海天段47-1地號",
+    "lines": [
+      "V",
+      "LRT"
+    ]
   },
   {
     "id": "registry-新北市-淡水區-村泉蒔美",
@@ -25498,7 +35562,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1140408",
     "permit": "113淡建字第00401號",
     "households": "89",
-    "buildingLand": "水仙段513-1地號"
+    "buildingLand": "水仙段513-1地號",
+    "lines": [
+      "R"
+    ]
   },
   {
     "id": "registry-新北市-淡水區-京美晴朗",
@@ -25528,15 +35595,16 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1140829",
     "permit": "111淡建字00223-01號",
     "households": "104",
-    "buildingLand": "淡海段124地號"
+    "buildingLand": "淡海段124地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-淡水區-佳昂新家",
     "name": "佳昂新家",
     "city": "新北市",
     "district": "淡水區",
-    "station": "淡水",
-    "walk": 46,
+    "station": "濱海沙崙",
+    "walk": 6,
     "address": "新北市淡水區濱海路二段202巷65弄",
     "builder": "備查起造人：佳昂建設股份有限公司",
     "rating": "C",
@@ -25553,20 +35621,24 @@ export const matureRegistryProjects = [
     "verified": false,
     "locationStatus": "estimated",
     "googleMapsListing": false,
-    "locationAccuracy": "政府備查巷弄範圍定位（13 個官方門牌範圍）；官方門牌座標至 淡水 最近出口直線約 2941 公尺，步行時間為保守估算",
+    "locationAccuracy": "政府備查巷弄範圍定位（13 個官方門牌範圍）；官方門牌座標至 濱海沙崙 最近出口直線約 335 公尺，步行時間為保守估算",
     "governmentId": "109淡建字第00399號",
     "governmentStatus": "申報備查 1110928",
     "permit": "109淡建字第00399號",
     "households": "118",
-    "buildingLand": "新市段166地號"
+    "buildingLand": "新市段166地號",
+    "lines": [
+      "V",
+      "LRT"
+    ]
   },
   {
     "id": "registry-新北市-淡水區-佳瑞心公園",
     "name": "佳瑞心公園",
     "city": "新北市",
     "district": "淡水區",
-    "station": "淡水",
-    "walk": 42,
+    "station": "濱海義山",
+    "walk": 4,
     "address": "新北市淡水區義山路一段401巷（新市段101地號）",
     "builder": "備查起造人：佳瑞建設股份有限公司",
     "rating": "C",
@@ -25583,20 +35655,24 @@ export const matureRegistryProjects = [
     "verified": false,
     "locationStatus": "estimated",
     "googleMapsListing": false,
-    "locationAccuracy": "政府備查巷弄範圍定位（24 個官方門牌範圍）；官方門牌座標至 淡水 最近出口直線約 2721 公尺，步行時間為保守估算",
+    "locationAccuracy": "政府備查巷弄範圍定位（24 個官方門牌範圍）；官方門牌座標至 濱海義山 最近出口直線約 209 公尺，步行時間為保守估算",
     "governmentId": "110淡建字第00355-01號",
     "governmentStatus": "申報備查 1111222",
     "permit": "110淡建字第00355-01號",
     "households": "138",
-    "buildingLand": "新市段101地號"
+    "buildingLand": "新市段101地號",
+    "lines": [
+      "V",
+      "LRT"
+    ]
   },
   {
     "id": "registry-新北市-淡水區-佳瑞向上",
     "name": "佳瑞向上",
     "city": "新北市",
     "district": "淡水區",
-    "station": "淡水",
-    "walk": 42,
+    "station": "濱海義山",
+    "walk": 4,
     "address": "新北市淡水區義山路一段401巷新市段111地號",
     "builder": "備查起造人：佳瑞建設股份有限公司",
     "rating": "C",
@@ -25613,20 +35689,24 @@ export const matureRegistryProjects = [
     "verified": false,
     "locationStatus": "estimated",
     "googleMapsListing": false,
-    "locationAccuracy": "政府備查巷弄範圍定位（24 個官方門牌範圍）；官方門牌座標至 淡水 最近出口直線約 2721 公尺，步行時間為保守估算",
+    "locationAccuracy": "政府備查巷弄範圍定位（24 個官方門牌範圍）；官方門牌座標至 濱海義山 最近出口直線約 209 公尺，步行時間為保守估算",
     "governmentId": "111淡建字第00089號",
     "governmentStatus": "申報備查 1120726",
     "permit": "111淡建字第00089號",
     "households": "166",
-    "buildingLand": "新市段111地號"
+    "buildingLand": "新市段111地號",
+    "lines": [
+      "V",
+      "LRT"
+    ]
   },
   {
     "id": "registry-新北市-淡水區-忠順景舞極",
     "name": "忠順景舞極",
     "city": "新北市",
     "district": "淡水區",
-    "station": "紅樹林",
-    "walk": 10,
+    "station": "竿蓁林",
+    "walk": 6,
     "address": "新北市淡水區淡金路50號旁",
     "builder": "備查起造人：忠順建設股份有限公司",
     "rating": "C",
@@ -25643,12 +35723,16 @@ export const matureRegistryProjects = [
     "verified": true,
     "locationStatus": "verified",
     "googleMapsListing": false,
-    "locationAccuracy": "實價登錄後續門牌配對（1 個門牌）；官方門牌座標至 紅樹林 最近出口直線約 647 公尺，步行時間為保守估算",
+    "locationAccuracy": "實價登錄後續門牌配對（1 個門牌）；官方門牌座標至 竿蓁林 最近出口直線約 350 公尺，步行時間為保守估算",
     "governmentId": "114淡建字第00315號",
     "governmentStatus": "申報備查 1141205",
     "permit": "114淡建字第00315號",
     "households": "62",
-    "buildingLand": "米蘭段598地號"
+    "buildingLand": "米蘭段598地號",
+    "lines": [
+      "V",
+      "LRT"
+    ]
   },
   {
     "id": "registry-新北市-淡水區-明日晴",
@@ -25678,7 +35762,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1120218",
     "permit": "105淡建字第00449-01號",
     "households": "112",
-    "buildingLand": "水仙段628地號"
+    "buildingLand": "水仙段628地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-淡水區-青澤",
@@ -25708,7 +35793,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1100708",
     "permit": "103淡建字第00162-1號",
     "households": "297",
-    "buildingLand": "馬偕段152地號"
+    "buildingLand": "馬偕段152地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-淡水區-致茂橋豐",
@@ -25738,7 +35824,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1140605",
     "permit": "112淡建字第00329號",
     "households": "113",
-    "buildingLand": "淡海段63地號"
+    "buildingLand": "淡海段63地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-淡水區-飛鳥之丘",
@@ -25768,15 +35855,18 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1111101",
     "permit": "109淡建字第00459-01號",
     "households": "172",
-    "buildingLand": "馬偕段162地號"
+    "buildingLand": "馬偕段162地號",
+    "lines": [
+      "R"
+    ]
   },
   {
     "id": "registry-新北市-淡水區-員邦徊",
     "name": "員邦徊",
     "city": "新北市",
     "district": "淡水區",
-    "station": "紅樹林",
-    "walk": 15,
+    "station": "竿蓁林",
+    "walk": 9,
     "address": "新北市淡水區坪頂路72巷旁",
     "builder": "備查起造人：員邦建設開發股份有限公司",
     "rating": "C",
@@ -25793,12 +35883,16 @@ export const matureRegistryProjects = [
     "verified": false,
     "locationStatus": "estimated",
     "googleMapsListing": false,
-    "locationAccuracy": "政府備查巷弄範圍定位（2 個官方門牌範圍）；官方門牌座標至 紅樹林 最近出口直線約 951 公尺，步行時間為保守估算",
+    "locationAccuracy": "政府備查巷弄範圍定位（2 個官方門牌範圍）；官方門牌座標至 竿蓁林 最近出口直線約 566 公尺，步行時間為保守估算",
     "governmentId": "113淡建字第00405號",
     "governmentStatus": "申報備查 1131226",
     "permit": "113淡建字第00405號",
     "households": "171",
-    "buildingLand": "海天段126地號"
+    "buildingLand": "海天段126地號",
+    "lines": [
+      "V",
+      "LRT"
+    ]
   },
   {
     "id": "registry-新北市-淡水區-海鷗日光",
@@ -25828,7 +35922,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1100712",
     "permit": "110淡建字第00020號",
     "households": "22",
-    "buildingLand": "海鷗段1008地號"
+    "buildingLand": "海鷗段1008地號",
+    "lines": [
+      "R"
+    ]
   },
   {
     "id": "registry-新北市-淡水區-勝華v8",
@@ -25858,15 +35955,16 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1110726",
     "permit": "109淡建字等00300號",
     "households": "78",
-    "buildingLand": "新市段108地號"
+    "buildingLand": "新市段108地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-淡水區-富麗ONE",
     "name": "富麗ONE",
     "city": "新北市",
     "district": "淡水區",
-    "station": "淡水",
-    "walk": 45,
+    "station": "濱海沙崙",
+    "walk": 6,
     "address": "新北市淡水區新市二路三段172巷16弄",
     "builder": "備查起造人：富利達開發股份有限公司",
     "rating": "C",
@@ -25883,12 +35981,16 @@ export const matureRegistryProjects = [
     "verified": false,
     "locationStatus": "estimated",
     "googleMapsListing": false,
-    "locationAccuracy": "政府備查巷弄範圍定位（32 個官方門牌範圍）；官方門牌座標至 淡水 最近出口直線約 2864 公尺，步行時間為保守估算",
+    "locationAccuracy": "政府備查巷弄範圍定位（32 個官方門牌範圍）；官方門牌座標至 濱海沙崙 最近出口直線約 325 公尺，步行時間為保守估算",
     "governmentId": "112淡建字第00395號",
     "governmentStatus": "申報備查 1140604",
     "permit": "112淡建字第00395號",
     "households": "138",
-    "buildingLand": "新市段118地號"
+    "buildingLand": "新市段118地號",
+    "lines": [
+      "V",
+      "LRT"
+    ]
   },
   {
     "id": "registry-新北市-淡水區-景上汀",
@@ -25913,12 +36015,15 @@ export const matureRegistryProjects = [
     "verified": true,
     "locationStatus": "verified",
     "googleMapsListing": false,
-    "locationAccuracy": "政府備查門牌配對；官方門牌座標至 竹圍 最近出口直線約 145 公尺，步行時間為保守估算",
+    "locationAccuracy": "政府備查門牌配對；官方門牌座標至 竹圍 最近出口直線約 136 公尺，步行時間為保守估算",
     "governmentId": "111淡建字第00273號",
     "governmentStatus": "申報備查 1120302",
     "permit": "111淡建字第00273號",
     "households": "64",
-    "buildingLand": "竹圍段59地號"
+    "buildingLand": "竹圍段59地號",
+    "lines": [
+      "R"
+    ]
   },
   {
     "id": "registry-新北市-淡水區-森原樹?樹之丘",
@@ -25948,7 +36053,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1120913",
     "permit": "111淡建字第00517號",
     "households": "152",
-    "buildingLand": "馬偕段425地號"
+    "buildingLand": "馬偕段425地號",
+    "lines": [
+      "R"
+    ]
   },
   {
     "id": "registry-新北市-淡水區-森原樹．樹之岩",
@@ -25978,7 +36086,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1110325",
     "permit": "110淡建字第00600號",
     "households": "210",
-    "buildingLand": "馬偕段271地號"
+    "buildingLand": "馬偕段271地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-淡水區-森原樹．樹之泉",
@@ -26008,7 +36117,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1110105",
     "permit": "110淡建字第00451號",
     "households": "148",
-    "buildingLand": "馬偕段132-3地號"
+    "buildingLand": "馬偕段132-3地號",
+    "lines": [
+      "R"
+    ]
   },
   {
     "id": "registry-新北市-淡水區-森原樹．樹之森",
@@ -26038,7 +36150,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1111130",
     "permit": "111淡建字第00311號",
     "households": "174",
-    "buildingLand": "馬偕段408-3地號"
+    "buildingLand": "馬偕段408-3地號",
+    "lines": [
+      "R"
+    ]
   },
   {
     "id": "registry-新北市-淡水區-琢渼",
@@ -26068,15 +36183,16 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1120426",
     "permit": "112淡建字第00062號",
     "households": "65",
-    "buildingLand": "淡海段210地號"
+    "buildingLand": "淡海段210地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-淡水區-新井澤+",
     "name": "新井澤+",
     "city": "新北市",
     "district": "淡水區",
-    "station": "淡水",
-    "walk": 42,
+    "station": "濱海沙崙",
+    "walk": 3,
     "address": "新北市淡水區新市一路一段99巷",
     "builder": "備查起造人：興合建設股份有限公司",
     "rating": "C",
@@ -26093,12 +36209,16 @@ export const matureRegistryProjects = [
     "verified": false,
     "locationStatus": "estimated",
     "googleMapsListing": false,
-    "locationAccuracy": "政府備查巷弄範圍定位（22 個官方門牌範圍）；官方門牌座標至 淡水 最近出口直線約 2710 公尺，步行時間為保守估算",
+    "locationAccuracy": "政府備查巷弄範圍定位（22 個官方門牌範圍）；官方門牌座標至 濱海沙崙 最近出口直線約 144 公尺，步行時間為保守估算",
     "governmentId": "113淡建字第00116號",
     "governmentStatus": "申報備查 1150327",
     "permit": "113淡建字第00116號",
     "households": "87",
-    "buildingLand": "新市段216地號"
+    "buildingLand": "新市段216地號",
+    "lines": [
+      "V",
+      "LRT"
+    ]
   },
   {
     "id": "registry-新北市-淡水區-新海城",
@@ -26128,7 +36248,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1130926",
     "permit": "112淡建字第00054-03號",
     "households": "2231",
-    "buildingLand": "淡海段38地號"
+    "buildingLand": "淡海段38地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-淡水區-萬企君品-上善區",
@@ -26158,7 +36279,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1121108",
     "permit": "112淡建字第00237號",
     "households": "83",
-    "buildingLand": "大義段923地號"
+    "buildingLand": "大義段923地號",
+    "lines": [
+      "R"
+    ]
   },
   {
     "id": "registry-新北市-淡水區-萬企君品-厚德區",
@@ -26188,15 +36312,18 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1120511",
     "permit": "111淡建字第00400號",
     "households": "55",
-    "buildingLand": "大義段917地號"
+    "buildingLand": "大義段917地號",
+    "lines": [
+      "R"
+    ]
   },
   {
     "id": "registry-新北市-淡水區-鉅陞ONE",
     "name": "鉅陞ONE",
     "city": "新北市",
     "district": "淡水區",
-    "station": "淡水",
-    "walk": 36,
+    "station": "淡水行政中心",
+    "walk": 3,
     "address": "新北市淡水區濱海路一段公司田段75.76.77號家樂福旁",
     "builder": "備查起造人：鉅陞建設股份有限公司",
     "rating": "C",
@@ -26213,12 +36340,16 @@ export const matureRegistryProjects = [
     "verified": true,
     "locationStatus": "verified",
     "googleMapsListing": false,
-    "locationAccuracy": "政府備查門牌配對；官方門牌座標至 淡水 最近出口直線約 2286 公尺，步行時間為保守估算",
+    "locationAccuracy": "政府備查門牌配對；官方門牌座標至 淡水行政中心 最近出口直線約 142 公尺，步行時間為保守估算",
     "governmentId": "111淡建字第419號",
     "governmentStatus": "申報備查 1111007",
     "permit": "111淡建字第419號",
     "households": "532",
-    "buildingLand": "公司田段75地號"
+    "buildingLand": "公司田段75地號",
+    "lines": [
+      "V",
+      "LRT"
+    ]
   },
   {
     "id": "registry-新北市-淡水區-嘉潤家泰氧森",
@@ -26248,15 +36379,16 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1120321",
     "permit": "111淡建字第00406-02號",
     "households": "237",
-    "buildingLand": "米蘭段475地號"
+    "buildingLand": "米蘭段475地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-淡水區-漫活時代1",
     "name": "漫活時代1",
     "city": "新北市",
     "district": "淡水區",
-    "station": "淡水",
-    "walk": 14,
+    "station": "竿蓁林",
+    "walk": 6,
     "address": "新北市淡水區竿蓁二街19巷",
     "builder": "備查起造人：鐵冠建設股份有限公司",
     "rating": "C",
@@ -26273,20 +36405,24 @@ export const matureRegistryProjects = [
     "verified": false,
     "locationStatus": "estimated",
     "googleMapsListing": false,
-    "locationAccuracy": "政府備查巷弄範圍定位（22 個官方門牌範圍）；官方門牌座標至 淡水 最近出口直線約 871 公尺，步行時間為保守估算",
+    "locationAccuracy": "政府備查巷弄範圍定位（22 個官方門牌範圍）；官方門牌座標至 竿蓁林 最近出口直線約 349 公尺，步行時間為保守估算",
     "governmentId": "110淡建字第00536號",
     "governmentStatus": "申報備查 1101122",
     "permit": "110淡建字第00536號",
     "households": "75",
-    "buildingLand": "海鷗段717地號"
+    "buildingLand": "海鷗段717地號",
+    "lines": [
+      "V",
+      "LRT"
+    ]
   },
   {
     "id": "registry-新北市-淡水區-漫活時代2",
     "name": "漫活時代2",
     "city": "新北市",
     "district": "淡水區",
-    "station": "淡水",
-    "walk": 14,
+    "station": "竿蓁林",
+    "walk": 6,
     "address": "新北市淡水區竿蓁二街19巷",
     "builder": "備查起造人：鐵冠建設股份有限公司",
     "rating": "C",
@@ -26303,12 +36439,16 @@ export const matureRegistryProjects = [
     "verified": false,
     "locationStatus": "estimated",
     "googleMapsListing": false,
-    "locationAccuracy": "政府備查巷弄範圍定位（22 個官方門牌範圍）；官方門牌座標至 淡水 最近出口直線約 871 公尺，步行時間為保守估算",
+    "locationAccuracy": "政府備查巷弄範圍定位（22 個官方門牌範圍）；官方門牌座標至 竿蓁林 最近出口直線約 349 公尺，步行時間為保守估算",
     "governmentId": "111淡建字第00189號",
     "governmentStatus": "申報備查 1110613",
     "permit": "111淡建字第00189號",
     "households": "132",
-    "buildingLand": "海鷗段706地號"
+    "buildingLand": "海鷗段706地號",
+    "lines": [
+      "V",
+      "LRT"
+    ]
   },
   {
     "id": "registry-新北市-淡水區-樹里?",
@@ -26338,15 +36478,18 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1111126",
     "permit": "111淡建字第00444號",
     "households": "26",
-    "buildingLand": "水仙段147地號"
+    "buildingLand": "水仙段147地號",
+    "lines": [
+      "R"
+    ]
   },
   {
     "id": "registry-新北市-淡水區-築家",
     "name": "築家",
     "city": "新北市",
     "district": "淡水區",
-    "station": "淡水",
-    "walk": 45,
+    "station": "臺北海洋大學",
+    "walk": 10,
     "address": "新北市淡水區沙崙路201巷",
     "builder": "備查起造人：富庭峰建設股份有限公司",
     "rating": "C",
@@ -26363,20 +36506,24 @@ export const matureRegistryProjects = [
     "verified": false,
     "locationStatus": "estimated",
     "googleMapsListing": false,
-    "locationAccuracy": "政府備查巷弄範圍定位（14 個官方門牌範圍）；官方門牌座標至 淡水 最近出口直線約 2885 公尺，步行時間為保守估算",
+    "locationAccuracy": "政府備查巷弄範圍定位（14 個官方門牌範圍）；官方門牌座標至 臺北海洋大學 最近出口直線約 617 公尺，步行時間為保守估算",
     "governmentId": "112淡建字第00208號",
     "governmentStatus": "申報備查 1120912",
     "permit": "112淡建字第00208號",
     "households": "14",
-    "buildingLand": "仁愛段16地號"
+    "buildingLand": "仁愛段16地號",
+    "lines": [
+      "V",
+      "LRT"
+    ]
   },
   {
     "id": "registry-新北市-淡水區-興格．御賞",
     "name": "興格．御賞",
     "city": "新北市",
     "district": "淡水區",
-    "station": "淡水",
-    "walk": 42,
+    "station": "淡水行政中心",
+    "walk": 6,
     "address": "新北市淡水區新市二路四段128號旁",
     "builder": "備查起造人：興格建設股份有限公司",
     "rating": "C",
@@ -26393,12 +36540,16 @@ export const matureRegistryProjects = [
     "verified": true,
     "locationStatus": "verified",
     "googleMapsListing": false,
-    "locationAccuracy": "實價登錄後續門牌配對（1 個門牌）；官方門牌座標至 淡水 最近出口直線約 2671 公尺，步行時間為保守估算",
+    "locationAccuracy": "實價登錄後續門牌配對（1 個門牌）；官方門牌座標至 淡水行政中心 最近出口直線約 379 公尺，步行時間為保守估算",
     "governmentId": "111淡建字第00003號",
     "governmentStatus": "申報備查 1110928",
     "permit": "111淡建字第00003號",
     "households": "110",
-    "buildingLand": "新市段41地號"
+    "buildingLand": "新市段41地號",
+    "lines": [
+      "V",
+      "LRT"
+    ]
   },
   {
     "id": "registry-新北市-淡水區-聯硯繪",
@@ -26428,15 +36579,16 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1100813",
     "permit": "109淡建字第00409號",
     "households": "42",
-    "buildingLand": "關渡段479地號"
+    "buildingLand": "關渡段479地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-淡水區-鴻灃青",
     "name": "鴻灃青",
     "city": "新北市",
     "district": "淡水區",
-    "station": "淡水",
-    "walk": 41,
+    "station": "淡水行政中心",
+    "walk": 6,
     "address": "新北市淡水區濱海路一段306巷60弄新市段63地號",
     "builder": "備查起造人：鴻灃建設股份有限公司",
     "rating": "C",
@@ -26453,20 +36605,24 @@ export const matureRegistryProjects = [
     "verified": false,
     "locationStatus": "estimated",
     "googleMapsListing": false,
-    "locationAccuracy": "政府備查巷弄範圍定位（23 個官方門牌範圍）；官方門牌座標至 淡水 最近出口直線約 2605 公尺，步行時間為保守估算",
+    "locationAccuracy": "政府備查巷弄範圍定位（23 個官方門牌範圍）；官方門牌座標至 淡水行政中心 最近出口直線約 375 公尺，步行時間為保守估算",
     "governmentId": "110淡建字第00146-01號",
     "governmentStatus": "申報備查 1110511",
     "permit": "110淡建字第00146-01號",
     "households": "187",
-    "buildingLand": "新市段63地號"
+    "buildingLand": "新市段63地號",
+    "lines": [
+      "V",
+      "LRT"
+    ]
   },
   {
     "id": "registry-新北市-淡水區-鴻灃COMO",
     "name": "鴻灃COMO",
     "city": "新北市",
     "district": "淡水區",
-    "station": "淡水",
-    "walk": 60,
+    "station": "臺北海洋大學",
+    "walk": 11,
     "address": "新北市淡水區新市二路一段崁頂五路交叉口",
     "builder": "備查起造人：鴻灃建設股份有限公司",
     "rating": "C",
@@ -26483,12 +36639,16 @@ export const matureRegistryProjects = [
     "verified": true,
     "locationStatus": "verified",
     "googleMapsListing": false,
-    "locationAccuracy": "新市二路一段／崁頂五路路口定位；官方門牌座標至 淡水 最近出口直線約 3860 公尺，步行時間為保守估算",
+    "locationAccuracy": "新市二路一段／崁頂五路路口定位；官方門牌座標至 臺北海洋大學 最近出口直線約 698 公尺，步行時間為保守估算",
     "governmentId": "109淡建字第00522-01號",
     "governmentStatus": "申報備查 1120327",
     "permit": "109淡建字第00522-01號",
     "households": "487",
-    "buildingLand": "淡海段140地號"
+    "buildingLand": "淡海段140地號",
+    "lines": [
+      "V",
+      "LRT"
+    ]
   },
   {
     "id": "registry-新北市-淡水區-藝沐汀",
@@ -26518,15 +36678,16 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1140423",
     "permit": "110淡建字第00094-02號",
     "households": "29",
-    "buildingLand": "關渡段450地號"
+    "buildingLand": "關渡段450地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-淡水區-Park99",
     "name": "Park99",
     "city": "新北市",
     "district": "淡水區",
-    "station": "淡水",
-    "walk": 42,
+    "station": "濱海義山",
+    "walk": 3,
     "address": "新北市淡水區義山路一段401巷62號旁",
     "builder": "備查起造人：佳陞建設股份有限公司",
     "rating": "C",
@@ -26543,20 +36704,24 @@ export const matureRegistryProjects = [
     "verified": true,
     "locationStatus": "verified",
     "googleMapsListing": false,
-    "locationAccuracy": "實價登錄後續門牌配對（1 個門牌）；官方門牌座標至 淡水 最近出口直線約 2704 公尺，步行時間為保守估算",
+    "locationAccuracy": "實價登錄後續門牌配對（1 個門牌）；官方門牌座標至 濱海義山 最近出口直線約 184 公尺，步行時間為保守估算",
     "governmentId": "109淡建字第00589-01號",
     "governmentStatus": "申報備查 1120830",
     "permit": "109淡建字第00589-01號",
     "households": "99",
-    "buildingLand": "新市段113地號"
+    "buildingLand": "新市段113地號",
+    "lines": [
+      "V",
+      "LRT"
+    ]
   },
   {
     "id": "registry-新北市-淡水區-SUN HOUSE",
     "name": "SUN HOUSE",
     "city": "新北市",
     "district": "淡水區",
-    "station": "紅樹林",
-    "walk": 12,
+    "station": "竿蓁林",
+    "walk": 5,
     "address": "新北市淡水區中正東路一段111巷1號",
     "builder": "備查起造人：昇樺建設股份有限公司",
     "rating": "C",
@@ -26573,12 +36738,16 @@ export const matureRegistryProjects = [
     "verified": true,
     "locationStatus": "verified",
     "googleMapsListing": false,
-    "locationAccuracy": "政府備查門牌配對；官方門牌座標至 紅樹林 最近出口直線約 772 公尺，步行時間為保守估算",
+    "locationAccuracy": "政府備查門牌配對；官方門牌座標至 竿蓁林 最近出口直線約 308 公尺，步行時間為保守估算",
     "governmentId": "114淡建字第00148號",
     "governmentStatus": "申報備查 1140724",
     "permit": "114淡建字第00148號",
     "households": "80",
-    "buildingLand": "海鷗段1072地號"
+    "buildingLand": "海鷗段1072地號",
+    "lines": [
+      "V",
+      "LRT"
+    ]
   },
   {
     "id": "registry-新北市-深坑區-台北彌勒家園",
@@ -26608,7 +36777,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1140502",
     "permit": "114深建字第00061號",
     "households": "63",
-    "buildingLand": "埔新段576地號"
+    "buildingLand": "埔新段576地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-新店區-上磐新亞",
@@ -26638,7 +36808,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1150512",
     "permit": "115店建字第00051號",
     "households": "53",
-    "buildingLand": "新和段686地號"
+    "buildingLand": "新和段686地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-新店區-大廣豊仁",
@@ -26668,7 +36839,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1120421",
     "permit": "112店建字第00112號",
     "households": "149",
-    "buildingLand": "中正段971地號"
+    "buildingLand": "中正段971地號",
+    "lines": [
+      "G"
+    ]
   },
   {
     "id": "registry-新北市-新店區-中央一邸",
@@ -26698,7 +36872,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1121129",
     "permit": "110店建字第00138-01號",
     "households": "8",
-    "buildingLand": "中央段1223地號"
+    "buildingLand": "中央段1223地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-新店區-友座明明德",
@@ -26728,7 +36903,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1140519",
     "permit": "114店建字第00115號",
     "households": "195",
-    "buildingLand": "明德段265地號"
+    "buildingLand": "明德段265地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-新店區-央北?禾園",
@@ -26758,15 +36934,18 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 ",
     "permit": "108店建字第00519-02號",
     "households": "136",
-    "buildingLand": "斯馨段76地號"
+    "buildingLand": "斯馨段76地號",
+    "lines": [
+      "G"
+    ]
   },
   {
     "id": "registry-新北市-新店區-名毅吾山",
     "name": "名毅吾山",
     "city": "新北市",
     "district": "新店區",
-    "station": "小碧潭",
-    "walk": 34,
+    "station": "景文科大",
+    "walk": 10,
     "address": "新北市新店區安康路二段107巷與安康路二段133號旁",
     "builder": "備查起造人：名毅建設股份有限公司",
     "rating": "C",
@@ -26783,20 +36962,24 @@ export const matureRegistryProjects = [
     "verified": true,
     "locationStatus": "verified",
     "googleMapsListing": false,
-    "locationAccuracy": "政府備查門牌配對；官方門牌座標至 小碧潭 最近出口直線約 2156 公尺，步行時間為保守估算",
+    "locationAccuracy": "政府備查門牌配對；官方門牌座標至 景文科大 最近出口直線約 611 公尺，步行時間為保守估算",
     "governmentId": "108店建字第00245-01號",
     "governmentStatus": "申報備查 1101207",
     "permit": "108店建字第00245-01號",
     "households": "67",
-    "buildingLand": "安德段844地號"
+    "buildingLand": "安德段844地號",
+    "lines": [
+      "K",
+      "LRT"
+    ]
   },
   {
     "id": "registry-新北市-新店區-名毅吾山 靚山區",
     "name": "名毅吾山 靚山區",
     "city": "新北市",
     "district": "新店區",
-    "station": "小碧潭",
-    "walk": 34,
+    "station": "景文科大",
+    "walk": 10,
     "address": "新北市新店區安康路二段133號旁",
     "builder": "備查起造人：名毅建設股份有限公司",
     "rating": "C",
@@ -26813,12 +36996,16 @@ export const matureRegistryProjects = [
     "verified": true,
     "locationStatus": "verified",
     "googleMapsListing": false,
-    "locationAccuracy": "政府備查門牌配對；官方門牌座標至 小碧潭 最近出口直線約 2156 公尺，步行時間為保守估算",
+    "locationAccuracy": "政府備查門牌配對；官方門牌座標至 景文科大 最近出口直線約 611 公尺，步行時間為保守估算",
     "governmentId": "109店建字號00122-01號",
     "governmentStatus": "申報備查 1111116",
     "permit": "109店建字號00122-01號",
     "households": "169",
-    "buildingLand": "安德段805地號"
+    "buildingLand": "安德段805地號",
+    "lines": [
+      "K",
+      "LRT"
+    ]
   },
   {
     "id": "registry-新北市-新店區-安可",
@@ -26848,7 +37035,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1101201",
     "permit": "110店建字第00159號",
     "households": "46",
-    "buildingLand": "安德段164地號"
+    "buildingLand": "安德段164地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-新店區-江陵天?",
@@ -26878,7 +37066,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1130522",
     "permit": "109店建字405-02號",
     "households": "90",
-    "buildingLand": "斯馨段25地號"
+    "buildingLand": "斯馨段25地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-新店區-江陵天碩中央特區",
@@ -26908,7 +37097,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1110315",
     "permit": "110店建字第00183-01號",
     "households": "251",
-    "buildingLand": "斯馨段132地號"
+    "buildingLand": "斯馨段132地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-新店區-江陵賀",
@@ -26938,7 +37128,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1141016",
     "permit": "110店建字第00125-02號",
     "households": "108",
-    "buildingLand": "斯馨段115地號"
+    "buildingLand": "斯馨段115地號",
+    "lines": [
+      "G"
+    ]
   },
   {
     "id": "registry-新北市-新店區-宏盛心中央",
@@ -26968,7 +37161,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1101223",
     "permit": "109店建字第00312-01號",
     "households": "141",
-    "buildingLand": "斯馨段86地號"
+    "buildingLand": "斯馨段86地號",
+    "lines": [
+      "G"
+    ]
   },
   {
     "id": "registry-新北市-新店區-宏普Grand Park",
@@ -26998,7 +37194,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1110728",
     "permit": "111店建字第00200號",
     "households": "130",
-    "buildingLand": "斯馨段40地號"
+    "buildingLand": "斯馨段40地號",
+    "lines": [
+      "G"
+    ]
   },
   {
     "id": "registry-新北市-新店區-佳元柒章",
@@ -27028,7 +37227,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1130612",
     "permit": "店建字第00178號",
     "households": "99",
-    "buildingLand": "寶強段1182地號"
+    "buildingLand": "寶強段1182地號",
+    "lines": [
+      "G"
+    ]
   },
   {
     "id": "registry-新北市-新店區-協富青睞",
@@ -27058,7 +37260,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1131226",
     "permit": "113店建字第00397號",
     "households": "48",
-    "buildingLand": "福園段345地號"
+    "buildingLand": "福園段345地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-新店區-岳軒京選",
@@ -27088,15 +37291,16 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1130726",
     "permit": "113店建字第00223號",
     "households": "49",
-    "buildingLand": "大豐段397地號"
+    "buildingLand": "大豐段397地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-新店區-幸福?",
     "name": "幸福?",
     "city": "新北市",
     "district": "新店區",
-    "station": "土城",
-    "walk": 71,
+    "station": "雙城",
+    "walk": 24,
     "address": "新北市新店區安康路三段561巷",
     "builder": "備查起造人：及福建設股份有限公司",
     "rating": "C",
@@ -27113,12 +37317,16 @@ export const matureRegistryProjects = [
     "verified": false,
     "locationStatus": "estimated",
     "googleMapsListing": false,
-    "locationAccuracy": "政府備查巷弄範圍定位（3 個官方門牌範圍）；官方門牌座標至 土城 最近出口直線約 4612 公尺，步行時間為保守估算",
+    "locationAccuracy": "政府備查巷弄範圍定位（3 個官方門牌範圍）；官方門牌座標至 雙城 最近出口直線約 1522 公尺，步行時間為保守估算",
     "governmentId": "106店建字第00352-01號",
     "governmentStatus": "申報備查 1121006",
     "permit": "106店建字第00352-01號",
     "households": "68",
-    "buildingLand": "錦秀段763地號"
+    "buildingLand": "錦秀段763地號",
+    "lines": [
+      "K",
+      "LRT"
+    ]
   },
   {
     "id": "registry-新北市-新店區-忠泰蘊",
@@ -27148,15 +37356,18 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1120101",
     "permit": "111店建字第00466號",
     "households": "83",
-    "buildingLand": "斯馨段87地號"
+    "buildingLand": "斯馨段87地號",
+    "lines": [
+      "G"
+    ]
   },
   {
     "id": "registry-新北市-新店區-昇峰安曼",
     "name": "昇峰安曼",
     "city": "新北市",
     "district": "新店區",
-    "station": "小碧潭",
-    "walk": 55,
+    "station": "台北小城",
+    "walk": 4,
     "address": "新北市新店區安康路二段323號旁",
     "builder": "備查起造人：昇峰建設股份有限公司",
     "rating": "C",
@@ -27173,12 +37384,16 @@ export const matureRegistryProjects = [
     "verified": true,
     "locationStatus": "verified",
     "googleMapsListing": false,
-    "locationAccuracy": "實價登錄後續門牌配對（1 個門牌）；官方門牌座標至 小碧潭 最近出口直線約 3545 公尺，步行時間為保守估算",
+    "locationAccuracy": "實價登錄後續門牌配對（1 個門牌）；官方門牌座標至 台北小城 最近出口直線約 208 公尺，步行時間為保守估算",
     "governmentId": "113店建字第00387號",
     "governmentStatus": "申報備查 1131217",
     "permit": "113店建字第00387號",
     "households": "156",
-    "buildingLand": "安豐段324地號"
+    "buildingLand": "安豐段324地號",
+    "lines": [
+      "K",
+      "LRT"
+    ]
   },
   {
     "id": "registry-新北市-新店區-東基M1",
@@ -27208,7 +37423,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1140414",
     "permit": "113店建字第00408號",
     "households": "70",
-    "buildingLand": "順安段605地號"
+    "buildingLand": "順安段605地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-新店區-河樂榮榮",
@@ -27238,7 +37454,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1110610",
     "permit": "111店建字第00131號",
     "households": "34",
-    "buildingLand": "寶元段599-4地號"
+    "buildingLand": "寶元段599-4地號",
+    "lines": [
+      "G"
+    ]
   },
   {
     "id": "registry-新北市-新店區-知馨",
@@ -27268,7 +37487,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1111222",
     "permit": "111店建字第00377號",
     "households": "47",
-    "buildingLand": "中央段936地號"
+    "buildingLand": "中央段936地號",
+    "lines": [
+      "G"
+    ]
   },
   {
     "id": "registry-新北市-新店區-恆合文?",
@@ -27298,7 +37520,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1121024",
     "permit": "112店建字第00335號",
     "households": "54",
-    "buildingLand": "中正段169地號"
+    "buildingLand": "中正段169地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-新店區-泉泓沐風",
@@ -27328,15 +37551,18 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1110126",
     "permit": "110店建字第00215號",
     "households": "13",
-    "buildingLand": "斯馨段98地號"
+    "buildingLand": "斯馨段98地號",
+    "lines": [
+      "G"
+    ]
   },
   {
     "id": "registry-新北市-新店區-耑美",
     "name": "耑美",
     "city": "新北市",
     "district": "新店區",
-    "station": "小碧潭",
-    "walk": 17,
+    "station": "安康",
+    "walk": 16,
     "address": "新北市新店區安康路一段173號旁",
     "builder": "備查起造人：大陸建設股份有限公司",
     "rating": "A",
@@ -27353,12 +37579,16 @@ export const matureRegistryProjects = [
     "verified": true,
     "locationStatus": "verified",
     "googleMapsListing": false,
-    "locationAccuracy": "實價登錄後續門牌配對（1 個門牌）；官方門牌座標至 小碧潭 最近出口直線約 1076 公尺，步行時間為保守估算",
+    "locationAccuracy": "實價登錄後續門牌配對（1 個門牌）；官方門牌座標至 安康 最近出口直線約 1011 公尺，步行時間為保守估算",
     "governmentId": "111店建字第00255號",
     "governmentStatus": "申報備查 1110922",
     "permit": "111店建字第00255號",
     "households": "64",
-    "buildingLand": "安康段682地號"
+    "buildingLand": "安康段682地號",
+    "lines": [
+      "K",
+      "LRT"
+    ]
   },
   {
     "id": "registry-新北市-新店區-唯我",
@@ -27388,7 +37618,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1110103",
     "permit": "110店建字第00641號",
     "households": "167",
-    "buildingLand": "斯馨段119地號"
+    "buildingLand": "斯馨段119地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-新店區-國揚光河",
@@ -27418,7 +37649,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1130712",
     "permit": "113店建字第00233號",
     "households": "337",
-    "buildingLand": "寶元段32-1地號"
+    "buildingLand": "寶元段32-1地號",
+    "lines": [
+      "G"
+    ]
   },
   {
     "id": "registry-新北市-新店區-富春居",
@@ -27448,15 +37682,16 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1131107",
     "permit": "(110)店建字第00518號",
     "households": "13",
-    "buildingLand": "中央段654地號"
+    "buildingLand": "中央段654地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-新店區-敦南之森",
     "name": "敦南之森",
     "city": "新北市",
     "district": "新店區",
-    "station": "景平",
-    "walk": 9,
+    "station": "新和國小",
+    "walk": 7,
     "address": "新北市新店區永安街45號",
     "builder": "備查起造人：茂德建設股份有限公司",
     "rating": "B",
@@ -27473,12 +37708,16 @@ export const matureRegistryProjects = [
     "verified": true,
     "locationStatus": "verified",
     "googleMapsListing": false,
-    "locationAccuracy": "政府備查門牌配對；官方門牌座標至 景平 最近出口直線約 579 公尺，步行時間為保守估算",
+    "locationAccuracy": "政府備查門牌配對；官方門牌座標至 新和國小 最近出口直線約 396 公尺，步行時間為保守估算",
     "governmentId": "114店建字第00032號",
     "governmentStatus": "申報備查 1140212",
     "permit": "114店建字第00032號",
     "households": "400",
-    "buildingLand": "新和段89地號"
+    "buildingLand": "新和段89地號",
+    "lines": [
+      "K",
+      "LRT"
+    ]
   },
   {
     "id": "registry-新北市-新店區-敦泰苑",
@@ -27508,7 +37747,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1131108",
     "permit": "108店建字第00571-01號",
     "households": "144",
-    "buildingLand": "黎明段441地號"
+    "buildingLand": "黎明段441地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-新店區-晴山?6期",
@@ -27538,7 +37778,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 ",
     "permit": "115店建字第00163號",
     "households": "44",
-    "buildingLand": "安康段1427地號"
+    "buildingLand": "安康段1427地號",
+    "lines": [
+      "G"
+    ]
   },
   {
     "id": "registry-新北市-新店區-晴山?III期-香緹花園",
@@ -27568,7 +37811,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1110620",
     "permit": "111店建字第00014號",
     "households": "4",
-    "buildingLand": "安康段1327地號"
+    "buildingLand": "安康段1327地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-新店區-晴山?V期四季莊園",
@@ -27598,7 +37842,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1121018",
     "permit": "112店建字00267號",
     "households": "11",
-    "buildingLand": "安康段1286地號"
+    "buildingLand": "安康段1286地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-新店區-湯泉綠中海2",
@@ -27628,7 +37873,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1120927",
     "permit": "112店建字第00181號",
     "households": "131",
-    "buildingLand": "香坡段308-5地號"
+    "buildingLand": "香坡段308-5地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-新店區-華固譽誠",
@@ -27653,12 +37899,16 @@ export const matureRegistryProjects = [
     "verified": true,
     "locationStatus": "verified",
     "googleMapsListing": false,
-    "locationAccuracy": "央北二路／中山路路口定位；官方門牌座標至 十四張 最近出口直線約 495 公尺，步行時間為保守估算",
+    "locationAccuracy": "央北二路／中山路路口定位；官方門牌座標至 十四張 最近出口直線約 472 公尺，步行時間為保守估算",
     "governmentId": "114店建字第00282號",
     "governmentStatus": "申報備查 1141024",
     "permit": "114店建字第00282號",
     "households": "346",
-    "buildingLand": "斯馨段19地號"
+    "buildingLand": "斯馨段19地號",
+    "lines": [
+      "K",
+      "LRT"
+    ]
   },
   {
     "id": "registry-新北市-新店區-華垿",
@@ -27688,7 +37938,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1150413",
     "permit": "111店建字第00383號",
     "households": "30",
-    "buildingLand": "中央段901地號"
+    "buildingLand": "中央段901地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-新店區-逸馨",
@@ -27718,7 +37969,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1120505",
     "permit": "110店建字第00110號",
     "households": "18",
-    "buildingLand": "中央段566地號"
+    "buildingLand": "中央段566地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-新店區-鈞豐大苑",
@@ -27748,7 +38000,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 ",
     "permit": "115店建字第00146號",
     "households": "61",
-    "buildingLand": "中央段1063地號"
+    "buildingLand": "中央段1063地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-新店區-鈞豐御花園",
@@ -27778,7 +38031,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1110819",
     "permit": "110店建字第00236-01號",
     "households": "39",
-    "buildingLand": "中央段611地號"
+    "buildingLand": "中央段611地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-新店區-鈞豐御寶",
@@ -27808,7 +38062,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1100910",
     "permit": "109店建字第00029-01號",
     "households": "29",
-    "buildingLand": "中央段542地號"
+    "buildingLand": "中央段542地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-新店區-鈞豐綠苑",
@@ -27838,7 +38093,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1110926",
     "permit": "110店建字第00235-01",
     "households": "6",
-    "buildingLand": "中央段816地號"
+    "buildingLand": "中央段816地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-新店區-傳家堡",
@@ -27868,7 +38124,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1110831",
     "permit": "111店建字第00082-01號",
     "households": "23",
-    "buildingLand": "中正段841地號"
+    "buildingLand": "中正段841地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-新店區-漢皇開雲",
@@ -27898,7 +38155,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1110704",
     "permit": "111店建字00187號",
     "households": "112",
-    "buildingLand": "新和段65地號"
+    "buildingLand": "新和段65地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-新店區-碧澄市",
@@ -27928,7 +38186,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1121026",
     "permit": "108店建字第00314號",
     "households": "18",
-    "buildingLand": "安康段1601地號"
+    "buildingLand": "安康段1601地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-新店區-鳳翔",
@@ -27958,7 +38217,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1110314",
     "permit": "108店建字第00251-2號",
     "households": "94",
-    "buildingLand": "斯馨段99地號"
+    "buildingLand": "斯馨段99地號",
+    "lines": [
+      "G"
+    ]
   },
   {
     "id": "registry-新北市-新店區-德孚琉玉",
@@ -27988,7 +38250,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1130123",
     "permit": "112店建字第00022-01號",
     "households": "6",
-    "buildingLand": "中央段1092地號"
+    "buildingLand": "中央段1092地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-新店區-德孚曉碧",
@@ -28018,15 +38281,18 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1120119",
     "permit": "111店建字第00463號",
     "households": "18",
-    "buildingLand": "中央段1099地號"
+    "buildingLand": "中央段1099地號",
+    "lines": [
+      "G"
+    ]
   },
   {
     "id": "registry-新北市-新店區-築康安安",
     "name": "築康安安",
     "city": "新北市",
     "district": "新店區",
-    "station": "小碧潭",
-    "walk": 70,
+    "station": "玫瑰中國城",
+    "walk": 5,
     "address": "新北市新店區安康路三段128號旁",
     "builder": "備查起造人：築康建設股份有限公司",
     "rating": "C",
@@ -28043,12 +38309,16 @@ export const matureRegistryProjects = [
     "verified": true,
     "locationStatus": "verified",
     "googleMapsListing": false,
-    "locationAccuracy": "政府備查門牌配對；官方門牌座標至 小碧潭 最近出口直線約 4498 公尺，步行時間為保守估算",
+    "locationAccuracy": "政府備查門牌配對；官方門牌座標至 玫瑰中國城 最近出口直線約 317 公尺，步行時間為保守估算",
     "governmentId": "111店建字第00256-2號",
     "governmentStatus": "申報備查 1120911",
     "permit": "111店建字第00256-2號",
     "households": "46",
-    "buildingLand": "安城段762-1地號"
+    "buildingLand": "安城段762-1地號",
+    "lines": [
+      "K",
+      "LRT"
+    ]
   },
   {
     "id": "registry-新北市-新店區-豐秀.大境-雅境區",
@@ -28073,12 +38343,15 @@ export const matureRegistryProjects = [
     "verified": false,
     "locationStatus": "estimated",
     "googleMapsListing": false,
-    "locationAccuracy": "政府備查巷弄範圍定位（7 個官方門牌範圍）；官方門牌座標至 新店 最近出口直線約 1733 公尺，步行時間為保守估算",
+    "locationAccuracy": "政府備查巷弄範圍定位（7 個官方門牌範圍）；官方門牌座標至 新店 最近出口直線約 1732 公尺，步行時間為保守估算",
     "governmentId": "108店建字第00552號",
     "governmentStatus": "申報備查 1150123",
     "permit": "108店建字第00552號",
     "households": "38",
-    "buildingLand": "秀水段592地號"
+    "buildingLand": "秀水段592地號",
+    "lines": [
+      "G"
+    ]
   },
   {
     "id": "registry-新北市-新店區-馥桂吉第",
@@ -28108,7 +38381,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1120920",
     "permit": "112店建字00269號",
     "households": "27",
-    "buildingLand": "中正段580-1地號"
+    "buildingLand": "中正段580-1地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-新店區-馥御NO.7",
@@ -28138,7 +38412,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1120217",
     "permit": "109店建字466-01號",
     "households": "8",
-    "buildingLand": "中央段799地號"
+    "buildingLand": "中央段799地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-新店區-寶安JR",
@@ -28168,7 +38443,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1140108",
     "permit": "113店建字第00399號",
     "households": "87",
-    "buildingLand": "順安段501地號"
+    "buildingLand": "順安段501地號",
+    "lines": [
+      "G"
+    ]
   },
   {
     "id": "registry-新北市-新店區-寶鈺",
@@ -28198,7 +38476,11 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1140306",
     "permit": "114店建字第00031號",
     "households": "634",
-    "buildingLand": "斯馨段61地號"
+    "buildingLand": "斯馨段61地號",
+    "lines": [
+      "K",
+      "LRT"
+    ]
   },
   {
     "id": "registry-新北市-新莊區-「築。滿滿」",
@@ -28228,7 +38510,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1120310",
     "permit": "112泰建字第00046號",
     "households": "406",
-    "buildingLand": "信華段二小段28-1地號"
+    "buildingLand": "信華段二小段28-1地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-新莊區-大亮攸煦YOSHI",
@@ -28253,12 +38536,15 @@ export const matureRegistryProjects = [
     "verified": true,
     "locationStatus": "verified",
     "googleMapsListing": false,
-    "locationAccuracy": "政府備查門牌配對；官方門牌座標至 新北產業園區 最近出口直線約 637 公尺，步行時間為保守估算",
+    "locationAccuracy": "政府備查門牌配對；官方門牌座標至 新北產業園區 最近出口直線約 605 公尺，步行時間為保守估算",
     "governmentId": "",
     "governmentStatus": "申報備查 1140627",
     "permit": "",
     "households": "44",
-    "buildingLand": ""
+    "buildingLand": "",
+    "lines": [
+      "Y"
+    ]
   },
   {
     "id": "registry-新北市-新莊區-中?中央廣場、??",
@@ -28288,7 +38574,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1140923",
     "permit": "112-莊-建-00126",
     "households": "384",
-    "buildingLand": "副都心段一小段50地號"
+    "buildingLand": "副都心段一小段50地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-新莊區-文華苑",
@@ -28318,7 +38605,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1130207",
     "permit": "113莊建字第00028號",
     "households": "170",
-    "buildingLand": "副都心段一小段202地號"
+    "buildingLand": "副都心段一小段202地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-新莊區-日和淳",
@@ -28348,7 +38636,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1120118",
     "permit": "109莊建字第00105號",
     "households": "35",
-    "buildingLand": "中原段343地號"
+    "buildingLand": "中原段343地號",
+    "lines": [
+      "Y"
+    ]
   },
   {
     "id": "registry-新北市-新莊區-日健昌",
@@ -28356,7 +38647,7 @@ export const matureRegistryProjects = [
     "city": "新北市",
     "district": "新莊區",
     "station": "幸福",
-    "walk": 7,
+    "walk": 6,
     "address": "新北市新莊區昌盛街及福壽街99巷口",
     "builder": "備查起造人：築悅開發股份有限公司",
     "rating": "C",
@@ -28373,12 +38664,15 @@ export const matureRegistryProjects = [
     "verified": true,
     "locationStatus": "verified",
     "googleMapsListing": false,
-    "locationAccuracy": "福壽街／昌盛街路口定位；官方門牌座標至 幸福 最近出口直線約 392 公尺，步行時間為保守估算",
+    "locationAccuracy": "福壽街／昌盛街路口定位；官方門牌座標至 幸福 最近出口直線約 376 公尺，步行時間為保守估算",
     "governmentId": "111莊建字第00456號",
     "governmentStatus": "申報備查 ",
     "permit": "111莊建字第00456號",
     "households": "202",
-    "buildingLand": "和平段565地號"
+    "buildingLand": "和平段565地號",
+    "lines": [
+      "Y"
+    ]
   },
   {
     "id": "registry-新北市-新莊區-永恆之新",
@@ -28403,12 +38697,15 @@ export const matureRegistryProjects = [
     "verified": true,
     "locationStatus": "verified",
     "googleMapsListing": false,
-    "locationAccuracy": "政府備查門牌配對；官方門牌座標至 新北產業園區 最近出口直線約 313 公尺，步行時間為保守估算",
+    "locationAccuracy": "政府備查門牌配對；官方門牌座標至 新北產業園區 最近出口直線約 281 公尺，步行時間為保守估算",
     "governmentId": "106莊建字第94-2號",
     "governmentStatus": "申報備查 1101008",
     "permit": "106莊建字第94-2號",
     "households": "49",
-    "buildingLand": "中原段40地號"
+    "buildingLand": "中原段40地號",
+    "lines": [
+      "Y"
+    ]
   },
   {
     "id": "registry-新北市-新莊區-永雄薪傳",
@@ -28438,7 +38735,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1120322",
     "permit": "108莊建字第00580-02號",
     "households": "68",
-    "buildingLand": "龍鳳段337地號"
+    "buildingLand": "龍鳳段337地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-新莊區-玄泰蔦居",
@@ -28468,7 +38766,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1141228",
     "permit": "114莊建字第00236號",
     "households": "79",
-    "buildingLand": "中原段212地號"
+    "buildingLand": "中原段212地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-新莊區-禾蓮心中美",
@@ -28498,7 +38797,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1140411",
     "permit": "114莊建字第00047號",
     "households": "158",
-    "buildingLand": "思源段999地號"
+    "buildingLand": "思源段999地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-新莊區-禾蓮心家園",
@@ -28528,7 +38828,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1110301",
     "permit": "110莊建字第00620號",
     "households": "174",
-    "buildingLand": "忠孝段409地號"
+    "buildingLand": "忠孝段409地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-新莊區-仰?",
@@ -28558,7 +38859,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1110331",
     "permit": "109莊建字第00043號",
     "households": "48",
-    "buildingLand": "副都心段一小段257地號"
+    "buildingLand": "副都心段一小段257地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-新莊區-自由之丘",
@@ -28588,7 +38890,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1110726",
     "permit": "111莊建字第00259號",
     "households": "125",
-    "buildingLand": "中原段9地號"
+    "buildingLand": "中原段9地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-新莊區-至賦",
@@ -28618,7 +38921,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1120417",
     "permit": "110莊建字第00380號",
     "households": "22",
-    "buildingLand": "新知段13地號"
+    "buildingLand": "新知段13地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-新莊區-妙佳人",
@@ -28648,7 +38952,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1130412",
     "permit": "112莊建字第00265號",
     "households": "16",
-    "buildingLand": "文德段652地號"
+    "buildingLand": "文德段652地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-新莊區-邦瓏雍玥",
@@ -28678,7 +38983,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1140207",
     "permit": "107莊建字第00356-03號",
     "households": "405",
-    "buildingLand": "合鳳段129地號"
+    "buildingLand": "合鳳段129地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-新莊區-亞昕商匯中心",
@@ -28686,7 +38992,7 @@ export const matureRegistryProjects = [
     "city": "新北市",
     "district": "新莊區",
     "station": "新北產業園區",
-    "walk": 12,
+    "walk": 11,
     "address": "新北市新莊區富貴路與昌仁路交界口",
     "builder": "備查起造人：亞昕國際開發股份有限公司",
     "rating": "A",
@@ -28703,12 +39009,15 @@ export const matureRegistryProjects = [
     "verified": true,
     "locationStatus": "verified",
     "googleMapsListing": false,
-    "locationAccuracy": "富貴路／昌仁路路口定位；官方門牌座標至 新北產業園區 最近出口直線約 763 公尺，步行時間為保守估算",
+    "locationAccuracy": "富貴路／昌仁路路口定位；官方門牌座標至 新北產業園區 最近出口直線約 707 公尺，步行時間為保守估算",
     "governmentId": "111莊建字第00057號",
     "governmentStatus": "申報備查 1120503",
     "permit": "111莊建字第00057號",
     "households": "339",
-    "buildingLand": "副都心段一小段59地號"
+    "buildingLand": "副都心段一小段59地號",
+    "lines": [
+      "A"
+    ]
   },
   {
     "id": "registry-新北市-新莊區-亞昕森中央",
@@ -28716,7 +39025,7 @@ export const matureRegistryProjects = [
     "city": "新北市",
     "district": "新莊區",
     "station": "新北產業園區",
-    "walk": 12,
+    "walk": 11,
     "address": "新北市新莊區富貴路與昌仁路交界口",
     "builder": "備查起造人：亞昕國際開發股份有限公司",
     "rating": "A",
@@ -28733,12 +39042,15 @@ export const matureRegistryProjects = [
     "verified": true,
     "locationStatus": "verified",
     "googleMapsListing": false,
-    "locationAccuracy": "富貴路／昌仁路路口定位；官方門牌座標至 新北產業園區 最近出口直線約 763 公尺，步行時間為保守估算",
+    "locationAccuracy": "富貴路／昌仁路路口定位；官方門牌座標至 新北產業園區 最近出口直線約 707 公尺，步行時間為保守估算",
     "governmentId": "111莊建字第00057號",
     "governmentStatus": "申報備查 1110215",
     "permit": "111莊建字第00057號",
     "households": "339",
-    "buildingLand": "副都心段一小段59地號"
+    "buildingLand": "副都心段一小段59地號",
+    "lines": [
+      "A"
+    ]
   },
   {
     "id": "registry-新北市-新莊區-昀集富昱",
@@ -28768,7 +39080,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1141020",
     "permit": "114莊建字第00257號",
     "households": "53",
-    "buildingLand": "新工段二小段46地號"
+    "buildingLand": "新工段二小段46地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-新莊區-東進新莊苑",
@@ -28798,7 +39111,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1100923",
     "permit": "110莊建字第00321號",
     "households": "46",
-    "buildingLand": "文德段858地號"
+    "buildingLand": "文德段858地號",
+    "lines": [
+      "O"
+    ]
   },
   {
     "id": "registry-新北市-新莊區-欣庄綻",
@@ -28828,7 +39144,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1141107",
     "permit": "114莊建字第00296號",
     "households": "76",
-    "buildingLand": "文德段243地號"
+    "buildingLand": "文德段243地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-新莊區-河成心湛",
@@ -28858,7 +39175,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 ",
     "permit": "113莊建字第00375號",
     "households": "10",
-    "buildingLand": "立德段213地號"
+    "buildingLand": "立德段213地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-新莊區-河成湛",
@@ -28883,12 +39201,15 @@ export const matureRegistryProjects = [
     "verified": false,
     "locationStatus": "estimated",
     "googleMapsListing": false,
-    "locationAccuracy": "政府備查巷弄範圍定位（9 個官方門牌範圍）；官方門牌座標至 幸福 最近出口直線約 810 公尺，步行時間為保守估算",
+    "locationAccuracy": "政府備查巷弄範圍定位（9 個官方門牌範圍）；官方門牌座標至 幸福 最近出口直線約 794 公尺，步行時間為保守估算",
     "governmentId": "111莊建字第00119號",
     "governmentStatus": "申報備查 1111020",
     "permit": "111莊建字第00119號",
     "households": "101",
-    "buildingLand": "自立段985地號"
+    "buildingLand": "自立段985地號",
+    "lines": [
+      "Y"
+    ]
   },
   {
     "id": "registry-新北市-新莊區-春城麗都",
@@ -28918,7 +39239,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1140418",
     "permit": "111莊建字第00117-01號",
     "households": "318",
-    "buildingLand": "副都心段一小段428地號"
+    "buildingLand": "副都心段一小段428地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-新莊區-是東騰",
@@ -28948,7 +39270,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1120816",
     "permit": "112莊建字第260號",
     "households": "64",
-    "buildingLand": "副都心段一小段140地號"
+    "buildingLand": "副都心段一小段140地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-新莊區-皆東騰",
@@ -28978,7 +39301,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 ",
     "permit": "115莊建字第130號",
     "households": "49",
-    "buildingLand": "副都心段一小段181-1地號"
+    "buildingLand": "副都心段一小段181-1地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-新莊區-皇鼎心莊",
@@ -29008,7 +39332,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1140210",
     "permit": "114莊建字第00013號",
     "households": "88",
-    "buildingLand": "後港段919地號"
+    "buildingLand": "後港段919地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-新莊區-宸熙丰悅",
@@ -29038,7 +39363,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1110329",
     "permit": "111莊建字第00083號",
     "households": "243",
-    "buildingLand": "全安段768地號"
+    "buildingLand": "全安段768地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-新莊區-國王大道 KING PARK",
@@ -29068,7 +39394,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1140224",
     "permit": "114莊建字第00049號",
     "households": "455",
-    "buildingLand": "副都心段一小段193地號"
+    "buildingLand": "副都心段一小段193地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-新莊區-國美珩月",
@@ -29093,12 +39420,15 @@ export const matureRegistryProjects = [
     "verified": false,
     "locationStatus": "estimated",
     "googleMapsListing": false,
-    "locationAccuracy": "政府備查巷弄範圍定位（6 個官方門牌範圍）；官方門牌座標至 新北產業園區 最近出口直線約 305 公尺，步行時間為保守估算",
+    "locationAccuracy": "政府備查巷弄範圍定位（6 個官方門牌範圍）；官方門牌座標至 新北產業園區 最近出口直線約 281 公尺，步行時間為保守估算",
     "governmentId": "108莊建字第00422-1號",
     "governmentStatus": "申報備查 1110215",
     "permit": "108莊建字第00422-1號",
     "households": "91",
-    "buildingLand": "中原段36地號"
+    "buildingLand": "中原段36地號",
+    "lines": [
+      "Y"
+    ]
   },
   {
     "id": "registry-新北市-新莊區-國泰·旭",
@@ -29123,20 +39453,23 @@ export const matureRegistryProjects = [
     "verified": true,
     "locationStatus": "verified",
     "googleMapsListing": false,
-    "locationAccuracy": "榮華路一段／昌學街路口定位；官方門牌座標至 新北產業園區 最近出口直線約 691 公尺，步行時間為保守估算",
+    "locationAccuracy": "榮華路一段／昌學街路口定位；官方門牌座標至 新北產業園區 最近出口直線約 662 公尺，步行時間為保守估算",
     "governmentId": "112莊建字第00192號",
     "governmentStatus": "申報備查 1120926",
     "permit": "112莊建字第00192號",
     "households": "93",
-    "buildingLand": "副都心段一小段102地號"
+    "buildingLand": "副都心段一小段102地號",
+    "lines": [
+      "Y"
+    ]
   },
   {
     "id": "registry-新北市-新莊區-國泰曦．",
     "name": "國泰曦．",
     "city": "新北市",
     "district": "新莊區",
-    "station": "新北產業園區",
-    "walk": 18,
+    "station": "新莊副都心",
+    "walk": 9,
     "address": "新北市新莊區榮華路二段與中富街口",
     "builder": "備查起造人：國泰建設股份有限公司",
     "rating": "A",
@@ -29153,12 +39486,15 @@ export const matureRegistryProjects = [
     "verified": true,
     "locationStatus": "verified",
     "googleMapsListing": false,
-    "locationAccuracy": "榮華路二段／中富街路口定位；官方門牌座標至 新北產業園區 最近出口直線約 1169 公尺，步行時間為保守估算",
+    "locationAccuracy": "榮華路二段／中富街路口定位；官方門牌座標至 新莊副都心 最近出口直線約 554 公尺，步行時間為保守估算",
     "governmentId": "114莊建字第00106號",
     "governmentStatus": "申報備查 1140429",
     "permit": "114莊建字第00106號",
     "households": "117",
-    "buildingLand": "副都心段一小段335-1地號"
+    "buildingLand": "副都心段一小段335-1地號",
+    "lines": [
+      "A"
+    ]
   },
   {
     "id": "registry-新北市-新莊區-勝旺居",
@@ -29188,7 +39524,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1120923",
     "permit": "110莊建字第00609號",
     "households": "153",
-    "buildingLand": "中原段207地號"
+    "buildingLand": "中原段207地號",
+    "lines": [
+      "Y"
+    ]
   },
   {
     "id": "registry-新北市-新莊區-勝旺家",
@@ -29218,7 +39557,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1141204",
     "permit": "111莊建字第00190號",
     "households": "87",
-    "buildingLand": "中原段31地號"
+    "buildingLand": "中原段31地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-新莊區-勝旺新",
@@ -29243,12 +39583,15 @@ export const matureRegistryProjects = [
     "verified": true,
     "locationStatus": "verified",
     "googleMapsListing": false,
-    "locationAccuracy": "政府備查門牌配對；官方門牌座標至 新北產業園區 最近出口直線約 379 公尺，步行時間為保守估算",
+    "locationAccuracy": "政府備查門牌配對；官方門牌座標至 新北產業園區 最近出口直線約 352 公尺，步行時間為保守估算",
     "governmentId": "111莊建字第00079號",
     "governmentStatus": "申報備查 1131209",
     "permit": "111莊建字第00079號",
     "households": "87",
-    "buildingLand": "中原段31-1地號"
+    "buildingLand": "中原段31-1地號",
+    "lines": [
+      "Y"
+    ]
   },
   {
     "id": "registry-新北市-新莊區-勝華寓",
@@ -29278,7 +39621,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1130112",
     "permit": "110莊建字第00648號",
     "households": "62",
-    "buildingLand": "中原段65地號"
+    "buildingLand": "中原段65地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-新莊區-富都匯",
@@ -29308,7 +39652,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1101028",
     "permit": "110莊建字第00239號",
     "households": "190",
-    "buildingLand": "副都心段一小段20-1地號"
+    "buildingLand": "副都心段一小段20-1地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-新莊區-富都新玉-富都區",
@@ -29338,15 +39683,16 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1140307",
     "permit": "113莊建字第00368號",
     "households": "128",
-    "buildingLand": "中泰段482地號"
+    "buildingLand": "中泰段482地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-新莊區-富都新玉-新玉區",
     "name": "富都新玉-新玉區",
     "city": "新北市",
     "district": "新莊區",
-    "station": "新莊",
-    "walk": 19,
+    "station": "泰山",
+    "walk": 18,
     "address": "新北市新莊區中港一街",
     "builder": "備查起造人：方圓開發建設股份有限公司",
     "rating": "C",
@@ -29363,12 +39709,15 @@ export const matureRegistryProjects = [
     "verified": false,
     "locationStatus": "estimated",
     "googleMapsListing": false,
-    "locationAccuracy": "政府備查巷弄範圍定位（28 個官方門牌範圍）；官方門牌座標至 新莊 最近出口直線約 1170 公尺，步行時間為保守估算",
+    "locationAccuracy": "政府備查巷弄範圍定位（28 個官方門牌範圍）；官方門牌座標至 泰山 最近出口直線約 1120 公尺，步行時間為保守估算",
     "governmentId": "113莊建字第00373號",
     "governmentStatus": "申報備查 1140619",
     "permit": "113莊建字第00373號",
     "households": "61",
-    "buildingLand": "中泰段471地號"
+    "buildingLand": "中泰段471地號",
+    "lines": [
+      "A"
+    ]
   },
   {
     "id": "registry-新北市-新莊區-富都新向",
@@ -29398,7 +39747,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1101001",
     "permit": "110莊建字第00458號",
     "households": "65",
-    "buildingLand": "雙鳳段194地號"
+    "buildingLand": "雙鳳段194地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-新莊區-富都馨",
@@ -29428,7 +39778,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1131125",
     "permit": "113莊建字第00374號",
     "households": "150",
-    "buildingLand": "副都心段一小段145地號"
+    "buildingLand": "副都心段一小段145地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-新莊區-新月大河",
@@ -29458,7 +39809,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1131112",
     "permit": "113莊建字第00364號",
     "households": "194",
-    "buildingLand": "瓊林段372地號"
+    "buildingLand": "瓊林段372地號",
+    "lines": [
+      "O"
+    ]
   },
   {
     "id": "registry-新北市-新莊區-新莊科達花園",
@@ -29488,7 +39842,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1110311",
     "permit": "(111)莊建字第00099號",
     "households": "165",
-    "buildingLand": "信華段二小段4地號"
+    "buildingLand": "信華段二小段4地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-新莊區-嘉學.",
@@ -29496,7 +39851,7 @@ export const matureRegistryProjects = [
     "city": "新北市",
     "district": "新莊區",
     "station": "新北產業園區",
-    "walk": 10,
+    "walk": 9,
     "address": "新北市新莊區昌學街５０號旁",
     "builder": "備查起造人：信義開發股份有限公司",
     "rating": "C",
@@ -29513,12 +39868,15 @@ export const matureRegistryProjects = [
     "verified": true,
     "locationStatus": "verified",
     "googleMapsListing": false,
-    "locationAccuracy": "實價登錄後續門牌配對（1 個門牌）；官方門牌座標至 新北產業園區 最近出口直線約 606 公尺，步行時間為保守估算",
+    "locationAccuracy": "實價登錄後續門牌配對（1 個門牌）；官方門牌座標至 新北產業園區 最近出口直線約 577 公尺，步行時間為保守估算",
     "governmentId": "111莊建字第00241號",
     "governmentStatus": "申報備查 1120721",
     "permit": "111莊建字第00241號",
     "households": "100",
-    "buildingLand": "副都心段一小段110地號"
+    "buildingLand": "副都心段一小段110地號",
+    "lines": [
+      "Y"
+    ]
   },
   {
     "id": "registry-新北市-新莊區-漢寶幸福綻",
@@ -29548,7 +39906,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1120118",
     "permit": "111莊建字第00249號",
     "households": "84",
-    "buildingLand": "中原段291地號"
+    "buildingLand": "中原段291地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-新莊區-碧瑤敦灃",
@@ -29573,12 +39932,15 @@ export const matureRegistryProjects = [
     "verified": true,
     "locationStatus": "verified",
     "googleMapsListing": false,
-    "locationAccuracy": "榮華路一段／昌德街路口定位；官方門牌座標至 幸福 最近出口直線約 825 公尺，步行時間為保守估算",
+    "locationAccuracy": "榮華路一段／昌德街路口定位；官方門牌座標至 幸福 最近出口直線約 823 公尺，步行時間為保守估算",
     "governmentId": "113莊建字第00039號",
     "governmentStatus": "申報備查 1130131",
     "permit": "113莊建字第00039號",
     "households": "188",
-    "buildingLand": "副都心段一小段228地號"
+    "buildingLand": "副都心段一小段228地號",
+    "lines": [
+      "Y"
+    ]
   },
   {
     "id": "registry-新北市-新莊區-碧瑤菁品",
@@ -29608,7 +39970,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1110323",
     "permit": "111莊建字第00061號",
     "households": "101",
-    "buildingLand": "信華段三小段2地號"
+    "buildingLand": "信華段三小段2地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-新莊區-福美富琚",
@@ -29638,15 +40001,18 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1140603",
     "permit": "111莊建字第00275號",
     "households": "91",
-    "buildingLand": "中原段156地號"
+    "buildingLand": "中原段156地號",
+    "lines": [
+      "Y"
+    ]
   },
   {
     "id": "registry-新北市-新莊區-蒲陽富都心",
     "name": "蒲陽富都心",
     "city": "新北市",
     "district": "新莊區",
-    "station": "幸福",
-    "walk": 18,
+    "station": "新莊副都心",
+    "walk": 10,
     "address": "新北市新莊區中原路122號",
     "builder": "備查起造人：蒲陽建設股份有限公司",
     "rating": "C",
@@ -29663,12 +40029,15 @@ export const matureRegistryProjects = [
     "verified": true,
     "locationStatus": "verified",
     "googleMapsListing": false,
-    "locationAccuracy": "中原路／中富街路口定位；官方門牌座標至 幸福 最近出口直線約 1165 公尺，步行時間為保守估算",
+    "locationAccuracy": "中原路／中富街路口定位；官方門牌座標至 新莊副都心 最近出口直線約 645 公尺，步行時間為保守估算",
     "governmentId": "112莊建字第00309號",
     "governmentStatus": "申報備查 1120911",
     "permit": "112莊建字第00309號",
     "households": "170",
-    "buildingLand": "副都心段六小段23地號"
+    "buildingLand": "副都心段六小段23地號",
+    "lines": [
+      "A"
+    ]
   },
   {
     "id": "registry-新北市-新莊區-曉西園",
@@ -29676,7 +40045,7 @@ export const matureRegistryProjects = [
     "city": "新北市",
     "district": "新莊區",
     "station": "新莊",
-    "walk": 6,
+    "walk": 5,
     "address": "新北市新莊區新莊路",
     "builder": "備查起造人：新大房建設股份有限公司",
     "rating": "C",
@@ -29693,12 +40062,15 @@ export const matureRegistryProjects = [
     "verified": true,
     "locationStatus": "verified",
     "googleMapsListing": false,
-    "locationAccuracy": "政府備查門牌配對；官方門牌座標至 新莊 最近出口直線約 332 公尺，步行時間為保守估算",
+    "locationAccuracy": "政府備查門牌配對；官方門牌座標至 新莊 最近出口直線約 270 公尺，步行時間為保守估算",
     "governmentId": "111莊建字第00106-01號",
     "governmentStatus": "申報備查 1120719",
     "permit": "111莊建字第00106-01號",
     "households": "44",
-    "buildingLand": "文德段235地號"
+    "buildingLand": "文德段235地號",
+    "lines": [
+      "O"
+    ]
   },
   {
     "id": "registry-新北市-新莊區-豐盛",
@@ -29728,7 +40100,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1101220",
     "permit": "107莊建字第00388-01號",
     "households": "155",
-    "buildingLand": "新樹段362地號"
+    "buildingLand": "新樹段362地號",
+    "lines": [
+      "BL"
+    ]
   },
   {
     "id": "registry-新北市-新莊區-雙橡園",
@@ -29758,7 +40133,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1101118",
     "permit": "110莊建字第00550號",
     "households": "137",
-    "buildingLand": "副都心段一小段144地號"
+    "buildingLand": "副都心段一小段144地號",
+    "lines": [
+      "Y"
+    ]
   },
   {
     "id": "registry-新北市-新莊區-馥華之道-鳳庭",
@@ -29788,7 +40166,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1140205",
     "permit": "114莊建字第00006號",
     "households": "656",
-    "buildingLand": "安和段115地號"
+    "buildingLand": "安和段115地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-新莊區-騏苑",
@@ -29818,7 +40197,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 ",
     "permit": "111莊建字第00135號",
     "households": "46",
-    "buildingLand": "後港段596地號"
+    "buildingLand": "後港段596地號",
+    "lines": [
+      "O"
+    ]
   },
   {
     "id": "registry-新北市-新莊區-瀚羽蒔光",
@@ -29848,7 +40230,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1110120",
     "permit": "108莊建字第00468-01號",
     "households": "160",
-    "buildingLand": "忠孝段473-2地號"
+    "buildingLand": "忠孝段473-2地號",
+    "lines": [
+      "O"
+    ]
   },
   {
     "id": "registry-新北市-樹林區-久煜青禾",
@@ -29878,15 +40263,18 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 ",
     "permit": "113樹建字第00026-01號",
     "households": "18",
-    "buildingLand": "慈恩段231地號"
+    "buildingLand": "慈恩段231地號",
+    "lines": [
+      "BL"
+    ]
   },
   {
     "id": "registry-新北市-樹林區-北大?",
     "name": "北大?",
     "city": "新北市",
     "district": "樹林區",
-    "station": "頂埔",
-    "walk": 61,
+    "station": "龍埔",
+    "walk": 9,
     "address": "新北市樹林區大成路1號旁",
     "builder": "備查起造人：富總建設股份有限公司",
     "rating": "C",
@@ -29903,20 +40291,24 @@ export const matureRegistryProjects = [
     "verified": true,
     "locationStatus": "verified",
     "googleMapsListing": false,
-    "locationAccuracy": "實價登錄後續門牌配對（1 個門牌）；官方門牌座標至 頂埔 最近出口直線約 3963 公尺，步行時間為保守估算",
+    "locationAccuracy": "實價登錄後續門牌配對（1 個門牌）；官方門牌座標至 龍埔 最近出口直線約 549 公尺，步行時間為保守估算",
     "governmentId": "112樹建字第00064號",
     "governmentStatus": "申報備查 1120325",
     "permit": "112樹建字第00064號",
     "households": "100",
-    "buildingLand": "大學段二小段110地號"
+    "buildingLand": "大學段二小段110地號",
+    "lines": [
+      "LB",
+      "LRT"
+    ]
   },
   {
     "id": "registry-新北市-樹林區-北大品",
     "name": "北大品",
     "city": "新北市",
     "district": "樹林區",
-    "station": "頂埔",
-    "walk": 60,
+    "station": "龍埔",
+    "walk": 18,
     "address": "新北市樹林區學林路大成路口",
     "builder": "備查起造人：富總建設股份有限公司",
     "rating": "C",
@@ -29933,12 +40325,16 @@ export const matureRegistryProjects = [
     "verified": true,
     "locationStatus": "verified",
     "googleMapsListing": false,
-    "locationAccuracy": "大成路／學林路路口定位；官方門牌座標至 頂埔 最近出口直線約 3884 公尺，步行時間為保守估算",
+    "locationAccuracy": "大成路／學林路路口定位；官方門牌座標至 龍埔 最近出口直線約 1143 公尺，步行時間為保守估算",
     "governmentId": "110樹建字第00404號",
     "governmentStatus": "申報備查 1100922",
     "permit": "110樹建字第00404號",
     "households": "33",
-    "buildingLand": "大學段二小段35地號"
+    "buildingLand": "大學段二小段35地號",
+    "lines": [
+      "LB",
+      "LRT"
+    ]
   },
   {
     "id": "registry-新北市-樹林區-全邑興.美",
@@ -29968,7 +40364,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1110307",
     "permit": "111樹建字第00066號",
     "households": "46",
-    "buildingLand": "博愛段912地號"
+    "buildingLand": "博愛段912地號",
+    "lines": [
+      "BL"
+    ]
   },
   {
     "id": "registry-新北市-樹林區-米蘭敦品-名門",
@@ -29998,7 +40397,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1141017",
     "permit": "109樹建字第00375-01號",
     "households": "19",
-    "buildingLand": "復興段818地號"
+    "buildingLand": "復興段818地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-樹林區-米蘭敦品-新貴區",
@@ -30028,7 +40428,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1141031",
     "permit": "114樹建字第00237號",
     "households": "21",
-    "buildingLand": "樹德段559-1地號"
+    "buildingLand": "樹德段559-1地號",
+    "lines": [
+      "BL"
+    ]
   },
   {
     "id": "registry-新北市-樹林區-米蘭敦美",
@@ -30058,15 +40461,16 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1110427",
     "permit": "111樹建字第00126號",
     "households": "73",
-    "buildingLand": "樹德段530-5地號"
+    "buildingLand": "樹德段530-5地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-樹林區-欣好蒔光",
     "name": "欣好蒔光",
     "city": "新北市",
     "district": "樹林區",
-    "station": "頂埔",
-    "walk": 35,
+    "station": "長壽山",
+    "walk": 24,
     "address": "新北市樹林區柑園街一段",
     "builder": "備查起造人：欣家園建設有限公司",
     "rating": "C",
@@ -30083,20 +40487,24 @@ export const matureRegistryProjects = [
     "verified": true,
     "locationStatus": "verified",
     "googleMapsListing": false,
-    "locationAccuracy": "政府備查門牌配對；官方門牌座標至 頂埔 最近出口直線約 2214 公尺，步行時間為保守估算",
+    "locationAccuracy": "政府備查門牌配對；官方門牌座標至 長壽山 最近出口直線約 1526 公尺，步行時間為保守估算",
     "governmentId": "113樹建字第00299號",
     "governmentStatus": "申報備查 1131205",
     "permit": "113樹建字第00299號",
     "households": "27",
-    "buildingLand": "東園段520地號"
+    "buildingLand": "東園段520地號",
+    "lines": [
+      "LB",
+      "LRT"
+    ]
   },
   {
     "id": "registry-新北市-樹林區-欣懋川玥",
     "name": "欣懋川玥",
     "city": "新北市",
     "district": "樹林區",
-    "station": "頂埔",
-    "walk": 44,
+    "station": "長壽山",
+    "walk": 37,
     "address": "新北市樹林區西圳街二段12號旁",
     "builder": "備查起造人：欣懋建設股份有限公司",
     "rating": "C",
@@ -30113,12 +40521,16 @@ export const matureRegistryProjects = [
     "verified": true,
     "locationStatus": "verified",
     "googleMapsListing": false,
-    "locationAccuracy": "政府備查門牌配對；官方門牌座標至 頂埔 最近出口直線約 2849 公尺，步行時間為保守估算",
+    "locationAccuracy": "政府備查門牌配對；官方門牌座標至 長壽山 最近出口直線約 2403 公尺，步行時間為保守估算",
     "governmentId": "114樹建字第00029號",
     "governmentStatus": "申報備查 1140324",
     "permit": "114樹建字第00029號",
     "households": "95",
-    "buildingLand": "西園段52地號"
+    "buildingLand": "西園段52地號",
+    "lines": [
+      "LB",
+      "LRT"
+    ]
   },
   {
     "id": "registry-新北市-樹林區-泓昇原宿",
@@ -30148,15 +40560,18 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1110520",
     "permit": "110樹建字第00565號",
     "households": "40",
-    "buildingLand": "文林段1028地號"
+    "buildingLand": "文林段1028地號",
+    "lines": [
+      "BL"
+    ]
   },
   {
     "id": "registry-新北市-樹林區-長群樂樂",
     "name": "長群樂樂",
     "city": "新北市",
     "district": "樹林區",
-    "station": "頂埔",
-    "walk": 46,
+    "station": "龍埔",
+    "walk": 28,
     "address": "新北市樹林區柑園街一段",
     "builder": "備查起造人：悅田建設股份有限公司",
     "rating": "C",
@@ -30173,20 +40588,24 @@ export const matureRegistryProjects = [
     "verified": false,
     "locationStatus": "estimated",
     "googleMapsListing": false,
-    "locationAccuracy": "政府備查巷弄範圍定位（19 個官方門牌範圍）；官方門牌座標至 頂埔 最近出口直線約 2943 公尺，步行時間為保守估算",
+    "locationAccuracy": "政府備查巷弄範圍定位（19 個官方門牌範圍）；官方門牌座標至 龍埔 最近出口直線約 1760 公尺，步行時間為保守估算",
     "governmentId": "110樹建字第00586號",
     "governmentStatus": "申報備查 1101206",
     "permit": "110樹建字第00586號",
     "households": "54",
-    "buildingLand": "東園段733地號"
+    "buildingLand": "東園段733地號",
+    "lines": [
+      "LB",
+      "LRT"
+    ]
   },
   {
     "id": "registry-新北市-樹林區-將捷朗學",
     "name": "將捷朗學",
     "city": "新北市",
     "district": "樹林區",
-    "station": "頂埔",
-    "walk": 62,
+    "station": "龍埔",
+    "walk": 17,
     "address": "新北市樹林區學勤路333號旁",
     "builder": "備查起造人：將捷股份有限公司",
     "rating": "B",
@@ -30203,20 +40622,24 @@ export const matureRegistryProjects = [
     "verified": true,
     "locationStatus": "verified",
     "googleMapsListing": false,
-    "locationAccuracy": "政府備查門牌配對；官方門牌座標至 頂埔 最近出口直線約 4005 公尺，步行時間為保守估算",
+    "locationAccuracy": "政府備查門牌配對；官方門牌座標至 龍埔 最近出口直線約 1067 公尺，步行時間為保守估算",
     "governmentId": "112樹建字第00391號",
     "governmentStatus": "申報備查 1130719",
     "permit": "112樹建字第00391號",
     "households": "60",
-    "buildingLand": "大學段二小段28地號"
+    "buildingLand": "大學段二小段28地號",
+    "lines": [
+      "LB",
+      "LRT"
+    ]
   },
   {
     "id": "registry-新北市-樹林區-荷蘊煦",
     "name": "荷蘊煦",
     "city": "新北市",
     "district": "樹林區",
-    "station": "頂埔",
-    "walk": 26,
+    "station": "媽祖田",
+    "walk": 20,
     "address": "新北市樹林區柑園街一段77號邊工地",
     "builder": "備查起造人：荷蘊建設有限公司",
     "rating": "C",
@@ -30233,12 +40656,16 @@ export const matureRegistryProjects = [
     "verified": true,
     "locationStatus": "verified",
     "googleMapsListing": false,
-    "locationAccuracy": "政府備查門牌配對；官方門牌座標至 頂埔 最近出口直線約 1678 公尺，步行時間為保守估算",
+    "locationAccuracy": "政府備查門牌配對；官方門牌座標至 媽祖田 最近出口直線約 1281 公尺，步行時間為保守估算",
     "governmentId": "113樹建字第00158號",
     "governmentStatus": "申報備查 1130912",
     "permit": "113樹建字第00158號",
     "households": "18",
-    "buildingLand": "東園段202地號"
+    "buildingLand": "東園段202地號",
+    "lines": [
+      "LB",
+      "LRT"
+    ]
   },
   {
     "id": "registry-新北市-樹林區-舜記福砌",
@@ -30268,15 +40695,18 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1130426",
     "permit": "113樹建字第00108號",
     "households": "23",
-    "buildingLand": "中華段145地號"
+    "buildingLand": "中華段145地號",
+    "lines": [
+      "BL"
+    ]
   },
   {
     "id": "registry-新北市-樹林區-騰翔樹与苑",
     "name": "騰翔樹与苑",
     "city": "新北市",
     "district": "樹林區",
-    "station": "頂埔",
-    "walk": 29,
+    "station": "媽祖田",
+    "walk": 22,
     "address": "新北市樹林區柑園街一段116巷",
     "builder": "備查起造人：騰翔資產管理股份有限公司",
     "rating": "NR",
@@ -30293,12 +40723,16 @@ export const matureRegistryProjects = [
     "verified": false,
     "locationStatus": "estimated",
     "googleMapsListing": false,
-    "locationAccuracy": "政府備查巷弄範圍定位（1 個官方門牌範圍）；官方門牌座標至 頂埔 最近出口直線約 1863 公尺，步行時間為保守估算",
+    "locationAccuracy": "政府備查巷弄範圍定位（1 個官方門牌範圍）；官方門牌座標至 媽祖田 最近出口直線約 1417 公尺，步行時間為保守估算",
     "governmentId": "113樹建字第00365號",
     "governmentStatus": "申報備查 1131205",
     "permit": "113樹建字第00365號",
     "households": "99",
-    "buildingLand": "北園段482地號"
+    "buildingLand": "北園段482地號",
+    "lines": [
+      "LB",
+      "LRT"
+    ]
   },
   {
     "id": "registry-新北市-蘆洲區-九揚盧登堡",
@@ -30323,12 +40757,15 @@ export const matureRegistryProjects = [
     "verified": false,
     "locationStatus": "estimated",
     "googleMapsListing": false,
-    "locationAccuracy": "政府備查巷弄範圍定位（46 個官方門牌範圍）；官方門牌座標至 蘆洲 最近出口直線約 372 公尺，步行時間為保守估算",
+    "locationAccuracy": "政府備查巷弄範圍定位（46 個官方門牌範圍）；官方門牌座標至 蘆洲 最近出口直線約 366 公尺，步行時間為保守估算",
     "governmentId": "110蘆建字第00549號",
     "governmentStatus": "申報備查 1101123",
     "permit": "110蘆建字第00549號",
     "households": "102",
-    "buildingLand": "正義段104地號"
+    "buildingLand": "正義段104地號",
+    "lines": [
+      "O"
+    ]
   },
   {
     "id": "registry-新北市-蘆洲區-九揚盧登堡(透天)",
@@ -30353,12 +40790,15 @@ export const matureRegistryProjects = [
     "verified": false,
     "locationStatus": "estimated",
     "googleMapsListing": false,
-    "locationAccuracy": "政府備查巷弄範圍定位（46 個官方門牌範圍）；官方門牌座標至 蘆洲 最近出口直線約 372 公尺，步行時間為保守估算",
+    "locationAccuracy": "政府備查巷弄範圍定位（46 個官方門牌範圍）；官方門牌座標至 蘆洲 最近出口直線約 366 公尺，步行時間為保守估算",
     "governmentId": "110蘆建字00551號",
     "governmentStatus": "申報備查 1110110",
     "permit": "110蘆建字00551號",
     "households": "1",
-    "buildingLand": "正義段105-1地號"
+    "buildingLand": "正義段105-1地號",
+    "lines": [
+      "O"
+    ]
   },
   {
     "id": "registry-新北市-蘆洲區-大鑽蘆洲首席",
@@ -30388,7 +40828,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1100730",
     "permit": "110蘆建字第00133-01號",
     "households": "13",
-    "buildingLand": "民義段462地號"
+    "buildingLand": "民義段462地號",
+    "lines": [
+      "O"
+    ]
   },
   {
     "id": "registry-新北市-蘆洲區-中山．極",
@@ -30413,12 +40856,15 @@ export const matureRegistryProjects = [
     "verified": true,
     "locationStatus": "verified",
     "googleMapsListing": false,
-    "locationAccuracy": "政府備查門牌配對；官方門牌座標至 三民高中 最近出口直線約 375 公尺，步行時間為保守估算",
+    "locationAccuracy": "政府備查門牌配對；官方門牌座標至 三民高中 最近出口直線約 366 公尺，步行時間為保守估算",
     "governmentId": "112蘆建字第00363號",
     "governmentStatus": "申報備查 1121122",
     "permit": "112蘆建字第00363號",
     "households": "22",
-    "buildingLand": "成功段664地號"
+    "buildingLand": "成功段664地號",
+    "lines": [
+      "O"
+    ]
   },
   {
     "id": "registry-新北市-蘆洲區-中路邸",
@@ -30448,7 +40894,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1140422",
     "permit": "112蘆建字第00115號",
     "households": "26",
-    "buildingLand": "光華段1189地號"
+    "buildingLand": "光華段1189地號",
+    "lines": [
+      "O"
+    ]
   },
   {
     "id": "registry-新北市-蘆洲區-中興匯",
@@ -30478,7 +40927,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1110127",
     "permit": "109蘆建字第00425",
     "households": "72",
-    "buildingLand": "集賢段151地號"
+    "buildingLand": "集賢段151地號",
+    "lines": [
+      "O"
+    ]
   },
   {
     "id": "registry-新北市-蘆洲區-初見?未來",
@@ -30508,7 +40960,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1150211",
     "permit": "114蘆建字第00160號",
     "households": "124",
-    "buildingLand": "樹德段55地號"
+    "buildingLand": "樹德段55地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-蘆洲區-金世金典",
@@ -30538,7 +40991,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1130402",
     "permit": "111蘆建字第431號",
     "households": "44",
-    "buildingLand": "正義段614地號"
+    "buildingLand": "正義段614地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-蘆洲區-長安幸福匯",
@@ -30568,7 +41022,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1110623",
     "permit": "110蘆建字第00622號",
     "households": "34",
-    "buildingLand": "光華段522地號"
+    "buildingLand": "光華段522地號",
+    "lines": [
+      "O"
+    ]
   },
   {
     "id": "registry-新北市-蘆洲區-御陽居",
@@ -30598,7 +41055,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1100910",
     "permit": "110蘆建字第00123號",
     "households": "18",
-    "buildingLand": "民生段522地號"
+    "buildingLand": "民生段522地號",
+    "lines": [
+      "O"
+    ]
   },
   {
     "id": "registry-新北市-蘆洲區-喜福匯六期",
@@ -30628,7 +41088,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1121109",
     "permit": "",
     "households": "58",
-    "buildingLand": ""
+    "buildingLand": "",
+    "lines": [
+      "O"
+    ]
   },
   {
     "id": "registry-新北市-蘆洲區-新樸王樣",
@@ -30658,7 +41121,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1130425",
     "permit": "113蘆建字第00125號",
     "households": "126",
-    "buildingLand": "保和段405地號"
+    "buildingLand": "保和段405地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-蘆洲區-當代集賢-琢謙",
@@ -30688,7 +41152,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1130709",
     "permit": "108蘆建字第00530-01",
     "households": "33",
-    "buildingLand": "集賢段519地號"
+    "buildingLand": "集賢段519地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-蘆洲區-當代集賢-琢璽",
@@ -30718,7 +41183,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1141105",
     "permit": "110蘆建字第00453號",
     "households": "123",
-    "buildingLand": "重陽段7地號"
+    "buildingLand": "重陽段7地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-蘆洲區-鴻悅玖馥",
@@ -30748,7 +41214,10 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1130306",
     "permit": "112蘆建字第00014號",
     "households": "33",
-    "buildingLand": "光華段1388地號"
+    "buildingLand": "光華段1388地號",
+    "lines": [
+      "O"
+    ]
   },
   {
     "id": "registry-新北市-鶯歌區-?站Ace",
@@ -30778,15 +41247,16 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1101201",
     "permit": "110鶯建字第00492號",
     "households": "69",
-    "buildingLand": "中正段202地號"
+    "buildingLand": "中正段202地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-鶯歌區-上林旭",
     "name": "上林旭",
     "city": "新北市",
     "district": "鶯歌區",
-    "station": "頂埔",
-    "walk": 105,
+    "station": "陶瓷老街",
+    "walk": 12,
     "address": "新北市鶯歌區中山路138巷",
     "builder": "備查起造人：上林建設股份有限公司",
     "rating": "C",
@@ -30803,20 +41273,24 @@ export const matureRegistryProjects = [
     "verified": false,
     "locationStatus": "estimated",
     "googleMapsListing": false,
-    "locationAccuracy": "政府備查巷弄範圍定位（48 個官方門牌範圍）；官方門牌座標至 頂埔 最近出口直線約 6795 公尺，步行時間為保守估算",
+    "locationAccuracy": "政府備查巷弄範圍定位（48 個官方門牌範圍）；官方門牌座標至 陶瓷老街 最近出口直線約 729 公尺，步行時間為保守估算",
     "governmentId": "113鶯建字第00348號",
     "governmentStatus": "申報備查 1140509",
     "permit": "113鶯建字第00348號",
     "households": "10",
-    "buildingLand": "中山段872地號"
+    "buildingLand": "中山段872地號",
+    "lines": [
+      "LB",
+      "LRT"
+    ]
   },
   {
     "id": "registry-新北市-鶯歌區-四季琢硯",
     "name": "四季琢硯",
     "city": "新北市",
     "district": "鶯歌區",
-    "station": "頂埔",
-    "walk": 132,
+    "station": "鶯桃福德",
+    "walk": 11,
     "address": "新北市鶯歌區鶯歌路281號對面",
     "builder": "備查起造人：合硯建設股份有限公司",
     "rating": "C",
@@ -30833,20 +41307,24 @@ export const matureRegistryProjects = [
     "verified": true,
     "locationStatus": "verified",
     "googleMapsListing": false,
-    "locationAccuracy": "實價登錄後續門牌配對（1 個門牌）；官方門牌座標至 頂埔 最近出口直線約 8541 公尺，步行時間為保守估算",
+    "locationAccuracy": "實價登錄後續門牌配對（1 個門牌）；官方門牌座標至 鶯桃福德 最近出口直線約 654 公尺，步行時間為保守估算",
     "governmentId": "110鶯建字第00340號",
     "governmentStatus": "申報備查 1111027",
     "permit": "110鶯建字第00340號",
     "households": "191",
-    "buildingLand": "鳳鳴段317地號"
+    "buildingLand": "鳳鳴段317地號",
+    "lines": [
+      "LB",
+      "LRT"
+    ]
   },
   {
     "id": "registry-新北市-鶯歌區-巨東‧藏",
     "name": "巨東‧藏",
     "city": "新北市",
     "district": "鶯歌區",
-    "station": "頂埔",
-    "walk": 120,
+    "station": "國華",
+    "walk": 7,
     "address": "新北市鶯歌區國光街62號旁",
     "builder": "備查起造人：京城國際建築經理股份有限公司",
     "rating": "NR",
@@ -30863,20 +41341,24 @@ export const matureRegistryProjects = [
     "verified": true,
     "locationStatus": "verified",
     "googleMapsListing": false,
-    "locationAccuracy": "政府備查門牌配對；官方門牌座標至 頂埔 最近出口直線約 7788 公尺，步行時間為保守估算",
+    "locationAccuracy": "政府備查門牌配對；官方門牌座標至 國華 最近出口直線約 406 公尺，步行時間為保守估算",
     "governmentId": "110鶯建字第00163號",
     "governmentStatus": "申報備查 1111123",
     "permit": "110鶯建字第00163號",
     "households": "19",
-    "buildingLand": "昌福段151地號"
+    "buildingLand": "昌福段151地號",
+    "lines": [
+      "LB",
+      "LRT"
+    ]
   },
   {
     "id": "registry-新北市-鶯歌區-合康世紀?",
     "name": "合康世紀?",
     "city": "新北市",
     "district": "鶯歌區",
-    "station": "頂埔",
-    "walk": 134,
+    "station": "鶯桃福德",
+    "walk": 10,
     "address": "新北市鶯歌區鳳鳴路386號旁",
     "builder": "備查起造人：合康建設股份有限公司",
     "rating": "C",
@@ -30893,12 +41375,16 @@ export const matureRegistryProjects = [
     "verified": true,
     "locationStatus": "verified",
     "googleMapsListing": false,
-    "locationAccuracy": "政府備查門牌配對；官方門牌座標至 頂埔 最近出口直線約 8673 公尺，步行時間為保守估算",
+    "locationAccuracy": "政府備查門牌配對；官方門牌座標至 鶯桃福德 最近出口直線約 605 公尺，步行時間為保守估算",
     "governmentId": "112鶯建字第00183號",
     "governmentStatus": "申報備查 1141211",
     "permit": "112鶯建字第00183號",
     "households": "204",
-    "buildingLand": "鳳鳴段209地號"
+    "buildingLand": "鳳鳴段209地號",
+    "lines": [
+      "LB",
+      "LRT"
+    ]
   },
   {
     "id": "registry-新北市-鶯歌區-合登陶園鳴",
@@ -30928,7 +41414,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 ",
     "permit": "113鶯建字第00265號",
     "households": "135",
-    "buildingLand": "鳳鳴段173地號"
+    "buildingLand": "鳳鳴段173地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-鶯歌區-合嘉菁緻",
@@ -30958,7 +41445,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1140410",
     "permit": "113鶯建字第00003號",
     "households": "57",
-    "buildingLand": "尖山腳段998地號"
+    "buildingLand": "尖山腳段998地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-鶯歌區-宏苑 The One",
@@ -30988,15 +41476,16 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1121222",
     "permit": "111鶯建字第00497號",
     "households": "116",
-    "buildingLand": "鳳鳴段290-1地號"
+    "buildingLand": "鳳鳴段290-1地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-鶯歌區-宏國青田",
     "name": "宏國青田",
     "city": "新北市",
     "district": "鶯歌區",
-    "station": "頂埔",
-    "walk": 122,
+    "station": "陶瓷老街",
+    "walk": 22,
     "address": "新北市鶯歌區國中街80號旁",
     "builder": "備查起造人：臺億建築經理股份有限公司",
     "rating": "NR",
@@ -31013,20 +41502,24 @@ export const matureRegistryProjects = [
     "verified": true,
     "locationStatus": "verified",
     "googleMapsListing": false,
-    "locationAccuracy": "實價登錄後續門牌配對（2 個門牌）；官方門牌座標至 頂埔 最近出口直線約 7929 公尺，步行時間為保守估算",
+    "locationAccuracy": "實價登錄後續門牌配對（2 個門牌）；官方門牌座標至 陶瓷老街 最近出口直線約 1400 公尺，步行時間為保守估算",
     "governmentId": "109鶯建字第00166號",
     "governmentStatus": "申報備查 1110808",
     "permit": "109鶯建字第00166號",
     "households": "163",
-    "buildingLand": "尖山腳段985地號"
+    "buildingLand": "尖山腳段985地號",
+    "lines": [
+      "LB",
+      "LRT"
+    ]
   },
   {
     "id": "registry-新北市-鶯歌區-京澄為泰",
     "name": "京澄為泰",
     "city": "新北市",
     "district": "鶯歌區",
-    "station": "頂埔",
-    "walk": 139,
+    "station": "鶯桃福德",
+    "walk": 9,
     "address": "新北市鶯歌區鳳七路與龍三路交叉路口",
     "builder": "備查起造人：澄果建設有限公司",
     "rating": "C",
@@ -31043,20 +41536,24 @@ export const matureRegistryProjects = [
     "verified": true,
     "locationStatus": "verified",
     "googleMapsListing": false,
-    "locationAccuracy": "鳳七路／龍三路路口定位；官方門牌座標至 頂埔 最近出口直線約 8998 公尺，步行時間為保守估算",
+    "locationAccuracy": "鳳七路／龍三路路口定位；官方門牌座標至 鶯桃福德 最近出口直線約 548 公尺，步行時間為保守估算",
     "governmentId": "112鶯建字第00251號",
     "governmentStatus": "申報備查 1150327",
     "permit": "112鶯建字第00251號",
     "households": "113",
-    "buildingLand": "鳳鳴段186地號"
+    "buildingLand": "鳳鳴段186地號",
+    "lines": [
+      "LB",
+      "LRT"
+    ]
   },
   {
     "id": "registry-新北市-鶯歌區-京澄為德",
     "name": "京澄為德",
     "city": "新北市",
     "district": "鶯歌區",
-    "station": "頂埔",
-    "walk": 139,
+    "station": "鶯桃福德",
+    "walk": 9,
     "address": "新北市鶯歌區鳳七路與龍三路口",
     "builder": "備查起造人：京澄建設有限公司",
     "rating": "C",
@@ -31073,20 +41570,24 @@ export const matureRegistryProjects = [
     "verified": true,
     "locationStatus": "verified",
     "googleMapsListing": false,
-    "locationAccuracy": "鳳七路／龍三路路口定位；官方門牌座標至 頂埔 最近出口直線約 8998 公尺，步行時間為保守估算",
+    "locationAccuracy": "鳳七路／龍三路路口定位；官方門牌座標至 鶯桃福德 最近出口直線約 548 公尺，步行時間為保守估算",
     "governmentId": "111鶯建字第00514號",
     "governmentStatus": "申報備查 1130529",
     "permit": "111鶯建字第00514號",
     "households": "113",
-    "buildingLand": "鳳鳴段86地號"
+    "buildingLand": "鳳鳴段86地號",
+    "lines": [
+      "LB",
+      "LRT"
+    ]
   },
   {
     "id": "registry-新北市-鶯歌區-京懋明日和",
     "name": "京懋明日和",
     "city": "新北市",
     "district": "鶯歌區",
-    "station": "頂埔",
-    "walk": 135,
+    "station": "鶯桃福德",
+    "walk": 6,
     "address": "新北市鶯歌區鶯歌路及鳳七路交叉口",
     "builder": "備查起造人：聯京建設開發股份有限公司",
     "rating": "C",
@@ -31103,12 +41604,16 @@ export const matureRegistryProjects = [
     "verified": true,
     "locationStatus": "verified",
     "googleMapsListing": false,
-    "locationAccuracy": "鳳七路／鶯歌路路口定位；官方門牌座標至 頂埔 最近出口直線約 8747 公尺，步行時間為保守估算",
+    "locationAccuracy": "鳳七路／鶯歌路路口定位；官方門牌座標至 鶯桃福德 最近出口直線約 339 公尺，步行時間為保守估算",
     "governmentId": "114鶯建字第00276號",
     "governmentStatus": "申報備查 1141126",
     "permit": "114鶯建字第00276號",
     "households": "354",
-    "buildingLand": "鳳鳴段305地號"
+    "buildingLand": "鳳鳴段305地號",
+    "lines": [
+      "LB",
+      "LRT"
+    ]
   },
   {
     "id": "registry-新北市-鶯歌區-和耀．心綻",
@@ -31138,7 +41643,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1101213",
     "permit": "110鶯建字第00061號",
     "households": "196",
-    "buildingLand": "鳳鳴段66地號"
+    "buildingLand": "鳳鳴段66地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-鶯歌區-金和昌仰沐",
@@ -31168,7 +41674,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1130118",
     "permit": "112鶯建字第00246號",
     "households": "49",
-    "buildingLand": "鳳鳴段271地號"
+    "buildingLand": "鳳鳴段271地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-鶯歌區-金和昌蒔沐",
@@ -31198,15 +41705,16 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1150429",
     "permit": "112鶯建字第00322號",
     "households": "42",
-    "buildingLand": "鳳鳴段90地號"
+    "buildingLand": "鳳鳴段90地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-鶯歌區-家自慢",
     "name": "家自慢",
     "city": "新北市",
     "district": "鶯歌區",
-    "station": "頂埔",
-    "walk": 123,
+    "station": "國華",
+    "walk": 17,
     "address": "新北市鶯歌區尖山腳段593地號尖山路與尖山路278巷路口",
     "builder": "備查起造人：合嘉建設股份有限公司",
     "rating": "C",
@@ -31223,20 +41731,24 @@ export const matureRegistryProjects = [
     "verified": true,
     "locationStatus": "verified",
     "googleMapsListing": false,
-    "locationAccuracy": "政府備查門牌配對；官方門牌座標至 頂埔 最近出口直線約 7941 公尺，步行時間為保守估算",
+    "locationAccuracy": "政府備查門牌配對；官方門牌座標至 國華 最近出口直線約 1081 公尺，步行時間為保守估算",
     "governmentId": "110鶯建字第00531號",
     "governmentStatus": "申報備查 1111118",
     "permit": "110鶯建字第00531號",
     "households": "54",
-    "buildingLand": "尖山腳段593地號"
+    "buildingLand": "尖山腳段593地號",
+    "lines": [
+      "LB",
+      "LRT"
+    ]
   },
   {
     "id": "registry-新北市-鶯歌區-國家新美院",
     "name": "國家新美院",
     "city": "新北市",
     "district": "鶯歌區",
-    "station": "頂埔",
-    "walk": 111,
+    "station": "陶瓷老街",
+    "walk": 6,
     "address": "新北市鶯歌區育英街17巷與育才街54巷交叉路口",
     "builder": "備查起造人：皇普建設股份有限公司",
     "rating": "C",
@@ -31253,20 +41765,24 @@ export const matureRegistryProjects = [
     "verified": false,
     "locationStatus": "estimated",
     "googleMapsListing": false,
-    "locationAccuracy": "政府備查巷弄範圍定位（6 個官方門牌範圍）；官方門牌座標至 頂埔 最近出口直線約 7176 公尺，步行時間為保守估算",
+    "locationAccuracy": "政府備查巷弄範圍定位（6 個官方門牌範圍）；官方門牌座標至 陶瓷老街 最近出口直線約 372 公尺，步行時間為保守估算",
     "governmentId": "111鶯建字第00474號",
     "governmentStatus": "申報備查 1130319",
     "permit": "111鶯建字第00474號",
     "households": "171",
-    "buildingLand": "國慶段1321地號"
+    "buildingLand": "國慶段1321地號",
+    "lines": [
+      "LB",
+      "LRT"
+    ]
   },
   {
     "id": "registry-新北市-鶯歌區-國家藝術館",
     "name": "國家藝術館",
     "city": "新北市",
     "district": "鶯歌區",
-    "station": "頂埔",
-    "walk": 111,
+    "station": "陶瓷老街",
+    "walk": 6,
     "address": "新北市鶯歌區光明街與育英街交叉路口",
     "builder": "備查起造人：皇普建設股份有限公司",
     "rating": "C",
@@ -31283,20 +41799,24 @@ export const matureRegistryProjects = [
     "verified": false,
     "locationStatus": "estimated",
     "googleMapsListing": false,
-    "locationAccuracy": "政府備查巷弄範圍定位（6 個官方門牌範圍）；官方門牌座標至 頂埔 最近出口直線約 7176 公尺，步行時間為保守估算",
+    "locationAccuracy": "政府備查巷弄範圍定位（6 個官方門牌範圍）；官方門牌座標至 陶瓷老街 最近出口直線約 372 公尺，步行時間為保守估算",
     "governmentId": "113鶯建字第00172-01號",
     "governmentStatus": "申報備查 1140407",
     "permit": "113鶯建字第00172-01號",
     "households": "259",
-    "buildingLand": "國慶段1315地號"
+    "buildingLand": "國慶段1315地號",
+    "lines": [
+      "LB",
+      "LRT"
+    ]
   },
   {
     "id": "registry-新北市-鶯歌區-國華綻",
     "name": "國華綻",
     "city": "新北市",
     "district": "鶯歌區",
-    "station": "頂埔",
-    "walk": 122,
+    "station": "國華",
+    "walk": 6,
     "address": "新北市鶯歌區鶯桃路182巷96弄",
     "builder": "備查起造人：國鉅建設有限公司",
     "rating": "C",
@@ -31313,12 +41833,16 @@ export const matureRegistryProjects = [
     "verified": false,
     "locationStatus": "estimated",
     "googleMapsListing": false,
-    "locationAccuracy": "政府備查巷弄範圍定位（33 個官方門牌範圍）；官方門牌座標至 頂埔 最近出口直線約 7917 公尺，步行時間為保守估算",
+    "locationAccuracy": "政府備查巷弄範圍定位（33 個官方門牌範圍）；官方門牌座標至 國華 最近出口直線約 380 公尺，步行時間為保守估算",
     "governmentId": "113鶯建字第00119-01號",
     "governmentStatus": "申報備查 1140414",
     "permit": "113鶯建字第00119-01號",
     "households": "185",
-    "buildingLand": "昌福段288地號"
+    "buildingLand": "昌福段288地號",
+    "lines": [
+      "LB",
+      "LRT"
+    ]
   },
   {
     "id": "registry-新北市-鶯歌區-捷韻富境",
@@ -31348,15 +41872,16 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1110216",
     "permit": "1090925",
     "households": "25",
-    "buildingLand": "至使用執照核發後六個月終止;"
+    "buildingLand": "至使用執照核發後六個月終止;",
+    "lines": []
   },
   {
     "id": "registry-新北市-鶯歌區-富御昕",
     "name": "富御昕",
     "city": "新北市",
     "district": "鶯歌區",
-    "station": "頂埔",
-    "walk": 137,
+    "station": "鶯桃福德",
+    "walk": 8,
     "address": "新北市鶯歌區鳳五路與龍五路路口",
     "builder": "備查起造人：新月建設股份有限公司",
     "rating": "C",
@@ -31373,20 +41898,24 @@ export const matureRegistryProjects = [
     "verified": true,
     "locationStatus": "verified",
     "googleMapsListing": false,
-    "locationAccuracy": "鳳五路／龍五路路口定位；官方門牌座標至 頂埔 最近出口直線約 8856 公尺，步行時間為保守估算",
+    "locationAccuracy": "鳳五路／龍五路路口定位；官方門牌座標至 鶯桃福德 最近出口直線約 484 公尺，步行時間為保守估算",
     "governmentId": "110鶯建字第00313號",
     "governmentStatus": "申報備查 1121111",
     "permit": "110鶯建字第00313號",
     "households": "40",
-    "buildingLand": "鳳鳴段177地號"
+    "buildingLand": "鳳鳴段177地號",
+    "lines": [
+      "LB",
+      "LRT"
+    ]
   },
   {
     "id": "registry-新北市-鶯歌區-森鉅承",
     "name": "森鉅承",
     "city": "新北市",
     "district": "鶯歌區",
-    "station": "頂埔",
-    "walk": 142,
+    "station": "鶯桃福德",
+    "walk": 12,
     "address": "新北市鶯歌區鳳福路",
     "builder": "備查起造人：森鉅建設股份有限公司",
     "rating": "C",
@@ -31403,20 +41932,24 @@ export const matureRegistryProjects = [
     "verified": true,
     "locationStatus": "verified",
     "googleMapsListing": false,
-    "locationAccuracy": "鳳七路／鳳福路路口定位；官方門牌座標至 頂埔 最近出口直線約 9194 公尺，步行時間為保守估算",
+    "locationAccuracy": "鳳七路／鳳福路路口定位；官方門牌座標至 鶯桃福德 最近出口直線約 772 公尺，步行時間為保守估算",
     "governmentId": "113鶯建字第00018號",
     "governmentStatus": "申報備查 1130403",
     "permit": "113鶯建字第00018號",
     "households": "218",
-    "buildingLand": "鳳鳴段26地號"
+    "buildingLand": "鳳鳴段26地號",
+    "lines": [
+      "LB",
+      "LRT"
+    ]
   },
   {
     "id": "registry-新北市-鶯歌區-森鉅展",
     "name": "森鉅展",
     "city": "新北市",
     "district": "鶯歌區",
-    "station": "頂埔",
-    "walk": 133,
+    "station": "鶯桃福德",
+    "walk": 11,
     "address": "新北市鶯歌區鳳鳴路、鳳三路龍七路口",
     "builder": "備查起造人：森鉅建設股份有限公司",
     "rating": "C",
@@ -31433,20 +41966,24 @@ export const matureRegistryProjects = [
     "verified": true,
     "locationStatus": "verified",
     "googleMapsListing": false,
-    "locationAccuracy": "鳳三路／鳳鳴路路口定位；官方門牌座標至 頂埔 最近出口直線約 8616 公尺，步行時間為保守估算",
+    "locationAccuracy": "鳳三路／鳳鳴路路口定位；官方門牌座標至 鶯桃福德 最近出口直線約 670 公尺，步行時間為保守估算",
     "governmentId": "114鶯建字第00263號",
     "governmentStatus": "申報備查 1150113",
     "permit": "114鶯建字第00263號",
     "households": "304",
-    "buildingLand": "鳳鳴段263地號"
+    "buildingLand": "鳳鳴段263地號",
+    "lines": [
+      "LB",
+      "LRT"
+    ]
   },
   {
     "id": "registry-新北市-鶯歌區-森聯Life(森朗)",
     "name": "森聯Life(森朗)",
     "city": "新北市",
     "district": "鶯歌區",
-    "station": "頂埔",
-    "walk": 138,
+    "station": "鶯桃福德",
+    "walk": 8,
     "address": "新北市鶯歌區鳳五路與鳳七路間",
     "builder": "備查起造人：文森建設股份有限公司",
     "rating": "C",
@@ -31463,12 +42000,16 @@ export const matureRegistryProjects = [
     "verified": true,
     "locationStatus": "verified",
     "googleMapsListing": false,
-    "locationAccuracy": "鳳七路／鳳五路路口定位；官方門牌座標至 頂埔 最近出口直線約 8924 公尺，步行時間為保守估算",
+    "locationAccuracy": "鳳七路／鳳五路路口定位；官方門牌座標至 鶯桃福德 最近出口直線約 466 公尺，步行時間為保守估算",
     "governmentId": "111鶯建字第00045號",
     "governmentStatus": "申報備查 1110406",
     "permit": "111鶯建字第00045號",
     "households": "115",
-    "buildingLand": "鳳鳴段175地號"
+    "buildingLand": "鳳鳴段175地號",
+    "lines": [
+      "LB",
+      "LRT"
+    ]
   },
   {
     "id": "registry-新北市-鶯歌區-渼麗綻",
@@ -31498,15 +42039,16 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1130906",
     "permit": "113鶯建字第00237號",
     "households": "180",
-    "buildingLand": "鳳祥段1280地號"
+    "buildingLand": "鳳祥段1280地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-鶯歌區-微笑海悅2",
     "name": "微笑海悅2",
     "city": "新北市",
     "district": "鶯歌區",
-    "station": "頂埔",
-    "walk": 134,
+    "station": "鶯桃福德",
+    "walk": 10,
     "address": "新北市鶯歌區龍五路160號旁",
     "builder": "備查起造人：悅大建設股份有限公司",
     "rating": "C",
@@ -31523,20 +42065,24 @@ export const matureRegistryProjects = [
     "verified": true,
     "locationStatus": "verified",
     "googleMapsListing": false,
-    "locationAccuracy": "實價登錄後續門牌配對（1 個門牌）；官方門牌座標至 頂埔 最近出口直線約 8672 公尺，步行時間為保守估算",
+    "locationAccuracy": "實價登錄後續門牌配對（1 個門牌）；官方門牌座標至 鶯桃福德 最近出口直線約 641 公尺，步行時間為保守估算",
     "governmentId": "112鶯建字第00106號",
     "governmentStatus": "申報備查 1120421",
     "permit": "112鶯建字第00106號",
     "households": "83",
-    "buildingLand": "鳳鳴段207地號"
+    "buildingLand": "鳳鳴段207地號",
+    "lines": [
+      "LB",
+      "LRT"
+    ]
   },
   {
     "id": "registry-新北市-鶯歌區-僑駿響",
     "name": "僑駿響",
     "city": "新北市",
     "district": "鶯歌區",
-    "station": "頂埔",
-    "walk": 139,
+    "station": "鶯桃福德",
+    "walk": 17,
     "address": "新北市鶯歌區鳳三路及鳳吉一街交叉口",
     "builder": "備查起造人：僑駿建設股份有限公司",
     "rating": "C",
@@ -31553,20 +42099,24 @@ export const matureRegistryProjects = [
     "verified": true,
     "locationStatus": "verified",
     "googleMapsListing": false,
-    "locationAccuracy": "鳳吉一街／鳳三路路口定位；官方門牌座標至 頂埔 最近出口直線約 9027 公尺，步行時間為保守估算",
+    "locationAccuracy": "鳳吉一街／鳳三路路口定位；官方門牌座標至 鶯桃福德 最近出口直線約 1092 公尺，步行時間為保守估算",
     "governmentId": "110鶯建字第623號",
     "governmentStatus": "申報備查 1110426",
     "permit": "110鶯建字第623號",
     "households": "72",
-    "buildingLand": "鳳鳴段3地號"
+    "buildingLand": "鳳鳴段3地號",
+    "lines": [
+      "LB",
+      "LRT"
+    ]
   },
   {
     "id": "registry-新北市-鶯歌區-鳳鳴欣苑",
     "name": "鳳鳴欣苑",
     "city": "新北市",
     "district": "鶯歌區",
-    "station": "頂埔",
-    "walk": 141,
+    "station": "鶯桃福德",
+    "walk": 13,
     "address": "新北市鶯歌區鳳五路",
     "builder": "備查起造人：台欣建設股份有限公司",
     "rating": "C",
@@ -31583,12 +42133,16 @@ export const matureRegistryProjects = [
     "verified": true,
     "locationStatus": "verified",
     "googleMapsListing": false,
-    "locationAccuracy": "鳳五路／鳳福路路口定位；官方門牌座標至 頂埔 最近出口直線約 9120 公尺，步行時間為保守估算",
+    "locationAccuracy": "鳳五路／鳳福路路口定位；官方門牌座標至 鶯桃福德 最近出口直線約 795 公尺，步行時間為保守估算",
     "governmentId": "111鶯建字第00389號",
     "governmentStatus": "申報備查 1120329",
     "permit": "111鶯建字第00389號",
     "households": "84",
-    "buildingLand": "鳳鳴段73地號"
+    "buildingLand": "鳳鳴段73地號",
+    "lines": [
+      "LB",
+      "LRT"
+    ]
   },
   {
     "id": "registry-新北市-鶯歌區-鳴日之城-日禾",
@@ -31618,7 +42172,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1131213",
     "permit": "109年鶯建字第00119-02號",
     "households": "182",
-    "buildingLand": "鳳福段1067地號"
+    "buildingLand": "鳳福段1067地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-鶯歌區-鳴日之城-日安",
@@ -31648,7 +42203,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1131108",
     "permit": "109年鶯建字00258-01號",
     "households": "147",
-    "buildingLand": "鳳福段1060地號"
+    "buildingLand": "鳳福段1060地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-鶯歌區-學豐",
@@ -31678,7 +42234,8 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1110218",
     "permit": "110鶯建字第00115號",
     "households": "12",
-    "buildingLand": "陶瓷段668地號"
+    "buildingLand": "陶瓷段668地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-鶯歌區-豐億．梧桐院",
@@ -31708,15 +42265,16 @@ export const matureRegistryProjects = [
     "governmentStatus": "申報備查 1130909",
     "permit": "113鶯建字第00247號",
     "households": "13",
-    "buildingLand": "鳳鳴段346地號"
+    "buildingLand": "鳳鳴段346地號",
+    "lines": []
   },
   {
     "id": "registry-新北市-鶯歌區-馥春居",
     "name": "馥春居",
     "city": "新北市",
     "district": "鶯歌區",
-    "station": "頂埔",
-    "walk": 132,
+    "station": "鶯桃福德",
+    "walk": 7,
     "address": "新北市鶯歌區永和街56巷",
     "builder": "備查起造人：臺億建築經理股份有限公司",
     "rating": "NR",
@@ -31733,20 +42291,24 @@ export const matureRegistryProjects = [
     "verified": false,
     "locationStatus": "estimated",
     "googleMapsListing": false,
-    "locationAccuracy": "政府備查巷弄範圍定位（25 個官方門牌範圍）；官方門牌座標至 頂埔 最近出口直線約 8570 公尺，步行時間為保守估算",
+    "locationAccuracy": "政府備查巷弄範圍定位（25 個官方門牌範圍）；官方門牌座標至 鶯桃福德 最近出口直線約 420 公尺，步行時間為保守估算",
     "governmentId": "110鶯建字第00021號",
     "governmentStatus": "申報備查 1110621",
     "permit": "110鶯建字第00021號",
     "households": "16",
-    "buildingLand": "鳳祥段74地號"
+    "buildingLand": "鳳祥段74地號",
+    "lines": [
+      "LB",
+      "LRT"
+    ]
   },
   {
     "id": "registry-新北市-鶯歌區-鑫俋中山案",
     "name": "鑫俋中山案",
     "city": "新北市",
     "district": "鶯歌區",
-    "station": "頂埔",
-    "walk": 96,
+    "station": "鶯歌車",
+    "walk": 7,
     "address": "新北市鶯歌區中正一路311號旁",
     "builder": "備查起造人：鑫俋建設有限公司",
     "rating": "C",
@@ -31763,11 +42325,15 @@ export const matureRegistryProjects = [
     "verified": true,
     "locationStatus": "verified",
     "googleMapsListing": false,
-    "locationAccuracy": "政府備查門牌配對；官方門牌座標至 頂埔 最近出口直線約 6206 公尺，步行時間為保守估算",
+    "locationAccuracy": "政府備查門牌配對；官方門牌座標至 鶯歌車 最近出口直線約 443 公尺，步行時間為保守估算",
     "governmentId": "113鶯建字第00072號",
     "governmentStatus": "申報備查 1150525",
     "permit": "113鶯建字第00072號",
     "households": "21",
-    "buildingLand": "中山段163地號"
+    "buildingLand": "中山段163地號",
+    "lines": [
+      "LB",
+      "LRT"
+    ]
   }
 ];
