@@ -42,8 +42,8 @@ function addScopeSwitcher(){
   const base=import.meta.env.BASE_URL;
   const switcher=document.createElement('nav');
   switcher.className='scope-switcher';
-  switcher.setAttribute('aria-label','切換建案雷達範圍');
-  switcher.innerHTML=`<a class="${pageScope==='green'?'active':''}" href="${base}">綠線潛力案</a><a class="${pageScope==='mature'?'active':''}" href="${base}greater-taipei/">大台北成熟案</a>`;
+  switcher.setAttribute('aria-label','切換建案範圍');
+  switcher.innerHTML=`<a class="${pageScope==='mature'?'active':''}" href="${base}greater-taipei/">大台北成熟案</a><a class="${pageScope==='green'?'active':''}" href="${base}">綠線潛力案</a>`;
   document.body.append(switcher);
 }
 
