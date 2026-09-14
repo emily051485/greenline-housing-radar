@@ -586,7 +586,15 @@ async function loadHazardsReliable(force=false){
 function placeFiltersAboveMap(){
   const mapSection=$('#map-section'),mapFrame=mapSection?.querySelector('.map-frame'),filters=$('.filter-panel');
   if(!mapSection||!mapFrame||!filters)return;
+  const tableContainer=filters.parentElement;
+  const tableAnchor=filters.nextElementSibling;
+  const tableFilters=filters.cloneNode(true);
+  tableFilters.classList.add('table-filter-panel');
+  tableFilters.setAttribute('aria-label','表格篩選條件');
+  tableFilters.querySelectorAll('[id]').forEach(element=>{element.id=`${element.id}-table`;});
+  tableContainer.insertBefore(tableFilters,tableAnchor);
   filters.classList.add('map-filter-panel');
+  filters.setAttribute('aria-label','地圖篩選條件');
   mapSection.insertBefore(filters,mapFrame);
   const summary=document.createElement('div');
   summary.className='map-filter-summary';
@@ -594,28 +602,54 @@ function placeFiltersAboveMap(){
   mapSection.insertBefore(summary,mapFrame);
 }
 
+const mirroredFilterIds=['city-filter','district-filter','transit-filter','line-filter','station-filter','status-filter','rating-filter','walk-filter','search-filter'];
+function syncTableFilters(){
+  for(const id of mirroredFilterIds){
+    const primary=$(`#${id}`),copy=$(`#${id}-table`);
+    if(!primary||!copy)continue;
+    if(primary.tagName==='SELECT')copy.innerHTML=primary.innerHTML;
+    copy.value=primary.value;
+  }
+}
+function bindTableFilters(){
+  const panel=$('.table-filter-panel');
+  if(!panel)return;
+  const forward=event=>{
+    const copy=event.target.closest('[id$="-table"]');
+    if(!copy)return;
+    const primary=$(`#${copy.id.replace(/-table$/,'')}`);
+    if(!primary)return;
+    primary.value=copy.value;
+    primary.dispatchEvent(new Event(event.type,{bubbles:true}));
+  };
+  panel.addEventListener('change',forward);
+  panel.addEventListener('input',forward);
+}
+
 placeFiltersAboveMap();
+bindTableFilters();
 addScopeSwitcher();
 addFloodControl();
 setupResponsiveMapPanels();
 map.on('load',()=>{addProjectAreas();showMetroLines(cachedMetroRoutes);showMetroStations();addProjectMarkers();render();loadMetroLines();setTimeout(()=>loadHazardsReliable(false),600);});
-$('#city-filter')?.addEventListener('change',()=>{updateDistrictOptions();render();});
-['district-filter','status-filter','rating-filter','walk-filter'].forEach(id=>$('#'+id)?.addEventListener('change',render));
-$('#station-filter')?.addEventListener('change',()=>{syncTransitFilter();render();});
-$('#line-filter')?.addEventListener('change',()=>{updateStationOptions();syncTransitFilter();render();});
+$('#city-filter')?.addEventListener('change',()=>{updateDistrictOptions();render();syncTableFilters();});
+['district-filter','status-filter','rating-filter','walk-filter'].forEach(id=>$('#'+id)?.addEventListener('change',()=>{render();syncTableFilters();}));
+$('#station-filter')?.addEventListener('change',()=>{syncTransitFilter();render();syncTableFilters();});
+$('#line-filter')?.addEventListener('change',()=>{updateStationOptions();syncTransitFilter();render();syncTableFilters();});
 $('#transit-filter')?.addEventListener('change',event=>{
   const [kind,line,...stationParts]=event.target.value.split(':');
   $('#line-filter').value=kind==='all'?'all':line;
   updateStationOptions();
   if(kind==='station')$('#station-filter').value=stationParts.join(':');
-  syncTransitFilter();render();
+  syncTransitFilter();render();syncTableFilters();
 });
-$('#search-filter').addEventListener('input',render);
+$('#search-filter').addEventListener('input',()=>{render();syncTableFilters();});
 document.querySelectorAll('[data-scroll]').forEach(button=>button.addEventListener('click',()=>$('#'+button.dataset.scroll).scrollIntoView({behavior:'smooth'})));
 $('#refresh-hazards').addEventListener('click',()=>loadHazardsReliable(true));
 updateStationOptions();
 updateDistrictOptions();
 updateTransitOptions();
+syncTableFilters();
 setupTableScrolling();
 const mappedWalks=projects.map(project=>project.walk).filter(Number.isFinite);
 $('#total-count').textContent=projects.length;$('#district-count').textContent=new Set(projects.map(project=>project.district)).size;$('#walk-average').textContent=mappedWalks.length?(mappedWalks.reduce((sum,walk)=>sum+walk,0)/mappedWalks.length).toFixed(1):'—';
