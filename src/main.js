@@ -167,8 +167,8 @@ function addFloodControl(){
   control.setAttribute('aria-label','環境與災害風險圖層控制');
   control.innerHTML=`
     <div class="risk-layer-group environment-layer-group"><strong>環境設施</strong>
-      <label class="layer-toggle"><input id="critical-facilities-toggle" type="checkbox" checked><span><i class="hazard"></i>重大環境設施</span></label>
-      <label class="layer-toggle"><input id="impact-facilities-toggle" type="checkbox"><span><i class="impact"></i>生活影響設施</span></label>
+      <label class="layer-toggle"><input id="critical-facilities-toggle" type="checkbox" checked><span><i class="facility-symbol critical" aria-hidden="true"></i>重大環境設施</span></label>
+      <label class="layer-toggle"><input id="impact-facilities-toggle" type="checkbox"><span><i class="facility-symbol impact" aria-hidden="true"></i>生活影響設施</span></label>
       <small id="environment-layer-status">重大環境設施開啟</small>
       <small id="hazard-status">正在載入共用快取</small><button id="refresh-hazards" type="button" hidden>重新載入環境設施</button>
     </div>
