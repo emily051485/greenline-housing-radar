@@ -121,26 +121,6 @@ function addFloodControl(){
   control.className='flood-control';
   control.setAttribute('aria-label','災害風險圖層控制');
   control.innerHTML=`<div class="flood-control-heading"><strong>降雨淹水模擬</strong><label class="switch"><input id="flood-toggle" type="checkbox"><span></span></label></div><label>降雨情境<select id="flood-scenario"><option value="6h150">6 小時／150 mm</option><option value="6h250">6 小時／250 mm</option><option value="6h350">6 小時／350 mm</option><option value="12h200">12 小時／200 mm</option><option value="12h300">12 小時／300 mm</option><option value="12h400">12 小時／400 mm</option><option value="24h200">24 小時／200 mm</option><option value="24h350">24 小時／350 mm</option><option value="24h500" selected>24 小時／500 mm</option><option value="24h650">24 小時／650 mm</option></select></label><div class="flood-depth" aria-label="模擬淹水深度圖例"><span><i class="depth-1"></i>0.5–1 m</span><span><i class="depth-2"></i>1–2 m</span><span><i class="depth-3"></i>2–3 m</span><span><i class="depth-4"></i>&gt;3 m</span></div><small id="flood-status">淹水圖層目前關閉</small><div class="risk-layer-group"><strong>地質風險</strong><label class="layer-toggle"><input id="liquefaction-toggle" type="checkbox"><span>土壤液化潛勢</span></label><div class="liquefaction-depth" aria-label="土壤液化潛勢圖例"><span><i class="liquefaction-low"></i>低</span><span><i class="liquefaction-medium"></i>中</span><span><i class="liquefaction-high"></i>高</span></div><label class="layer-toggle"><input id="active-faults-toggle" type="checkbox"><span><i class="active-fault-swatch"></i>活動斷層</span></label><small id="geology-status">地質圖層目前關閉</small></div><div class="risk-source-links"><a href="https://dmap.ncdr.nat.gov.tw/1109/map/?group-layer=%E6%B7%B9%E6%B0%B4%E6%BD%9B%E5%8B%A2" target="_blank" rel="noopener">淹水原始圖台 ↗</a><a href="https://dmap.ncdr.nat.gov.tw/1109/map/?group-layer=%E6%96%B7%E5%B1%A4%E8%88%87%E5%9C%9F%E5%A3%A4%E6%B6%B2%E5%8C%96" target="_blank" rel="noopener">地質原始圖台 ↗</a></div>`;
-  const heading=control.querySelector('.flood-control-heading');
-  const floodSwitch=heading.querySelector('.switch');
-  const headingActions=document.createElement('div');
-  headingActions.className='flood-heading-actions';
-  const collapseButton=document.createElement('button');
-  collapseButton.type='button';
-  collapseButton.className='desktop-panel-collapse';
-  collapseButton.setAttribute('aria-expanded','true');
-  collapseButton.textContent='收起';
-  headingActions.append(collapseButton,floodSwitch);
-  heading.append(headingActions);
-  const desktopBody=document.createElement('div');
-  desktopBody.className='desktop-risk-body';
-  while(heading.nextSibling)desktopBody.append(heading.nextSibling);
-  control.append(desktopBody);
-  collapseButton.addEventListener('click',()=>{
-    const collapsed=control.classList.toggle('desktop-collapsed');
-    collapseButton.setAttribute('aria-expanded',String(!collapsed));
-    collapseButton.textContent=collapsed?'展開':'收起';
-  });
   $('.map-frame').append(control);
   $('#flood-toggle').addEventListener('change',updateFloodLayer);
   $('#flood-scenario').addEventListener('change',()=>{if($('#flood-toggle').checked)updateFloodLayer();});
