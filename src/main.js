@@ -167,9 +167,9 @@ function addFloodControl(){
   control.setAttribute('aria-label','環境與災害風險圖層控制');
   control.innerHTML=`
     <div class="risk-layer-group environment-layer-group"><strong>環境設施</strong>
-      <label class="layer-toggle"><input id="critical-facilities-toggle" type="checkbox" checked><span><i class="facility-symbol critical" aria-hidden="true"></i>重大環境設施</span></label>
+      <label class="layer-toggle"><input id="critical-facilities-toggle" type="checkbox"><span><i class="facility-symbol critical" aria-hidden="true"></i>重大環境設施</span></label>
       <label class="layer-toggle"><input id="impact-facilities-toggle" type="checkbox"><span><i class="facility-symbol impact" aria-hidden="true"></i>生活影響設施</span></label>
-      <small id="environment-layer-status">重大環境設施開啟</small>
+      <small id="environment-layer-status">環境設施目前關閉</small>
       <small id="hazard-status">正在載入共用快取</small><button id="refresh-hazards" type="button" hidden>重新載入環境設施</button>
     </div>
     <div class="risk-layer-group"><strong>降雨淹水模擬</strong><label class="layer-toggle"><input id="flood-toggle" type="checkbox"><span>顯示淹水圖層</span></label>
@@ -415,7 +415,7 @@ function facilityIcon(shape,color){
   return context.getImageData(0,0,40,40);
 }
 function updateHazardVisibility(){
-  const critical=$('#critical-facilities-toggle')?.checked??true;
+  const critical=$('#critical-facilities-toggle')?.checked??false;
   const impact=$('#impact-facilities-toggle')?.checked??false;
   if(map.getLayer('hazards')){
     const filter=critical&&impact?null:critical?['==',['get','group'],'重大環境設施']:impact?['==',['get','group'],'生活影響設施']:['==',['get','group'],'__none__'];
