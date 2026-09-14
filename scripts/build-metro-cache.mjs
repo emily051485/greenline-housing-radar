@@ -5,6 +5,7 @@ const root = path.resolve(import.meta.dirname, '..');
 const sourcePath = path.join(root, 'data/raw/taipei-metro-routes.json');
 const airportSourcePath = path.join(root, 'data/raw/taoyuan-airport-metro.geojson');
 const newTaipeiSourcePath = path.join(root, 'data/raw/newtaipei-metro-routes.json');
+const bananExtensionPath = path.join(root, 'data/raw/banan-extension.json');
 const outputPath = path.join(root, 'src/generated/metro-routes.js');
 const source = JSON.parse(fs.readFileSync(sourcePath, 'utf8'));
 const airportSource = fs.existsSync(airportSourcePath)
@@ -12,6 +13,9 @@ const airportSource = fs.existsSync(airportSourcePath)
   : {features:[]};
 const newTaipeiSource = fs.existsSync(newTaipeiSourcePath)
   ? JSON.parse(fs.readFileSync(newTaipeiSourcePath, 'utf8'))
+  : {elements:[]};
+const bananExtensionSource = fs.existsSync(bananExtensionPath)
+  ? JSON.parse(fs.readFileSync(bananExtensionPath, 'utf8').replace(/^\uFEFF/,''))
   : {elements:[]};
 
 // EPSG:3826 (TWD97 / TM2 zone 121) inverse Transverse Mercator.
@@ -80,6 +84,18 @@ for (const feature of airportSource.features) {
     type:'Feature',
     properties:{name:'桃園機場捷運',ref:'A',color:'#8246af',status:'operational',official:true},
     geometry:feature.geometry,
+  });
+}
+const bananMembers=bananExtensionSource.elements?.[0]?.members?.filter(member=>member.type==='way'&&member.geometry?.length)||[];
+const bananExtensionIndex=bananMembers.findIndex(member=>{
+  const longitudes=member.geometry.map(point=>point.lon);
+  return Math.min(...longitudes)<121.42&&Math.max(...longitudes)<121.436;
+});
+if(bananExtensionIndex>=0){
+  const extensionGeometry=[...bananMembers[bananExtensionIndex].geometry,...(bananMembers[bananExtensionIndex+1]?.geometry?.slice(1,2)||[])];
+  features.push({
+    type:'Feature',properties:{name:'板南線頂埔延伸段',ref:'BL',color:'#0070bd',status:'operational',official:false},
+    geometry:{type:'LineString',coordinates:extensionGeometry.map(point=>[point.lon,point.lat])},
   });
 }
 const newTaipeiStyles={
