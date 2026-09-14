@@ -20557,7 +20557,7 @@ export const matureRegistryProjects = [
   },
   {
     "id": "registry-台北市-中正區-敦年臻?",
-    "name": "敦年臻?",
+    "name": "敦年臻榀",
     "city": "台北市",
     "district": "中正區",
     "station": "中正紀念堂",

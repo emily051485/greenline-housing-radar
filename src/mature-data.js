@@ -16,8 +16,9 @@ for(const [line,names] of Object.entries(lineStations)){
 
 const matureStatus=/已領建照|預售中|已備查|新成屋/;
 
+const registryPermits=new Set(matureRegistryProjects.map(project=>project.permit).filter(Boolean));
 const verifiedExisting=integratedProjects
-  .filter(project=>matureStatus.test(project.status)&&project.locationStatus!=='unlocated'&&project.walk<=15)
+  .filter(project=>matureStatus.test(project.status)&&project.locationStatus!=='unlocated'&&project.walk<=15&&!registryPermits.has(project.governmentId))
   .map(project=>({...project,lines:stationLines[project.station]||[]}));
 
 const existingNames=new Set(verifiedExisting.map(project=>project.name.replace(/[・。\s]/g,'')));

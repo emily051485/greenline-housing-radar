@@ -75,6 +75,7 @@ const normalize=value=>halfWidth(value).replace(/臺/g,'台').replace(/[\s,，�
 const canonicalName=value=>normalize(value).replace(/[?？・.．_\-—]/g,'').toUpperCase();
 const baseNumber=value=>[...normalize(value).matchAll(/\d+(?:-\d+)?號/g)].at(-1)?.[0]||'';
 const locationOverrides={
+  [canonicalName('敦年臻?')]:{displayName:'敦年臻榀'},
   [canonicalName('泉泓沐風')]:{query:'央北一路46號',display:'新北市新店區央北一路46號'},
   [canonicalName('宏盛心中央')]:{query:'央北二路108號',display:'新北市新店區央北二路108～136號'},
   [canonicalName('鳳翔')]:{query:'斯馨路80號',display:'新北市新店區斯馨路80～88號'},
@@ -114,7 +115,7 @@ function locate(row){
   const projectName=row['建案名稱'],override=locationOverrides[canonicalName(projectName)],target=normalize(override?.query||row['坐落街道']),districtKey=`${row.city}${row['鄉鎮市區']}`,projectId=`registry-${row.city}-${row['鄉鎮市區']}-${projectName}`;
   if(Number.isFinite(override?.lat)&&Number.isFinite(override?.lng))return {...override,displayAddress:override.display};
   const officialParcel=officialParcelsByProject.get(projectId);
-  if(officialParcel)return {...officialParcel,mode:`臺北市地政局官方主地號宗地中心（${row['坐落基地']}）`,estimated:true};
+  if(officialParcel)return {...officialParcel,mode:`臺北市地政局官方主地號宗地中心（${row['坐落基地']}）`,estimated:true,displayAddress:override?.display,displayName:override?.displayName};
   const matchDoorplate=(address,mode)=>{
     const normalized=normalize(address),number=baseNumber(normalized);if(!number)return null;
     const candidates=(pointsByDistrict.get(districtKey)||[]).filter(point=>point.number===number);
