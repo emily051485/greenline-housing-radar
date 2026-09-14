@@ -21,7 +21,7 @@ function sourceLinksHtml(project){
       const government=/(?:^|\.)(?:gov\.tw|gov\.taipei|taipei|ntpc\.gov\.tw)$/.test(url.hostname)||/data\.taipei$/.test(url.hostname);
       const marketplace=/591\.com\.tw$/.test(url.hostname);
       const label=item.kind==='official'?'建案／建商官網':!government&&!marketplace&&/官網/.test(project.source||'')?'建案／建商官網':'資料來源';
-      return [`<a class="evidence-link" href="${escapeHtml(url.href)}" target="_blank" rel="noopener">${label} ↗</a>`];
+      return [`<a class="evidence-link" href="${escapeHtml(url.href)}" target="_blank" rel="noopener">${label}</a>`];
     }catch{return [];}
   }).join('');
 }
