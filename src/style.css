@@ -65,3 +65,13 @@ main{display:flex;flex-direction:column}.hero{order:1}.stats-wrap{order:2}.map-s
   .table-scroll td:nth-child(4),.table-scroll td:nth-child(5){grid-column:auto}
   .table-scroll td:nth-child(10){min-width:0;max-width:none;padding-top:10px;border-top:1px solid #eeece5}
 }
+
+/* Keep the mobile address and its confirmed Maps link in one card field. */
+@media(max-width:700px){
+  .table-scroll td.address-cell{display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:center;gap:5px 8px;grid-column:1/-1}
+  .table-scroll td.address-cell::before{content:'地址／地圖';grid-column:1/-1}
+  .table-scroll td.address-cell>span{grid-column:1;min-width:0}
+  .table-scroll td.address-cell>.map-link{grid-column:2;margin:0;align-self:center}
+  .table-scroll td.data-evidence{grid-column:1/-1}
+  .table-scroll td.data-evidence::before{content:'資料來源／定位依據'}
+}
