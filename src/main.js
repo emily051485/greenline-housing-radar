@@ -306,7 +306,7 @@ function render(){
   const ratingMatches=project=>rating==='all'||(rating==='NR'?project.rating==='NR':ratingRank[project.rating]>=ratingRank[rating]);
   const walkMatches=project=>maxWalk>=999||(Number.isFinite(project.walk)&&project.walk<=maxWalk);
   state.projects=projects.filter(project=>(city==='all'||project.city===city)&&(status==='all'||project.status===status)&&(line==='all'||projectLines(project).includes(line))&&(station==='all'||stationKey(project.station)===stationKey(station))&&ratingMatches(project)&&walkMatches(project)&&(!query||[project.name,project.district,project.builder,project.station].join(' ').toLowerCase().includes(query)));
-  $('#project-rows').innerHTML=state.projects.map(project=>{const transit=Number.isFinite(project.walk)?`${escapeHtml(project.station)} <b>${project.walk} 分</b>`:'<b>待定位</b>',locationLabel=project.locationStatus==='estimated'?'範圍定位':isMapped(project)?'已定位':'待定位',locationClass=project.locationStatus==='estimated'?'estimated':isMapped(project)?'located':'pending',evidence=`${escapeHtml(project.source)}${project.locationAccuracy?` · ${escapeHtml(project.locationAccuracy)}`:''}`;return `<tr data-id="${escapeHtml(project.id)}" class="${isMapped(project)?'':'unlocated-row'}"><td><strong>${escapeHtml(project.name)}</strong><small><b class="location-tag ${locationClass}">${locationLabel}</b></small></td><td>${escapeHtml(project.district)}</td><td><span class="walk">${transit}</span></td><td>${escapeHtml(project.address)}</td><td><span class="grade grade-${project.rating.toLowerCase()}" title="${escapeHtml(project.ratingBasis||'建商研究評等')}">${project.rating}</span>${escapeHtml(project.builder)}</td><td><span class="status status-${project.status.includes('審議')||project.status.includes('核定')?'early':project.status.includes('建照')?'permit':'sale'}">${escapeHtml(project.status)}</span></td><td>${escapeHtml(project.completion)}</td><td>${escapeHtml(project.type)}</td><td>${escapeHtml(project.size)}</td><td>${escapeHtml(project.price)}</td><td class="data-evidence">${evidence}</td><td>${hasGoogleMapsListing(project)?`<a class="map-link" href="${mapsUrl(project)}" target="_blank" rel="noopener" title="在 Google Maps 開啟已確認的建案標記">↗</a>`:'—'}</td></tr>`;}).join('');
+  $('#project-rows').innerHTML=state.projects.map(project=>{const transit=Number.isFinite(project.walk)?`${escapeHtml(project.station)} <b>${project.walk} 分</b>`:'<b>待定位</b>',locationLabel=project.locationStatus==='estimated'?'範圍定位':isMapped(project)?'已定位':'待定位',locationClass=project.locationStatus==='estimated'?'estimated':isMapped(project)?'located':'pending',evidence=`${escapeHtml(project.source)}${project.locationAccuracy?` · ${escapeHtml(project.locationAccuracy)}`:''}`;return `<tr data-id="${escapeHtml(project.id)}" class="${isMapped(project)?'':'unlocated-row'}"><td><strong>${escapeHtml(project.name)}</strong><small><b class="location-tag ${locationClass}">${locationLabel}</b></small></td><td>${escapeHtml(project.district)}</td><td><span class="walk">${transit}</span></td><td><span class="grade grade-${project.rating.toLowerCase()}" title="${escapeHtml(project.ratingBasis||'建商研究評等')}">${project.rating}</span>${escapeHtml(project.builder)}</td><td><span class="status status-${project.status.includes('審議')||project.status.includes('核定')?'early':project.status.includes('建照')?'permit':'sale'}">${escapeHtml(project.status)}</span></td><td>${escapeHtml(project.completion)}</td><td>${escapeHtml(project.type)}</td><td>${escapeHtml(project.size)}</td><td>${escapeHtml(project.price)}</td><td>${escapeHtml(project.address)}</td><td class="data-evidence">${evidence}</td><td>${hasGoogleMapsListing(project)?`<a class="map-link" href="${mapsUrl(project)}" target="_blank" rel="noopener" title="在 Google Maps 開啟已確認的建案標記">↗</a>`:'—'}</td></tr>`;}).join('');
   $('#result-count').textContent=state.projects.length;$('#empty-state').hidden=state.projects.length>0;
   const visible=new Set(state.projects.map(project=>String(project.id)));
   state.markers.forEach((marker,id)=>marker.getElement().style.display=visible.has(id)?'grid':'none');
@@ -315,6 +315,20 @@ function render(){
     if(event.target.closest('a'))return;const project=projects.find(item=>String(item.id)===row.dataset.id);if(!project||!hasCoordinates(project))return;
     map.flyTo({center:[project.lng,project.lat],zoom:16,essential:true});state.markers.get(String(project.id))?.togglePopup();$('#map-section').scrollIntoView({behavior:'smooth'});
   }));
+}
+function setupTableScrolling(){
+  const scroller=document.querySelector('.table-scroll'),topScroller=document.querySelector('.table-top-scroll'),table=scroller?.querySelector('table'),header=scroller?.querySelector('thead'),spacer=topScroller?.firstElementChild;
+  if(!scroller||!topScroller||!table||!header||!spacer)return;
+  let syncing=false;
+  const updateWidth=()=>{spacer.style.width=`${table.scrollWidth}px`;};
+  topScroller.addEventListener('scroll',()=>{if(syncing)return;syncing=true;scroller.scrollLeft=topScroller.scrollLeft;syncing=false;});
+  scroller.addEventListener('scroll',()=>{if(syncing)return;syncing=true;topScroller.scrollLeft=scroller.scrollLeft;syncing=false;});
+  let startX=0,startScroll=0,dragging=false;
+  header.addEventListener('pointerdown',event=>{if(event.button!==0)return;dragging=true;startX=event.clientX;startScroll=scroller.scrollLeft;header.setPointerCapture(event.pointerId);header.classList.add('dragging');});
+  header.addEventListener('pointermove',event=>{if(dragging)scroller.scrollLeft=startScroll-(event.clientX-startX);});
+  const stopDrag=event=>{if(!dragging)return;dragging=false;header.classList.remove('dragging');if(header.hasPointerCapture(event.pointerId))header.releasePointerCapture(event.pointerId);};
+  header.addEventListener('pointerup',stopDrag);header.addEventListener('pointercancel',stopDrag);
+  new ResizeObserver(updateWidth).observe(table);updateWidth();
 }
 function updateStationOptions(){
   const select=$('#station-filter');if(!select)return;
@@ -563,6 +577,7 @@ document.querySelectorAll('[data-scroll]').forEach(button=>button.addEventListen
 $('#refresh-hazards').addEventListener('click',()=>loadHazardsReliable(true));
 updateStationOptions();
 updateTransitOptions();
+setupTableScrolling();
 const mappedWalks=projects.map(project=>project.walk).filter(Number.isFinite);
 $('#total-count').textContent=projects.length;$('#district-count').textContent=new Set(projects.map(project=>project.district)).size;$('#walk-average').textContent=mappedWalks.length?(mappedWalks.reduce((sum,walk)=>sum+walk,0)/mappedWalks.length).toFixed(1):'—';
 render();
