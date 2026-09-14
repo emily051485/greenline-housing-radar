@@ -8,8 +8,8 @@
     "data:locations": "node scripts/fetch-official-locations.mjs",
     "data:flood": "node scripts/cache-flood-layers.mjs",
     "data:geology": "node scripts/cache-geology-layers.mjs",
-    "dev": "vite",
-    "build": "vite build",
+    "dev": "vite --configLoader runner",
+    "build": "vite build --configLoader runner",
     "preview": "vite preview",
     "data:integrate": "node scripts/integrate-renewal.mjs"
   },

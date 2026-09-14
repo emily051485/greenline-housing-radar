@@ -1,4 +1,5 @@
-import { projects } from './data.js';
+import { projects as greenProjects } from './data.js';
+import { matureProjects } from './mature-data.js';
 import { cachedMetroRoutes } from './generated/metro-routes.js';
 
 const $=selector=>document.querySelector(selector);
@@ -12,6 +13,8 @@ const hasGoogleMapsListing=project=>isMapped(project)&&(
 const mapsUrl=project=>`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(`${project.lat},${project.lng}`)}`;
 const ratingRank={NR:0,C:1,B:2,A:3,S:4};
 const metroColors={BR:'#c48c31',R:'#e3002c',G:'#008659',O:'#f8b61c',BL:'#0070bd',Y:'#ffdb00',A:'#8246af',K:'#7bbf43',LB:'#78c7d2',V:'#78c7d2',LG:'#9ac43c'};
+const pageScope=document.body.dataset.scope||'green';
+const projects=pageScope==='mature'?matureProjects:greenProjects;
 const state={projects:[...projects],markers:new Map()};
 const floodScenarios={
   '6h150':{label:'6 小時降雨 150 mm',layers:[40,2,22,12]},
@@ -34,6 +37,15 @@ const geologyLayers={
   liquefaction:{sourceId:'soil-liquefaction-source',layerId:'soil-liquefaction-layer',file:'soil-liquefaction.png',opacity:.38,label:'土壤液化'},
   activeFaults:{sourceId:'active-faults-source',layerId:'active-faults-layer',file:'active-faults.png',opacity:.95,label:'活動斷層'},
 };
+
+function addScopeSwitcher(){
+  const base=import.meta.env.BASE_URL;
+  const switcher=document.createElement('nav');
+  switcher.className='scope-switcher';
+  switcher.setAttribute('aria-label','切換建案雷達範圍');
+  switcher.innerHTML=`<a class="${pageScope==='green'?'active':''}" href="${base}">綠線潛力案</a><a class="${pageScope==='mature'?'active':''}" href="${base}greater-taipei/">大台北成熟案</a>`;
+  document.body.append(switcher);
+}
 
 const map=new maplibregl.Map({container:'map',style:'https://tiles.openfreemap.org/styles/liberty',center:[121.49,25.025],zoom:10.2,attributionControl:false});
 map.addControl(new maplibregl.NavigationControl({showCompass:false}),'bottom-right');
@@ -241,9 +253,9 @@ async function loadMetroLines(){
   }catch(error){console.warn('捷運路線暫時無法載入；底圖仍保留 OSM 軌道資料。',error);}
 }
 function render(){
-  const city=$('#city-filter').value,status=$('#status-filter').value,rating=$('#rating-filter').value,maxWalk=Number($('#walk-filter').value),query=$('#search-filter').value.trim().toLowerCase();
+  const city=$('#city-filter').value,status=$('#status-filter').value,rating=$('#rating-filter').value,maxWalk=Number($('#walk-filter').value),query=$('#search-filter').value.trim().toLowerCase(),line=$('#line-filter')?.value||'all';
   const ratingMatches=project=>rating==='all'||(rating==='NR'?project.rating==='NR':ratingRank[project.rating]>=ratingRank[rating]);
-  state.projects=projects.filter(project=>(city==='all'||project.city===city)&&(status==='all'||project.status===status)&&ratingMatches(project)&&project.walk<=maxWalk&&(!query||[project.name,project.district,project.builder,project.station].join(' ').toLowerCase().includes(query)));
+  state.projects=projects.filter(project=>(city==='all'||project.city===city)&&(status==='all'||project.status===status)&&(line==='all'||project.lines?.includes(line))&&ratingMatches(project)&&project.walk<=maxWalk&&(!query||[project.name,project.district,project.builder,project.station].join(' ').toLowerCase().includes(query)));
   $('#project-rows').innerHTML=state.projects.map(project=>`<tr data-id="${escapeHtml(project.id)}" class="${isMapped(project)?'':'unlocated-row'}"><td><strong>${escapeHtml(project.name)}</strong><small><b class="location-tag ${isMapped(project)?'located':'pending'}">${isMapped(project)?'已定位':'待定位'}</b>${escapeHtml(project.source)}${project.locationAccuracy?` · ${escapeHtml(project.locationAccuracy)}`:''}</small></td><td>${escapeHtml(project.district)}</td><td><span class="walk">${escapeHtml(project.station)} <b>${project.walk} 分</b></span></td><td>${escapeHtml(project.address)}</td><td><span class="grade grade-${project.rating.toLowerCase()}" title="${escapeHtml(project.ratingBasis||'建商研究評等')}">${project.rating}</span>${escapeHtml(project.builder)}</td><td><span class="status status-${project.status.includes('審議')||project.status.includes('核定')?'early':project.status.includes('建照')?'permit':'sale'}">${escapeHtml(project.status)}</span></td><td>${escapeHtml(project.completion)}</td><td>${escapeHtml(project.type)}</td><td>${escapeHtml(project.size)}</td><td>${escapeHtml(project.price)}</td><td>${hasGoogleMapsListing(project)?`<a class="map-link" href="${mapsUrl(project)}" target="_blank" rel="noopener" title="在 Google Maps 開啟已確認的建案標記">↗</a>`:'—'}</td></tr>`).join('');
   $('#result-count').textContent=state.projects.length;$('#empty-state').hidden=state.projects.length>0;
   const visible=new Set(state.projects.map(project=>String(project.id)));
@@ -412,10 +424,11 @@ async function loadHazardsReliable(force=false){
   }
 }
 
+addScopeSwitcher();
 addFloodControl();
 setupResponsiveMapPanels();
 map.on('load',()=>{addProjectAreas();showMetroLines(cachedMetroRoutes);addProjectMarkers();render();loadMetroLines();setTimeout(()=>loadHazardsReliable(false),600);});
-['city-filter','status-filter','rating-filter','walk-filter'].forEach(id=>$('#'+id).addEventListener('change',render));
+['city-filter','status-filter','rating-filter','walk-filter','line-filter'].forEach(id=>$('#'+id)?.addEventListener('change',render));
 $('#search-filter').addEventListener('input',render);
 document.querySelectorAll('[data-scroll]').forEach(button=>button.addEventListener('click',()=>$('#'+button.dataset.scroll).scrollIntoView({behavior:'smooth'})));
 $('#refresh-hazards').addEventListener('click',()=>loadHazardsReliable(true));
