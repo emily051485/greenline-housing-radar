@@ -107,6 +107,15 @@ for(const [district,points] of pointsByDistrict){
 }
 let transactionGroups=new Map();
 const transactionAliases=new Map([[canonicalName('江陵天碩中央特區'),canonicalName('江陵天?')]]);
+for(const [registryName,transactionName] of [
+  ['世界芯A棟','世界芯'],['世界芯B棟','世界芯'],['女王萬歲(2)','女王萬歲2'],
+  ['馥華之丘－光茵','馥華之丘-光茵'],['左岸明珠','左岸明珠B區'],
+  ['日進學B區','日進學'],['立信微美之星','微美之星'],
+  ['森聯上上謙(森治)','森聯上上謙-森治社區'],['森聯上上謙(森越)','森聯上上謙-森越社區'],
+  ['新潤A5Ⅱ大道鎏域','新潤A5 II 大道鎏域'],['潤見築','新潤潤見築'],
+  ['伊豆莊園II','伊豆莊園'],['森原樹樹之丘','森原樹·樹之丘'],
+  ['名毅吾山','名毅吾山-靚山區'],['「築。滿滿」','築。滿滿'],['富都匯','百邑富都匯'],
+])transactionAliases.set(canonicalName(registryName),canonicalName(transactionName));
 function transactionRows(name){
   const key=canonicalName(name),alias=transactionAliases.get(key);
   return transactionGroups.get(key)||transactionGroups.get(alias)||[];
@@ -170,10 +179,27 @@ function builderInfo(value=''){
 }
 const newTaipeiTransactions=JSON.parse(fs.readFileSync(raw('newtaipei-presale.json'),'utf8'));transactionGroups=new Map();
 for(const row of newTaipeiTransactions){if(row.rps28){const key=canonicalName(row.rps28),group=transactionGroups.get(key)||[];group.push(row);transactionGroups.set(key,group);}}
+for(const file of ['a_lvr_land_b.csv','f_lvr_land_b.csv']){
+  if(!fs.existsSync(raw(file)))continue;
+  for(const row of records(raw(file))){
+    if(!row['建案名稱']||row['建案名稱']==='build case'||row['解約情形'])continue;
+    const normalized={district:row['鄉鎮市區'],rps02:row['土地位置建物門牌'],rps15_area:row['建物移轉總面積平方公尺'],rps22_amountsunitdollars:row['單價元平方公尺'],rps24_area:row['車位移轉總面積平方公尺'],rps28:row['建案名稱']};
+    const key=canonicalName(normalized.rps28),group=transactionGroups.get(key)||[];
+    group.push(normalized);transactionGroups.set(key,group);
+  }
+}
+const taipeiTransactions=records(raw('taipei-realprice-weekly.csv'));
+for(const row of taipeiTransactions){
+  if(!row.BUILD_NAME||!Number(row.FAREA))continue;
+  const key=canonicalName(row.BUILD_NAME),group=transactionGroups.get(key)||[];
+  const areaExcludingParking=Number(row.FAREA)-Number(row.PAREA||0);
+  group.push({...row,_areaPing:areaExcludingParking,_unitPriceWan:Number(row.UPRICE)});
+  transactionGroups.set(key,group);
+}
 function priceInfo(name){
-  const rows=transactionRows(name),prices=rows.map(row=>Number(row.rps22_amountsunitdollars)*3.305785/10000).filter(value=>value>0),areas=rows.map(row=>Number(row.rps15_area)/3.305785).filter(value=>value>0);
+  const rows=transactionRows(name),prices=rows.map(row=>row._unitPriceWan??Number(row.rps22_amountsunitdollars)*3.305785/10000).filter(value=>value>0),areas=rows.map(row=>row._areaPing??(Number(row.rps15_area)-Number(row.rps24_area||0))/3.305785).filter(value=>value>=5&&value<=300);
   const average=prices.length?Math.round(prices.reduce((sum,value)=>sum+value,0)/prices.length*10)/10:null;
-  return {price:average?`實登均價 ${average} 萬/坪`:'尚無可靠實登',size:areas.length?`${Math.floor(Math.min(...areas))}–${Math.ceil(Math.max(...areas))} 坪`:'尚無可靠坪數',transactionCount:rows.length};
+  return {price:average?`實登均價 ${average} 萬/坪`:'尚無可靠實登',size:areas.length?`${Math.floor(Math.min(...areas))}–${Math.ceil(Math.max(...areas))} 坪（實登、扣車位）`:'尚無可配對成交坪數',transactionCount:rows.length};
 }
 
 const projects=[];
