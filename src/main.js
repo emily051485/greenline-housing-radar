@@ -375,7 +375,7 @@ function updateTransitOptions(){
     const names=stationsForLine(line);if(!names.length)continue;
     const group=document.createElement('optgroup');group.label=label;
     const wholeLine=document.createElement('option');wholeLine.value=`line:${line}`;wholeLine.textContent=`整條${label}`;group.append(wholeLine);
-    for(const name of names){const option=document.createElement('option');option.value=`station:${line}:${name}`;option.textContent=`↳ ${name}站`;group.append(option);}
+    for(const name of names){const option=document.createElement('option');option.value=`station:${line}:${name}`;option.textContent=`${name}站`;group.append(option);}
     select.append(group);
   }
   syncTransitFilter();
