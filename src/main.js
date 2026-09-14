@@ -33,11 +33,14 @@ const state={projects:[...projects],markers:new Map()};
 const stationKey=value=>String(value||'').replace(/臺/g,'台').replace(/站$/,'');
 const stationLines=new Map();
 for(const feature of cachedMetroStations.features){
-  const ref=String(feature.properties.ref||''),lines=ref.split(';').map(value=>value.match(/^[A-Z]+/)?.[0]).filter(Boolean).flatMap(line=>/^(V|K|LB|LG)$/.test(line)?[line,'LRT']:[line]);
+  const ref=String(feature.properties.ref||''),lines=ref.split(';').map(value=>value.match(/^[A-Z]+/)?.[0]).filter(Boolean);
   stationLines.set(stationKey(feature.properties.name),[...new Set(lines)]);
 }
-const projectLines=project=>project.lines?.length?project.lines:(stationLines.get(stationKey(project.station))||[]);
-const transitLineLabels={R:'淡水信義線',G:'松山新店線',O:'中和新蘆線',BL:'板南線',BR:'文湖線',Y:'環狀線',A:'機場捷運',LRT:'輕軌'};
+const projectLines=project=>{
+  const inferred=stationLines.get(stationKey(project.station))||[],explicit=project.lines||[];
+  return [...new Set([...explicit.filter(line=>line!=='LRT'),...inferred])];
+};
+const transitLineLabels={R:'淡水信義線',G:'松山新店線',O:'中和新蘆線',BL:'板南線',BR:'文湖線',Y:'環狀線',A:'機場捷運',V:'淡海輕軌',K:'安坑輕軌',LB:'三鶯線',LG:'汐東線'};
 const stationsForLine=line=>[...new Set(projects.filter(project=>project.station&&project.station!=='待定位'&&(line==='all'||projectLines(project).includes(line))).map(project=>project.station))].sort((a,b)=>a.localeCompare(b,'zh-Hant'));
 const floodScenarios={
   '6h150':{label:'6 小時降雨 150 mm',layers:[40,2,22,12]},

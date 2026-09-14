@@ -48,7 +48,7 @@ const registry=[
 });
 const stationKey=value=>String(value||'').replace(/臺/g,'台').replace(/站$/,'');
 const metroStations=cachedMetroStations.features.map(feature=>{
-  const ref=String(feature.properties.ref||''),rawLines=ref.split(';').map(value=>value.match(/^[A-Z]+/)?.[0]).filter(Boolean),lines=[...new Set(rawLines.flatMap(line=>/^(V|K|LB|LG)$/.test(line)?[line,'LRT']:[line]))];
+  const ref=String(feature.properties.ref||''),lines=[...new Set(ref.split(';').map(value=>value.match(/^[A-Z]+/)?.[0]).filter(Boolean))];
   return {station:feature.properties.name,lng:feature.geometry.coordinates[0],lat:feature.geometry.coordinates[1],lines};
 });
 const stationLinesByName=new Map(metroStations.map(station=>[stationKey(station.station),station.lines]));
