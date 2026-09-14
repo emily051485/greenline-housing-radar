@@ -390,13 +390,23 @@ function distanceMeters(aLat,aLng,bLat,bLng){
   const value=Math.sin(dLat/2)**2+Math.cos(radians(aLat))*Math.cos(radians(bLat))*Math.sin(dLng/2)**2;
   return 12742000*Math.asin(Math.sqrt(value));
 }
+function facilityIcon(shape,color){
+  const canvas=document.createElement('canvas');canvas.width=40;canvas.height=40;
+  const context=canvas.getContext('2d');context.beginPath();
+  if(shape==='diamond'){context.moveTo(20,3);context.lineTo(37,20);context.lineTo(20,37);context.lineTo(3,20);context.closePath();}
+  else{context.moveTo(20,3);context.lineTo(37,35);context.lineTo(3,35);context.closePath();}
+  context.fillStyle=color;context.fill();context.strokeStyle='#fff';context.lineWidth=5;context.lineJoin='round';context.stroke();
+  return context.getImageData(0,0,40,40);
+}
 function setHazardData(collection){
   if(map.getSource('hazards')){
     map.getSource('hazards').setData(collection);
     return;
   }
   map.addSource('hazards',{type:'geojson',data:collection});
-  map.addLayer({id:'hazards',type:'symbol',source:'hazards',layout:{'text-field':['match',['get','group'],'重大環境設施','◆','▲'],'text-size':['interpolate',['linear'],['zoom'],10,12,14,18],'text-allow-overlap':true},paint:{'text-color':['match',['get','group'],'重大環境設施','#b74838','#d38a18'],'text-halo-color':'#fff','text-halo-width':1.5,'text-opacity':.94}});
+  if(!map.hasImage('hazard-diamond'))map.addImage('hazard-diamond',facilityIcon('diamond','#b74838'),{pixelRatio:2});
+  if(!map.hasImage('impact-triangle'))map.addImage('impact-triangle',facilityIcon('triangle','#d38a18'),{pixelRatio:2});
+  map.addLayer({id:'hazards',type:'symbol',source:'hazards',layout:{'icon-image':['match',['get','group'],'重大環境設施','hazard-diamond','impact-triangle'],'icon-size':['interpolate',['linear'],['zoom'],10,.68,14,1],'icon-allow-overlap':true,'icon-ignore-placement':true},paint:{'icon-opacity':.94}});
   map.on('click','hazards',event=>{
     const feature=event.features?.[0];
     if(feature)new maplibregl.Popup().setLngLat(event.lngLat).setHTML(`<b>${escapeHtml(feature.properties.label)}</b><br>${escapeHtml(feature.properties.name)}<br><small>${escapeHtml(feature.properties.group)} · 檢查 ${escapeHtml(feature.properties.radius)} 公尺</small>`).addTo(map);
