@@ -170,6 +170,7 @@ function addFloodControl(){
       <label class="layer-toggle"><input id="critical-facilities-toggle" type="checkbox" checked><span><i class="hazard"></i>重大環境設施</span></label>
       <label class="layer-toggle"><input id="impact-facilities-toggle" type="checkbox"><span><i class="impact"></i>生活影響設施</span></label>
       <small id="environment-layer-status">重大環境設施開啟</small>
+      <small id="hazard-status">正在載入共用快取</small><button id="refresh-hazards" type="button" hidden>重新載入環境設施</button>
     </div>
     <div class="risk-layer-group"><strong>降雨淹水模擬</strong><label class="layer-toggle"><input id="flood-toggle" type="checkbox"><span>顯示淹水圖層</span></label>
       <label>降雨情境<select id="flood-scenario"><option value="6h150">6 小時／150 mm</option><option value="6h250">6 小時／250 mm</option><option value="6h350">6 小時／350 mm</option><option value="12h200">12 小時／200 mm</option><option value="12h300">12 小時／300 mm</option><option value="12h400">12 小時／400 mm</option><option value="24h200">24 小時／200 mm</option><option value="24h350">24 小時／350 mm</option><option value="24h500" selected>24 小時／500 mm</option><option value="24h650">24 小時／650 mm</option></select></label>
