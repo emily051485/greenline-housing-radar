@@ -315,11 +315,11 @@ async function loadMetroLines(){
   }catch(error){console.warn('捷運路線暫時無法載入；底圖仍保留 OSM 軌道資料。',error);}
 }
 function render(){
-  const city=$('#city-filter').value,status=$('#status-filter').value,rating=$('#rating-filter').value,maxWalk=Number($('#walk-filter').value),query=$('#search-filter').value.trim().toLowerCase(),line=$('#line-filter')?.value||'all',station=$('#station-filter')?.value||'all';
+  const city=$('#city-filter').value,district=$('#district-filter')?.value||'all',status=$('#status-filter').value,rating=$('#rating-filter').value,maxWalk=Number($('#walk-filter').value),query=$('#search-filter').value.trim().toLowerCase(),line=$('#line-filter')?.value||'all',station=$('#station-filter')?.value||'all';
   const ratingMatches=project=>rating==='all'||(rating==='NR'?project.rating==='NR':ratingRank[project.rating]>=ratingRank[rating]);
   const walkMatches=project=>maxWalk>=999||(Number.isFinite(project.walk)&&project.walk<=maxWalk);
-  state.projects=projects.filter(project=>(city==='all'||project.city===city)&&(status==='all'||project.status===status)&&(line==='all'||projectLines(project).includes(line))&&(station==='all'||stationKey(project.station)===stationKey(station))&&ratingMatches(project)&&walkMatches(project)&&(!query||[project.name,project.district,project.builder,project.station].join(' ').toLowerCase().includes(query)));
-  $('#project-rows').innerHTML=state.projects.map(project=>{const transit=Number.isFinite(project.walk)?`${escapeHtml(project.station)} <b>${project.walk} 分</b>`:'<b>待定位</b>',locationLabel=project.locationStatus==='estimated'?'範圍定位':isMapped(project)?'已定位':'待定位',locationClass=project.locationStatus==='estimated'?'estimated':isMapped(project)?'located':'pending',evidence=`${escapeHtml(project.source)}${project.locationAccuracy?` · ${escapeHtml(project.locationAccuracy)}`:''}<div class="evidence-links">${sourceLinksHtml(project)}</div>`;return `<tr data-id="${escapeHtml(project.id)}" class="${isMapped(project)?'':'unlocated-row'}"><td><strong>${escapeHtml(project.name)}</strong><small><b class="location-tag ${locationClass}">${locationLabel}</b></small></td><td>${escapeHtml(project.district)}</td><td><span class="walk">${transit}</span></td><td><span class="grade grade-${project.rating.toLowerCase()}" title="${escapeHtml(project.ratingBasis||'建商研究評等')}">${project.rating}</span>${escapeHtml(project.builder)}</td><td><span class="status status-${project.status.includes('審議')||project.status.includes('核定')?'early':project.status.includes('建照')?'permit':'sale'}">${escapeHtml(project.status)}</span></td><td>${escapeHtml(project.completion)}</td><td>${escapeHtml(project.type)}</td><td>${escapeHtml(project.size)}</td><td>${escapeHtml(project.price)}</td><td>${escapeHtml(project.address)}</td><td class="data-evidence">${evidence}</td><td>${hasGoogleMapsListing(project)?`<a class="map-link" href="${mapsUrl(project)}" target="_blank" rel="noopener" title="在 Google Maps 開啟已確認的建案標記">↗</a>`:'—'}</td></tr>`;}).join('');
+  state.projects=projects.filter(project=>(city==='all'||project.city===city)&&(district==='all'||project.district===district)&&(status==='all'||project.status===status)&&(line==='all'||projectLines(project).includes(line))&&(station==='all'||stationKey(project.station)===stationKey(station))&&ratingMatches(project)&&walkMatches(project)&&(!query||[project.name,project.district,project.builder,project.station].join(' ').toLowerCase().includes(query)));
+  $('#project-rows').innerHTML=state.projects.map(project=>{const transit=Number.isFinite(project.walk)?`${escapeHtml(project.station)} <b>${project.walk} 分</b>`:'<b>待定位</b>',locationLabel=project.locationStatus==='estimated'?'範圍定位':isMapped(project)?'已定位':'待定位',locationClass=project.locationStatus==='estimated'?'estimated':isMapped(project)?'located':'pending',evidence=`${escapeHtml(project.source)}${project.locationAccuracy?` · ${escapeHtml(project.locationAccuracy)}`:''}<div class="evidence-links">${sourceLinksHtml(project)}</div>`;return `<tr data-id="${escapeHtml(project.id)}" class="${isMapped(project)?'':'unlocated-row'}"><td><strong>${escapeHtml(project.name)}</strong><small><b class="location-tag ${locationClass}">${locationLabel}</b><b class="district-tag">${escapeHtml(project.district)}</b></small></td><td><span class="walk">${transit}</span></td><td><span class="grade grade-${project.rating.toLowerCase()}" title="${escapeHtml(project.ratingBasis||'建商研究評等')}">${project.rating}</span>${escapeHtml(project.builder)}</td><td><span class="status status-${project.status.includes('審議')||project.status.includes('核定')?'early':project.status.includes('建照')?'permit':'sale'}">${escapeHtml(project.status)}</span></td><td>${escapeHtml(project.completion)}</td><td>${escapeHtml(project.type)}</td><td>${escapeHtml(project.size)}</td><td>${escapeHtml(project.price)}</td><td>${escapeHtml(project.address)}</td><td class="data-evidence">${evidence}</td><td>${hasGoogleMapsListing(project)?`<a class="map-link" href="${mapsUrl(project)}" target="_blank" rel="noopener" title="在 Google Maps 開啟已確認的建案標記">↗</a>`:'—'}</td></tr>`;}).join('');
   $('#result-count').textContent=state.projects.length;$('#empty-state').hidden=state.projects.length>0;
   const visible=new Set(state.projects.map(project=>String(project.id)));
   state.markers.forEach((marker,id)=>marker.getElement().style.display=visible.has(id)?'grid':'none');
@@ -349,6 +349,15 @@ function updateStationOptions(){
   const names=stationsForLine(line);
   select.innerHTML=`<option value="all">全部車站</option>${names.map(name=>`<option value="${escapeHtml(name)}">${escapeHtml(name)}站</option>`).join('')}`;
   select.value=names.includes(current)?current:'all';
+}
+
+function updateDistrictOptions(){
+  const select=$('#district-filter');
+  if(!select)return;
+  const city=$('#city-filter')?.value||'all',current=select.value;
+  const districts=[...new Set(projects.filter(project=>city==='all'||project.city===city).map(project=>project.district).filter(Boolean))].sort((a,b)=>a.localeCompare(b,'zh-Hant'));
+  select.innerHTML=`<option value="all">全部行政區</option>${districts.map(district=>`<option value="${escapeHtml(district)}">${escapeHtml(district)}</option>`).join('')}`;
+  select.value=districts.includes(current)?current:'all';
 }
 function syncTransitFilter(){
   const select=$('#transit-filter');if(!select)return;
@@ -575,7 +584,8 @@ addScopeSwitcher();
 addFloodControl();
 setupResponsiveMapPanels();
 map.on('load',()=>{addProjectAreas();showMetroLines(cachedMetroRoutes);showMetroStations();addProjectMarkers();render();loadMetroLines();setTimeout(()=>loadHazardsReliable(false),600);});
-['city-filter','status-filter','rating-filter','walk-filter'].forEach(id=>$('#'+id)?.addEventListener('change',render));
+$('#city-filter')?.addEventListener('change',()=>{updateDistrictOptions();render();});
+['district-filter','status-filter','rating-filter','walk-filter'].forEach(id=>$('#'+id)?.addEventListener('change',render));
 $('#station-filter')?.addEventListener('change',()=>{syncTransitFilter();render();});
 $('#line-filter')?.addEventListener('change',()=>{updateStationOptions();syncTransitFilter();render();});
 $('#transit-filter')?.addEventListener('change',event=>{
@@ -589,6 +599,7 @@ $('#search-filter').addEventListener('input',render);
 document.querySelectorAll('[data-scroll]').forEach(button=>button.addEventListener('click',()=>$('#'+button.dataset.scroll).scrollIntoView({behavior:'smooth'})));
 $('#refresh-hazards').addEventListener('click',()=>loadHazardsReliable(true));
 updateStationOptions();
+updateDistrictOptions();
 updateTransitOptions();
 setupTableScrolling();
 const mappedWalks=projects.map(project=>project.walk).filter(Number.isFinite);

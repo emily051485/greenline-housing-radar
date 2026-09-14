@@ -2,6 +2,7 @@
 @media(max-width:900px){.topbar nav,.source-button{display:none}.hero{padding:70px 6vw;min-height:620px}.hero h1{letter-spacing:-3px}.hero-rail{width:88%;right:6%;bottom:55px}.stats-wrap{grid-template-columns:1fr 1fr}.stats-wrap article:nth-child(2){border-right:0}.filter-panel{grid-template-columns:1fr 1fr}.search-label{grid-column:1/-1}.section-heading{display:block}.source-grid{grid-template-columns:1fr}.source-grid article{border-right:0;border-bottom:1px solid var(--line)}.map-frame{height:560px}.method-note{display:block}.method-note p{margin-top:10px}}@media(max-width:560px){.hero h1{font-size:52px}.hero-actions{justify-content:space-between}.stats-wrap{margin:0 4vw 60px}.stats-wrap article{padding:20px}.section-heading h2{font-size:34px}.filter-panel{grid-template-columns:1fr}.filter-panel label{border-right:0;border-bottom:1px solid var(--line)}.search-label{grid-column:auto}.map-section,.projects,.sources{padding-left:4vw;padding-right:4vw}.map-legend{left:10px;bottom:10px}.source-grid article{padding:23px}footer{display:block}footer span{display:block;margin:5px 0}}
 .prototype-alert{display:flex;gap:14px;align-items:center;margin:-3px 0 14px;padding:10px 14px;border:1px solid #e5c574;background:#fff8df;color:#725619;font-size:11px}.prototype-alert b{white-space:nowrap;color:#5a4004}
 .location-tag{display:inline-block;margin-right:6px;padding:1px 5px;border-radius:8px;font-size:9px}.location-tag.located{background:#dcefe4;color:var(--green)}.location-tag.estimated,.location-tag.pending{background:#fff0d3;color:#875700}.unlocated-row:hover{background:#fffaf0}
+.district-tag{display:inline-block;padding:1px 6px;border-radius:8px;background:#ecebe5;color:#58625d;font-size:9px;font-weight:600}
 .site-area{width:16px;height:11px;display:inline-block;background:rgba(98,132,119,.28);border:1.5px solid #415b53}
 .pin.pending{background:var(--green);opacity:.6}
 .pin.s{background:var(--ink)}
@@ -36,3 +37,23 @@ main{display:flex;flex-direction:column}.hero{order:1}.stats-wrap{order:2}.map-s
 @media(min-width:701px){.table-top-scroll{height:15px;overflow-x:auto;overflow-y:hidden;border-bottom:1px solid var(--line);background:#faf9f5}.table-top-scroll>div{height:1px}.table-scroll{max-height:min(72vh,720px);overflow:auto}.table-scroll th{position:sticky;top:0;z-index:3;box-shadow:0 1px 0 #e7e4dc}.table-scroll thead{cursor:grab;user-select:none}.table-scroll thead.dragging{cursor:grabbing}}
 @media(max-width:700px){.table-top-scroll{display:none}.table-scroll td:nth-child(4),.table-scroll td:nth-child(10),.table-scroll td:nth-child(11),.table-scroll td:nth-child(12){grid-column:1/-1}.table-scroll td:nth-child(5){grid-column:auto}.table-scroll td:nth-child(4)::before{content:'建商／評等'}.table-scroll td:nth-child(5)::before{content:'目前進度'}.table-scroll td:nth-child(6)::before{content:'預計完工'}.table-scroll td:nth-child(7)::before{content:'類型'}.table-scroll td:nth-child(8)::before{content:'坪數'}.table-scroll td:nth-child(9)::before{content:'預估價格'}.table-scroll td:nth-child(10)::before{content:'地址'}.table-scroll td:nth-child(11)::before{content:'資料來源／定位依據'}.table-scroll td:nth-child(12)::before{content:'地圖'}}
 .mature-hero{background:radial-gradient(circle at 85% 20%,rgba(130,70,175,.16),transparent 28%)}.mature-page .brand-mark{background:#243a68}.mature-page .hero h1 em,.mature-page .eyebrow,.mature-page .kicker{color:#315a9a}.mature-page .eyebrow span{background:#315a9a}.mature-filters{grid-template-columns:repeat(5,minmax(120px,1fr)) 1.4fr}.scope-switcher{position:fixed;right:18px;bottom:18px;z-index:1200;display:flex;padding:4px;border:1px solid rgba(20,35,29,.14);border-radius:24px;background:rgba(255,255,255,.96);box-shadow:0 8px 28px rgba(0,0,0,.18);font-size:11px}.scope-switcher a{padding:8px 12px;border-radius:18px;color:var(--muted)}.scope-switcher a.active{background:var(--ink);color:#fff}@media(max-width:900px){.mature-filters{grid-template-columns:1fr 1fr}.scope-switcher{right:10px;bottom:10px}}@media(max-width:560px){.mature-filters{grid-template-columns:1fr}.scope-switcher a{padding:7px 9px;font-size:10px}}
+
+.filter-panel,.mature-filters{grid-template-columns:repeat(6,minmax(105px,1fr)) 1.4fr}
+@media(max-width:900px){.filter-panel,.mature-filters{grid-template-columns:1fr 1fr}}
+@media(max-width:560px){.filter-panel,.mature-filters{grid-template-columns:1fr}}
+
+@media(max-width:700px){
+  .table-scroll td:nth-child(2)::before{content:'捷運步行'}
+  .table-scroll td:nth-child(3)::before{content:'建商／評等'}
+  .table-scroll td:nth-child(4)::before{content:'目前進度'}
+  .table-scroll td:nth-child(5)::before{content:'預計完工'}
+  .table-scroll td:nth-child(6)::before{content:'類型'}
+  .table-scroll td:nth-child(7)::before{content:'坪數'}
+  .table-scroll td:nth-child(8)::before{content:'預估價格'}
+  .table-scroll td:nth-child(9)::before{content:'地址'}
+  .table-scroll td:nth-child(10)::before{content:'資料來源／定位依據'}
+  .table-scroll td:nth-child(11)::before{content:'地圖'}
+  .table-scroll td:nth-child(3),.table-scroll td:nth-child(9),.table-scroll td:nth-child(10),.table-scroll td:nth-child(11){grid-column:1/-1}
+  .table-scroll td:nth-child(4),.table-scroll td:nth-child(5){grid-column:auto}
+  .table-scroll td:nth-child(10){min-width:0;max-width:none;padding-top:10px;border-top:1px solid #eeece5}
+}

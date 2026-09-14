@@ -39,6 +39,7 @@
         <div class="section-heading"><div><span class="kicker">PROJECT INDEX</span><h2>建案總覽</h2></div><p>點選列即可在地圖定位。售價與完工日期若為推估，會以「估」標示。</p></div>
         <div class="filter-panel">
           <label>城市<select id="city-filter"><option value="all">台北市 + 新北市</option><option>台北市</option><option>新北市</option></select></label>
+          <label>行政區<select id="district-filter"><option value="all">全部行政區</option></select></label>
           <label class="combined-transit-filter">捷運路線／車站<select id="transit-filter"><option value="all">全部路線與車站</option></select></label>
           <label class="separate-transit-filter">捷運路線<select id="line-filter"><option value="all">全部路線</option><option value="R">淡水信義線</option><option value="G">松山新店線</option><option value="O">中和新蘆線</option><option value="BL">板南線</option><option value="BR">文湖線</option><option value="Y">環狀線</option><option value="A">機場捷運</option><option value="LRT">輕軌</option></select></label>
           <label class="separate-transit-filter">捷運站<select id="station-filter"><option value="all">全部車站</option></select></label>
@@ -50,7 +51,7 @@
         <div class="prototype-alert"><b>定位稽核機制</b><span>實心標記為已核對位置；半透明色塊為臺北市地政局官方「主地號宗地」，不等於完整更新範圍；低透明度標記仍是待定位生活圈候選點，顏色照建商評等顯示。</span></div>
         <div class="table-shell">
           <div class="table-meta"><span><b id="result-count">0</b> 個結果</span><span class="legend"><i class="dot live"></i>政府資料 <i class="dot estimate"></i>推估／待核</span></div>
-          <div class="table-top-scroll" aria-label="表格水平捲動"><div></div></div><div class="table-scroll"><table><thead><tr><th>建案／都更案</th><th>區域</th><th>捷運步行</th><th>開發／申請主體 · 評等</th><th>目前進度</th><th>預計完工</th><th>類型</th><th>坪數</th><th>預估價格</th><th>地址</th><th>資料來源／定位依據</th><th>地圖</th></tr></thead><tbody id="project-rows"></tbody></table></div>
+          <div class="table-top-scroll" aria-label="表格水平捲動"><div></div></div><div class="table-scroll"><table><thead><tr><th>建案／都更案</th><th>捷運步行</th><th>開發／申請主體 · 評等</th><th>目前進度</th><th>預計完工</th><th>類型</th><th>坪數</th><th>預估價格</th><th>地址</th><th>資料來源／定位依據</th><th>地圖</th></tr></thead><tbody id="project-rows"></tbody></table></div>
           <div id="empty-state" class="empty" hidden>沒有符合目前條件的標的。</div>
         </div>
       </section>

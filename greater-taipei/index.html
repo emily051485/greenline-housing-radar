@@ -44,6 +44,7 @@
         <div class="section-heading"><div><span class="kicker">PRESALE PROJECT INDEX</span><h2>預售建案清單</h2></div><p>首版採可信資料優先：尚未確認基地座標的備查案不會先放入地圖，後續將依捷運生活圈逐批覆核擴充。</p></div>
         <div class="filter-panel mature-filters">
           <label>城市<select id="city-filter"><option value="all">台北市＋新北市</option><option>台北市</option><option>新北市</option></select></label>
+          <label>行政區<select id="district-filter"><option value="all">全部行政區</option></select></label>
           <label class="combined-transit-filter">捷運路線／車站<select id="transit-filter"><option value="all">全部路線與車站</option></select></label>
           <label class="separate-transit-filter">捷運路線<select id="line-filter"><option value="all">全部路線</option><option value="R">淡水信義線</option><option value="G">松山新店線</option><option value="O">中和新蘆線</option><option value="BL">板南線</option><option value="BR">文湖線</option><option value="Y">環狀線</option><option value="A">機場捷運</option><option value="LRT">輕軌</option></select></label>
           <label class="separate-transit-filter">捷運站<select id="station-filter"><option value="all">全部車站</option></select></label>
@@ -55,7 +56,7 @@
         <div class="prototype-alert"><b>不再因定位失敗漏案</b><span>收錄案件都保留於表格；官方門牌、後續實價登錄門牌或路口可可靠配對者才顯示地圖標記，其餘明確標為「待定位」。</span></div>
         <div class="table-shell">
           <div class="table-meta"><span><b id="result-count">0</b> 筆結果</span><span class="legend"><i class="dot live"></i>正式門牌／明確位置 <i class="dot estimate"></i>宗地中心／範圍定位</span></div>
-          <div class="table-top-scroll" aria-label="表格水平捲動"><div></div></div><div class="table-scroll"><table><thead><tr><th>建案／建照名稱</th><th>區域</th><th>捷運步行</th><th>建商／評等</th><th>目前進度</th><th>預計完工</th><th>類型</th><th>坪數</th><th>預估價格</th><th>地址</th><th>資料來源／定位依據</th><th>地圖</th></tr></thead><tbody id="project-rows"></tbody></table></div>
+          <div class="table-top-scroll" aria-label="表格水平捲動"><div></div></div><div class="table-scroll"><table><thead><tr><th>建案／建照名稱</th><th>捷運步行</th><th>建商／評等</th><th>目前進度</th><th>預計完工</th><th>類型</th><th>坪數</th><th>預估價格</th><th>地址</th><th>資料來源／定位依據</th><th>地圖</th></tr></thead><tbody id="project-rows"></tbody></table></div>
           <div id="empty-state" class="empty" hidden>沒有符合目前條件的預售建案。</div>
         </div>
       </section>
