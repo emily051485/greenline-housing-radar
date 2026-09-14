@@ -5,7 +5,11 @@ const $=selector=>document.querySelector(selector);
 const escapeHtml=value=>String(value??'').replace(/[&<>"']/g,char=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[char]));
 const isMapped=project=>project.locationStatus!=='unlocated'&&Number.isFinite(project.lat)&&Number.isFinite(project.lng);
 const hasCoordinates=project=>Number.isFinite(project.lat)&&Number.isFinite(project.lng);
-const mapsUrl=project=>`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(isMapped(project)?`${project.lat},${project.lng}`:`${project.name} ${project.address}`)}`;
+const hasGoogleMapsListing=project=>isMapped(project)&&(
+  project.googleMapsListing===true||
+  /建案官網 Google Maps 導航點|Google Maps 建案標記|Google Maps「[^」]*(?:建案|建築基地)[^」]*」標記/i.test(project.locationAccuracy||'')
+);
+const mapsUrl=project=>`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(`${project.lat},${project.lng}`)}`;
 const ratingRank={NR:0,C:1,B:2,A:3,S:4};
 const metroColors={BR:'#c48c31',R:'#e3002c',G:'#008659',O:'#f8b61c',BL:'#0070bd',Y:'#ffdb00',A:'#8246af',K:'#7bbf43',LB:'#78c7d2',V:'#78c7d2',LG:'#9ac43c'};
 const state={projects:[...projects],markers:new Map()};
@@ -56,7 +60,8 @@ function markerElement(project){
 }
 function popupHtml(project){
   const warning=isMapped(project)?'':'<strong class="popup-location-warning">待定位候選點：此處是捷運生活圈推估，不是基地座標</strong>';
-  return `<div class="popup">${warning}<small>${escapeHtml(project.district)} · ${escapeHtml(project.station)}站約 ${project.walk} 分</small><h3>${escapeHtml(project.name)}</h3><p>${escapeHtml(project.status)}<br>${escapeHtml(project.builder)}（${escapeHtml(project.rating==='NR'?'未評等':project.rating+'級')}）</p><a href="${mapsUrl(project)}" target="_blank" rel="noopener">${isMapped(project)?'在 Google Maps 開啟座標':'以案名與地址搜尋 Google Maps'} ↗</a></div>`;
+  const mapsLink=hasGoogleMapsListing(project)?`<a href="${mapsUrl(project)}" target="_blank" rel="noopener">在 Google Maps 開啟建案 ↗</a>`:'';
+  return `<div class="popup">${warning}<small>${escapeHtml(project.district)} · ${escapeHtml(project.station)}站約 ${project.walk} 分</small><h3>${escapeHtml(project.name)}</h3><p>${escapeHtml(project.status)}<br>${escapeHtml(project.builder)}（${escapeHtml(project.rating==='NR'?'未評等':project.rating+'級')}）</p>${mapsLink}</div>`;
 }
 function addProjectMarkers(){
   projects.filter(hasCoordinates).forEach(project=>{
@@ -239,7 +244,7 @@ function render(){
   const city=$('#city-filter').value,status=$('#status-filter').value,rating=$('#rating-filter').value,maxWalk=Number($('#walk-filter').value),query=$('#search-filter').value.trim().toLowerCase();
   const ratingMatches=project=>rating==='all'||(rating==='NR'?project.rating==='NR':ratingRank[project.rating]>=ratingRank[rating]);
   state.projects=projects.filter(project=>(city==='all'||project.city===city)&&(status==='all'||project.status===status)&&ratingMatches(project)&&project.walk<=maxWalk&&(!query||[project.name,project.district,project.builder,project.station].join(' ').toLowerCase().includes(query)));
-  $('#project-rows').innerHTML=state.projects.map(project=>`<tr data-id="${escapeHtml(project.id)}" class="${isMapped(project)?'':'unlocated-row'}"><td><strong>${escapeHtml(project.name)}</strong><small><b class="location-tag ${isMapped(project)?'located':'pending'}">${isMapped(project)?'已定位':'待定位'}</b>${escapeHtml(project.source)}${project.locationAccuracy?` · ${escapeHtml(project.locationAccuracy)}`:''}</small></td><td>${escapeHtml(project.district)}</td><td><span class="walk">${escapeHtml(project.station)} <b>${project.walk} 分</b></span></td><td>${escapeHtml(project.address)}</td><td><span class="grade grade-${project.rating.toLowerCase()}" title="${escapeHtml(project.ratingBasis||'建商研究評等')}">${project.rating}</span>${escapeHtml(project.builder)}</td><td><span class="status status-${project.status.includes('審議')||project.status.includes('核定')?'early':project.status.includes('建照')?'permit':'sale'}">${escapeHtml(project.status)}</span></td><td>${escapeHtml(project.completion)}</td><td>${escapeHtml(project.type)}</td><td>${escapeHtml(project.size)}</td><td>${escapeHtml(project.price)}</td><td><a class="map-link" href="${mapsUrl(project)}" target="_blank" rel="noopener" title="${isMapped(project)?'開啟已覆核座標':'以案名與地址搜尋 Google Maps'}">↗</a></td></tr>`).join('');
+  $('#project-rows').innerHTML=state.projects.map(project=>`<tr data-id="${escapeHtml(project.id)}" class="${isMapped(project)?'':'unlocated-row'}"><td><strong>${escapeHtml(project.name)}</strong><small><b class="location-tag ${isMapped(project)?'located':'pending'}">${isMapped(project)?'已定位':'待定位'}</b>${escapeHtml(project.source)}${project.locationAccuracy?` · ${escapeHtml(project.locationAccuracy)}`:''}</small></td><td>${escapeHtml(project.district)}</td><td><span class="walk">${escapeHtml(project.station)} <b>${project.walk} 分</b></span></td><td>${escapeHtml(project.address)}</td><td><span class="grade grade-${project.rating.toLowerCase()}" title="${escapeHtml(project.ratingBasis||'建商研究評等')}">${project.rating}</span>${escapeHtml(project.builder)}</td><td><span class="status status-${project.status.includes('審議')||project.status.includes('核定')?'early':project.status.includes('建照')?'permit':'sale'}">${escapeHtml(project.status)}</span></td><td>${escapeHtml(project.completion)}</td><td>${escapeHtml(project.type)}</td><td>${escapeHtml(project.size)}</td><td>${escapeHtml(project.price)}</td><td>${hasGoogleMapsListing(project)?`<a class="map-link" href="${mapsUrl(project)}" target="_blank" rel="noopener" title="在 Google Maps 開啟已確認的建案標記">↗</a>`:'—'}</td></tr>`).join('');
   $('#result-count').textContent=state.projects.length;$('#empty-state').hidden=state.projects.length>0;
   const visible=new Set(state.projects.map(project=>String(project.id)));
   state.markers.forEach((marker,id)=>marker.getElement().style.display=visible.has(id)?'grid':'none');
