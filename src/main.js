@@ -1,6 +1,7 @@
 import { projects as greenProjects } from './data.js';
 import { matureProjects } from './mature-data.js';
 import { cachedMetroRoutes } from './generated/metro-routes.js';
+import { cachedMetroStations } from './generated/metro-stations.js';
 
 const $=selector=>document.querySelector(selector);
 const escapeHtml=value=>String(value??'').replace(/[&<>"']/g,char=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[char]));
@@ -128,6 +129,28 @@ function showMetroLines(collection){
   map.on('mouseenter','metro-routes',()=>map.getCanvas().style.cursor='pointer');
   map.on('mouseleave','metro-routes',()=>map.getCanvas().style.cursor='');
   map.on('click','metro-routes',event=>new maplibregl.Popup().setLngLat(event.lngLat).setHTML(`<b>${escapeHtml(event.features?.[0]?.properties?.name||'捷運路線')}</b>`).addTo(map));
+}
+function showMetroStations(collection=cachedMetroStations){
+  if(map.getSource('metro-stations')){map.getSource('metro-stations').setData(collection);return;}
+  map.addSource('metro-stations',{type:'geojson',data:collection});
+  map.addLayer({id:'metro-station-dots',type:'circle',source:'metro-stations',paint:{
+    'circle-radius':['interpolate',['linear'],['zoom'],8,2.2,11,3.2,14,5],
+    'circle-color':'#fff','circle-stroke-color':['get','color'],
+    'circle-stroke-width':['interpolate',['linear'],['zoom'],8,1.5,14,2.5],
+    'circle-opacity':.98,
+  }});
+  map.addLayer({id:'metro-station-labels',type:'symbol',source:'metro-stations',minzoom:11,layout:{
+    'text-field':['get','name'],'text-font':['Noto Sans Regular'],
+    'text-size':['interpolate',['linear'],['zoom'],11,10,14,12],
+    'text-offset':[0,1.15],'text-anchor':'top','text-padding':3,
+    'text-optional':true,'symbol-sort-key':['case',['==',['get','network'],'臺北捷運'],1,2],
+  },paint:{'text-color':'#20302a','text-halo-color':'rgba(255,255,255,.96)','text-halo-width':1.6,'text-halo-blur':.4}});
+  map.on('mouseenter','metro-station-dots',()=>map.getCanvas().style.cursor='pointer');
+  map.on('mouseleave','metro-station-dots',()=>map.getCanvas().style.cursor='');
+  map.on('click','metro-station-dots',event=>{
+    const station=event.features?.[0]?.properties||{};
+    new maplibregl.Popup({offset:9}).setLngLat(event.features[0].geometry.coordinates).setHTML(`<b>${escapeHtml(station.name)}站</b><br><small>${escapeHtml(station.ref||station.network)}</small>`).addTo(map);
+  });
 }
 function addFloodControl(){
   const control=document.createElement('section');
@@ -429,7 +452,7 @@ async function loadHazardsReliable(force=false){
 addScopeSwitcher();
 addFloodControl();
 setupResponsiveMapPanels();
-map.on('load',()=>{addProjectAreas();showMetroLines(cachedMetroRoutes);addProjectMarkers();render();loadMetroLines();setTimeout(()=>loadHazardsReliable(false),600);});
+map.on('load',()=>{addProjectAreas();showMetroLines(cachedMetroRoutes);showMetroStations();addProjectMarkers();render();loadMetroLines();setTimeout(()=>loadHazardsReliable(false),600);});
 ['city-filter','status-filter','rating-filter','walk-filter','line-filter'].forEach(id=>$('#'+id)?.addEventListener('change',render));
 $('#search-filter').addEventListener('input',render);
 document.querySelectorAll('[data-scroll]').forEach(button=>button.addEventListener('click',()=>$('#'+button.dataset.scroll).scrollIntoView({behavior:'smooth'})));

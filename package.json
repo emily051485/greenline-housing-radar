@@ -4,7 +4,7 @@
   "version": "0.1.0",
   "type": "module",
   "scripts": {
-    "data:metro": "node scripts/build-metro-cache.mjs",
+    "data:metro": "node scripts/build-metro-cache.mjs && node scripts/build-metro-stations.mjs",
     "data:locations": "node scripts/fetch-official-locations.mjs",
     "data:flood": "node scripts/cache-flood-layers.mjs",
     "data:geology": "node scripts/cache-geology-layers.mjs",
