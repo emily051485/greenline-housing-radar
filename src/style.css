@@ -98,3 +98,10 @@ main{display:flex;flex-direction:column}.hero{order:1}.stats-wrap{order:2}.map-s
   .map-section+.projects{padding-top:20px}
   .map-section+.projects .section-heading{margin-bottom:13px}
 }
+
+.projects .location-status-note{margin:10px 0 0;border-color:var(--line);background:#efeee8;color:var(--muted)}
+.projects .location-status-note b{color:#4f5b55}
+@media(max-width:560px){
+  .projects .location-status-note{display:block;padding:10px 12px;line-height:1.6}
+  .projects .location-status-note b{display:block;margin-bottom:3px}
+}
