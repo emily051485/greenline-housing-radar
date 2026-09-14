@@ -387,6 +387,7 @@ async function requestHazards(query){
 }
 async function loadHazardsReliable(force=false){
   const button=$('#refresh-hazards'),status=$('#hazard-status');
+  button.hidden=true;
   const centers=projects.filter(isMapped);
   let cached;
   try{cached=JSON.parse(localStorage.getItem(hazardCacheKey)||'null');}catch{cached=null;}
@@ -441,8 +442,10 @@ async function loadHazardsReliable(force=false){
     localStorage.setItem(hazardCacheKey,JSON.stringify({updatedAt:Date.now(),collection}));
     const critical=features.filter(feature=>feature.properties.group==='重大環境設施').length;
     status.textContent=`已更新 ${features.length} 個設施（重大 ${critical}）${failedBatches?`；${failedBatches} 批暫時無法更新`:''}`;
+    button.hidden=failedBatches===0;
   }catch(error){
     status.textContent=cached?.collection?'更新失敗，保留上次資料':'查詢失敗，請稍後再試';
+    button.hidden=false;
     console.error('嫌惡設施更新失敗',error);
   }finally{
     button.disabled=false;
