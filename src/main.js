@@ -77,7 +77,7 @@ map.addControl(new maplibregl.AttributionControl({compact:true,customAttribution
 function markerElement(project){
   const el=document.createElement('button');
   el.className=`map-project-marker marker-${project.rating.toLowerCase()}${project.locationStatus==='estimated'?' marker-estimated':''}${isMapped(project)?'':' marker-pending'}`;
-  el.type='button';el.textContent=project.rating==='NR'?'·':project.rating;el.title=`${project.locationStatus==='estimated'?'巷弄範圍定位':isMapped(project)?'已定位':'待定位'}｜${project.name}`;
+  el.type='button';el.textContent=project.rating==='NR'?'·':project.rating;el.title=`${project.locationStatus==='estimated'?(project.siteGeometry?'宗地中心定位':'範圍定位'):isMapped(project)?'已定位':'待定位'}｜${project.name}`;
   return el;
 }
 function popupHtml(project){
@@ -396,7 +396,7 @@ function setHazardData(collection){
     return;
   }
   map.addSource('hazards',{type:'geojson',data:collection});
-  map.addLayer({id:'hazards',type:'circle',source:'hazards',paint:{'circle-radius':['interpolate',['linear'],['zoom'],10,3,14,6],'circle-color':['match',['get','group'],'重大環境設施','#fff2eb','#fff3cf'],'circle-stroke-color':['match',['get','group'],'重大環境設施','#b74838','#d38a18'],'circle-stroke-width':['interpolate',['linear'],['zoom'],10,1,14,2],'circle-opacity':.86}});
+  map.addLayer({id:'hazards',type:'symbol',source:'hazards',layout:{'text-field':['match',['get','group'],'重大環境設施','◆','▲'],'text-size':['interpolate',['linear'],['zoom'],10,12,14,18],'text-allow-overlap':true},paint:{'text-color':['match',['get','group'],'重大環境設施','#b74838','#d38a18'],'text-halo-color':'#fff','text-halo-width':1.5,'text-opacity':.94}});
   map.on('click','hazards',event=>{
     const feature=event.features?.[0];
     if(feature)new maplibregl.Popup().setLngLat(event.lngLat).setHTML(`<b>${escapeHtml(feature.properties.label)}</b><br>${escapeHtml(feature.properties.name)}<br><small>${escapeHtml(feature.properties.group)} · 檢查 ${escapeHtml(feature.properties.radius)} 公尺</small>`).addTo(map);

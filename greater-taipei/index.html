@@ -36,7 +36,7 @@
 
       <section class="map-section" id="map-section">
         <div class="section-heading inverse"><div><span class="kicker">ALL-LINE MAP</span><h2>大台北捷運生活圈</h2></div><p>顯示全捷運路網與已覆核基地。圖上的捷運步行時間目前仍為初篩估計；正式購屋前應以實際基地出入口重新計算。</p></div>
-        <div class="map-frame"><div id="map"></div><aside class="map-legend"><strong>圖例</strong><span><i class="rail operational"></i>捷運路線</span><span><i class="station-symbol"></i>捷運車站</span><span><i class="pin s"></i>S 級建商</span><span><i class="pin a"></i>A 級建商</span><span><i class="pin bc"></i>B / C 級建商</span><span><i class="hazard"></i>重大環境設施</span><span><i class="impact"></i>生活影響設施</span><button id="refresh-hazards" hidden>重新載入環境設施</button><small id="hazard-status">自動載入中</small></aside></div>
+        <div class="map-frame"><div id="map"></div><aside class="map-legend"><strong>圖例</strong><span><i class="rail operational"></i>捷運路線</span><span><i class="station-symbol"></i>捷運車站</span><span><i class="pin s"></i>S 級建商</span><span><i class="pin a"></i>A 級建商</span><span><i class="pin bc"></i>B / C 級建商</span><span><i class="pin pending"></i>半透明＝宗地中心／範圍定位</span><span><i class="hazard"></i>重大環境設施</span><span><i class="impact"></i>生活影響設施</span><button id="refresh-hazards" hidden>重新載入環境設施</button><small id="hazard-status">自動載入中</small></aside></div>
         <div class="risk-links"><strong>購屋前另查官方圖資</strong><a href="https://dmap.ncdr.nat.gov.tw/1109/map/" target="_blank" rel="noopener">淹水潛勢 ↗</a><a href="https://liquefaction.gsmma.gov.tw/cgs/Web/Map.aspx" target="_blank" rel="noopener">土壤液化 ↗</a><a href="https://faultgis.gsmma.gov.tw/gis/" target="_blank" rel="noopener">活動斷層 ↗</a><small>圖層是區域初篩，不能取代個案鑽探、結構或估價調查。</small></div>
       </section>
 
@@ -54,7 +54,7 @@
         </div>
         <div class="prototype-alert"><b>不再因定位失敗漏案</b><span>收錄案件都保留於表格；官方門牌、後續實價登錄門牌或路口可可靠配對者才顯示地圖標記，其餘明確標為「待定位」。</span></div>
         <div class="table-shell">
-          <div class="table-meta"><span><b id="result-count">0</b> 筆結果</span><span class="legend"><i class="dot live"></i>正式門牌／明確位置 <i class="dot estimate"></i>巷弄範圍或待定位</span></div>
+          <div class="table-meta"><span><b id="result-count">0</b> 筆結果</span><span class="legend"><i class="dot live"></i>正式門牌／明確位置 <i class="dot estimate"></i>宗地中心／範圍定位</span></div>
           <div class="table-scroll"><table><thead><tr><th>建案／建照名稱</th><th>區域</th><th>捷運步行</th><th>地址</th><th>建商／評等</th><th>目前進度</th><th>預計完工</th><th>類型</th><th>坪數</th><th>預估價格</th><th></th></tr></thead><tbody id="project-rows"></tbody></table></div>
           <div id="empty-state" class="empty" hidden>沒有符合目前條件的預售建案。</div>
         </div>
