@@ -23,12 +23,12 @@
       <section class="hero mature-hero">
         <div class="eyebrow"><span></span> TAIPEI × NEW TAIPEI × ALL METRO LINES</div>
         <h1>大台北成熟建案<br><em>從建照以後開始看</em></h1>
-        <p>涵蓋台北市與新北市捷運生活圈，只收錄已領建照、完成預售備查、預售中或新成屋階段，且基地位置已經覆核的案件。</p>
+        <p>涵蓋台北市與新北市，只收錄已領建照、完成預售備查、預售中或新成屋階段；能可靠定位的案件顯示於地圖，尚待定位的也會保留在表格。</p>
         <div class="hero-actions"><button class="primary" data-scroll="map-section">開啟全線地圖 <span>↘</span></button><span class="updated">第一版資料基準<br><strong>2026.09.14</strong></span></div>
       </section>
 
       <section class="stats-wrap" aria-label="資料統計">
-        <article><span>成熟建案</span><strong id="total-count">—</strong><small>已定位且在建照以後</small></article>
+        <article><span>成熟建案</span><strong id="total-count">—</strong><small>含表格內待定位案件</small></article>
         <article><span>涵蓋行政區</span><strong id="district-count">—</strong><small>台北市＋新北市</small></article>
         <article><span>平均步行</span><strong id="walk-average">—</strong><small>分鐘，初篩估計</small></article>
         <article><span>成熟階段</span><strong>4</strong><small>建照／備查／預售／新成屋</small></article>
@@ -50,9 +50,9 @@
           <label>步行時間<select id="walk-filter"><option value="999" selected>不限距離</option><option value="30">30 分鐘內</option><option value="20">20 分鐘內</option><option value="15">15 分鐘內</option><option value="12">12 分鐘內</option><option value="8">8 分鐘內</option><option value="5">5 分鐘內</option></select></label>
           <label class="search-label">搜尋<input id="search-filter" type="search" placeholder="建案、區域、建商或車站"></label>
         </div>
-        <div class="prototype-alert"><b>可信資料優先</b><span>不限離捷運距離，但仍只顯示已達成熟階段且可用官方門牌合理定位的案件；只有路名、路口或無法可靠定位的案件不會放入地圖。</span></div>
+        <div class="prototype-alert"><b>不再因定位失敗漏案</b><span>成熟案件都保留於表格；官方門牌、後續實價登錄門牌或路口可可靠配對者才顯示地圖標記，其餘明確標為「待定位」。</span></div>
         <div class="table-shell">
-          <div class="table-meta"><span><b id="result-count">0</b> 筆結果</span><span class="legend"><i class="dot live"></i>已覆核基地 <i class="dot estimate"></i>步行時間待複核</span></div>
+          <div class="table-meta"><span><b id="result-count">0</b> 筆結果</span><span class="legend"><i class="dot live"></i>正式門牌／明確位置 <i class="dot estimate"></i>巷弄範圍或待定位</span></div>
           <div class="table-scroll"><table><thead><tr><th>建案／建照名稱</th><th>區域</th><th>捷運步行</th><th>地址</th><th>建商／評等</th><th>目前進度</th><th>預計完工</th><th>類型</th><th>坪數</th><th>預估價格</th><th></th></tr></thead><tbody id="project-rows"></tbody></table></div>
           <div id="empty-state" class="empty" hidden>沒有符合目前條件的成熟建案。</div>
         </div>

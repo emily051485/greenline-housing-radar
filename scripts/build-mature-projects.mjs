@@ -51,7 +51,7 @@ const areaCodes={
 const halfWidth=value=>String(value).replace(/[０-９]/g,char=>String.fromCharCode(char.charCodeAt(0)-65248));
 const normalize=value=>halfWidth(value).replace(/臺/g,'台').replace(/[\s,，。．、]/g,'').replace(/之(?=\d)/g,'-').replace(/(?:基地|旁邊|旁|對面).*$/,'');
 const canonicalName=value=>normalize(value).replace(/[?？・.．_\-—]/g,'').toUpperCase();
-const baseNumber=value=>normalize(value).match(/\d+(?:-\d+)?號/)?.[0]||'';
+const baseNumber=value=>[...normalize(value).matchAll(/\d+(?:-\d+)?號/g)].at(-1)?.[0]||'';
 const locationOverrides={
   [canonicalName('泉泓沐風')]:{query:'央北一路46號',display:'新北市新店區央北一路46號'},
   [canonicalName('宏盛心中央')]:{query:'央北二路108號',display:'新北市新店區央北二路108～136號'},
@@ -82,14 +82,38 @@ for(const [district,points] of pointsByDistrict){
   for(const point of points){if(!point.street)continue;const group=streets.get(point.street)||[];group.push(point);streets.set(point.street,group);}
   streetsByDistrict.set(district,streets);
 }
+let transactionGroups=new Map();
+const transactionAliases=new Map([[canonicalName('江陵天碩中央特區'),canonicalName('江陵天?')]]);
+function transactionRows(name){
+  const key=canonicalName(name),alias=transactionAliases.get(key);
+  return transactionGroups.get(key)||transactionGroups.get(alias)||[];
+}
 function locate(row){
-  const override=locationOverrides[canonicalName(row['建案名稱'])],target=normalize(override?.query||row['坐落街道']),number=baseNumber(target),districtKey=`${row.city}${row['鄉鎮市區']}`;
+  const projectName=row['建案名稱'],override=locationOverrides[canonicalName(projectName)],target=normalize(override?.query||row['坐落街道']),districtKey=`${row.city}${row['鄉鎮市區']}`;
   if(Number.isFinite(override?.lat)&&Number.isFinite(override?.lng))return {...override,displayAddress:override.display};
-  if(number){
+  const matchDoorplate=(address,mode)=>{
+    const normalized=normalize(address),number=baseNumber(normalized);if(!number)return null;
     const candidates=(pointsByDistrict.get(districtKey)||[]).filter(point=>point.number===number);
-    const exact=candidates.find(point=>target===point.address||target.includes(point.address)||point.address.includes(target));if(exact)return {...exact,mode:override?'後續正式門牌配對':'門牌完全配對',displayAddress:override?.display,displayName:override?.displayName};
-    const street=candidates.find(point=>point.street&&target.includes(point.street));if(street)return {...street,mode:'同路段門牌配對',displayAddress:override?.display,displayName:override?.displayName};
+    const exact=candidates.find(point=>normalized===point.address||normalized.includes(point.address)||point.address.includes(normalized));if(exact)return {...exact,mode,displayAddress:override?.display,displayName:override?.displayName};
+    const street=candidates.find(point=>point.street&&normalized.includes(point.street));if(street)return {...street,mode,displayAddress:override?.display,displayName:override?.displayName};
+    return null;
+  };
+  const matchLaneRange=(address,mode)=>{
+    const normalized=normalize(address).replace(/(?:對面|旁邊?|附近|口)$/,'');
+    if(!/[巷弄]/.test(normalized)||baseNumber(normalized))return null;
+    const matches=(pointsByDistrict.get(districtKey)||[]).filter(point=>point.address.includes(normalized));
+    if(!matches.length)return null;
+    return {lat:matches.reduce((sum,point)=>sum+point.lat,0)/matches.length,lng:matches.reduce((sum,point)=>sum+point.lng,0)/matches.length,mode:`${mode}（${matches.length} 個官方門牌範圍）`,estimated:true,displayAddress:override?.display,displayName:override?.displayName};
+  };
+  const registryMatch=matchDoorplate(target,override?'後續正式門牌配對':'政府備查門牌配對');if(registryMatch)return registryMatch;
+  const transactionAddresses=[...new Set(transactionRows(projectName).map(item=>item.rps02).filter(Boolean))];
+  const transactionMatches=transactionAddresses.map(address=>matchDoorplate(address,'實價登錄後續門牌配對')).filter(Boolean);
+  if(transactionMatches.length){
+    const lat=transactionMatches.reduce((sum,point)=>sum+point.lat,0)/transactionMatches.length,lng=transactionMatches.reduce((sum,point)=>sum+point.lng,0)/transactionMatches.length;
+    return {...transactionMatches[0],lat,lng,mode:`實價登錄後續門牌配對（${transactionMatches.length} 個門牌）`,displayAddress:override?.display,displayName:override?.displayName};
   }
+  const laneMatch=matchLaneRange(target,'政府備查巷弄範圍定位')||transactionAddresses.map(address=>matchLaneRange(address,'實價登錄巷弄範圍定位')).find(Boolean);
+  if(laneMatch)return laneMatch;
   const streetGroups=streetsByDistrict.get(districtKey);if(!streetGroups)return null;
   const names=[...streetGroups.keys()].filter(street=>street.length>=2&&target.includes(street)).sort((a,b)=>b.length-a.length);
   const first=names[0],second=names.find(name=>name!==first&&!first.includes(name)&&!name.includes(first));
@@ -117,28 +141,28 @@ function builderInfo(value=''){
   const ratingBasis=knownRating?'依已確認建商品牌套用本站評級':rating==='C'?'官方備查起造人可辨識為建設／開發公司；暫列 C，待更多履歷資料再調整':'官方備查有起造人，但可能是建經公司、金融機構或自然人，尚未可靠對應建商品牌';
   return {builder:`備查起造人：${clean||'尚待查證'}`,rating,ratingBasis};
 }
-const newTaipeiTransactions=JSON.parse(fs.readFileSync(raw('newtaipei-presale.json'),'utf8')),transactionGroups=new Map();
+const newTaipeiTransactions=JSON.parse(fs.readFileSync(raw('newtaipei-presale.json'),'utf8'));transactionGroups=new Map();
 for(const row of newTaipeiTransactions){if(row.rps28){const key=canonicalName(row.rps28),group=transactionGroups.get(key)||[];group.push(row);transactionGroups.set(key,group);}}
 function priceInfo(name){
-  const aliases={[canonicalName('江陵天碩中央特區')]:canonicalName('江陵天?')};
-  const key=canonicalName(name),rows=transactionGroups.get(key)||transactionGroups.get(aliases[key])||[],prices=rows.map(row=>Number(row.rps22_amountsunitdollars)*3.305785/10000).filter(value=>value>0),areas=rows.map(row=>Number(row.rps15_area)/3.305785).filter(value=>value>0);
+  const rows=transactionRows(name),prices=rows.map(row=>Number(row.rps22_amountsunitdollars)*3.305785/10000).filter(value=>value>0),areas=rows.map(row=>Number(row.rps15_area)/3.305785).filter(value=>value>0);
   const average=prices.length?Math.round(prices.reduce((sum,value)=>sum+value,0)/prices.length*10)/10:null;
   return {price:average?`實登均價 ${average} 萬/坪`:'尚無可靠實登',size:areas.length?`${Math.floor(Math.min(...areas))}–${Math.ceil(Math.max(...areas))} 坪`:'尚無可靠坪數',transactionCount:rows.length};
 }
 
 const projects=[];
 for(const row of registry){
-  const point=locate(row);if(!point)continue;const nearest=nearestExit(point);if(!nearest)continue;
-  const walk=Math.max(1,Math.ceil(nearest.distance/65)),builder=builderInfo(row['起造人']),price=priceInfo(row['建案名稱']),completed=row['第1次登記日期'];
+  const point=locate(row),nearest=point?nearestExit(point):null;
+  const walk=nearest?Math.max(1,Math.ceil(nearest.distance/65)):null,builder=builderInfo(row['起造人']),price=priceInfo(row['建案名稱']),completed=row['第1次登記日期'];
+  const mapped=Boolean(point&&nearest),laterAddresses=[...new Set(transactionRows(row['建案名稱']).map(item=>item.rps02).filter(Boolean))];
   projects.push({
-    id:`registry-${row.city}-${row['鄉鎮市區']}-${row['建案名稱']}`,name:point.displayName||row['建案名稱'],city:row.city,district:row['鄉鎮市區'],station:nearest.station,walk,address:point.displayAddress||`${row.city}${row['鄉鎮市區']}${row['坐落街道']}`,...builder,
-    status:completed?'近期完工':price.transactionCount?'預售中':'預售備查',completion:completed?`第一次登記 ${completed}`:'依官方備查時程',type:'預售屋',size:price.size,price:price.price,lat:point.lat,lng:point.lng,
-    source:`內政部預售屋備查＋${point.googleMapsListing?'建案官網基地導航':'官方門牌座標'}${price.transactionCount?`＋實價登錄 ${price.transactionCount} 筆`:''}`,sourceUrl:point.googleMapsListing?'https://www.townic.com.tw/baoyu/location':'https://data.gov.tw/dataset/176351',verified:true,locationStatus:'verified',googleMapsListing:point.googleMapsListing===true,
-    locationAccuracy:`${point.mode}；官方門牌座標至 ${nearest.station} 最近出口直線約 ${Math.round(nearest.distance)} 公尺，步行時間為保守估算`,governmentId:row['建造執照']||row['編號'],governmentStatus:`申報備查 ${row['申報備查日期']}`,
+    id:`registry-${row.city}-${row['鄉鎮市區']}-${row['建案名稱']}`,name:point?.displayName||row['建案名稱'],city:row.city,district:row['鄉鎮市區'],station:mapped?nearest.station:'待定位',walk,address:point?.displayAddress||laterAddresses[0]||`${row.city}${row['鄉鎮市區']}${row['坐落街道']}`,...builder,
+    status:completed?'近期完工':price.transactionCount?'預售中':'預售備查',completion:completed?`第一次登記 ${completed}`:'依官方備查時程',type:'預售屋',size:price.size,price:price.price,lat:mapped?point.lat:null,lng:mapped?point.lng:null,
+    source:`內政部預售屋備查${mapped?`＋${point.googleMapsListing?'建案官網基地導航':'官方門牌座標'}`:''}${price.transactionCount?`＋實價登錄 ${price.transactionCount} 筆`:''}`,sourceUrl:point?.googleMapsListing?'https://www.townic.com.tw/baoyu/location':'https://data.gov.tw/dataset/176351',verified:mapped&&!point?.estimated,locationStatus:mapped?(point.estimated?'estimated':'verified'):'unlocated',googleMapsListing:point?.googleMapsListing===true,
+    locationAccuracy:mapped?`${point.mode}；官方門牌座標至 ${nearest.station} 最近出口直線約 ${Math.round(nearest.distance)} 公尺，步行時間為保守估算`:'尚無可可靠配對的正式門牌或路口；案件保留於表格，暫不顯示地圖標記',governmentId:row['建造執照']||row['編號'],governmentStatus:`申報備查 ${row['申報備查日期']}`,
     permit:row['建造執照'],households:row['層棟戶數'],buildingLand:row['坐落基地'],
   });
 }
 const unique=[...new Map(projects.map(project=>[`${project.city}|${normalize(project.name)}|${normalize(project.address)}`,project])).values()];
 unique.sort((a,b)=>a.city.localeCompare(b.city,'zh-Hant')||a.district.localeCompare(b.district,'zh-Hant')||a.name.localeCompare(b.name,'zh-Hant'));
 fs.mkdirSync(path.dirname(output),{recursive:true});fs.writeFileSync(output,`// 由 scripts/build-mature-projects.mjs 產生；請勿直接編輯。\nexport const matureRegistryProjects = ${JSON.stringify(unique,null,2)};\n`);
-console.log(`Registry candidates: ${registry.length}; official address points: ${addressPoints.length}; published with verified address: ${unique.length}`);
+console.log(`Registry candidates: ${registry.length}; official address points: ${addressPoints.length}; published: ${unique.length}; mapped: ${unique.filter(project=>project.locationStatus!=='unlocated').length}; awaiting location: ${unique.filter(project=>project.locationStatus==='unlocated').length}`);
