@@ -22,9 +22,37 @@ const verifiedExisting=integratedProjects
   .map(project=>({...project,lines:stationLines[project.station]||[]}));
 
 const existingNames=new Set(verifiedExisting.map(project=>project.name.replace(/[・。\s]/g,'')));
-export const matureProjects=[
+const rawMatureProjects=[
   ...verifiedExisting,
   ...matureRegistryProjects
     .filter(project=>!existingNames.has(project.name.replace(/[・。\s]/g,'')))
     .map(project=>({...project,lines:project.lines?.length?project.lines:(stationLines[project.station]||[])})),
 ];
+
+// Registry CSV exports replace a number of uncommon Unicode glyphs with "?".
+// Apply only verified corrections; unresolved glyphs remain explicitly marked for review.
+const verifiedTextCorrections=new Map(Object.entries({
+  '宏築天?':'宏築天蘊','綠野心?':'綠野心瀞','力銘?埕':'力銘裏埕','三磐橋?':'三磐橋峯',
+  '大安謙?':'大安謙韵','真?和光':'真実和光','連雲玥?':'連雲玥恒','敦南詠?':'敦南詠楽',
+  '?山':'裏山','?白':'瑠白','睿泰?':'睿泰絵。','漢皇城?':'漢皇城双','震大懷?':'震大懷真',
+  '岳泰峰?':'岳泰峰碩','怡富景?':'怡富景絵','首泰大?':'首泰大喆','豐?':'豐琙',
+  '日健?':'日健邸','新濠一?':'新濠一邸','家?美':'家悦美','晴山?6期':'晴山滙6期',
+  '久年??':'久年橒画','偉鉅中山?匯':'偉鉅中山双匯','寶亞世界公?':'寶亞世界公舘',
+  '寶亞新公?':'寶亞新公舘','幸福?':'幸福の駅','晴山?V期四季莊園':'晴山滙V四季莊園',
+  '台北市北投區公?路255巷1弄11號1樓':'台北市北投區公館路255巷1弄11號1樓',
+  '台北市北投區公?路326巷11號2樓共8筆':'台北市北投區公館路326巷11號2樓共8筆',
+  '台北市萬華區糖?里大理街135號 共4筆':'台北市萬華區糖廍里大理街135號 共4筆',
+}));
+const repairRegistryText=value=>{
+  if(typeof value!=='string'||!/[?？]/.test(value))return value;
+  const verified=verifiedTextCorrections.get(value);
+  if(verified)return verified;
+  const readable=value.replace(/[?？]+/g,'').replace(//g,'').trim();
+  return `${readable||'名稱'}（缺字待核）`;
+};
+const visibleTextFields=['name','builder','district','station','address','status','completion','type','size','price','source','locationAccuracy'];
+export const matureProjects=rawMatureProjects.map(project=>{
+  const repaired={...project,id:String(project.id).replace(/[?？]+/g,'missing')};
+  for(const field of visibleTextFields)repaired[field]=repairRegistryText(repaired[field]);
+  return repaired;
+});
