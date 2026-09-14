@@ -83,3 +83,18 @@ main{display:flex;flex-direction:column}.hero{order:1}.stats-wrap{order:2}.map-s
   .map-section .map-filter-panel{margin-top:-8px}
   .map-filter-summary{justify-content:flex-start;padding:9px 2px}
 }
+
+/* Compact handoff from map exploration to the matching project list. */
+.map-section{padding-bottom:34px}
+.map-section .risk-links{margin-top:10px;padding:10px 13px;gap:12px}
+.map-section+.projects{padding-top:24px}
+.map-section+.projects .section-heading{margin-bottom:17px}
+.map-section+.projects .section-heading h2{margin-top:5px}
+.map-section+.projects .prototype-alert{margin-bottom:10px}
+@media(max-width:560px){
+  .map-section{padding-bottom:24px}
+  .map-section .risk-links{gap:8px;padding:9px 10px}
+  .map-section .risk-links strong,.map-section .risk-links small{flex-basis:100%}
+  .map-section+.projects{padding-top:20px}
+  .map-section+.projects .section-heading{margin-bottom:13px}
+}
