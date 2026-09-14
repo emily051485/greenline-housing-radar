@@ -25,6 +25,11 @@ const floodSourceId='ncdr-flood-source';
 const floodLayerId='ncdr-flood-layer';
 let floodRequestId=0;
 const floodBounds={west:121.46,south:24.91,east:121.62,north:25.11};
+const geologyBounds={west:121.30,south:24.80,east:121.75,north:25.25};
+const geologyLayers={
+  liquefaction:{sourceId:'soil-liquefaction-source',layerId:'soil-liquefaction-layer',file:'soil-liquefaction.png',opacity:.38,label:'土壤液化'},
+  activeFaults:{sourceId:'active-faults-source',layerId:'active-faults-layer',file:'active-faults.png',opacity:.95,label:'活動斷層'},
+};
 
 const map=new maplibregl.Map({container:'map',style:'https://tiles.openfreemap.org/styles/liberty',center:[121.49,25.025],zoom:10.2,attributionControl:false});
 map.addControl(new maplibregl.NavigationControl({showCompass:false}),'bottom-right');
@@ -109,16 +114,18 @@ function showMetroLines(collection){
 function addFloodControl(){
   const control=document.createElement('section');
   control.className='flood-control';
-  control.setAttribute('aria-label','降雨淹水模擬控制');
-  control.innerHTML=`<div class="flood-control-heading"><strong>降雨淹水模擬</strong><label class="switch"><input id="flood-toggle" type="checkbox"><span></span></label></div><label>降雨情境<select id="flood-scenario"><option value="6h150">6 小時／150 mm</option><option value="6h250">6 小時／250 mm</option><option value="6h350">6 小時／350 mm</option><option value="12h200">12 小時／200 mm</option><option value="12h300">12 小時／300 mm</option><option value="12h400">12 小時／400 mm</option><option value="24h200">24 小時／200 mm</option><option value="24h350">24 小時／350 mm</option><option value="24h500" selected>24 小時／500 mm</option><option value="24h650">24 小時／650 mm</option></select></label><div class="flood-depth" aria-label="模擬淹水深度圖例"><span><i class="depth-1"></i>0.5–1 m</span><span><i class="depth-2"></i>1–2 m</span><span><i class="depth-3"></i>2–3 m</span><span><i class="depth-4"></i>&gt;3 m</span></div><small id="flood-status">圖層目前關閉</small><a href="https://dmap.ncdr.nat.gov.tw/1109/map/?group-layer=%E6%B7%B9%E6%B0%B4%E6%BD%9B%E5%8B%A2" target="_blank" rel="noopener">NCDR 原始圖台 ↗</a>`;
+  control.setAttribute('aria-label','災害風險圖層控制');
+  control.innerHTML=`<div class="flood-control-heading"><strong>降雨淹水模擬</strong><label class="switch"><input id="flood-toggle" type="checkbox"><span></span></label></div><label>降雨情境<select id="flood-scenario"><option value="6h150">6 小時／150 mm</option><option value="6h250">6 小時／250 mm</option><option value="6h350">6 小時／350 mm</option><option value="12h200">12 小時／200 mm</option><option value="12h300">12 小時／300 mm</option><option value="12h400">12 小時／400 mm</option><option value="24h200">24 小時／200 mm</option><option value="24h350">24 小時／350 mm</option><option value="24h500" selected>24 小時／500 mm</option><option value="24h650">24 小時／650 mm</option></select></label><div class="flood-depth" aria-label="模擬淹水深度圖例"><span><i class="depth-1"></i>0.5–1 m</span><span><i class="depth-2"></i>1–2 m</span><span><i class="depth-3"></i>2–3 m</span><span><i class="depth-4"></i>&gt;3 m</span></div><small id="flood-status">淹水圖層目前關閉</small><div class="risk-layer-group"><strong>地質風險</strong><label class="layer-toggle"><input id="liquefaction-toggle" type="checkbox"><span>土壤液化潛勢</span></label><div class="liquefaction-depth" aria-label="土壤液化潛勢圖例"><span><i class="liquefaction-low"></i>低</span><span><i class="liquefaction-medium"></i>中</span><span><i class="liquefaction-high"></i>高</span></div><label class="layer-toggle"><input id="active-faults-toggle" type="checkbox"><span><i class="active-fault-swatch"></i>活動斷層</span></label><small id="geology-status">地質圖層目前關閉</small></div><div class="risk-source-links"><a href="https://dmap.ncdr.nat.gov.tw/1109/map/?group-layer=%E6%B7%B9%E6%B0%B4%E6%BD%9B%E5%8B%A2" target="_blank" rel="noopener">淹水原始圖台 ↗</a><a href="https://dmap.ncdr.nat.gov.tw/1109/map/?group-layer=%E6%96%B7%E5%B1%A4%E8%88%87%E5%9C%9F%E5%A3%A4%E6%B6%B2%E5%8C%96" target="_blank" rel="noopener">地質原始圖台 ↗</a></div>`;
   $('.map-frame').append(control);
   $('#flood-toggle').addEventListener('change',updateFloodLayer);
   $('#flood-scenario').addEventListener('change',()=>{if($('#flood-toggle').checked)updateFloodLayer();});
+  $('#liquefaction-toggle').addEventListener('change',()=>updateGeologyLayer('liquefaction','#liquefaction-toggle'));
+  $('#active-faults-toggle').addEventListener('change',()=>updateGeologyLayer('activeFaults','#active-faults-toggle'));
 }
 function setupResponsiveMapPanels(){
   const panels=[
     {element:document.querySelector('.map-legend'),label:'圖例',id:'map-legend-panel'},
-    {element:document.querySelector('.flood-control'),label:'淹水模擬',id:'flood-control-panel'},
+    {element:document.querySelector('.flood-control'),label:'災害圖層',id:'flood-control-panel'},
   ];
   panels.forEach(({element,label,id})=>{
     if(!element||element.classList.contains('map-panel'))return;
@@ -154,6 +161,30 @@ function removeFloodLayer(){
   if(map.getLayer(floodLayerId))map.removeLayer(floodLayerId);
   if(map.getSource(floodSourceId))map.removeSource(floodSourceId);
 }
+function riskLayerCoordinates(bounds){
+  return [[bounds.west,bounds.north],[bounds.east,bounds.north],[bounds.east,bounds.south],[bounds.west,bounds.south]];
+}
+function orderRiskLayers(){
+  const before=map.getLayer('project-areas-fill')?'project-areas-fill':undefined;
+  [floodLayerId,geologyLayers.liquefaction.layerId,geologyLayers.activeFaults.layerId].forEach(id=>{
+    if(map.getLayer(id))map.moveLayer(id,before);
+  });
+}
+function updateGeologyStatus(){
+  const visible=Object.entries(geologyLayers).filter(([key])=>document.querySelector(key==='liquefaction'?'#liquefaction-toggle':'#active-faults-toggle')?.checked).map(([,definition])=>definition.label);
+  $('#geology-status').textContent=visible.length?`顯示：${visible.join('、')}（本站快取）`:'地質圖層目前關閉';
+}
+function updateGeologyLayer(key,toggleSelector){
+  const definition=geologyLayers[key];
+  if(map.getLayer(definition.layerId))map.removeLayer(definition.layerId);
+  if(map.getSource(definition.sourceId))map.removeSource(definition.sourceId);
+  if(document.querySelector(toggleSelector).checked){
+    map.addSource(definition.sourceId,{type:'image',url:`${import.meta.env.BASE_URL}data/geology/${definition.file}`,coordinates:riskLayerCoordinates(geologyBounds)});
+    map.addLayer({id:definition.layerId,type:'raster',source:definition.sourceId,paint:{'raster-opacity':definition.opacity,'raster-fade-duration':0}},map.getLayer('project-areas-fill')?'project-areas-fill':undefined);
+    orderRiskLayers();
+  }
+  updateGeologyStatus();
+}
 async function updateFloodLayer(){
   const enabled=$('#flood-toggle').checked;
   const status=$('#flood-status');
@@ -171,6 +202,7 @@ async function updateFloodLayer(){
       [floodBounds.east,floodBounds.south],[floodBounds.west,floodBounds.south],
     ]});
     map.addLayer({id:floodLayerId,type:'raster',source:floodSourceId,paint:{'raster-opacity':.58,'raster-fade-duration':0}},map.getLayer('project-areas-fill')?'project-areas-fill':undefined);
+    orderRiskLayers();
     status.textContent=`顯示：${scenario.label}（本站快取）`;
   }catch(error){
     removeFloodLayer();
