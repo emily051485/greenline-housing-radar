@@ -17,6 +17,13 @@ const metroColors={BR:'#c48c31',R:'#e3002c',G:'#008659',O:'#f8b61c',BL:'#0070bd'
 const pageScope=document.body.dataset.scope||'green';
 const projects=pageScope==='mature'?matureProjects:greenProjects;
 const state={projects:[...projects],markers:new Map()};
+const stationKey=value=>String(value||'').replace(/臺/g,'台').replace(/站$/,'');
+const stationLines=new Map();
+for(const feature of cachedMetroStations.features){
+  const ref=String(feature.properties.ref||''),lines=ref.split(';').map(value=>value.match(/^[A-Z]+/)?.[0]).filter(Boolean).flatMap(line=>/^(V|K|LB|LG)$/.test(line)?[line,'LRT']:[line]);
+  stationLines.set(stationKey(feature.properties.name),[...new Set(lines)]);
+}
+const projectLines=project=>project.lines?.length?project.lines:(stationLines.get(stationKey(project.station))||[]);
 const floodScenarios={
   '6h150':{label:'6 小時降雨 150 mm',layers:[40,2,22,12]},
   '6h250':{label:'6 小時降雨 250 mm',layers:[41,3,23,13]},
@@ -277,10 +284,10 @@ async function loadMetroLines(){
   }catch(error){console.warn('捷運路線暫時無法載入；底圖仍保留 OSM 軌道資料。',error);}
 }
 function render(){
-  const city=$('#city-filter').value,status=$('#status-filter').value,rating=$('#rating-filter').value,maxWalk=Number($('#walk-filter').value),query=$('#search-filter').value.trim().toLowerCase(),line=$('#line-filter')?.value||'all';
+  const city=$('#city-filter').value,status=$('#status-filter').value,rating=$('#rating-filter').value,maxWalk=Number($('#walk-filter').value),query=$('#search-filter').value.trim().toLowerCase(),line=$('#line-filter')?.value||'all',station=$('#station-filter')?.value||'all';
   const ratingMatches=project=>rating==='all'||(rating==='NR'?project.rating==='NR':ratingRank[project.rating]>=ratingRank[rating]);
   const walkMatches=project=>maxWalk>=999||(Number.isFinite(project.walk)&&project.walk<=maxWalk);
-  state.projects=projects.filter(project=>(city==='all'||project.city===city)&&(status==='all'||project.status===status)&&(line==='all'||project.lines?.includes(line))&&ratingMatches(project)&&walkMatches(project)&&(!query||[project.name,project.district,project.builder,project.station].join(' ').toLowerCase().includes(query)));
+  state.projects=projects.filter(project=>(city==='all'||project.city===city)&&(status==='all'||project.status===status)&&(line==='all'||projectLines(project).includes(line))&&(station==='all'||stationKey(project.station)===stationKey(station))&&ratingMatches(project)&&walkMatches(project)&&(!query||[project.name,project.district,project.builder,project.station].join(' ').toLowerCase().includes(query)));
   $('#project-rows').innerHTML=state.projects.map(project=>{const transit=Number.isFinite(project.walk)?`${escapeHtml(project.station)} <b>${project.walk} 分</b>`:'<b>待定位</b>',locationLabel=project.locationStatus==='estimated'?'範圍定位':isMapped(project)?'已定位':'待定位',locationClass=project.locationStatus==='estimated'?'estimated':isMapped(project)?'located':'pending';return `<tr data-id="${escapeHtml(project.id)}" class="${isMapped(project)?'':'unlocated-row'}"><td><strong>${escapeHtml(project.name)}</strong><small><b class="location-tag ${locationClass}">${locationLabel}</b>${escapeHtml(project.source)}${project.locationAccuracy?` · ${escapeHtml(project.locationAccuracy)}`:''}</small></td><td>${escapeHtml(project.district)}</td><td><span class="walk">${transit}</span></td><td>${escapeHtml(project.address)}</td><td><span class="grade grade-${project.rating.toLowerCase()}" title="${escapeHtml(project.ratingBasis||'建商研究評等')}">${project.rating}</span>${escapeHtml(project.builder)}</td><td><span class="status status-${project.status.includes('審議')||project.status.includes('核定')?'early':project.status.includes('建照')?'permit':'sale'}">${escapeHtml(project.status)}</span></td><td>${escapeHtml(project.completion)}</td><td>${escapeHtml(project.type)}</td><td>${escapeHtml(project.size)}</td><td>${escapeHtml(project.price)}</td><td>${hasGoogleMapsListing(project)?`<a class="map-link" href="${mapsUrl(project)}" target="_blank" rel="noopener" title="在 Google Maps 開啟已確認的建案標記">↗</a>`:'—'}</td></tr>`;}).join('');
   $('#result-count').textContent=state.projects.length;$('#empty-state').hidden=state.projects.length>0;
   const visible=new Set(state.projects.map(project=>String(project.id)));
@@ -290,6 +297,13 @@ function render(){
     if(event.target.closest('a'))return;const project=projects.find(item=>String(item.id)===row.dataset.id);if(!project||!hasCoordinates(project))return;
     map.flyTo({center:[project.lng,project.lat],zoom:16,essential:true});state.markers.get(String(project.id))?.togglePopup();$('#map-section').scrollIntoView({behavior:'smooth'});
   }));
+}
+function updateStationOptions(){
+  const select=$('#station-filter');if(!select)return;
+  const line=$('#line-filter')?.value||'all',current=select.value;
+  const names=[...new Set(projects.filter(project=>project.station&&project.station!=='待定位'&&(line==='all'||projectLines(project).includes(line))).map(project=>project.station))].sort((a,b)=>a.localeCompare(b,'zh-Hant'));
+  select.innerHTML=`<option value="all">全部車站</option>${names.map(name=>`<option value="${escapeHtml(name)}">${escapeHtml(name)}站</option>`).join('')}`;
+  select.value=names.includes(current)?current:'all';
 }
 
 const hazardKinds={fuel:'加油站',substation:'變電所',cemetery:'公墓／墓園',waste:'廢棄物設施',wastewater:'污水處理設施'};
@@ -456,10 +470,12 @@ addScopeSwitcher();
 addFloodControl();
 setupResponsiveMapPanels();
 map.on('load',()=>{addProjectAreas();showMetroLines(cachedMetroRoutes);showMetroStations();addProjectMarkers();render();loadMetroLines();setTimeout(()=>loadHazardsReliable(false),600);});
-['city-filter','status-filter','rating-filter','walk-filter','line-filter'].forEach(id=>$('#'+id)?.addEventListener('change',render));
+['city-filter','status-filter','rating-filter','walk-filter','station-filter'].forEach(id=>$('#'+id)?.addEventListener('change',render));
+$('#line-filter')?.addEventListener('change',()=>{updateStationOptions();render();});
 $('#search-filter').addEventListener('input',render);
 document.querySelectorAll('[data-scroll]').forEach(button=>button.addEventListener('click',()=>$('#'+button.dataset.scroll).scrollIntoView({behavior:'smooth'})));
 $('#refresh-hazards').addEventListener('click',()=>loadHazardsReliable(true));
+updateStationOptions();
 const mappedWalks=projects.map(project=>project.walk).filter(Number.isFinite);
 $('#total-count').textContent=projects.length;$('#district-count').textContent=new Set(projects.map(project=>project.district)).size;$('#walk-average').textContent=mappedWalks.length?(mappedWalks.reduce((sum,walk)=>sum+walk,0)/mappedWalks.length).toFixed(1):'—';
 render();
