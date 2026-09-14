@@ -85,6 +85,22 @@ const locationOverrides={
   [canonicalName('央北?禾園')]:{query:'斯馨路、順德街口',display:'新北市新店區斯馨路、順德街口',displayName:'央北瀞禾園'},
   [canonicalName('寶鈺')]:{query:'十四張路、啟文路口',display:'新北市新店區十四張路、啟文路口',lat:24.9804041,lng:121.5298946,mode:'建案官網 Google Maps 基地標記',googleMapsListing:true},
 };
+const publishedSizeOverrides=new Map([
+  ['潤泰菁英匯','22–46.8 坪（公開規劃）','https://newhouse.591.com.tw/141435/detail'],
+  ['南港之星','16–45 坪（公開規劃）','https://www.leju.com.tw/community/Lb43135626c6fb5'],
+  ['潤泰峘翠','14–39 坪（建商官網）','https://www.rt-develop.com.tw/tw/Case/LIST1/2003'],
+  ['璞園樸洲美','26–41 坪（公開規劃）','https://newhouse.591.com.tw/141848/detail'],
+  ['亞昕淳白','23–46 坪（公開規劃）','https://market.591.com.tw/3697464/overview'],
+  ['芊翠','27–34 坪（公開規劃）','https://buy.housefun.com.tw/buy/building/65378'],
+  ['芊樾','27 坪（公開規劃）','https://www.leju.com.tw/page_view/view/567'],
+  ['宏盛心中央','25–43 坪（公開規劃）','https://www.sinyi.com.tw/communitylist/communityinfo/9015724'],
+  ['將捷之琚','66–71 坪（公開格局）','https://market.591.com.tw/5934253'],
+  ['星河帝寶','15–30 坪（公開規劃）','https://www.jsl.com.tw/cases/nssp260208/location'],
+  ['都廳PARK','15–28 坪（建案官網）','https://tochopark.com/'],
+  ['敦年臻榀','24–35 坪（建案官網）','https://art-mansion.gomy.house/'],
+  ['敦年臻?','24–35 坪（建案官網）','https://art-mansion.gomy.house/'],
+  ['帝景6號','21–40 坪（公開規劃）','https://www.plex.com.tw/projects/view/id/2383'],
+].map(([name,size,url])=>[canonicalName(name),{size,url}]));
 function loadAddressPoints(file,city){
   const result=[];
   for(const row of records(file)){
@@ -118,7 +134,11 @@ for(const [registryName,transactionName] of [
 ])transactionAliases.set(canonicalName(registryName),canonicalName(transactionName));
 function transactionRows(name){
   const key=canonicalName(name),alias=transactionAliases.get(key);
-  return transactionGroups.get(key)||transactionGroups.get(alias)||[];
+  const exact=transactionGroups.get(key)||transactionGroups.get(alias);
+  if(exact)return exact;
+  if(key.length<4)return [];
+  const candidates=[...transactionGroups.entries()].filter(([candidate])=>candidate.length>=4&&(candidate.includes(key)||key.includes(candidate)));
+  return candidates.length===1?candidates[0][1]:[];
 }
 function locate(row){
   const projectName=row['建案名稱'],override=locationOverrides[canonicalName(projectName)],target=normalize(override?.query||row['坐落街道']),districtKey=`${row.city}${row['鄉鎮市區']}`,projectId=`registry-${row.city}-${row['鄉鎮市區']}-${projectName}`;
@@ -179,17 +199,22 @@ function builderInfo(value=''){
 }
 const newTaipeiTransactions=JSON.parse(fs.readFileSync(raw('newtaipei-presale.json'),'utf8'));transactionGroups=new Map();
 for(const row of newTaipeiTransactions){if(row.rps28){const key=canonicalName(row.rps28),group=transactionGroups.get(key)||[];group.push(row);transactionGroups.set(key,group);}}
-for(const file of ['a_lvr_land_b.csv','f_lvr_land_b.csv']){
+const moiTransactionFiles=[
+  'a_lvr_land_b.csv','f_lvr_land_b.csv',
+  ...fs.readdirSync(raw('')).filter(file=>/^a_\d{3}S[1-4]_lvr_land_b\.csv$/.test(file)),
+];
+for(const file of [...new Set(moiTransactionFiles)]){
   if(!fs.existsSync(raw(file)))continue;
   for(const row of records(raw(file))){
     if(!row['建案名稱']||row['建案名稱']==='build case'||row['解約情形'])continue;
-    const normalized={district:row['鄉鎮市區'],rps02:row['土地位置建物門牌'],rps15_area:row['建物移轉總面積平方公尺'],rps22_amountsunitdollars:row['單價元平方公尺'],rps24_area:row['車位移轉總面積平方公尺'],rps28:row['建案名稱']};
+    const normalized={district:row['鄉鎮市區'],rps02:row['土地位置建物門牌'],rps15_area:row['建物移轉總面積平方公尺'],rps22_amountsunitdollars:row['單價元平方公尺'],rps24_area:row['車位移轉總面積平方公尺'],rps27:row['編號'],rps28:row['建案名稱'],rps29:row['棟及號']};
     const key=canonicalName(normalized.rps28),group=transactionGroups.get(key)||[];
-    group.push(normalized);transactionGroups.set(key,group);
+    if(!normalized.rps27||!group.some(item=>item.rps27===normalized.rps27))group.push(normalized);
+    transactionGroups.set(key,group);
   }
 }
 const taipeiTransactions=records(raw('taipei-realprice-weekly.csv'));
-for(const row of taipeiTransactions){
+if(!moiTransactionFiles.some(file=>file.startsWith('a_')))for(const row of taipeiTransactions){
   if(!row.BUILD_NAME||!Number(row.FAREA))continue;
   const key=canonicalName(row.BUILD_NAME),group=transactionGroups.get(key)||[];
   const areaExcludingParking=Number(row.FAREA)-Number(row.PAREA||0);
@@ -207,10 +232,11 @@ for(const row of registry){
   const point=locate(row),nearest=point?nearestExit(point):null;
   const walk=nearest?Math.max(1,Math.ceil(nearest.distance/65)):null,builder=builderInfo(row['起造人']),price=priceInfo(row['建案名稱']),completed=row['第1次登記日期'];
   const mapped=Boolean(point&&nearest),laterAddresses=[...new Set(transactionRows(row['建案名稱']).map(item=>item.rps02).filter(Boolean))];
+  const publishedSize=publishedSizeOverrides.get(canonicalName(row['建案名稱']));
   projects.push({
     id:`registry-${row.city}-${row['鄉鎮市區']}-${row['建案名稱']}`,name:point?.displayName||row['建案名稱'],city:row.city,district:row['鄉鎮市區'],station:mapped?nearest.station:'待定位',walk,address:point?.displayAddress||laterAddresses[0]||`${row.city}${row['鄉鎮市區']}${row['坐落街道']}`,...builder,
-    status:completed?'近期完工':price.transactionCount?'預售中':'預售備查',completion:completed?`第一次登記 ${completed}`:'依官方備查時程',type:'預售屋',size:price.size,price:price.price,lat:mapped?point.lat:null,lng:mapped?point.lng:null,
-    source:`內政部預售屋備查${mapped?`＋${point.googleMapsListing?'建案官網基地導航':'官方門牌座標'}`:''}${price.transactionCount?`＋實價登錄 ${price.transactionCount} 筆`:''}`,sourceUrl:point?.googleMapsListing?'https://www.townic.com.tw/baoyu/location':'https://data.gov.tw/dataset/176351',verified:mapped&&!point?.estimated,locationStatus:mapped?(point.estimated?'estimated':'verified'):'unlocated',googleMapsListing:point?.googleMapsListing===true,
+    status:completed?'近期完工':price.transactionCount?'預售中':'預售備查',completion:completed?`第一次登記 ${completed}`:'依官方備查時程',type:'預售屋',size:price.transactionCount?price.size:(publishedSize?.size||price.size),price:price.price,lat:mapped?point.lat:null,lng:mapped?point.lng:null,
+    source:`內政部預售屋備查${mapped?`＋${point.googleMapsListing?'建案官網基地導航':'官方門牌座標'}`:''}${price.transactionCount?`＋實價登錄 ${price.transactionCount} 筆`:publishedSize?'＋建案公開坪數':''}`,sourceUrl:publishedSize?.url||(point?.googleMapsListing?'https://www.townic.com.tw/baoyu/location':'https://data.gov.tw/dataset/176351'),verified:mapped&&!point?.estimated,locationStatus:mapped?(point.estimated?'estimated':'verified'):'unlocated',googleMapsListing:point?.googleMapsListing===true,
     locationAccuracy:mapped?`${point.mode}；官方門牌座標至 ${nearest.station} 最近出口直線約 ${Math.round(nearest.distance)} 公尺，步行時間為保守估算`:'尚無可可靠配對的正式門牌或路口；案件保留於表格，暫不顯示地圖標記',governmentId:row['建造執照']||row['編號'],governmentStatus:`申報備查 ${row['申報備查日期']}`,
     permit:row['建造執照'],households:row['層棟戶數'],buildingLand:row['坐落基地'],siteGeometry:point?.siteGeometry,lines:nearest?.lines||[],
   });
