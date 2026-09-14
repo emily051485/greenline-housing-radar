@@ -4,11 +4,15 @@ import path from 'node:path';
 const root = path.resolve(import.meta.dirname, '..');
 const sourcePath = path.join(root, 'data/raw/taipei-metro-routes.json');
 const airportSourcePath = path.join(root, 'data/raw/taoyuan-airport-metro.geojson');
+const newTaipeiSourcePath = path.join(root, 'data/raw/newtaipei-metro-routes.json');
 const outputPath = path.join(root, 'src/generated/metro-routes.js');
 const source = JSON.parse(fs.readFileSync(sourcePath, 'utf8'));
 const airportSource = fs.existsSync(airportSourcePath)
   ? JSON.parse(fs.readFileSync(airportSourcePath, 'utf8'))
   : {features:[]};
+const newTaipeiSource = fs.existsSync(newTaipeiSourcePath)
+  ? JSON.parse(fs.readFileSync(newTaipeiSourcePath, 'utf8'))
+  : {elements:[]};
 
 // EPSG:3826 (TWD97 / TM2 zone 121) inverse Transverse Mercator.
 function twd97ToWgs84([east, north]) {
@@ -78,6 +82,30 @@ for (const feature of airportSource.features) {
     geometry:feature.geometry,
   });
 }
+const newTaipeiStyles={
+  V:{name:'淡海輕軌',color:'#78c7d2',status:'operational'},
+  K:{name:'安坑輕軌',color:'#7bbf43',status:'operational'},
+  LB:{name:'三鶯線',color:'#78c7d2',status:'building'},
+  LG:{name:'萬大中和樹林線',color:'#9ac43c',status:'building'},
+};
+const seenNewTaipeiWays=new Set();
+const seenNewTaipeiBranches=new Set();
+for(const relation of newTaipeiSource.elements||[]){
+  const ref=String(relation.tags?.ref||'').toUpperCase(),style=newTaipeiStyles[ref];
+  if(!style)continue;
+  const endpoints=[relation.tags?.from||'',relation.tags?.to||''].sort((a,b)=>a.localeCompare(b,'zh-Hant')).join('|');
+  const branchKey=`${ref}|${endpoints}`;
+  if(seenNewTaipeiBranches.has(branchKey))continue;
+  seenNewTaipeiBranches.add(branchKey);
+  for(const member of relation.members||[]){
+    if(member.type!=='way'||!member.geometry?.length||seenNewTaipeiWays.has(member.ref))continue;
+    seenNewTaipeiWays.add(member.ref);
+    features.push({
+      type:'Feature',properties:{name:style.name,ref,color:style.color,status:style.status,official:false},
+      geometry:{type:'LineString',coordinates:member.geometry.map(point=>[point.lon,point.lat])},
+    });
+  }
+}
 const collection = {type:'FeatureCollection',features};
 fs.writeFileSync(outputPath, `// 臺北市捷運工程局官方 GIS 路網快取；由 scripts/build-metro-cache.mjs 產生。\nexport const cachedMetroRoutes = ${JSON.stringify(collection)};\n`);
-console.log(`官方捷運路網快取：${features.length} 條路線圖徵（含 ${airportSource.features.length} 筆機場捷運線形）`);
+console.log(`捷運路網快取：${features.length} 條線形（新北捷運 ${seenNewTaipeiWays.size} 段）`);
