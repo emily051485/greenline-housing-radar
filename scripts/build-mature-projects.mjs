@@ -28,7 +28,8 @@ const registry=[
 ].filter(row=>{
   const year=Number(String(row['申報備查日期']).slice(0,3)),residential=/住宅|住家/.test(row['主要用途']);
   const completed=Number(String(row['第1次登記日期']).slice(0,3))||0;
-  return year>=113&&residential&&(!completed||completed>=114)&&row['建案名稱']&&row['坐落街道'];
+  // 納入自預售屋全面備查制度上路後的案件；較早申報但尚未完成第一次登記者也保留。
+  return year>=110&&residential&&(!completed||completed>=113)&&row['建案名稱']&&row['坐落街道'];
 });
 const exits=records(raw('taipei-metro-exits.csv'),'big5').map(row=>({station:row['出入口名稱'].replace(/站?出(?:入)?口.*$/,''),lng:Number(row['經度']),lat:Number(row['緯度'])})).filter(exit=>Number.isFinite(exit.lat)&&Number.isFinite(exit.lng));
 
@@ -77,8 +78,11 @@ function nearestExit(point){let nearest=null;for(const exit of exits){const dist
 function builderInfo(value=''){
   const clean=value.replace(/股份有限公司.*/,'股份有限公司').replace(/有限公司.*/,'有限公司').trim();
   const rules=[['S',/華固|潤泰/],['A',/國揚|國泰建設|大陸建設|富邦建設|忠泰|長虹|宏盛|冠德|皇翔|遠雄|璞園|亞昕|昇陽|宏普/],['B',/興富發|達麗|茂德|甲山林|愛山林|漢皇|將捷|麗寶|寶佳|合環|敦年|馥華|新碩/]];
-  const rating=rules.find(([,pattern])=>pattern.test(clean))?.[0]||'NR';
-  return {builder:`備查起造人：${clean||'尚待查證'}`,rating,ratingBasis:rating==='NR'?'官方備查有起造人，但尚未能可靠對應建商品牌與評級':'依已確認建商品牌套用本站評級'};
+  const knownRating=rules.find(([,pattern])=>pattern.test(clean))?.[0];
+  const developerCompany=/(建設|建築|開發|興業|營造|地產).*(?:股份)?有限公司|(?:股份)?有限公司.*(建設|開發|興業|營造|地產)/.test(clean)&&!/建築經理|商業銀行|信託/.test(clean);
+  const rating=knownRating||(developerCompany?'C':'NR');
+  const ratingBasis=knownRating?'依已確認建商品牌套用本站評級':rating==='C'?'官方備查起造人可辨識為建設／開發公司；暫列 C，待更多履歷資料再調整':'官方備查有起造人，但可能是建經公司、金融機構或自然人，尚未可靠對應建商品牌';
+  return {builder:`備查起造人：${clean||'尚待查證'}`,rating,ratingBasis};
 }
 const newTaipeiTransactions=JSON.parse(fs.readFileSync(raw('newtaipei-presale.json'),'utf8')),transactionGroups=new Map();
 for(const row of newTaipeiTransactions){if(row.rps28){const group=transactionGroups.get(row.rps28)||[];group.push(row);transactionGroups.set(row.rps28,group);}}
@@ -90,11 +94,11 @@ function priceInfo(name){
 
 const projects=[];
 for(const row of registry){
-  const point=locate(row);if(!point)continue;const nearest=nearestExit(point);if(!nearest||nearest.distance>975)continue;
+  const point=locate(row);if(!point)continue;const nearest=nearestExit(point);if(!nearest)continue;
   const walk=Math.max(1,Math.ceil(nearest.distance/65)),builder=builderInfo(row['起造人']),price=priceInfo(row['建案名稱']),completed=row['第1次登記日期'];
   projects.push({
     id:`registry-${row.city}-${row['鄉鎮市區']}-${row['建案名稱']}`,name:row['建案名稱'],city:row.city,district:row['鄉鎮市區'],station:nearest.station,walk,address:`${row.city}${row['鄉鎮市區']}${row['坐落街道']}`,...builder,
-    status:completed?'近期完工':'預售備查',completion:completed?`第一次登記 ${completed}`:'依官方備查時程',type:'預售屋',size:price.size,price:price.price,lat:point.lat,lng:point.lng,
+    status:completed?'近期完工':price.transactionCount?'預售中':'預售備查',completion:completed?`第一次登記 ${completed}`:'依官方備查時程',type:'預售屋',size:price.size,price:price.price,lat:point.lat,lng:point.lng,
     source:`內政部預售屋備查＋官方門牌座標${price.transactionCount?`＋實價登錄 ${price.transactionCount} 筆`:''}`,sourceUrl:'https://data.gov.tw/dataset/176351',verified:true,locationStatus:'verified',
     locationAccuracy:`${point.mode}；官方門牌座標至 ${nearest.station} 最近出口直線約 ${Math.round(nearest.distance)} 公尺，步行時間為保守估算`,governmentId:row['建造執照']||row['編號'],governmentStatus:`申報備查 ${row['申報備查日期']}`,
     permit:row['建造執照'],households:row['層棟戶數'],buildingLand:row['坐落基地'],
@@ -103,4 +107,4 @@ for(const row of registry){
 const unique=[...new Map(projects.map(project=>[`${project.city}|${normalize(project.name)}|${normalize(project.address)}`,project])).values()];
 unique.sort((a,b)=>a.city.localeCompare(b.city,'zh-Hant')||a.district.localeCompare(b.district,'zh-Hant')||a.name.localeCompare(b.name,'zh-Hant'));
 fs.mkdirSync(path.dirname(output),{recursive:true});fs.writeFileSync(output,`// 由 scripts/build-mature-projects.mjs 產生；請勿直接編輯。\nexport const matureRegistryProjects = ${JSON.stringify(unique,null,2)};\n`);
-console.log(`Registry candidates: ${registry.length}; official address points: ${addressPoints.length}; published within 1 km of metro: ${unique.length}`);
+console.log(`Registry candidates: ${registry.length}; official address points: ${addressPoints.length}; published with verified address: ${unique.length}`);

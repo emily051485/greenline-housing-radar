@@ -46,11 +46,11 @@
           <label>城市<select id="city-filter"><option value="all">台北市＋新北市</option><option>台北市</option><option>新北市</option></select></label>
           <label>捷運路線<select id="line-filter"><option value="all">全部路線</option><option value="R">淡水信義線</option><option value="G">松山新店線</option><option value="O">中和新蘆線</option><option value="BL">板南線</option><option value="BR">文湖線</option><option value="Y">環狀線</option><option value="A">機場捷運</option><option value="LRT">輕軌</option></select></label>
           <label>目前進度<select id="status-filter"><option value="all">全部成熟階段</option><option value="已領建照">已領建照</option><option value="預售備查">預售備查</option><option value="預售中">預售中</option><option value="近期完工">近期完工</option><option value="新成屋">新成屋</option></select></label>
-          <label>建商評等<select id="rating-filter"><option value="all">全部評等</option><option value="S">S 級以上</option><option value="A">A 級以上</option><option value="B" selected>B 級以上</option><option value="C">C 級以上</option><option value="NR">尚未評等</option></select></label>
-          <label>步行時間<select id="walk-filter"><option value="15">15 分鐘內</option><option value="12">12 分鐘內</option><option value="8">8 分鐘內</option><option value="5">5 分鐘內</option></select></label>
+          <label>建商評等<select id="rating-filter"><option value="all">全部評等</option><option value="S">S 級以上</option><option value="A">A 級以上</option><option value="B">B 級以上</option><option value="C" selected>C 級以上</option><option value="NR">尚未評等</option></select></label>
+          <label>步行時間<select id="walk-filter"><option value="999" selected>不限距離</option><option value="30">30 分鐘內</option><option value="20">20 分鐘內</option><option value="15">15 分鐘內</option><option value="12">12 分鐘內</option><option value="8">8 分鐘內</option><option value="5">5 分鐘內</option></select></label>
           <label class="search-label">搜尋<input id="search-filter" type="search" placeholder="建案、區域、建商或車站"></label>
         </div>
-        <div class="prototype-alert"><b>可信資料優先</b><span>這不是全市場銷售廣告彙整。只有已達成熟階段且目前能合理覆核基地的案件才顯示；缺少的案子會在取得建照、備查與精確位置後加入。</span></div>
+        <div class="prototype-alert"><b>可信資料優先</b><span>不限離捷運距離，但仍只顯示已達成熟階段且可用官方門牌合理定位的案件；只有路名、路口或無法可靠定位的案件不會放入地圖。</span></div>
         <div class="table-shell">
           <div class="table-meta"><span><b id="result-count">0</b> 筆結果</span><span class="legend"><i class="dot live"></i>已覆核基地 <i class="dot estimate"></i>步行時間待複核</span></div>
           <div class="table-scroll"><table><thead><tr><th>建案／建照名稱</th><th>區域</th><th>捷運步行</th><th>地址</th><th>建商／評等</th><th>目前進度</th><th>預計完工</th><th>類型</th><th>坪數</th><th>預估價格</th><th></th></tr></thead><tbody id="project-rows"></tbody></table></div>
