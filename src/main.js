@@ -345,7 +345,7 @@ async function loadHazards(){
   }catch(error){status.textContent='查詢失敗，稍後可再試';console.error(error);}finally{button.disabled=false;}
 }
 
-const hazardCacheKey='greenline-hazards-v3';
+const hazardCacheKey='greenline-hazards-v4';
 const overpassEndpoints=['https://maps.mail.ru/osm/tools/overpass/api/interpreter','https://overpass.private.coffee/api/interpreter','https://lz4.overpass-api.de/api/interpreter','https://overpass-api.de/api/interpreter'];
 const expandedHazardKinds={
   fuel:{label:'加油站',group:'重大環境設施',radius:500},substation:{label:'變電所',group:'重大環境設施',radius:500},powerTower:{label:'高壓電塔',group:'重大環境設施',radius:500},
@@ -438,7 +438,8 @@ async function loadHazardsReliable(force=false){
   if(cached?.collection){
     setHazardData(cached.collection);
     const ageHours=Math.floor((Date.now()-cached.updatedAt)/3600000);
-    status.textContent=`已載入 ${cached.collection.features.length} 個設施（快取 ${ageHours} 小時）`;
+    const critical=cached.collection.features.filter(feature=>feature.properties.group==='重大環境設施').length;
+    status.textContent=`已載入 ${cached.collection.features.length} 個設施（重大 ${critical}；快取 ${ageHours} 小時）`;
     if(!force&&Date.now()-cached.updatedAt<12*3600000)return;
   }
   if(!centers.length){status.textContent='目前沒有已定位基地';return;}
@@ -451,7 +452,8 @@ async function loadHazardsReliable(force=false){
   const east=Math.max(...centers.map(item=>item.lng))+padding;
   const bbox=`(${south},${west},${north},${east})`;
   const queries=[
-    `[out:json][timeout:30];(nwr[amenity~"fuel|crematorium|funeral_hall|waste_transfer_station"]${bbox};nwr[shop=funeral_directors]${bbox};nwr[power~"substation|tower"]${bbox};nwr[landuse~"cemetery|landfill|industrial|brownfield"]${bbox};nwr[man_made~"wastewater_plant|storage_tank"]${bbox};nwr[industrial~"slaughterhouse|chemical|asphalt|concrete"]${bbox};);out center tags;`,
+    `[out:json][timeout:30];(nwr[amenity~"fuel|crematorium|funeral_hall|waste_transfer_station"]${bbox};nwr[shop=funeral_directors]${bbox};nwr[power~"substation|tower"]${bbox};nwr[landuse~"cemetery|landfill"]${bbox};nwr[man_made~"wastewater_plant|storage_tank"]${bbox};);out center tags;`,
+    `[out:json][timeout:30];(nwr[landuse~"industrial|brownfield"]${bbox};nwr[industrial~"slaughterhouse|chemical|asphalt|concrete"]${bbox};);out center tags;`,
     `[out:json][timeout:30];(nwr[amenity=bus_station]${bbox};nwr[landuse=railway]${bbox};nwr[railway~"yard|depot|rail"]${bbox};nwr[highway~"motorway|motorway_link|trunk|trunk_link"]${bbox};nwr[aeroway=aerodrome]${bbox};);out center tags;`,
     `[out:json][timeout:30];(nwr[amenity~"fire_station|hospital|school|kindergarten|college|university|place_of_worship|bar|pub|nightclub|karaoke_box|marketplace|prison"]${bbox};nwr[man_made~"mast|tower"]${bbox};nwr[landuse=military]${bbox};nwr[military]${bbox};);out center tags;`,
   ];
