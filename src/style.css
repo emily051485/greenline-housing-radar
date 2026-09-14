@@ -75,3 +75,11 @@ main{display:flex;flex-direction:column}.hero{order:1}.stats-wrap{order:2}.map-s
   .table-scroll td.data-evidence{grid-column:1/-1}
   .table-scroll td.data-evidence::before{content:'資料來源／定位依據'}
 }
+
+.map-section .map-filter-panel{margin:0;border-color:#4c5a54;box-shadow:0 12px 28px rgba(0,0,0,.16)}
+.map-filter-summary{display:flex;justify-content:flex-end;align-items:center;padding:10px 2px 9px;color:#aebbb5;font-size:11px}
+.map-filter-summary b{margin:0 4px;color:var(--lime);font:700 14px Outfit}
+@media(max-width:560px){
+  .map-section .map-filter-panel{margin-top:-8px}
+  .map-filter-summary{justify-content:flex-start;padding:9px 2px}
+}
