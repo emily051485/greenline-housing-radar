@@ -97,7 +97,7 @@ function addProjectAreas(){
   map.addLayer({
     id:'project-areas-fill',type:'fill',source:'project-areas',
     paint:{
-      'fill-color':['match',['get','rating'],'S','#6d4ea2','A','#3f6f91','B','#628477','C','#89918e','#9ba5a1'],
+      'fill-color':['match',['get','rating'],'S','#14231d','A','#3f6f91','B','#628477','C','#89918e','#9ba5a1'],
       'fill-opacity':.2,
     },
   });
