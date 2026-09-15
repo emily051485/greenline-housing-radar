@@ -976,6 +976,48 @@ export const developerResearch=[
       {label:'行政院預售契約查核',url:'https://www.ey.gov.tw/File/162053C7F1593ECE?A=C',type:'政府資料'},
     ],
   },
+  {
+    id:'pauian',name:'璞園建築團隊',aliases:['璞園開發','璞永建設','璞全建設'],reviewed:'2026-09-14',confidence:'中高',
+    scores:{delivery:87,quality:88,governance:75,service:84,risk:78},
+    summary:'1996 年成立並垂直整合開發、營造、代銷、交屋售服與空間設計；官方團隊名單明列璞園開發、璞永、璞全等事業體，作品與工程進度可交叉核對。',
+    caveat:'交付、品質與售服體系完整，但非公開發行集團，公司級財務與治理透明度低於 S 級標竿，評為 A 級。',
+    sources:[
+      {label:'璞園建築團隊官網',url:'https://pyct.com.tw/',type:'建商官網'},
+      {label:'璞園團隊事業體名單',url:'https://www.pycg.com.tw/index.php?id=team',type:'公司公開資料'},
+      {label:'璞園歷年作品',url:'https://www.pycg.com.tw/index.php?id=work',type:'建商官網'},
+      {label:'璞園開發公司登記',url:'https://findbiz.nat.gov.tw/fts/company/28205004',type:'政府資料'},
+    ],
+  },
+  {
+    id:'runlong',name:'潤隆建設',aliases:['潤隆建設'],reviewed:'2026-09-14',confidence:'高',
+    scores:{delivery:87,quality:82,governance:88,service:78,risk:70},
+    summary:'上市建商，官網持續揭露年報、董事專業與永續治理資訊；屬興富發集團體系，具跨區大量開發與交付能力。',
+    caveat:'規模與公開治理資料完整，但大量推案模式、個案品質差異及售後量化資訊使品質與風險項保守，評為 A 級。',
+    sources:[
+      {label:'潤隆建設年報專區',url:'https://www.runlong.com.tw/stakeholder.php?data_type=information&page_type=annual',type:'公司財務資料'},
+      {label:'114 年度年報',url:'https://www.runlong.com.tw/upload/stakeholder/infor/annual/114%E5%B9%B4%E5%A0%B1_20260526.pdf',type:'公司財務資料'},
+    ],
+  },
+  {
+    id:'liangshang',name:'聯上開發',aliases:['聯上開發'],reviewed:'2026-09-14',confidence:'高',
+    scores:{delivery:84,quality:79,governance:84,service:75,risk:72},
+    summary:'上市建商，年報揭露土地取得、都更與危老策略，以及聯上天母、聯上大喜等成屋銷售個案，財務與營運資訊可持續追蹤。',
+    caveat:'公開治理與交付證據完整，但品質、售後滿意度及大型雙北作品廣度尚不足以列 A，評為 B 級。',
+    sources:[
+      {label:'聯上開發 113 年年報',url:'https://www.5v.com.tw/pdf/%E9%99%84%E4%BB%B65-114%E5%B9%B4%E8%82%A1%E6%9D%B1%E5%B8%B8%E6%9C%83-113%E5%B9%B4%E5%B9%B4%E5%A0%B1.pdf',type:'公司財務資料'},
+    ],
+  },
+  {
+    id:'chonghong',name:'長虹建設',aliases:['長虹建設'],reviewed:'2026-09-14',confidence:'高',
+    scores:{delivery:90,quality:87,governance:88,service:80,risk:78},
+    summary:'上市建商，公開說明書與永續報告揭露工程、治理、契約及顧客服務制度，長期具住宅、商辦與大型開發交付履歷。',
+    caveat:'長期交付、品質與治理均強，但售後量化資料仍少於 S 級標竿，因此評為 A 級。',
+    sources:[
+      {label:'長虹建設永續專區',url:'https://chonghong.com.tw/esg',type:'公司永續資料'},
+      {label:'2024 永續報告',url:'https://chonghong.b-cdn.net/wp-content/uploads/2025/09/%E9%95%B7%E8%99%B9%E5%BB%BA%E8%A8%ADESG0902.pdf',type:'公司永續報告'},
+      {label:'114 年公開說明書',url:'https://www.twfhcsec.com.tw/Content/fileredirect?Path=MTIzNDAwMDA1Njc4QDPijF26THW0WM0SwfrNT9GVqShCBbmcV5ZZEQjxM7OGrotMHKIhGc6lE66OFc13qIzFwQxt3jaoO_i0494XfLJ4B8k7UxoWxQ',type:'公開市場資料'},
+    ],
+  },
 ].map(profile=>{
   const score=profile.scores?weightedScore(profile.scores):null;
   return {...profile,score,rating:profile.rating||ratingFromScore(score)};
