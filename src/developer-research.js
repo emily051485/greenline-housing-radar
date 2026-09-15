@@ -3890,6 +3890,52 @@ export const developerResearch=[
       {label:'明明預售公開資料',url:'https://data.gov.tw/dataset/176351',type:'政府開放資料'},
     ],
   },
+  {
+    id:'huanmao',name:'桓茂建設（桓建築）',aliases:['桓茂建設'],reviewed:'2026-09-14',confidence:'中高',
+    scores:{delivery:84,quality:88,governance:82,service:78,risk:82},
+    summary:'2011 年設立，登記實收資本額 1 億元；官方「桓建築」作品頁列有琢白、天母桓琚、吾彊、慕夏四季、1邸、墨香明水、翠亨及松江．桓榀，具跨年度且以中高端住宅為主的可辨識作品序列。',
+    caveat:'公司登記與官方作品可支持 A 級下緣，但品質與細節主張主要仍來自公司自行揭露，售後處理時效、客訴及保固成效缺少量化公開資料；各案契約主體也須逐案確認，不把整個品牌作品無條件視為桓茂單一法人實績。',
+    sources:[
+      {label:'桓茂建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/53342028',type:'經濟部商工登記'},
+      {label:'桓建築官方作品',url:'https://great-goal.com.tw/',type:'公司官方資料'},
+      {label:'松江．桓榀施工與起造人資料',url:'https://www.arch.org.tw/Content/Files/News/44241633b8bf481b96b2163d124eeb4c.pdf',type:'主管機關函文'},
+    ],
+  },
+  {
+    id:'chenhong',name:'宸泓建設',aliases:['宸泓建設'],reviewed:'2026-09-14',confidence:'中',
+    scores:{delivery:66,quality:72,governance:60,service:60,risk:70},
+    summary:'2019 年設立、登記資本額 2,000 萬元；臺北市公開的松江 ONE 預售契約可確認其為賣方，並載明基地地號及 111建字第0318號建照，契約主體與個案身分明確。',
+    caveat:'目前可核實的住宅交付序列、售後制度及量化品質資料仍少，不能把單一案的產品訴求或關係企業傳聞當作履約能力證據，因此維持 C 級；後續取得使用執照、實際交屋與保固紀錄後再重評。',
+    sources:[
+      {label:'宸泓建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/85065432',type:'經濟部商工登記'},
+      {label:'松江 ONE 預售契約',url:'https://househunt.land.gov.taipei/upload/33.%E6%9D%BE%E6%B1%9FONE_%E6%88%BF%E5%9C%B0%E9%A0%90%E5%AE%9A%E8%B2%B7%E8%B3%A3%E5%A5%91%E7%B4%84%E6%9B%B8%28%E8%AE%8A%E6%9B%B4%E5%BE%8C%29.pdf',type:'臺北市政府公開資料'},
+      {label:'松江 ONE 基地與產品資料',url:'https://fangnote.info/2022/%E6%9D%BE%E6%B1%9FONE/',type:'建案公開資料'},
+    ],
+  },
+  {
+    id:'kangchiao',name:'康喬建設',aliases:['康喬建設'],reviewed:'2026-09-14',confidence:'中',
+    scores:{delivery:72,quality:78,governance:68,service:66,risk:70},
+    summary:'2014 年設立，登記資本額已增至 6,650 萬元；長安馥可核對 111建字第0036號、24 戶規模與 2025 年完工資料，官方產品頁並揭露智慧、健康及綠建築訴求。',
+    caveat:'目前查得的可辨識交付與售後樣本仍偏少；長安馥工地曾因積水容器孳生病媒幼蟲遭罰 1,200 元，屬輕微工地管理紀錄而非結構品質事故。綜合證據尚差一分未達 B 級門檻，先列 C 級並保留升評空間。',
+    sources:[
+      {label:'康喬建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/25077743',type:'經濟部商工登記'},
+      {label:'長安馥官方產品頁',url:'https://www.beeplus.com.tw/event/fragrance/',type:'公司／建案官方資料'},
+      {label:'長安馥完工與規劃資料',url:'https://www.plex.com.tw/projects/view/id/1632',type:'建案公開資料'},
+      {label:'工地環境裁罰紀錄',url:'https://thaubing.gcaa.org.tw/corp/25077743',type:'政府裁罰資料彙整'},
+    ],
+  },
+  {
+    id:'fuxiang',name:'復翔建設',aliases:['復翔建設'],reviewed:'2026-09-14',confidence:'高',
+    scores:{delivery:60,quality:68,governance:48,service:58,risk:35},
+    summary:'2016 年設立，公開公司簡介稱 2021 年轉型建設並以南京葒為首案；目前住宅交付與售後樣本有限，且預售履約相關公開紀錄出現明確警訊。',
+    caveat:'台新銀行於 2026 年 8 月公告，復翔建設未提供南京葒預售屋不動產開發信託案 114 年度會計師查核簽認報告。這不等同工程必然無法履約，但屬與購屋資金安全直接相關的治理缺口，因此治理與風險分明顯下修並列 C 級。',
+    sources:[
+      {label:'復翔建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/52670607',type:'經濟部商工登記'},
+      {label:'南京葒信託查核缺件公告',url:'https://www.taishinbank.com.tw/TSB/corporate/common/important-notice/TSBankImportantNotice-001545/',type:'信託銀行公告'},
+      {label:'復翔建設公司與首案說明',url:'https://www.1111.com.tw/corp/73131596',type:'公司公開徵才資料'},
+      {label:'南京葒推案紀錄',url:'https://build.myhousing.com.tw/company/488706/',type:'建案公開資料'},
+    ],
+  },
 ].map(profile=>{
   const score=profile.scores?weightedScore(profile.scores):null;
   return {...profile,score,rating:profile.rating||ratingFromScore(score)};

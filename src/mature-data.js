@@ -56,6 +56,7 @@ const verifiedTextCorrections=new Map(Object.entries({
   '台北市北投區公?路255巷1弄11號1樓':'台北市北投區公館路255巷1弄11號1樓',
   '台北市北投區公?路326巷11號2樓共8筆':'台北市北投區公館路326巷11號2樓共8筆',
   '台北市萬華區糖?里大理街135號 共4筆':'台北市萬華區糖廍里大理街135號 共4筆',
+  '松江桓?':'松江．桓榀',
 }));
 const verifiedProjectBuilderCorrections=new Map([
   ['家?美','備查起造人：家悅建設股份有限公司'],
