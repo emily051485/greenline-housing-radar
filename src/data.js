@@ -1,5 +1,5 @@
 import { integratedProjects } from './generated/integrated-projects.js';
-import { findDeveloperResearch } from './developer-research.js';
+import { findDeveloperResearch,isNonBuilderRole } from './developer-research.js';
 
 const seedProjects = [
   {id:1,name:'松山車站特定區更新案',city:'台北市',district:'松山區',station:'松山',walk:6,address:'八德路四段與松山路口周邊',builder:'待選定實施者',rating:'B',status:'整合／審議中',completion:'2031（估）',type:'都更／未開賣',size:'待公告',price:'待公告',lat:25.0494,lng:121.5779,source:'臺北都市開發審議地圖',verified:true},
@@ -17,6 +17,7 @@ const rawProjects=integratedProjects.length ? integratedProjects : seedProjects;
 export const projects=rawProjects.map(project=>{
   const research=findDeveloperResearch(project.builder);
   if(research)return {...project,rating:research.rating,ratingBasis:research.score==null?`建商研究已覆核（${research.reviewed}）：${research.caveat}`:`建商研究 ${research.score} 分（${research.reviewed} 覆核）；評級由五項公開證據加權推導`};
+  if(isNonBuilderRole(project.builder))return {...project,rating:'NA',ratingBasis:'不適用建商評等：此欄為建經、銀行、政府、更新會、自然人或尚待選定實施者，不直接視為住宅品牌'};
   if(project.rating==='NR')return project;
   return {...project,rating:'NR',ratingBasis:'待評估：尚未完成一致口徑的公司級公開資料查核，不以品牌名稱或案量推定等級'};
 });

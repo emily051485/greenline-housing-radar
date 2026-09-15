@@ -9,6 +9,10 @@ export const developerRubric=[
 export const ratingFromScore=score=>score>=90?'S':score>=82?'A':score>=72?'B':score>=60?'C':'NR';
 export const weightedScore=scores=>Math.round(developerRubric.reduce((sum,item)=>sum+(scores[item.key]??0)*item.weight,0)/100);
 
+// 預售備查的「起造人」可能是建經、銀行、政府、更新會或自然人；
+// 這些角色不是住宅品牌，不應混入尚待研究的建商統計。
+export const isNonBuilderRole=value=>/建築經理|商業銀行|銀行股份|信託|都市更新會|更新單元.*會|臺北市政府|新北市政府|待選定實施者|自然人|等\s*\d*\s*人/.test(String(value||''));
+
 // 分數依公開證據逐項人工判讀，不由品牌名稱、本站案量或既有級別反推。
 // 公司自行揭露的滿意度與制度均明標為「公司揭露」，不可視為獨立品質保證。
 export const developerResearch=[
@@ -288,6 +292,37 @@ export const developerResearch=[
     summary:'政府預售備查可確認公司為個案起造與開發主體，但尚缺足以支持公司級品質評分的公開制度資料。',
     caveat:'預售備查只能證明案件與責任主體，不代表工程品質或售後能力，因此暫不評分。',
     sources:[{label:'臺北市預售備查',url:'https://land.gov.taipei/News_Content.aspx?n=E8D96FA6BB2B310E&s=B9FB950496A8E523&sms=06A4332DF37FE327',type:'政府資料'}],
+  },
+  {
+    id:'goodman',name:'國美建設',aliases:['國美建設'],reviewed:'2026-09-14',confidence:'中',
+    scores:{delivery:82,quality:79,governance:58,service:77,risk:66},
+    summary:'官網可核對品牌沿革、安全、設計與售後承諾，也有可辨識的歷年作品；但缺少公司級財務、治理與量化售服揭露。',
+    caveat:'工程與售服內容主要為公司自述，尚無足夠公開報告交叉驗證，因此治理與風險項保守給分。',
+    sources:[
+      {label:'關於國美',url:'https://goodmangroup.tw/about-us/',type:'公司揭露'},
+      {label:'國美機構官網',url:'https://goodmangroup.tw/',type:'公司揭露'},
+    ],
+  },
+  {
+    id:'jimei',name:'吉美建設',aliases:['吉美建設事業','吉美建設'],reviewed:'2026-09-14',confidence:'中高',
+    scores:{delivery:86,quality:83,governance:61,service:81,risk:70},
+    summary:'1995 年成立，官網列出多個已完工、在建與都更作品，並說明現場管理、工法研發及售後服務，履歷可追溯性較完整。',
+    caveat:'品質與售後成效仍以公司敘述為主，未取得上市櫃公司等級的連續財務與治理揭露，故不評為 A。',
+    sources:[
+      {label:'認識吉美',url:'https://www.jimei.com.tw/about/',type:'公司揭露'},
+      {label:'工程與售後服務',url:'https://www.jimei.com.tw/service/',type:'公司揭露'},
+      {label:'歷年作品',url:'https://www.jimei.com.tw/works/',type:'公司揭露'},
+    ],
+  },
+  {
+    id:'leyoung',name:'樂揚建設',aliases:['樂揚建設'],reviewed:'2026-09-14',confidence:'中',
+    scores:{delivery:82,quality:78,governance:62,service:84,risk:69},
+    summary:'官網明確揭露一站式售後服務、跨領域諮詢與永續經營原則，服務制度優於僅有作品型錄的私人建商。',
+    caveat:'缺少量化維修績效、第三方工程驗證及完整公司級財務資料，現階段維持 B 級。',
+    sources:[
+      {label:'售後服務',url:'https://www.leyoung.com.tw/business/customer/afterSales.html',type:'公司揭露'},
+      {label:'永續經營',url:'https://leyoung.com.tw/duty/sustainable.html',type:'公司揭露'},
+    ],
   },
 ].map(profile=>{
   const score=profile.scores?weightedScore(profile.scores):null;
