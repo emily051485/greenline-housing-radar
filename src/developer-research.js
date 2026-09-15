@@ -931,6 +931,51 @@ export const developerResearch=[
       {label:'義華 Nº1 個案官網',url:'https://yihua-n1.com.tw/',type:'建案官網'},
     ],
   },
+  {
+    id:'tatungdev',name:'大同開發',aliases:['大同開發','大同資產開發'],reviewed:'2026-09-14',confidence:'中高',
+    scores:{delivery:84,quality:82,governance:78,service:76,risk:73},
+    summary:'原大同資產開發於 2026 年更名為大同開發；官網可核對大同莊園系列、大同新紀元與新豐采的開工、完工、完銷及建築獎項。',
+    caveat:'具集團資源與跨案交付，但公司級售後、品質量化及獨立治理揭露不及 A 級標竿，評為 B 級。',
+    sources:[
+      {label:'經濟部更名登記',url:'https://findbiz.nat.gov.tw/fts/company/29508603',type:'政府資料'},
+      {label:'大同資產開發案況',url:'https://tadctatung.com.tw/news.html',type:'建商官網'},
+      {label:'大同公司年報',url:'https://tatung.com/Content/download/investors/113%E4%B8%AD%E6%96%87%E5%B9%B4%E5%A0%B1.pdf',type:'公司財務資料'},
+    ],
+  },
+  {
+    id:'shihlin',name:'士林開發',aliases:['士林開發'],reviewed:'2026-09-14',confidence:'高',
+    scores:{delivery:86,quality:84,governance:88,service:79,risk:76},
+    summary:'上櫃公司，官網完整揭露內控、公司治理主管、永續報告與綠建築制度；財務資料可核對多件在建、待售與營建用地。',
+    caveat:'治理與建案透明度良好，但售後服務量化與大型住宅交付廣度仍低於 S 級標竿，評為 A 級。',
+    sources:[
+      {label:'士林開發官網',url:'https://www.sdc.com.tw/',type:'建商官網'},
+      {label:'公司治理與永續報告',url:'https://www.sdc.com.tw/duty.php',type:'公司治理資料'},
+      {label:'年度財務資料',url:'https://www.sdc.com.tw/images/upload/year_pt/year_pt_2023',type:'公司財務資料'},
+    ],
+  },
+  {
+    id:'dacin',name:'達欣工程',aliases:['達欣工程','達欣開發'],reviewed:'2026-09-14',confidence:'高',
+    scores:{delivery:91,quality:88,governance:88,service:80,risk:78},
+    summary:'1967 年成立的上市工程公司，官網保留 2007 年起年報與季報；集團住宅開發子公司、重大公共工程及集合住宅履歷均可核對。',
+    caveat:'工程技術、長期交付與公開治理證據強，但本資料庫住宅案的售後服務仍缺少同等完整量化，綜合評為 A 級。',
+    sources:[
+      {label:'達欣工程年報與季報',url:'https://www.dacin.com.tw/investors/reports.php',type:'公司財務資料'},
+      {label:'達欣開發與集團工程履歷',url:'https://dacindev.com/about-corporate.html',type:'公司公開資料'},
+      {label:'達欣開發官網',url:'https://dacindev.com/',type:'建商官網'},
+    ],
+  },
+  {
+    id:'shining',name:'鄉林建設',aliases:['鄉林建設事業','鄉林建設'],reviewed:'2026-09-14',confidence:'中高',
+    scores:{delivery:85,quality:82,governance:82,service:76,risk:64},
+    summary:'上市建商，官網可核對公司基本資料、歷年建案與獎項，並發布永續報告；目前仍持續推動萬華等都市更新案。',
+    caveat:'公開治理、規模與交付履歷完整，但歷史 BOT 履約爭議及售後量化資料使風險與服務構面保守，評為 B 級。',
+    sources:[
+      {label:'鄉林公司基本資料',url:'https://shininggroup.com/company_information',type:'公司治理資料'},
+      {label:'鄉林建案與獎項',url:'https://shininggroup.com.tw/about_shining/',type:'建商官網'},
+      {label:'2023 永續報告',url:'https://shininggroup.com/wp-content/uploads/2024/08/Shining-Sustainability_Report-TC-2023.pdf',type:'公司永續報告'},
+      {label:'行政院預售契約查核',url:'https://www.ey.gov.tw/File/162053C7F1593ECE?A=C',type:'政府資料'},
+    ],
+  },
 ].map(profile=>{
   const score=profile.scores?weightedScore(profile.scores):null;
   return {...profile,score,rating:profile.rating||ratingFromScore(score)};
