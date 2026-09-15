@@ -3983,6 +3983,56 @@ export const developerResearch=[
       {label:'新北市已備查建案清冊',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?n=MTEw5bm06IezMTE05bm05bey5YKZ5p%2Bl5bu65qGI5riF5YaKLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMzk5L3JlbGZpbGUvODk5My85NDY5L2NkZTQ4OTJkLTQzMzAtNDY3Zi1hYmExLTI3YzJiYjI0MjYxNi5wZGY%3D',type:'新北市政府公開資料'},
     ],
   },
+  {
+    id:'shiyuan-everglory',name:'仕院建設（長耀建築機構）',aliases:['仕院建設'],reviewed:'2026-09-14',confidence:'高',
+    scores:{delivery:88,quality:86,governance:84,service:82,risk:84},
+    summary:'2010 年設立、登記實收資本額 1.7 億元；官方長耀作品頁列出 2002 年後多期住宅，第三方營建履歷並顯示仕院近五年取得 13 件建照與 18 件使照，具連續推案及交付紀錄。',
+    caveat:'仕院與長耀的機構關係有官方及個案資料支持，但每個建案仍須辨認契約法人；品質理念和服務主張主要來自公司揭露，缺少完整客訴與售後時效統計，因此列 A 而非 S。',
+    sources:[
+      {label:'仕院建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/53118984',type:'經濟部商工登記'},
+      {label:'長耀官方歷年作品',url:'https://everglory-construction.com.tw/case_list.php',type:'公司官方資料'},
+      {label:'長耀官方公司沿革',url:'https://everglory-construction.com.tw/about.php',type:'公司官方資料'},
+      {label:'仕院建照與使照履歷',url:'https://bpm.com.tw/property/linkompc68/',type:'營建資料彙整'},
+      {label:'長耀會個案資料',url:'https://newhouse.591.com.tw/139651/detail',type:'建案公開資料'},
+    ],
+  },
+  {
+    id:'xiandu',name:'仙都建設',aliases:['仙都建設'],reviewed:'2026-09-14',confidence:'中',
+    scores:{delivery:72,quality:76,governance:68,service:66,risk:74},
+    summary:'1993 年設立、登記資本額 2,500 萬元；新北市備查清冊與 114股使字第00399號使用執照資料可確認香寓由仙都投資興建，65 戶住宅已取得使照並進入成屋銷售。',
+    caveat:'負責人及登記地址與璞園建設相同是可查事實，但不足以直接把璞園全部履歷與評級移植給仙都；目前仙都自身可辨識作品、品管及售後公開證據仍少，故維持 C。',
+    sources:[
+      {label:'仙都建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/84573425',type:'經濟部商工登記'},
+      {label:'新北市已備查建案清冊',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?n=MTEw5bm06IezMTE05bm05bey5YKZ5p%2Bl5bu65qGI5riF5YaKLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMzk5L3JlbGZpbGUvODk5My85NDY5L2NkZTQ4OTJkLTQzMzAtNDY3Zi1hYmExLTI3YzJiYjI0MjYxNi5wZGY%3D',type:'新北市政府公開資料'},
+      {label:'香寓使照與成屋資料',url:'https://newhouse.591.com.tw/136348',type:'建案公開資料'},
+      {label:'仙都香寓成交資料',url:'https://www.leju.com.tw/community/Ladf14481548f97?mode=price',type:'實價資料彙整'},
+    ],
+  },
+  {
+    id:'qiansaki',name:'仟崎建設',aliases:['仟崎建設'],reviewed:'2026-09-14',confidence:'中',
+    scores:{delivery:72,quality:76,governance:70,service:64,risk:72},
+    summary:'2012 年設立、登記資本額 9,000 萬元；新北市公開契約確認仟崎為敘日賣方，111林建字第00084號規劃 44 戶，市場與社區資料顯示已於 2025 年完工並有三十餘筆成交。',
+    caveat:'公開資料稱敘日為仟崎首發作品，目前尚不足以形成跨案履約與售後樣本；建材個案資料可核對，但不等同長期品質制度，因此先列 C，待交屋保固及下一案實績再評。',
+    sources:[
+      {label:'仟崎建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/53712318',type:'經濟部商工登記'},
+      {label:'敘日預售契約',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?icon=..pdf&n=5pWY5pelLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMS9yZWxmaWxlLzk2NzkvNjM5NDA4LzVkM2ZmZmNlLTNjZjYtNGVkZS1hZjI3LWY3OWEyNWU1MTUxYy5wZGY%3D',type:'新北市政府公開資料'},
+      {label:'敘日完工與成交資料',url:'https://www.plex.com.tw/projects/view/id/2820',type:'建案公開資料'},
+      {label:'敘日建材案例',url:'https://www.cleanup.com.tw/web/product/case_in.jsp?pdid=PD1657248518690',type:'供應商案例'},
+    ],
+  },
+  {
+    id:'qiansheng',name:'仟盛建設',aliases:['仟盛建設'],reviewed:'2026-09-14',confidence:'中高',
+    scores:{delivery:82,quality:80,governance:84,service:70,risk:82},
+    summary:'公司登記資本額 7.3 億元，具長期存續與轉投資資料；官方名冊顯示仟盛曾經審核通過，為暉騰建設預售案提供同業連帶擔保，另有住宅類綠建築評定申請及新北建照起造人紀錄。',
+    caveat:'同業擔保資格與資本規模支持 B 級，但不代表暉騰所有作品都是仟盛直接興建；暉騰靚市場資料列暉騰為投資興建、官方建照則列仟盛起造，兩種角色並存，售後及直接交付資料仍需補強，故不升 A。',
+    sources:[
+      {label:'仟盛建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/16449862',type:'經濟部商工登記'},
+      {label:'同業連帶擔保審核名冊',url:'https://redat.yooniks.co/storage/upload/members/1131226%E5%AF%A9%E6%A0%B8%E9%80%9A%E9%81%8E%E5%90%8D%E5%96%AE%28%E7%99%BB%E7%B6%B2%29-1735196185.pdf',type:'公會審核資料'},
+      {label:'新北市建照起造人資料',url:'https://building-management.publicwork.ntpc.gov.tw/bp_detail.jsp?ri=75612',type:'新北市政府公開資料'},
+      {label:'綠建築評定查核紀錄',url:'https://ws.moi.gov.tw/001/Upload/404/relfile/9489/328178/666fd33a-033d-4200-8041-cbd73becd63e.pdf',type:'內政部公開資料'},
+      {label:'暉騰靚市場角色資料',url:'https://www.plex.com.tw/projects/view/id/9308',type:'建案公開資料'},
+    ],
+  },
 ].map(profile=>{
   const score=profile.scores?weightedScore(profile.scores):null;
   return {...profile,score,rating:profile.rating||ratingFromScore(score)};
