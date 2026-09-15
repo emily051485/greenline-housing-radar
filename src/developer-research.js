@@ -3722,6 +3722,30 @@ export const developerResearch=[
       {label:'預售建案契約查核季報',url:'https://www-ws.gov.taipei/001/Upload/305/relfile/10162/9401210/fe8490cf-1661-41c0-a40f-0715be91e1ce.pdf',type:'臺北市政府資料'},
     ],
   },
+  {
+    id:'hongxin-taoding',name:'弘新建設／燾鼎建設（利晉體系）',aliases:['弘新建設／燾鼎建設','弘新建設','燾鼎建設'],reviewed:'2026-09-14',confidence:'高',
+    scores:{delivery:88,quality:90,governance:88,service:78,risk:86},
+    summary:'弘新建設成立於 1994 年、實收資本額 6 億元，由 1966 年成立的利晉工程持股並提供營造體系；官方列有弘新花園廣場、晴山學、新竹磐龍等實績。燾鼎建設實收資本額 4.7517 億元，與弘新共同投資利晉・崧喆，並由利晉工程承造。',
+    caveat:'母公司長期大型工程履歷、建設與營造直接整合、資本規模及可核對住宅作品支持 A 級；但住宅交屋後保固與客訴統計揭露少於 S 級，且利晉營造的全部外部工程不能等同兩家建商自身的住宅交付。',
+    sources:[
+      {label:'弘新建設公司登記與利晉持股',url:'https://findbiz.nat.gov.tw/fts/company/84706092',type:'經濟部商工登記'},
+      {label:'弘新建設沿革與作品',url:'https://www.lijin.com.tw/Associate/Company/2',type:'集團官方資料'},
+      {label:'燾鼎建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/52914940',type:'經濟部商工登記'},
+      {label:'利晉・崧喆官方團隊資料',url:'https://newlandmark.com.tw/',type:'建案官方資料'},
+    ],
+  },
+  {
+    id:'ambassador-property',name:'國賓大飯店／國賓地產',aliases:['國賓大飯店（起造／開發）','國賓地產開發','國賓地產'],reviewed:'2026-09-14',confidence:'高',
+    scores:{delivery:78,quality:90,governance:92,service:74,risk:86},
+    summary:'國賓大飯店 1962 年成立、1982 年上市；台北國賓原址危老重建的國賓皇琚，由國賓地產負責開發，採 SC 結構與制震設計，住宅部分已完工並有大量實價登錄，工程團隊包括大陸工程、中鹿營造及日本三菱地所。',
+    caveat:'上市治理、長期大型不動產營運、已完成高規格住宅及強工程團隊支持 A 級低段；但國賓的核心仍是旅館業，住宅建商品牌目前主要只有國賓皇琚，住宅售後與跨案交付樣本不足以列 S。',
+    sources:[
+      {label:'國賓大飯店投資人關係與上市沿革',url:'https://www.ambassador-hotels.com/tc/investor-relations',type:'公司官方資料'},
+      {label:'國賓皇琚建設公司與工程規格',url:'https://www.arch.org.tw/Content/Files/Download/8a10baf143794a43a1bc24c8b1eacb03.pdf',type:'建築師公會資料'},
+      {label:'國賓皇琚完工與交易資料',url:'https://www.plex.com.tw/projects/view/id/4215/page/',type:'成屋與實價資料'},
+      {label:'國賓大飯店官方沿革',url:'https://www.ambassador-hotels.com/tc',type:'公司官方資料'},
+    ],
+  },
 ].map(profile=>{
   const score=profile.scores?weightedScore(profile.scores):null;
   return {...profile,score,rating:profile.rating||ratingFromScore(score)};
