@@ -2977,6 +2977,49 @@ export const developerResearch=[
       {label:'SOHO 筑富建案與建照資料',url:'https://newhouse.591.com.tw/139028',type:'建案公開資料'},
     ],
   },
+  {
+    id:'budeng',name:'布登有限公司',aliases:['布登有限公司'],reviewed:'2026-09-14',confidence:'中',
+    scores:{delivery:65,quality:69,governance:66,service:67,risk:70},
+    summary:'2023 年設立、資本額 1,000 萬元；政府公司設立清冊與上東門建照資料可確認其為實際投資興建者。',
+    caveat:'公司與品牌皆新，目前只有單案可核對，尚無完工交付、售後制度、品質抽驗或治理報告可支持較高等級，故列 C。',
+    sources:[
+      {label:'布登有限公司設立登記清冊',url:'https://serv.gcis.nat.gov.tw/pub/cmpy/reportAction.do?fileName=11207ALS.pdf&method=report&reportClass=cmpy&subPath=11207',type:'經濟部商工資料'},
+      {label:'上東門建案與建照資料',url:'https://newhouse.591.com.tw/140283',type:'建案公開資料'},
+    ],
+  },
+  {
+    id:'zhensheng',name:'𡻈盛建設',aliases:['𡻈盛建設','(山秦)盛建設'],reviewed:'2026-09-14',confidence:'中高',
+    scores:{delivery:82,quality:82,governance:74,service:78,risk:78},
+    summary:'官方網站揭露二十年以上開發脈絡、歷年作品與入住後管理維護主張；大安文硯官網可核對投資興建、營造、設計及建照資料。',
+    caveat:'具跨期推案與品牌延續性，但非公開發行公司，財務治理、售後成效與品質量化揭露仍不及 A 級證據標準，故列 B。',
+    sources:[
+      {label:'𡻈盛建設官方網站',url:'https://www.zhen-sheng.com.tw/',type:'公司官方資料'},
+      {label:'大安文硯建案官方資料',url:'https://www.jsl.com.tw/cases/tco250186/pages/location',type:'建案官方資料'},
+      {label:'𡻈盛建設公司資料',url:'https://companyradar.tw/c/97327657',type:'政府資料彙整'},
+    ],
+  },
+  {
+    id:'yuxiang-development',name:'御翔開發建設',aliases:['御翔開發建設'],reviewed:'2026-09-14',confidence:'高',
+    scores:{delivery:30,quality:55,governance:42,service:35,risk:22},
+    summary:'2013 年設立，政府變更登記清冊顯示資本額 7,000 萬元；大安信藝館可確認由其投資興建並辦理不動產開發信託。',
+    caveat:'瑞興銀行已正式公告接獲御翔通知，大安信藝館無法依約定完工，並依信託契約完成剩餘財產分配。此為直接且重大的履約風險證據，故列低分 C；後續若有接手續建，仍須重新查核新履約主體。',
+    sources:[
+      {label:'御翔開發建設變更登記清冊',url:'https://serv.gcis.nat.gov.tw/pub/cmpy/reportAction.do?fileName=376410000Achange11407.pdf&method=report&reportClass=cmpyCity&subPath=11407',type:'經濟部商工資料'},
+      {label:'大安信藝館無法依約完工公告',url:'https://www.taipeistarbank.com.tw/News/Detail/9c4aa9ed-cd9b-4ae9-8ab8-50572b3a6783',type:'受託銀行官方公告'},
+      {label:'大安信藝館預售備查',url:'https://www-ws.gov.taipei/001/Upload/305/relfile/11498/8530909/0d57135f-e666-4ae2-a344-215f708ec3c4.pdf',type:'臺北市政府資料'},
+    ],
+  },
+  {
+    id:'ruitai-development',name:'睿泰開發',aliases:['睿泰開發'],reviewed:'2026-09-14',confidence:'中高',
+    scores:{delivery:79,quality:79,governance:72,service:75,risk:76},
+    summary:'2011 年設立、實收資本額 2,500 萬元；公司登記、預售備查及建案資料可核對大安茗邸由其投資興建與自售，並已有持續工程進度。',
+    caveat:'與「睿泰建設」是不同統編法人，故獨立評分；現有交付與公開治理資料較少，列 B 而不沿用睿泰建設或其他關係品牌等級。',
+    sources:[
+      {label:'睿泰開發公司登記',url:'https://findbiz.nat.gov.tw/fts/company/53325323',type:'經濟部商工資料'},
+      {label:'大安茗邸建案資料',url:'https://www.plex.com.tw/projects/view/id/2811',type:'建案公開資料'},
+      {label:'大安茗邸工程進度',url:'https://newhouse.591.com.tw/132348/dynamic',type:'建案公開資料'},
+    ],
+  },
 ].map(profile=>{
   const score=profile.scores?weightedScore(profile.scores):null;
   return {...profile,score,rating:profile.rating||ratingFromScore(score)};
