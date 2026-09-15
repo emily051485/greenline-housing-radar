@@ -4929,7 +4929,7 @@ export const developerResearch=[
     ],
   },
   {
-    id:'yungyifong-construction',name:'永邑豐建設股份有限公司',aliases:['永邑豐建設股份有限公司','永邑豐建設','永億豐地產開發股份有限公司'],reviewed:'2026-09-14',confidence:'高',
+    id:'yungyifong-construction',name:'永邑豐建設／和風開發',aliases:['永邑豐建設股份有限公司','永邑豐建設','永億豐地產開發股份有限公司','和風開發股份有限公司','和風開發'],reviewed:'2026-09-14',confidence:'高',
     scores:{delivery:82,quality:82,governance:82,service:70,risk:82},
     summary:'2005 年設立、實收資本額約 1.73 億元；官方網站揭露頂溪大苑及雙北多個都更、危老整合案，新北市核定函也確認其為頂溪大苑都市更新實施者。',
     caveat:'公司資本與都更執行能力有官方證據，但不少案件仍在整合或審議，不能等同已交付作品；耐震與防水主張亦屬公司說明。總分 80 分，列 B。',
@@ -5010,6 +5010,50 @@ export const developerResearch=[
       {label:'經濟部商工登記（齊興建設）',url:'https://findbiz.nat.gov.tw/fts/company/83399390',type:'官方公司登記'},
       {label:'遠雄房地產齊興緻官方介紹',url:'https://www.farglory-realty.com.tw/life-proposal/ar1-1/',type:'集團官方建案資料'},
       {label:'遠雄建設股東會資料（齊興董事關係）',url:'https://www.farglory-land.com.tw/wp-content/uploads/2024/05/113%E5%B9%B4%E8%82%A1%E6%9D%B1%E5%B8%B8%E6%9C%83%E8%AD%B0%E4%BA%8B%E6%89%8B%E5%86%8A.pdf',type:'上市公司官方文件'},
+    ],
+  },
+  {
+    id:'longlin-development',name:'龍霖開發建設股份有限公司',aliases:['龍霖開發建設股份有限公司','龍霖開發建設','龍霖建設'],reviewed:'2026-09-14',confidence:'高',
+    scores:{delivery:80,quality:80,governance:82,service:70,risk:80},
+    summary:'2017 年設立，實收資本額由 50 萬元增至 4 億元；國土管理署都更資料可核對龍霖臻藏、龍霖初心兩項實績，龍霖初心並已取得使用執照、於 2025 年下半年交屋。',
+    caveat:'資本與兩案執行、交付證據明確，但公司本體年資尚短，工程制度與長期售後成效公開量化不足；總分 78 分，列 B。',
+    sources:[
+      {label:'經濟部商工登記（龍霖開發建設）',url:'https://findbiz.nat.gov.tw/fts/company/69738335',type:'官方公司登記'},
+      {label:'國土管理署都更實施者與實績資料',url:'https://www.uro.ntpc.gov.tw/Uploads/Announce/2024-08/5c03e4dc-cd34-4ae9-a7b9-61b3b12caa61.pdf',type:'官方都市更新資料'},
+      {label:'龍霖初心官方建案資料',url:'https://longlin.com.tw/Items/%E9%BE%8D%E9%9C%96%E5%88%9D%E5%BF%83/',type:'建商官方資料'},
+      {label:'龍霖初心使照與交屋資料',url:'https://newhouse.591.com.tw/127617',type:'建案公開資料'},
+    ],
+  },
+  {
+    id:'chiron-property',name:'麒源建設股份有限公司',aliases:['麒源建設股份有限公司','麒源建設'],reviewed:'2026-09-14',confidence:'高',
+    scores:{delivery:68,quality:82,governance:76,service:66,risk:78},
+    summary:'2019 年設立，實收資本額已增至約 1 億元；麒源·拓為目前明確住宅作品，並取得 WELL for Residential 中期認證，另由關係營造公司承接工程，可確認健康住宅規格與施工整合投入。',
+    caveat:'WELL 中期認證屬規劃與施工階段查核，並非完工後最終認證；公司仍以首案為主，尚缺跨案交付與長期售後資料。總分 74 分，列 B 級下段。',
+    sources:[
+      {label:'經濟部商工登記（麒源建設）',url:'https://findbiz.nat.gov.tw/fts/company/85044296',type:'官方公司登記'},
+      {label:'麒源建設官方網站與麒源·拓',url:'https://chironproperty.com.tw/',type:'建商官方資料'},
+      {label:'麒源建設 WELL 住宅中期認證說明',url:'https://chironproperty.com.tw/news?type=1',type:'建商官方資料'},
+    ],
+  },
+  {
+    id:'wanxin-construction',name:'萬薪建設股份有限公司',aliases:['萬薪建設股份有限公司','萬薪建設'],reviewed:'2026-09-14',confidence:'中高',
+    scores:{delivery:68,quality:74,governance:68,service:66,risk:74},
+    summary:'2019 年設立、實收資本額 2,800 萬元；官方網站可核對伊邸施工進度，並揭露從土地、建經控管、營造到後續維繫的分工流程，預售成交及建照資料亦能確認投資興建身分。',
+    caveat:'目前可驗證住宅作品集中於伊邸且尚未完工，公司所述品質與售後流程尚缺交屋後成果；總分 70 分，暫列 C。',
+    sources:[
+      {label:'萬薪建設公司登記彙整（統編 85129668）',url:'https://info.technews.tw/company/85129668-%E8%90%AC%E8%96%AA%E5%BB%BA%E8%A8%AD%E8%82%A1%E4%BB%BD%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8',type:'公司登記彙整'},
+      {label:'萬薪建設官方團隊與流程',url:'https://www.wanhome.com.tw/article.php?lang=tw&ot=all&tb=2',type:'建商官方資料'},
+      {label:'伊邸官方施工進度',url:'https://www.wanhome.com.tw/article.php?lang=tw&tb=5',type:'建商官方資料'},
+    ],
+  },
+  {
+    id:'zhuyuan-construction',name:'築苑建設股份有限公司',aliases:['築苑建設股份有限公司','築苑建設'],reviewed:'2026-09-14',confidence:'中',
+    scores:{delivery:70,quality:72,governance:70,service:60,risk:74},
+    summary:'2010 年設立、實收資本額 3,000 萬元，住宅與都市更新等登記正常；勝輝馥敦可由建照、預售資料及建築師作品頁確認築苑為業主。',
+    caveat:'公司存續逾 15 年，但目前公開可核對的跨案交付、品質制度與售後成果有限；總分 69 分，暫列 C。',
+    sources:[
+      {label:'經濟部商工登記（築苑建設）',url:'https://findbiz.nat.gov.tw/fts/company/53193505',type:'官方公司登記'},
+      {label:'勝輝馥敦建築設計作品資料',url:'https://www.lin-arch.com.tw/portfolio/kIWBsi0cePf9',type:'建築師作品資料'},
     ],
   },
 ].map(profile=>{
