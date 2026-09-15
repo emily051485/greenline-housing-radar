@@ -2279,6 +2279,92 @@ export const developerResearch=[
       {label:'新北市預售屋備查清冊',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?n=MTEw5bm06IezMTE05bm05bey5YKZ5p%2Bl5bu65qGI5riF5YaKLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMzk5L3JlbGZpbGUvODk5My85NDY5L2NkZTQ4OTJkLTQzMzAtNDY3Zi1hYmExLTI3YzJiYjI0MjYxNi5wZGY%3D',type:'政府資料'},
     ],
   },
+  {
+    id:'kunda-land',name:'堃達土地開發',aliases:['堃達土地開發'],reviewed:'2026-09-14',confidence:'高',
+    scores:{delivery:83,quality:82,governance:76,service:74,risk:76},
+    summary:'2007 年設立、實收資本額 5 億元；官方契約可核對「築。滿滿」賣方，並由璞園官方頁面確認堃達主導開發、璞園團隊管理及新東陽營造。',
+    caveat:'資本與合作團隊具一定基礎，但非上市櫃公司，公開治理、長期售後與大量交屋品質證據仍少於 A 級門檻，暫列 B。',
+    sources:[
+      {label:'經濟部公司登記',url:'https://findbiz.nat.gov.tw/fts/company/28485758',type:'官方公司資料'},
+      {label:'築。滿滿官方預售契約',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?icon=..pdf&n=56%2BJ44CC5ru%2F5ru%2FLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMS9yZWxmaWxlLzk2NzkvNjgwNTQ2LzJlMzc1ZDgxLTVlNmEtNGMxMC04NjI3LTRhNGU1YTJjMjg4ZC5wZGY%3D',type:'官方交易資料'},
+      {label:'璞園築。滿滿專案頁',url:'https://pyct.com.tw/project/jhu-man-man/',type:'合作團隊官網'},
+    ],
+  },
+  {
+    id:'jiayue',name:'家悅建設',aliases:['家悅建設','家悦建設'],reviewed:'2026-09-14',confidence:'高',
+    scores:{delivery:76,quality:77,governance:68,service:72,risk:72},
+    summary:'2014 年設立；官方預售契約及新北市備查清冊可確認家悅參與「家泰家悦」、「璽來登日朗」，目前另有「家悦美」銷售紀錄。',
+    caveat:'已有跨案履歷，但公司規模及公開治理、售後制度資料有限；「璽來登日朗」為家悅、家偉、家聖共同賣方，評等不應解讀成單一公司獨立完成全部工程。',
+    sources:[
+      {label:'經濟部公司變更登記清冊',url:'https://serv.gcis.nat.gov.tw/pub/cmpy/reportAction.do?fileName=11008NTC.pdf&method=report&reportClass=cmpy&subPath=11008',type:'官方公司資料'},
+      {label:'璽來登日朗官方預售契約',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?icon=..pdf&n=55K95L6G55m75pel5pyXLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMS9yZWxmaWxlLzk2NzkvNjQwNTM0LzMzM2I1NTUyLTA5ZWEtNGMwMC1hMzhkLTNiNjg4YjIyZWViMi5wZGY%3D',type:'官方交易資料'},
+      {label:'新北市已備查建案清冊',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?n=MTEw5bm06IezMTE05bm05bey5YKZ5p%2Bl5bu65qGI5riF5YaKLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMzk5L3JlbGZpbGUvODk5My85NDY5L2NkZTQ4OTJkLTQzMzAtNDY3Zi1hYmExLTI3YzJiYjI0MjYxNi5wZGY%3D',type:'官方交易資料'},
+    ],
+  },
+  {
+    id:'huanju',name:'桓鉅建設',aliases:['桓鉅建設'],reviewed:'2026-09-14',confidence:'高',
+    scores:{delivery:86,quality:88,governance:76,service:79,risk:78},
+    summary:'2006 年設立、實收資本額 3 億元；官網列有琢白、天母桓琚、吾彊、慕夏四季等高端住宅實績，臺北市官方清冊亦確認天母桓琚。',
+    caveat:'產品與交屋履歷優於一般中小型建商，但非上市櫃公司，治理與售後成效的公開可驗證程度仍不足以列 S。',
+    sources:[
+      {label:'經濟部公司登記',url:'https://findbiz.nat.gov.tw/fts/company/27998560',type:'官方公司資料'},
+      {label:'桓邦桓鉅官方實績',url:'https://great-goal.com.tw/',type:'建商官網'},
+      {label:'臺北市預售建案備查清冊',url:'https://www-ws.gov.taipei/001/Upload/305/relfile/11498/7146725/c2320ac5-3263-4ec8-b3b1-83fbc906261c.pdf',type:'官方交易資料'},
+    ],
+  },
+  {
+    id:'rongzhou',name:'榮洲建設',aliases:['榮洲建設'],reviewed:'2026-09-14',confidence:'中',
+    scores:{delivery:72,quality:74,governance:68,service:68,risk:72},
+    summary:'2019 年設立、實收資本額 1.05 億元；官方公司登記與臺北市預售備查資料可確認公司及「天畝」案。',
+    caveat:'成立時間與可核對完工履歷仍短，尚缺足量交屋品質、售後與治理資料，依目前證據暫列 C 級上緣。',
+    sources:[
+      {label:'經濟部公司登記',url:'https://findbiz.nat.gov.tw/fts/company/85017544',type:'官方公司資料'},
+      {label:'政府預售屋備查資料集',url:'https://data.gov.tw/dataset/176351',type:'官方交易資料'},
+    ],
+  },
+  {
+    id:'hejiang',name:'合矩建設開發',aliases:['合矩建設開發'],reviewed:'2026-09-14',confidence:'中高',
+    scores:{delivery:80,quality:80,governance:74,service:73,risk:76},
+    summary:'2010 年設立，實收資本額由 3,000 萬逐步增至 2.6 億元；官方登記與預售備查資料可核對「合矩青澄」。',
+    caveat:'具十年以上存續與資本擴充紀錄，但公開的跨案交屋品質、售後流程及公司治理資訊仍有限，暫列 B。',
+    sources:[
+      {label:'經濟部公司登記',url:'https://findbiz.nat.gov.tw/fts/company/53117710',type:'官方公司資料'},
+      {label:'政府預售屋備查資料集',url:'https://data.gov.tw/dataset/176351',type:'官方交易資料'},
+    ],
+  },
+  {
+    id:'hongshi',name:'紘石建設',aliases:['紘石建設'],reviewed:'2026-09-14',confidence:'中高',
+    scores:{delivery:80,quality:84,governance:69,service:73,risk:74},
+    summary:'2009 年設立；官網與專案頁列出天母仰格及冠維建設機構過往實績，天母仰格採 SC 鋼骨與制震規劃。',
+    caveat:'產品規格與團隊履歷有亮點，但公司實收資本額 3,500 萬，公開治理及長期售後成效資料有限，暫列 B。',
+    sources:[
+      {label:'經濟部公司登記',url:'https://findbiz.nat.gov.tw/fts/company/24454776',type:'官方公司資料'},
+      {label:'紘石建設官網',url:'https://www.hong-shi.com.tw/',type:'建商官網'},
+      {label:'天母仰格專案頁',url:'https://the-legacy-river.hrd.digital/',type:'建案官網'},
+    ],
+  },
+  {
+    id:'meishanlin',name:'美山林建設',aliases:['美山林建設'],reviewed:'2026-09-14',confidence:'中',
+    scores:{delivery:73,quality:77,governance:66,service:68,risk:70},
+    summary:'2016 年設立，資本額 1,500 萬元；官方公司登記與預售備查資料可確認公司及「中山北美」案。',
+    caveat:'現有公開資料以公司登記與單一在售案為主，完工交屋、售後服務及治理資訊不足，依目前證據採保守 C 級。',
+    sources:[
+      {label:'經濟部公司登記',url:'https://findbiz.nat.gov.tw/fts/company/55890034',type:'官方公司資料'},
+      {label:'政府預售屋備查資料集',url:'https://data.gov.tw/dataset/176351',type:'官方交易資料'},
+    ],
+  },
+  {
+    id:'pacific-construction',name:'太平洋建設',aliases:['太平洋建設'],reviewed:'2026-09-14',confidence:'高',
+    scores:{delivery:88,quality:84,governance:87,service:84,risk:72},
+    summary:'1967 年設立、實收資本額 38.7 億元的上市建商，官網公開財報、治理、風險管理、永續資訊與工程實績，並設專職售後部門及客服管道。',
+    caveat:'企業規模、履歷與揭露完整度高，但歷史財務及經營波動使風險分數採較保守設定，綜合列 A 而非 S。',
+    sources:[
+      {label:'經濟部公司登記',url:'https://findbiz.nat.gov.tw/fts/company/11099009',type:'官方公司資料'},
+      {label:'太平洋建設投資人專區',url:'https://www.pacific-group.com.tw/investor/',type:'建商官網'},
+      {label:'太平洋建設公司沿革',url:'https://www.pacific-group.com.tw/about/',type:'建商官網'},
+      {label:'利害關係人與售後服務揭露',url:'https://www.pacific-group.com.tw/wp-content/uploads/2024/12/113%E5%B9%B4%E8%88%87%E5%88%A9%E5%AE%B3%E9%97%9C%E4%BF%82%E4%BA%BA%E6%BA%9D%E9%80%9A%E7%AE%A1%E9%81%931131119.pdf',type:'公司治理資料'},
+    ],
+  },
 ].map(profile=>{
   const score=profile.scores?weightedScore(profile.scores):null;
   return {...profile,score,rating:profile.rating||ratingFromScore(score)};

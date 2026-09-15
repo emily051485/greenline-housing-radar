@@ -41,12 +41,18 @@ const verifiedTextCorrections=new Map(Object.entries({
   '久年??':'久年橒画','偉鉅中山?匯':'偉鉅中山双匯','寶亞世界公?':'寶亞世界公舘',
   '寶亞新公?':'寶亞新公舘','幸福?':'幸福の駅','晴山?V期四季莊園':'晴山滙V四季莊園',
   '晴山?III期-香緹花園':'晴山滙III期-香緹花園','森原樹?樹之丘':'森原樹．樹之丘',
+  '?達土地開發股份有限公司':'堃達土地開發股份有限公司',
+  '備查起造人：?達土地開發股份有限公司':'備查起造人：堃達土地開發股份有限公司',
   '?正利建設股份有限公司':'双正利建設股份有限公司',
   '備查起造人：?正利建設股份有限公司':'備查起造人：双正利建設股份有限公司',
   '台北市北投區公?路255巷1弄11號1樓':'台北市北投區公館路255巷1弄11號1樓',
   '台北市北投區公?路326巷11號2樓共8筆':'台北市北投區公館路326巷11號2樓共8筆',
   '台北市萬華區糖?里大理街135號 共4筆':'台北市萬華區糖廍里大理街135號 共4筆',
 }));
+const verifiedProjectBuilderCorrections=new Map([
+  ['家?美','備查起造人：家悅建設股份有限公司'],
+  ['璽來登日朗','備查起造人：家悅建設股份有限公司／家偉開發事業股份有限公司／家聖建設開發股份有限公司'],
+]);
 const repairRegistryText=value=>{
   if(typeof value!=='string'||!/[?？]/.test(value))return value;
   const verified=verifiedTextCorrections.get(value);
@@ -57,6 +63,7 @@ const repairRegistryText=value=>{
 const visibleTextFields=['name','builder','district','station','address','status','completion','type','size','price','source','locationAccuracy'];
 export const matureProjects=rawMatureProjects.map(project=>{
   const repaired={...project,id:String(project.id).replace(/[?？]+/g,'missing')};
+  repaired.builder=verifiedProjectBuilderCorrections.get(project.name)||repaired.builder;
   for(const field of visibleTextFields)repaired[field]=repairRegistryText(repaired[field]);
   const research=findDeveloperResearch(repaired.builder);
   if(research){
