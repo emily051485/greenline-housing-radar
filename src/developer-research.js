@@ -3335,6 +3335,54 @@ export const developerResearch=[
       {label:'中山隱產品與銷售資料',url:'https://www.leju.com.tw/community/Lc8f156891747da',type:'建案公開資料'},
     ],
   },
+  {
+    id:'shangpan',name:'上磐建設',aliases:['上磐建設'],reviewed:'2026-09-14',confidence:'中',
+    scores:{delivery:58,quality:69,governance:67,service:65,risk:72},
+    summary:'2023 年設立、資本額 3,500 萬元且登記正常；上磐新亞已有 115 店建字第 00051 號建照、預售備查、實價登錄及可核對的基地官方網站。',
+    caveat:'目前可以確認公司與單一預售案，但尚無足夠完工交付、住戶使用、售後保固或跨案治理紀錄；C 級代表證據尚在累積，不等同已證實工程品質不良。',
+    sources:[
+      {label:'上磐建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/94039318',type:'經濟部商工資料'},
+      {label:'上磐新亞官方網站',url:'https://shangpannewasia.com/',type:'建案官方資料'},
+      {label:'上磐新亞預售備查與實價資料',url:'https://data.gov.tw/dataset/176351',type:'內政部開放資料'},
+      {label:'上磐建設公司自述資料',url:'https://www.104.com.tw/company/1a2x6bntks',type:'公司自述資料'},
+    ],
+  },
+  {
+    id:'daliang',name:'大亮建築',aliases:['大亮建築'],reviewed:'2026-09-14',confidence:'中高',
+    scores:{delivery:81,quality:80,governance:74,service:82,risk:74},
+    summary:'2018 年設立、資本額 3,000 萬元；官方網站列有大亮攸煦、大亮波波、大亮泊、大亮時代等多案，並公開客變、驗屋、交屋後設備與到府會勘等專責售後服務。',
+    caveat:'跨案作品與售後制度使其達 B 級高段；但法人年資與財務治理揭露仍有限，且 2025 年桃園預售契約查核有一項共有部分記載不合格，風險分因此下修，尚不足 A。',
+    sources:[
+      {label:'大亮建築公司登記',url:'https://findbiz.nat.gov.tw/fts/company/50893602',type:'經濟部商工資料'},
+      {label:'大亮建築官方作品與售後服務',url:'https://www.daliang.tw/',type:'公司官方資料'},
+      {label:'大亮攸煦官方預售契約',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?icon=..pdf&n=5aSn5Lqu5pS454WmWU9TSEkucGRm&u=LzAwMS9VcGxvYWQvMS9yZWxmaWxlLzk2NzkvNzM5NDIwLzc2MWNjYjJhLWFmNWItNDE2ZS04M2ZlLWQ3NTVjZmM5MTJhYy5wZGY%3D',type:'新北市政府資料'},
+      {label:'桃園市預售契約查核結果',url:'https://ws.tycg.gov.tw/Download.ashx?icon=.pdf&n=MTE05bm0N%2BaciOiHszEy5pyI6aCQ5ZSu5bGL5a6a5Z6L5YyW5aWR57SE6YGV6KaP5oOF5b2i5p%2Bl5qC457WQ5p6c5b2Z5pW06KGoLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvNjIvcmVsZmlsZS8xODkxNS8xNjAxMDE1LzgxMzdhOGU2LTg3OGYtNDNiNC04YWY4LTEwMjVmYzllMzZlMy5wZGY%3D',type:'桃園市政府資料'},
+    ],
+  },
+  {
+    id:'big-sun',name:'大賞建設',aliases:['大賞建設'],reviewed:'2026-09-14',confidence:'中高',
+    scores:{delivery:82,quality:80,governance:76,service:77,risk:79},
+    summary:'1997 年設立、實收資本額 3,500 萬元且長期維持；官方網站可核對詠大賞等作品，綻賞則已有建照、官方預售契約、開發信託與實價登錄，另持續擔任都市更新實施者。',
+    caveat:'法人年資與跨案交付支持 B 級高段，但公開財務治理、工程品質量化及售後服務成果不足；現有合建訴訟僅列風險觀察，不能在未確認責任前直接判為重大負面。',
+    sources:[
+      {label:'大賞建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/16138059',type:'經濟部商工資料'},
+      {label:'大賞建設官方作品',url:'https://www.big-sun.com.tw/project_inner.php?Tb_index=case2024070511221747',type:'公司官方資料'},
+      {label:'綻賞官方預售契約',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?icon=..pdf&n=57a76LOeLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMS9yZWxmaWxlLzk2NzkvNzM4Njc2LzUyYzg1OTM5LTlmMDUtNDAxNy1iODlkLTk4ZDE0NDkwYTNlMS5wZGY%3D',type:'新北市政府資料'},
+      {label:'大賞建設都市更新公聽會',url:'https://uro.gov.taipei/News_Content.aspx?n=1E1F7BC7180BF44C&s=DA53BB4DBEC5D53E&sms=BCF7679E94E7EECC',type:'臺北市政府資料'},
+    ],
+  },
+  {
+    id:'dajin',name:'大覲建設',aliases:['大覲建設'],reviewed:'2026-09-14',confidence:'中高',
+    scores:{delivery:80,quality:81,governance:74,service:75,risk:78},
+    summary:'2009 年設立、實收資本額 4,000 萬元且登記正常；官方個案資料列有永康 81、THE ONE、原風景與巨流河等作品，八德 137 已取得建照並於 2025 年完工，且有預售成交紀錄。',
+    caveat:'跨案作品與八德 137 完工支持 B 級高段；但多數品質敘述來自建案官方自述，財務治理、售後制度與住戶長期使用證據仍有限，故未達 A。',
+    sources:[
+      {label:'大覲建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/24330109',type:'經濟部商工資料'},
+      {label:'八德 137 官方網站與團隊作品',url:'https://137.8sms.tw/',type:'建案官方資料'},
+      {label:'八德 137 建照與施工資料',url:'https://www.arch.org.tw/Content/Files/News/1d867062b88445f6a4f52b87604accd1.pdf',type:'臺北市建築管理資料'},
+      {label:'八德 137 完工與產品資料',url:'https://www.plex.com.tw/projects/view/id/2107',type:'建案公開資料'},
+    ],
+  },
 ].map(profile=>{
   const score=profile.scores?weightedScore(profile.scores):null;
   return {...profile,score,rating:profile.rating||ratingFromScore(score)};
