@@ -3432,6 +3432,54 @@ export const developerResearch=[
       {label:'三輝敦画施工監測資料',url:'https://www-ws.gov.taipei/001/Upload/845/relfile/-1/845/2a1b5b50-13e7-4378-bcb2-03888bf5c462.pdf',type:'臺北市建築管理資料'},
     ],
   },
+  {
+    id:'zhongguang',name:'中光建設',aliases:['中光建設'],reviewed:'2026-09-14',confidence:'中',
+    scores:{delivery:70,quality:75,governance:66,service:67,risk:72},
+    summary:'2020 年設立、實收資本額 500 萬元且登記正常；中光極已有 111 林建字第 00310 號建照、114 林使字第 00322 號使用執照、實價登錄，並提供十年防水保固與明確材料規格。',
+    caveat:'單一四戶案已完工且產品規格可核對，但公司年資、資本、跨案交付、售後制度與治理資料仍有限；設計獎與建材宣稱僅作輔助，故暫列 C 級高段。',
+    sources:[
+      {label:'中光建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/83123295',type:'經濟部商工資料'},
+      {label:'中光極建照、使照與產品資料',url:'https://newhouse.591.com.tw/134541/detail',type:'建案公開資料'},
+      {label:'中光極預售備查與實價資料',url:'https://data.gov.tw/dataset/176351',type:'內政部開放資料'},
+    ],
+  },
+  {
+    id:'zhongxing',name:'中星建設',aliases:['中星建設'],reviewed:'2026-09-14',confidence:'中高',
+    scores:{delivery:80,quality:77,governance:75,service:72,risk:78},
+    summary:'1992 年設立、實收資本額 8,000 萬元且登記正常；政府工程紀錄可核對較早的 100 建字第 0222 號案，中星仁愛旭則有 110 建字第 0299 號建照、預售實登並於 2025 年完工。',
+    caveat:'法人年資與跨期交付支持 B 級，但官方網站內容以單案介紹為主，售後制度、工程品質量化及財務治理揭露有限，不能僅以成立年資推升至 A。',
+    sources:[
+      {label:'中星建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/86513319',type:'經濟部商工資料'},
+      {label:'中星仁愛旭官方網站',url:'https://zhongxingjianshe.wixsite.com/my-site-1/%E5%89%AF%E6%9C%AC-%E5%BB%BA%E6%A1%88%E4%BB%8B%E7%B4%B9',type:'公司官方資料'},
+      {label:'中星建設工程紀錄彙整',url:'https://thaubing.gcaa.org.tw/corp/86513319',type:'政府工程資料彙整'},
+      {label:'中星仁愛旭完工與交易資料',url:'https://www.plex.com.tw/projects/transactions/id/1468/address/%E7%B4%B9%E8%88%88%E5%8D%97%E8%A1%9722%E8%99%9F7%E6%A8%93',type:'實價與建案公開資料'},
+    ],
+  },
+  {
+    id:'bossgroup',name:'東家機構／允鵬建設',aliases:['東家建設','允鵬建設'],reviewed:'2026-09-14',confidence:'高',
+    scores:{delivery:85,quality:83,governance:82,service:84,risk:82},
+    summary:'允鵬建設 1986 年設立，東家機構官網明列東家、允鵬、助友營造與都更規劃等關係企業，並公開作品、建築工法與售後服務；市府資料可核對其公開評選都更案及後續使用執照。',
+    caveat:'長期交付、垂直整合、政府都更履約與售後制度足以列 A；但各專案法人仍須分開辨識，且完整公開財報、全案品質與客訴處理統計不及 S 級要求，因此不沿用集團知名度評 S。',
+    sources:[
+      {label:'允鵬建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/22002235',type:'經濟部商工資料'},
+      {label:'東家機構關係企業、作品與售後服務',url:'https://www.bossgroup.com.tw/',type:'公司官方資料'},
+      {label:'允鵬建設市有基地公開評選資料',url:'https://tct.gov.taipei/News_Content.aspx?n=B4C9AF5D5D4BF947&s=4BE4B4DD7A1B7DC7&sms=72544237BBE4C5F6',type:'臺北市政府資料'},
+      {label:'允鵬建設都更案完工清冊',url:'https://www-ws.gov.taipei/001/Upload/459/relfile/22615/3491578/e42501f5-5beb-4c1d-8fda-ad0e9ce41bef.pdf',type:'臺北市政府資料'},
+      {label:'青澤官方預售契約',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?icon=..pdf&n=6Z2S5r6kLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMS9yZWxmaWxlLzk2NzkvNjM3NDE5L2I3OGIyYTI4LTg4NWUtNGEyMy1iZGJlLTFiMzE2OTkwNzI3NS5wZGY%3D',type:'新北市政府資料'},
+    ],
+  },
+  {
+    id:'yuanfuxing',name:'元富興建設',aliases:['元富興建設'],reviewed:'2026-09-14',confidence:'中高',
+    scores:{delivery:74,quality:72,governance:68,service:66,risk:64},
+    summary:'2020 年設立、資本額 3,000 萬元且登記正常；國湛已有 110 重建字第 00164 號建照、預售備查，127 戶社區於 2025 年完工，營造與建築設計團隊可辨識。',
+    caveat:'大型首案已完工，但公司年資短、跨案交付與售後治理資料尚未累積；行政院消保查核曾記錄契約總價及履約擔保兩項不合格，風險與服務分下修，故列 C 級高段。',
+    sources:[
+      {label:'元富興建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/83123226',type:'經濟部商工資料'},
+      {label:'國湛完工社區與團隊資料',url:'https://buy.housefun.com.tw/buy/building/68089',type:'社區公開資料'},
+      {label:'新北市預售備查清冊',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?n=MTEw5bm06IezMTE05bm05bey5YKZ5p%2Bl5bu65qGI5riF5YaKLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMzk5L3JlbGZpbGUvODk5My85NDY5L2NkZTQ4OTJkLTQzMzAtNDY3Zi1hYmExLTI3YzJiYjI0MjYxNi5wZGY%3D',type:'新北市政府資料'},
+      {label:'國湛預售契約查核結果',url:'https://www.ey.gov.tw/File/61F9FF73D7834818?A=C',type:'行政院消保處資料'},
+    ],
+  },
 ].map(profile=>{
   const score=profile.scores?weightedScore(profile.scores):null;
   return {...profile,score,rating:profile.rating||ratingFromScore(score)};
