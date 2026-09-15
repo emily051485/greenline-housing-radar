@@ -3528,6 +3528,55 @@ export const developerResearch=[
       {label:'水立方廣告公平會處分',url:'https://www.ftc.gov.tw/uploadDecision/346feb37-16bc-4386-ab0f-d925943a7b9b.pdf',type:'公平交易委員會'},
     ],
   },
+  {
+    id:'santory',name:'三多立建設開發',aliases:['三多立建設開發','三多立建設'],reviewed:'2026-09-14',confidence:'中高',
+    scores:{delivery:83,quality:79,governance:72,service:76,risk:78},
+    summary:'1996 年設立、實收資本額 5,000 萬元；官方網站與預售備查可核對三多立愛、左岸瀾庭及蒔光等跨期作品，蒔光已有建照、32 筆實價紀錄並於 2025 年完工。',
+    caveat:'公司存續與多案交付支持 B 級，但私人公司財務治理、工程品質統計與售後績效揭露有限；合作建商或營造團隊的能力不直接計入三多立本身評分。',
+    sources:[
+      {label:'三多立建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/97052215',type:'經濟部商工登記'},
+      {label:'三多立建設官方網站',url:'https://santoryconstruction.com.tw/',type:'公司官方資料'},
+      {label:'蒔光官方預售契約',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?icon=..pdf&n=6JKU5YWJLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMS9yZWxmaWxlLzk2NzkvNzI5MzQ0L2Y0MmUxOWU1LTBkM2YtNGRlYi04ZDZlLTg1ZGUxYThlMTdhMC5wZGY%3D',type:'新北市政府資料'},
+      {label:'新北市預售屋備查清冊',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?n=MTEw5bm06IezMTE05bm05bey5YKZ5p%2Bl5bu65qGI5riF5YaKLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMzk5L3JlbGZpbGUvODk5My85NDY5L2NkZTQ4OTJkLTQzMzAtNDY3Zi1hYmExLTI3YzJiYjI0MjYxNi5wZGY%3D',type:'政府預售備查'},
+    ],
+  },
+  {
+    id:'sanchong-realty',name:'三重置業地產（國泰建設×三井不動產）',aliases:['三重置業地產'],reviewed:'2026-09-14',confidence:'高',
+    scores:{delivery:82,quality:88,governance:94,service:92,risk:88},
+    summary:'2021 年成立的專案公司，實收資本額 27.8 億元，由國泰建設與日本三井不動產合資；RiVER PARK 的官方契約、建照與都市設計審議資料完整，施工案並獲新北市工安獎佳作。',
+    caveat:'A 級主要來自兩個大型母集團的治理、資本與工程／售後體系，以及專案公開度；三重置業本身仍是單案法人，RiVER PARK 尚未形成跨案完工與長期住戶服務紀錄，因此不列 S。',
+    sources:[
+      {label:'三重置業地產公司登記',url:'https://findbiz.nat.gov.tw/fts/company/90646924',type:'經濟部商工登記'},
+      {label:'RiVER PARK 國泰建設專案頁',url:'https://www.cathay-red.com.tw/tw/Cases/Detail/24051213253643',type:'公司官方資料'},
+      {label:'RiVER PARK 官方預售契約',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?icon=..pdf&n=UmlWRVIgUEFSSy5wZGY%3D&u=LzAwMS9VcGxvYWQvMS9yZWxmaWxlLzk2NzkvNzI5MzQzLzk1NTk5ZjhkLTg2ZWQtNGRkOS1hNzhhLWI3NjZlZDg1MTM1ZC5wZGY%3D',type:'新北市政府資料'},
+      {label:'RiVER PARK 都市設計審議',url:'https://www.planning.ntpc.gov.tw/uploaddowndoc?dis=downloaddata&file=downloaddata%2F202502030936290.pdf&filedisplay=0113%E4%B8%8A%E5%8D%88-%28%E4%B8%80%29%E6%99%B4%E5%90%88%E4%B8%89%E9%87%8D%E5%AF%8C%E8%B2%B4%E6%AE%B576%28%E4%BA%8C%29%E4%B8%89%E9%87%8D%E7%BD%AE%E6%A5%AD%E4%B8%89%E9%87%8D%E4%B8%89%E9%87%8D%E6%AE%B5174%281%E8%AE%8A%29.pdf&flag=doc',type:'新北市政府資料'},
+      {label:'新北市工安獎得獎紀錄',url:'https://www.ntpc.gov.tw/ch/home.jsp?dataserno=9f102fd7ef105b6010c4b43b5e2c98da&id=cc26771b712271d6',type:'新北市政府資料'},
+    ],
+  },
+  {
+    id:'sanju',name:'三琚建設',aliases:['三琚建設'],reviewed:'2026-09-14',confidence:'中高',
+    scores:{delivery:72,quality:72,governance:64,service:66,risk:71},
+    summary:'2020 年成立；蒔光．墅具 111 八建字第 00029 號建照、官方預售契約與價金信託資料，17 戶透天案已於 2024 年完工並形成實價交易紀錄。',
+    caveat:'目前可驗證成果集中於單一 17 戶專案，公司年資、跨案交付、售後制度及財務治理資料都有限；完成首案可解除未知狀態，但證據尚不足以升至 B。',
+    sources:[
+      {label:'三琚建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/83637273',type:'經濟部商工登記'},
+      {label:'蒔光．墅官方預售契約',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?icon=..pdf&n=6JKU5YWJ77yO5aKFLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMS9yZWxmaWxlLzk2NzkvNjM4NzgzL2Q2MjVjZDE5LThmNDItNGVmMy1hMjI2LTdhZWExZDc4NDEwZS5wZGY%3D',type:'新北市政府資料'},
+      {label:'蒔光．墅價金信託公告',url:'https://www.sunnybank.com.tw/net/Prg/BoardNewsView/1501',type:'受託銀行公告'},
+      {label:'蒔光墅完工與交易紀錄',url:'https://www.leju.com.tw/community/L8081322102eb71',type:'成屋與實價資料'},
+    ],
+  },
+  {
+    id:'shanghexing',name:'上閤興建設投資',aliases:['上閤興建設投資','上閤興建設'],reviewed:'2026-09-14',confidence:'中高',
+    scores:{delivery:70,quality:75,governance:68,service:68,risk:72},
+    summary:'2020 年成立、資本額 8,000 萬元；已可核對雙全星的建照與預售資訊，以及與上市公司新纖子公司啟騰建設合作的府中興案，具兩案持續開發紀錄。',
+    caveat:'雙全星及府中興仍不足以形成長期交屋、住戶售後與跨景氣履約樣本；府中興合作案也不能把地主或上市公司治理能力全數歸給上閤興，故暫列 C 級高段。',
+    sources:[
+      {label:'上閤興建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/83584254',type:'經濟部商工登記'},
+      {label:'雙全星建照與預售資料',url:'https://dualtaipei.datazen.info/taipei/project/%E9%9B%99%E5%85%A8%E6%98%9F',type:'臺北市公開資料彙整'},
+      {label:'府中興合建重大訊息',url:'https://news.cnyes.com/news/id/6057069',type:'上市公司公開資訊'},
+      {label:'府中興建案資料',url:'https://tp.housetube.tw/56202',type:'建案公開資料'},
+    ],
+  },
 ].map(profile=>{
   const score=profile.scores?weightedScore(profile.scores):null;
   return {...profile,score,rating:profile.rating||ratingFromScore(score)};
