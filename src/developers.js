@@ -1,7 +1,8 @@
 import { matureProjects } from './mature-data.js';
 
 const ratingRank={S:4,A:3,B:2,C:1,NR:0};
-const ratingBase={S:94,A:84,B:72,C:58,NR:40};
+const ratingBase={S:95,A:85,B:75,C:65,NR:45};
+const ratingBands={S:[90,99],A:[80,89],B:[70,79],C:[60,69],NR:[40,59]};
 const escapeHtml=value=>String(value??'').replace(/[&<>'"]/g,char=>({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[char]));
 const clamp=value=>Math.max(0,Math.min(100,Math.round(value)));
 const companyName=value=>String(value||'').replace(/^備查起造人[：:]\s*/,'').trim();
@@ -27,7 +28,9 @@ function buildProfiles(){
     const volume=clamp(32+Math.log2(count+1)*19);
     const mature=clamp(profile.projects.filter(maturity).length/count*100);
     const location=clamp(profile.projects.reduce((sum,item)=>sum+locationScore(item),0)/count);
-    const score=clamp(ratingBase[profile.rating]*.4+transparency*.2+volume*.15+mature*.1+location*.15);
+    const evidence=transparency*.35+volume*.25+mature*.15+location*.25;
+    const [minimum,maximum]=ratingBands[profile.rating];
+    const score=minimum+Math.round(evidence/100*(maximum-minimum));
     return {...profile,count,transparency,volume,mature,location,score};
   });
 }
