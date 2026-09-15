@@ -5450,6 +5450,59 @@ export const developerResearch=[
       {label:'土地信託相關民事判決',url:'https://data.judicial.gov.tw/opendl/JDocFile/TPDV/110%2C%E7%B0%A1%E4%B8%8A%2C141%2C20240207%2C1.pdf',type:'司法公開資料'},
     ],
   },
+  {
+    id:'fongyi-construction',name:'豐邑建設',aliases:['豐邑建設股份有限公司','豐邑建設','豐邑機構'],reviewed:'2026-09-14',confidence:'高',
+    scores:{delivery:88,quality:58,governance:74,service:66,risk:42},
+    summary:'公司具二十年以上大量推案與 19 億元實收資本額，官方作品橫跨住宅、商辦及多縣市，豐邑港麗亦列入正式作品清單。',
+    caveat:'監察院調查指出晴空匯火災涉及電力短路及多項防火避難設施失效，另有工地水污染裁罰；大量履約不能抵銷重大品質與風險事件，總分 69 分，列 C 級。',
+    sources:[
+      {label:'經濟部商工登記（豐邑建設）',url:'https://findbiz.nat.gov.tw/fts/company/89369020',type:'政府公司資料'},
+      {label:'豐邑建設歷年作品',url:'https://construct.fong-yi.com.tw/performance',type:'公司官方資料'},
+      {label:'監察院晴空匯火災調查',url:'https://www.cy.gov.tw/News_Content.aspx?n=640&s=35049',type:'監察院調查'},
+      {label:'豐邑環境裁罰彙整',url:'https://thaubing.gcaa.org.tw/corp/89369020',type:'政府裁罰資料彙整'},
+    ],
+  },
+  {
+    id:'bingzhen-development',name:'秉蓁建設開發',aliases:['秉蓁建設開發有限公司','秉蓁建設開發'],reviewed:'2026-09-14',confidence:'中',
+    scores:{delivery:66,quality:68,governance:64,service:58,risk:70},
+    summary:'馥桂園已完工且可核對建照、14 戶規模、營造與建築師資料，確認秉蓁為實際投資興建者。',
+    caveat:'目前公開資料集中於單一小型成屋案，缺乏公司級財務、跨案品質、保固與售後成果；總分 65 分，列 C 級。',
+    sources:[
+      {label:'馥桂園建案與完工資料',url:'https://newhouse.591.com.tw/134719',type:'建案公開資料'},
+      {label:'內政部預售屋建案查詢',url:'https://lvr.land.moi.gov.tw/',type:'政府預售資料'},
+    ],
+  },
+  {
+    id:'hehan-construction',name:'合漢建設',aliases:['合漢建設股份有限公司','合漢建設'],reviewed:'2026-09-14',confidence:'中',
+    scores:{delivery:64,quality:68,governance:64,service:58,risk:70},
+    summary:'山之花墅 B 區可由新北市建照與預售資料確認合漢建設為起造及投資興建公司，另有山之花墅二期推案紀錄。',
+    caveat:'可核對作品仍少，未找到制度化品管、完工後售服或連續財務揭露；總分 64 分，列 C 級。',
+    sources:[
+      {label:'合漢建設推案紀錄',url:'https://build.myhousing.com.tw/company/481582/',type:'建案公開資料'},
+      {label:'內政部預售屋建案查詢',url:'https://lvr.land.moi.gov.tw/',type:'政府預售資料'},
+    ],
+  },
+  {
+    id:'lehua-construction',name:'樂樺建設',aliases:['樂樺建設股份有限公司','樂樺建設'],reviewed:'2026-09-14',confidence:'中高',
+    scores:{delivery:76,quality:86,governance:76,service:74,risk:80},
+    summary:'元利樂樺由樂樺與元利共同開發並已完工；樂樺官方揭露四級營建品管、專責查驗小組及防水、機電、消防性能檢測流程。',
+    caveat:'專業團隊與元利合作提供品質支撐，但樂樺仍是獨立且年輕的公司，自身跨案交屋及長期售後樣本有限；總分 79 分，列 B 級。',
+    sources:[
+      {label:'樂樺建設官方品管與作品',url:'https://www.lehua.com.tw/',type:'公司官方資料'},
+      {label:'元利與樂樺合作說明',url:'https://www.lehua.com.tw/news/article/dMLzKv7ijh2uTc3R',type:'公司官方資料'},
+      {label:'元利樂樺完工資料',url:'https://www.plex.com.tw/projects/view/id/1670',type:'建案公開資料'},
+    ],
+  },
+  {
+    id:'fengxun-construction',name:'鋒勳建設（鋒霖機構）',aliases:['鋒勳建設股份有限公司','鋒勳建設'],reviewed:'2026-09-14',confidence:'中',
+    scores:{delivery:74,quality:78,governance:70,service:64,risk:74},
+    summary:'公園漾預售契約明列鋒勳為賣方，鋒霖機構官方頁持續公開基地、建照變更、動土及鄰房安全樁等施工紀錄。',
+    caveat:'能確認與鋒霖機構共用官方作品平台，但公司自身跨案、量化售後與財務治理資訊仍有限；總分 72 分，列 B 級門檻。',
+    sources:[
+      {label:'鋒霖機構公園漾工程紀錄',url:'https://www.fenglin.com.tw/product_cg327404.html',type:'集團官方資料'},
+      {label:'公園漾官方預售契約',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?icon=..pdf&n=5YWs5ZyS5ry%2BLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMS9yZWxmaWxlLzk2NzkvNjM5OTE3LzVkMzUxMGZkLTA0NmMtNGJkYi1hMWNlLWIyZTcwZTUxNDYwZS5wZGY%3D',type:'政府預售契約'},
+    ],
+  },
 ].map(profile=>{
   const score=profile.scores?weightedScore(profile.scores):null;
   return {...profile,score,rating:profile.rating||ratingFromScore(score)};
