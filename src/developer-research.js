@@ -599,6 +599,67 @@ export const developerResearch=[
       {label:'環境裁處公開彙整',url:'https://thaubing.gcaa.org.tw/corp/27627527',type:'政府資料彙整'},
     ],
   },
+  {
+    id:'hengho',name:'恆合建設',aliases:['恆合建設'],reviewed:'2026-09-14',confidence:'中低',
+    scores:{delivery:76,quality:67,governance:59,service:64,risk:58},
+    summary:'公司登記、北市都更核定及預售備查可確認長期開發與實施者角色，並有多個可追溯案件。',
+    caveat:'未取得穩定可讀的公司級品管、售後與財務報告；不採未經官方確認的媒體指控計分，現階段列 C。',
+    sources:[
+      {label:'公司登記資料',url:'https://findbiz.nat.gov.tw/fts/company/27729361',type:'政府資料'},
+      {label:'北市都更核定公告',url:'https://uro.gov.taipei/News_Content.aspx?n=84B16ECE22E9FD00&s=A46636EDABD11397&sms=CC49E1BF66CBBEB8',type:'政府資料'},
+      {label:'北市預售備查',url:'https://land.gov.taipei/News.aspx?n=8A62273E3E42E818&sms=C26A9E324E37B468',type:'政府資料'},
+    ],
+  },
+  {
+    id:'shuohua',name:'碩樺建設',aliases:['碩樺建設'],reviewed:'2026-09-14',confidence:'低',
+    scores:{delivery:68,quality:64,governance:55,service:61,risk:60},
+    summary:'臺北市政府公開文件可確認公司參與住宅開發，資料庫亦有多筆起造紀錄，責任主體可識別。',
+    caveat:'未找到公司官網、完整作品、工程制度、財務治理與售後績效資料，僅能保守列 C。',
+    sources:[{label:'北市公開案件文件',url:'https://www-ws.gov.taipei/001/Upload/459/relfile/22615/3491578/165400b8-32a5-446e-9e23-160eac4b64fc.pdf',type:'政府公開文件'}],
+  },
+  {
+    id:'grandearcade',name:'廣宇建設',aliases:['廣宇建設實業','廣宇建設'],reviewed:'2026-09-14',confidence:'中',
+    scores:{delivery:75,quality:72,governance:65,service:67,risk:66},
+    summary:'2005 年成立，商工登記可查較高實收資本與持續增資，官方網站及個案頁可確認住宅開發主體。',
+    caveat:'資本規模不等於工程品質；仍缺少正式品管標準、保固條款、售後績效和連續公開報告，暫列 C。',
+    sources:[
+      {label:'公司登記資料',url:'https://findbiz.nat.gov.tw/fts/company/27755212',type:'政府資料'},
+      {label:'官方公司網站',url:'https://ga2023.squarespace.com/',type:'公司揭露'},
+      {label:'廣宇大涵個案',url:'https://gadh.jaysmg.com/',type:'個案官方網站'},
+    ],
+  },
+  {
+    id:'huayi',name:'華誼建設',aliases:['華誼建設'],reviewed:'2026-09-14',confidence:'中低',
+    scores:{delivery:72,quality:69,governance:57,service:66,risk:63},
+    summary:'2012 年成立，官方網站可確認組織包含財務、工務、業務與開發部門，並持續發布個案工程進度。',
+    caveat:'品質與客戶滿意內容主要為公司自述，缺少量化查驗、保固、財務與風險資料，故列 C。',
+    sources:[
+      {label:'公司介紹',url:'https://www.huayibuild.com.tw/',type:'公司揭露'},
+      {label:'工程與建案消息',url:'https://www.huayibuild.com.tw/news',type:'公司揭露'},
+      {label:'公司登記資料',url:'https://findbiz.nat.gov.tw/fts/company/53759988',type:'政府資料'},
+    ],
+  },
+  {
+    id:'huahui',name:'樺輝建設',aliases:['樺輝建設'],reviewed:'2026-09-14',confidence:'中',
+    scores:{delivery:82,quality:80,governance:60,service:73,risk:68},
+    summary:'品牌源流可追溯至 1992 年，官網列出雙北作品、選材與防水等工程說明，政府備查資料亦可核對預售責任。',
+    caveat:'工程內容與品牌歷史主要為公司自述，缺少連續財務、第三方品質與量化售後資料，故列 B。',
+    sources:[
+      {label:'品牌故事與歷年履歷',url:'https://huahui.com.tw/brand_story.php',type:'公司揭露'},
+      {label:'工程選材說明',url:'https://huahui.com.tw/brand_material.php',type:'公司揭露'},
+      {label:'新北預售備查清冊',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?n=MTEw5bm06IezMTE05LiK5Y2K5bm05bey5YKZ5p%2Bl5bu65qGI5riF5YaKLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMzk5L3JlbGZpbGUvODk5My85NDY5L2UwZjQwYjRjLTkyMjEtNDliZS1hMzA5LTE0MWExNmQ1MzVlNS5wZGY%3D',type:'政府資料'},
+    ],
+  },
+  {
+    id:'yungsiung',name:'永雄建設',aliases:['永雄建設'],reviewed:'2026-09-14',confidence:'中',
+    scores:{delivery:79,quality:75,governance:61,service:70,risk:67},
+    summary:'2003 年成立且持續增資，官方網站可核對多個板橋、林口、新莊與八里作品及個案營造資訊。',
+    caveat:'具有持續履歷，但缺少公司級工程查驗、保固年限、售後績效及公開治理報告，暫列 B。',
+    sources:[
+      {label:'公司與建案作品',url:'https://www.yyt.com.tw/',type:'公司揭露'},
+      {label:'公司登記資料',url:'https://findbiz.nat.gov.tw/fts/company/80600218',type:'政府資料'},
+    ],
+  },
 ].map(profile=>{
   const score=profile.scores?weightedScore(profile.scores):null;
   return {...profile,score,rating:profile.rating||ratingFromScore(score)};
