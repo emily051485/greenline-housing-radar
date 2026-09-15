@@ -2483,6 +2483,97 @@ export const developerResearch=[
       {label:'政府預售屋備查資料集',url:'https://data.gov.tw/dataset/176351',type:'官方交易資料'},
     ],
   },
+  {
+    id:'advancetek',name:'名軒開發',aliases:['名軒開發'],reviewed:'2026-09-14',confidence:'高',
+    scores:{delivery:90,quality:87,governance:90,service:91,risk:70},
+    summary:'1976 年設立、實收資本額約36.62億元的上市建商，屬麗寶集團；官網揭露 ISO／PDCA 品質流程，並提供保固期內外皆可申請的線上永久售服。',
+    caveat:'公司規模、治理與售後制度完整，但公平會2025年認定「名軒富麗」實品屋用途及夾層展示構成不實、引人錯誤表示，風險分數因此扣減，綜合列 A。',
+    sources:[
+      {label:'經濟部公司登記',url:'https://findbiz.nat.gov.tw/fts/company/04615057',type:'官方公司資料'},
+      {label:'名軒公司與品質制度',url:'https://www.advancetek.com.tw/about/',type:'建商官網'},
+      {label:'名軒線上售後服務',url:'https://www.advancetek.com.tw/online_services/',type:'建商官網'},
+      {label:'公平會公處字第114050號',url:'https://www.ftc.gov.tw/upload/1141117-1140106.pdf',type:'主管機關裁罰'},
+    ],
+  },
+  {
+    id:'rich-development',name:'力麒建設',aliases:['力麒建設'],reviewed:'2026-09-14',confidence:'高',
+    scores:{delivery:88,quality:86,governance:90,service:84,risk:78},
+    summary:'1992 年設立、實收資本額約76.63億元的上櫃建商；具多案交付履歷，官網公開年度財報、董事會、審計與薪酬委員會及連續年度永續報告。',
+    caveat:'財務與治理揭露完整，品質及客服亦有制度化說明；但整體品牌交付與售後口碑證據尚未達本模型 S 級的極高門檻，綜合列 A。',
+    sources:[
+      {label:'經濟部公司登記',url:'https://findbiz.nat.gov.tw/fts/company/86690644',type:'官方公司資料'},
+      {label:'力麒董事會及功能性委員會',url:'https://www.rhd.com.tw/service/investors.php?index_id=33',type:'公司治理資料'},
+      {label:'力麒財務資訊',url:'https://www.rhd.com.tw/service/investors.php?index_id=31',type:'公司治理資料'},
+      {label:'力麒永續報告',url:'https://www.rhd.com.tw/service/csr.php',type:'建商官網'},
+    ],
+  },
+  {
+    id:'yuanlih',name:'元利建設',aliases:['元利建設','元利建設企業'],reviewed:'2026-09-14',confidence:'高',
+    scores:{delivery:95,quality:96,governance:82,service:90,risk:86},
+    summary:'1992 年設立、實收資本額35.705億元，旗下五益營造由元利法人持股；可核對元利信義聯勤、和平大苑、元利四季莊園、元利群英等高規格住宅與大型社區履歷。',
+    caveat:'交付規模、工程整合與高端產品品質達 S 級；但屬非上市櫃公司，治理與財務公開透明度不及上市大型建商，因此治理分數較低。',
+    sources:[
+      {label:'經濟部公司登記',url:'https://findbiz.nat.gov.tw/fts/company/86691334',type:'官方公司資料'},
+      {label:'經濟部五益營造法人關係',url:'https://findbiz.nat.gov.tw/fts/company/49753955',type:'官方公司資料'},
+      {label:'元利機構官方網站',url:'http://www.yuanlih.com.tw/',type:'建商官網'},
+      {label:'政府預售屋備查資料集',url:'https://data.gov.tw/dataset/176351',type:'官方交易資料'},
+    ],
+  },
+  {
+    id:'chingjia',name:'親家地產',aliases:['親家地產','親家建設'],reviewed:'2026-09-14',confidence:'高',
+    scores:{delivery:88,quality:84,governance:78,service:82,risk:78},
+    summary:'親家品牌自1989年發展、官網列近百棟建築履歷；現行親家地產實收資本額6.86億元，並提供工程進度、社區APP及維護指南等持續服務。',
+    caveat:'品牌履歷、規模與住後服務具優勢，但親家地產法律實體自2014年設立，且非上市櫃公司，公開治理與財務透明度低於 S 級，綜合列 A。',
+    sources:[
+      {label:'經濟部公司登記',url:'https://findbiz.nat.gov.tw/fts/company/24604965',type:'官方公司資料'},
+      {label:'親家集團官方實績與服務',url:'https://www.chingjia.com/',type:'建商官網'},
+      {label:'政府預售屋備查資料集',url:'https://data.gov.tw/dataset/176351',type:'官方交易資料'},
+    ],
+  },
+  {
+    id:'jiayuan',name:'佳元建設',aliases:['佳元建設','佳元地產'],reviewed:'2026-09-14',confidence:'高',
+    scores:{delivery:84,quality:84,governance:74,service:78,risk:78},
+    summary:'佳元品牌作品可追溯至2002年，現行佳元建設2013年設立、實收資本額1.51億元；官網完整列出奧之細道、裡參道、樹語人、佳元湖伴、佳元臨沂、佳元松江、佳元植、佳元柒章等跨案履歷。',
+    caveat:'跨案交付與產品規劃具一致性，但非上市櫃公司，財務治理與售後成效公開程度低於 A 級大型建商，暫列 B。佳元地產個案以同品牌團隊履歷輔助，不視為同一法律實體。',
+    sources:[
+      {label:'經濟部佳元建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/54656433',type:'官方公司資料'},
+      {label:'佳元官方熱銷與經典個案',url:'https://jiayuangroup.com.tw/%E4%BD%B3%E5%85%83%E7%86%B1%E9%8A%B7/',type:'建商官網'},
+      {label:'政府預售屋備查資料集',url:'https://data.gov.tw/dataset/176351',type:'官方交易資料'},
+    ],
+  },
+  {
+    id:'ccdc',name:'中租建設開發',aliases:['中租建設開發','中租建設'],reviewed:'2026-09-14',confidence:'高',
+    scores:{delivery:87,quality:87,governance:86,service:81,risk:80},
+    summary:'1989 年設立、實收資本額約3.98億元，具中租企業體系背景；官網可核對天母御莊、中租御景、台大龍門及中租名笙，並揭露綠建築、智慧建築、耐震標章等品質成果。',
+    caveat:'公司存續、集團治理與具認證的住宅履歷完整，列 A；但住宅開發量與售後公開成效尚未達本模型 S 級門檻。',
+    sources:[
+      {label:'經濟部公司登記',url:'https://findbiz.nat.gov.tw/fts/company/23295619',type:'官方公司資料'},
+      {label:'中租建設官方實績',url:'https://www.ccdc.com.tw/',type:'建商官網'},
+      {label:'中租控股永續與治理',url:'https://www.chaileaseholding.com/Home/GuidedTour',type:'集團治理資料'},
+    ],
+  },
+  {
+    id:'horngjuu',name:'宏築建設',aliases:['宏築建設'],reviewed:'2026-09-14',confidence:'高',
+    scores:{delivery:84,quality:84,governance:76,service:78,risk:78},
+    summary:'1996 年設立、實收資本額6.212億元；官方登記並可核對其對聯築、佑築等開發公司的法人持股，官網公開團隊、歷年作品與都更服務。',
+    caveat:'規模、存續與集團開發能力具基礎，但非上市櫃公司，財務治理、售後與第三方品質證據仍不足以穩定跨入 A，暫列 B。',
+    sources:[
+      {label:'經濟部公司登記',url:'https://findbiz.nat.gov.tw/fts/company/97267763',type:'官方公司資料'},
+      {label:'宏築建設官方網站',url:'https://horngjuu.com.tw/main.php',type:'建商官網'},
+      {label:'聯築開發法人關係',url:'https://findbiz.nat.gov.tw/fts/company/53545017',type:'官方公司資料'},
+    ],
+  },
+  {
+    id:'leeming',name:'麗明營造',aliases:['麗明營造'],reviewed:'2026-09-14',confidence:'高',
+    scores:{delivery:91,quality:91,governance:86,service:78,risk:82},
+    summary:'1982 年設立、實收資本額15億元的綜合營造與開發公司，具大型公共、醫療、文化及民間工程履歷；自願依GRI、SASB、TCFD編製並經第三方查證永續報告。',
+    caveat:'工程交付、品質管理與治理透明度達 A 級；但網站中的個案是其以起造人身分進行的住宅案，住宅品牌售後樣本少於傳統大型住宅建商，因此不列 S。',
+    sources:[
+      {label:'經濟部公司登記',url:'https://findbiz.nat.gov.tw/fts/company/60289420',type:'官方公司資料'},
+      {label:'麗明營造永續網站',url:'https://esg.best-giving.com/',type:'公司官網'},
+      {label:'麗明營造2024永續報告',url:'https://esg.best-giving.com/upload/2025_08_06_1010110.pdf',type:'公司治理資料'},
+    ],
+  },
 ].map(profile=>{
   const score=profile.scores?weightedScore(profile.scores):null;
   return {...profile,score,rating:profile.rating||ratingFromScore(score)};
