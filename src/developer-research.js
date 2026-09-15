@@ -1828,6 +1828,92 @@ export const developerResearch=[
       {label:'立信工營造工程實績',url:'https://www.archi.net.tw/tw/company/118538/index.html',type:'工程公開資料'},
     ],
   },
+  {
+    id:'zhongmao',name:'忠茂建設開發',aliases:['忠茂建設開發'],reviewed:'2026-09-14',confidence:'高',
+    scores:{delivery:66,quality:70,governance:59,service:65,risk:66},
+    summary:'2017 年設立；政府預售契約可核對忠茂左岸的賣方統編、建照與履約文件，確認其為實際開發角色。',
+    caveat:'目前公開住宅履歷集中於單一預售案，尚缺完工交付、售後、治理與第三方品質紀錄，現階段評為 C 級。',
+    sources:[
+      {label:'經濟部公司登記',url:'https://findbiz.nat.gov.tw/fts/company/68775070',type:'政府資料'},
+      {label:'忠茂左岸預售契約',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?icon=..pdf&n=5b%2Bg6IyC5bem5bK4LnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMS9yZWxmaWxlLzk2NzkvNzM5ODA2LzBkNmZlNTg3LTZkOTYtNGE0Ny04ZjdmLTdmY2Q1OGQ1NjA2Ny5wZGY%3D',type:'政府資料'},
+    ],
+  },
+  {
+    id:'dinghe',name:'鼎禾建設',aliases:['鼎禾建設'],reviewed:'2026-09-14',confidence:'中高',
+    scores:{delivery:68,quality:72,governance:60,service:66,risk:66},
+    summary:'2020 年設立；新北市政府清冊及立瑾建築機構官網均可核對汐止琢壹，並確認鼎禾的投資興建角色。',
+    caveat:'目前可歸屬鼎禾法人的住宅證據集中於琢壹，集團其他案不能直接視為鼎禾交付履歷，故評為 C 級。',
+    sources:[
+      {label:'經濟部公司登記',url:'https://findbiz.nat.gov.tw/fts/company/83334685',type:'政府資料'},
+      {label:'新北市預售案清冊',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?n=MTEw5bm06IezMTE05bm05bey5YKZ5p%2Bl5bu65qGI5riF5YaKLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMzk5L3JlbGZpbGUvODk5My85NDY5L2NkZTQ4OTJkLTQzMzAtNDY3Zi1hYmExLTI3YzJiYjI0MjYxNi5wZGY%3D',type:'政府資料'},
+      {label:'立瑾建築機構官網',url:'https://lc-h35.tw/',type:'建商官網'},
+    ],
+  },
+  {
+    id:'jiutaixinyie',name:'九泰欣業',aliases:['九泰欣業'],reviewed:'2026-09-14',confidence:'高',
+    scores:{delivery:82,quality:76,governance:62,service:71,risk:68},
+    summary:'2006 年設立、實收資本額 1,000 萬元；公開社區資料可核對新站尊爵、新站晶華及 2024 年觀翠，政府契約另確認九欣觀宸。',
+    caveat:'具跨期交付履歷，但公司規模、治理、售後與品質制度公開量化仍有限，且「久泰」與「九泰」字樣須逐案核對，評為 B 級。',
+    sources:[
+      {label:'經濟部公司登記',url:'https://findbiz.nat.gov.tw/fts/company/28140869',type:'政府資料'},
+      {label:'九欣觀宸預售契約',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?icon=..pdf&n=5Lmd5qyj6KeA5a64LnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMS9yZWxmaWxlLzk2NzkvNzM1NTEzL2IzNzRhMmQwLTk5YWMtNGQ4OS1hMWIwLWI4MWUxMjdmYWIzNC5wZGY%3D',type:'政府資料'},
+      {label:'九泰欣業社區履歷',url:'https://www.plex.com.tw/projects/index/type/developer/query/%E4%B9%9D%E6%B3%B0%E6%AC%A3%E6%A5%AD',type:'建案公開資料'},
+    ],
+  },
+  {
+    id:'codak',name:'科達建業建設',aliases:['科達建業建設'],reviewed:'2026-09-14',confidence:'高',
+    scores:{delivery:80,quality:84,governance:76,service:76,risk:73},
+    summary:'2019 年轉型為建設公司，目前實收資本額 5.2 億元；官網揭露多件建築實績，並與日本國土開發、國原營造等團隊合作建立巡檢與結構安全流程。',
+    caveat:'資本、案量與工程合作制度具規模，但品牌住宅交付觀察期仍較短，品質及售後資料主要由公司自行揭露，評為 B 級。',
+    sources:[
+      {label:'經濟部公司登記',url:'https://findbiz.nat.gov.tw/fts/company/68463581',type:'政府資料'},
+      {label:'科達建業官網',url:'https://www.codakarchi.com.tw/',type:'建商官網'},
+      {label:'科達建築業績',url:'https://www.codakarchi.com.tw/performance',type:'建商官網'},
+    ],
+  },
+  {
+    id:'yongtaihong',name:'永泰鴻建設',aliases:['永泰鴻建設'],reviewed:'2026-09-14',confidence:'高',
+    scores:{delivery:80,quality:76,governance:64,service:72,risk:70},
+    summary:'2011 年設立、實收資本額 2,000 萬元；政府清冊可核對新板寶時與欣庄綻，都市設計審議資料另確認新莊文德段 76 戶住宅案。',
+    caveat:'已有連續推案與政府案卷可核對，但公司規模及治理、售後、第三方品質量化有限，僅剛達 B 級門檻。',
+    sources:[
+      {label:'經濟部公司登記',url:'https://findbiz.nat.gov.tw/fts/company/53412059',type:'政府資料'},
+      {label:'新北市預售案清冊',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?n=MTEw5bm06IezMTE05bm05bey5YKZ5p%2Bl5bu65qGI5riF5YaKLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMzk5L3JlbGZpbGUvODk5My85NDY5L2NkZTQ4OTJkLTQzMzAtNDY3Zi1hYmExLTI3YzJiYjI0MjYxNi5wZGY%3D',type:'政府資料'},
+      {label:'新莊文德段審議資料',url:'https://www.planning.ntpc.gov.tw/uploaddowndoc?file=downloaddata%2F202508121522010.pdf&filedisplay=0804%E4%B8%8A%E5%8D%88-%E7%B0%A1-%28%E4%B8%80%29%E9%95%B7%E6%A8%BA%E5%BB%BA%E8%A8%AD%E4%B8%AD%E5%92%8C%E5%8D%97%E5%B7%A5%E6%AE%B5782%E5%9C%B0%E8%99%9F%28%E4%BA%8C%29%E6%B0%B8%E6%B3%B0%E9%B4%BB%E5%BB%BA%E8%A8%AD%E6%96%B0%E8%8E%8A%E5%8D%80%E6%96%87%E5%BE%B7%E6%AE%B5243%E5%9C%B0%E8%99%9F.pdf&flag=doc',type:'政府案卷'},
+    ],
+  },
+  {
+    id:'dellin',name:'德鄰建設',aliases:['德鄰建設'],reviewed:'2026-09-14',confidence:'高',
+    scores:{delivery:82,quality:81,governance:66,service:76,risk:71},
+    summary:'1995 年設立、實收資本額 2,800 萬元；官網可核對織漾、織樺、德鄰豊等持續推案，並公開工程節點、規劃設計與營造管理資訊。',
+    caveat:'法人年期及區域推案具連續性，但品質與服務多為公司自行揭露，財務治理與售後成效量化仍不足，評為 B 級。',
+    sources:[
+      {label:'經濟部公司登記',url:'https://findbiz.nat.gov.tw/fts/company/89473065',type:'政府資料'},
+      {label:'德鄰建設官網',url:'https://www.dellin.com.tw/',type:'建商官網'},
+    ],
+  },
+  {
+    id:'runwang',name:'潤旺建設',aliases:['潤旺建設'],reviewed:'2026-09-14',confidence:'高',
+    scores:{delivery:80,quality:75,governance:63,service:70,risk:68},
+    summary:'1997 年設立、實收資本額 2,500 萬元；政府清冊及契約可核對樂晴、樂晴 2，公開案況另可確認其與溪福建築機構的合作。',
+    caveat:'法人年期長且已有交付與續推案，但自有作品範圍、治理、售後及第三方品質資料仍有限，評為 B 級。',
+    sources:[
+      {label:'經濟部公司登記',url:'https://findbiz.nat.gov.tw/fts/company/16051291',type:'政府資料'},
+      {label:'新北市預售案清冊',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?n=MTEw5bm06IezMTE05bm05bey5YKZ5p%2Bl5bu65qGI5riF5YaKLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMzk5L3JlbGZpbGUvODk5My85NDY5L2NkZTQ4OTJkLTQzMzAtNDY3Zi1hYmExLTI3YzJiYjI0MjYxNi5wZGY%3D',type:'政府資料'},
+      {label:'樂晴 II 預售契約',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?icon=..pdf&n=5qiC5pm0IElJLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMS9yZWxmaWxlLzk2NzkvNjQwMTI0L2RkNGVhZjk1LTFlZTctNDA4NC1iYTIxLTU0ZjEwODYyMjllOC5wZGY%3D',type:'政府資料'},
+    ],
+  },
+  {
+    id:'chunhong',name:'春宏建設',aliases:['春宏建設'],reviewed:'2026-09-14',confidence:'中高',
+    scores:{delivery:72,quality:73,governance:59,service:67,risk:66},
+    summary:'2017 年設立，目前資本額 2,700 萬元；春木林建築團隊官網可核對春木遇見，公開案況另可確認小學堂。',
+    caveat:'已有不只一件住宅案，但公司本體仍較年輕，公開交付、治理、售後與第三方品質量化不足，評為 C 級。',
+    sources:[
+      {label:'經濟部公司登記',url:'https://findbiz.nat.gov.tw/fts/company/67187905',type:'政府資料'},
+      {label:'春木遇見建案官網',url:'https://cmling.com.tw/project/%E6%98%A5%E6%9C%A8%E9%81%87%E8%A6%8B/',type:'建案官網'},
+      {label:'小學堂建案資料',url:'https://www.house579.com.tw/newhouse/a5f089a3-de22-424b-adda-466af80aef01',type:'建案公開資料'},
+    ],
+  },
 ].map(profile=>{
   const score=profile.scores?weightedScore(profile.scores):null;
   return {...profile,score,rating:profile.rating||ratingFromScore(score)};
