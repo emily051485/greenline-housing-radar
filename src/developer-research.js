@@ -1183,6 +1183,92 @@ export const developerResearch=[
       {label:'公司商標與案名資料',url:'https://www.findcompany.com.tw/%E5%A4%A7%E6%98%95%E5%BB%BA%E8%A8%AD%E8%82%A1%E4%BB%BD%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8',type:'公開資料彙整'},
     ],
   },
+  {
+    id:'honggang',name:'宏鋼建設開發',aliases:['宏鋼建設開發'],reviewed:'2026-09-14',confidence:'中低',
+    scores:{delivery:70,quality:72,governance:55,service:64,risk:62},
+    summary:'臺北市預售備查與市場資料可核對大安潮、京釀兩案，大安潮並揭露中菲營造、建照與建材等工程資訊。',
+    caveat:'可確認實際投資興建角色，但公司登記、完工交付、治理、售後與品質追蹤資料仍不完整，評為 C 級。',
+    sources:[
+      {label:'臺北市預售備查',url:'https://land.gov.taipei/News.aspx?n=F32F7D59F5852BC9&sms=977CB461C1F4F2E8',type:'政府資料'},
+      {label:'大安潮建案資料',url:'https://market.591.com.tw/5923119/overview',type:'建案公開資料'},
+    ],
+  },
+  {
+    id:'lihua',name:'立樺建設',aliases:['立樺建設'],reviewed:'2026-09-14',confidence:'中高',
+    scores:{delivery:84,quality:84,governance:70,service:75,risk:72},
+    summary:'1998 年設立、實收資本額 1.2 億元，屬地樺營造事業機構；可核對忠孝無極完工案及天母常玉、文与堂等在建案，集團另發布永續報告及工地碳盤查資料。',
+    caveat:'長期營造、交付與品質制度證據較完整，但非公開發行公司，公司級財務與售後量化仍有限，評為 B 級。',
+    sources:[
+      {label:'立樺建設與地樺營造官網',url:'https://www.dehwa.com.tw/lh',type:'建商官網'},
+      {label:'經濟部公司登記',url:'https://findbiz.nat.gov.tw/fts/company/16585802',type:'政府資料'},
+      {label:'地樺營造永續報告',url:'https://esg.dehwa.com.tw/wp-content/uploads/2025/08/download-03-2024.pdf',type:'公司永續報告'},
+      {label:'立樺建案彙整',url:'https://www.plex.com.tw/projects/index/type/developer/query/%E7%AB%8B%E6%A8%BA%E5%BB%BA%E8%A8%AD/status/all/order/latest/page/1',type:'建案公開資料'},
+    ],
+  },
+  {
+    id:'zhenjia',name:'振家實業',aliases:['振家實業'],reviewed:'2026-09-14',confidence:'中',
+    scores:{delivery:78,quality:76,governance:60,service:68,risk:66},
+    summary:'1992 年成立，為長見營造投資的開發公司；集團公開資料稱已完成二十餘項廠房與建築工程，臺北市備查可核對中山之心、長見豐翠等住宅案。',
+    caveat:'有營造背景與長期法人歷史，但住宅交付、公司財務治理、售後及品質量化仍有限，評為 C 級。',
+    sources:[
+      {label:'振家與長見集團公開資料',url:'https://www.104.com.tw/company/13u0053s',type:'公司公開資料'},
+      {label:'臺北市預售備查',url:'https://land.gov.taipei/News_Content.aspx?n=E8D96FA6BB2B310E&s=1D41399C89429DAD&sms=06A4332DF37FE327',type:'政府資料'},
+      {label:'長見豐翠建案資料',url:'https://newhouse.591.com.tw/139916',type:'建案公開資料'},
+    ],
+  },
+  {
+    id:'juxing',name:'鉅興建設開發',aliases:['鉅興建設開發'],reviewed:'2026-09-14',confidence:'低',
+    scores:{delivery:70,quality:68,governance:54,service:63,risk:61},
+    summary:'2013 年設立，可由臺北市預售備查核對鉅興藏及日安吉林兩案，確認其為實際投資興建公司。',
+    caveat:'目前主要證據集中於公司登記與兩件預售案，缺乏可核驗的長期交付、治理、售後與工程品質資料，列低信心 C 級。',
+    sources:[
+      {label:'公司登記公開資料',url:'https://www.findcompany.com.tw/company/54816749',type:'政府資料彙整'},
+      {label:'臺北市預售備查',url:'https://land.gov.taipei/News.aspx?n=F32F7D59F5852BC9&sms=977CB461C1F4F2E8',type:'政府資料'},
+    ],
+  },
+  {
+    id:'guangming',name:'廣銘建設',aliases:['廣銘建設'],reviewed:'2026-09-14',confidence:'中',
+    scores:{delivery:78,quality:74,governance:58,service:67,risk:63},
+    summary:'2006 年設立、實收資本額 3,500 萬元；公開案況可核對 Fancy 1、碧湖銘、大安秘蜜、信義 WOW 與松江 WOW 等跨區作品。',
+    caveat:'具多案及部分成屋履歷，但公司財務治理、售後與第三方品質資料有限，工程風險也缺少可完整驗證的公司說明，評為 C 級。',
+    sources:[
+      {label:'經濟部公司登記',url:'https://findbiz.nat.gov.tw/fts/company/28177176',type:'政府資料'},
+      {label:'臺北市松江 WOW 預售備查',url:'https://land.gov.taipei/News.aspx?n=8A62273E3E42E818&sms=C26A9E324E37B468',type:'政府資料'},
+      {label:'廣銘建案彙整',url:'https://build.myhousing.com.tw/company/491792/',type:'建案公開資料'},
+    ],
+  },
+  {
+    id:'songyang',name:'淞暘建設',aliases:['淞暘建設'],reviewed:'2026-09-14',confidence:'中高',
+    scores:{delivery:81,quality:79,governance:63,service:73,risk:68},
+    summary:'官網揭露約三十年在地經營、明日環與淞暘双囍等既有作品，以及淞暘潮、吉林段與南港段等新案規劃。',
+    caveat:'長期作品與持續開發證據良好，但非公開發行公司，財務治理、售後及第三方品質量化仍有限，評為 B 級。',
+    sources:[
+      {label:'淞暘建設官網',url:'https://xn--b0t92oupgkw5a.tw/',type:'建商官網'},
+      {label:'淞暘開泰建案資料',url:'https://www.unju.com.tw/build-case-det/4197',type:'建案公開資料'},
+    ],
+  },
+  {
+    id:'huarun',name:'華潤建設',aliases:['華潤建設'],reviewed:'2026-09-14',confidence:'中低',
+    scores:{delivery:72,quality:71,governance:62,service:66,risk:64},
+    summary:'2012 年設立，實收資本額已增至 4.88 億元；預售資料可核對新潤朗格與新潤花路的起造人為華潤建設。',
+    caveat:'資本基礎較充足，但不能只憑案名推定與其他品牌的完整關係；可驗證完工、治理、售後與品質資料仍少，評為 C 級。',
+    sources:[
+      {label:'經濟部公司登記',url:'https://findbiz.nat.gov.tw/fts/company/53761393',type:'政府資料'},
+      {label:'公司登記與商標資料',url:'https://www.findcompany.com.tw/%E8%8F%AF%E6%BD%A4%E5%BB%BA%E8%A8%AD%E8%82%A1%E4%BB%BD%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8',type:'政府資料彙整'},
+    ],
+  },
+  {
+    id:'ruitai',name:'睿泰建設',aliases:['睿泰建設'],reviewed:'2026-09-14',confidence:'中高',
+    scores:{delivery:82,quality:79,governance:63,service:72,risk:69},
+    summary:'2011 年設立、資本額 1 億元；可核對 2016 年睿泰川端、2024 年睿泰川矅與達麗陽明大苑等成屋，以及睿泰絵、睿泰曜等新案。',
+    caveat:'已有跨期交付與合作開發履歷，但非公開發行公司，財務治理、售後與品質量化仍未達 A 級證據強度，評為 B 級。',
+    sources:[
+      {label:'睿泰絵個案官網',url:'https://ruitaihui.com.tw/',type:'建案官網'},
+      {label:'公司登記公開資料',url:'https://mygov.tw/company/53314830',type:'政府資料彙整'},
+      {label:'睿泰建案彙整',url:'https://www.plex.com.tw/projects/index/type/developer/query/%E7%9D%BF%E6%B3%B0%E5%BB%BA%E8%A8%AD',type:'建案公開資料'},
+      {label:'睿泰川矅預售契約核備',url:'https://www-ws.gov.taipei/001/Upload/305/relfile/11498/7640523/2613d0b4-7d54-493f-823b-d74eaca5ac54.pdf',type:'政府資料'},
+    ],
+  },
 ].map(profile=>{
   const score=profile.scores?weightedScore(profile.scores):null;
   return {...profile,score,rating:profile.rating||ratingFromScore(score)};
