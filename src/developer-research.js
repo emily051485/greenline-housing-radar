@@ -1914,6 +1914,95 @@ export const developerResearch=[
       {label:'小學堂建案資料',url:'https://www.house579.com.tw/newhouse/a5f089a3-de22-424b-adda-466af80aef01',type:'建案公開資料'},
     ],
   },
+  {
+    id:'crowell',name:'皇普建設',aliases:['皇普建設'],reviewed:'2026-09-14',confidence:'高',
+    scores:{delivery:88,quality:85,governance:91,service:82,risk:80},
+    summary:'上市建商、實收資本額約 43.4 億元，具逾 40 年開發履歷；官網持續揭露年報、財報、董事會評鑑與永續報告，作品亦有規劃設計獎項。',
+    caveat:'治理與資本證據完整，但獎項及制度不能取代單案施工、營造廠與交屋查驗；公開售後成效量化少於頂級組，評為 A 級。',
+    sources:[
+      {label:'臺灣證券交易所公司資料',url:'https://wwwc.twse.com.tw/pdf/ch/2528_ch.pdf',type:'公開財報'},
+      {label:'皇普公司治理專區',url:'https://www.crowell.com.tw/company.php?MT_id=site2018020209451820',type:'公司治理'},
+      {label:'皇普股東會年報',url:'https://crowell.com.tw/Investors2.php?MT_id=site2017121511151619',type:'公開財報'},
+      {label:'皇普建築獎項',url:'https://www.crowell.com.tw/about2.php?MT_id=site2017121510572424',type:'公司揭露'},
+    ],
+  },
+  {
+    id:'jiangling',name:'江陵建設',aliases:['江陵建設'],reviewed:'2026-09-14',confidence:'高',
+    scores:{delivery:84,quality:78,governance:70,service:73,risk:70},
+    summary:'1991 年設立、實收資本額 1.8 億元；政府預售契約可核對江陵賀，長期法人年期及資本增長提供一定履約基礎。',
+    caveat:'公司年期與資本穩健，但公開作品清單、品質制度、售後成效與持續治理揭露仍有限，評為 B 級。',
+    sources:[
+      {label:'經濟部公司登記',url:'https://findbiz.nat.gov.tw/fts/company/86120476',type:'政府資料'},
+      {label:'江陵賀預售契約',url:'https://www-ws.land.ntpc.gov.tw/001/Upload/406/relfile/9035/8610/dd25c127-5b59-4e9f-a96f-007bbfa028b6.pdf',type:'政府資料'},
+    ],
+  },
+  {
+    id:'hefeng',name:'合峰建設',aliases:['合峰建設'],reviewed:'2026-09-14',confidence:'高',
+    scores:{delivery:69,quality:73,governance:70,service:67,risk:68},
+    summary:'2020 年設立，目前實收資本額 4.86 億元；政府預售契約可核對合峰品境及同業連帶擔保資料。',
+    caveat:'資本投入成長快速，但法人與住宅作品都很新，目前缺乏完工交付、售後及第三方品質長期紀錄，評為 C 級。',
+    sources:[
+      {label:'經濟部公司登記',url:'https://findbiz.nat.gov.tw/fts/company/83757516',type:'政府資料'},
+      {label:'合峰品境預售契約',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?icon=..pdf&n=5ZCI5bOw5ZOB5aKDLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMS9yZWxmaWxlLzk2NzkvNzQwOTE5LzZhZDM1Zjg3LWM3ZDMtNDQ3Mi04YzcxLTc0MjhmZTA4MmE4ZC5wZGY%3D',type:'政府資料'},
+    ],
+  },
+  {
+    id:'hedeng',name:'合登建設',aliases:['合登建設'],reviewed:'2026-09-14',confidence:'高',
+    scores:{delivery:83,quality:77,governance:70,service:73,risk:66},
+    summary:'2007 年設立，目前實收資本額 7,300 萬元；公司揭露其屬寶佳體系，政府查核資料與公開案況可核對合登領航城等持續推案。',
+    caveat:'具集團案量與多年開發履歷，但品牌作品、品質及售後成效多為公司自行揭露；曾有工地噪音裁處紀錄，評為 B 級。',
+    sources:[
+      {label:'經濟部公司登記',url:'https://findbiz.nat.gov.tw/fts/company/28820471',type:'政府資料'},
+      {label:'桃園市預售契約查核',url:'https://ws.tycg.gov.tw/Download.ashx?n=MTE05bm06aCQ5ZSu5bGL6LK36LOj5a6a5Z6L5YyW5aWR57SE5bCI5qGI5p%2Bl5qC457WQ5p6c5b2Z5pW06KGoLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMTQ2L3JlbGZpbGUvMTQ2NDcvMTU5MjU1NS82OWMzNmVjMS0wNDQyLTRmNTgtOTliNi0yMmZjZDg5ZTdjZTIucGRm',type:'政府資料'},
+      {label:'合登領航城官網',url:'https://hc-nice.com/case_site/aerotropolis/',type:'建案官網'},
+      {label:'環境裁處彙整',url:'https://thaubing.gcaa.org.tw/corp/28820471',type:'政府資料彙整'},
+    ],
+  },
+  {
+    id:'sansin',name:'三馨建設',aliases:['三馨建設'],reviewed:'2026-09-14',confidence:'高',
+    scores:{delivery:80,quality:76,governance:62,service:70,risk:68},
+    summary:'1992 年設立、實收資本額 2,100 萬元；官方契約與公司官網可核對逸馨，且該案已於 2024 年完工。',
+    caveat:'法人年期長且已有交付，但公開可歸屬作品、治理、售後與第三方品質資料仍不多，評為 B 級。',
+    sources:[
+      {label:'經濟部公司登記',url:'https://findbiz.nat.gov.tw/fts/company/86519806',type:'政府資料'},
+      {label:'逸馨預售契約',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?icon=..pdf&n=6YC46aaoLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMS9yZWxmaWxlLzk2NzkvNzE2NzAwL2Q0OTQ5Yjk0LWIxZGItNGNhYS1iMWNiLTUxZmNhODYwY2ZlMy5wZGY%3D',type:'政府資料'},
+      {label:'三馨建設作品',url:'https://www.sansin.tw/projects/p/SO8xvpKeh8Gi54Z4',type:'建商官網'},
+    ],
+  },
+  {
+    id:'shuangzhengli',name:'双正利建設',aliases:['双正利建設','正利建設股份有限公司（缺字待核）'],reviewed:'2026-09-14',confidence:'高',
+    scores:{delivery:70,quality:73,governance:65,service:67,risk:55},
+    summary:'2020 年設立、實收資本額 1 億元；公開資料可核對博愛賦御與敦北 VOGUE，並確認資料庫缺字的「正利建設」實為双正利。',
+    caveat:'已有兩件預售案但尚缺長期交付與售後紀錄；2024 年曾因預售契約不符應記載及不得記載事項受裁處，已下修風險分，評為 C 級。',
+    sources:[
+      {label:'經濟部公司登記',url:'https://findbiz.nat.gov.tw/fts/company/83482637',type:'政府資料'},
+      {label:'臺北市銷售違規裁罰統計',url:'https://www-ws.gov.taipei/Download.ashx?icon=.pdf&n=6ZmE5Lu2LeiHuuWMl%2BW4guatt%2BW5tOijgee9sOS4jeWLleeUoumWi%2BeZvOalreiAhemKt%2BWUrumBleimj%2Be1seioiOWPiuaYjue0sOihqCjlr6blg7nnmbvpjITpmaTlpJYpLTExNDA4MjXkv64ucGRm&u=LzAwMS9VcGxvYWQvMzA1L3JlbGZpbGUvMC8xMTE4ODYvMDQ0ODZhNTktMTU5MS00NWQ2LWFlMmMtNjRjOGNkNzRlN2FjLnBkZg%3D%3D',type:'政府資料'},
+      {label:'敦北 VOGUE 建案資料',url:'https://www.house579.com.tw/newhouse/bc255ca2-5689-4ec0-bccc-0b23a3aa8336',type:'建案公開資料'},
+    ],
+  },
+  {
+    id:'helian',name:'禾蓮開發',aliases:['禾蓮開發'],reviewed:'2026-09-14',confidence:'高',
+    scores:{delivery:80,quality:83,governance:68,service:77,risk:62},
+    summary:'2011 年設立；政府清冊可核對心家園與心中美，官方都更資料確認其實施者角色，心中美並揭露耐震標章、駐地監造及多部位十年防水保固。',
+    caveat:'具都更執行、交付與品質制度，但部分資訊為建案自行揭露；所屬工地曾有逕流廢水裁處，已反映於風險分，評為 B 級。',
+    sources:[
+      {label:'禾蓮開發官網',url:'https://www.helian.com.tw/',type:'建商官網'},
+      {label:'新北市都更核定資料',url:'https://web.law.ntpc.gov.tw/Scripts/PrintFLAWDOC03.aspx?ecase=%E6%96%B0%E5%8C%97%E5%BA%9C%E5%9F%8E%E6%9B%B4&ecode=D00702&eno=11046586682&rtype=E',type:'政府資料'},
+      {label:'禾蓮心中美建案官網',url:'https://nuova-utopia.com/',type:'建案官網'},
+      {label:'環境裁處彙整',url:'https://thaubing.gcaa.org.tw/corp/53553677',type:'政府資料彙整'},
+    ],
+  },
+  {
+    id:'zhaoxuan',name:'兆軒建設',aliases:['兆軒建設'],reviewed:'2026-09-14',confidence:'高',
+    scores:{delivery:69,quality:75,governance:68,service:68,risk:68},
+    summary:'2024 年設立，目前實收資本額 4 億元；董事股東包含立軒、永軒及銘軒體系，政府契約與個案官網可核對立軒慕玥。',
+    caveat:'資本與既有團隊背景較強，但兆軒法人本身成立時間極短，不能直接承接各股東全部履歷，尚缺交付與售後紀錄，評為 C 級。',
+    sources:[
+      {label:'經濟部公司登記',url:'https://findbiz.nat.gov.tw/fts/company/93570954',type:'政府資料'},
+      {label:'立軒慕玥預售契約',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?icon=..pdf&n=56uL6LuS5oWV546lLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMS9yZWxmaWxlLzk2NzkvNzQxMTg1LzBiNTIwMDJiLWU5OWMtNDI1MS1iN2ViLWFlNmQyMDA2N2FiOC5wZGY%3D',type:'政府資料'},
+      {label:'立軒慕玥建案官網',url:'https://www.li-hsuanmuyue.com.tw/',type:'建案官網'},
+    ],
+  },
 ].map(profile=>{
   const score=profile.scores?weightedScore(profile.scores):null;
   return {...profile,score,rating:profile.rating||ratingFromScore(score)};
