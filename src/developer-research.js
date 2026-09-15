@@ -1578,6 +1578,49 @@ export const developerResearch=[
       {label:'億東營造富麗天景實績',url:'https://www.itcbuild.com.tw/?p=1116',type:'營造官網'},
     ],
   },
+  {
+    id:'chem',name:'中興電工機械',aliases:['中興電工機械'],reviewed:'2026-09-14',confidence:'高',
+    scores:{delivery:75,quality:88,governance:92,service:73,risk:75},
+    summary:'1962 年設立、上市公司，實收資本額逾 50 億元並具獨立董事、年報及大型機電工程體系；新北市預售契約確認其為世界芯 A、B 棟賣方。',
+    caveat:'公司治理、資本與工程能力很強，但核心業務並非住宅開發，住宅交付與售後履歷不足以直接比照一線住宅品牌，評為 B 級。',
+    sources:[
+      {label:'經濟部公司登記',url:'https://findbiz.nat.gov.tw/fts/company/33029464',type:'政府資料'},
+      {label:'中興電工公司年報',url:'https://www.chem.com.tw/tc/investor2.aspx',type:'公司公開資料'},
+      {label:'世界芯預售契約',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?icon=..pdf&n=5LiW55WM6IqvQeajny5wZGY%3D&u=LzAwMS9VcGxvYWQvMS9yZWxmaWxlLzk2NzkvNzI0MTk0LzUzNDg0NmNhLWIwNDQtNDk3OC1iMTQ1LWQyOGEyZGUzZjY5MS5wZGY%3D',type:'政府資料'},
+    ],
+  },
+  {
+    id:'deyu',name:'德裕建設',aliases:['德裕建設'],reviewed:'2026-09-14',confidence:'中高',
+    scores:{delivery:79,quality:77,governance:61,service:72,risk:67},
+    summary:'新北市官方清冊可核對快樂王國－理享城、自由綠洲與芳洲 PARK；理享城官網另揭露其投資興建、專業工程團隊及萬坪造鎮規模。',
+    caveat:'已有多案與近期完工履歷，但部分案的公開頁面另列共同或不同品牌，法人資本、治理、售後及第三方品質量化仍有限，評為 B 級。',
+    sources:[
+      {label:'新北市預售案清冊',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?n=MTEw5bm06IezMTE05bm05bey5YKZ5p%2Bl5bu65qGI5riF5YaKLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMzk5L3JlbGZpbGUvODk5My85NDY5L2NkZTQ4OTJkLTQzMzAtNDY3Zi1hYmExLTI3YzJiYjI0MjYxNi5wZGY%3D',type:'政府資料'},
+      {label:'新北市理享城預售契約',url:'https://www.land.ntpc.gov.tw/News.aspx?PageSize=20&_Query=a57b2e19-ab70-4142-80ea-976f35abb5bb&n=11769&page=26&sms=9679',type:'政府資料'},
+      {label:'理享城個案官網',url:'https://wl2.debang.tw/',type:'建案官網'},
+    ],
+  },
+  {
+    id:'jiuchang',name:'玖長建設',aliases:['玖長建設'],reviewed:'2026-09-14',confidence:'中高',
+    scores:{delivery:66,quality:70,governance:56,service:64,risk:63},
+    summary:'2020 年設立，初始資本額 1,500 萬元；政府預售契約與交易資料可核對玖長匯比壽／謙和御璟同址案。',
+    caveat:'品牌及法人均處早期階段，現有資料實質上集中於單一基地，尚無足夠完工交付、治理、售後與品質紀錄，評為 C 級。',
+    sources:[
+      {label:'經濟部設立登記清冊',url:'https://serv.gcis.nat.gov.tw/pub/cmpy/reportAction.do?fileName=10904ALS.pdf&method=report&reportClass=cmpy&subPath=10904',type:'政府資料'},
+      {label:'新北市預售契約',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?icon=..pdf&n=546W6ZW35Yyv5q%2BU5aO9LnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMS9yZWxmaWxlLzk2NzkvNjM5MjY0L2Y0MGIyYTg3LTc0MGUtNDU5Yi04ZTBhLTkwZGRmNmE5MDlkOC5wZGY%3D',type:'政府資料'},
+    ],
+  },
+  {
+    id:'jiataiasset',name:'家泰資產開發',aliases:['家泰資產開發'],reviewed:'2026-09-14',confidence:'中高',
+    scores:{delivery:73,quality:72,governance:58,service:67,risk:64},
+    summary:'2019 年設立、實收資本額 2,500 萬元；公開案況可核對與家悅建設、大業開發共同興建且已於 2024 年完工的愛家匯，以及家泰豐和。',
+    caveat:'已有共同開發案交付及後續推案，但法人年期短，自有作品、治理、售後與第三方品質資料仍有限，評為 C 級。',
+    sources:[
+      {label:'經濟部公司登記',url:'https://findbiz.nat.gov.tw/fts/company/82913341',type:'政府資料'},
+      {label:'愛家匯工程業主資料',url:'https://www.pscivil.com.tw/kc-section/%E6%84%9B%E5%AE%B6%E5%8C%AF%E5%82%99%E4%BB%BD/',type:'工程公開資料'},
+      {label:'愛家匯建案資料',url:'https://www.plex.com.tw/projects/transactions/id/2539/address/%E5%BF%A0%E5%AD%9D%E4%B8%80%E8%B7%AF36%E8%99%9F9%E6%A8%93',type:'建案公開資料'},
+    ],
+  },
 ].map(profile=>{
   const score=profile.scores?weightedScore(profile.scores):null;
   return {...profile,score,rating:profile.rating||ratingFromScore(score)};
