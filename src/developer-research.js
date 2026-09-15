@@ -2805,6 +2805,50 @@ export const developerResearch=[
       {label:'永豐泰雲川建照與使用執照資料',url:'https://market.591.com.tw/5884241/overview',type:'建案公開資料'},
     ],
   },
+  {
+    id:'guangying-smart',name:'廣瑩智慧不動產',aliases:['廣瑩智慧不動產'],reviewed:'2026-09-14',confidence:'中高',
+    scores:{delivery:68,quality:72,governance:68,service:68,risk:72},
+    summary:'2021 年設立的住宅開發公司，「伊寧橋寓」已完成臺北市預售備查並採價金信託，可確認其投資興建及銷售中的事實。',
+    caveat:'目前公開證據主要集中於單一小宅預售案，尚缺完工交屋週期、第三方品質制度、售後績效與長期治理資料，列 C；價金信託只是一種履約保障機制，不代表銀行保證完工或品質。',
+    sources:[
+      {label:'廣瑩智慧不動產公司登記',url:'https://findbiz.nat.gov.tw/fts/company/91006974',type:'官方公司資料'},
+      {label:'伊寧橋寓預售備查與價金信託',url:'https://land.gov.taipei/News_Content.aspx?n=E8D96FA6BB2B310E&s=4B0D36DD779108C1&sms=06A4332DF37FE327',type:'臺北市政府資料'},
+    ],
+  },
+  {
+    id:'light-architecture',name:'光合建築',aliases:['光合建築'],reviewed:'2026-09-14',confidence:'高',
+    scores:{delivery:84,quality:85,governance:75,service:79,risk:80},
+    summary:'2011 年設立、實收資本額已增至 7,000 萬元，官方網站列有多個雙北住宅作品；「光合織森」另可由臺北市建照資料確認為 74 戶預售案。',
+    caveat:'連續作品、設計團隊與可核對建照支持 B 級上段，但品牌偏重設計表現，公司治理、第三方工程品質與售後績效揭露仍不足，暫未跨入 A。',
+    sources:[
+      {label:'光合建築公司登記',url:'https://findbiz.nat.gov.tw/fts/company/53539275',type:'官方公司資料'},
+      {label:'光合建築官方作品',url:'https://www.light.com.tw/',type:'建商官方資料'},
+      {label:'光合織森官方個案頁',url:'https://www.light.com.tw/work-content/6',type:'建商官方資料'},
+      {label:'臺北市 114 年建造執照資料',url:'https://www-ws.gov.taipei/Download.ashx?icon=..pdf&n=MTE0LjEwLjAx6IezMTE0LjEyLjMx5qC455m85bu654Wn5LmL5bu65qGI6LOH6KiKLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvODQ1L3JlbGZpbGUvNjUxMzMvOTU0MjU5NS9jZDBkZmMwZS1kOGI3LTRkMzEtODdmMC0xYTE5NzAxOWJkZWQucGRm',type:'臺北市政府資料'},
+    ],
+  },
+  {
+    id:'sanjing',name:'三境建設',aliases:['三境建設'],reviewed:'2026-09-14',confidence:'高',
+    scores:{delivery:78,quality:76,governance:70,service:60,risk:58},
+    summary:'1995 年設立，具「華亭樹」、「印涼州」等跨期住宅案及持續取得建照的紀錄；但公平交易委員會曾認定其建案廣告將陽台外推作室內空間圖示，構成虛偽不實及引人錯誤。',
+    caveat:'長期營運與持續推案提供履約基礎，但正式廣告違規處分直接拉低服務與風險維度，因此僅列 B 級下段；處分針對銷售廣告，不等於主管機關已判定建築結構不安全。',
+    sources:[
+      {label:'三境建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/89562123',type:'官方公司資料'},
+      {label:'公平會公處字第 101190 號',url:'https://www.ftc.gov.tw/upload/6a9ef5cf-b5e8-456f-a860-47358accc477.pdf',type:'中央政府處分資料'},
+      {label:'臺北市建造執照資料',url:'https://www-ws.gov.taipei/Download.ashx?icon=..pdf&n=MTExMDkwMeiHszExMjAzMzHmoLjnmbzkuYvlu7rnhacucGRm&u=LzAwMS9VcGxvYWQvNDYxL3JlbGZpbGUvNTg1NTEvODg4NzM4OS9lYzhmYjAyNy0wZTg0LTRkYzQtYmEwMi0xMDllMWE0ZjdhMTgucGRm',type:'臺北市政府資料'},
+    ],
+  },
+  {
+    id:'nianfeng',name:'年豐建設',aliases:['年豐建設'],reviewed:'2026-09-14',confidence:'高',
+    scores:{delivery:84,quality:83,governance:76,service:79,risk:78},
+    summary:'2003 年設立、實收資本額 2.1 億元，官方資料顯示其由工程公司、甲級營造廠發展至建設公司；「有鄰」可由臺北市預售備查資料交叉核對。',
+    caveat:'二十年以上營運、營造整合與可核對完工／推案支持 B 級上段，但財務治理、第三方品質與售後服務成果並未形成足夠完整的定期公開資料，尚不足 A。',
+    sources:[
+      {label:'年豐建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/80547170',type:'官方公司資料'},
+      {label:'年豐建設與松聯營造官方網站',url:'https://nf-cons.com.tw/',type:'建商官方資料'},
+      {label:'臺北市預售建案備查清冊',url:'https://www-ws.gov.taipei/001/Upload/305/relfile/11498/7146725/569ab337-c262-418c-a8a9-3ca08f7cd8a1.pdf',type:'臺北市政府資料'},
+    ],
+  },
 ].map(profile=>{
   const score=profile.scores?weightedScore(profile.scores):null;
   return {...profile,score,rating:profile.rating||ratingFromScore(score)};
