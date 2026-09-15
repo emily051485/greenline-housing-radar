@@ -2409,6 +2409,80 @@ export const developerResearch=[
       {label:'政府預售屋備查資料集',url:'https://data.gov.tw/dataset/176351',type:'官方交易資料'},
     ],
   },
+  {
+    id:'changxin',name:'昌鑫建設開發',aliases:['昌鑫建設開發'],reviewed:'2026-09-14',confidence:'高',
+    scores:{delivery:79,quality:76,governance:68,service:71,risk:50},
+    summary:'2006 年設立，官方公司變更登記與臺北市預售資訊可核對公司、慕溪案及不動產開發信託履約保證。',
+    caveat:'公平會曾認定「大直匯」將商業區建案以一般住宅用語廣告，構成不實、引人錯誤表示並裁罰 80 萬元，因此治理與風險明確扣分；綜合列 B。',
+    sources:[
+      {label:'經濟部公司變更登記清冊',url:'https://serv.gcis.nat.gov.tw/pub/cmpy/reportAction.do?fileName=11302DOC.pdf&method=report&reportClass=cmpy&subPath=11302',type:'官方公司資料'},
+      {label:'公平會公處字第108059號',url:'https://www.ftc.gov.tw/uploadDecision/ba63c0aa-bda7-4884-9987-0b11a7941546.pdf',type:'主管機關裁罰'},
+      {label:'臺北市114年預售備查資訊',url:'https://land.gov.taipei/News.aspx?PageSize=20&n=E8D96FA6BB2B310E&page=2&sms=06A4332DF37FE327',type:'官方交易資料'},
+    ],
+  },
+  {
+    id:'sanle',name:'三樂建設',aliases:['三樂建設'],reviewed:'2026-09-14',confidence:'高',
+    scores:{delivery:82,quality:79,governance:72,service:73,risk:73},
+    summary:'具長期公司與關係企業存續紀錄；臺北市官方建案資料確認三樂為「樂行館」起造人，110建字第0247號、70戶，且負責人五年內無解散不動產開發業紀錄。',
+    caveat:'交付與存續基礎尚可，但非上市櫃公司，品質、售後與治理的公開證據密度有限，暫列 B。',
+    sources:[
+      {label:'經濟部公司登記',url:'https://findbiz.nat.gov.tw/fts/company/29508955',type:'官方公司資料'},
+      {label:'臺北市建案資訊彙整',url:'https://www-ws.gov.taipei/Download.ashx?icon=..pdf&n=MTA5MDEzMeiHszExMTA0Mjnlu7rmoYjos4foqIros4fmlpkucGRm&u=LzAwMS9VcGxvYWQvNDYxL3JlbGZpbGUvNTg1NTEvODYyMjg5MC8xMWI0YmY2Zi04MzMzLTRhZWQtYTU2Ni03MjE3MzVlODQ3OTgucGRm',type:'官方建案資料'},
+      {label:'臺北市預售建案備查清冊',url:'https://www-ws.gov.taipei/001/Upload/305/relfile/11498/7146725/569ab337-c262-418c-a8a9-3ca08f7cd8a1.pdf',type:'官方交易資料'},
+    ],
+  },
+  {
+    id:'laide',name:'錸德建設',aliases:['錸德建設'],reviewed:'2026-09-14',confidence:'中高',
+    scores:{delivery:75,quality:74,governance:68,service:69,risk:71},
+    summary:'2000 年設立、資本額 2,000 萬元；官方公司變更登記及預售備查可確認公司仍營運並推出「錸德文璞」。',
+    caveat:'公司存續逾二十年，但目前可核對的跨案完工品質、售後制度及治理資訊有限，分數僅達 B 級門檻，待取得更多交屋證據再調整。',
+    sources:[
+      {label:'經濟部公司變更登記清冊',url:'https://serv.gcis.nat.gov.tw/pub/cmpy/reportAction.do?fileName=11406NTC.pdf&method=report&reportClass=cmpy&subPath=11406',type:'官方公司資料'},
+      {label:'政府預售屋備查資料集',url:'https://data.gov.tw/dataset/176351',type:'官方交易資料'},
+    ],
+  },
+  {
+    id:'yaoguo',name:'曜國建設',aliases:['曜國建設'],reviewed:'2026-09-14',confidence:'高',
+    scores:{delivery:70,quality:72,governance:68,service:69,risk:73},
+    summary:'2020 年設立，資本額已由 800 萬逐步增至 8,000 萬元；臺北市官方預售資訊確認「曜峰景」由曜國建設申報並採不動產開發信託。',
+    caveat:'公司仍新，曜峰景僅17戶，尚缺足量完工交屋、售後與治理紀錄，依現有證據暫列 C。',
+    sources:[
+      {label:'經濟部公司變更登記清冊',url:'https://serv.gcis.nat.gov.tw/pub/cmpy/reportAction.do?fileName=11012DOC.pdf&method=report&reportClass=cmpy&subPath=11012',type:'官方公司資料'},
+      {label:'臺北市113年預售備查資訊',url:'https://land.gov.taipei/News.aspx?PageSize=20&n=8A62273E3E42E818&page=5&sms=C26A9E324E37B468',type:'官方交易資料'},
+      {label:'臺北市建築工地總檢資料',url:'https://www.arch.org.tw/Content/Files/News/b64124b6467f4565bc917ffd4ae4b791.pdf',type:'主管機關工程資料'},
+    ],
+  },
+  {
+    id:'sanjing',name:'三璟建設',aliases:['三璟建設'],reviewed:'2026-09-14',confidence:'高',
+    scores:{delivery:76,quality:79,governance:69,service:70,risk:72},
+    summary:'2023 年設立、實收資本額 7,000 萬元，三磐建設為法人股東；官方登記與預售備查可確認「三磐橋峯」，專案採 SRC 並配置住友制震壁。',
+    caveat:'可承接三磐建設機構的團隊履歷作為輔助證據，但三璟本身仍是新設法律實體，不能把母體全部實績直接算成自身交付，因此暫列 B。',
+    sources:[
+      {label:'經濟部公司登記',url:'https://findbiz.nat.gov.tw/fts/company/93546316',type:'官方公司資料'},
+      {label:'政府預售屋備查資料集',url:'https://data.gov.tw/dataset/176351',type:'官方交易資料'},
+      {label:'三磐橋峯建案資料',url:'https://www.plex.com.tw/projects/view/id/6616',type:'建案公開資料'},
+    ],
+  },
+  {
+    id:'hongqian',name:'弘千建設',aliases:['弘千建設'],reviewed:'2026-09-14',confidence:'高',
+    scores:{delivery:81,quality:79,governance:72,service:73,risk:75},
+    summary:'1995 年設立、實收資本額 6,000 萬元，公司持續營運近三十年；官方登記及預售備查可核對「大承」案。',
+    caveat:'長期存續提供一定履約基礎，但公開可驗證的跨案品質、售後制度與治理資料仍不充足，暫列 B。',
+    sources:[
+      {label:'經濟部公司登記',url:'https://findbiz.nat.gov.tw/fts/company/89637617',type:'官方公司資料'},
+      {label:'政府預售屋備查資料集',url:'https://data.gov.tw/dataset/176351',type:'官方交易資料'},
+    ],
+  },
+  {
+    id:'hongya',name:'鴻亞建設',aliases:['鴻亞建設'],reviewed:'2026-09-14',confidence:'高',
+    scores:{delivery:77,quality:75,governance:69,service:70,risk:66},
+    summary:'2002 年設立，官方公司登記及預售備查可確認公司與「公園首席」案，具二十年以上公司存續紀錄。',
+    caveat:'實收資本額由 5,000 萬降至 2,900 萬，且公開交屋品質、售後及治理資料有限，風險分數保守；綜合僅達 B 級門檻。',
+    sources:[
+      {label:'經濟部公司登記',url:'https://findbiz.nat.gov.tw/fts/company/80304119',type:'官方公司資料'},
+      {label:'政府預售屋備查資料集',url:'https://data.gov.tw/dataset/176351',type:'官方交易資料'},
+    ],
+  },
 ].map(profile=>{
   const score=profile.scores?weightedScore(profile.scores):null;
   return {...profile,score,rating:profile.rating||ratingFromScore(score)};
