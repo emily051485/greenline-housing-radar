@@ -2717,6 +2717,50 @@ export const developerResearch=[
       {label:'臺北市公司變更登記清冊',url:'https://serv.gcis.nat.gov.tw/pub/cmpy/reportAction.do?fileName=379100000Gchange11402.pdf&method=report&reportClass=cmpyCity&subPath=11402',type:'政府登記資料'},
     ],
   },
+  {
+    id:'xiju',name:'喜琚建築開發',aliases:['喜琚建築開發'],reviewed:'2026-09-14',confidence:'高',
+    scores:{delivery:72,quality:74,governance:70,service:55,risk:55},
+    summary:'2020 年設立、實收資本額 3.13 億元，可由預售與實價資料核對「璽琚」投資興建身分；但臺北市歷年裁罰統計亦列有該公司預售銷售違規案件。',
+    caveat:'資本規模不能抵銷法人年資短、完工售後履歷有限及正式裁罰紀錄；依五維門檻列 C。這是公司層級風險判讀，不代表「璽琚」個別工程品質已被主管機關判定不良。',
+    sources:[
+      {label:'喜琚建築開發公司登記',url:'https://findbiz.nat.gov.tw/fts/company/83611914',type:'官方公司資料'},
+      {label:'臺北市不動產開發業者銷售違規統計',url:'https://www-ws.gov.taipei/Download.ashx?icon=.pdf&n=6ZmE5Lu2LeiHuuWMl%2BW4guatt%2BW5tOijgee9sOS4jeWLleeUoumWi%2BeZvOalreiAhemKt%2BWUrumBleimj%2Be1seioiOWPiuaYjue0sOihqCjlr6blg7nnmbvpjITpmaTlpJYpLTExMzA2Mjjkv64ucGRm&u=LzAwMS9VcGxvYWQvMzA1L3JlbGZpbGUvMC8xMTE4ODYvODE3ZTFkMzItOTQ2ZS00ZDBkLTg0ZWItZmE2YTMwZjU3YzhmLnBkZg%3D%3D',type:'臺北市政府裁罰統計'},
+    ],
+  },
+  {
+    id:'kangsheng',name:'康陞開發',aliases:['康陞開發'],reviewed:'2026-09-14',confidence:'中高',
+    scores:{delivery:78,quality:79,governance:72,service:74,risk:76},
+    summary:'2002 年設立的住宅開發公司，「蘭雅琚－雅集」可由臺北市建照、工地檢查與預售備查資料交叉確認起造、營造及開發信託資訊。',
+    caveat:'官方個案資料完整度尚可，但公司層級的歷年完工作品、品質制度、財務治理及售後成效揭露有限，現列 B 級下段，不因單一高價地段案上調。',
+    sources:[
+      {label:'康陞開發公司登記',url:'https://findbiz.nat.gov.tw/fts/company/80277372',type:'官方公司資料'},
+      {label:'蘭雅琚預售備查與履約保證',url:'https://land.gov.taipei/News.aspx?PageSize=20&n=F32F7D59F5852BC9&page=2&sms=977CB461C1F4F2E8',type:'臺北市政府資料'},
+      {label:'臺北市建照公開資料',url:'https://www-ws.gov.taipei/Download.ashx?icon=..pdf&n=5YWs5ZGK57ay56uZLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvNDYxL3JlbGZpbGUvNjIyMjUvOTE2NTkyMC83ZTFjNmM4MS0yZjJlLTQxMDktOTdkOC03MzY4OGE2ODEyOTkucGRm',type:'臺北市政府資料'},
+    ],
+  },
+  {
+    id:'fengshi',name:'丰實建設',aliases:['丰實建設'],reviewed:'2026-09-14',confidence:'中高',
+    scores:{delivery:70,quality:74,governance:68,service:70,risk:74},
+    summary:'2019 年設立，登記資本額後增至 2,000 萬元；「丰實 VISION ONE」具臺北市預售備查及瑞興銀行不動產開發信託資料，可確認其為實際投資興建者。',
+    caveat:'目前主要證據集中於單一在建預售案，尚未形成完整完工交屋、售後服務及公司治理履歷，因此列 C；有開發信託不等同建商品質或完工由銀行保證。',
+    sources:[
+      {label:'丰實建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/85069232',type:'官方公司資料'},
+      {label:'丰實 VISION ONE 開發信託',url:'https://land.gov.taipei/News_Content.aspx?n=C5E5C63DD6252B3C&s=BE4BF0373F12D04A&sms=9C2D5C5091ACE29B',type:'臺北市政府資料'},
+      {label:'經濟部公司設立登記清冊',url:'https://serv.gcis.nat.gov.tw/pub/cmpy/reportAction.do?fileName=10810ALS.pdf&method=report&reportClass=cmpy&subPath=10810',type:'政府登記資料'},
+    ],
+  },
+  {
+    id:'shizuo',name:'世座建設',aliases:['世座建設'],reviewed:'2026-09-14',confidence:'中高',
+    scores:{delivery:82,quality:80,governance:75,service:78,risk:78},
+    summary:'2005 年設立，登記資本額已增至 1.8 億元；公開資料顯示其關係團隊長期投入雙北集合住宅與都市更新，且「世座友樂町」出現在中央預售屋契約聯合稽查名單。',
+    caveat:'法人年資、資本與團隊完工經驗支持 B 級，但關係企業履歷不能全部歸入世座本身，且缺乏完整的公司級財務、品質及售後績效揭露，尚不足 A。',
+    sources:[
+      {label:'世座建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/27747608',type:'官方公司資料'},
+      {label:'臺北市公司變更登記清冊',url:'https://serv.gcis.nat.gov.tw/pub/cmpy/reportAction.do?fileName=11402DOC.pdf&method=report&reportClass=cmpy&subPath=11402',type:'政府登記資料'},
+      {label:'世座友樂町官方網站',url:'https://srl.tw/Dadaocheng/',type:'建案官方資料'},
+      {label:'預售屋買賣契約聯合稽查結果',url:'https://www.wugu.ntpc.gov.tw/uploaddowndoc?dis=wugu02&file=wugu02%2F202602241537470.pdf&filedisplay=115%E5%B9%B42%E6%9C%88%E6%B6%88%E8%B2%BB%E8%80%85%E5%AE%A3%E5%B0%8E.pdf&flag=doc',type:'中央與地方政府稽查資料'},
+    ],
+  },
 ].map(profile=>{
   const score=profile.scores?weightedScore(profile.scores):null;
   return {...profile,score,rating:profile.rating||ratingFromScore(score)};
