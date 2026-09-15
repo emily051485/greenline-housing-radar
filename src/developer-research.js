@@ -4636,6 +4636,72 @@ export const developerResearch=[
       {label:'公平交易委員會安家 T HOUSE 處分書',url:'https://www.ftc.gov.tw/uploadDecision/9c16a390-8c66-4f7a-a05f-a2a08347aeb7.pdf',type:'官方裁罰資料'},
     ],
   },
+  {
+    id:'yifu-development',name:'怡富開發建設股份有限公司（怡富機構）',aliases:['怡富開發建設股份有限公司','怡富開發建設'],reviewed:'2026-09-14',confidence:'中高',
+    scores:{delivery:82,quality:82,governance:76,service:70,risk:70},
+    summary:'2000 年設立、實收資本額 8,000 萬元，怡富機構官網可核對公司實體、既有業績及「怡富景絵」工程資訊，具持續推案與一定資本基礎。',
+    caveat:'2009 年曾因「時尚之星」廣告不實遭公平交易委員會裁罰，風險分數已扣分；公開售後成效與住戶長期品質資料仍有限，故列 B 而非 A。',
+    sources:[
+      {label:'臺北市建管處建照會議資料（怡富開發）',url:'https://www-ws.gov.taipei/Download.ashx?icon=..pdf&n=MTE0MDEwMeiHszExNDAzMzHmoLjnmbzkuYvlu7rnhact5Zue5aCx5bu6566h6JmV5pys5pyD5pyD5ZOh6ICFLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvODQ1L3JlbGZpbGUvNjUxMzMvOTQxMzMwOC9jOTkwYjJkNi03ZjAzLTQ0MDMtOGViOS0xODg2YjUxMTM5ZTEucGRm',type:'官方建管資料'},
+      {label:'怡富機構官方網站',url:'https://yi-fu.com.tw/',type:'建商官方資料'},
+      {label:'公平交易委員會處分書',url:'https://www.ftc.gov.tw/uploadDecision/357e47b3-4c31-4d0d-b29e-a90a62d7e81e.pdf',type:'官方裁罰資料'},
+    ],
+  },
+  {
+    id:'hongyang-construction',name:'鴻暘建設股份有限公司',aliases:['鴻暘建設股份有限公司','鴻暘建設'],reviewed:'2026-09-14',confidence:'中',
+    scores:{delivery:76,quality:78,governance:72,service:64,risk:76},
+    summary:'2003 年設立、實收資本額 2,600 萬元，住宅開發登記與「青耘上」預售備查、完工社區資料可相互核對，已具一案完整從預售至成屋的履歷。',
+    caveat:'目前可公開交叉驗證的公司作品及售後制度仍不多；「興鴻暘建設」是不同法人，不因名稱相近合併計分，故暫列 B 級下段。',
+    sources:[
+      {label:'經濟部商工登記（鴻暘建設）',url:'https://findbiz.nat.gov.tw/fts/company/80037697',type:'官方公司登記'},
+      {label:'臺北市預售備查（青耘上）',url:'https://land.gov.taipei/News.aspx?PageSize=20&n=B65381CDC625B8D7&page=3&sms=98E2FE72A7A915BD',type:'官方預售備查'},
+      {label:'青耘上完工社區資料',url:'https://buy.cthouse.com.tw/community/20220318165012325.html',type:'成屋公開資料'},
+    ],
+  },
+  {
+    id:'yuanhe-construction',name:'原禾建設股份有限公司（原朋記建設）',aliases:['原禾建設股份有限公司','原禾建設','朋記建設股份有限公司','朋記建設'],reviewed:'2026-09-14',confidence:'高',
+    scores:{delivery:84,quality:82,governance:78,service:76,risk:82},
+    summary:'公司由朋記建設更名為原禾建設，登記資本額 1.6 億元；官方網站說明延續朋記 40 年經驗，並設有自有營造、工程檢驗與售後服務部門。原禾御、原禾賦及原禾呈真等案可交叉核對。',
+    caveat:'本檔以同一法人更名前後名稱合併評分，並非把無法律承接關係的品牌混算；公開住戶售後量化資料仍有限，總分維持 B 級上緣。',
+    sources:[
+      {label:'原禾建設暨原晟營造官方公司簡介',url:'https://ycglobal.com.tw/company/',type:'建商官方資料'},
+      {label:'板信銀行價金信託終止公告（載明更名）',url:'https://www.bop.com.tw/Announcement/AnnouncementDetail?aid=1158&scy=Ann&spe=Personal',type:'金融機構公告'},
+      {label:'原禾呈真建案資料',url:'https://www.rakuya.com.tw/nc_item/info?ehid=04460500160606',type:'建案公開資料'},
+    ],
+  },
+  {
+    id:'kuohuang-development',name:'國皇開發股份有限公司（原國煌建設）',aliases:['國皇開發股份有限公司','國皇開發','國煌建設股份有限公司','國煌建設'],reviewed:'2026-09-14',confidence:'中高',
+    scores:{delivery:82,quality:80,governance:78,service:68,risk:78},
+    summary:'1996 年設立、實收資本額 1.5 億元，2007 年由國煌建設更為現名；公司登記、官方案頁及臺北市契約查核皆可核對「敘文山」的投資興建身分與銷售資訊。',
+    caveat:'集團宣稱的工程履歷涵蓋多種角色，未全部當作國皇自身住宅交付實績；個別售後與長期住戶資料較少，因此列 B 級而未上調。',
+    sources:[
+      {label:'經濟部商工登記（國皇開發）',url:'https://findbiz.nat.gov.tw/fts/company/97106394',type:'官方公司登記'},
+      {label:'國皇開發建案頁',url:'https://www.demo.appscampaign.com/kuo/case.html',type:'建商公開資料'},
+      {label:'臺北市預售契約查核（敘文山）',url:'https://www-ws.gov.taipei/Download.ashx?icon=..pdf&n=6ZmE5Lu2MiDoh7rljJfluIIxMTTlubTnrKwx5a2j6aCQ5ZSu5bu65qGI6LOH6KiK5YuV5oWL5a2j5aCxX%2BWto%2BWgseaRmOimgS5wZGY%3D&u=LzAwMS9VcGxvYWQvMzA1L3JlbGZpbGUvMTAxNjIvOTQwMTIxMC84OGZkNTc0Yi0wMDNjLTRlZmItYjlmZS03NmY4MmQ5NDAxNjUucGRm',type:'官方契約查核'},
+    ],
+  },
+  {
+    id:'hengde-construction',name:'恆德建設股份有限公司',aliases:['恆德建設股份有限公司','恆德建設'],reviewed:'2026-09-14',confidence:'中',
+    scores:{delivery:68,quality:76,governance:72,service:62,risk:76},
+    summary:'2013 年設立，2019 年登記資本額由 210 萬元增至 2,000 萬元；「蔚來之森」已有官方預售備查、建照與近期完工社區資料，可確認公司完成一個住宅案的開發週期。',
+    caveat:'目前公司級可驗證作品集中於單案，且缺少公開售後制度、長期住戶評價及跨案品質資料，故總分 70 分、暫列 C；不因單案已完工直接升為 B。',
+    sources:[
+      {label:'經濟部公司變更登記清冊（恆德建設）',url:'https://serv.gcis.nat.gov.tw/pub/cmpy/reportAction.do?fileName=10807DOC.pdf&method=report&reportClass=cmpy&subPath=10807',type:'官方公司登記'},
+      {label:'臺北市預售備查（蔚來之森）',url:'https://www-ws.gov.taipei/001/Upload/305/relfile/11498/8530909/768ee9b5-63a5-4650-adc2-59b77cba8d82.pdf',type:'官方預售備查'},
+      {label:'蔚來之森成屋資料',url:'https://www.sinyi.com.tw/communitylist/communityinfo/0035617',type:'成屋公開資料'},
+    ],
+  },
+  {
+    id:'xinghongyang-construction',name:'興鴻暘建設股份有限公司',aliases:['興鴻暘建設股份有限公司','興鴻暘建設'],reviewed:'2026-09-14',confidence:'中高',
+    scores:{delivery:84,quality:82,governance:78,service:72,risk:80},
+    summary:'2005 年設立、實收資本額 2.1 億元；可核對春天悅灣、一方圓、寶徠花園、森原樹系列等跨年度完工及興建中作品，新北市公開契約亦明載其為「森原樹．樹之泉」賣方。',
+    caveat:'多數作品為共同投資興建，評分只採可確認的參與履歷，未把合作建商全部成績歸於興鴻暘；售後服務的公開量化資料仍較少，故列 B 級。',
+    sources:[
+      {label:'臺北市公司變更登記清冊（興鴻暘）',url:'https://serv.gcis.nat.gov.tw/pub/cmpy/reportAction.do?fileName=11207DOC.pdf&method=report&reportClass=cmpy&subPath=11207',type:'官方公司登記'},
+      {label:'新北市森原樹樹之泉預售契約',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?icon=..pdf&n=5qOu5Y6f5qi577yO5qi55LmL5rOJLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMS9yZWxmaWxlLzk2NzkvNjM4NjE4LzM1MDdmZDljLTIwMmUtNGIwZi1iMGM2LTlmODdjNjA2Y2UyMC5wZGY%3D',type:'官方預售契約'},
+      {label:'森原建設作品資料（寶徠花園）',url:'https://senyuan.tw/build-case/detail/9',type:'合作建商官方資料'},
+    ],
+  },
 ].map(profile=>{
   const score=profile.scores?weightedScore(profile.scores):null;
   return {...profile,score,rating:profile.rating||ratingFromScore(score)};
@@ -4643,5 +4709,8 @@ export const developerResearch=[
 
 export const findDeveloperResearch=value=>{
   const text=String(value||'');
+  const candidates=text.replace(/^備查起造人：/,'').split(/[／、]/).map(part=>part.trim()).filter(Boolean);
+  const exact=developerResearch.find(profile=>profile.aliases.some(alias=>candidates.some(candidate=>candidate===alias||candidate.startsWith(`${alias}（`))));
+  if(exact)return exact;
   return developerResearch.find(profile=>profile.aliases.some(alias=>text.includes(alias)))||null;
 };
