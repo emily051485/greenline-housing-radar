@@ -4173,6 +4173,52 @@ export const developerResearch=[
       {label:'御上中山建案資料',url:'https://newhouse.591.com.tw/138504',type:'建案公開資料'},
     ],
   },
+  {
+    id:'milestone',name:'基寶建設',aliases:['基寶建設'],reviewed:'2026-09-14',confidence:'中',
+    scores:{delivery:68,quality:78,governance:74,service:64,risk:76},
+    summary:'2012 年設立、實收資本額 6,000 萬元，董監事法人股東包含達城建設等業者；目前可明確核實的主力住宅案為南京復興生活圈都更案「紳藏」，官網另列士林、大安、萬華為後續整合區域。',
+    caveat:'公司存續與資本結構可核實，紳藏亦有制震與都更規劃，但目前官網可辨識的已完工住宅與售後樣本不足；「敬請期待」不能算已完成履歷，因此僅列剛達門檻的 B 級，尚不能因產品規格再向上推升。',
+    sources:[
+      {label:'基寶建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/53826179',type:'經濟部商工登記'},
+      {label:'基寶建設官方網站',url:'https://milestone-pd.com.tw/',type:'建商官方資料'},
+      {label:'基寶建設品牌與都更說明',url:'https://milestone-pd.com.tw/about',type:'建商官方資料'},
+    ],
+  },
+  {
+    id:'kltown',name:'共同建設',aliases:['共同建設'],reviewed:'2026-09-14',confidence:'中高',
+    scores:{delivery:82,quality:84,governance:78,service:68,risk:80},
+    summary:'官方網站列有青喆SOHO、敦南SOHO、華山藝邸、宜蘭光御墅與台中案；其中敦南SOHO為自地自建並獲金石獎，華山藝邸及台中案亦獲設計獎，具多案與完工成果。',
+    caveat:'可確認的作品與設計成果支持 B 級，但官網明確標示華山、宜蘭及台中案屬「全案委託管理」，不能一律視為共同建設獨立投資興建；公開售後制度與長期住戶資料也有限，暫不升 A。',
+    sources:[
+      {label:'共同建設官方網站與實績',url:'https://www.kltown.com/',type:'建商官方實績'},
+      {label:'華山藝邸官方個案',url:'https://www.kltown.com/KLTown/portfolio/portfolio03',type:'建商官方個案'},
+      {label:'光隆集團財務報告',url:'https://klf-group.com/upfiles/chinese/menu11754978724.pdf',type:'關係企業公開財報'},
+    ],
+  },
+  {
+    id:'true-architecture',name:'真實建築',aliases:['真實建築'],reviewed:'2026-09-14',confidence:'中高',
+    scores:{delivery:78,quality:84,governance:78,service:68,risk:80},
+    summary:'2016 年設立，2024 年改制股份有限公司，登記資本總額 6,000 萬元；官方作品頁可確認拾秋、真実永沢、睦月與真実和光等大安及中山區危老／住宅開發，並清楚揭露各案合作建商、建築、結構及營造團隊。',
+    caveat:'已有連續開發作品且專業團隊揭露較完整，列 B 級；但公司本體年資與已交屋樣本仍少，睦月亦為真實建築與四葉建築共同投資，公開售後與財務資料不足以支持 A。',
+    sources:[
+      {label:'真實建築公司登記',url:'https://findbiz.nat.gov.tw/fts/company/52386390',type:'經濟部商工登記'},
+      {label:'真實建築官方作品',url:'https://www.ta-group.com.tw/projects.html',type:'建商官方實績'},
+      {label:'睦月官方個案',url:'https://www.ta-group.com.tw/projects/03.html',type:'建商官方個案'},
+    ],
+  },
+  {
+    id:'yeh-construction',name:'葉財記',aliases:['葉財記工程','葉財記建設'],reviewed:'2026-09-14',confidence:'高',
+    scores:{delivery:92,quality:86,governance:82,service:76,risk:70},
+    summary:'葉財記工程登記可追溯逾六十年，具綜合營造業身分，歷年完成亞洲大廈、鑽石雙星、台大麗園、中鼎大樓等住宅與商辦，亦曾參與中正機場第一航廈；目前愛瑪市由葉財記工程同時擔任起造人與承造人。',
+    caveat:'長期履約與工程整合能力達 A 級，但品牌近年住宅推案量與公開售後制度不如大型上市建商完整；另 2011 至 2013 年有六筆工地廢棄物清理裁罰，金額較小且均已繳清，但仍下修風險分數，因此不列 S。',
+    sources:[
+      {label:'葉財記官方網站',url:'https://www.yehs.com.tw/',type:'建商官方資料'},
+      {label:'葉財記工程公司登記公報',url:'https://serv.gcis.nat.gov.tw/pub/cmpy/reportAction.do?fileName=11308DOC.pdf&method=report&reportClass=cmpy&subPath=11308',type:'經濟部公司登記公報'},
+      {label:'愛瑪市建照施工資料',url:'https://www.arch.org.tw/Content/Files/News/44241633b8bf481b96b2163d124eeb4c.pdf',type:'臺北市建築施工資料'},
+      {label:'葉財記工程裁罰紀錄',url:'https://thaubing.gcaa.org.tw/corp/11776704',type:'環境裁罰資料彙整'},
+      {label:'葉財記歷年代表作品',url:'https://newfrontier.com.tw/2016/09/06/%E5%BE%9E%E7%B8%BD%E7%B5%B1%E6%95%A6%E5%8D%97%E5%AF%93%E6%89%80-%E7%9C%8B%E8%A6%8B%E5%8F%B0%E7%81%A3%E5%BB%BA%E7%AF%89%E5%B7%A8%E6%93%98%E5%93%81%E7%89%8C%E8%91%89%E8%B2%A1%E8%A8%98/',type:'關係企業品牌沿革'},
+    ],
+  },
 ].map(profile=>{
   const score=profile.scores?weightedScore(profile.scores):null;
   return {...profile,score,rating:profile.rating||ratingFromScore(score)};
