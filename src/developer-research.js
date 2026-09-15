@@ -4809,6 +4809,61 @@ export const developerResearch=[
       {label:'臺北市預售備查（成華織心画）',url:'https://land.gov.taipei/News.aspx?PageSize=20&n=E8D96FA6BB2B310E&page=2&sms=06A4332DF37FE327',type:'官方預售備查'},
     ],
   },
+  {
+    id:'jiuyuan-construction',name:'玖原建設股份有限公司',aliases:['玖原建設股份有限公司','玖原建設'],reviewed:'2026-09-14',confidence:'高',
+    scores:{delivery:86,quality:82,governance:82,service:72,risk:82},
+    summary:'2004 年設立、實收資本額 2.9 億元，官方作品集可核對玖原品藏、君喜、君邸、玖原青、富都、香榭、山河悅、玖原和美等跨年度住宅案，具持續推案與較強資本基礎。',
+    caveat:'作品量與公司存續證據充足，但品質制度及售後成效主要缺少獨立量化資料；總分 81 分，維持 B 級上緣。',
+    sources:[
+      {label:'經濟部商工登記（玖原建設）',url:'https://findbiz.nat.gov.tw/fts/company/27338630',type:'官方公司登記'},
+      {label:'玖原建設官方作品集',url:'https://www.jiouyuan.com.tw/product',type:'建商官方資料'},
+      {label:'玖原和美建照與成交資料',url:'https://fangnote.info/2022/%E7%8E%96%E5%8E%9F%E5%92%8C%E7%BE%8E/index.html',type:'建案公開資料'},
+    ],
+  },
+  {
+    id:'jiaxingfa',name:'嘉興發股份有限公司',aliases:['嘉興發股份有限公司','嘉興發'],reviewed:'2026-09-14',confidence:'高',
+    scores:{delivery:80,quality:78,governance:76,service:70,risk:80},
+    summary:'1998 年設立、實收資本額 5,000 萬元，2009 年由嘉興發工程更為現名；官方網站揭露工程與都更履歷，「奇岩綠境」亦有臺北市預售備查及銀行信託目的完成公告。',
+    caveat:'奇岩綠境已完成所有權第一次登記，但公司級跨案品質、售後制度的公開量化資料仍較少；總分 77 分，列 B。',
+    sources:[
+      {label:'經濟部商工登記（嘉興發）',url:'https://findbiz.nat.gov.tw/fts/company/16583868',type:'官方公司登記'},
+      {label:'嘉興發官方網站',url:'https://jsf-group.com/',type:'建商官方資料'},
+      {label:'華泰銀行奇岩綠境信託完成公告',url:'https://www.hwataibank.com.tw/aboutus/aboutus05/4/',type:'金融機構公告'},
+      {label:'臺北市預售備查（奇岩綠境）',url:'https://www-ws.gov.taipei/001/Upload/305/relfile/11498/8530909/768ee9b5-63a5-4650-adc2-59b77cba8d82.pdf',type:'官方預售備查'},
+    ],
+  },
+  {
+    id:'dewang-development',name:'德旺開發建設股份有限公司',aliases:['德旺開發建設股份有限公司','德旺開發建設'],reviewed:'2026-09-14',confidence:'中',
+    scores:{delivery:66,quality:72,governance:72,service:60,risk:74},
+    summary:'2012 年設立、實收資本額 5,500 萬元，登記狀態正常；「旺德福」的投資興建、預售成交與完銷資訊可互相核對。',
+    caveat:'目前公司級可驗證住宅履歷集中於旺德福，缺少跨案交付、工程制度及售後成果；總分 68 分，暫列 C。',
+    sources:[
+      {label:'經濟部商工登記（德旺開發建設）',url:'https://findbiz.nat.gov.tw/fts/company/53767827',type:'官方公司登記'},
+      {label:'旺德福建案公開資料',url:'https://www.wen-hua.com.tw/%E6%97%BA%E5%BE%B7%E7%A6%8F/',type:'建案公開資料'},
+    ],
+  },
+  {
+    id:'dongchi-construction',name:'東其建設股份有限公司',aliases:['東其建設股份有限公司','東其建設'],reviewed:'2026-09-14',confidence:'高',
+    scores:{delivery:84,quality:82,governance:78,service:72,risk:80},
+    summary:'1997 年設立、實收資本額 9,800 萬元，官方網站公開信義 The 1、東其鈺、信義一品、大安御品、中正御品、師大格格及東其駿等作品，並有關係工程團隊的機電專業履歷。',
+    caveat:'公司作品與存續資料可驗證，但「近 40 年零負評」屬公司行銷主張，未當作獨立證據；售後量化資料仍有限，總分 80 分、列 B。',
+    sources:[
+      {label:'經濟部商工登記（東其建設）',url:'https://findbiz.nat.gov.tw/fts/company/16151524',type:'官方公司登記'},
+      {label:'東其建設官方網站與作品集',url:'https://donchibuild.com.tw/index.php',type:'建商官方資料'},
+      {label:'東其駿建照與建案資料',url:'https://newhouse.591.com.tw/140767/detail',type:'建案公開資料'},
+    ],
+  },
+  {
+    id:'bohong-land',name:'柏鴻土地開發建設股份有限公司',aliases:['柏鴻土地開發建設股份有限公司','柏鴻土地開發建設','柏鴻建設'],reviewed:'2026-09-14',confidence:'高',
+    scores:{delivery:84,quality:84,governance:82,service:72,risk:82},
+    summary:'2005 年設立、實收資本額 2.6 億元，資本額歷年持續增加；「柏鴻君臨」為北士科大型 SRC 住宅案，由大陸工程承造，建照、預售成交及臺北市營建優良廠商資料皆可核對。',
+    caveat:'大型案的團隊與資本證據較強，但柏鴻自身跨案住宅交付與售後量化資料仍不足；總分 81 分，列 B 級上緣，未因承造商品牌直接升級。',
+    sources:[
+      {label:'經濟部商工登記（柏鴻土地開發建設）',url:'https://findbiz.nat.gov.tw/fts/company/27722445',type:'官方公司登記'},
+      {label:'臺北市營建優良廠商資料（柏鴻君臨）',url:'https://www-ws.gov.taipei/Download.ashx?icon=..pdf&n=6ZmE6KGo77ya6Ie65YyX5biC54ef5bu65bel5Zyw6YGT6Lev6KqN6aSK5rSX5o6D5Y%2BK56eR5oqA5YyW566h55CG5YSq6Imv5bug5ZWG6KGo5o%2Ba5ZCN5ZauLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMzYzL3JlbGZpbGUvMTAxNjIvOTA5MDU0NC9kOGNkODkwZC1hZDFkLTQ1NGMtOWMxNi05MDA1ZDc2MWQ3NDYucGRm',type:'官方工程資料'},
+      {label:'柏鴻君臨建案資料',url:'https://newhouse.591.com.tw/131506',type:'建案公開資料'},
+    ],
+  },
 ].map(profile=>{
   const score=profile.scores?weightedScore(profile.scores):null;
   return {...profile,score,rating:profile.rating||ratingFromScore(score)};
