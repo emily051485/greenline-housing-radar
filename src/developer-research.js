@@ -4583,6 +4583,59 @@ export const developerResearch=[
       {label:'內政部預售屋備查開放資料',url:'https://data.gov.tw/dataset/176351',type:'政府預售備查'},
     ],
   },
+  {
+    id:'zhuxin-construction',name:'住欣建設股份有限公司（友座機構）',aliases:['住欣建設股份有限公司','住欣建設','友座機構'],reviewed:'2026-09-14',confidence:'中',
+    scores:{delivery:72,quality:76,governance:74,service:66,risk:76},
+    summary:'2007 年設立、實收資本額 2,500 萬元；「友座大學之道」的預售備查、建照與案場資料可相互核對，且公開資料明載住欣建設為友座機構成員。公司已有一定存續年資，但可交叉驗證的完工履歷、售後制度與長期品質資料仍有限。',
+    caveat:'本評等採住欣公司本身的可驗證資料，友座機構關係只作治理與履歷脈絡，不直接套用其他關係企業成績；現階段列 B 級門檻附近。',
+    sources:[
+      {label:'臺北市公司變更登記清冊（住欣建設）',url:'https://serv.gcis.nat.gov.tw/pub/cmpy/reportAction.do?fileName=11301DOC.pdf&method=report&reportClass=cmpy&subPath=11301',type:'官方公司登記'},
+      {label:'臺北市地政局預售屋備查資訊',url:'https://land.gov.taipei/News_Content.aspx?n=C5E5C63DD6252B3C&s=169B7D3898EB203E&sms=9C2D5C5091ACE29B',type:'官方預售備查'},
+      {label:'友座大學之道建案資料',url:'https://newhouse.591.com.tw/140237',type:'建案公開資料'},
+    ],
+  },
+  {
+    id:'xintiancheng-construction',name:'新添成建設股份有限公司（麗第建設集團）',aliases:['新添成建設股份有限公司','新添成建設'],reviewed:'2026-09-14',confidence:'中高',
+    scores:{delivery:82,quality:80,governance:78,service:72,risk:80},
+    summary:'1983 年設立、實收資本額 2,500 萬元；官方案網明載新添成為麗第建設集團旗下關係企業，集團在文山區經營逾 40 年並公開列出多項業績。「天成河悅」建案、基地與集團關係皆可核對。',
+    caveat:'集團年資與作品可作履歷佐證，但個別公司公開的售後服務量化資料仍少，因此未上調至 A 級。',
+    sources:[
+      {label:'經濟部公司變更登記清冊（新添成建設）',url:'https://serv.gcis.nat.gov.tw/pub/cmpy/reportAction.do?fileName=11405DOC.pdf&method=report&reportClass=cmpy&subPath=11405',type:'官方公司登記'},
+      {label:'天成河悅暨麗第建設集團官網',url:'https://lead-stc.com.tw/',type:'建商官方資料'},
+    ],
+  },
+  {
+    id:'hongshuo-development',name:'弘碩開發建設股份有限公司',aliases:['弘碩開發建設股份有限公司','弘碩開發建設'],reviewed:'2026-09-14',confidence:'中',
+    scores:{delivery:58,quality:72,governance:70,service:58,risk:72},
+    summary:'2019 年設立、實收資本額 1,000 萬元，登記狀態正常；目前可明確核對的住宅案以「文山青昀」為主，建商、建照與預售資訊一致，但尚缺足夠完工交付樣本。',
+    caveat:'公司年資與可驗證完工履歷較短，品質及售後分數主要反映制度與公開資料完整度，而非把單一預售案當成交付實績，故暫列 C。',
+    sources:[
+      {label:'經濟部商工登記（弘碩開發建設）',url:'https://findbiz.nat.gov.tw/fts/company/85002578',type:'官方公司登記'},
+      {label:'文山青昀建案資料',url:'https://market.591.com.tw/6545755/overview',type:'建案公開資料'},
+    ],
+  },
+  {
+    id:'huyi-construction',name:'祜益建設股份有限公司',aliases:['祜益建設股份有限公司','祜益建設'],reviewed:'2026-09-14',confidence:'中高',
+    scores:{delivery:86,quality:82,governance:80,service:74,risk:82},
+    summary:'1991 年設立、實收資本額 4.5 億元，長期從事住宅開發；公開紀錄可核對辛亥站聯開、森鄰、寶來及「文山學」等不同時期案件，具跨週期履歷與較強資本基礎。',
+    caveat:'公開可量化的售後服務、住戶長期評價與品質稽核資料仍不足；總分落在 B 級上緣，未只憑年資及資本額跨入 A 級。',
+    sources:[
+      {label:'經濟部商工登記（祜益建設）',url:'https://findbiz.nat.gov.tw/fts/company/86038125',type:'官方公司登記'},
+      {label:'臺北市預售屋契約查核（文山學）',url:'https://www-ws.gov.taipei/Download.ashx?icon=..pdf&n=6Ie65YyX5biCMTE05bm056ysM%2BWto%2BmgkOWUruahiOizh%2BioiuWLleaFi%2BWto%2BWgsV%2FlraPloLHmkZjopoEucGRm&u=LzAwMS9VcGxvYWQvMzA1L3JlbGZpbGUvMTAxNjIvOTUwMzQ3Ni9hYjg3NGQ2OS0wMTQ5LTQ3YjgtODA4MC0wMmI1ZTRiMDE0ZGIucGRm',type:'官方契約查核'},
+      {label:'文山學建案資料',url:'https://newhouse.591.com.tw/139444',type:'建案公開資料'},
+    ],
+  },
+  {
+    id:'anjia-international',name:'安家國際企業股份有限公司',aliases:['安家國際企業股份有限公司','安家國際企業','安家國際'],reviewed:'2026-09-14',confidence:'高',
+    scores:{delivery:88,quality:86,governance:82,service:78,risk:76},
+    summary:'1988 年設立、實收資本額 7 億元，官方網站公開安家湛、安家秀、安家藏玉、幸福安家、安家極渼等跨區作品與規劃案，具長期推案及資本基礎。公司與「安家湛」的建照、基地和產品資料可直接核對。',
+    caveat:'曾有安家 T HOUSE 廣告／銷售資訊相關公平交易處分紀錄，風險維度已反映扣分；A 級代表整體履歷較強，不代表每一案品質或售後均已個別保證。',
+    sources:[
+      {label:'經濟部商工登記（安家國際）',url:'https://findbiz.nat.gov.tw/fts/company/23009622',type:'官方公司登記'},
+      {label:'安家國際官方作品集',url:'https://www.anjia.com.tw/',type:'建商官方資料'},
+      {label:'公平交易委員會安家 T HOUSE 處分書',url:'https://www.ftc.gov.tw/uploadDecision/9c16a390-8c66-4f7a-a05f-a2a08347aeb7.pdf',type:'官方裁罰資料'},
+    ],
+  },
 ].map(profile=>{
   const score=profile.scores?weightedScore(profile.scores):null;
   return {...profile,score,rating:profile.rating||ratingFromScore(score)};

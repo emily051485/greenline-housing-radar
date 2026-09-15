@@ -62,6 +62,7 @@ const verifiedTextCorrections=new Map(Object.entries({
   '松江桓?':'松江．桓榀',
 }));
 const verifiedProjectBuilderCorrections=new Map([
+  ['友座大學之道','備查起造人：住欣建設股份有限公司（友座機構）'],
   ['松捷樂','花樣有限公司（投資興建）'],
   ['青琉','備查起造人：双華建設股份有限公司'],
   ['耕玥','備查起造人：恒緯建設有限公司'],
