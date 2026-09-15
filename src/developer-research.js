@@ -4918,6 +4918,57 @@ export const developerResearch=[
       {label:'華威豐耘官方建案資料',url:'https://case.hiyes.tw/HarvestMansion/index.html',type:'建案官方資料'},
     ],
   },
+  {
+    id:'minkai-construction',name:'民凱建設股份有限公司',aliases:['民凱建設股份有限公司','民凱建設'],reviewed:'2026-09-14',confidence:'中高',
+    scores:{delivery:86,quality:80,governance:78,service:70,risk:80},
+    summary:'1992 年設立、實收資本額 6,000 萬元，長期在雙北從事公寓、透天、華廈、大型社區與都市更新；萬錦可由建照與預售資料確認為其近期住宅案。',
+    caveat:'逾 30 年存續與多類型開發經驗可確認，但公開作品清單、品質制度及售後成果的可核對深度有限；總分 79 分，列 B。',
+    sources:[
+      {label:'經濟部商工登記（民凱建設）',url:'https://findbiz.nat.gov.tw/fts/company/86811112',type:'官方公司登記'},
+      {label:'國家建築金獎廠商資料（民凱建設）',url:'https://formosa21.com.tw/awardview.php?builder_id=4817&ss_id=4817',type:'建築機構資料'},
+    ],
+  },
+  {
+    id:'yungyifong-construction',name:'永邑豐建設股份有限公司',aliases:['永邑豐建設股份有限公司','永邑豐建設','永億豐地產開發股份有限公司'],reviewed:'2026-09-14',confidence:'高',
+    scores:{delivery:82,quality:82,governance:82,service:70,risk:82},
+    summary:'2005 年設立、實收資本額約 1.73 億元；官方網站揭露頂溪大苑及雙北多個都更、危老整合案，新北市核定函也確認其為頂溪大苑都市更新實施者。',
+    caveat:'公司資本與都更執行能力有官方證據，但不少案件仍在整合或審議，不能等同已交付作品；耐震與防水主張亦屬公司說明。總分 80 分，列 B。',
+    sources:[
+      {label:'經濟部商工登記（永邑豐建設）',url:'https://findbiz.nat.gov.tw/fts/company/28037324',type:'官方公司登記'},
+      {label:'永邑豐建設官方案件與工程說明',url:'https://www.yung-yi-fong.com/',type:'建商官方資料'},
+      {label:'新北市政府頂溪大苑都更核定函',url:'https://58bba2fc0e.clvaw-cdnwnd.com/382e2ea6339c4179b6cf8986126b285c/200001849-e1009e100d/%E4%BA%8B%E6%A5%AD%E8%A8%88%E7%95%AB%E6%9A%A8%E6%AC%8A%E5%88%A9%E8%AE%8A%E6%8F%9B%E6%A0%B8%E5%AE%9A%E5%87%BD.pdf?ph=58bba2fc0e',type:'官方都更資料'},
+    ],
+  },
+  {
+    id:'yongbang-development',name:'永邦開發股份有限公司',aliases:['永邦開發股份有限公司','永邦開發'],reviewed:'2026-09-14',confidence:'中',
+    scores:{delivery:70,quality:72,governance:68,service:60,risk:74},
+    summary:'2010 年設立、實收資本額 2,000 萬元，住宅開發與都市更新登記正常；永邦恆美已有建照、預售成交及近期完工資料，可確認一個完整推案。',
+    caveat:'公司規模較小，現階段可公開驗證的住宅履歷集中於永邦恆美，缺少跨案品質與售後資料；總分 69 分，暫列 C。',
+    sources:[
+      {label:'經濟部商工登記（永邦開發）',url:'https://findbiz.nat.gov.tw/fts/company/53185060',type:'官方公司登記'},
+      {label:'永邦恆美建照與建案資料',url:'https://newhouse.591.com.tw/130331?roster_type=1',type:'建案公開資料'},
+    ],
+  },
+  {
+    id:'yongfeng-development',name:'永峰開發建設股份有限公司',aliases:['永峰開發建設股份有限公司','永峰開發建設'],reviewed:'2026-09-14',confidence:'中',
+    scores:{delivery:72,quality:74,governance:76,service:62,risk:76},
+    summary:'2017 年設立，實收資本額已由 1,000 萬元逐步增至 1 億元；永峰上鈺可由建照及建案資料確認投資興建角色。',
+    caveat:'資本成長與個案身分明確，但公司年資較短，公開可核對的完工交付、工程制度與售後履歷仍有限；總分 72 分，達 B 級下緣。',
+    sources:[
+      {label:'經濟部商工登記（永峰開發建設）',url:'https://findbiz.nat.gov.tw/fts/company/52623909',type:'官方公司登記'},
+      {label:'永峰上鈺建案資料',url:'https://market.591.com.tw/5912241/overview',type:'建案公開資料'},
+    ],
+  },
+  {
+    id:'eterjoy-construction',name:'永悅建設股份有限公司',aliases:['永悅建設股份有限公司','永悅建設'],reviewed:'2026-09-14',confidence:'中高',
+    scores:{delivery:68,quality:74,governance:64,service:62,risk:74},
+    summary:'2017 年設立、實收資本額 500 萬元；官方網站可核對永悅天漾及後續泰山塭仔圳規劃案，永悅天漾亦有明確建照與銷售資料。',
+    caveat:'目前資本規模小、可驗證完工交付與跨案售後紀錄有限，後續規劃案不能視為交付實績；總分 68 分，暫列 C。',
+    sources:[
+      {label:'經濟部商工登記（永悅建設）',url:'https://findbiz.nat.gov.tw/fts/company/66826799',type:'官方公司登記'},
+      {label:'永悅建設官方作品集',url:'https://www.eterjoy.com/masterpiece',type:'建商官方資料'},
+    ],
+  },
 ].map(profile=>{
   const score=profile.scores?weightedScore(profile.scores):null;
   return {...profile,score,rating:profile.rating||ratingFromScore(score)};
