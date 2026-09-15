@@ -3151,6 +3151,55 @@ export const developerResearch=[
       {label:'志榮安邸工程與銷售進度',url:'https://newhouse.591.com.tw/139755/dynamic',type:'建案公開資料'},
     ],
   },
+  {
+    id:'riguan',name:'日冠建設',aliases:['日冠建設'],reviewed:'2026-09-14',confidence:'中高',
+    scores:{delivery:81,quality:83,governance:74,service:76,risk:79},
+    summary:'2011 年設立、資本額 5,000 萬元；枝盈已由專業機構執行全案管理、產權管理、工程進度與融資控管，並採用耐震系統。公司自述另有山舉目、仁愛創世紀及信義創世紀等團隊作品。',
+    caveat:'枝盈的工程與履約管理證據完整，品質面優於一般單案公司；但 2011 年以前作品屬公司自述的團隊／前期實績，法人自身的跨案交付與售後揭露仍不足 A 級，故列 B。',
+    sources:[
+      {label:'日冠建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/53555963',type:'經濟部商工資料'},
+      {label:'枝盈全案管理資料',url:'https://www.wellsfuture.com/allprojects/%E6%9E%9D%E7%9B%88',type:'專案管理公司資料'},
+      {label:'枝盈產權與工程管理資料',url:'https://www.chinaremc.com/page/742',type:'產權管理公司資料'},
+      {label:'枝盈耐震系統資料',url:'https://www.dyf.com.tw/archcase2.php?ID=100',type:'工程技術公司資料'},
+      {label:'日冠建設公司與作品介紹',url:'https://www.104.com.tw/company/1a2x6biiet',type:'公司自述資料'},
+    ],
+  },
+  {
+    id:'moreshine',name:'茂勝建設',aliases:['茂勝建設'],reviewed:'2026-09-14',confidence:'中',
+    scores:{delivery:74,quality:77,governance:70,service:71,risk:74},
+    summary:'公司登記可追溯至 2007 年，2018 年登記資本額 2,700 萬元；附中仁的建照、預售備查與完工門牌可交叉核對，官方網站亦持續公開團隊、施工流程及工程進度。',
+    caveat:'附中仁已有完工與交易紀錄，基本履約可驗證；但可公開核對的跨案交付、售後制度、財務治理及長期品質資料仍薄，暫列 B 級低段。',
+    sources:[
+      {label:'茂勝建設公司變更登記清冊',url:'https://serv.gcis.nat.gov.tw/pub/cmpy/reportAction.do?fileName=10709DOC.pdf&method=report&reportClass=cmpy&subPath=10709',type:'經濟部商工資料'},
+      {label:'附中仁官方網站',url:'https://moreshine.com.tw/',type:'公司官方資料'},
+      {label:'附中仁預售備查資料',url:'https://www-ws.gov.taipei/001/Upload/305/relfile/11498/8530909/0d57135f-e666-4ae2-a344-215f708ec3c4.pdf',type:'臺北市政府資料'},
+      {label:'附中仁建照摘要資料',url:'https://www-ws.gov.taipei/Download.ashx?icon=..pdf&n=MTA5MDEzMeiHszExMTA0Mjnlu7rmoYjos4foqIros4fmlpkucGRm&u=LzAwMS9VcGxvYWQvNDYxL3JlbGZpbGUvNTg1NTEvODYyMjg5MC8xMWI0YmY2Zi04MzMzLTRhZWQtYTU2Ni03MjE3MzVlODQ3OTgucGRm',type:'臺北市政府資料'},
+    ],
+  },
+  {
+    id:'yuying',name:'裕英建設',aliases:['裕英建設'],reviewed:'2026-09-14',confidence:'中',
+    scores:{delivery:78,quality:77,governance:70,service:72,risk:76},
+    summary:'2012 年設立且登記狀態正常；青田玉可由建照、預售交易與施工查核資料核對，另有較早建照工程紀錄，顯示並非只出現於單一預售案名。',
+    caveat:'已有至少兩筆工程／建照脈絡且青田玉近期完工，交付證據高於純新設案公司；但資本、跨案作品、售後制度與治理資訊揭露有限，故列 B。',
+    sources:[
+      {label:'裕英建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/53937203',type:'經濟部商工資料'},
+      {label:'青田玉建案與實價資料',url:'https://market.591.com.tw/5938882/overview',type:'實價與建案公開資料'},
+      {label:'裕英建設工程紀錄彙整',url:'https://thaubing.gcaa.org.tw/corp/53937203',type:'政府工程資料彙整'},
+      {label:'青田玉施工查核資料',url:'https://www.arch.org.tw/Content/Files/News/11205e3b68f6436fb0639813936a2aef.pdf',type:'臺北市建築管理資料'},
+    ],
+  },
+  {
+    id:'huowei',name:'樺瑋建設',aliases:['樺瑋建設'],reviewed:'2026-09-14',confidence:'中高',
+    scores:{delivery:78,quality:80,governance:72,service:74,risk:77},
+    summary:'2019 年設立、資本額 3,850 萬元；師大浦玉已取得 114 使字第 0170 號使用執照，官方個案資料公開建照、合作起造人、檢查單位與耐震系統，預售採開發信託。',
+    caveat:'師大浦玉已有正式完工證據且品質與履約資訊相對透明；但法人年資短、目前主要可驗證交付仍集中於單案，長期售後與跨案品質尚待累積，故列 B。',
+    sources:[
+      {label:'樺瑋建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/82834661',type:'經濟部商工資料'},
+      {label:'師大浦玉官方個案資料',url:'https://www.huowei.com.tw/cases-detail/13/',type:'公司官方資料'},
+      {label:'樺瑋建設官方網站',url:'https://www.huowei.com.tw/',type:'公司官方資料'},
+      {label:'師大浦玉預售備查資料',url:'https://land.gov.taipei/News.aspx?n=B65381CDC625B8D7&sms=98E2FE72A7A915BD',type:'臺北市政府資料'},
+    ],
+  },
 ].map(profile=>{
   const score=profile.scores?weightedScore(profile.scores):null;
   return {...profile,score,rating:profile.rating||ratingFromScore(score)};
