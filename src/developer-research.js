@@ -5144,6 +5144,61 @@ export const developerResearch=[
       {label:'寶茂建設官方作品與客服',url:'https://www.baomaobuilding.com/home',type:'合作建商官方資料'},
     ],
   },
+  {
+    id:'lienchin-construction',name:'聯勤建設實業',aliases:['聯勤建設實業股份有限公司','聯勤建設實業','聯勤建設'],reviewed:'2026-09-14',confidence:'中高',
+    scores:{delivery:80,quality:84,governance:76,service:70,risk:78},
+    summary:'2002 年設立、實收資本額 8,000 萬元；「四季嘉禾」官方資料可核對建照、耐震設計、風洞試驗、阻尼器與綠建築目標，工程規格揭露具體。',
+    caveat:'目前可交叉核對的跨案完工履歷、量化售後績效與公開治理資料仍有限，因此不以單一高規格個案推升至 A 級；總分 78 分，列 B 級。',
+    sources:[
+      {label:'經濟部商工登記（聯勤建設實業）',url:'https://findbiz.nat.gov.tw/fts/company/80240946',type:'政府公司資料'},
+      {label:'四季嘉禾官方網站',url:'https://27036606.com/',type:'建案官方資料'},
+    ],
+  },
+  {
+    id:'jihong-construction',name:'佶鴻建設',aliases:['佶鴻建設股份有限公司','佶鴻建設'],reviewed:'2026-09-14',confidence:'中',
+    scores:{delivery:76,quality:78,governance:70,service:68,risk:76},
+    summary:'2004 年設立、實收資本額 2,500 萬元；「玉成大樹」可由建築師與承攬營造資料交叉核對，公開銷售資料亦揭露耐震及防水保固規格。',
+    caveat:'目前主要證據集中於單一小型建案，且長期作品、財務治理與售後成果揭露不足；保固說明屬建案銷售資料，總分 74 分，列 B 級。',
+    sources:[
+      {label:'經濟部商工登記（佶鴻建設）',url:'https://findbiz.nat.gov.tw/fts/company/27329983',type:'政府公司資料'},
+      {label:'玉成大樹建築師作品資料',url:'https://www.lin-arch.com.tw/portfolio/jqVlkfRFhfA5',type:'專業團隊資料'},
+      {label:'德華營造工程實績',url:'https://www.dehwa.com.tw/dh/case_02_detail?id=295&page=1',type:'承攬商資料'},
+    ],
+  },
+  {
+    id:'prosco-construction',name:'興合力建設',aliases:['興合力建設股份有限公司','興合力建設'],reviewed:'2026-09-14',confidence:'中高',
+    scores:{delivery:84,quality:84,governance:80,service:78,risk:82},
+    summary:'2002 年設立、實收資本額 1.2 億元，已有多個住宅作品；官方持續揭露社區售後活動及施工品質觀察，並可核對與同心營造的整合關係。',
+    caveat:'品質與售後資料多為公司自行揭露，尚缺上市櫃公司等級的連續財務、客訴與量化修繕資料；總分 82 分，列 A 級門檻。',
+    sources:[
+      {label:'經濟部商工登記（興合力建設）',url:'https://findbiz.nat.gov.tw/fts/company/79959883',type:'政府公司資料'},
+      {label:'興合力建設最新消息與售後活動',url:'https://www.prosco.com.tw/news/',type:'公司官方資料'},
+      {label:'經濟部商工登記（同心營造）',url:'https://findbiz.nat.gov.tw/fts/company/84348125',type:'政府公司資料'},
+    ],
+  },
+  {
+    id:'hongsheng-construction',name:'宏陞建設',aliases:['宏陞建設股份有限公司','宏陞建設','宏笙建設股份有限公司','宏笙建設'],reviewed:'2026-09-14',confidence:'中',
+    scores:{delivery:68,quality:72,governance:68,service:62,risk:72},
+    summary:'2019 年設立、2022 年由宏笙建設更名；「信義好境」及另一件南港建照可由建案與台北市建管資料核對，已具實際推案紀錄。',
+    caveat:'公司年資短、公開可核對作品仍少，未找到制度化品管、量化售後或連續財務揭露；不因已有建案名稱就推定成熟品牌，總分 68 分，列 C 級。',
+    sources:[
+      {label:'經濟部商工登記（宏陞建設）',url:'https://findbiz.nat.gov.tw/fts/company/82807926',type:'政府公司資料'},
+      {label:'台北市公會會員建照回報資料',url:'https://www-ws.gov.taipei/Download.ashx?icon=..pdf&n=MTEyMDkyN%2BiHszExMjEyMjnmoLjnmbzkuYvlu7rnhact5Zue5aCx5bu6566h6JmV5pys5pyD5pyD5ZOh6ICFLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvNDYxL3JlbGZpbGUvNTg1NTEvOTEzNjYwNC9lM2QzNmFiNy1mNzE4LTQ4OGYtODhhMC03ZjM0ZTgyNWIzNzIucGRm',type:'政府公開資料'},
+      {label:'信義好境建案資料',url:'https://www.plex.com.tw/projects/view/id/2350',type:'建案公開資料'},
+    ],
+  },
+  {
+    id:'nangang-international-one',name:'南港國際一',aliases:['南港國際一股份有限公司','南港國際一'],reviewed:'2026-09-14',confidence:'高',
+    scores:{delivery:84,quality:90,governance:92,service:78,risk:88},
+    summary:'南港調車場都市更新招商案的專案公司，由國泰人壽、三商美邦人壽及華泰大飯店聯盟成立；實收資本額 52 億元，「南港國際 SKYPARK」由大陸工程承攬並有完整官方招商與預售備查資料。',
+    caveat:'專案公司本身缺乏多案交屋與售後歷史，股東、國泰建設參與及大陸工程承攬能提高履約支撐，但不能等同國泰建設品牌的全部紀錄；總分 86 分，列 A 級。',
+    sources:[
+      {label:'經濟部商工登記（南港國際一）',url:'https://findbiz.nat.gov.tw/fts/company/24789040',type:'政府公司資料'},
+      {label:'國土署南港調車場招商開發案',url:'https://twur.nlma.gov.tw/resources/urbancase/experience/%E8%87%BA%E5%8C%97%E5%B8%82%E5%8D%97%E6%B8%AF%E8%AA%BF%E8%BB%8A%E5%A0%B4%E9%83%BD%E5%B8%82%E6%9B%B4%E6%96%B0%E6%8B%9B%E5%95%86%E9%96%8B%E7%99%BC%E6%A1%88.pdf',type:'政府招商資料'},
+      {label:'南港國際 SKYPARK 官方網站',url:'https://www.nangang-skypark.com.tw/',type:'建案官方資料'},
+      {label:'台北市預售屋履約保證資料',url:'https://land.gov.taipei/News_Content.aspx?n=E8D96FA6BB2B310E&s=1D68A4578FD1169F&sms=06A4332DF37FE327',type:'政府預售資料'},
+    ],
+  },
 ].map(profile=>{
   const score=profile.scores?weightedScore(profile.scores):null;
   return {...profile,score,rating:profile.rating||ratingFromScore(score)};
