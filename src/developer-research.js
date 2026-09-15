@@ -3577,6 +3577,55 @@ export const developerResearch=[
       {label:'府中興建案資料',url:'https://tp.housetube.tw/56202',type:'建案公開資料'},
     ],
   },
+  {
+    id:'jiuyu',name:'久煜建設',aliases:['久煜建設'],reviewed:'2026-09-14',confidence:'中高',
+    scores:{delivery:78,quality:75,governance:68,service:68,risk:72},
+    summary:'法人前身 1983 年設立、2014 年更名為久煜建設，目前資本額 4,000 萬元；政府資料可核對竹北國義段集合住宅與樹林久煜青禾等跨縣市建照及開發紀錄。',
+    caveat:'公司存續時間長，但建設品牌階段、可確認完工案量、售後制度及財務治理揭露不算充分；因此僅以政府建照與持續開發能力支持 B 級低段。',
+    sources:[
+      {label:'久煜建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/34575031',type:'經濟部商工登記'},
+      {label:'久煜建設工程紀錄',url:'https://thaubing.gcaa.org.tw/corp/34575031',type:'政府工程資料彙整'},
+      {label:'竹北國義段都市設計審議',url:'https://ws.hsinchu.gov.tw/Download.ashx?n=MTA5MTIzMOesrDU2N%2BasoemDveioreacg%2BitsOe0gOmMhC5wZGY%3D&u=LzAwMS9VcGxvYWQvMjEvcmVsZmlsZS85MTQ0LzIzMjI2OC8yNDRmZDIwNC05ZmU2LTQ0ZDQtYjczYy1mOGE1ZmExNGI3ZDQucGRm',type:'新竹縣政府資料'},
+      {label:'新北市預售屋備查清冊',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?n=MTEw5bm06IezMTE05bm05bey5YKZ5p%2Bl5bu65qGI5riF5YaKLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMzk5L3JlbGZpbGUvODk5My85NDY5L2NkZTQ4OTJkLTQzMzAtNDY3Zi1hYmExLTI3YzJiYjI0MjYxNi5wZGY%3D',type:'政府預售備查'},
+    ],
+  },
+  {
+    id:'jiuyusheng',name:'久裕盛開發建設',aliases:['久裕盛開發建設','久裕盛建設'],reviewed:'2026-09-14',confidence:'中高',
+    scores:{delivery:60,quality:70,governance:66,service:65,risk:72},
+    summary:'2021 年設立、實收資本額 2,900 萬元；靚安具 114 建字第0055號建照、臺北市預售契約備查及華泰銀行開發信託，案址、戶數、產品與預計完工期均可核對。',
+    caveat:'目前主要證據集中於尚未完工的單一 20 戶案，沒有可驗證的跨案交付、長期售後與公開財務治理紀錄；資料透明不等於完成履約，因此暫列 C。',
+    sources:[
+      {label:'久裕盛開發建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/90690744',type:'經濟部商工登記'},
+      {label:'靚安官方預售契約',url:'https://househunt.land.gov.taipei/upload/5.%E9%9D%9A%E5%AE%89.pdf',type:'臺北市政府資料'},
+      {label:'靚安開發信託與備查',url:'https://land.gov.taipei/News_Content.aspx?n=E8D96FA6BB2B310E&s=54C2158DCB9C90AD&sms=06A4332DF37FE327',type:'臺北市政府資料'},
+      {label:'靚安建案與施工時程',url:'https://www.plex.com.tw/projects/view/id/8670',type:'建案公開資料'},
+    ],
+  },
+  {
+    id:'dajia',name:'大家地產／大家營造',aliases:['大家地產','大家營造'],reviewed:'2026-09-14',confidence:'中高',
+    scores:{delivery:78,quality:80,governance:72,service:75,risk:76},
+    summary:'大家營造自 2004 年發展，集團於 2016 年成立大家地產，形成開發、建設與營造垂直整合；官方資料列出首個自建案松蔦青語及第二案松江阡語，後者具耐震、銀級智慧與綠建築標章規劃。',
+    caveat:'垂直整合與已完成首案支持 B 級，但自建品牌案量仍少，私人公司的財務治理、實際售後績效與標章最終取得狀態仍需持續覆核。',
+    sources:[
+      {label:'大家集團沿革與自建案',url:'https://da-jia.com.tw/about/',type:'公司官方資料'},
+      {label:'松江阡語官方建案頁',url:'https://da-jia.com.tw/portfolio/%E6%9D%BE%E6%B1%9F%E9%98%A1%E8%AA%9E/',type:'公司官方資料'},
+      {label:'松江阡語施工資料',url:'https://www.da-jia.com.tw/estate/builddetail/1',type:'公司官方資料'},
+      {label:'松江阡語建照與產品資料',url:'https://dream-house.com.tw/portal_c1_cnt_page.php?button_num=c1&cnt_id=669000&folder_id=99476&owner_num=c1_74088&search_word=&up_page=',type:'建案公開資料'},
+    ],
+  },
+  {
+    id:'joyes',name:'中悅建設',aliases:['中悅建設','中悦建設'],reviewed:'2026-09-14',confidence:'高',
+    scores:{delivery:89,quality:87,governance:75,service:84,risk:82},
+    summary:'1993 年設立、實收資本額 2.03 億元；官方網站可核對林口、蘆洲、桃園、新竹及新莊多個大型住宅與商辦完工作品，中央廣場／栢悅另具官方契約及同業連帶擔保審查紀錄。',
+    caveat:'長期大型案交付、品牌產品力及住戶會員服務達 A 級；但屬私人企業，集團法人分工、完整財務治理、全案品質與售後客訴統計不及 S 級公開程度。',
+    sources:[
+      {label:'中悅建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/84583872',type:'經濟部商工登記'},
+      {label:'中悅建設官方作品',url:'https://www.joyes.com.tw/',type:'公司官方資料'},
+      {label:'中悅麗苑完工作品資料',url:'https://www.joyes.com.tw/scheme_detail.aspx?id=33',type:'公司官方資料'},
+      {label:'中悅中央廣場／栢悅官方契約',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?icon=..pdf&n=5Lit5oKm5Lit5aSu5buj5aC077yb5qCi5oKmLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMS9yZWxmaWxlLzk2NzkvNzQxMTg3L2M5NWY1MTAyLTdkNDQtNDMzZC05NzNjLWIxMzk5MTE4MDdlOC5wZGY%3D',type:'新北市政府資料'},
+      {label:'預售屋同業連帶擔保審查',url:'https://www.archper.org/download.php?id=203&tb=FileLoad',type:'新北市不動產開發公會'},
+    ],
+  },
 ].map(profile=>{
   const score=profile.scores?weightedScore(profile.scores):null;
   return {...profile,score,rating:profile.rating||ratingFromScore(score)};
