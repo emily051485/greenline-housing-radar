@@ -3480,6 +3480,54 @@ export const developerResearch=[
       {label:'國湛預售契約查核結果',url:'https://www.ey.gov.tw/File/61F9FF73D7834818?A=C',type:'行政院消保處資料'},
     ],
   },
+  {
+    id:'chuchen',name:'竹城建設',aliases:['竹城建設'],reviewed:'2026-09-14',confidence:'中高',
+    scores:{delivery:86,quality:83,governance:77,service:76,risk:80},
+    summary:'1996 年設立、實收資本額 12 億元，具近三十年存續紀錄；公司及市場資料可交叉確認桃園、林口等地多個已完工與在售案，履約量體與持續推案能力高於一般單案建商。',
+    caveat:'未上市私人公司，財務、品質稽核與售後維修成效的公開揭露有限；目前證據足以支持 B 級，但不足以把資本額或案量直接視為 A 級品質保證。',
+    sources:[
+      {label:'竹城建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/97127855',type:'經濟部商工登記'},
+      {label:'竹城建設機構建案頁',url:'https://chuchen-mansion.com/web/index.aspx',type:'公司建案資料'},
+      {label:'竹城建設完工案索引',url:'https://www.plex.com.tw/projects/index/type/developer/query/%E7%AB%B9%E5%9F%8E%E5%BB%BA%E8%A8%AD',type:'成屋與交易資料'},
+      {label:'新北市預售屋備查清冊',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?n=MTEw5bm06IezMTE05bm05bey5YKZ5p%2Bl5bu65qGI5riF5YaKLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMzk5L3JlbGZpbGUvODk5My85NDY5L2NkZTQ4OTJkLTQzMzAtNDY3Zi1hYmExLTI3YzJiYjI0MjYxNi5wZGY%3D',type:'政府預售備查'},
+    ],
+  },
+  {
+    id:'chunangyang',name:'全陽建設',aliases:['全陽建設'],reviewed:'2026-09-14',confidence:'中高',
+    scores:{delivery:88,quality:84,governance:73,service:77,risk:82},
+    summary:'1980 年設立、實收資本額 1.5 億元，官方作品頁列有天母、北投、文山、板橋及新店等多個可核對門牌的完工作品；長期存續與跨區交屋紀錄支撐穩健履約評價。',
+    caveat:'私人公司未提供上市公司等級的財務、治理及售後量化資料；官方作品敘述可證明推案履歷，但不能單獨證明每案施工品質與住戶滿意度。',
+    sources:[
+      {label:'全陽建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/30924310',type:'經濟部商工登記'},
+      {label:'全陽建設公司沿革',url:'https://www.chunangyang.com.tw/about.htm',type:'公司揭露'},
+      {label:'全陽建設歷年作品',url:'https://www.chunangyang.com.tw/works.htm',type:'公司作品資料'},
+      {label:'全陽建設目前個案',url:'https://www.chunangyang.com.tw/hot_cases1.htm',type:'公司建案資料'},
+    ],
+  },
+  {
+    id:'hoxin',name:'合新建設',aliases:['合新建設'],reviewed:'2026-09-14',confidence:'中高',
+    scores:{delivery:78,quality:75,governance:69,service:69,risk:68},
+    summary:'2006 年設立、實收資本額 3.5 億元；公開紀錄可核對合新里山紀、合新璞遇、合新詠遇等已完工社區及後續推案，具持續交屋能力。',
+    caveat:'市場資料常將其列為寶佳體系，但缺乏集團層級一致的公開治理與售後品質統計；本評分只採合新法人可驗證紀錄，不把寶佳整體案量直接加分。',
+    sources:[
+      {label:'合新建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/28095251',type:'經濟部商工登記'},
+      {label:'合新建設推案紀錄',url:'https://build.myhousing.com.tw/company/481574/',type:'市場推案資料'},
+      {label:'合新璞遇完工社區資料',url:'https://sinyi.com.tw/communitylist/communityinfo/9022562',type:'成屋與交易資料'},
+      {label:'新北市預售屋備查清冊',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?n=MTEw5bm06IezMTE05bm05bey5YKZ5p%2Bl5bu65qGI5riF5YaKLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMzk5L3JlbGZpbGUvODk5My85NDY5L2NkZTQ4OTJkLTQzMzAtNDY3Zi1hYmExLTI3YzJiYjI0MjYxNi5wZGY%3D',type:'政府預售備查'},
+    ],
+  },
+  {
+    id:'jayshelyn',name:'甲士林建設',aliases:['甲士林建設'],reviewed:'2026-09-14',confidence:'高',
+    scores:{delivery:86,quality:84,governance:76,service:82,risk:66},
+    summary:'2006 年設立、實收資本額 8 億元；政府備查清冊確認其為山河帝寶起造人，公開工程紀錄亦可核對水立方、詠大直等大型專案，並有甲山林集團的建案與客服體系支援。',
+    caveat:'甲士林是獨立法人，不能直接套用上市的愛山林建設評分；另曾因水立方廣告內容遭公平會處分，故風險分明確扣分，維持 B 級而非集團品牌所對應的 A 級。',
+    sources:[
+      {label:'甲士林建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/28006602',type:'經濟部商工登記'},
+      {label:'山河帝寶官方建案資料',url:'https://www.jsl.com.tw/news/280',type:'集團建案資料'},
+      {label:'新北市預售屋備查清冊',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?n=MTEw5bm06IezMTE05bm05bey5YKZ5p%2Bl5bu65qGI5riF5YaKLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMzk5L3JlbGZpbGUvODk5My85NDY5L2NkZTQ4OTJkLTQzMzAtNDY3Zi1hYmExLTI3YzJiYjI0MjYxNi5wZGY%3D',type:'政府預售備查'},
+      {label:'水立方廣告公平會處分',url:'https://www.ftc.gov.tw/uploadDecision/346feb37-16bc-4386-ab0f-d925943a7b9b.pdf',type:'公平交易委員會'},
+    ],
+  },
 ].map(profile=>{
   const score=profile.scores?weightedScore(profile.scores):null;
   return {...profile,score,rating:profile.rating||ratingFromScore(score)};
