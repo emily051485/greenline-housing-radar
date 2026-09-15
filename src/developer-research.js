@@ -11,7 +11,19 @@ export const weightedScore=scores=>Math.round(developerRubric.reduce((sum,item)=
 
 // 預售備查的「起造人」可能是建經、銀行、政府、更新會或自然人；
 // 這些角色不是住宅品牌，不應混入尚待研究的建商統計。
-export const isNonBuilderRole=value=>/建築經理|商業銀行|銀行股份|信託|都市更新會|更新單元.*會|臺北市政府|新北市政府|待選定實施者|自然人|等\s*\d*\s*(?:人|名)|起造人：[^：]{1,6}○○$/.test(String(value||''));
+export const isNonBuilderRole=value=>{
+  const text=String(value||'').trim();
+  if(/建築經理|商業銀行|銀行股份|信託|都市更新會|更新單元.*會|臺北市政府|新北市政府|待選定實施者|自然人|等\s*\d*\s*(?:人|名)|起造人：[^：]{1,6}○○$/.test(text))return true;
+
+  // 備查資料有時直接列出完整自然人姓名、共同起造人或法定監護人。
+  // 僅在「備查起造人」欄且完全沒有法人／建築業名稱特徵時分流，避免把「住欣建設」等四字品牌誤判為姓名。
+  const applicant=text.replace(/^備查起造人：/,'').trim();
+  const hasBusinessIdentity=/(?:股份)?有限公司|建設|開發|營造|實業|地產|企業|機構|法人|財團|政府|銀行|更新會/.test(applicant);
+  const looksLikeNaturalApplicants=/^[\u3400-\u9fff]{2,4}(?:\s*等[一二三四五六七八九十\d]+人)?$/.test(applicant)
+    ||/^[\u3400-\u9fff]{2,4}(?:[、，][\u3400-\u9fff]{2,4})+$/.test(applicant)
+    ||/^[\u3400-\u9fff]{2,4}\s+法定監護人：[\u3400-\u9fff]{2,4}$/.test(applicant);
+  return text.startsWith('備查起造人：')&&!hasBusinessIdentity&&looksLikeNaturalApplicants;
+};
 
 // 分數依公開證據逐項人工判讀，不由品牌名稱、本站案量或既有級別反推。
 // 公司自行揭露的滿意度與制度均明標為「公司揭露」，不可視為獨立品質保證。
