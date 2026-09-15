@@ -11,7 +11,7 @@ export const weightedScore=scores=>Math.round(developerRubric.reduce((sum,item)=
 
 // 預售備查的「起造人」可能是建經、銀行、政府、更新會或自然人；
 // 這些角色不是住宅品牌，不應混入尚待研究的建商統計。
-export const isNonBuilderRole=value=>/建築經理|商業銀行|銀行股份|信託|都市更新會|更新單元.*會|臺北市政府|新北市政府|待選定實施者|自然人|等\s*\d*\s*人/.test(String(value||''));
+export const isNonBuilderRole=value=>/建築經理|商業銀行|銀行股份|信託|都市更新會|更新單元.*會|臺北市政府|新北市政府|待選定實施者|自然人|等\s*\d*\s*(?:人|名)|起造人：[^：]{1,6}○○$/.test(String(value||''));
 
 // 分數依公開證據逐項人工判讀，不由品牌名稱、本站案量或既有級別反推。
 // 公司自行揭露的滿意度與制度均明標為「公司揭露」，不可視為獨立品質保證。
