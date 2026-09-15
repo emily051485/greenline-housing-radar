@@ -3842,6 +3842,54 @@ export const developerResearch=[
       {label:'中山麗池建設與承造團隊',url:'https://newhouse.591.com.tw/134798',type:'建案公開資料'},
     ],
   },
+  {
+    id:'shihtien',name:'世田建築',aliases:['世田建築'],reviewed:'2026-09-14',confidence:'中高',
+    scores:{delivery:80,quality:82,governance:68,service:77,risk:78},
+    summary:'2018 年設立、登記資本額 600 萬元；官方作品脈絡涵蓋敦化南路、忠孝東路、臨沂街等臺北核心區，世田介與世田安皆有落成或使用執照紀錄，世田安並採自售模式。',
+    caveat:'已有可驗證完工作品、設計定位與自售服務能力，達 B 級；但法人資本小、作品數量及跨案保固、售後、財務治理資料公開有限，品牌敘事不能替代品質統計。',
+    sources:[
+      {label:'世田建築公司登記資料',url:'https://www.findcompany.com.tw/%E4%B8%96%E7%94%B0%E5%BB%BA%E7%AF%89%E8%82%A1%E4%BB%BD%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8',type:'經濟部公開資料鏡像'},
+      {label:'世田建築官方網站與作品',url:'https://www.shihtien.com/',type:'公司官方資料'},
+      {label:'世田安使用執照與產品資料',url:'https://market.591.com.tw/5868546/overview',type:'成屋與實價資料'},
+      {label:'世田安推案與自售資料',url:'https://www.an-sin.com.tw/static/an-sin-website/%E3%80%902022%E5%B9%B41%E6%9C%88%E4%BB%BD%E5%B8%82%E5%A0%B4%E7%A0%94%E5%B1%95%E6%9C%88%E5%A0%B1%E3%80%91_compressed.pdf/1659410769576509',type:'市場研究資料'},
+    ],
+  },
+  {
+    id:'taiwan-trump',name:'台灣川普建設',aliases:['台灣川普建設'],reviewed:'2026-09-14',confidence:'高',
+    scores:{delivery:86,quality:86,governance:84,service:81,risk:84},
+    summary:'2004 年設立、目前登記實收資本額 6.8 億元；官方可核對瑞閣、朗朗大安、仁愛 CASA 等核心區作品，並有與宏普、川鈺等共同投資案及臺北市建照紀錄。',
+    caveat:'長期推案、資本規模、多案交付與曾通過同業連帶擔保資格審議支持 A 級；但私人公司的財務、售後保固履行及跨案客訴統計仍不及 S 級透明。',
+    sources:[
+      {label:'台灣川普建設公司登記資料',url:'https://www.findcompany.com.tw/%E5%8F%B0%E7%81%A3%E5%B7%9D%E6%99%AE%E5%BB%BA%E8%A8%AD%E8%82%A1%E4%BB%BD%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8',type:'經濟部公開資料鏡像'},
+      {label:'台灣川普官方作品',url:'https://taiwanchuanpoo.tw/',type:'公司官方資料'},
+      {label:'臺北市建照與預售資料',url:'https://www-ws.gov.taipei/Download.ashx?icon=..pdf&n=MTEzMDcwMeiHszExMzEyMzHmoLjnmbzlu7rnhafkuYvlu7rmoYjos4foqIoucGRm&u=LzAwMS9VcGxvYWQvODQ1L3JlbGZpbGUvNjUxMzMvOTM2NTA3Ny9hMzM1N2U4OC1jMGExLTRmMTgtYjBhYy00ZGU2OTlkODlhNDUucGRm',type:'臺北市政府資料'},
+      {label:'同業連帶擔保資格與完工紀錄',url:'https://www.redat.org.tw/storage/upload/members/109.11.3%E5%AF%A9%E6%A0%B8%E9%80%9A%E9%81%8E%E5%90%8D%E5%96%AE%28%E7%99%BB%E7%B6%B2%29.pdf',type:'不動產開發公會資料'},
+    ],
+  },
+  {
+    id:'holy-development',name:'后麗國際開發投資建設',aliases:['后麗國際開發投資建設','后麗國際開發'],reviewed:'2026-09-14',confidence:'高',
+    scores:{delivery:58,quality:70,governance:62,service:65,risk:60},
+    summary:'2021 年設立的住宅開發公司，后麗昕為目前可驗證的主要案，具正式建照、臺北市預售備查、價金信託及匯源營造承造資料。',
+    caveat:'目前仍是單一在建案，無法驗證交屋品質與長期售後；臺北市 2025 年查核另發現購屋預約單未載明土地面積，雖契約項目符合、嚴重度低於資金信託異常，仍應列入治理風險，暫列 C。',
+    sources:[
+      {label:'后麗昕建照與起造人資料',url:'https://www-ws.gov.taipei/Download.ashx?icon=..pdf&n=MTEzMDEwMeiHszExMzA2MzDmoLjnmbzkuYvlu7rnhact5Zue5aCx5bu6566h6JmV5pys5pyD5pyD5ZOh6ICFLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvODQ1L3JlbGZpbGUvNjUxMzMvOTM0MzIxMy8wZmE4Y2IxMS1lZGRmLTQ3YjctYjgxYi1mMTc5Njg1ODZjMDUucGRm',type:'臺北市政府資料'},
+      {label:'后麗昕價金信託備查',url:'https://land.gov.taipei/News_Content.aspx?n=E8D96FA6BB2B310E&s=1BBDB7D9ECEA9FC9&sms=06A4332DF37FE327',type:'臺北市政府資料'},
+      {label:'預約單與契約查核結果',url:'https://www-ws.gov.taipei/Download.ashx?icon=..pdf&n=6Ie65YyX5biCMTE05bm056ysM%2BWto%2BmgkOWUruW7uuahiOizh%2BioiuWLleaFi%2BWto%2BWgsV%2FlraPloLHmkZjopoEucGRm&u=LzAwMS9VcGxvYWQvMzA1L3JlbGZpbGUvMTAxNjIvOTUwMzQ3Ni9hYjg3NGQ2OS0wMTQ5LTQ3YjgtODA4MC0wMmI1ZTRiMDE0ZGIucGRm',type:'臺北市政府資料'},
+      {label:'后麗昕工程與產品資料',url:'https://www.plex.com.tw/projects/view/id/7851',type:'建案公開資料'},
+    ],
+  },
+  {
+    id:'dibao',name:'地寶建設',aliases:['地寶建設'],reviewed:'2026-09-14',confidence:'高',
+    scores:{delivery:82,quality:79,governance:68,service:75,risk:78},
+    summary:'2007 年設立、登記實收資本額 1,000 萬元；官方網站列出微風碧潭、站前凱悅、雲品川、謙閱、星晴、自由室、画清江等 2009 至 2021 年作品，以及聚泰綻與明明兩筆在建案。',
+    caveat:'長期連續推案與多筆已完成小型住宅支持 B 級；但資本額偏小，作品規模多為 6 至 38 戶，品質規範、售後保固、財務與客訴統計揭露有限，尚不足以列 A。',
+    sources:[
+      {label:'地寶建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/28657359',type:'經濟部商工登記'},
+      {label:'地寶建設官方作品與沿革',url:'https://www.di-wei.com.tw/',type:'公司官方資料'},
+      {label:'地寶明明產品資料',url:'https://www.leju.com.tw/community_list?area=A104&city=A&oid=L57d148977704e8',type:'建案公開資料'},
+      {label:'明明預售公開資料',url:'https://data.gov.tw/dataset/176351',type:'政府開放資料'},
+    ],
+  },
 ].map(profile=>{
   const score=profile.scores?weightedScore(profile.scores):null;
   return {...profile,score,rating:profile.rating||ratingFromScore(score)};
