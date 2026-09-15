@@ -3200,6 +3200,54 @@ export const developerResearch=[
       {label:'師大浦玉預售備查資料',url:'https://land.gov.taipei/News.aspx?n=B65381CDC625B8D7&sms=98E2FE72A7A915BD',type:'臺北市政府資料'},
     ],
   },
+  {
+    id:'radium',name:'日勝生活科技',aliases:['日勝生活科技'],reviewed:'2026-09-14',confidence:'高',
+    scores:{delivery:83,quality:77,governance:78,service:72,risk:64},
+    summary:'1982 年設立、實收資本額逾 103 億元，集團年報可核對建設、營造與營運事業及長期大型開發經驗；日初不老莊園 2 已有建照、預售備查與實價登錄紀錄。',
+    caveat:'大型專案交付與公開財務治理資料充足，但美河市仲裁等重大歷史爭議，以及日初不老莊園銷售資訊曾受公平會處分，明顯拉低風險與服務分，故列 B 而非沿用大型企業光環評 A。',
+    sources:[
+      {label:'日勝生活科技公司登記',url:'https://findbiz.nat.gov.tw/fts/company/12373243',type:'經濟部商工資料'},
+      {label:'日勝生活科技 113 年年報',url:'https://flow.radium.com.tw/files/cynthia/B%E6%8A%95%E8%B3%87%E4%BA%BA%E5%B0%88%E5%8D%80/%E5%B9%B4%E5%A0%B1/%28%E4%B8%8A%E5%82%B3%E6%AA%94%291140421%E6%97%A5%E5%8B%9D%E7%94%9F%E5%B9%B4%E5%A0%B1-%E4%B8%AD%E6%96%87.pdf',type:'公司法定揭露'},
+      {label:'日初不老莊園公平會處分',url:'https://www.ftc.gov.tw/upload/1130514-1120712.pdf',type:'公平交易委員會資料'},
+      {label:'日勝生活科技工程紀錄彙整',url:'https://thaubing.gcaa.org.tw/corp/12373243',type:'政府工程資料彙整'},
+    ],
+  },
+  {
+    id:'jiuyang',name:'九揚開發',aliases:['九揚開發'],reviewed:'2026-09-14',confidence:'中高',
+    scores:{delivery:84,quality:82,governance:76,service:81,risk:80},
+    summary:'九揚建設集團官方資料可追溯至 1989 年並列有跨區作品與售後服務；九揚華樂可由 113 林建字第 00250 號建照、預售備查及大量實價登錄交叉核對。',
+    caveat:'長期推案、整合營造與售後窗口均有資料支持，總分已接近 A；但目前對九揚開發法人本身的完整財務治理、第三方品質與長期客訴處理揭露仍不足，暫列 B 級高段。',
+    sources:[
+      {label:'九揚開發公司登記',url:'https://findbiz.nat.gov.tw/fts/company/54812379',type:'經濟部商工資料'},
+      {label:'九揚建設集團官方介紹',url:'https://www.jug.com.tw/',type:'公司官方資料'},
+      {label:'九揚華樂官方個案資料',url:'https://huayue.wooostock.com/',type:'建案官方資料'},
+      {label:'新北市預售備查清冊',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?n=MTEw5bm06IezMTE05LiK5Y2K5bm05bey5YKZ5p%2Bl5bu65qGI5riF5YaKLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMzk5L3JlbGZpbGUvODk5My85NDY5L2UwZjQwYjRjLTkyMjEtNDliZS1hMzA5LTE0MWExNmQ1MzVlNS5wZGY%3D',type:'新北市政府資料'},
+    ],
+  },
+  {
+    id:'gautai',name:'久泰建設',aliases:['久泰建設'],reviewed:'2026-09-14',confidence:'中高',
+    scores:{delivery:84,quality:84,governance:78,service:80,risk:81},
+    summary:'1990 年設立，官方網站提供約 30 年品牌作品、工程整合與售後窗口；久泰宸品已有建照、預售備查及大量實價登錄，歷年工程紀錄亦可由政府資料交叉核對。',
+    caveat:'公司年資、跨案交付、品質標章與售後制度達 A 級門檻；但非上市櫃公司，財務與治理揭露不及 S 級大型建商，品質獎項也不能取代長期住戶使用證據，故列 A 級入門。',
+    sources:[
+      {label:'久泰建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/23636026',type:'經濟部商工資料'},
+      {label:'久泰建設官方網站',url:'https://www.gautai.com.tw/',type:'公司官方資料'},
+      {label:'久泰營造工程實績',url:'https://www.jtbuilding.com.tw/',type:'關係企業官方資料'},
+      {label:'久泰建設工程紀錄彙整',url:'https://thaubing.gcaa.org.tw/corp/23636026',type:'政府工程資料彙整'},
+    ],
+  },
+  {
+    id:'dahin',name:'大隱開發建設',aliases:['大隱開發建設'],reviewed:'2026-09-14',confidence:'高',
+    scores:{delivery:85,quality:88,governance:81,service:78,risk:82},
+    summary:'2001 年設立、實收資本額 3 億元且長期維持；官方作品可核對藍海、雍河院、海納川與青后等跨期推案，並公開設計理念、合作團隊及客服聯絡方式。',
+    caveat:'二十年以上法人年資、穩定資本與多案交付，加上具辨識度的設計品質，足以列 A；但財務、治理與售後成效公開程度仍不及 S 級上市大型建商，官方獎項敘述亦僅作輔助證據。',
+    sources:[
+      {label:'大隱開發建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/12687531',type:'經濟部商工資料'},
+      {label:'大隱開發官方公司沿革',url:'https://www.dahin.com.tw/about/',type:'公司官方資料'},
+      {label:'大隱開發官方作品資料',url:'https://www.dahin.com.tw/',type:'公司官方資料'},
+      {label:'青后預售備查與實價資料',url:'https://data.gov.tw/dataset/176351',type:'內政部開放資料'},
+    ],
+  },
 ].map(profile=>{
   const score=profile.scores?weightedScore(profile.scores):null;
   return {...profile,score,rating:profile.rating||ratingFromScore(score)};
