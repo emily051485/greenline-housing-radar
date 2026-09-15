@@ -15,7 +15,7 @@ export const isNonBuilderRole=value=>{
   const text=String(value||'').trim();
   // 紀州樂章為地主自主更新案；台灣金融聯合都市更新服務是全案管理服務者，並非投資興建品牌。
   if(/臺?灣金融聯合都市更新服務/.test(text))return true;
-  if(/建築經理|商業銀行|銀行股份|信託|都市更新會|更新單元.*會|臺北市政府|新北市政府|待選定實施者|自然人|等\s*\d*\s*(?:人|名)|起造人：[^：]{1,6}○○$/.test(text))return true;
+  if(/建築經理|建經|商業銀行|銀行股份|信託|都市更新會|更新單元.*會|臺北市政府|新北市政府|待選定實施者|自然人|等\s*\d*\s*(?:人|名)|起造人：[^：]{1,6}○○$/.test(text))return true;
 
   // 備查資料有時直接列出完整自然人姓名、共同起造人或法定監護人。
   // 僅在「備查起造人」欄且完全沒有法人／建築業名稱特徵時分流，避免把「住欣建設」等四字品牌誤判為姓名。
@@ -4911,7 +4911,7 @@ export const developerResearch=[
     id:'worldvista-united',name:'華威聯合股份有限公司',aliases:['華威聯合股份有限公司','華威聯合'],reviewed:'2026-09-14',confidence:'高',
     scores:{delivery:92,quality:86,governance:84,service:78,risk:84},
     summary:'1991 年設立、實收資本額 2.9 億元；集團官方資料列有全台逾 80 個投資興建案，並具聯浩營造、水蓮物業及聯邦保全等關係事業。華威豐耘官方個案亦明確揭露基地、投資興建及設計團隊。',
-    caveat:'跨區域作品量與垂直整合能力明確，但「口碑佳、客戶滿意」屬公司自述，公開售後指標與獨立品質統計仍有限；總分 86 分，列 A，不因案量直接列 S。',
+    caveat:'跨區域作品量與垂直整合能力明確，但「口碑佳、客戶滿意」屬公司自述，公開售後指標與獨立品質統計仍有限；總分 85 分，列 A，不因案量直接列 S。',
     sources:[
       {label:'經濟部商工登記（華威聯合）',url:'https://findbiz.nat.gov.tw/fts/company/86335618',type:'官方公司登記'},
       {label:'華威聯合機構官方沿革與事業體',url:'https://www.wvug.com.tw/',type:'建商官方資料'},
@@ -4967,6 +4967,49 @@ export const developerResearch=[
     sources:[
       {label:'經濟部商工登記（永悅建設）',url:'https://findbiz.nat.gov.tw/fts/company/66826799',type:'官方公司登記'},
       {label:'永悅建設官方作品集',url:'https://www.eterjoy.com/masterpiece',type:'建商官方資料'},
+    ],
+  },
+  {
+    id:'musheng-international',name:'睦昇國際股份有限公司（睦昇營建機構）',aliases:['睦昇國際股份有限公司','睦昇國際','睦昇建設'],reviewed:'2026-09-14',confidence:'高',
+    scores:{delivery:80,quality:84,governance:80,service:78,risk:80},
+    summary:'2015 年設立，實收資本額已增至 1.33 億元；睦昇營建機構官方持續公開多個完工、在建案及社區活動，並揭露三級品管與永久保修制度。睦昇天朗亦可由承造商工程履歷確認。',
+    caveat:'資本與跨案營建履歷明確，但品質、保修制度主要為公司自行揭露，尚缺獨立的長期售後量化結果；總分 81 分，列 B 級上緣。',
+    sources:[
+      {label:'經濟部商工登記（睦昇國際）',url:'https://findbiz.nat.gov.tw/fts/company/42831745',type:'官方公司登記'},
+      {label:'睦昇營建機構官方網站',url:'https://www.musheng.com.tw/',type:'建商官方資料'},
+      {label:'東生營造睦昇天朗工程履歷',url:'https://www.town-set.com/projects-01-091.html',type:'承造商工程資料'},
+    ],
+  },
+  {
+    id:'chiapan-united',name:'嘉磐聯合建設股份有限公司（嘉磐建築團隊）',aliases:['嘉磐聯合建設股份有限公司','嘉磐聯合建設'],reviewed:'2026-09-14',confidence:'高',
+    scores:{delivery:86,quality:86,governance:76,service:72,risk:80},
+    summary:'2012 年設立、實收資本額 2,500 萬元；嘉磐官方作品集可核對台北、台中與彰化多個跨年度住宅案，包含嘉磐日光、嘉磐101、華山雍翠、嘉磐樸樹及嘉磐惠文，並有多項規劃或施工類建築獎項。',
+    caveat:'跨案作品與設計施工獎項較完整，但公司資本規模及售後量化揭露相對有限，獎項也不能替代交屋後品質統計；總分 81 分，列 B 級上緣。',
+    sources:[
+      {label:'經濟部商工登記（嘉磐聯合建設）',url:'https://findbiz.nat.gov.tw/fts/company/53939482',type:'官方公司登記'},
+      {label:'嘉磐建築團隊官方作品集',url:'https://www.chia-pan.com.tw/classic.php',type:'建商官方資料'},
+    ],
+  },
+  {
+    id:'jianhuacheng-construction',name:'建華城建設股份有限公司',aliases:['建華城建設股份有限公司','建華城建設'],reviewed:'2026-09-14',confidence:'中',
+    scores:{delivery:74,quality:72,governance:70,service:62,risk:76},
+    summary:'1997 年設立、實收資本額 2,500 萬元，住宅投資興建登記持續正常；翠嶺2號已由臺北市預售備查確認建設公司及價金信託，個案位置、規模與預計完工資料亦可交叉核對。',
+    caveat:'公司存續時間長，但現階段公開可核對的跨案交付、工程制度與售後資料不足，翠嶺2號也僅六戶；總分 71 分，暫列 C。',
+    sources:[
+      {label:'經濟部商工登記（建華城建設）',url:'https://findbiz.nat.gov.tw/fts/company/97446886',type:'官方公司登記'},
+      {label:'臺北市預售備查（翠嶺2號）',url:'https://land.gov.taipei/News.aspx?PageSize=20&n=E8D96FA6BB2B310E&page=2&sms=06A4332DF37FE327',type:'官方預售備查'},
+      {label:'翠嶺2號建案資料',url:'https://www.plex.com.tw/projects/view/id/9060',type:'建案公開資料'},
+    ],
+  },
+  {
+    id:'qixing-construction',name:'齊興建設股份有限公司（遠雄集團）',aliases:['齊興建設股份有限公司','齊興建設'],reviewed:'2026-09-14',confidence:'高',
+    scores:{delivery:88,quality:86,governance:88,service:84,risk:74},
+    summary:'2020 年設立，實收資本額已增至 23.5 億元，法人股東與董事資料可確認為遠雄集團旗下公司；齊興緻由齊興投資興建、東源營造承造、遠雄房地產銷售，採用集團開發與服務體系。',
+    caveat:'集團資本、工程及售服制度提供較強支撐，但齊興法人本身年資短、首案尚在興建；並承接遠雄集團歷史治理爭議的風險扣分。總分 85 分，列 A，不直接沿用遠雄母品牌分數。',
+    sources:[
+      {label:'經濟部商工登記（齊興建設）',url:'https://findbiz.nat.gov.tw/fts/company/83399390',type:'官方公司登記'},
+      {label:'遠雄房地產齊興緻官方介紹',url:'https://www.farglory-realty.com.tw/life-proposal/ar1-1/',type:'集團官方建案資料'},
+      {label:'遠雄建設股東會資料（齊興董事關係）',url:'https://www.farglory-land.com.tw/wp-content/uploads/2024/05/113%E5%B9%B4%E8%82%A1%E6%9D%B1%E5%B8%B8%E6%9C%83%E8%AD%B0%E4%BA%8B%E6%89%8B%E5%86%8A.pdf',type:'上市公司官方文件'},
     ],
   },
 ].map(profile=>{
