@@ -4081,6 +4081,52 @@ export const developerResearch=[
       {label:'心晴好個案資料',url:'https://www.plex.com.tw/projects/view/id/3518',type:'建案公開資料'},
     ],
   },
+  {
+    id:'judong-development',name:'巨東開發建設',aliases:['巨東開發建設'],reviewed:'2026-09-14',confidence:'中',
+    scores:{delivery:70,quality:74,governance:70,service:62,risk:72},
+    summary:'2016 年設立，2024 年實收資本額增至 3,500 萬元；目前可明確核實的住宅代表案為與安眾建設共同投資興建的中和「藏富HOUSE」，另有官方網站列示「巨東・藏」。公司仍屬推案樣本有限的小型建商。',
+    caveat:'公開資料可確認公司存續、資本與個案身分，但可供檢驗的完工住宅、長期售後及住戶口碑仍少；共同投資個案也不宜把全部工程成果單獨歸於巨東，因此維持 C 級。',
+    sources:[
+      {label:'巨東開發建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/45045447',type:'經濟部商工登記'},
+      {label:'巨東・藏官方個案',url:'https://ju-dong-tw.com/work/%E5%B7%A8%E6%9D%B1%E5%BB%BA%E6%A1%88-%E9%A0%90%E6%8E%A8%E5%80%8B%E6%A1%88/',type:'建商官方個案'},
+      {label:'藏富HOUSE建案資料',url:'https://www.plex.com.tw/projects/view/id/3889',type:'建案公開資料'},
+    ],
+  },
+  {
+    id:'shizhan',name:'市展建設',aliases:['市展建設'],reviewed:'2026-09-14',confidence:'中',
+    scores:{delivery:66,quality:68,governance:68,service:60,risk:55},
+    summary:'2019 年設立、實收資本額 2,500 萬元；新北市地政資料可確認「河樂榮榮」及其建照、土地範圍與起造角色，是目前可核實的主要住宅案。',
+    caveat:'住宅履歷與售後樣本仍很少。2023 年河樂榮榮工地曾因導溝破裂、逕流廢水未妥善導入沉砂池，於 2024 年遭裁罰 3.9 萬元並完成繳納；這是施工現場環境管理紀錄，不等同建築結構瑕疵，但會下修風險治理分數，維持 C 級。',
+    sources:[
+      {label:'市展建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/82809298',type:'經濟部商工登記'},
+      {label:'新店地政河樂榮榮資料',url:'https://www.xindian.land.ntpc.gov.tw/cp.aspx?n=12001',type:'新北市政府地政資料'},
+      {label:'市展建設裁罰紀錄',url:'https://thaubing.gcaa.org.tw/corp/82809298',type:'環境裁罰資料彙整'},
+    ],
+  },
+  {
+    id:'hongsheng-development',name:'弘昇開發建設',aliases:['弘昇開發建設'],reviewed:'2026-09-14',confidence:'中',
+    scores:{delivery:72,quality:76,governance:70,service:64,risk:74},
+    summary:'2016 年設立、實收資本額 2,800 萬元；官方預售契約可確認其為中和「弘暉大禧」賣方，公開工程資料亦顯示弘暉機構具自有營造體系，個案採近千坪基地、黃金級綠建築與耐震規劃。',
+    caveat:'目前可直接歸屬弘昇的代表住宅案仍集中於弘暉大禧，完工後長期品質與售後資料不足；機構關係企業的履歷不能全部等同弘昇自身履歷，因此保守列 C 級。',
+    sources:[
+      {label:'弘昇開發建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/65284851',type:'經濟部商工登記'},
+      {label:'弘暉大禧官方預售契約',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?icon=..pdf&n=5byY5pqJ5aSn56anLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMS9yZWxmaWxlLzk2NzkvNjM3NTYwL2M2YmY2YjViLWRkOWYtNDNhNS04ZjExLWUwOWRlMjMyOGNmOC5wZGY%3D',type:'新北市政府預售契約'},
+      {label:'弘暉機構工程實績',url:'https://honghui-construction.com.tw/Performance.php',type:'機構官方實績'},
+      {label:'弘暉大禧建案資料',url:'https://www.plex.com.tw/projects/view/id/549',type:'建案公開資料'},
+    ],
+  },
+  {
+    id:'hongda',name:'弘達建設',aliases:['弘達建設'],reviewed:'2026-09-14',confidence:'中高',
+    scores:{delivery:78,quality:80,governance:76,service:68,risk:78},
+    summary:'弘振企業於 2017 年成立弘達建設，官方網站可核實弘達陶淵、弘達樂郡、弘達樂居、弘達時敘及企業總部工程等跨住宅與商用履歷；「弘達樂居」亦可由新北市預售備查資料確認建商與價金信託。',
+    caveat:'已有多案及母體工程經驗，足以進入 B 級；但公司規模、住宅交屋量與公開售後資料仍有限，且部分案例屬商用或關係企業工程，不能直接當作大量住宅履約樣本，暫不升 A。',
+    sources:[
+      {label:'弘達建設官方網站',url:'https://hong-da.tw/',type:'建商官方實績'},
+      {label:'弘振企業公司沿革',url:'https://www.oupiin.com.tw/tw/about.php',type:'關係企業官方資料'},
+      {label:'弘達樂居預售備查',url:'https://www.land.ntpc.gov.tw/News.aspx?PageSize=20&n=11769&page=7&sms=9679',type:'新北市政府預售備查'},
+      {label:'弘達建設公司登記異動',url:'https://serv.gcis.nat.gov.tw/pub/cmpy/reportAction.do?fileName=10906TYC.pdf&method=report&reportClass=cmpy&subPath=10906',type:'經濟部公司登記公報'},
+    ],
+  },
 ].map(profile=>{
   const score=profile.scores?weightedScore(profile.scores):null;
   return {...profile,score,rating:profile.rating||ratingFromScore(score)};
