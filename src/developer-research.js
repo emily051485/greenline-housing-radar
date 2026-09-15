@@ -783,6 +783,39 @@ export const developerResearch=[
       {label:'新北市預售屋契約查詢',url:'https://www.land.ntpc.gov.tw/News.aspx?PageSize=20&n=11769&page=8&sms=9679',type:'政府資料'},
     ],
   },
+  {
+    id:'yabo',name:'亞伯土地開發',aliases:['亞伯土地開發'],reviewed:'2026-09-14',confidence:'低',
+    scores:{delivery:68,quality:64,governance:55,service:61,risk:60},
+    summary:'臺北市建築執照施工資料可核對其為兩件信義區住宅案起造人，並可確認承造與監造單位。',
+    caveat:'目前僅能確認起造與在建案，缺少可核實的長期完工、售後、財務治理及品質資料，故列 C 級且維持低信心。',
+    sources:[
+      {label:'臺北市建築執照施工資料',url:'https://www.arch.org.tw/Content/Files/News/44241633b8bf481b96b2163d124eeb4c.pdf',type:'政府資料'},
+      {label:'信義區都市更新案卷',url:'https://www-ws.gov.taipei/001/Upload/public/MMO/URO/%E4%BF%A1%E7%BE%A9%E5%8D%80B0780.pdf',type:'政府案卷'},
+    ],
+  },
+  {
+    id:'tongyi_dev',name:'統一工商綜合區開發',aliases:['統一工商綜合區開發'],reviewed:'2026-09-14',confidence:'中',
+    scores:{delivery:82,quality:76,governance:67,service:71,risk:69},
+    summary:'2002 年設立、實收資本額 26.16 億元；新北市備查清冊與契約可核對城品學苑、日安 PARK、富都馨等案，政府都更文件亦確認實施者身分。',
+    caveat:'公司規模、存續與多案紀錄明確，但非公開發行公司，售後及第三方品質量化資料有限，評為 B 級。',
+    sources:[
+      {label:'經濟部商工登記',url:'https://findbiz.nat.gov.tw/fts/company/13066118',type:'政府資料'},
+      {label:'新北市預售屋備查清冊',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?n=MTEw5bm06IezMTE05bm05bey5YKZ5p%2Bl5bu65qGI5riF5YaKLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMzk5L3JlbGZpbGUvODk5My85NDY5L2NkZTQ4OTJkLTQzMzAtNDY3Zi1hYmExLTI3YzJiYjI0MjYxNi5wZGY%3D',type:'政府資料'},
+      {label:'富都馨預售契約',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?icon=..pdf&n=5a%2BM6YO96aaoLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMS9yZWxmaWxlLzk2NzkvNzM1MjM3LzAxNmNiYWVlLTA4NjMtNDQ2NC1hNDYyLTk0MWI4YjY4N2I1ZS5wZGY%3D',type:'政府資料'},
+    ],
+  },
+  {
+    id:'tajiang',name:'大將開發',aliases:['大將開發'],reviewed:'2026-09-14',confidence:'中高',
+    scores:{delivery:84,quality:78,governance:84,service:72,risk:61},
+    summary:'1978 年設立的上市公司，實收資本額逾 11 億元；官網列有多件完銷建案，公司股東會資料可核對營建收入、銷售及損益。',
+    caveat:'公開治理與長期存續優於一般區域型建商，但近年營建本業曾虧損、推案量不大，風險構面扣分後評為 B 級。',
+    sources:[
+      {label:'經濟部商工登記',url:'https://findbiz.nat.gov.tw/fts/company/07617901',type:'政府資料'},
+      {label:'大將開發建案',url:'https://www.tajiang.com.tw/projects/',type:'建商官網'},
+      {label:'112 年股東會議事錄',url:'https://www.tajiang.com.tw/wp-content/uploads/news/20230619151604271112%E5%B9%B4%E8%82%A1%E6%9D%B1%E6%9C%83%E8%AD%B0%E4%BA%8B%E9%8C%84-%E6%9C%83%E5%BE%8C20%E6%97%A5%E5%85%A7PDF%E6%AA%94.pdf',type:'公司財務資料'},
+      {label:'新莊中原段審議資料',url:'https://www.ntcaa.org.tw/Content/Files/News/a23f58a6904e4dbdbfd5932a6219efca.pdf',type:'政府案卷'},
+    ],
+  },
 ].map(profile=>{
   const score=profile.scores?weightedScore(profile.scores):null;
   return {...profile,score,rating:profile.rating||ratingFromScore(score)};
