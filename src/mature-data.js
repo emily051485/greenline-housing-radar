@@ -58,7 +58,7 @@ export const matureProjects=rawMatureProjects.map(project=>{
   const research=findDeveloperResearch(repaired.builder);
   if(research){
     repaired.rating=research.rating;
-    repaired.ratingBasis=`建商研究 ${research.score} 分（${research.reviewed} 覆核）；評級由履約、工程制度、財務治理、售後保固與風險管理加權推導`;
+    repaired.ratingBasis=research.score==null?`建商研究已覆核（${research.reviewed}）：${research.caveat}`:`建商研究 ${research.score} 分（${research.reviewed} 覆核）；評級由履約、工程制度、財務治理、售後保固與風險管理加權推導`;
   }else if(repaired.rating!=='NR'){
     repaired.rating='NR';
     repaired.ratingBasis='待評估：尚未完成一致口徑的公司級公開資料查核，不以品牌名稱或案量推定等級';

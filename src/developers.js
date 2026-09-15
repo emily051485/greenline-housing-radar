@@ -15,12 +15,12 @@ function render(){
   const minimum=document.querySelector('#developer-rating').value;
   const sort=document.querySelector('#developer-sort').value;
   const result=profiles.filter(profile=>(minimum==='all'||ratingRank[profile.rating]>=ratingRank[minimum])&&(!query||profile.name.toLowerCase().includes(query)));
-  result.sort((a,b)=>sort==='projects'?b.count-a.count:sort==='confidence'?b.sources.length-a.sources.length:sort==='name'?a.name.localeCompare(b.name,'zh-Hant'):b.score-a.score||b.count-a.count);
+  result.sort((a,b)=>sort==='projects'?b.count-a.count:sort==='confidence'?b.sources.length-a.sources.length:sort==='name'?a.name.localeCompare(b.name,'zh-Hant'):(b.score??-1)-(a.score??-1)||b.count-a.count);
   countNode.textContent=result.length;
   empty.hidden=result.length>0;
   cards.innerHTML=result.map(profile=>`<article class="developer-card">
-    <header><span class="grade grade-${profile.rating.toLowerCase()}">${profile.rating}</span><div><h2>${escapeHtml(profile.name)}</h2><small>研究信心 ${profile.confidence} · 本站 ${profile.count} 案</small></div><strong>${profile.score}<small>/100</small></strong></header>
-    <div class="score-bars">${dimensions.map(([label,key])=>`<div><span>${label}<b>${profile.scores[key]}</b></span><i><em style="width:${profile.scores[key]}%"></em></i></div>`).join('')}</div>
+    <header><span class="grade grade-${profile.rating.toLowerCase()}">${profile.rating==='NR'?'—':profile.rating}</span><div><h2>${escapeHtml(profile.name)}</h2><small>研究信心 ${profile.confidence} · 本站 ${profile.count} 案</small></div><strong>${profile.score??'—'}<small>${profile.score==null?'不評分':'/100'}</small></strong></header>
+    <div class="score-bars">${profile.scores?dimensions.map(([label,key])=>`<div><span>${label}<b>${profile.scores[key]}</b></span><i><em style="width:${profile.scores[key]}%"></em></i></div>`).join(''):'<p>集團責任主體無法一致對應，暫不顯示看似精確的維度分數。</p>'}</div>
     <p class="research-summary">${escapeHtml(profile.summary)}</p>
     <p class="research-caveat"><b>判讀限制</b>${escapeHtml(profile.caveat)}</p>
     <div class="research-meta"><span>覆核 ${profile.reviewed}</span>${profile.sources.map(source=>`<a href="${source.url}" target="_blank" rel="noopener">${escapeHtml(source.label)}<small>${escapeHtml(source.type)}</small></a>`).join('')}</div>

@@ -99,9 +99,95 @@ export const developerResearch=[
       {label:'治理與營運',url:'https://www.da-li.com.tw/page/governance-and-operations/',type:'公司揭露'},
     ],
   },
+  {
+    id:'isanlin',name:'甲山林／愛山林',aliases:['甲山林','愛山林'],reviewed:'2026-09-14',confidence:'中高',
+    scores:{delivery:87,quality:82,governance:91,service:81,risk:78},
+    summary:'愛山林為上市公司，具年報、審計委員會與連續永續報告；甲山林集團另具大型開發、代銷及物業整合能力。',
+    caveat:'「甲山林」可能是廣告代銷、集團品牌或投資興建角色，必須按個案確認真正起造人、營造廠及保固責任主體。',
+    sources:[
+      {label:'愛山林公司治理',url:'https://www.isanlin.com/file',type:'公開財報'},
+      {label:'2024 永續報告書',url:'https://www.isanlin.com/files/21.%E6%84%9B%E5%B1%B1%E6%9E%972024%E6%B0%B8%E7%BA%8C%E5%A0%B1%E5%91%8A%E6%9B%B8.pdf?v=3',type:'公司報告'},
+      {label:'甲山林集團概況',url:'https://www.jsl.com.tw/company/overview',type:'公司揭露'},
+    ],
+  },
+  {
+    id:'fabulous',name:'將捷建設',aliases:['將捷股份','將捷建設'],reviewed:'2026-09-14',confidence:'高',
+    scores:{delivery:86,quality:89,governance:87,service:88,risk:82},
+    summary:'建設、營造與資產管理垂直整合，連續發布永續報告；品管、BIM、社區報修及結構保固均有明確揭露。',
+    caveat:'十五年結構保固與其他保固範圍仍應以各案契約為準；集團永續資料不等同單一住宅案的驗屋結果。',
+    sources:[
+      {label:'2024 永續報告書',url:'https://esg.fabulousgroup.com.tw/storage/PDF/FG_2024_ESG_v2.pdf',type:'公司報告'},
+      {label:'歷年報告書',url:'https://esg.fabulousgroup.com.tw/tw/report',type:'公司報告'},
+      {label:'建設團隊與保固',url:'https://www.fabulousgroup.com.tw/team/%E5%B0%87%E6%8D%B7%E5%BB%BA%E8%A8%AD',type:'公司揭露'},
+    ],
+  },
+  {
+    id:'mawder',name:'茂德建設',aliases:['茂德建設'],reviewed:'2026-09-14',confidence:'中',
+    scores:{delivery:86,quality:78,governance:57,service:76,risk:66},
+    summary:'北台灣推案履歷與大型基地經驗可查，部分個案揭露結構、防水保固；公司級治理與量化售服資料較有限。',
+    caveat:'官網大量內容屬品牌或建案行銷，不能與經查證的永續報告等量齊觀，因此治理與風險分數保守。',
+    sources:[
+      {label:'公司與歷年作品',url:'https://www.mawder.com.tw/aboutus',type:'公司揭露'},
+      {label:'建案保固揭露',url:'https://www.mawder.com.tw/news/media/536',type:'公司揭露'},
+      {label:'歷年建案資料',url:'https://www.mawder.com.tw/',type:'公司揭露'},
+    ],
+  },
+  {
+    id:'hanhuang',name:'漢皇開發',aliases:['漢皇開發','漢皇建設'],reviewed:'2026-09-14',confidence:'中低',
+    scores:{delivery:79,quality:76,governance:51,service:72,risk:63},
+    summary:'長期深耕雙和並具開發、營造與售服整合履歷；目前可取得資料以公司品牌與作品介紹為主。',
+    caveat:'缺少可比的財務治理文件、量化售服成效與明確通用保固條款，C 級主要反映證據不足，不代表已證實品質差。',
+    sources:[
+      {label:'公司沿革與作品',url:'https://www.hanhuang.com.tw/about',type:'公司揭露'},
+      {label:'都更與服務流程',url:'https://hanhuang.com.tw/renovations',type:'公司揭露'},
+      {label:'企業責任',url:'https://hanhuang.com.tw/responsibilities',type:'公司揭露'},
+    ],
+  },
+  {
+    id:'duennien',name:'敦年建設',aliases:['敦年建設'],reviewed:'2026-09-14',confidence:'中低',
+    scores:{delivery:79,quality:82,governance:50,service:71,risk:64},
+    summary:'具長期作品履歷並由關係企業久年營造配合，官網列有多筆規劃與施工品質獎項。',
+    caveat:'工程與售後敘述欠缺量化成果，亦缺少上市公司等級的持續財務與風險揭露，因此整體採保守評分。',
+    sources:[
+      {label:'公司理念與獲獎履歷',url:'https://www.duennien.com.tw/about_us',type:'公司揭露'},
+      {label:'久年營造關係企業',url:'https://www.joyear.com/?at=company&cl=company&id=2&md=index',type:'公司揭露'},
+    ],
+  },
+  {
+    id:'yuanshuo',name:'新碩建設',aliases:['新碩建設','遠碩建築團隊'],reviewed:'2026-09-14',confidence:'中',
+    scores:{delivery:77,quality:84,governance:57,service:81,risk:68},
+    summary:'團隊涵蓋建設、甲級營造與機電，公開施作檢驗、工程進度客服、交屋駐點及後續修繕流程。',
+    caveat:'品質與售服資訊主要來自公司官網，尚缺獨立驗證及連續公司級報告，財務治理資訊亦較有限。',
+    sources:[
+      {label:'公司與服務團隊',url:'https://www.yuanshuo.com.tw/about/',type:'公司揭露'},
+      {label:'售後與保固指南',url:'https://www.yuanshuo.com.tw/',type:'公司揭露'},
+      {label:'公司登記資料',url:'https://findbiz.nat.gov.tw/fts/company/27350351',type:'政府資料'},
+    ],
+  },
+  {
+    id:'forworld',name:'馥華集團',aliases:['馥華集團','馥華開發','馥麗建設','馥達建設'],reviewed:'2026-09-14',confidence:'低',
+    scores:{delivery:83,quality:73,governance:46,service:62,risk:57},
+    summary:'1981 年起累積板橋、土城等地作品，但集團旗下多家投資興建公司，公開公司級制度與量化售服資料不足。',
+    caveat:'C 級反映目前公開證據薄弱及責任主體分散，不是對所有馥華個案品質的單一結論；應逐案確認起造與保固公司。',
+    sources:[
+      {label:'集團新聞與開發案',url:'https://www.forworld.com.tw/news/press',type:'公司揭露'},
+      {label:'集團作品年表',url:'https://resource.iyp.tw/static.iyp.tw/40125/files/0c267f7b-8183-466c-9d01-67b90cb7f644.pdf',type:'公司簡介'},
+      {label:'綠建築個案紀錄',url:'https://www.taiwangbc.org.tw/tw/uploads/news/1000/2/3ddc8e5107ad1db5.pdf',type:'第三方紀錄'},
+    ],
+  },
+  {
+    id:'paujar',name:'寶佳機構',aliases:['寶佳機構','寶佳建設'],reviewed:'2026-09-14',confidence:'不足',rating:'NR',
+    scores:null,
+    summary:'已確認為涵蓋大量不同建設公司的機構品牌，但無法取得足以代表所有關係公司的統一品管、售服與財務證據。',
+    caveat:'不做集團總分。寶佳相關建案必須依實際起造公司分開研究；把數十家公司合成 B 或 C 都會造成誤導。',
+    sources:[
+      {label:'立法院公聽會資料',url:'https://lis.ly.gov.tw/pubhearc/ttsbooki?N139396%3A0079-0090%3A_self=',type:'政府紀錄'},
+      {label:'寶佳建設公司概況',url:'https://www.104.com.tw/company/12zcu5eg',type:'公司徵才頁'},
+    ],
+  },
 ].map(profile=>{
-  const score=weightedScore(profile.scores);
-  return {...profile,score,rating:ratingFromScore(score)};
+  const score=profile.scores?weightedScore(profile.scores):null;
+  return {...profile,score,rating:profile.rating||ratingFromScore(score)};
 });
 
 export const findDeveloperResearch=value=>{
