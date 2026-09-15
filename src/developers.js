@@ -9,6 +9,10 @@ const dimensions=developerRubric.map(item=>[item.label,item.key]);
 const cards=document.querySelector('#developer-cards');
 const countNode=document.querySelector('#developer-count');
 const empty=document.querySelector('#developer-empty');
+const ratedProjects=matureProjects.filter(project=>['S','A','B','C'].includes(project.rating)).length;
+document.querySelector('#profile-total').textContent=profiles.length;
+document.querySelector('#rated-project-total').textContent=ratedProjects;
+document.querySelector('#pending-project-total').textContent=matureProjects.filter(project=>project.rating==='NR').length;
 
 function render(){
   const query=document.querySelector('#developer-search').value.trim().toLowerCase();

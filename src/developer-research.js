@@ -137,7 +137,7 @@ export const developerResearch=[
     ],
   },
   {
-    id:'hanhuang',name:'漢皇開發',aliases:['漢皇開發','漢皇建設'],reviewed:'2026-09-14',confidence:'中低',
+    id:'hanhuang',name:'漢皇集團',aliases:['漢皇開發','漢皇建設','漢吉建設'],reviewed:'2026-09-14',confidence:'中低',
     scores:{delivery:79,quality:76,governance:51,service:72,risk:63},
     summary:'長期深耕雙和並具開發、營造與售服整合履歷；目前可取得資料以公司品牌與作品介紹為主。',
     caveat:'缺少可比的財務治理文件、量化售服成效與明確通用保固條款，C 級主要反映證據不足，不代表已證實品質差。',
@@ -372,6 +372,97 @@ export const developerResearch=[
     sources:[
       {label:'義泰建設官網',url:'https://www.itaigroup.com.tw/',type:'公司揭露'},
       {label:'忠泰集團事業體',url:'https://jutgroup.jut.com.tw/',type:'公司揭露'},
+    ],
+  },
+  {
+    id:'sendfuel',name:'聖得福建設',aliases:['聖得福建設開發','聖得福建設'],reviewed:'2026-09-14',confidence:'中高',
+    scores:{delivery:84,quality:83,governance:63,service:80,risk:70},
+    summary:'具可追溯的都更與完工案履歷，並以關係營造公司的連續壁專業及一條龍開發、完工、保固制度作為工程基礎。',
+    caveat:'工程專利、案量與服務敘述主要來自公司官網；缺少連續財報與量化售服成效，因此維持 B 級。',
+    sources:[
+      {label:'品牌、工程與建案實績',url:'https://sendfuel.com/',type:'公司揭露'},
+      {label:'都更實施者公開文件',url:'https://www.ur.org.tw/upload/plan/P09902-10-01-01.pdf',type:'政府公開文件'},
+    ],
+  },
+  {
+    id:'yungsheng',name:'永陞建設',aliases:['永陞建設'],reviewed:'2026-09-14',confidence:'中',
+    scores:{delivery:82,quality:81,governance:60,service:74,risk:68},
+    summary:'2000 年成立，官網可查多個已推及熱銷個案，公司登記與都市更新公開文件可確認責任主體。',
+    caveat:'作品與理念資料多，但售後、品管及風險管理的制度化和量化揭露不足，故保守評為 B。',
+    sources:[
+      {label:'公司與建案作品',url:'https://www.ysred.com.tw/',type:'公司揭露'},
+      {label:'公司登記資料',url:'https://findbiz.nat.gov.tw/fts/company/70480170',type:'政府資料'},
+      {label:'都更公開文件',url:'https://www.ysred.com.tw/wp-content/uploads/2025/03/ysred_1742892268_955.pdf',type:'公開文件'},
+    ],
+  },
+  {
+    id:'sunglory',name:'森鉅建設',aliases:['森鉅建設'],reviewed:'2026-09-14',confidence:'中',
+    scores:{delivery:74,quality:72,governance:55,service:65,risk:61},
+    summary:'官網及新北市預售契約可確認公司、在售／完銷作品與賣方責任主體，並非無法辨識的專案公司。',
+    caveat:'目前公開資料以個案介紹與契約為主，缺少公司級品管、售後績效、財務治理與風險報告，暫列 C。',
+    sources:[
+      {label:'建案實績',url:'https://sun-glory.tw/constrction.php',type:'公司揭露'},
+      {label:'新北市預售契約',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?icon=..pdf&n=5qOu6YmFTSDpgLjlooMucGRm&u=LzAwMS9VcGxvYWQvMS9yZWxmaWxlLzk2NzkvNzMyODg3L2NlMzY0ODZhLTlkN2EtNGJkMC04MDZjLTE4ZDI5MGRiOTZmOC5wZGY%3D',type:'政府公開文件'},
+    ],
+  },
+  {
+    id:'hanshiang',name:'漢翔開發',aliases:['漢翔開發'],reviewed:'2026-09-14',confidence:'中低',
+    scores:{delivery:74,quality:70,governance:55,service:64,risk:62},
+    summary:'新北市備查清冊可核對多個預售案，個案官網也可確認投資興建、建照與專業團隊，具重複推案履歷。',
+    caveat:'未找到完整公司官網、財務治理、品管及量化售後制度；現有證據只足以確認責任主體與推案，暫列 C。',
+    sources:[
+      {label:'新北預售備查清冊',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?n=MTEw5bm06IezMTE05bm05bey5YKZ5p%2Bl5bu65qGI5riF5YaKLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMzk5L3JlbGZpbGUvODk5My85NDY5L2NkZTQ4OTJkLTQzMzAtNDY3Zi1hYmExLTI3YzJiYjI0MjYxNi5wZGY%3D',type:'政府資料'},
+      {label:'國王大道建案資料',url:'https://king.debang.tw/',type:'個案官方網站'},
+    ],
+  },
+  {
+    id:'tiehkuan',name:'鐵冠建設',aliases:['鐵冠建設'],reviewed:'2026-09-14',confidence:'中低',
+    scores:{delivery:67,quality:63,governance:58,service:59,risk:60},
+    summary:'經濟部登記、新北市預售契約與都更資料可確認公司存續、賣方責任及至少兩個開發案件。',
+    caveat:'缺少品牌官網、歷年完整作品、工程品管與售後制度資料；C 僅代表已確認開發主體，不代表品質背書。',
+    sources:[
+      {label:'公司登記資料',url:'https://findbiz.nat.gov.tw/fts/company/24759876',type:'政府資料'},
+      {label:'新北市預售契約',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?icon=..pdf&n=5ryr5rS75pmC5LujMi5wZGY%3D&u=LzAwMS9VcGxvYWQvMS9yZWxmaWxlLzk2NzkvNjM5NzY2LzQ3NjBkMmVjLTI3ZjYtNDUzNC05YWYxLTViNzQ0NDBkMjhjNy5wZGY%3D',type:'政府公開文件'},
+      {label:'新北都更公開資料',url:'https://www.uro.ntpc.gov.tw/Announce/Detail/82b66fd6-4e3e-4c15-a055-c36b631de2a3',type:'政府資料'},
+    ],
+  },
+  {
+    id:'yuetai',name:'岳泰建設',aliases:['岳泰建設'],reviewed:'2026-09-14',confidence:'中',
+    scores:{delivery:76,quality:78,governance:57,service:68,risk:64},
+    summary:'官方網站列出興建中住宅、危老與都更案件，並說明規劃分析與專業顧問服務，具可辨識的持續推案能力。',
+    caveat:'公司級財務、工程查驗、保固流程與售後績效揭露有限，故現階段保守評為 B 級下緣。',
+    sources:[
+      {label:'公司、建案與都更資料',url:'https://www.yuetai-const.com.tw/',type:'公司揭露'},
+    ],
+  },
+  {
+    id:'joyearland',name:'久年置地',aliases:['久年置地'],reviewed:'2026-09-14',confidence:'中高',
+    scores:{delivery:85,quality:87,governance:68,service:86,risk:76},
+    summary:'具自有營造體系、BIM 與可追溯作品，並公開建築生產履歷、施工監看、驗交屋、20 年主結構及防水保固等具體承諾。',
+    caveat:'保固與施工制度為公司及個案自行揭露，未取得完整公開財報或第三方長期售服統計，故維持 A 級下緣。',
+    sources:[
+      {label:'久年置地官網',url:'https://www.joyearland.com/',type:'公司揭露'},
+      {label:'十大品質與保固承諾',url:'https://joyearprivilege.joyearland.com.tw/',type:'個案官方網站'},
+    ],
+  },
+  {
+    id:'shinlan',name:'欣聯建設',aliases:['欣聯建設開發','欣聯建設'],reviewed:'2026-09-14',confidence:'中',
+    scores:{delivery:81,quality:80,governance:60,service:78,risk:68},
+    summary:'公司與合聯營造形成規劃至施工的一條龍體系，官網可查熱銷、經典及都更個案，也提供明確客戶聯絡管道。',
+    caveat:'獎項與品質敘述主要由公司自行發布，缺少連續財務、第三方工程驗證與量化售服資料，暫列 B。',
+    sources:[
+      {label:'公司、營造與建案資料',url:'https://www.shin-lan.com/',type:'公司揭露'},
+    ],
+  },
+  {
+    id:'shengwang',name:'勝旺建設',aliases:['勝旺建設'],reviewed:'2026-09-14',confidence:'中',
+    scores:{delivery:85,quality:76,governance:59,service:72,risk:67},
+    summary:'2005 年起持續推案，官網列出二十餘個跨年度作品，公司登記資料亦可確認資本與存續狀態。',
+    caveat:'作品履歷清楚，但工程品質制度、保固流程、財務治理與客訴績效公開不足，故保守評為 B。',
+    sources:[
+      {label:'歷年建案作品',url:'https://www.shengwang.tw/classic_case.aspx',type:'公司揭露'},
+      {label:'品牌介紹',url:'https://shengwang.tw/about.html',type:'公司揭露'},
+      {label:'公司登記資料',url:'https://findbiz.nat.gov.tw/fts/company/27603172',type:'政府資料'},
     ],
   },
 ].map(profile=>{
