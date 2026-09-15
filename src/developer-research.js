@@ -2097,6 +2097,96 @@ export const developerResearch=[
       {label:'共同工地環境裁處彙整',url:'https://thaubing.gcaa.org.tw/corp/54735465',type:'政府資料彙整'},
     ],
   },
+  {
+    id:'lexuan',name:'樂軒開發建設',aliases:['樂軒開發建設'],reviewed:'2026-09-14',confidence:'高',
+    scores:{delivery:72,quality:74,governance:69,service:68,risk:72},
+    summary:'2021 年設立，目前實收資本額 1 億元；政府備查契約與清冊可核對立軒天翠、天玥及天語等案件。',
+    caveat:'具集團開發團隊與連續推案，但樂軒法人本身成立時間短，已交付年期、售後及第三方品質成效仍不足，現階段評為 C 級。',
+    sources:[
+      {label:'經濟部公司登記',url:'https://findbiz.nat.gov.tw/fts/company/90568693',type:'政府資料'},
+      {label:'新北市公司變更登記清冊',url:'https://serv.gcis.nat.gov.tw/pub/cmpy/reportAction.do?fileName=11501NTC.pdf&method=report&reportClass=cmpy&subPath=11501',type:'政府資料'},
+      {label:'立軒天翠預售契約',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?icon=..pdf&n=56uL6LuS5aSp546lLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMS9yZWxmaWxlLzk2NzkvNjc5Nzg0LzdhY2QxZTg5LTAyODItNDg4MC05OWU1LWNmOWIzMjBmM2MyOC5wZGY%3D',type:'政府資料'},
+      {label:'新北市預售屋備查清冊',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?n=MTEw5bm06IezMTE05bm05bey5YKZ5p%2Bl5bu65qGI5riF5YaKLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMzk5L3JlbGZpbGUvODk5My85NDY5L2NkZTQ4OTJkLTQzMzAtNDY3Zi1hYmExLTI3YzJiYjI0MjYxNi5wZGY%3D',type:'政府資料'},
+    ],
+  },
+  {
+    id:'lipeng',name:'立鵬資產',aliases:['立鵬資產'],reviewed:'2026-09-14',confidence:'高',
+    scores:{delivery:80,quality:76,governance:72,service:70,risk:48},
+    summary:'2016 年設立，為長耀機構推案法人；官方備查與公開建案資料可核對長耀 i PARK、長耀里、長耀初及長耀挹品等案。',
+    caveat:'具集團跨案開發與交付基礎，但不能直接承接長耀建設全部履歷；長耀挹品曾因公共設施廣告不實遭公平會裁罰，已明顯下修風險分，評為 B 級。',
+    sources:[
+      {label:'經濟部公司登記',url:'https://findbiz.nat.gov.tw/fts/company/55861621',type:'政府資料'},
+      {label:'公平會行政決定',url:'https://www.ftc.gov.tw/upload/1090924-19.pdf',type:'政府資料'},
+      {label:'新北市預售屋備查清冊',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?n=MTEw5bm06IezMTE05bm05bey5YKZ5p%2Bl5bu65qGI5riF5YaKLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMzk5L3JlbGZpbGUvODk5My85NDY5L2NkZTQ4OTJkLTQzMzAtNDY3Zi1hYmExLTI3YzJiYjI0MjYxNi5wZGY%3D',type:'政府資料'},
+      {label:'立鵬工程列管資料',url:'https://thaubing.gcaa.org.tw/corp/55861621',type:'政府資料彙整'},
+    ],
+  },
+  {
+    id:'zhengyuan',name:'證源建設',aliases:['證源建設'],reviewed:'2026-09-14',confidence:'高',
+    scores:{delivery:76,quality:73,governance:65,service:67,risk:70},
+    summary:'1997 年設立，目前實收資本額 2,500 萬元；政府預售備查可核對證源富承與富匠兩案。',
+    caveat:'法人年期長且有近期推案，但可公開核對的歷年作品、品質制度、治理及售後成效有限，現階段評為 C 級。',
+    sources:[
+      {label:'經濟部公司登記',url:'https://findbiz.nat.gov.tw/fts/company/97417088',type:'政府資料'},
+      {label:'新北市預售屋備查清冊',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?n=MTEw5bm06IezMTE05bm05bey5YKZ5p%2Bl5bu65qGI5riF5YaKLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMzk5L3JlbGZpbGUvODk5My85NDY5L2NkZTQ4OTJkLTQzMzAtNDY3Zi1hYmExLTI3YzJiYjI0MjYxNi5wZGY%3D',type:'政府資料'},
+    ],
+  },
+  {
+    id:'senbao',name:'森寶開發',aliases:['森寶開發'],reviewed:'2026-09-14',confidence:'高',
+    scores:{delivery:86,quality:82,governance:84,service:78,risk:76},
+    summary:'1991 年設立、上櫃公司（3489），目前實收資本額約 9.05 億元；政府備查可核對森聯上上謙，並透過子公司形成開發、營造體系。',
+    caveat:'資本、公開治理及集團執行能力優於一般區域建商，但近年公司治理評鑑為 41%–60%，住宅品質與售後成效仍需逐案查驗，評為 A 級。',
+    sources:[
+      {label:'經濟部公司登記',url:'https://findbiz.nat.gov.tw/fts/company/86140894',type:'政府資料'},
+      {label:'證交所公司治理評鑑結果',url:'https://cgc.twse.com.tw/static/20260430/8a828e179dd8817f019ddd4b86530000_114%E5%B9%B4%28%E7%AC%AC%E5%8D%81%E4%BA%8C%E5%B1%86%29%E5%85%AC%E5%8F%B8%E6%B2%BB%E7%90%86%E8%A9%95%E9%91%91%E7%B3%BB%E7%B5%B1%E8%A9%95%E9%91%91%E7%B5%90%E6%9E%9C%E6%9A%A8%E8%A9%95%E9%91%91%E7%A8%8B%E5%BA%8F%E8%AA%AA%E6%98%8E.pdf',type:'政府資料'},
+      {label:'新北市預售屋備查清冊',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?n=MTEw5bm06IezMTE05bm05bey5YKZ5p%2Bl5bu65qGI5riF5YaKLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMzk5L3JlbGZpbGUvODk5My85NDY5L2NkZTQ4OTJkLTQzMzAtNDY3Zi1hYmExLTI3YzJiYjI0MjYxNi5wZGY%3D',type:'政府資料'},
+      {label:'森治預售契約',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?icon=..pdf&n=5qOu6IGv5LiK5LiK6KyZKOajruayuykucGRm&u=LzAwMS9VcGxvYWQvMS9yZWxmaWxlLzk2NzkvNjc5ODk3L2NmMTA3NTE0LTU2ZDYtNGM2NC05NzU3LTNhNWIyZGNmMWNlOC5wZGY%3D',type:'政府資料'},
+    ],
+  },
+  {
+    id:'yichang',name:'頤昌建設',aliases:['頤昌建設'],reviewed:'2026-09-14',confidence:'高',
+    scores:{delivery:83,quality:84,governance:70,service:84,risk:76},
+    summary:'2011 年設立、實收資本額 4,000 萬元；官網列出謙學、璞心苑、詠萃、耘萃、豐岳、璞岳與澄岳等作品，並設有交屋售後專線。',
+    caveat:'跨案交付與十年以上防水保固承諾具辨識度，但治理及售後成果多為公司自行揭露，外部量化品質證據仍不足，評為 B 級。',
+    sources:[
+      {label:'經濟部公司登記',url:'https://findbiz.nat.gov.tw/fts/company/53605106',type:'政府資料'},
+      {label:'頤昌建設歷年作品',url:'https://www.e-c-architecture.com.tw/works.php',type:'建商官網'},
+      {label:'頤昌建設官網',url:'https://www.e-c-architecture.com.tw/index.php',type:'建商官網'},
+      {label:'頤昌柏舍預售契約',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?icon=..pdf&n=6aCk5piM5p%2BP6IiNLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMS9yZWxmaWxlLzk2NzkvNjgwNDEyLzhlNTc1ODE4LWE1MjMtNDc5NS05ZmM3LTZlODRlODFhNzQ0Ni5wZGY%3D',type:'政府資料'},
+    ],
+  },
+  {
+    id:'xingrong',name:'興榮建設',aliases:['興榮建設'],reviewed:'2026-09-14',confidence:'高',
+    scores:{delivery:78,quality:75,governance:66,service:68,risk:72},
+    summary:'2008 年設立、實收資本額 5,000 萬元；政府備查清冊可核對雙捷大院（輔大院）與地景新世代。',
+    caveat:'已有近期完工及在建案件，但可公開核對的長期作品、品質制度、治理與售後資料仍有限，評為 B 級門檻。',
+    sources:[
+      {label:'經濟部公司登記',url:'https://findbiz.nat.gov.tw/fts/company/24230501',type:'政府資料'},
+      {label:'新北市預售屋備查清冊',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?n=MTEw5bm06IezMTE05bm05bey5YKZ5p%2Bl5bu65qGI5riF5YaKLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMzk5L3JlbGZpbGUvODk5My85NDY5L2NkZTQ4OTJkLTQzMzAtNDY3Zi1hYmExLTI3YzJiYjI0MjYxNi5wZGY%3D',type:'政府資料'},
+    ],
+  },
+  {
+    id:'xingge',name:'興格建設',aliases:['興格建設'],reviewed:'2026-09-14',confidence:'高',
+    scores:{delivery:79,quality:78,governance:67,service:69,risk:74},
+    summary:'2005 年設立；政府契約與備查資料可核對天生卓閱、興格御賞，另有住宅案取得候選綠建築合格級。',
+    caveat:'具跨案及近二十年法人年期，但公開治理、售後與第三方品質資料仍不完整；綠建築證書屬單案證據，評為 B 級。',
+    sources:[
+      {label:'經濟部公司登記',url:'https://findbiz.nat.gov.tw/fts/company/27780916',type:'政府資料'},
+      {label:'天生卓閱預售契約',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?icon=..pdf&n=5aSp55Sf5Y2T6ZaxLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMS9yZWxmaWxlLzk2NzkvNzE2OTQ4Lzg0ZDI2MGRmLTJhOTAtNGM5My1hNmRmLTFkYTkyMTcxYTg4My5wZGY%3D',type:'政府資料'},
+      {label:'內政部綠建築標章清冊',url:'https://ws.moi.gov.tw/Download.ashx?icon=.pdf&n=MTE05bm05bqm5YWo6YOo6YCa6YGO5qGI5Lu25LiA6Ka96KGoLeeOi%2BWNmi005pyILnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvNDM2L3JlbGZpbGUvMTI0NjUvMzI4MDQ5LzRmZDQ4NWMyLTk3ZjYtNDExMC05N2FhLTQ1ZjBjZDBlZWYwOS5wZGY%3D',type:'政府資料'},
+    ],
+  },
+  {
+    id:'mcdonald',name:'麥當勞建設',aliases:['麥當勞建設'],reviewed:'2026-09-14',confidence:'高',
+    scores:{delivery:77,quality:73,governance:67,service:68,risk:72},
+    summary:'2013 年設立，目前實收資本額 1.58 億元；政府備查及工程列管資料可核對水天靚、水天靚 2 等案件。',
+    caveat:'資本規模與兩期推案提供一定履約基礎，但可公開核對的歷年交付、品質制度、治理及售後資料有限，現階段評為 B 級門檻。',
+    sources:[
+      {label:'經濟部公司登記',url:'https://findbiz.nat.gov.tw/fts/company/54055419',type:'政府資料'},
+      {label:'新北市預售屋備查清冊',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?n=MTEw5bm06IezMTE05bm05bey5YKZ5p%2Bl5bu65qGI5riF5YaKLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMzk5L3JlbGZpbGUvODk5My85NDY5L2NkZTQ4OTJkLTQzMzAtNDY3Zi1hYmExLTI3YzJiYjI0MjYxNi5wZGY%3D',type:'政府資料'},
+      {label:'水天靚工程列管資料',url:'https://thaubing.gcaa.org.tw/facility/F10B7116',type:'政府資料彙整'},
+    ],
+  },
 ].map(profile=>{
   const score=profile.scores?weightedScore(profile.scores):null;
   return {...profile,score,rating:profile.rating||ratingFromScore(score)};
