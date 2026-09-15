@@ -4757,6 +4757,58 @@ export const developerResearch=[
       {label:'全家國際開發公司公開簡介',url:'https://trade.1111.com.tw/Comp_Info.aspx?vNo=54025',type:'公司公開資料'},
     ],
   },
+  {
+    id:'jiantai-craft',name:'建泰工藝股份有限公司',aliases:['建泰工藝股份有限公司','建泰工藝'],reviewed:'2026-09-14',confidence:'中高',
+    scores:{delivery:72,quality:72,governance:70,service:60,risk:62},
+    summary:'1970 年設立、實收資本額 1,470 萬元，後續增列住宅開發業務；「天匯」的預售備查、建照與成交紀錄可核對，證明其確有投資興建角色。',
+    caveat:'公司早期主業為工藝與不動產持有，住宅開發的跨案履歷有限；112 年行政院消保處預售契約查核中，天匯有一項「驗收」項目不合格紀錄，已反映風險扣分，暫列 C。',
+    sources:[
+      {label:'經濟部商工登記（建泰工藝）',url:'https://findbiz.nat.gov.tw/fts/company/29647627',type:'官方公司登記'},
+      {label:'行政院消保處預售契約查核（天匯）',url:'https://cpc.ey.gov.tw/File/6C691DC147D63D29?A=C',type:'官方契約查核'},
+    ],
+  },
+  {
+    id:'jiayue-property-development',name:'家悅國際公寓大廈管理維護股份有限公司',aliases:['家悅國際公寓大廈管理維護股份有限公司','家悅國際公寓大廈管理維護'],reviewed:'2026-09-14',confidence:'中',
+    scores:{delivery:62,quality:70,governance:68,service:62,risk:70},
+    summary:'原為自動化科技公司，2019 年更為現名並增列住宅開發、都市更新等業務，實收資本額 3,000 萬元；「天綺」已有預售備查、成交及近期完工資料，故本案確屬開發角色而非單純物業管理。',
+    caveat:'住宅開發年資較短，目前可驗證作品集中於天綺，且缺少跨案工程品質與售後成果；因此保留為真正開發商但僅列 C，不因公司名稱中的「管理維護」直接誤分為非建商。',
+    sources:[
+      {label:'經濟部商工登記（家悅國際公寓大廈管理維護）',url:'https://findbiz.nat.gov.tw/fts/company/27770733',type:'官方公司登記'},
+      {label:'臺北市預售屋備查資料',url:'https://land.gov.taipei/Content_List.aspx?n=8478C2C091BFD41D',type:'官方預售備查'},
+    ],
+  },
+  {
+    id:'taichang-construction',name:'泰昌建設股份有限公司',aliases:['泰昌建設股份有限公司','泰昌建設'],reviewed:'2026-09-14',confidence:'中',
+    scores:{delivery:76,quality:76,governance:74,service:64,risk:78},
+    summary:'1995 年設立、實收資本額 4,600 萬元，登記持續正常；「文藝復興」的建照、預售備查與成交資料一致，可確認一個完整住宅推案。',
+    caveat:'公司存續逾 30 年，但目前可公開核對的跨案完工履歷、品質制度與售後資訊不多；總分 73 分，列 B 級下段。',
+    sources:[
+      {label:'經濟部商工登記（泰昌建設）',url:'https://findbiz.nat.gov.tw/fts/company/89640367',type:'官方公司登記'},
+      {label:'文藝復興預售與成交資料',url:'https://fangnote.info/2023/%E6%96%87%E8%97%9D%E5%BE%A9%E8%88%88/',type:'建案公開資料'},
+    ],
+  },
+  {
+    id:'quanlian-construction',name:'泉聯建設有限公司',aliases:['泉聯建設有限公司','泉聯建設'],reviewed:'2026-09-14',confidence:'中高',
+    scores:{delivery:68,quality:74,governance:64,service:60,risk:76},
+    summary:'2004 年設立、資本額 400 萬元，登記住宅開發業務；「永信方圓」已由預售走到 2025 年完工，且銀行公告價金信託目的完成並終止契約，可核對基本履約閉環。',
+    caveat:'公司資本規模小，可驗證住宅履歷集中於單案，公開的品質制度與售後資料有限；暫列 C，不把信託正常終止解讀為品質保證。',
+    sources:[
+      {label:'經濟部商工登記（泉聯建設）',url:'https://findbiz.nat.gov.tw/fts/company/80701601',type:'官方公司登記'},
+      {label:'聯邦銀行永信方圓信託終止公告',url:'https://web.ubot.com.tw/news/2025/20250715.html',type:'金融機構公告'},
+      {label:'永信方圓完工建案資料',url:'https://www.plex.com.tw/projects/view/id/5157',type:'成屋公開資料'},
+    ],
+  },
+  {
+    id:'chenghua-construction',name:'成華建設股份有限公司（成華建築團隊）',aliases:['成華建設股份有限公司','成華建設'],reviewed:'2026-09-14',confidence:'高',
+    scores:{delivery:86,quality:84,governance:80,service:76,risk:82},
+    summary:'1995 年成立建設公司，承接創辦團隊自 1985 年起的真理營造經驗；登記資本額 2.7 億元，官方作品集列有多個住宅案，並揭露從土地、設計、營造到交屋售後的整合團隊。「成華織心画」亦有官方備查與耐震審查資訊。',
+    caveat:'工程制度與售後流程主要來自公司自行揭露，尚缺大量獨立量化結果；總分 82 分達 A 級門檻，但以目前證據保守標記為高信心 A 的下緣。',
+    sources:[
+      {label:'成華建築團隊官方網站與作品集',url:'https://www.chld.com.tw/',type:'建商官方資料'},
+      {label:'新北市公司變更登記清冊（成華建設）',url:'https://serv.gcis.nat.gov.tw/pub/cmpy/reportAction.do?fileName=11211NTC.pdf&method=report&reportClass=cmpy&subPath=11211',type:'官方公司登記'},
+      {label:'臺北市預售備查（成華織心画）',url:'https://land.gov.taipei/News.aspx?PageSize=20&n=E8D96FA6BB2B310E&page=2&sms=06A4332DF37FE327',type:'官方預售備查'},
+    ],
+  },
 ].map(profile=>{
   const score=profile.scores?weightedScore(profile.scores):null;
   return {...profile,score,rating:profile.rating||ratingFromScore(score)};
