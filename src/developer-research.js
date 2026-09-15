@@ -3020,6 +3020,50 @@ export const developerResearch=[
       {label:'大安茗邸工程進度',url:'https://newhouse.591.com.tw/132348/dynamic',type:'建案公開資料'},
     ],
   },
+  {
+    id:'zhongda-construction',name:'眾達建設',aliases:['眾達建設'],reviewed:'2026-09-14',confidence:'中',
+    scores:{delivery:70,quality:72,governance:67,service:68,risk:72},
+    summary:'2019 年設立，政府登記與臺北市預售備查可確認大安得逸由眾達建設投資興建，建案目前已有完工及交易紀錄。',
+    caveat:'公司年資較短、可驗證交付集中於單案，且資本、售後制度、工程品質與治理揭露有限，故列 C；近期完工不等同已有長期售後紀錄。',
+    sources:[
+      {label:'眾達建設公司設立清冊',url:'https://serv.gcis.nat.gov.tw/pub/cmpy/reportAction.do?fileName=376410000Asetup10812.pdf&method=report&reportClass=cmpyCity&subPath=10812',type:'經濟部商工資料'},
+      {label:'臺北市 111 年預售建案備查',url:'https://land.gov.taipei/News.aspx?PageSize=20&n=B65381CDC625B8D7&page=3&sms=98E2FE72A7A915BD',type:'臺北市政府資料'},
+      {label:'大安得逸建案資料',url:'https://market.591.com.tw/5884263/overview',type:'建案公開資料'},
+    ],
+  },
+  {
+    id:'zanyang',name:'贊暘建設開發',aliases:['贊暘建設開發','贊暘建設'],reviewed:'2026-09-14',confidence:'中高',
+    scores:{delivery:78,quality:80,governance:75,service:74,risk:77},
+    summary:'2010 年設立、實收資本額 2.05 億元；大安富御的起造、預售交易及第三方工程查驗紀錄可相互核對。',
+    caveat:'資本基礎與個案規格較佳，但目前公開可驗證推案集中、售後與公司治理量化資料不足，故列 B 而非 A。',
+    sources:[
+      {label:'贊暘建設開發公司登記',url:'https://findbiz.nat.gov.tw/fts/company/25130331',type:'經濟部商工資料'},
+      {label:'大安富御建案官方資料',url:'https://www.fuyugroup.com.tw/?at=windowdetalist&cl=window&id=48&md=index&type=',type:'建案官方資料'},
+      {label:'大安富御工程查驗紀錄',url:'https://tripletrust.com.tw/%E5%BB%BA%E6%A1%88%E5%AF%A6%E7%B8%BE-%E5%A4%A7%E5%AE%89%E5%8D%80-%E8%B4%8A%E6%9A%98-%E5%A4%A7%E5%AE%89%E5%AF%8C%E5%BE%A1/',type:'工程查驗資料'},
+    ],
+  },
+  {
+    id:'derho',name:'德和建設',aliases:['德和建設'],reviewed:'2026-09-14',confidence:'高',
+    scores:{delivery:87,quality:86,governance:82,service:84,risk:82},
+    summary:'1992 年設立、實收資本額 2.9 億元；官方揭露跨期住宅與商辦實績、工程進度、會員身分核驗及線上報修，並有國家建築金質獎施工品質類紀錄。',
+    caveat:'公司規模、跨期交付及售後機制達 A 級證據門檻；但非公開發行公司，財務與品質量化透明度仍低於 S 級大型上市建商，故列 A。',
+    sources:[
+      {label:'德和建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/86380985',type:'經濟部商工資料'},
+      {label:'德和建設官方實績與售後',url:'https://derho.com.tw/',type:'公司官方資料'},
+      {label:'德和建案公開彙整',url:'https://www.plex.com.tw/projects/index/type/developer/query/%E5%BE%B7%E5%92%8C%E5%BB%BA%E8%A8%AD/status/all',type:'建案公開資料'},
+    ],
+  },
+  {
+    id:'jingwang',name:'京旺建設',aliases:['京旺建設','華拓開發建設'],reviewed:'2026-09-14',confidence:'中高',
+    scores:{delivery:81,quality:83,governance:77,service:78,risk:81},
+    summary:'2009 年設立、2021 年由華拓開發建設更名，實收資本額 1 億元；大安 ONE 都更整合、建照、隔震營造合作與臺北市預售契約查核皆可驗證。',
+    caveat:'個案規格與契約查核表現良好，但以京旺品牌的跨案完工、長期售後及治理揭露仍不足 A 級，故列 B。',
+    sources:[
+      {label:'京旺建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/24346340',type:'經濟部商工資料'},
+      {label:'大安 ONE 開發與隔震營造資料',url:'https://howlife.cna.com.tw/financial/20250509s008.aspx',type:'建案公開資料'},
+      {label:'臺北市預售契約查核季報',url:'https://www-ws.gov.taipei/Download.ashx?icon=..pdf&n=MTE05bm056ysMeWto%2BWLleaFi%2BWto%2BWgsS5wZGY%3D&u=LzAwMS9VcGxvYWQvMzA1L3JlbGZpbGUvMTAxNjIvOTQwMTIxMC9mZTg0OTBjZi0xNjYxLTQxYzAtYTQwZi0wNzE1YmU5MWUxY2UucGRm',type:'臺北市政府資料'},
+    ],
+  },
 ].map(profile=>{
   const score=profile.scores?weightedScore(profile.scores):null;
   return {...profile,score,rating:profile.rating||ratingFromScore(score)};
