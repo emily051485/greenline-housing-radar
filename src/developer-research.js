@@ -1398,6 +1398,52 @@ export const developerResearch=[
       {label:'長耀會預售契約',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?icon=..pdf&n=6ZW36ICA5pyDLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMS9yZWxmaWxlLzk2NzkvNzM2NTEwL2YwNTA0YzE0LWE1ZDYtNGMzYS05MGNmLTMxYTlkOTA0NDNmMy5wZGY%3D',type:'政府資料'},
     ],
   },
+  {
+    id:'jiaju',name:'家居建設',aliases:['家居建設'],reviewed:'2026-09-14',confidence:'中',
+    scores:{delivery:79,quality:76,governance:66,service:69,risk:68},
+    summary:'1994 年設立，目前實收資本額 2.839 億元；臺北市建照、都更成果及預售查核資料可核對家居理玉、家居璽玉與家居安曼等案。',
+    caveat:'法人年期與資本基礎穩定，且已有完工及持續推案紀錄，但公開作品、售後、財務治理與第三方品質資料仍不完整，評為 B 級。',
+    sources:[
+      {label:'經濟部公司登記',url:'https://findbiz.nat.gov.tw/fts/company/84780439',type:'政府資料'},
+      {label:'臺北市建照與案名資料',url:'https://www-ws.gov.taipei/Download.ashx?icon=..pdf&n=MTA5MDEzMeiHszExMTA0Mjnlu7rmoYjos4foqIros4fmlpkucGRm&u=LzAwMS9VcGxvYWQvNDYxL3JlbGZpbGUvNTg1NTEvODYyMjg5MC8xMWI0YmY2Zi04MzMzLTRhZWQtYTU2Ni03MjE3MzVlODQ3OTgucGRm',type:'政府資料'},
+      {label:'行政院預售契約查核',url:'https://www.ey.gov.tw/File/B00C6FE7C0A19E0C?A=C',type:'政府資料'},
+    ],
+  },
+  {
+    id:'jindrill',name:'金鑽號事業',aliases:['金鑽號事業'],reviewed:'2026-09-14',confidence:'高',
+    scores:{delivery:75,quality:68,governance:55,service:62,risk:52},
+    summary:'2005 年設立、資本額 3,500 萬元，登記業務以建築經理、廣告及設計為主；政府預售資料可確認其參與仁愛金鑽等案。',
+    caveat:'公司並非典型住宅開發登記，且 2009 年曾因沐夏會館廣告不實遭公平會裁罰 50 萬元；治理、售後與品質揭露有限，評為 C 級。',
+    sources:[
+      {label:'經濟部公司登記',url:'https://findbiz.nat.gov.tw/fts/company/27980442',type:'政府資料'},
+      {label:'新北市仁愛金鑽預售契約',url:'https://www.land.ntpc.gov.tw/News.aspx?PageSize=20&n=11769&page=7&sms=9679',type:'政府資料'},
+      {label:'公平會廣告不實處分',url:'https://www.ftc.gov.tw/uploadDecision/1361a470-ef61-4903-b2b6-84b0635fa9f9.pdf',type:'政府資料'},
+      {label:'仁愛金鑽個案官網',url:'https://www.rajz.tw/',type:'建案官網'},
+    ],
+  },
+  {
+    id:'musheng',name:'睦昇建設',aliases:['睦昇建設'],reviewed:'2026-09-14',confidence:'高',
+    scores:{delivery:86,quality:84,governance:69,service:78,risk:72},
+    summary:'1993 年設立，目前實收資本額 5.1 億元；睦昇營建機構官網揭露自 1991 年起的營造沿革、三級品管及百餘棟作品，並列有多件歷年住宅案。',
+    caveat:'交付年期、工程能力與資本規模良好，但官網履歷部分屬營建機構整體，非全由睦昇建設單一法人完成；財務與售後量化仍有限，評為 B 級。',
+    sources:[
+      {label:'經濟部公司登記',url:'https://findbiz.nat.gov.tw/fts/company/84131028',type:'政府資料'},
+      {label:'睦昇營建沿革',url:'https://www.musheng.com.tw/about-history.php',type:'建商官網'},
+      {label:'睦昇歷年作品',url:'https://www.musheng.com.tw/case-history.php',type:'建商官網'},
+      {label:'睦昇品質管理',url:'https://www.musheng.com.tw/create-team.php',type:'建商官網'},
+    ],
+  },
+  {
+    id:'yian',name:'億安建設',aliases:['億安建設'],reviewed:'2026-09-14',confidence:'高',
+    scores:{delivery:82,quality:82,governance:68,service:78,risk:70},
+    summary:'2007 年設立，目前實收資本額 1 億元並由億東營造全數持股；官網可核對九件作品、自有甲級營造體系、ISO 品質認證與交屋後維修服務。',
+    caveat:'工程與服務揭露優於同規模公司，且具多案履歷；但非公開發行公司，財務治理與第三方品質量化仍不足以列 A，評為 B 級。',
+    sources:[
+      {label:'經濟部公司登記',url:'https://findbiz.nat.gov.tw/fts/company/28736734',type:'政府資料'},
+      {label:'億安建設作品與服務',url:'https://www.itateam.com.tw/',type:'建商官網'},
+      {label:'億東營造沿革與 ISO',url:'https://www.itcbuild.com.tw/?page_id=4',type:'營造官網'},
+    ],
+  },
 ].map(profile=>{
   const score=profile.scores?weightedScore(profile.scores):null;
   return {...profile,score,rating:profile.rating||ratingFromScore(score)};
