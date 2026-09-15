@@ -13,6 +13,8 @@ export const weightedScore=scores=>Math.round(developerRubric.reduce((sum,item)=
 // 這些角色不是住宅品牌，不應混入尚待研究的建商統計。
 export const isNonBuilderRole=value=>{
   const text=String(value||'').trim();
+  // 紀州樂章為地主自主更新案；台灣金融聯合都市更新服務是全案管理服務者，並非投資興建品牌。
+  if(/臺?灣金融聯合都市更新服務/.test(text))return true;
   if(/建築經理|商業銀行|銀行股份|信託|都市更新會|更新單元.*會|臺北市政府|新北市政府|待選定實施者|自然人|等\s*\d*\s*(?:人|名)|起造人：[^：]{1,6}○○$/.test(text))return true;
 
   // 備查資料有時直接列出完整自然人姓名、共同起造人或法定監護人。
@@ -4297,6 +4299,39 @@ export const developerResearch=[
       {label:'樂軒建設公司變更公報',url:'https://serv.gcis.nat.gov.tw/pub/cmpy/reportAction.do?fileName=11212DOC.pdf&method=report&reportClass=cmpy&subPath=11212',type:'經濟部公司登記公報'},
       {label:'京典 Atelier 111建案資料',url:'https://newhouse.591.com.tw/141352',type:'建案公開資料'},
       {label:'京典 Atelier 111成交與規劃',url:'https://www.leju.com.tw/community/L88d1557452a712',type:'成交與社區資料'},
+    ],
+  },
+  {
+    id:'hoshenshan',name:'禾申山股份有限公司',aliases:['禾申山股份有限公司','禾申山公司','禾申山'],reviewed:'2026-09-14',confidence:'中',
+    scores:{delivery:72,quality:72,governance:70,service:60,risk:74},
+    summary:'南海1號苑的投資建設與起造人可由建案資料及價金信託公告交叉確認；該案12戶已完成所有權第一次登記，提供一筆可驗證的完工履歷。',
+    caveat:'公司本業以塑化原料相關業務為主，目前僅找到南海1號苑單一住宅案；缺少長期住宅交付、售後制度與多案品質資料，因此列為 C 級而非成熟品牌建商。',
+    sources:[
+      {label:'京城銀行南海一號苑價金信託終止公告',url:'https://customer.ktb.com.tw/new/personal/a756b0b1',type:'金融機構公開資料'},
+      {label:'南海1號苑建案資料',url:'https://newhouse.591.com.tw/132316',type:'建案公開資料'},
+      {label:'禾申山公司與集團業務資料',url:'https://www.104.com.tw/company/1a2x6bmr4z',type:'公司公開資料'},
+    ],
+  },
+  {
+    id:'architectural-pursuer',name:'建築學人地產發展股份有限公司',aliases:['建築學人地產發展股份有限公司','建築學人地產發展'],reviewed:'2026-09-14',confidence:'中高',
+    scores:{delivery:80,quality:82,governance:78,service:68,risk:80},
+    summary:'2007年設立、實收資本額1億元，具住宅開發本業與多個具名作品；官方工程資料亦確認其為恆美無界起造人，已有可追溯的公司與推案履歷。',
+    caveat:'設計與作品資料相對完整，但公開的長期售後制度、第三方品質統計及完整跨案交付數據仍有限，因此維持 B 級，不以品牌敘事直接推升至 A 級。',
+    sources:[
+      {label:'經濟部商工登記公示資料',url:'https://findbiz.nat.gov.tw/fts/company/28485997',type:'政府公司登記'},
+      {label:'建築學人品牌與歷年作品',url:'https://w58.noonspace.com/mainssl/wdb2/go.php?urlxmlid=428051&xmlid=423311',type:'公司公開資料'},
+      {label:'臺北市113建字第0185號工程進度',url:'https://www.arch.org.tw/Content/Files/News/44241633b8bf481b96b2163d124eeb4c.pdf',type:'官方工程資料'},
+    ],
+  },
+  {
+    id:'hengwei-construction',name:'恒緯建設有限公司',aliases:['恒緯建設有限公司','恒緯建設'],reviewed:'2026-09-14',confidence:'中',
+    scores:{delivery:64,quality:70,governance:68,service:58,risk:72},
+    summary:'2020年設立，官方公司設立清冊可確認公司身分；耕玥的建案資料與成交社區資料皆指向恒緯建設，已有一筆小型住宅案可核實。',
+    caveat:'成立時間較短、設立資本額100萬元，目前公開資料集中於13戶的耕玥單案，售後、治理與跨案品質證據不足，故列為 C 級。',
+    sources:[
+      {label:'臺北市109年3月公司設立登記清冊',url:'https://serv.gcis.nat.gov.tw/pub/cmpy/reportAction.do?fileName=379100000Gsetup10903.pdf&method=report&reportClass=cmpyCity&subPath=10903',type:'政府公司登記'},
+      {label:'恒緯耕玥社區成交資料',url:'https://www.leju.com.tw/community/L482140571096d1',type:'建案與成交資料'},
+      {label:'耕玥建案資料',url:'https://tp.housetube.tw/45558',type:'建案公開資料'},
     ],
   },
 ].map(profile=>{
