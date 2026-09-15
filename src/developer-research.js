@@ -5254,6 +5254,48 @@ export const developerResearch=[
       {label:'台北市南港區建照施工資料',url:'https://www.arch.org.tw/Content/Files/News/35bb276c89b44b9fabbac8272594ef1d.pdf',type:'政府建管資料'},
     ],
   },
+  {
+    id:'anjia-daosheng',name:'安家道生（原捷順國際開發）',aliases:['安家道生股份有限公司','安家道生','捷順國際開發股份有限公司','捷順國際開發','捷順國際'],reviewed:'2026-09-14',confidence:'高',
+    scores:{delivery:86,quality:84,governance:82,service:78,risk:82},
+    summary:'1991 年設立、實收資本額 1 億元，2020 年由捷順國際開發更名為安家道生；官方可核對安家藏玉、安家秀、安家湛等多案，舊名下亦有敦北圓頂、安家新紐約與幸福安家等完工履歷。',
+    caveat:'公司延續性與跨案履歷明確，但量化售後、工程缺失與連續財務揭露仍有限；舊名與新名為同一統編，合併評估後總分 83 分，列 A 級。',
+    sources:[
+      {label:'經濟部商工登記與更名紀錄',url:'https://findbiz.nat.gov.tw/fts/company/86160167',type:'政府公司資料'},
+      {label:'安家道生關係機構與建案',url:'https://www.anjia.com.tw/relation.php?act=view&no=3',type:'公司官方資料'},
+      {label:'台北市幸福安家預售契約資料',url:'https://www-ws.gov.taipei/001/Upload/305/relfile/11498/7146725/ab68a0e4-6d35-42c5-a25d-61c6e52f5da0.pdf',type:'政府預售資料'},
+    ],
+  },
+  {
+    id:'chentung-development',name:'陳同實業',aliases:['陳同實業股份有限公司','陳同實業'],reviewed:'2026-09-14',confidence:'中高',
+    scores:{delivery:86,quality:84,governance:78,service:76,risk:80},
+    summary:'官方揭露三十年發展及多個已完工作品，包括大葉島耕座、信義 7-Park、百創雙和與吉美和風；近期持續參與西門翫、丰景、上筑及吉美艾麗等都更或合作案。',
+    caveat:'長期作品可辨識，但多為公司自行彙整，公開財務治理、售後處理成效及工程查驗量化資料仍不足；總分 81 分，列 B 級高段。',
+    sources:[
+      {label:'陳同實業官方網站與作品',url:'https://chentung.com.tw/',type:'公司官方資料'},
+      {label:'西門翫預售建案查核入口',url:'https://lvr.land.moi.gov.tw/',type:'政府預售資料'},
+    ],
+  },
+  {
+    id:'sigmastone-development',name:'和岩開發建設',aliases:['和岩開發建設股份有限公司','和岩開發建設有限公司','和岩開發建設','和岩建設'],reviewed:'2026-09-14',confidence:'中',
+    scores:{delivery:78,quality:80,governance:72,service:68,risk:78},
+    summary:'公司公開作品涵蓋萬華都更與「和岩心悅」等住宅案，具實際都市更新、規劃及投資興建紀錄，登記資本額約 5,000 萬元。',
+    caveat:'可核對作品數與完工後售服證據仍有限，公司理念及建材說明不能代替量化品質成果；總分 75 分，列 B 級。',
+    sources:[
+      {label:'和岩建設官方網站',url:'https://sigmastone.com.tw/',type:'公司官方資料'},
+      {label:'台北市預售屋建案查詢',url:'https://lvr.land.moi.gov.tw/',type:'政府預售資料'},
+    ],
+  },
+  {
+    id:'guanhui-construction',name:'冠輝建設',aliases:['冠輝建設股份有限公司','冠輝建設'],reviewed:'2026-09-14',confidence:'中',
+    scores:{delivery:76,quality:74,governance:70,service:66,risk:76},
+    summary:'2010 年設立、實收資本額 1,465 萬元，官方機構資料揭露大雙和長期推案經驗；「冠輝文蔚」已有建照與公開銷售資訊可核對。',
+    caveat:'公司規模較小，作品、工程品管、售後與財務資料主要來自公司自述或單案資訊，尚缺獨立量化證據；總分 72 分，列 B 級門檻。',
+    sources:[
+      {label:'經濟部商工登記（冠輝建設）',url:'https://findbiz.nat.gov.tw/fts/company/29155122',type:'政府公司資料'},
+      {label:'冠輝機構官方介紹',url:'https://guanhuico.wixsite.com/home/aboutghco',type:'公司官方資料'},
+      {label:'冠輝文蔚建案資料',url:'https://newhouse.591.com.tw/141178/detail',type:'建案公開資料'},
+    ],
+  },
 ].map(profile=>{
   const score=profile.scores?weightedScore(profile.scores):null;
   return {...profile,score,rating:profile.rating||ratingFromScore(score)};
