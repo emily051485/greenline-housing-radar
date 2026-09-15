@@ -67,6 +67,9 @@ const verifiedProjectBuilderCorrections=new Map([
   ['璽來登日朗','備查起造人：家悅建設股份有限公司／家偉開發事業股份有限公司／家聖建設開發股份有限公司'],
   ['中?中央廣場、??','備查起造人：中悅建設開發股份有限公司'],
 ]);
+const verifiedProjectNameCorrections=new Map([
+  ['輕山?','輕山敘'],
+]);
 const repairRegistryText=value=>{
   if(typeof value!=='string'||!/[?？]/.test(value))return value;
   const verified=verifiedTextCorrections.get(value);
@@ -77,6 +80,7 @@ const repairRegistryText=value=>{
 const visibleTextFields=['name','builder','district','station','address','status','completion','type','size','price','source','locationAccuracy'];
 export const matureProjects=rawMatureProjects.map(project=>{
   const repaired={...project,id:String(project.id).replace(/[?？]+/g,'missing')};
+  repaired.name=verifiedProjectNameCorrections.get(project.name)||repaired.name;
   repaired.builder=verifiedProjectBuilderCorrections.get(project.name)||repaired.builder;
   for(const field of visibleTextFields)repaired[field]=repairRegistryText(repaired[field]);
   const research=findDeveloperResearch(repaired.builder);

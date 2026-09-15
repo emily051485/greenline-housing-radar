@@ -4473,6 +4473,61 @@ export const developerResearch=[
       {label:'內政部預售屋備查開放資料',url:'https://data.gov.tw/dataset/176351',type:'政府預售備查'},
     ],
   },
+  {
+    id:'virtuoso-construction',name:'將作建設股份有限公司',aliases:['將作建設股份有限公司','將作建設'],reviewed:'2026-09-14',confidence:'中高',
+    scores:{delivery:80,quality:82,governance:76,service:70,risk:78},
+    summary:'公司自1988年前後設立，現有實收資本額3,000萬元；官方網站持續揭露碧湖文森的投資興建、施工進度與作品資料，預售備查亦可交叉核對。',
+    caveat:'公司存續時間長且專案揭露較完整，但目前可量化的跨案交付、售後績效及公開治理資料仍有限，因此列 B 級。',
+    sources:[
+      {label:'經濟部將作建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/23022809',type:'政府公司登記'},
+      {label:'碧湖文森官方作品頁',url:'https://virtuoso-taiwan.com.tw/works_view.php?serno=23',type:'建商官方作品'},
+      {label:'臺北市碧湖文森預售備查',url:'https://land.gov.taipei/News.aspx?PageSize=20&n=F32F7D59F5852BC9&page=3&sms=977CB461C1F4F2E8',type:'政府預售備查'},
+    ],
+  },
+  {
+    id:'yuxin-construction',name:'裕薪建設股份有限公司',aliases:['裕薪建設股份有限公司','裕薪建設'],reviewed:'2026-09-14',confidence:'中',
+    scores:{delivery:62,quality:72,governance:70,service:58,risk:72},
+    summary:'2020年設立、登記資本額3,000萬元，碧湖泱玥由關係企業頁、預售資訊與建案動態共同確認為裕薪投資興建。',
+    caveat:'目前住宅履歷集中於尚待完整銷售與交付的碧湖泱玥，缺乏跨案完工、售後服務及品質統計，故列 C 級。',
+    sources:[
+      {label:'裕薪建設公司登記資料',url:'https://www.findcompany.com.tw/en/%E8%A3%95%E8%96%AA%E5%BB%BA%E8%A8%AD%E8%82%A1%E4%BB%BD%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8',type:'公司登記公開資料'},
+      {label:'茂楷關係企業碧湖泱玥頁',url:'https://www.maokai.com.tw/wc-59',type:'關係企業官方作品'},
+      {label:'碧湖泱玥建案動態',url:'https://newhouse.591.com.tw/139796/dynamic',type:'建案公開資料'},
+    ],
+  },
+  {
+    id:'zhanlong-construction',name:'展隆建設股份有限公司',aliases:['展隆建設股份有限公司','展隆建設'],reviewed:'2026-09-14',confidence:'中',
+    scores:{delivery:64,quality:72,governance:70,service:58,risk:74},
+    summary:'公司前身自2013年設立，2021年更名展隆建設，2026年增資至5,000萬元；碧湖首澤可由建照與預售備查確認其起造身分。',
+    caveat:'更名後可核實的住宅品牌履歷仍集中於碧湖首澤，尚無足夠完工交付與售後資料；公司存續年限不等於同品牌住宅經驗，故列 C 級。',
+    sources:[
+      {label:'經濟部展隆建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/54243503',type:'政府公司登記'},
+      {label:'展隆建設公司變更資料',url:'https://www.findcompany.com.tw/%E5%B1%95%E9%9A%86%E5%BB%BA%E8%A8%AD%E8%82%A1%E4%BB%BD%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8',type:'公司登記公開資料'},
+      {label:'內政部預售屋備查開放資料',url:'https://data.gov.tw/dataset/176351',type:'政府預售備查'},
+    ],
+  },
+  {
+    id:'haichuan-construction',name:'海川建設股份有限公司',aliases:['海川建設股份有限公司','海川建設'],reviewed:'2026-09-14',confidence:'中高',
+    scores:{delivery:84,quality:82,governance:78,service:72,risk:80},
+    summary:'2010年前後設立、資本額約1.80億元，官方網站列出2014年至今多個已完成與興建中作品，包括海川蘊系列、海川逸靜及碧湖海川。',
+    caveat:'具多案及跨年度交付紀錄，但售後制度、公開治理與第三方品質統計仍不如大型上市建商完整，因此列 B 級。',
+    sources:[
+      {label:'經濟部海川建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/53148707',type:'政府公司登記'},
+      {label:'海川建設官方作品',url:'https://hi-trang.com.tw/',type:'建商官方作品'},
+      {label:'經濟部海川建設變更登記清冊',url:'https://serv.gcis.nat.gov.tw/pub/cmpy/reportAction.do?fileName=376430000Achange11212.pdf&method=report&reportClass=cmpyCity&subPath=11212',type:'政府公司登記'},
+    ],
+  },
+  {
+    id:'hengxing-development',name:'姮興開發股份有限公司',aliases:['姮興開發股份有限公司','姮興開發'],reviewed:'2026-09-14',confidence:'中高',
+    scores:{delivery:78,quality:78,governance:74,service:68,risk:78},
+    summary:'1997年前後設立、目前資本額6,000萬元，住宅開發為登記業務；輕山敘已完工並有成交紀錄，且關係企業吉興營造由姮興法人持股。',
+    caveat:'公司存續與營造關係提供一定履約基礎，但公開住宅作品樣本、售後制度及跨案品質統計仍有限，因此列 B 級下緣。',
+    sources:[
+      {label:'經濟部姮興開發公司登記',url:'https://findbiz.nat.gov.tw/fts/company/16179570',type:'政府公司登記'},
+      {label:'姮興開發公司變更營業資料',url:'https://serv.gcis.nat.gov.tw/pub/cmpy/reportAction.do?fileName=379100000Gchange11503.pdf&method=report&reportClass=cmpyCityItem&subPath=11503',type:'政府公司登記'},
+      {label:'輕山敘成屋與成交資料',url:'https://www.leju.com.tw/community/Le6c1254768feea',type:'成屋成交資料'},
+    ],
+  },
 ].map(profile=>{
   const score=profile.scores?weightedScore(profile.scores):null;
   return {...profile,score,rating:profile.rating||ratingFromScore(score)};
