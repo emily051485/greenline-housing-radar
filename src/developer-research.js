@@ -1490,6 +1490,50 @@ export const developerResearch=[
       {label:'築源南港官網',url:'https://tophills.com.tw/',type:'建案官網'},
     ],
   },
+  {
+    id:'jiuen',name:'玖恩建設',aliases:['玖恩建設'],reviewed:'2026-09-14',confidence:'中高',
+    scores:{delivery:82,quality:79,governance:66,service:73,risk:69},
+    summary:'2008 年設立，目前實收資本額 1.3 億元；與玖原機構同址且官網納入玖原璽苑、玖原馥悅及多件歷年作品，可確認持續住宅開發。',
+    caveat:'機構作品量與品牌延續性良好，但部分歷年案由關係企業而非玖恩單一法人起造，財務治理及售後量化亦有限，評為 B 級。',
+    sources:[
+      {label:'經濟部公司登記',url:'https://findbiz.nat.gov.tw/fts/company/29056410',type:'政府資料'},
+      {label:'玖原機構官網',url:'https://www.jiouyuan.com.tw/',type:'建商官網'},
+      {label:'玖原馥悅個案官網',url:'https://www.jiouyuanfuyueh.com.tw/',type:'建案官網'},
+    ],
+  },
+  {
+    id:'huading',name:'華鼎建設開發',aliases:['華鼎建設開發'],reviewed:'2026-09-14',confidence:'中',
+    scores:{delivery:76,quality:72,governance:57,service:66,risk:63},
+    summary:'1987 年設立，目前實收資本額 2,800 萬元；預售及交易資料可核對城西蒔光與漾時光，兩案均已有市場成交或完工進度。',
+    caveat:'法人歷史長且有近期交付紀錄，但公開可歸屬作品不多，資本規模、治理、售後與第三方品質資料均有限，評為 C 級。',
+    sources:[
+      {label:'經濟部公司登記',url:'https://findbiz.nat.gov.tw/fts/company/22660286',type:'政府資料'},
+      {label:'內政部預售屋備查資料',url:'https://data.gov.tw/dataset/176351',type:'政府資料'},
+    ],
+  },
+  {
+    id:'daxintian',name:'大新田開發',aliases:['大新田開發'],reviewed:'2026-09-14',confidence:'中高',
+    scores:{delivery:73,quality:73,governance:58,service:68,risk:65},
+    summary:'2005 年設立、實收資本額 2,200 萬元；官網及新北市預售契約可核對大新田幸福之森，資料庫另有大新青慕案。',
+    caveat:'法人年期穩定且有兩件推案，但可驗證的長期交付、公司治理、售後與第三方品質資料仍少，評為 C 級。',
+    sources:[
+      {label:'經濟部公司登記',url:'https://findbiz.nat.gov.tw/fts/company/27821711',type:'政府資料'},
+      {label:'大新田建設官網',url:'https://xn--pssq50ae6l.com/guest/progress',type:'建商官網'},
+      {label:'新北市幸福之森預售契約',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?icon=..pdf&n=5aSn5paw55Sw5bm456aP5LmL5qOuLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMS9yZWxmaWxlLzk2NzkvNzM4OTE5LzBkNjA1ZTJkLTZkMGUtNDFmMS1iNTMxLWIyZGNmZmI1ODFjYy5wZGY%3D',type:'政府資料'},
+    ],
+  },
+  {
+    id:'guangchuncheng',name:'廣春成建設',aliases:['廣春成建設'],reviewed:'2026-09-14',confidence:'高',
+    scores:{delivery:88,quality:84,governance:74,service:84,risk:76},
+    summary:'1996 年設立，目前實收資本額 16.8 億元；官方個案揭露 28 年、46 案履歷，並由全資持有的甲級春城營造施工，具跨期交付能力。',
+    caveat:'資本、作品量、垂直整合與保固服務均有明確證據；惟非公開發行公司，財務透明度與獨立品質量化低於 S 級，評為 A 級。',
+    sources:[
+      {label:'經濟部公司登記',url:'https://findbiz.nat.gov.tw/fts/company/97004615',type:'政府資料'},
+      {label:'春城麗都與歷年作品',url:'https://springcitylido.com.tw/',type:'建案官網'},
+      {label:'春城新港灣與保固承諾',url:'https://jia-he.com.tw/new_taipeiport_home/',type:'建案官網'},
+      {label:'春城營造公司登記',url:'https://findbiz.nat.gov.tw/fts/company/05110370',type:'政府資料'},
+    ],
+  },
 ].map(profile=>{
   const score=profile.scores?weightedScore(profile.scores):null;
   return {...profile,score,rating:profile.rating||ratingFromScore(score)};
