@@ -1354,6 +1354,50 @@ export const developerResearch=[
       {label:'內湖都更公聽會紀錄',url:'https://www-ws.gov.taipei/001/Upload/459/relfile/18558/123341/637d9827-1197-463d-9b0f-20b1e839a1d5.pdf',type:'政府案卷'},
     ],
   },
+  {
+    id:'longyun',name:'隆雲',aliases:['隆雲股份'],reviewed:'2026-09-14',confidence:'中高',
+    scores:{delivery:82,quality:78,governance:64,service:72,risk:68},
+    summary:'公司法人可追溯至 1978 年；公開說明書可核對森沺藏、富樂恬、隆雲文德等既有作品，現有隆雲心琚與心仝聚持續推案。',
+    caveat:'具長期法人與跨案履歷，但非公開發行公司，近年交付、治理、售後及品質量化揭露仍有限，評為 B 級。',
+    sources:[
+      {label:'公司登記公開資料',url:'https://site.reurl.tw/details/07622545',type:'政府資料彙整'},
+      {label:'隆雲心琚官網',url:'https://www.longyunxinju.com.tw/',type:'建案官網'},
+      {label:'公開說明書建案履歷',url:'https://www.honsec.com.tw/uploads/underWriting/2211_4.pdf',type:'公開市場資料'},
+    ],
+  },
+  {
+    id:'junfeng',name:'君峰開發',aliases:['君峰開發'],reviewed:'2026-09-14',confidence:'中低',
+    scores:{delivery:71,quality:70,governance:60,service:65,risk:63},
+    summary:'2013 年設立、實收資本額 1.68 億元；預售與交易資料可核對一目辰、富都康莊兩件住宅開發案。',
+    caveat:'資本與法人歷史可確認，但兩案仍以預售為主，完工交付、公司治理、售後與第三方品質資料不足，評為 C 級。',
+    sources:[
+      {label:'經濟部公司登記',url:'https://findbiz.nat.gov.tw/fts/company/54307225',type:'政府資料'},
+      {label:'君峰建案彙整',url:'https://build.myhousing.com.tw/company/482386/',type:'建案公開資料'},
+    ],
+  },
+  {
+    id:'sunhouse',name:'昇樺建設',aliases:['昇樺建設'],reviewed:'2026-09-14',confidence:'中高',
+    scores:{delivery:81,quality:81,governance:64,service:76,risk:70},
+    summary:'2016 年成立的建築團隊，結合具二十年工程經驗及專業技師背景的負責團隊與自有合昱營造；官網可核對昇樺喜閱、幸福昇樺、微笑昇樺等交屋及社區運作紀錄。',
+    caveat:'工程與售後公開資訊優於同規模公司，但非公開發行公司，財務治理與第三方品質量化仍不足以列 A，評為 B 級。',
+    sources:[
+      {label:'昇樺團隊與工程背景',url:'https://www.my-sun-house.com/about.html',type:'建商官網'},
+      {label:'昇樺歷年建案',url:'https://my-sun-house.com/cases.aspx',type:'建商官網'},
+      {label:'交屋與社區服務紀錄',url:'https://my-sun-house.com/news.aspx',type:'建商官網'},
+    ],
+  },
+  {
+    id:'everglory',name:'長耀建設',aliases:['長耀建設'],reviewed:'2026-09-14',confidence:'中高',
+    scores:{delivery:87,quality:82,governance:68,service:76,risk:72},
+    summary:'2004 年設立、實收資本額 3 億元；官網按年份揭露二十餘件作品，涵蓋長耀 GLORY、哲里、湖砌、PARK 雙峰匯、長耀四季等跨期建案。',
+    caveat:'作品量、交付年期與資本能力均佳，但非公開發行公司，治理、售後及第三方品質量化仍低於 A 級要求，評為 B 級。',
+    sources:[
+      {label:'長耀建設官網',url:'https://everglory-construction.com.tw/index.php',type:'建商官網'},
+      {label:'長耀歷年作品',url:'https://everglory-construction.com.tw/case_list.php',type:'建商官網'},
+      {label:'經濟部公司登記',url:'https://findbiz.nat.gov.tw/fts/company/27351703',type:'政府資料'},
+      {label:'長耀會預售契約',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?icon=..pdf&n=6ZW36ICA5pyDLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMS9yZWxmaWxlLzk2NzkvNzM2NTEwL2YwNTA0YzE0LWE1ZDYtNGMzYS05MGNmLTMxYTlkOTA0NDNmMy5wZGY%3D',type:'政府資料'},
+    ],
+  },
 ].map(profile=>{
   const score=profile.scores?weightedScore(profile.scores):null;
   return {...profile,score,rating:profile.rating||ratingFromScore(score)};
