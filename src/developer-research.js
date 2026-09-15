@@ -2616,6 +2616,50 @@ export const developerResearch=[
       {label:'旺洲開發最新消息',url:'https://www.ycarchi.com/news',type:'建商官方資料'},
     ],
   },
+  {
+    id:'shangyang',name:'上陽建設',aliases:['上陽建設'],reviewed:'2026-09-14',confidence:'中高',
+    scores:{delivery:80,quality:78,governance:72,service:74,risk:76},
+    summary:'2004 年設立、目前實收資本額 4,000 萬元，營業項目明確包含住宅開發；上陽羅斯福等都市更新案可由臺北市公開審議文件核對其實施者身分。',
+    caveat:'具二十年以上法人年資與官方可核對案件，但公開的完工作品年表、品質制度、財務治理及售後紀錄仍少，現以 B 級下段呈現，不把單一都更案等同完整履約紀錄。',
+    sources:[
+      {label:'上陽建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/80663727',type:'官方公司資料'},
+      {label:'上陽建設都市更新公聽會資料',url:'https://www-ws.gov.taipei/001/Upload/459/relfile/18558/123343/fe4352a6-d3f8-4a9e-8208-c2a5a8f348e7.pdf',type:'臺北市政府資料'},
+    ],
+  },
+  {
+    id:'heming-hehuan',name:'合銘建設（合環建設機構）',aliases:['合銘建設'],reviewed:'2026-09-14',confidence:'高',
+    scores:{delivery:88,quality:87,governance:77,service:84,risk:80},
+    summary:'合銘建設 2003 年設立、實收資本額 2 億元，屬合環建設機構；集團官方資料可追溯 1970 年起的新店在地開發，以及 1997 年後多批完工作品，並公開施工進度與社區點交資訊。',
+    caveat:'長期在地履歷、可核對作品與部分第三方品質標章支持 A 級；但非上市櫃體系，定期財務、治理及售後成效揭露仍有限，故不列 S。',
+    sources:[
+      {label:'合銘建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/80406354',type:'官方公司資料'},
+      {label:'合環建設機構沿革',url:'https://www.hehuangroup.com/about_hehuang.aspx',type:'建商官方資料'},
+      {label:'合環建設機構歷年作品',url:'https://www.hehuangroup.com/classic_list.aspx',type:'建商官方資料'},
+      {label:'合環永新施工、點交與品質標章',url:'https://www.hehuangroup.com/hot_case.aspx?id=61',type:'建商官方資料'},
+    ],
+  },
+  {
+    id:'zheyou',name:'喆友建設',aliases:['喆友建設'],reviewed:'2026-09-14',confidence:'中高',
+    scores:{delivery:76,quality:78,governance:72,service:74,risk:76},
+    summary:'2020 年設立、實收資本額 1 億元；官方都市更新紀錄可確認其屬友座建築團隊的關係企業，並可核對「友座明明德」建照、基地規模與施工中的推案事實。',
+    caveat:'關係團隊已有多案經驗，但喆友本身法人年資短，完工交屋、售後及獨立財務治理證據仍不足，暫列 B；集團經驗不全部視為喆友個別公司的實績。',
+    sources:[
+      {label:'喆友建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/83454533',type:'官方公司資料'},
+      {label:'友座建築團隊關係與案件說明',url:'https://www-ws.gov.taipei/001/Upload/459/relfile/18558/123338/10934b7b-4536-477a-825a-d6d3f7a42320.pdf',type:'臺北市政府資料'},
+      {label:'新北市預售屋備查建案清冊',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?n=MTEw5bm06IezMTE05LiK5Y2K5bm05bey5YKZ5p%2Bl5bu65qGI5riF5YaKLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMzk5L3JlbGZpbGUvODk5My85NDY5L2UwZjQwYjRjLTkyMjEtNDliZS1hMzA5LTE0MWExNmQ1MzVlNS5wZGY%3D',type:'新北市政府資料'},
+    ],
+  },
+  {
+    id:'everunion',name:'長榮久盟開發建設',aliases:['長榮久盟開發建設','長榮久盟'],reviewed:'2026-09-14',confidence:'高',
+    scores:{delivery:83,quality:78,governance:70,service:55,risk:55},
+    summary:'1997 年設立、實收資本額 3 億元，具都市更新實施者資格及大型住宅案執行紀錄；但公平交易委員會曾就「大坪林 ONE」銷售時限制購屋人攜回契約審閱，認定違反公平交易法並裁罰。',
+    caveat:'法人年資、資本與大型案履約基礎並非不足，但正式消費交易處分直接影響售前服務與風險分數；依一致門檻列 C，不能只看案量忽略已確認的重大負面紀錄。',
+    sources:[
+      {label:'長榮久盟公司登記',url:'https://findbiz.nat.gov.tw/fts/company/16254394',type:'官方公司資料'},
+      {label:'長榮久盟都市更新實施者資料',url:'https://www.wanmon.com/files/minchuang/104%E5%B9%B407%E6%9C%8804%E6%97%A5%E5%85%AC%E8%81%BD%E6%9C%83%E7%B0%A1%E5%A0%B1.pdf',type:'都市更新公開資料'},
+      {label:'公平會公處字第 111002 號',url:'https://www.ftc.gov.tw/uploadDecision/46a0d7e4-1847-42d3-b370-5b5dc653b03a.pdf',type:'中央政府處分資料'},
+    ],
+  },
 ].map(profile=>{
   const score=profile.scores?weightedScore(profile.scores):null;
   return {...profile,score,rating:profile.rating||ratingFromScore(score)};
