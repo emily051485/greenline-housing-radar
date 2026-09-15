@@ -5199,6 +5199,61 @@ export const developerResearch=[
       {label:'台北市預售屋履約保證資料',url:'https://land.gov.taipei/News_Content.aspx?n=E8D96FA6BB2B310E&s=1D68A4578FD1169F&sms=06A4332DF37FE327',type:'政府預售資料'},
     ],
   },
+  {
+    id:'sotai-construction',name:'首泰建設',aliases:['首泰建設股份有限公司','首泰建設'],reviewed:'2026-09-14',confidence:'中高',
+    scores:{delivery:86,quality:86,governance:80,service:74,risk:80},
+    summary:'1992 年設立、實收資本額 2 億元，官方作品可核對首泰信義、首泰大方、首泰大喆等多案，具三十年以上持續推案與高端住宅實績。',
+    caveat:'公開資料能證明公司延續性與作品履歷，但量化售後、缺失改善與財務治理揭露不如上市建商完整；總分 82 分，列 A 級。',
+    sources:[
+      {label:'經濟部商工登記（首泰建設）',url:'https://findbiz.nat.gov.tw/fts/company/86721956',type:'政府公司資料'},
+      {label:'首泰建設作品',url:'https://www.sotai.com.tw/products',type:'公司官方資料'},
+      {label:'首泰信義官方網站',url:'https://www.sotaixinyione.com/',type:'建案官方資料'},
+    ],
+  },
+  {
+    id:'guoxie-construction',name:'國協建設實業',aliases:['國協建設實業股份有限公司','國協建設實業','國協建設'],reviewed:'2026-09-14',confidence:'中高',
+    scores:{delivery:82,quality:82,governance:82,service:68,risk:80},
+    summary:'2018 年設立、實收資本額 3 億元；「國協天玥」可由台北市都更文件與預售資料核對，法人股東結構及國揚建築團隊參與提供一定履約支撐。',
+    caveat:'國協仍是獨立契約主體，不能直接套用國揚上市公司的完整評分；自身交屋、售後與跨案紀錄較少，總分 79 分，列 B 級。',
+    sources:[
+      {label:'經濟部商工登記（國協建設實業）',url:'https://findbiz.nat.gov.tw/fts/company/55846381',type:'政府公司資料'},
+      {label:'台北市國協天玥都更文件',url:'https://www-ws.gov.taipei/Download.ashx?icon=.pdf&n=KOWvhinpga7mk6zoqILoh7rljJfluILljZfmuK%2FljYDljZfmuK%2FmrrXkuIDlsI%2FmrrUxMDHlnLDomZ%2FnrYk0MeethuWcn%2BWcsOmDveW4guabtOaWsOS6i%2BalreioiOeVq%2BWPiuasiuWIqeiuiuaPm%2BioiOeVq%2BahiF%2Flhazogb3mnIPnmbzoqIDopoHpu54ucGRm&u=LzAwMS9VcGxvYWQvNDU5L2NrZmlsZS81Mzg5YzM0NS1kOGM4LTQxM2QtODdhZC1hNDlmNTMwMWM2YmYucGRm',type:'政府都更資料'},
+      {label:'國揚建設關係企業與年報',url:'https://www.kycc.com.tw/tw/about',type:'上市公司資料'},
+    ],
+  },
+  {
+    id:'jinyu-construction',name:'金裕建設',aliases:['金裕建設股份有限公司','金裕建設'],reviewed:'2026-09-14',confidence:'中',
+    scores:{delivery:62,quality:70,governance:66,service:60,risk:70},
+    summary:'2024 年設立、實收資本額 2,500 萬元，「御心綻－御館」已有官方網站、預售交易與建案規格可核對，屬有效投資興建公司而非非建商角色。',
+    caveat:'公司成立時間短，尚無可驗證的完工交屋、長期售後與跨案治理紀錄；網站理念不能取代履約證據，總分 65 分，列 C 級。',
+    sources:[
+      {label:'經濟部商工登記（金裕建設）',url:'https://findbiz.nat.gov.tw/fts/company/00129564',type:'政府公司資料'},
+      {label:'金裕建設官方網站',url:'https://jydev.com.tw/',type:'公司官方資料'},
+      {label:'御心綻建案資料',url:'https://www.plex.com.tw/projects/view/id/9195',type:'建案公開資料'},
+    ],
+  },
+  {
+    id:'shyongbong-development',name:'雄邦開發建設',aliases:['雄邦開發建設股份有限公司','雄邦開發建設'],reviewed:'2026-09-14',confidence:'中高',
+    scores:{delivery:78,quality:78,governance:71,service:68,risk:78},
+    summary:'2013 年設立、實收資本額已增至 1 億元，官方可核對雄邦馨苑、雄邦琢硯、雄邦序曜及永和都更案等持續推案紀錄。',
+    caveat:'已有跨案履歷但公開工程品管、交屋缺失、保固績效與財務資訊仍有限；不與已廢止的同名「雄邦建設」混同，總分 75 分，列 B 級。',
+    sources:[
+      {label:'經濟部商工登記（雄邦開發建設）',url:'https://findbiz.nat.gov.tw/fts/company/54281978',type:'政府公司資料'},
+      {label:'雄邦開發建設官方網站',url:'https://www.shyongbong.com/home',type:'公司官方資料'},
+      {label:'雄邦作品見築',url:'https://www.shyongbong.com/work',type:'公司官方資料'},
+    ],
+  },
+  {
+    id:'jiadi-construction',name:'佳邸建設',aliases:['佳邸建設股份有限公司','佳邸建設'],reviewed:'2026-09-14',confidence:'中',
+    scores:{delivery:74,quality:78,governance:72,service:62,risk:76},
+    summary:'2013 年設立、實收資本額 5,000 萬元；「慕曦」由佳邸與上市公司東華龍共同投資，建照、營造與建築設計資料均可交叉核對。',
+    caveat:'佳邸自身的跨案完工、售後與治理揭露仍少，合作方支撐不能完全轉移成佳邸品牌紀錄；總分 72 分，列 B 級門檻。',
+    sources:[
+      {label:'經濟部商工登記（佳邸建設）',url:'https://findbiz.nat.gov.tw/fts/company/54299885',type:'政府公司資料'},
+      {label:'慕曦官方網站',url:'https://www.musee.com.tw/index.html',type:'建案官方資料'},
+      {label:'台北市南港區建照施工資料',url:'https://www.arch.org.tw/Content/Files/News/35bb276c89b44b9fabbac8272594ef1d.pdf',type:'政府建管資料'},
+    ],
+  },
 ].map(profile=>{
   const score=profile.scores?weightedScore(profile.scores):null;
   return {...profile,score,rating:profile.rating||ratingFromScore(score)};
