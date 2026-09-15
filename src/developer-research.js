@@ -465,6 +465,26 @@ export const developerResearch=[
       {label:'公司登記資料',url:'https://findbiz.nat.gov.tw/fts/company/27603172',type:'政府資料'},
     ],
   },
+  {
+    id:'heqian',name:'合謙建設',aliases:['合謙建設'],reviewed:'2026-09-14',confidence:'中低',
+    scores:{delivery:72,quality:70,governance:60,service:64,risk:62},
+    summary:'2012 年成立且資本與公司存續可由商工登記核對，至少有淡水及土城兩個具建照、團隊與產品資料的官方個案網站。',
+    caveat:'未找到完整品牌官網、售後保固績效及公司級品管／財務報告；C 表示主體已確認，不是品質保證。',
+    sources:[
+      {label:'公司登記資料',url:'https://findbiz.nat.gov.tw/fts/company/54025990',type:'政府資料'},
+      {label:'合謙飛時代',url:'https://fs.fuyu-group.tw/',type:'個案官方網站'},
+      {label:'合謙上謙城',url:'https://www.scc.8sms.tw/',type:'個案官方網站'},
+    ],
+  },
+  {
+    id:'nuhaus',name:'新濠建設',aliases:['新濠建設事業','新濠建設'],reviewed:'2026-09-14',confidence:'低',
+    scores:{delivery:70,quality:64,governance:61,service:60,risk:61},
+    summary:'公司自 1990 年設立、現有實收資本與責任主體可由公司登記核對，並非名稱不明的起造角色。',
+    caveat:'現有公司網站無法穩定取得，亦缺少可核對的工程制度、完整作品與售後資料；因此只列 C 級下緣並標低信心。',
+    sources:[
+      {label:'公司登記資料',url:'https://findbiz.nat.gov.tw/fts/company/23639425',type:'政府資料'},
+    ],
+  },
 ].map(profile=>{
   const score=profile.scores?weightedScore(profile.scores):null;
   return {...profile,score,rating:profile.rating||ratingFromScore(score)};
