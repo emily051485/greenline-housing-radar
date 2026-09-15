@@ -3626,6 +3626,54 @@ export const developerResearch=[
       {label:'預售屋同業連帶擔保審查',url:'https://www.archper.org/download.php?id=203&tb=FileLoad',type:'新北市不動產開發公會'},
     ],
   },
+  {
+    id:'china-amc',name:'中國開發資產管理',aliases:['中國開發資產管理'],reviewed:'2026-09-14',confidence:'高',
+    scores:{delivery:86,quality:83,governance:86,service:81,risk:82},
+    summary:'1993 年成立，為中國建築經理百分之百轉投資、實收資本額 8.5 億元的專業不動產投資與建設公司；具表參漾、修德國宅都更及豐琙等開發與實施者紀錄。',
+    caveat:'母公司建經、信託與都市更新專業提供較強治理基礎，達 A 級；但仍是私人企業，住宅交屋品質、長期售後與客訴統計的公開程度不及 S 級上市建商。',
+    sources:[
+      {label:'中國開發資產管理公司簡介',url:'https://www.chinadamc.com.tw/page/1',type:'公司官方資料'},
+      {label:'豐琙官方建案頁',url:'https://www.mgroup.com.tw/Fengyu/',type:'建案官方資料'},
+      {label:'表參漾開發與集團沿革',url:'https://www.chinadamc.com.tw/userfile/upload/file/1061026-1.pdf',type:'公司官方資料'},
+      {label:'修德國宅都更實施案例',url:'https://ctrl.chcg.gov.tw/files/4_20240525202324011_1130525_4_%E9%83%BD%E5%B8%82%E6%9B%B4%E6%96%B0%E4%BF%A1%E8%A8%97%E8%9E%8D%E8%B3%87%E5%8F%8A%E8%B2%A1%E5%8B%99%E7%AE%A1%E7%90%86_2025.pdf',type:'政府研習資料'},
+    ],
+  },
+  {
+    id:'jifu',name:'及福建設',aliases:['及福建設'],reviewed:'2026-09-14',confidence:'高',
+    scores:{delivery:82,quality:82,governance:72,service:84,risk:80},
+    summary:'2004 年設立，官方網站列出樂之町、幸福の駅等作品與進行中都更案；公司提供線上售後維修系統、客變溝通及樂之町十年防水保固，產品與服務制度可具體核對。',
+    caveat:'多案履歷與售後制度支撐 B 級高段，但實收資本額 2,500 萬元、私人公司財務治理及全案品質統計揭露有限，尚不足以僅憑官網承諾升為 A。',
+    sources:[
+      {label:'及福建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/27303528',type:'經濟部商工登記'},
+      {label:'及福建設作品、保固與客服',url:'https://jifu-dev.com/',type:'公司官方資料'},
+      {label:'幸福の駅預售備查',url:'https://www.xindian.land.ntpc.gov.tw/cp.aspx?n=12001',type:'新北市政府資料'},
+      {label:'及福都市設計審議資料',url:'https://www.ntcaa.org.tw/Content/Files/News/99e99688c84a47e48a67f69c4ab33a24.pdf',type:'新北市政府資料'},
+    ],
+  },
+  {
+    id:'tianhe',name:'天賀建設（江陵關係企業）',aliases:['天賀建設'],reviewed:'2026-09-14',confidence:'中高',
+    scores:{delivery:80,quality:81,governance:74,service:76,risk:78},
+    summary:'2012 年設立、實收資本額 3.6 億元；除江陵賀外，另有江陵天碩營業所及臺北市北投區 29 層建照紀錄，公開建案資料將其列為江陵關係企業。',
+    caveat:'資本、存續年資及多筆開發紀錄支持 B 級，但天賀法人自身的完工案、售後制度與財務治理揭露仍有限；江陵品牌過往作品只作關係佐證，不全數計入天賀。',
+    sources:[
+      {label:'天賀建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/53680603',type:'經濟部商工登記'},
+      {label:'江陵賀預售備查',url:'https://www.xindian.land.ntpc.gov.tw/cp.aspx?n=12001',type:'新北市政府資料'},
+      {label:'天賀建設臺北市建照紀錄',url:'https://www.arch.org.tw/Content/Files/News/35bb276c89b44b9fabbac8272594ef1d.pdf',type:'臺北市建築管理資料'},
+      {label:'江陵賀建案與關係企業資料',url:'https://www.house579.com.tw/newhouse/f0ff007c-6059-4ddd-a1e5-49e70f1a3a21',type:'建案公開資料'},
+    ],
+  },
+  {
+    id:'tianyu',name:'天鈺開發建設',aliases:['天鈺開發建設'],reviewed:'2026-09-14',confidence:'中高',
+    scores:{delivery:75,quality:78,governance:68,service:72,risk:74},
+    summary:'2014 年設立、目前資本額 5,000 萬元；中央一邸由天鈺接手原開發問題後完成變更設計、施工及交屋，並有官方預售契約、開發信託與實價紀錄可核對。',
+    caveat:'完成具技術難度的小型危老接手案，且另有在建與整合案，足以列 B 級低段；但已交付樣本仍小，財務治理與長期售後績效揭露不足。',
+    sources:[
+      {label:'天鈺開發建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/24536279',type:'經濟部商工登記'},
+      {label:'中央一邸官方完工說明',url:'https://tian-yu.com.tw/performance/display/13',type:'公司官方資料'},
+      {label:'中央一邸官方預售契約',url:'https://www-ws.land.ntpc.gov.tw/001/Upload/406/relfile/9035/8610/9ed8a251-7264-4f1a-906c-5cb4bdeb0c18.pdf',type:'新北市政府資料'},
+      {label:'中央一邸完工與交易資料',url:'https://www.plex.com.tw/projects/view/id/5363/page/1',type:'成屋與實價資料'},
+    ],
+  },
 ].map(profile=>{
   const score=profile.scores?weightedScore(profile.scores):null;
   return {...profile,score,rating:profile.rating||ratingFromScore(score)};
