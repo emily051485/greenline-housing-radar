@@ -5398,6 +5398,58 @@ export const developerResearch=[
       {label:'四季 Lavie 官方預售契約',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?icon=..pdf&n=5Zub5a2jTGF2aWUucGRm&u=LzAwMS9VcGxvYWQvMS9yZWxmaWxlLzk2NzkvNjgwMjkxLzEyMjVlNzY2LWM3MzQtNGY2NS04YjY5LTJhNzBkNDQ1ZmVlNy5wZGY%3D',type:'政府預售契約'},
     ],
   },
+  {
+    id:'yangyi-construction',name:'陽億建設',aliases:['陽億建設有限公司','陽億建設'],reviewed:'2026-09-14',confidence:'中',
+    scores:{delivery:74,quality:74,governance:68,service:64,risk:74},
+    summary:'左岸日初預售契約可確認陽億為賣方及投資興建者，建照、基地與產品規格完整；另有同案於 2023 年底完工後的社區與交易紀錄。',
+    caveat:'目前可核對的公司級跨案、品管制度、財務及售後資料仍少；「在地深耕」屬市場描述，不作為高評級依據，總分 71 分，列 C 級。',
+    sources:[
+      {label:'左岸日初官方預售契約',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?icon=..pdf&n=5bem5bK45pel5YidLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMS9yZWxmaWxlLzk2NzkvNzM1MjQwLzI3NGM4NWQyLWNlYzQtNDQ4NS1hOTM3LTM0YTg4YjlkZmI2ZS5wZGY%3D',type:'政府預售契約'},
+      {label:'陽億日初完工與交易資料',url:'https://www.plex.com.tw/projects/transactions/id/2831/address/%E4%B8%AD%E5%B1%B1%E8%B7%AF%E4%B8%89%E6%AE%B595%E8%99%9F11%E6%A8%93',type:'建案公開資料'},
+    ],
+  },
+  {
+    id:'baixing-construction',name:'百欣建設',aliases:['百欣建設股份有限公司','百欣建設'],reviewed:'2026-09-14',confidence:'中',
+    scores:{delivery:66,quality:74,governance:66,service:68,risk:72},
+    summary:'百欣豐光可核對投資興建、昌譽營造、建照、TOTO／永大等設備及五年防水保固，屬有效預售建商。',
+    caveat:'公開證據集中於單一在建案，五年防水保固尚未形成實際售後履約紀錄，亦缺公司財務與跨案資料；總分 69 分，列 C 級。',
+    sources:[
+      {label:'百欣豐光建案與保固資料',url:'https://newhouse.591.com.tw/137214/detail',type:'建案公開資料'},
+      {label:'內政部預售屋建案查詢',url:'https://lvr.land.moi.gov.tw/',type:'政府預售資料'},
+    ],
+  },
+  {
+    id:'qianshi-construction',name:'謙石建設',aliases:['謙石建設有限公司','謙石建設'],reviewed:'2026-09-14',confidence:'中',
+    scores:{delivery:62,quality:68,governance:64,service:58,risk:70},
+    summary:'2020 年設立、資本額 1,600 萬元，君品苑預售備查可確認其為實際起造／銷售主體，而非名稱近似的寶石建設。',
+    caveat:'尚未找到可可靠歸屬謙石的多案完工、售後、工程制度或連續財務資料；不可因案名相同併入寶石建設作品，總分 64 分，列 C 級。',
+    sources:[
+      {label:'謙石建設公司登記',url:'https://www.findcompany.com.tw/%E8%AC%99%E7%9F%B3%E5%BB%BA%E8%A8%AD%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8',type:'公司登記資料'},
+      {label:'內政部預售屋建案查詢',url:'https://lvr.land.moi.gov.tw/',type:'政府預售資料'},
+    ],
+  },
+  {
+    id:'junhong-construction',name:'君鋐建設',aliases:['君鋐建設有限公司','君鋐建設'],reviewed:'2026-09-14',confidence:'中',
+    scores:{delivery:62,quality:70,governance:64,service:58,risk:70},
+    summary:'城市君臨已有新北市預售備查、基地、戶數及建照資料，可確認君鋐建設為實際投資興建公司。',
+    caveat:'目前證據集中於單一八里預售案，未證實與桃園「君臨建設」存在正式公司關係，因此不借用其作品；總分 64 分，列 C 級。',
+    sources:[
+      {label:'城市君臨建案資料',url:'https://tp.housetube.tw/47722',type:'建案公開資料'},
+      {label:'內政部預售屋建案查詢',url:'https://lvr.land.moi.gov.tw/',type:'政府預售資料'},
+    ],
+  },
+  {
+    id:'chinpu-development',name:'勤樸開發',aliases:['勤樸開發有限公司','勤樸開發','勤樸機構'],reviewed:'2026-09-14',confidence:'中高',
+    scores:{delivery:80,quality:78,governance:72,service:68,risk:66},
+    summary:'2012 年設立、資本額 1.28 億元，官方及市場資料可核對勤樸臻藏、天悅、天翔、天闊與勤樸大道等跨案履歷；天闊已有正式預售契約及大量交易紀錄。',
+    caveat:'公司已有交屋與跨案能力，但公開品管、售後與財務揭露有限，且過往土地信託相關民事判決反映需個案查核契約風險；總分 74 分，列 B 級。',
+    sources:[
+      {label:'經濟部商工登記（勤樸開發）',url:'https://findbiz.nat.gov.tw/fts/company/53855146',type:'政府公司資料'},
+      {label:'勤樸機構官方作品',url:'https://chinpu.com.tw/index.php',type:'公司官方資料'},
+      {label:'勤樸天闊官方預售契約',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?icon=..pdf&n=5Yuk5qi45aSp6ZeKLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMS9yZWxmaWxlLzk2NzkvNjM4Mjg0LzRjMDViYjg1LTZiMjUtNDEwMC04OGQ2LTIwMDk2NWFkODJhYS5wZGY%3D',type:'政府預售契約'},
+      {label:'土地信託相關民事判決',url:'https://data.judicial.gov.tw/opendl/JDocFile/TPDV/110%2C%E7%B0%A1%E4%B8%8A%2C141%2C20240207%2C1.pdf',type:'司法公開資料'},
+    ],
+  },
 ].map(profile=>{
   const score=profile.scores?weightedScore(profile.scores):null;
   return {...profile,score,rating:profile.rating||ratingFromScore(score)};
