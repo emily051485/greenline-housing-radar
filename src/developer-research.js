@@ -6,7 +6,7 @@ export const developerRubric=[
   {key:'risk',label:'風險管理',weight:10},
 ];
 
-export const ratingFromScore=score=>score>=90?'S':score>=82?'A':score>=72?'B':score>=60?'C':'NR';
+export const ratingFromScore=score=>score>=90?'S':score>=82?'A':score>=72?'B':'C';
 export const weightedScore=scores=>Math.round(developerRubric.reduce((sum,item)=>sum+(scores[item.key]??0)*item.weight,0)/100);
 
 // 預售備查的「起造人」可能是建經、銀行、政府、更新會或自然人；
@@ -264,12 +264,13 @@ export const developerResearch=[
     ],
   },
   {
-    id:'shinruenn',name:'新潤建設',aliases:['新潤建設'],reviewed:'2026-09-14',confidence:'中',
+    id:'shinruenn',name:'新潤建設機構',aliases:['新潤建設','新潤興業'],reviewed:'2026-09-14',confidence:'中',
     scores:{delivery:80,quality:81,governance:58,service:78,risk:68},
     summary:'2007 年起累積作品，旗下建設、營造與客服整合，公開電話客服與到府維修制度。',
     caveat:'公司資料以官網自述為主，缺少連續財報、永續報告與量化售服結果，因此無法給予更高證據分。',
     sources:[
       {label:'公司沿革與服務體系',url:'https://www.shinruenn.com.tw/about_us',type:'公司揭露'},
+      {label:'集團公司與建案',url:'https://www.shinruenn.com.tw/projects/',type:'公司揭露'},
     ],
   },
   {
@@ -439,7 +440,7 @@ export const developerResearch=[
     id:'joyearland',name:'久年置地',aliases:['久年置地'],reviewed:'2026-09-14',confidence:'中高',
     scores:{delivery:85,quality:87,governance:68,service:86,risk:76},
     summary:'具自有營造體系、BIM 與可追溯作品，並公開建築生產履歷、施工監看、驗交屋、20 年主結構及防水保固等具體承諾。',
-    caveat:'保固與施工制度為公司及個案自行揭露，未取得完整公開財報或第三方長期售服統計，故維持 A 級下緣。',
+    caveat:'保固與施工制度為公司及個案自行揭露，未取得完整公開財報或第三方長期售服統計，故維持 B 級。',
     sources:[
       {label:'久年置地官網',url:'https://www.joyearland.com/',type:'公司揭露'},
       {label:'十大品質與保固承諾',url:'https://joyearprivilege.joyearland.com.tw/',type:'個案官方網站'},
@@ -483,6 +484,77 @@ export const developerResearch=[
     caveat:'現有公司網站無法穩定取得，亦缺少可核對的工程制度、完整作品與售後資料；因此只列 C 級下緣並標低信心。',
     sources:[
       {label:'公司登記資料',url:'https://findbiz.nat.gov.tw/fts/company/23639425',type:'政府資料'},
+    ],
+  },
+  {
+    id:'ycgroup',name:'炎洲',aliases:['炎洲股份'],reviewed:'2026-09-14',confidence:'高',
+    scores:{delivery:84,quality:77,governance:91,service:74,risk:76},
+    summary:'上市公司年報可追溯財務、治理與房地產事業進度，最新年報亦揭露雙北住宅交屋及後續土地開發規劃。',
+    caveat:'集團治理揭露完整，但住宅工程品管與售後績效的個別揭露較少，不能以本業上市規模直接推定住宅品質。',
+    sources:[
+      {label:'投資人與年報',url:'https://www.ycgroup.tw/investors01.php',type:'公開財報'},
+      {label:'114 年度年報',url:'https://www.ycgroup.tw/act.php?act=2&index_id=215',type:'公司年報'},
+    ],
+  },
+  {
+    id:'uccland',name:'環泥建設',aliases:['環泥建設開發','環泥建設'],reviewed:'2026-09-14',confidence:'中高',
+    scores:{delivery:83,quality:79,governance:80,service:73,risk:75},
+    summary:'1992 年成立，為環球水泥關係企業；公司官網可查長期作品，商工登記可確認環球水泥法人持股及資本。',
+    caveat:'母公司年報提升治理可追溯性，但建設子公司的售後、保固與工程品質量化資料仍有限，因此評為 B。',
+    sources:[
+      {label:'環泥建設官網',url:'https://www.ucctpe.com.tw/',type:'公司揭露'},
+      {label:'歷年作品',url:'https://www.ucctpe.com.tw/classic',type:'公司揭露'},
+      {label:'公司登記與法人股東',url:'https://findbiz.nat.gov.tw/fts/company/86691030',type:'政府資料'},
+      {label:'環球水泥年報',url:'https://www.ucctw.com/m/412-1518-20120.php?Lang=zh-tw',type:'公開財報'},
+    ],
+  },
+  {
+    id:'keetai',name:'基泰建設',aliases:['基泰建設'],reviewed:'2026-09-14',confidence:'高',
+    scores:{delivery:78,quality:35,governance:85,service:50,risk:15},
+    summary:'上市公司財報與治理資料可查，但基泰大直案經臺北市政府調查認定施工風控失效、造成鄰房損壞，必須在工程與風險維度大幅扣分。',
+    caveat:'C 級是公司級風險警示，不代表每一既有社區均有結構問題；購買任何個案仍應核對營造廠、監造、鑑定與後續改善。',
+    sources:[
+      {label:'公司年報',url:'https://www.keetai.com.tw/17',type:'公開財報'},
+      {label:'北市府調查報告說明',url:'https://doge.gov.taipei/News_Content.aspx?n=F73B3E27C31EA9E3&s=F3E62EEC45817BEC',type:'政府調查'},
+      {label:'施工損鄰鑑定說明',url:'https://www.gov.taipei/News_Content.aspx?n=F0DDAF49B89E9413&s=FB7E86F6633E3D35&sms=72544237BBE4C5F6',type:'政府資料'},
+    ],
+  },
+  {
+    id:'baopu',name:'寶舖建設',aliases:['寶舖建設'],reviewed:'2026-09-14',confidence:'中高',
+    scores:{delivery:84,quality:92,governance:70,service:86,risk:82},
+    summary:'深耕大安區並有完整作品地圖，公開 WELL、SGS 工程查驗及 ISO 19650 BIM／設施維養驗證，工程制度證據具辨識度。',
+    caveat:'多數成果仍由公司官網揭露，私人公司財務治理透明度低於上市建商；認證範圍也須逐案核對。',
+    sources:[
+      {label:'八大安全與國際驗證',url:'https://www.baopu.com.tw/',type:'公司揭露'},
+      {label:'品牌、作品與查驗制度',url:'https://www.baopu.com.tw/about',type:'公司揭露'},
+      {label:'公司登記資料',url:'https://findbiz.nat.gov.tw/fts/company/27559268',type:'政府資料'},
+    ],
+  },
+  {
+    id:'shinegroup',name:'日健建設',aliases:['日健建設'],reviewed:'2026-09-14',confidence:'中',
+    scores:{delivery:82,quality:80,governance:62,service:76,risk:68},
+    summary:'1991 年成立，官網列出多個開發與都更案，並說明自建自造、機電整合及客服的垂直體系。',
+    caveat:'治理、施工查驗與售後成效仍以公司敘述為主，缺乏量化和第三方報告，暫列 B。',
+    sources:[
+      {label:'日健機構與開發案',url:'https://www.shinegroup.com.tw/',type:'公司揭露'},
+      {label:'都更公開文件',url:'https://www-ws.gov.taipei/Download.ashx?icon=.pdf&n=5a%2BGKOmBrinmk6zoqILoh7rljJfluILlo6vmnpfljYDoip3lsbHmrrXkuIDlsI%2FmrrUxMy0x5Zyw6JmfMeethuWcn%2BWcsOmDveW4guabtOaWsOS6i%2BalreioiOeVq%2BahiF%2Flhazogb3mnIPnmbzoqIDopoHpu54ucGRm&u=LzAwMS9VcGxvYWQvNDU5L2NrZmlsZS9lOGE2ZDc4Yi1iYjJjLTQ0MDctYjk0Yi0xZTliOTIxOTI4MGEucGRm',type:'政府公開文件'},
+    ],
+  },
+  {
+    id:'richone',name:'富總建設',aliases:['富總建設'],reviewed:'2026-09-14',confidence:'中低',
+    scores:{delivery:76,quality:73,governance:55,service:68,risk:64},
+    summary:'官方網站可核對熱銷案與十餘個完銷作品，具持續推案履歷及公司聯絡主體。',
+    caveat:'品質內容偏品牌宣示，未見公司級財務、工程查驗、保固與售後績效資料，故暫列 C。',
+    sources:[{label:'公司與歷年建案',url:'https://richone.com.tw/',type:'公司揭露'}],
+  },
+  {
+    id:'jiaruen',name:'嘉潤建設',aliases:['嘉潤建設開發','嘉潤建設'],reviewed:'2026-09-14',confidence:'中低',
+    scores:{delivery:72,quality:71,governance:54,service:67,risk:63},
+    summary:'官方網站可確認公司、推案與自主驗屋活動，已有重複建案而非單一無法識別的起造人。',
+    caveat:'完整作品年表、財務治理、正式品管標準與量化售服資料不足，暫列 C。',
+    sources:[
+      {label:'關於嘉潤',url:'https://jia-ruen.com/index.php/about',type:'公司揭露'},
+      {label:'公司與驗屋資訊',url:'https://jia-ruen.com/index.php',type:'公司揭露'},
     ],
   },
 ].map(profile=>{
