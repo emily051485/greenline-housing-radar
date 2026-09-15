@@ -3248,6 +3248,55 @@ export const developerResearch=[
       {label:'青后預售備查與實價資料',url:'https://data.gov.tw/dataset/176351',type:'內政部開放資料'},
     ],
   },
+  {
+    id:'leaderhome',name:'力德建設',aliases:['力德建設'],reviewed:'2026-09-14',confidence:'中',
+    scores:{delivery:68,quality:70,governance:67,service:68,risk:72},
+    summary:'2008 年設立，2020 年公司登記資本額 2,900 萬元；官方網站公開金湖漾及多筆危老、都市更新案的基地與合作營造團隊，金湖漾已有建照、預售備查及實價登錄。',
+    caveat:'公司身分與進行中案件可確認，但公開資料多為規劃或審議階段，尚缺足夠已完工交付、長期住戶使用、售後制度與財務治理證據，因此暫列 C，不能因合作營造廠經驗直接加到建商本身。',
+    sources:[
+      {label:'力德建設公司變更登記清冊',url:'https://serv.gcis.nat.gov.tw/pub/cmpy/reportAction.do?fileName=379100000Gchange10908.pdf&method=report&reportClass=cmpyCity&subPath=10908',type:'經濟部商工資料'},
+      {label:'力德建設官方公司與個案資料',url:'https://www.leaderhome.dreamsite.tw/',type:'公司官方資料'},
+      {label:'金湖漾預售備查與實價資料',url:'https://data.gov.tw/dataset/176351',type:'內政部開放資料'},
+      {label:'金湖漾市場進度資料',url:'https://build.myhousing.com.tw/company/478960/',type:'建案公開資料'},
+    ],
+  },
+  {
+    id:'dahan',name:'大漢建設',aliases:['大漢建設'],reviewed:'2026-09-14',confidence:'中高',
+    scores:{delivery:77,quality:78,governance:75,service:72,risk:77},
+    summary:'2012 年設立、實收資本額 9,500 萬元且登記正常；星禾苑已有建照、預售備查與實價登錄，並有智慧建築系統整合與銀級標章資料，另可查到既有工程紀錄。',
+    caveat:'資本與專案品質配置具一定基礎，達 B 級；但可公開驗證的跨案交付量、售後處理與公司治理資料仍不足，智慧建築標章也只證明特定案的系統規劃，不等於全面品質保證。',
+    sources:[
+      {label:'大漢建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/46359347',type:'經濟部商工資料'},
+      {label:'星禾苑智慧建築系統資料',url:'https://www.ezcontw.com/da-han-ding-shang-yuan/',type:'工程技術公司資料'},
+      {label:'大漢建設工程紀錄彙整',url:'https://thaubing.gcaa.org.tw/corp/53680033',type:'政府工程資料彙整'},
+      {label:'星禾苑預售備查與實價資料',url:'https://data.gov.tw/dataset/176351',type:'內政部開放資料'},
+    ],
+  },
+  {
+    id:'sansong',name:'三松開發建設',aliases:['三松開發建設'],reviewed:'2026-09-14',confidence:'高',
+    scores:{delivery:82,quality:88,governance:86,service:78,risk:84},
+    summary:'2017 年由三井不動產集團與 Panasonic 集團等共同設立，實收資本額 5.6 億元；首案三松 MPARK 已有交付與交易紀錄，三松 Jade Park 的建照、預售契約、開發信託與政府查核亦可核對。',
+    caveat:'法人股東、資本、工程系統及專案治理證據完整，達 A 級；但台灣法人年資與已交付案量仍少，售後成果尚未形成長期序列，因此不直接套用海外母集團聲譽評為 S。',
+    sources:[
+      {label:'三松開發建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/52807961',type:'經濟部商工資料'},
+      {label:'三井與 Panasonic 合資公告',url:'https://www.mitsuifudosan.co.jp/tw/corporate/news/2018/0807_01/download/20180807.pdf',type:'母公司官方資料'},
+      {label:'三松 Jade Park 預售契約',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?icon=..pdf&n=5LiJ5p2%2BSmFkZVBhcmsucGRm&u=LzAwMS9VcGxvYWQvMS9yZWxmaWxlLzk2NzkvNjM3NDUzL2JmMThkN2YxLTJjMWItNDVmOS05MzQ3LTJlYTYzYzEwM2U4Yy5wZGY%3D',type:'新北市政府資料'},
+      {label:'三松 Jade Park 銷售中心查核',url:'https://www.ey.gov.tw/File/73855F81FDC2BAF0?A=C',type:'行政院消保處資料'},
+      {label:'三松 MPARK 技術實績',url:'https://panasonic.net/electricworks/job-references/tw_19_mpark/tw.html',type:'母公司官方資料'},
+    ],
+  },
+  {
+    id:'shide',name:'十得建設',aliases:['十得建設'],reviewed:'2026-09-14',confidence:'中',
+    scores:{delivery:58,quality:70,governance:68,service:64,risk:72},
+    summary:'2023 年設立、實收資本額 6,000 萬元且登記正常；向陽已有 113 淡建字第 00371 號建照、預售備查、實價登錄，並公開營造、建築設計與自售團隊。',
+    caveat:'向陽的法定程序與專業團隊可確認，但十得建設本身成立時間短，尚無足夠已完工交付、住戶使用、售後保固與跨案紀錄；因此列 C，而非把尚未累積的證據視為負面定論。',
+    sources:[
+      {label:'十得建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/94093375',type:'經濟部商工資料'},
+      {label:'向陽預售備查與實價資料',url:'https://data.gov.tw/dataset/176351',type:'內政部開放資料'},
+      {label:'向陽建築與營造團隊資料',url:'https://newhouse.591.com.tw/138513/detail',type:'建案公開資料'},
+      {label:'向陽成交與產品資料',url:'https://www.plex.com.tw/projects/view/id/8813',type:'實價與建案公開資料'},
+    ],
+  },
 ].map(profile=>{
   const score=profile.scores?weightedScore(profile.scores):null;
   return {...profile,score,rating:profile.rating||ratingFromScore(score)};
