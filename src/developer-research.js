@@ -3107,6 +3107,50 @@ export const developerResearch=[
       {label:'友座安森預售備查',url:'https://www-ws.gov.taipei/001/Upload/305/relfile/11498/8530909/0d57135f-e666-4ae2-a344-215f708ec3c4.pdf',type:'臺北市政府資料'},
     ],
   },
+  {
+    id:'wenpu',name:'文普建築開發',aliases:['文普建築開發','文普建築'],reviewed:'2026-09-14',confidence:'中',
+    scores:{delivery:75,quality:75,governance:70,service:72,risk:75},
+    summary:'2006 年設立、實收資本額 3,000 萬元；預售市場資料、完工社區資料與實價交易可核對文普享享瑞安由其投資興建並於 2025 年完工。',
+    caveat:'已具單案交付證據，但跨案履歷、售後制度、品質抽驗與治理資訊公開程度有限，故列 B 級下段。',
+    sources:[
+      {label:'文普建築開發公司資料',url:'https://info.technews.tw/company/28452320-%E6%96%87%E6%99%AE%E5%BB%BA%E7%AF%89%E9%96%8B%E7%99%BC%E8%82%A1%E4%BB%BD%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8',type:'政府資料彙整'},
+      {label:'文普享享瑞安市場報告',url:'https://res.sinyi-rema.com.tw/static/upload/ae59f7db26203822ec9b7215c9a9cdfe.pdf',type:'市場研究資料'},
+      {label:'文普享享瑞安完工社區資料',url:'https://35realestate.com.tw/communities/1757',type:'社區公開資料'},
+    ],
+  },
+  {
+    id:'xinqiao',name:'新僑建設企業',aliases:['新僑建設企業','新僑建設'],reviewed:'2026-09-14',confidence:'中高',
+    scores:{delivery:82,quality:80,governance:76,service:77,risk:79},
+    summary:'1978 年設立、實收資本額 1.91 億元，法人與資本長期穩定；官方網站可核對有青鳥產品規劃，現場資料已有近期完工與交易紀錄。',
+    caveat:'公司年資與資本優於一般單案建商，但官方跨案作品、售後制度及品質量化揭露仍不足 A 級，故列 B。',
+    sources:[
+      {label:'新僑建設企業公司登記',url:'https://findbiz.nat.gov.tw/fts/company/36527416',type:'經濟部商工資料'},
+      {label:'新僑有青鳥官方資料',url:'https://www.xinqiao.com.tw/zh-tw/product/view-1',type:'公司官方資料'},
+      {label:'有青鳥建案市場資料',url:'https://www.thehubnews.net/?p=197331',type:'建案公開資料'},
+    ],
+  },
+  {
+    id:'huapu',name:'華璞建設',aliases:['華璞建設'],reviewed:'2026-09-14',confidence:'高',
+    scores:{delivery:84,quality:85,governance:80,service:79,risk:83},
+    summary:'2014 年設立，經濟部登記可直接確認華固建設與璞真建設各持有半數股份；吾雙的起造、預售及大量交易紀錄可驗證，母公司具成熟開發與工程支援。',
+    caveat:'股東背景與工程支援強，達 A 級入門；但華璞自身實收資本額 1,000 萬元，獨立交付、售後及治理揭露仍少，不能直接沿用華固 S 級。',
+    sources:[
+      {label:'華璞建設公司與法人股東登記',url:'https://findbiz.nat.gov.tw/fts/company/24569101',type:'經濟部商工資料'},
+      {label:'華璞吾雙預售交易資料',url:'https://market.591.com.tw/5973841/overview',type:'實價與建案公開資料'},
+      {label:'吾雙工地環保裁罰紀錄',url:'https://thaubing.gcaa.org.tw/facility/A45097054598',type:'政府裁罰資料彙整'},
+    ],
+  },
+  {
+    id:'dunhe',name:'墩和開發',aliases:['墩和開發'],reviewed:'2026-09-14',confidence:'中高',
+    scores:{delivery:77,quality:79,governance:76,service:75,risk:79},
+    summary:'2020 年設立、實收資本額已增至 2.87 億元，董事包含志榮建設等法人股東；志榮安邸契約明列墩和為賣方，預售及工程進度可追蹤。',
+    caveat:'資本與股東支援較強，但公司本身成立時間短且交付集中於單案，長期售後與品質紀錄尚待累積，故列 B。',
+    sources:[
+      {label:'墩和開發公司登記',url:'https://findbiz.nat.gov.tw/fts/company/83233960',type:'經濟部商工資料'},
+      {label:'志榮安邸官方預售契約',url:'https://househunt.land.gov.taipei/upload/4.%E5%BF%97%E6%A6%AE%E5%AE%89%E9%82%B8.pdf',type:'臺北市政府資料'},
+      {label:'志榮安邸工程與銷售進度',url:'https://newhouse.591.com.tw/139755/dynamic',type:'建案公開資料'},
+    ],
+  },
 ].map(profile=>{
   const score=profile.scores?weightedScore(profile.scores):null;
   return {...profile,score,rating:profile.rating||ratingFromScore(score)};
