@@ -185,6 +185,110 @@ export const developerResearch=[
       {label:'寶佳建設公司概況',url:'https://www.104.com.tw/company/12zcu5eg',type:'公司徵才頁'},
     ],
   },
+  {
+    id:'continental',name:'大陸建設',aliases:['大陸建設'],reviewed:'2026-09-14',confidence:'高',
+    scores:{delivery:94,quality:95,governance:95,service:92,risk:90},
+    summary:'欣陸投控旗下開發品牌，與大陸工程形成專業整合；年報、永續報告、BIM、綠建築及交屋後服務均有持續揭露。',
+    caveat:'集團制度完整仍不能替代個案查核；物業與管家服務並非所有建案都提供，應依契約確認。',
+    sources:[
+      {label:'欣陸投控企業年報',url:'https://www.continental-holdings.com/zh/investor-relations/financial-information/annual-reports/',type:'公開財報'},
+      {label:'2023 永續報告書',url:'https://www.continental-holdings.com/app/uploads/2024/06/2023%E5%B9%B4%E6%AC%A3%E9%99%B8%E6%8A%95%E6%8E%A7%E6%B0%B8%E7%BA%8C%E5%A0%B1%E5%91%8A%E6%9B%B8.pdf',type:'公司報告'},
+      {label:'大陸建設售後服務',url:'https://www.continental-propertydevelopment.com/zh/service/after-sales-service/',type:'公司揭露'},
+    ],
+  },
+  {
+    id:'pujen',name:'璞真建設',aliases:['璞真建設'],reviewed:'2026-09-14',confidence:'高',
+    scores:{delivery:90,quality:94,governance:89,service:92,risk:88},
+    summary:'勤美集團旗下品牌，具自有營造、第三方結構驗證、BIM、地震監測、專責客服與交屋後定期建物健檢。',
+    caveat:'公司公開制度完整，但滿意度與修繕時效缺少一致量化資料；年度健檢為部分社區，不能推及全部作品。',
+    sources:[
+      {label:'建築與售服制度',url:'https://www.pj.com.tw/tw/about',type:'公司揭露'},
+      {label:'永續報告與建物健檢',url:'https://www.pj.com.tw/tw/esg',type:'公司報告'},
+      {label:'經濟部公司登記',url:'https://findbiz.nat.gov.tw/fts/company/80293577',type:'政府資料'},
+    ],
+  },
+  {
+    id:'sunty',name:'昇陽建設',aliases:['昇陽建設'],reviewed:'2026-09-14',confidence:'高',
+    scores:{delivery:91,quality:92,governance:91,service:94,risk:86},
+    summary:'上市櫃公司持續發布永續報告，設獨立售服部門，並揭露自主驗屋、客戶複驗、派工、回訪與缺失回饋機制。',
+    caveat:'售服制度成熟，但公司揭露仍需搭配各案住戶紀錄與契約保固年限交叉驗證。',
+    sources:[
+      {label:'歷年永續報告書',url:'https://www.sunty.com.tw/suntyESG/report.html',type:'公司報告'},
+      {label:'2024 永續報告書',url:'https://www.sunty.com.tw/suntyESG/report/2024ESG-report.pdf',type:'公司報告'},
+      {label:'獨立售後服務部門',url:'https://www.sunty.com.tw/service.html',type:'公司揭露'},
+    ],
+  },
+  {
+    id:'greattown',name:'全坤建設',aliases:['全坤建設'],reviewed:'2026-09-14',confidence:'高',
+    scores:{delivery:87,quality:86,governance:91,service:88,risk:84},
+    summary:'上市公司治理與連續永續報告可查，揭露一對一客服、交屋文件、公設點交及依項目提供五至十年修繕服務。',
+    caveat:'各類結構、設備與防水的實際保固長度不同，不能將最高十年概括套用所有項目。',
+    sources:[
+      {label:'永續發展專區',url:'https://www.gtg.com.tw/page/investment/doc.aspx?da=n8&kind=5',type:'公司報告'},
+      {label:'2023 永續報告書',url:'https://www.gtg.com.tw/upload/doc/202408131030010.pdf',type:'公司報告'},
+      {label:'2022 年報',url:'https://www.gtg.com.tw/upload/shareholders/202405221453424.pdf',type:'公開財報'},
+    ],
+  },
+  {
+    id:'yeashin',name:'亞昕國際',aliases:['亞昕國際'],reviewed:'2026-09-14',confidence:'中高',
+    scores:{delivery:89,quality:82,governance:90,service:78,risk:76},
+    summary:'1995 年成立且長期公開發行，財務與公司治理資料可追溯；工程與售後的公司級量化揭露相對不足。',
+    caveat:'目前高分主要來自長期履約與治理透明，不能直接解讀為個案施工或售服同樣達到高分。',
+    sources:[
+      {label:'TDCC 投資人關係',url:'https://irplatform.tdcc.com.tw/ir/zh/contact/detail/23379679-2C27-4D84-8617-42640C32DE88',type:'公開平台'},
+      {label:'公開財務報告',url:'https://shop.nstock.tw/api/v2/stock-financial-report/report?type=0&url=https%3A%2F%2Fmopsov.twse.com.tw%2Fnas%2FSTR%2F521320250909M001.pdf',type:'公開財報'},
+    ],
+  },
+  {
+    id:'huanghsiang',name:'皇翔建設',aliases:['皇翔建設'],reviewed:'2026-09-14',confidence:'中高',
+    scores:{delivery:88,quality:80,governance:90,service:76,risk:74},
+    summary:'上市公司且連續發布永續報告，長期推案及財務治理資料可查；工程品管與售服量化資料仍較少。',
+    caveat:'評級較多反映長期履約與公開治理；永續報告未見第三方確信資訊，個案品質需另外驗證。',
+    sources:[
+      {label:'歷年永續報告',url:'https://www.hhe.com.tw/tw/ESG',type:'公司報告'},
+      {label:'經濟部公司登記',url:'https://findbiz.nat.gov.tw/fts/company/86379024',type:'政府資料'},
+    ],
+  },
+  {
+    id:'pinjia',name:'品嘉建設',aliases:['品嘉建設'],reviewed:'2026-09-14',confidence:'中',
+    scores:{delivery:79,quality:78,governance:57,service:80,risk:67},
+    summary:'具台北危老與都更履歷、自有營造及終身客服主張；公司級財務治理與量化服務資料較不足。',
+    caveat:'「終身客服」不等於終身免費保固；目前多數證據來自公司網站，應逐案查契約與實際起造、營造主體。',
+    sources:[
+      {label:'公司、建案與服務',url:'https://en-rich.com.tw/',type:'公司揭露'},
+      {label:'都更服務說明',url:'https://en-rich.com.tw/renewal-service',type:'公司揭露'},
+    ],
+  },
+  {
+    id:'shinruenn',name:'新潤建設',aliases:['新潤建設'],reviewed:'2026-09-14',confidence:'中',
+    scores:{delivery:80,quality:81,governance:58,service:78,risk:68},
+    summary:'2007 年起累積作品，旗下建設、營造與客服整合，公開電話客服與到府維修制度。',
+    caveat:'公司資料以官網自述為主，缺少連續財報、永續報告與量化售服結果，因此無法給予更高證據分。',
+    sources:[
+      {label:'公司沿革與服務體系',url:'https://www.shinruenn.com.tw/about_us',type:'公司揭露'},
+    ],
+  },
+  {
+    id:'lihshinn',name:'立信建設',aliases:['立信建設'],reviewed:'2026-09-14',confidence:'低',
+    scores:{delivery:77,quality:70,governance:48,service:67,risk:59},
+    summary:'2001 年成立並有江翠北側等開發履歷，也設有售服窗口；可比的公司級品管、治理及保固資料有限。',
+    caveat:'C 級主要反映公開證據不足，而非已確認品質不良。購屋時應特別核對營造廠、保固與既有社區紀錄。',
+    sources:[
+      {label:'公司與售服窗口',url:'https://www.lihshinn.com/',type:'公司揭露'},
+    ],
+  },
+  {
+    id:'sunfon',name:'三豐建設',aliases:['三豐建設'],reviewed:'2026-09-14',confidence:'不足',rating:'NR',scores:null,
+    summary:'已確認公司持續登記及長期開發業務，但目前不足以用同一口徑評估工程制度、售後與風險管理。',
+    caveat:'完成公司級年報、品管及售服證據查核前不給分；未評等不代表低於 C。',
+    sources:[{label:'經濟部公司登記',url:'https://findbiz.nat.gov.tw/fts/company/22817225',type:'政府資料'}],
+  },
+  {
+    id:'heyang',name:'和暘建設',aliases:['和暘建設'],reviewed:'2026-09-14',confidence:'不足',rating:'NR',scores:null,
+    summary:'政府預售備查可確認公司為個案起造與開發主體，但尚缺足以支持公司級品質評分的公開制度資料。',
+    caveat:'預售備查只能證明案件與責任主體，不代表工程品質或售後能力，因此暫不評分。',
+    sources:[{label:'臺北市預售備查',url:'https://land.gov.taipei/News_Content.aspx?n=E8D96FA6BB2B310E&s=B9FB950496A8E523&sms=06A4332DF37FE327',type:'政府資料'}],
+  },
 ].map(profile=>{
   const score=profile.scores?weightedScore(profile.scores):null;
   return {...profile,score,rating:profile.rating||ratingFromScore(score)};
