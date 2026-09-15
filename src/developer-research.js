@@ -2761,6 +2761,50 @@ export const developerResearch=[
       {label:'預售屋買賣契約聯合稽查結果',url:'https://www.wugu.ntpc.gov.tw/uploaddowndoc?dis=wugu02&file=wugu02%2F202602241537470.pdf&filedisplay=115%E5%B9%B42%E6%9C%88%E6%B6%88%E8%B2%BB%E8%80%85%E5%AE%A3%E5%B0%8E.pdf&flag=doc',type:'中央與地方政府稽查資料'},
     ],
   },
+  {
+    id:'dichun',name:'帝群建設',aliases:['帝群建設'],reviewed:'2026-09-14',confidence:'中高',
+    scores:{delivery:82,quality:80,governance:76,service:79,risk:78},
+    summary:'2006 年設立、登記資本額 1 億元，官方網站明確定位於都市更新整合與專案管理；「台北天河」及後續大同區案件可由臺北市建照資料確認起造人身分。',
+    caveat:'具近二十年法人年資、都更專業與持續取照紀錄，列 B 級上段；但完工交屋年表、第三方品質驗證、財務治理及售後績效的公司級揭露仍不足以達 A。',
+    sources:[
+      {label:'帝群建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/28462397',type:'官方公司資料'},
+      {label:'帝群建設官方網站',url:'https://www.dichun.com.tw/',type:'建商官方資料'},
+      {label:'臺北市 114 年建造執照資料',url:'https://www-ws.gov.taipei/Download.ashx?icon=..pdf&n=MTE0LjEwLjAx6IezMTE0LjEyLjMx5qC455m85bu654Wn5LmL5bu65qGI6LOH6KiKLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvODQ1L3JlbGZpbGUvNjUxMzMvOTU0MjU5NS9jZDBkZmMwZS1kOGI3LTRkMzEtODdmMC0xYTE5NzAxOWJkZWQucGRm',type:'臺北市政府資料'},
+    ],
+  },
+  {
+    id:'jinteng',name:'金騰開發建設',aliases:['金騰開發建設','金騰開發'],reviewed:'2026-09-14',confidence:'中高',
+    scores:{delivery:82,quality:79,governance:72,service:76,risk:77},
+    summary:'2006 年設立，公開業界資料可核對多個住宅作品；「永保安康」具臺北市建照、施工進度及預售備查／開發信託資料，足以確認持續推案與履約軌跡。',
+    caveat:'多案與持續施工支持 B，但公司規模、品質制度、財務治理與售後服務主要缺少第一方定期揭露；外部建案名錄僅用於核對作品，不作為品質背書。',
+    sources:[
+      {label:'金騰開發建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/28009397',type:'官方公司資料'},
+      {label:'臺北市建照與施工進度資料',url:'https://www-ws.gov.taipei/001/Upload/845/relfile/-1/845/cffde419-5c12-430c-8d01-2456f73f4396.pdf',type:'臺北市政府資料'},
+      {label:'臺北市預售備查與履約保證',url:'https://land.gov.taipei/News.aspx?n=16B2B1C2901F43D7&sms=2E09CBE8E8A3C25A',type:'臺北市政府資料'},
+      {label:'公開作品與公司聯絡資料',url:'https://www.archi.net.tw/tw/company/139412/index.html',type:'產業名錄資料'},
+    ],
+  },
+  {
+    id:'yungzhu',name:'永筑建設',aliases:['永筑建設'],reviewed:'2026-09-14',confidence:'高',
+    scores:{delivery:78,quality:79,governance:72,service:76,risk:77},
+    summary:'2016 年設立、實收資本額 6,000 萬元；官方網站同時列出永筑埕光、永筑埕曦及後續基地，並提供公司聯絡方式與持續更新的個案資訊。',
+    caveat:'已有多個可辨識案件及約十年營運，但完成交屋週期、第三方品質、售後成效與治理揭露仍有限，列 B 級下段；官網理念文字不直接換算成品質高分。',
+    sources:[
+      {label:'永筑建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/42864724',type:'官方公司資料'},
+      {label:'永筑建設官方網站與作品',url:'https://www.yungzhu.com.tw/',type:'建商官方資料'},
+    ],
+  },
+  {
+    id:'yungfengtai',name:'永豐泰建設事業',aliases:['永豐泰建設事業','永豐泰建設'],reviewed:'2026-09-14',confidence:'中高',
+    scores:{delivery:76,quality:78,governance:72,service:74,risk:76},
+    summary:'2014 年設立、登記資本額 1.24 億元，營業項目涵蓋住宅與公共建設開發；「永豐泰雲川」可由臺北市建照與使用執照資料核對，已形成一個完整的興建至完工週期。',
+    caveat:'已完成個案且資本規模具一定基礎，但目前可核對的住宅履歷集中、公司級品質制度、治理及售後績效揭露有限，因此列 B 而非以建材規格推升等級。',
+    sources:[
+      {label:'永豐泰建設事業公司登記',url:'https://findbiz.nat.gov.tw/fts/company/24691172',type:'官方公司資料'},
+      {label:'臺北市公司變更登記清冊',url:'https://serv.gcis.nat.gov.tw/pub/cmpy/reportAction.do?fileName=11408DOC.pdf&method=report&reportClass=cmpy&subPath=11408',type:'政府登記資料'},
+      {label:'永豐泰雲川建照與使用執照資料',url:'https://market.591.com.tw/5884241/overview',type:'建案公開資料'},
+    ],
+  },
 ].map(profile=>{
   const score=profile.scores?weightedScore(profile.scores):null;
   return {...profile,score,rating:profile.rating||ratingFromScore(score)};
