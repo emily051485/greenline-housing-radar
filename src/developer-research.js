@@ -3746,6 +3746,54 @@ export const developerResearch=[
       {label:'國賓大飯店官方沿革',url:'https://www.ambassador-hotels.com/tc',type:'公司官方資料'},
     ],
   },
+  {
+    id:'tsai-fong',name:'采豐生活建築',aliases:['采豐生活建築'],reviewed:'2026-09-14',confidence:'中高',
+    scores:{delivery:76,quality:80,governance:68,service:72,risk:75},
+    summary:'公司前身寶多廣告於 2013 年設立，2016 年更名為采豐生活建築，登記實收資本額 2,500 萬元；公開作品包括采豐所在、采豐之間、采豐逸安莊園，植建築則與富徠建設共同投資，規劃黃金級綠建築及智慧建築。',
+    caveat:'已有多筆作品脈絡與具體標章規劃，足以列 B 級；但資本規模小、部分作品與其他建商共同投資，完工品質、售後制度及公司財務治理的獨立公開證據仍有限。',
+    sources:[
+      {label:'采豐生活建築公司登記',url:'https://findbiz.nat.gov.tw/fts/company/54355529',type:'經濟部商工登記'},
+      {label:'植建築官方團隊與作品資料',url:'https://www.a-life.com.tw/projects/treeliving/',type:'建案官方資料'},
+      {label:'植建築成交與產品資料',url:'https://www.leju.com.tw/community/L3c8138271f12d5',type:'成屋與實價資料'},
+      {label:'植建築建商交叉核對',url:'https://tp.housetube.tw/45001',type:'建案公開資料'},
+    ],
+  },
+  {
+    id:'tongchuang',name:'統創建設開發',aliases:['統創建設開發','統創建設'],reviewed:'2026-09-14',confidence:'高',
+    scores:{delivery:85,quality:88,governance:85,service:78,risk:84},
+    summary:'2005 年設立、登記實收資本額 19.49 億元；已可核對龍騰、統創翼及後續統創曜、統創緻等開發，統創翼由璞園建築團隊公開列案並由日本鹿島百分之百持有的中鹿營造承造。',
+    caveat:'資本規模、持續推案、完成作品及高規格承造團隊支持 A 級；但仍是私人公司，完整財務、跨案交屋品質、保固履行與客訴統計未達 S 級公開程度。',
+    sources:[
+      {label:'統創建設開發公司登記',url:'https://findbiz.nat.gov.tw/fts/company/27728428',type:'經濟部商工登記'},
+      {label:'統創翼璞園建築團隊資料',url:'https://pyct.com.tw/project/tong-chuang-yi/',type:'合作團隊官方資料'},
+      {label:'統創翼中鹿營造工程資料',url:'https://www.kajima.com.tw/%E3%80%8C%E7%B5%B1%E5%89%B5%E7%BF%BC%E3%80%8D%E6%AD%A3%E5%BC%8F%E5%85%AC%E9%96%8B%E8%A8%98%E8%80%85%E6%9C%83/',type:'承造廠商官方資料'},
+      {label:'統創作品與公司簡介',url:'https://www.104.com.tw/company/cqksfz4',type:'公司公開資料'},
+    ],
+  },
+  {
+    id:'longlin',name:'龍麟建設（龍聯／三圓團隊）',aliases:['龍麟建設'],reviewed:'2026-09-14',confidence:'高',
+    scores:{delivery:84,quality:90,governance:76,service:80,risk:80},
+    summary:'龍麟建設於 2004 年設立、實收資本額 2 億元，所屬建築團隊公開沿革自 1975 年起投入開發；與三圓機構共同完成大型都更案 Diamond Towers 台北之星，採日本大林組體系、雙制震與住商複合規劃。',
+    caveat:'大型複雜都更完成度、工程規格與長期團隊經驗支持 A 級低段；但龍麟法人自身可辨識的住宅作品較集中，私人公司治理及跨案售後績效揭露仍不足以列 S。',
+    sources:[
+      {label:'龍麟建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/80680367',type:'經濟部商工登記'},
+      {label:'龍聯建築團隊都市更新沿革',url:'https://union-wide.com/urban-renewal',type:'公司官方資料'},
+      {label:'Diamond Towers 官方資料',url:'https://www.diamondtowers.tw/',type:'建案官方資料'},
+      {label:'建築師公會個案與投資建設資料',url:'https://www.arch.org.tw/Content/Files/Download/8a10baf143794a43a1bc24c8b1eacb03.pdf',type:'建築師公會資料'},
+    ],
+  },
+  {
+    id:'guangsheng',name:'廣陞建設（鉅陞建築團隊）',aliases:['廣陞建設'],reviewed:'2026-09-14',confidence:'中高',
+    scores:{delivery:74,quality:80,governance:66,service:82,risk:75},
+    summary:'廣陞建設於 2021 年設立，裏山為其臺北首案並已完工交屋；公開資料可核對鉅陞團隊提供客變、售後 APP 及交屋後一年代管等制度，另有施工說明會與建材合作紀錄。',
+    caveat:'已完成作品及具體售後流程支持 B 級；但廣陞法人年資短、2026 年登記資本僅 100 萬元，團隊其他公司的案量不能全數歸屬廣陞，財務與跨案交付能力仍需觀察。',
+    sources:[
+      {label:'廣陞建設公司變更登記清冊',url:'https://serv.gcis.nat.gov.tw/pub/cmpy/reportAction.do?fileName=379100000Gchange11503.pdf&method=report&reportClass=cmpyCity&subPath=11503',type:'經濟部商工登記'},
+      {label:'裏山官方建案資料',url:'https://wowpan.com.tw/satoyama/',type:'建案官方資料'},
+      {label:'裏山預售備查與信託',url:'https://land.gov.taipei/News.aspx?PageSize=20&n=16B2B1C2901F43D7&page=3&sms=2E09CBE8E8A3C25A',type:'臺北市政府資料'},
+      {label:'裏山作品與售後制度',url:'https://estate.ltn.com.tw/article/12986',type:'建案公開報導'},
+    ],
+  },
 ].map(profile=>{
   const score=profile.scores?weightedScore(profile.scores):null;
   return {...profile,score,rating:profile.rating||ratingFromScore(score)};
