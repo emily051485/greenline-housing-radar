@@ -5056,6 +5056,61 @@ export const developerResearch=[
       {label:'勝輝馥敦建築設計作品資料',url:'https://www.lin-arch.com.tw/portfolio/kIWBsi0cePf9',type:'建築師作品資料'},
     ],
   },
+  {
+    id:'yangsheng-construction',name:'楊昇建設股份有限公司（揚昇集團）',aliases:['楊昇建設股份有限公司','楊昇建設','揚昇建設'],reviewed:'2026-09-14',confidence:'高',
+    scores:{delivery:88,quality:86,governance:84,service:76,risk:82},
+    summary:'1981 年設立、實收資本額 5.8 億元，具關係營造體系；公開資料可核對揚昇君臨、揚昇君苑、揚昇松韻及揚昇君隆等多個台北住宅案，包含已完工大型鋼骨住宅。',
+    caveat:'長期存續、跨案交付與集團營造能力支持 A 級，但工程與售後制度的公開量化程度仍不及 S 級建商；總分 84 分，列 A。',
+    sources:[
+      {label:'經濟部商工登記（楊昇建設）',url:'https://findbiz.nat.gov.tw/fts/company/28699317',type:'官方公司登記'},
+      {label:'楊昇建設歷年建案彙整',url:'https://www.plex.com.tw/projects/index/type/developer/query/%E6%A5%8A%E6%98%87%E5%BB%BA%E8%A8%AD',type:'建案公開資料'},
+      {label:'信義房屋揚昇君苑社區資料',url:'https://www.sinyi.com.tw/communitylist/communityinfo/0027066',type:'成屋公開資料'},
+    ],
+  },
+  {
+    id:'zhufeng-enterprise',name:'筑丰興業股份有限公司（筑丰機構）',aliases:['筑丰興業股份有限公司','筑丰興業','筑丰建設有限公司','筑丰建設'],reviewed:'2026-09-14',confidence:'高',
+    scores:{delivery:86,quality:86,governance:84,service:80,risk:82},
+    summary:'2007 年設立，實收資本額已增至 3.8 億元；筑丰敦匯與筑丰天母等作品可核對，筑丰敦匯由日商日本國土開發承造並持續公開工程進度，集團另揭露建築物管與售後承諾。',
+    caveat:'資本、跨案作品、承造團隊與服務架構均較完整，但品質與售後成效仍多由公司自行揭露；總分 84 分，列 A，尚不推至 S。',
+    sources:[
+      {label:'經濟部商工登記（筑丰興業）',url:'https://findbiz.nat.gov.tw/fts/company/28486551',type:'官方公司登記'},
+      {label:'筑丰敦匯官方建案與工程進度',url:'https://zhufeng.tw/%E7%AD%91%E4%B8%B0%E6%95%A6%E5%8C%AF/',type:'建商官方資料'},
+      {label:'日商日本國土開發工程實績',url:'https://jdc-corpn.com.tw/wp-content/uploads/2023/06/%E6%97%A5%E6%9C%AC%E5%9C%8B%E5%9C%9F_2023DM-d.pdf',type:'承造商官方資料'},
+    ],
+  },
+  {
+    id:'zhuhonghe-development',name:'筑鴻合開發股份有限公司（筑丰機構×宏道地產）',aliases:['筑鴻合開發股份有限公司','筑鴻合開發'],reviewed:'2026-09-14',confidence:'高',
+    scores:{delivery:76,quality:82,governance:78,service:72,risk:80},
+    summary:'2022 年設立、實收資本額 1.2 億元，地址與主要經營者可連結筑丰機構；慶城匯官方資料明確說明由筑丰機構與宏道地產共同成立筑鴻合開發，並揭露基地、設計與服務團隊。',
+    caveat:'可採計兩個合作團隊的工程與開發能力，但筑鴻合法人本身年資短、慶城匯尚未完成交付，不能完全沿用筑丰分數；總分 78 分，列 B。',
+    sources:[
+      {label:'經濟部商工登記（筑鴻合開發）',url:'https://findbiz.nat.gov.tw/fts/company/90019466',type:'官方公司登記'},
+      {label:'慶城匯官方建案與合作團隊資料',url:'https://thetopofgeneration.com.tw/',type:'建案官方資料'},
+    ],
+  },
+  {
+    id:'shengguang-construction',name:'聲光建設股份有限公司',aliases:['聲光建設股份有限公司','聲光建設'],reviewed:'2026-09-14',confidence:'中',
+    scores:{delivery:62,quality:68,governance:64,service:58,risk:72},
+    summary:'2022 年設立，住宅開發登記正常；聲光沁玥已由臺北市預售備查確認建設公司及板信銀行不動產開發信託，並已有預售成交與明確建照資料。',
+    caveat:'公司成立時間短，目前可驗證住宅履歷集中於聲光沁玥且尚未完工，缺少跨案工程品質與交屋售後成果；總分 64 分，暫列 C。',
+    sources:[
+      {label:'經濟部商工登記（聲光建設）',url:'https://findbiz.nat.gov.tw/fts/company/90659976',type:'官方公司登記'},
+      {label:'臺北市預售備查（聲光沁玥）',url:'https://land.gov.taipei/News.aspx?PageSize=20&n=E8D96FA6BB2B310E&page=3&sms=06A4332DF37FE327',type:'官方預售備查'},
+      {label:'聲光沁玥建照與成交資料',url:'https://www.myhousingex.com.tw/developments/22UW02WV',type:'建案公開資料'},
+    ],
+  },
+  {
+    id:'jinpeng-construction',name:'金朋建設股份有限公司',aliases:['金朋建設股份有限公司','金朋建設'],reviewed:'2026-09-14',confidence:'高',
+    scores:{delivery:88,quality:84,governance:84,service:72,risk:80},
+    summary:'1994 年設立、實收資本額 4 億元；公開資料可核對大安琉御、水木青華及金朋馥蓊等跨期住宅案。金朋馥蓊由日商華熊營造承造，臺北市工地評核資料列為甲等工地。',
+    caveat:'公司存續、資本與住宅作品具一定深度，近期工程團隊亦佳；但公司層級的售後與品質量化揭露仍有限，總分 82 分，列 A 級下緣。',
+    sources:[
+      {label:'臺北市公司變更登記清冊（金朋建設）',url:'https://serv.gcis.nat.gov.tw/pub/cmpy/reportAction.do?fileName=11307DOC.pdf&method=report&reportClass=cmpy&subPath=11307',type:'官方公司登記'},
+      {label:'臺北市建照資料（金朋馥蓊）',url:'https://www-ws.gov.taipei/Download.ashx?icon=..pdf&n=MTExMDkwMeiHszExMjAzMzHmoLjnmbzkuYvlu7rnhacucGRm&u=LzAwMS9VcGxvYWQvNDYxL3JlbGZpbGUvNTg1NTEvODg4NzM4OS9lYzhmYjAyNy0wZTg0LTRkYzQtYmEwMi0xMDllMWE0ZjdhMTgucGRm',type:'官方建照資料'},
+      {label:'臺北市工地評核（金朋馥蓊）',url:'https://www-ws.gov.taipei/Download.ashx?icon=.pdf&n=MTE05bm0N%2BaciOeoveaguCjnrYnntJop5ZCN5YaKLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvNDUzL3JlbGZpbGUvNTYzMzgvOTQ1Mzg4MC81OWE1NDQwNC01ZWE2LTQ0ODAtYTAwOC0zMzU3Nzk4NzkyNWUucGRm',type:'官方工程評核'},
+      {label:'金朋馥蓊建照與建案資料',url:'https://newhouse.591.com.tw/136425',type:'建案公開資料'},
+    ],
+  },
 ].map(profile=>{
   const score=profile.scores?weightedScore(profile.scores):null;
   return {...profile,score,rating:profile.rating||ratingFromScore(score)};
