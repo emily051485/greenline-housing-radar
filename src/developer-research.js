@@ -557,6 +557,48 @@ export const developerResearch=[
       {label:'公司與驗屋資訊',url:'https://jia-ruen.com/index.php',type:'公司揭露'},
     ],
   },
+  {
+    id:'heyao',name:'和耀建設',aliases:['和耀建設'],reviewed:'2026-09-14',confidence:'中低',
+    scores:{delivery:72,quality:68,governance:61,service:64,risk:63},
+    summary:'2011 年成立且資本與公司存續可由商工登記核對；政府建照審議及預售契約可確認土城等案的申請人與賣方責任。',
+    caveat:'未找到完整官方品牌、工程查驗、售後保固與量化績效資料，現階段列 C。',
+    sources:[
+      {label:'公司登記資料',url:'https://findbiz.nat.gov.tw/fts/company/53461712',type:'政府資料'},
+      {label:'新北市預售契約',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?icon=..pdf&n=5ZKM6ICA576O5a62IOmbheWxhS5wZGY%3D&u=LzAwMS9VcGxvYWQvMS9yZWxmaWxlLzk2NzkvNzM4NjkwLzJiNzE2N2IzLTMyMDMtNDdlZS1hY2VlLTUyNTYzZTAzMjE5ZS5wZGY%3D',type:'政府公開文件'},
+      {label:'都市設計審議資料',url:'https://www.planning.ntpc.gov.tw/uploaddowndoc?file=downloaddata%2F202404181131251.pdf&filedisplay=0412%E4%B8%8B%E5%8D%88-%E8%98%87-%28%E4%B8%80%29%E5%92%8C%E8%80%80%E5%9C%9F%E5%9F%8E%E6%B0%B8%E7%A6%8F%E6%AE%B533%28%E4%BA%8C%29%E8%87%BA%E5%84%84%E5%9C%9F%E5%9F%8E%E5%93%A1%E5%92%8C%E6%AE%B5123%282%E8%AE%8A%29.pdf&flag=doc',type:'政府資料'},
+    ],
+  },
+  {
+    id:'hejia',name:'合嘉建設',aliases:['合嘉建設'],reviewed:'2026-09-14',confidence:'低',
+    scores:{delivery:70,quality:66,governance:61,service:62,risk:62},
+    summary:'2006 年成立，公司登記與智慧財產資料可確認資本、存續及多個建案商標，外部個案資料亦可交叉確認持續推案。',
+    caveat:'未找到公司官網、正式品管與售後制度，個案資料多來自行銷頁面；C 僅表示責任主體已識別。',
+    sources:[
+      {label:'公司登記與商標資料',url:'https://findbiz.nat.gov.tw/fts/company/28548085',type:'政府資料'},
+      {label:'新北預售備查清冊',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?n=MTEw5bm06IezMTE05bm05bey5YKZ5p%2Bl5bu65qGI5riF5YaKLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMzk5L3JlbGZpbGUvODk5My85NDY5L2NkZTQ4OTJkLTQzMzAtNDY3Zi1hYmExLTI3YzJiYjI0MjYxNi5wZGY%3D',type:'政府資料'},
+    ],
+  },
+  {
+    id:'junfeng',name:'鈞豐建設',aliases:['鈞豐建設'],reviewed:'2026-09-14',confidence:'低',
+    scores:{delivery:69,quality:66,governance:58,service:64,risk:61},
+    summary:'2011 年成立，公司登記、新北市預售清冊及內政部建築資料可確認責任主體與多個住宅案。',
+    caveat:'公司規模及公開制度資料有限，未找到可驗證的品管、保固、售後績效或完整財務治理報告，暫列 C。',
+    sources:[
+      {label:'公司登記資料',url:'https://findbiz.nat.gov.tw/fts/company/53210482',type:'政府資料'},
+      {label:'新北預售備查清冊',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?n=MTEw5bm06IezMTE05bm05bey5YKZ5p%2Bl5bu65qGI5riF5YaKLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMzk5L3JlbGZpbGUvODk5My85NDY5L2NkZTQ4OTJkLTQzMzAtNDY3Zi1hYmExLTI3YzJiYjI0MjYxNi5wZGY%3D',type:'政府資料'},
+    ],
+  },
+  {
+    id:'zhongde',name:'中德建設',aliases:['中德建設'],reviewed:'2026-09-14',confidence:'中低',
+    scores:{delivery:77,quality:64,governance:58,service:64,risk:55},
+    summary:'政府預售與查核資料、跨年度個案可確認中德在雙北及外縣市持續推案，責任主體明確。',
+    caveat:'未找到完整官方網站與公司級品質、售後及治理報告；另有工地逕流廢水未依核准計畫執行紀錄，風險項保守扣分。',
+    sources:[
+      {label:'新北預售備查清冊',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?n=MTEw5bm06IezMTE05bm05bey5YKZ5p%2Bl5bu65qGI5riF5YaKLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMzk5L3JlbGZpbGUvODk5My85NDY5L2NkZTQ4OTJkLTQzMzAtNDY3Zi1hYmExLTI3YzJiYjI0MjYxNi5wZGY%3D',type:'政府資料'},
+      {label:'臺南預售查核結果',url:'https://w3fs.tainan.gov.tw/Download.ashx?n=5aWR57SE6L2J6K6T5p%2Bl5qC46KGoLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMjA3L3JlbGZpbGUvMjI0ODYvODc2NjE1Ny8xM2QwY2ZlMC1kZTc5LTRiODYtYTMyZC1kZjU4NWJkOTBhODQucGRm',type:'政府資料'},
+      {label:'環境裁處公開彙整',url:'https://thaubing.gcaa.org.tw/corp/27627527',type:'政府資料彙整'},
+    ],
+  },
 ].map(profile=>{
   const score=profile.scores?weightedScore(profile.scores):null;
   return {...profile,score,rating:profile.rating||ratingFromScore(score)};
