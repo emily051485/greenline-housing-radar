@@ -4127,6 +4127,52 @@ export const developerResearch=[
       {label:'弘達建設公司登記異動',url:'https://serv.gcis.nat.gov.tw/pub/cmpy/reportAction.do?fileName=10906TYC.pdf&method=report&reportClass=cmpy&subPath=10906',type:'經濟部公司登記公報'},
     ],
   },
+  {
+    id:'weishi',name:'瑋石建設',aliases:['瑋石建設'],reviewed:'2026-09-14',confidence:'中高',
+    scores:{delivery:80,quality:82,governance:76,service:68,risk:78},
+    summary:'2003 年設立、資本額 2,500 萬元，長期與恆合機構體系合作；除目前「恆合鈺璽」外，官方與公會資料可確認瑋石曾參與南京復興案，並為恆合北投立農段建案提供連帶擔保，該案後續已取得使用執照。',
+    caveat:'公司存續時間長且有履約完成佐證，足以列 B；但多數作品以恆合機構品牌呈現，瑋石自身可辨識的完工量、住戶售後及財務揭露仍有限，不把整個恆合機構履歷全數歸入瑋石。',
+    sources:[
+      {label:'瑋石建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/80510390',type:'經濟部商工登記'},
+      {label:'瑋石南京復興案',url:'https://heng-ho.com.tw/projectInner.php?Tb_index=case2024040911212192',type:'機構官方個案'},
+      {label:'預售屋擔保資格審核資料',url:'https://www.redat.org.tw/storage/upload/members/1131231%E5%AF%A9%E6%A0%B8%E9%80%9A%E9%81%8E%E5%90%8D%E5%96%AE%28%E7%99%BB%E7%B6%B2%29-1744700310.pdf',type:'公會審核資料'},
+    ],
+  },
+  {
+    id:'spring-development',name:'春風開發',aliases:['春風開發'],reviewed:'2026-09-14',confidence:'中高',
+    scores:{delivery:82,quality:84,governance:76,service:70,risk:76},
+    summary:'可核實作品包括云硯、悅榕莊、涵碧園及目前的「春風大院」；春風大院採 SRC、611 坪基地與低公設規劃，臺北市都更會議亦可確認春風為相關更新案實施者，已有跨期推案履歷。',
+    caveat:'作品規格與完工案例使其進入 B 級上緣，但品牌規模、財務透明度及系統性售後證據不足。臺北市過往契約查核曾列出云硯水電瓦斯費用起算對消費者不利，需納入治理評估，因此暫不升 A。',
+    sources:[
+      {label:'春風大院官方網站',url:'https://www.harukazedayuan.com.tw/',type:'建商官方個案'},
+      {label:'臺北市都市更新審議紀錄',url:'https://www-ws.gov.taipei/Download.ashx?icon=.pdf&n=5a%2BGKOmBrikxMDkwOTIxLTQzNuasoeacg%2BitsOe0gOmMhCjlroznqL8pLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvNDU5L2NrZmlsZS82M2RmMzUxZS1kZTllLTQ5OWUtYjI4NS1lMTk3MzNiOGIxZjEucGRm',type:'臺北市政府都更資料'},
+      {label:'預售契約查核簡報',url:'https://www-ws.gov.taipei/Download.ashx?n=NjEwNzExNTI1NDYucGRm&u=LzAwMS9VcGxvYWQvcHVibGljL0F0dGFjaG1lbnQvNjEwNzExNTI1NDYucGRm',type:'臺北市政府契約查核'},
+      {label:'春風大院成交與規劃',url:'https://www.leju.com.tw/community/Lbda149224712c3',type:'建案公開資料'},
+    ],
+  },
+  {
+    id:'shengjia',name:'陞家建設',aliases:['陞家建設'],reviewed:'2026-09-14',confidence:'中高',
+    scores:{delivery:80,quality:80,governance:82,service:68,risk:80},
+    summary:'公司前身三嘉建設於 2016 年設立，2023 年更名陞家，實收資本額已增至 1.8 億元；官方網站列有陞家內湖大樓、富源鑫投資案、百福匯、陞家松博及外縣市開發，具多案而非單一專案履歷。',
+    caveat:'資本與開發履歷支持 B 級，但更名後品牌的住宅交屋樣本仍有限，網站亦未提供足夠的售後制度、保固績效或第三方品質紀錄；現階段不以資本額單獨推升至 A。',
+    sources:[
+      {label:'陞家建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/45036073',type:'經濟部商工登記'},
+      {label:'陞家建設官方實績',url:'https://sjdevelopment.com.tw/',type:'建商官方實績'},
+      {label:'陞家松博建案資料',url:'https://newhouse.591.com.tw/141460',type:'建案公開資料'},
+    ],
+  },
+  {
+    id:'yushang',name:'御上建設',aliases:['御上建設'],reviewed:'2026-09-14',confidence:'中高',
+    scores:{delivery:84,quality:82,governance:78,service:70,risk:80},
+    summary:'2009 年設立、2011 年由大堅建設更名，實收資本額 6,000 萬元；官方網站列有泊山石、樹和苑、廣宇晴朗、日健悅、日健駅、潮堂等歷年案例，並持續推出御上中山與天母案，具連續推案及完工履歷。',
+    caveat:'多案履歷足以列 B 級上緣；但公司並非公開發行，財務與售後服務績效揭露有限，且網站作品涉及集團及合作案，需避免把所有合作成果等同御上單獨品質，因此暫不升 A。',
+    sources:[
+      {label:'御上建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/24477270',type:'經濟部商工登記'},
+      {label:'御上建設官方實績',url:'https://yushbuilding.8sms.tw/',type:'建商官方實績'},
+      {label:'臺北市都更實施者清冊',url:'https://www-ws.gov.taipei/001/Upload/459/relfile/22615/3491578/25d7852e-51d5-4e62-8977-481a9f33dcc9.pdf',type:'臺北市政府都更資料'},
+      {label:'御上中山建案資料',url:'https://newhouse.591.com.tw/138504',type:'建案公開資料'},
+    ],
+  },
 ].map(profile=>{
   const score=profile.scores?weightedScore(profile.scores):null;
   return {...profile,score,rating:profile.rating||ratingFromScore(score)};
