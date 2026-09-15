@@ -2935,6 +2935,48 @@ export const developerResearch=[
       {label:'御品園建案及使用執照資料',url:'https://www.plex.com.tw/projects/view/id/3754',type:'建案公開資料'},
     ],
   },
+  {
+    id:'jiayuan-construction',name:'嘉源建設',aliases:['嘉源建設'],reviewed:'2026-09-14',confidence:'高',
+    scores:{delivery:42,quality:55,governance:35,service:34,risk:28},
+    summary:'政府建照與預售備查可確認嘉源埕驛、泊山妍等案由嘉源建設推動；但後續公開紀錄顯示公司及專案出現多項重大履約與營運警訊。',
+    caveat:'臺北市政府 2024 年公告其有開始營業後自行停止營業六個月以上、通知限期申復情事；勞動部公示資料亦有勞退與滯納金紀錄，消基會並就兩案停工及價金信託保障提出警示。列低分 C，購屋前應查明最新公司狀態、續建安排與信託受益權。',
+    sources:[
+      {label:'嘉源建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/54301221',type:'經濟部商工資料'},
+      {label:'臺北市無營業公司限期申復公告',url:'https://data.taipei/api/dataset/59027123-0fd0-4599-bcc7-53e3f480e52a/resource/de0572c2-bc4a-439f-a2d6-ecb3d1d53e23/download',type:'臺北市政府公報'},
+      {label:'嘉源兩案履約保障分析',url:'https://www.consumers.org.tw/product-detail-3481036.html',type:'消費者保護團體資料'},
+    ],
+  },
+  {
+    id:'zhoucheng',name:'周城建設',aliases:['周城建設'],reviewed:'2026-09-14',confidence:'中',
+    scores:{delivery:72,quality:74,governance:68,service:70,risk:72},
+    summary:'公開徵才與建案資料可確認公司從事集合住宅、購地自建、都更與危老，資本額 6,000 萬元，並有寶安一品、綺埕等推案辨識。',
+    caveat:'目前缺少足以交叉驗證的長期完工清冊、售後制度、品質檢測與治理報告；現有資料能確認建商身分，但不足以支持 B 級，故列 C。',
+    sources:[
+      {label:'周城建設公司公開資料',url:'https://www.104.com.tw/company/1a2x6bl971',type:'公司刊載資料'},
+      {label:'綺埕建案資料',url:'https://mbae.tw/taipei_cct/',type:'建案公開資料'},
+    ],
+  },
+  {
+    id:'dunyang',name:'敦仰建設',aliases:['敦仰建設'],reviewed:'2026-09-14',confidence:'中高',
+    scores:{delivery:79,quality:78,governance:73,service:75,risk:77},
+    summary:'2007 年設立、實收資本額 4,200 萬元；官方網站持續揭露敦豐苑與雙星綻工程進度，臺北市資料亦可核對雙星綻建照、起造人與預售備查。',
+    caveat:'已有可追蹤完工與在建紀錄，但公開治理、售後量化成效與跨案品質資料仍有限，因此列 B 而非 A。',
+    sources:[
+      {label:'敦仰建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/28825308',type:'經濟部商工資料'},
+      {label:'敦仰建設工程進度',url:'https://www.dunyang.com.tw/album/all/1',type:'公司官方資料'},
+      {label:'臺北市 114 年預售建案備查',url:'https://land.gov.taipei/News.aspx?PageSize=20&n=E8D96FA6BB2B310E&page=2&sms=06A4332DF37FE327',type:'臺北市政府資料'},
+    ],
+  },
+  {
+    id:'zhufu-construction',name:'竹富建設',aliases:['竹富建設'],reviewed:'2026-09-14',confidence:'中',
+    scores:{delivery:69,quality:72,governance:68,service:69,risk:72},
+    summary:'公司前身為 2010 年設立的日奕投資，2018 年更名為竹富建設，目前資本額 1,501 萬元；SOHO 筑富的建照、投資興建與預售交易可相互核對。',
+    caveat:'可確認其為實際投資興建者，但以目前名稱營運年資、完工案量、售後及品質制度公開程度皆有限，故保守列 C；不代表個案工程品質已有負面判定。',
+    sources:[
+      {label:'竹富建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/53098333',type:'經濟部商工資料'},
+      {label:'SOHO 筑富建案與建照資料',url:'https://newhouse.591.com.tw/139028',type:'建案公開資料'},
+    ],
+  },
 ].map(profile=>{
   const score=profile.scores?weightedScore(profile.scores):null;
   return {...profile,score,rating:profile.rating||ratingFromScore(score)};
