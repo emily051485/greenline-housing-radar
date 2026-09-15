@@ -2365,6 +2365,50 @@ export const developerResearch=[
       {label:'利害關係人與售後服務揭露',url:'https://www.pacific-group.com.tw/wp-content/uploads/2024/12/113%E5%B9%B4%E8%88%87%E5%88%A9%E5%AE%B3%E9%97%9C%E4%BF%82%E4%BA%BA%E6%BA%9D%E9%80%9A%E7%AE%A1%E9%81%931131119.pdf',type:'公司治理資料'},
     ],
   },
+  {
+    id:'fujing',name:'富璟建設',aliases:['富璟建設'],reviewed:'2026-09-14',confidence:'高',
+    scores:{delivery:80,quality:79,governance:70,service:72,risk:52},
+    summary:'2003 年設立、實收資本額 2 億元；官方登記與建照可確認「圓山富璟」，具二十年以上公司存續及中型資本基礎。',
+    caveat:'公平會已認定圓山富璟廣告對公園首排及捷運步行距離有不實、引人錯誤表示並裁罰，故風險與治理分數明確扣分；目前列 B。',
+    sources:[
+      {label:'經濟部公司登記',url:'https://findbiz.nat.gov.tw/fts/company/80512600',type:'官方公司資料'},
+      {label:'公平會圓山富璟處分說明',url:'https://www.ftc.gov.tw/internet/main/doc/docDetail.aspx?docid=17700&uid=126',type:'主管機關裁罰'},
+      {label:'政府預售屋備查資料集',url:'https://data.gov.tw/dataset/176351',type:'官方交易資料'},
+    ],
+  },
+  {
+    id:'xinyang',name:'欣暘建設',aliases:['欣暘建設'],reviewed:'2026-09-14',confidence:'高',
+    scores:{delivery:76,quality:77,governance:70,service:71,risk:75},
+    summary:'2006 年設立、實收資本額 2,600 萬元；臺北市官方契約可直接確認「溪泊林」賣方、71 戶規模與 113 建字第0080號建照。',
+    caveat:'公司存續時間尚可且溪泊林契約查核未見表列缺失，但公開完工履歷、售後制度及治理資料仍有限，暫列 B。',
+    sources:[
+      {label:'經濟部公司登記',url:'https://findbiz.nat.gov.tw/fts/company/28197047',type:'官方公司資料'},
+      {label:'溪泊林官方預售契約',url:'https://househunt.land.gov.taipei/upload/5.%E6%BA%AA%E6%B3%8A%E6%9E%97_%E6%88%BF%E5%B1%8B%E5%9C%9F%E5%9C%B0%E9%A0%90%E5%AE%9A%E8%B2%B7%E8%B3%A3%E5%A5%91%E7%B4%84%E6%9B%B8.pdf',type:'官方交易資料'},
+      {label:'行政院預售屋契約查核結果',url:'https://cpc.ey.gov.tw/File/5E4190B14E1978FA?A=C',type:'主管機關查核'},
+    ],
+  },
+  {
+    id:'changyu',name:'長煜建設開發',aliases:['長煜建設開發','長煜建設'],reviewed:'2026-09-14',confidence:'中高',
+    scores:{delivery:79,quality:79,governance:70,service:72,risk:74},
+    summary:'2009 年設立、實收資本額 6,000 萬元；臺北市官方預售資訊可確認「綠野心瀞」及價金信託履約保證。',
+    caveat:'具十年以上存續與可核對預售案，但完工交屋樣本、售後流程及公司治理公開資料仍有限，暫列 B。',
+    sources:[
+      {label:'經濟部公司登記',url:'https://findbiz.nat.gov.tw/fts/company/24466386',type:'官方公司資料'},
+      {label:'臺北市預售建案備查資訊',url:'https://land.gov.taipei/News.aspx?PageSize=20&n=8A62273E3E42E818&page=4&sms=C26A9E324E37B468',type:'官方交易資料'},
+      {label:'政府預售屋備查資料集',url:'https://data.gov.tw/dataset/176351',type:'官方交易資料'},
+    ],
+  },
+  {
+    id:'telin',name:'德林建設',aliases:['德林建設'],reviewed:'2026-09-14',confidence:'高',
+    scores:{delivery:86,quality:85,governance:78,service:80,risk:80},
+    summary:'1985 年設立；官網可核對住宅與大型廠辦長期實績，包括哲人德林、河畔哲人、T1/T2/T3 台灣科學園區及德林哲里，並具土地開發、規劃、營造整合能力。',
+    caveat:'長期交付履歷與整合能力明顯優於一般單案公司，但非上市櫃建商，治理、財務及售後績效揭露仍不及 S 級，綜合列 A。',
+    sources:[
+      {label:'經濟部公司登記',url:'https://findbiz.nat.gov.tw/fts/company/09468603',type:'官方公司資料'},
+      {label:'德林建設官方實績',url:'https://telin.com.tw/',type:'建商官網'},
+      {label:'政府預售屋備查資料集',url:'https://data.gov.tw/dataset/176351',type:'官方交易資料'},
+    ],
+  },
 ].map(profile=>{
   const score=profile.scores?weightedScore(profile.scores):null;
   return {...profile,score,rating:profile.rating||ratingFromScore(score)};
