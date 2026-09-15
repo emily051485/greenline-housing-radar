@@ -1621,6 +1621,49 @@ export const developerResearch=[
       {label:'愛家匯建案資料',url:'https://www.plex.com.tw/projects/transactions/id/2539/address/%E5%BF%A0%E5%AD%9D%E4%B8%80%E8%B7%AF36%E8%99%9F9%E6%A8%93',type:'建案公開資料'},
     ],
   },
+  {
+    id:'yuetian',name:'悅田建設',aliases:['悅田建設'],reviewed:'2026-09-14',confidence:'中高',
+    scores:{delivery:79,quality:78,governance:63,service:73,risk:68},
+    summary:'2002 年設立，目前實收資本額 5,000 萬元；公司登記與長群品牌官網可核對長群樂樂、悅田吾澍，並確認其與長群體系的營運連結。',
+    caveat:'法人年期、既有交付及集團工程資訊良好，但悅田單一法人可歸屬作品、財務治理與售後量化仍有限，評為 B 級。',
+    sources:[
+      {label:'經濟部公司登記',url:'https://findbiz.nat.gov.tw/fts/company/79982879',type:'政府資料'},
+      {label:'悅田建設官網',url:'https://yuetien.com.tw/',type:'建商官網'},
+      {label:'長群樂樂工程與品質資料',url:'https://lele.changqun.com.tw/',type:'建案官網'},
+    ],
+  },
+  {
+    id:'dunmeidev',name:'敦美開發建設',aliases:['敦美開發建設'],reviewed:'2026-09-14',confidence:'高',
+    scores:{delivery:86,quality:81,governance:65,service:77,risk:70},
+    summary:'2011 年設立，目前實收資本額 6,200 萬元；敦美官網揭露自 2005 年起的開發經驗、跨期完工作品、在建進度及永騰營造垂直整合。',
+    caveat:'集團具多案交付與完整開發營建流程，但部分早期作品屬敦美關係企業，單一法人治理、售後及品質量化仍有限，評為 B 級。',
+    sources:[
+      {label:'經濟部公司登記',url:'https://findbiz.nat.gov.tw/fts/company/53432962',type:'政府資料'},
+      {label:'敦美品牌沿革與關係企業',url:'https://dun-mei.com.tw/about',type:'建商官網'},
+      {label:'敦美作品與在建工程',url:'https://dun-mei.com.tw/',type:'建商官網'},
+    ],
+  },
+  {
+    id:'handing',name:'瀚鼎國際建設',aliases:['瀚鼎國際建設'],reviewed:'2026-09-14',confidence:'高',
+    scores:{delivery:78,quality:78,governance:66,service:71,risk:68},
+    summary:'2019 年由謙仁建設更名，實收資本額 1 億元；新北市都更案卷列出一品苑、三和 A+、畫琚、村上瓏、中和棧、豐后、悅河及集緻美等實績。',
+    caveat:'政府案卷提供的作品履歷較完整，但部分為共同出資或機構經驗，公開財務、售後與第三方品質量化仍不足，評為 B 級。',
+    sources:[
+      {label:'經濟部公司登記',url:'https://findbiz.nat.gov.tw/fts/company/82799685',type:'政府資料'},
+      {label:'新北市都更事業計畫案卷',url:'https://www.uro.ntpc.gov.tw/Uploads/Announce/2024-12/032cff27-c13d-4534-a3e5-8d6ff06babee.pdf',type:'政府案卷'},
+    ],
+  },
+  {
+    id:'zhuyi',name:'築億建設',aliases:['築億建設'],reviewed:'2026-09-14',confidence:'中高',
+    scores:{delivery:76,quality:76,governance:61,service:68,risk:66},
+    summary:'2014 年設立，目前實收資本額 9,500 萬元；政府預售契約可核對鼎藏豐碩，公開案況另可確認已完工的築億峰尚。',
+    caveat:'已有一件成屋及一件預售案，但不能僅因案名直接承接鼎藏建設全部履歷；治理、售後與第三方品質資料仍有限，評為 C 級。',
+    sources:[
+      {label:'經濟部公司登記',url:'https://findbiz.nat.gov.tw/fts/company/54729956',type:'政府資料'},
+      {label:'鼎藏豐碩預售契約',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?icon=..pdf&n=6byO6JeP6LGQ56KpLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMS9yZWxmaWxlLzk2NzkvNzI5NDg5L2E4MTY3NjM5LTEwMDEtNDNkZS1hZTRjLTJhZTYwZDFiYWMxZC5wZGY%3D',type:'政府資料'},
+      {label:'築億峰尚建案資料',url:'https://www.neo-vision.com.tw/web/project_single.aspx?pk=88',type:'建案公開資料'},
+    ],
+  },
 ].map(profile=>{
   const score=profile.scores?weightedScore(profile.scores):null;
   return {...profile,score,rating:profile.rating||ratingFromScore(score)};
