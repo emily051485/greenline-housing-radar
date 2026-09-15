@@ -3936,6 +3936,53 @@ export const developerResearch=[
       {label:'南京葒推案紀錄',url:'https://build.myhousing.com.tw/company/488706/',type:'建案公開資料'},
     ],
   },
+  {
+    id:'taichuan-international',name:'太川國際開發',aliases:['太川國際開發'],reviewed:'2026-09-14',confidence:'中',
+    scores:{delivery:70,quality:68,governance:68,service:62,risk:72},
+    summary:'2015 年設立、登記資本額 5,000 萬元，營業項目含住宅開發；新北市公開的太川茗園預售契約及備查資料可確認其為實際開發與契約主體，並已有實價登錄成交紀錄。',
+    caveat:'太川茗園是目前查得的主要住宅樣本；公司同時經營貿易等多元業務，尚缺跨案交付、工程品管、售後保固及客訴處理的可驗證紀錄，因此列 C 而非僅憑資本額升級。',
+    sources:[
+      {label:'太川國際開發公司登記',url:'https://findbiz.nat.gov.tw/fts/company/54866402',type:'經濟部商工登記'},
+      {label:'太川茗園預售契約',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?icon=..pdf&n=5aSq5bed6IyX5ZySLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMS9yZWxmaWxlLzk2NzkvNjM4NTA3LzgwNDAxMzU4LWU2MjktNDBmMy05YTdlLWFhOWVmYTdhNmI4NS5wZGY%3D',type:'新北市政府公開資料'},
+      {label:'太川茗園市場資料',url:'https://newhouse.housefun.com.tw/building/980621102',type:'建案公開資料'},
+    ],
+  },
+  {
+    id:'buddy-asset',name:'巴迪資產管理',aliases:['巴迪資產管理'],reviewed:'2026-09-14',confidence:'中',
+    scores:{delivery:72,quality:76,governance:68,service:65,risk:72},
+    summary:'2010 年設立、登記資本額 2,500 萬元；臺北市預售備查、建築研究所綠建築候選證書及個案資料均可確認巴迪為一青。悠的開發主體，該案為 27 戶住宅並已有成交及完工社區資料。',
+    caveat:'公司名稱雖為資產管理，但本案確有起造與投資興建角色，不能當成一般代管公司剔除；目前仍只有少量可辨識住宅樣本，售後制度與長期保固成效也未公開，故維持 C。',
+    sources:[
+      {label:'巴迪資產管理公司登記',url:'https://findbiz.nat.gov.tw/fts/company/53116851',type:'經濟部商工登記'},
+      {label:'臺北市預售備查表',url:'https://land.gov.taipei/News.aspx?n=16B2B1C2901F43D7&sms=2E09CBE8E8A3C25A',type:'臺北市政府公開資料'},
+      {label:'候選綠建築證書資料',url:'https://ws.moi.gov.tw/001/Upload/436/relfile/12465/257170/6abeb6ca-d551-40cc-be10-066a349abb76.pdf',type:'內政部公開資料'},
+      {label:'一青。悠個案資料',url:'https://www.plex.com.tw/projects/view/id/134',type:'建案公開資料'},
+    ],
+  },
+  {
+    id:'wensun',name:'文森建設',aliases:['文森建設'],reviewed:'2026-09-14',confidence:'中高',
+    scores:{delivery:85,quality:83,governance:80,service:70,risk:80},
+    summary:'2005 年設立、登記實收資本額 2.3 億元；公開推案紀錄可交叉辨識 Sunland Mark、森聯Life－森朗及森活+，森朗為 115 戶規模，另有同址營造與森聯體系脈絡可供查核。',
+    caveat:'長期公司存續、資本與多案紀錄支持 B 級高段；但森聯體系關係不等於所有集團作品都能歸入文森單一法人，且售後量化、保固績效及獨立品質調查仍不足，因此不升 A。',
+    sources:[
+      {label:'文森建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/27982321',type:'經濟部商工登記'},
+      {label:'文森建設推案紀錄',url:'https://build.myhousing.com.tw/company/480164/',type:'建案公開資料'},
+      {label:'森聯Life－森朗建築資料',url:'https://market.591.com.tw/5880985/overview',type:'建案公開資料'},
+      {label:'新北市備查案清冊',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?n=MTEw5bm06IezMTE05LiK5Y2K5bm05bey5YKZ5p%2Bl5bu65qGI5riF5YaKLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMzk5L3JlbGZpbGUvODk5My85NDY5L2UwZjQwYjRjLTkyMjEtNDliZS1hMzA5LTE0MWExNmQ1MzVlNS5wZGY%3D',type:'新北市政府公開資料'},
+    ],
+  },
+  {
+    id:'worldteck',name:'世季實業',aliases:['世季實業'],reviewed:'2026-09-14',confidence:'中',
+    scores:{delivery:64,quality:70,governance:68,service:60,risk:72},
+    summary:'2005 年設立，2016 年由世季光電更名，登記實收資本額 4,000 萬元並新增住宅開發業；新店地政備查資料確認其為寶安 JR 的申請公司，個案已有數十筆預售成交。',
+    caveat:'寶安 JR 尚在興建且公開市場資料另列昌軒／昌昇建設共同開發，現階段不能用共同團隊履歷替世季單一法人加分；世季自身住宅交付、品管及售後資料仍有限，故列 C。',
+    sources:[
+      {label:'世季實業公司登記',url:'https://findbiz.nat.gov.tw/fts/company/27574079',type:'經濟部商工登記'},
+      {label:'新店地政預售備查',url:'https://www.xindian.land.ntpc.gov.tw/cp.aspx?n=12001',type:'新北市政府公開資料'},
+      {label:'寶安 JR 個案與成交資料',url:'https://www.plex.com.tw/projects/view/id/8069',type:'建案公開資料'},
+      {label:'新北市已備查建案清冊',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?n=MTEw5bm06IezMTE05bm05bey5YKZ5p%2Bl5bu65qGI5riF5YaKLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMzk5L3JlbGZpbGUvODk5My85NDY5L2NkZTQ4OTJkLTQzMzAtNDY3Zi1hYmExLTI3YzJiYjI0MjYxNi5wZGY%3D',type:'新北市政府公開資料'},
+    ],
+  },
 ].map(profile=>{
   const score=profile.scores?weightedScore(profile.scores):null;
   return {...profile,score,rating:profile.rating||ratingFromScore(score)};
