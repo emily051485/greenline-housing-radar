@@ -3383,6 +3383,55 @@ export const developerResearch=[
       {label:'八德 137 完工與產品資料',url:'https://www.plex.com.tw/projects/view/id/2107',type:'建案公開資料'},
     ],
   },
+  {
+    id:'dazuan',name:'大鑽建設',aliases:['大鑽建設'],reviewed:'2026-09-14',confidence:'中高',
+    scores:{delivery:72,quality:72,governance:66,service:68,risk:73},
+    summary:'2019 年設立、資本額 1,000 萬元且登記正常；大鑽蘆洲首席已有 110 蘆建字第 00133-01 號建照、官方預售契約、不動產開發信託、實價登錄，並於 2024 年取得完工門牌。',
+    caveat:'首案已完成交付，使履約證據高於純預售新公司；但法人年資短、資本規模較小，跨案品質、售後保固與治理揭露仍不足，暫列 C 級高段。',
+    sources:[
+      {label:'大鑽建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/83565658',type:'經濟部商工資料'},
+      {label:'大鑽蘆洲首席官方預售契約',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?icon=..pdf&n=5aSn6ZG96JiG5rSy6aaW5bitLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMS9yZWxmaWxlLzk2NzkvNjM3NDE2L2IzNWU4NTcxLTU0MWYtNGRiMi1iNjA4LWQxMzYwNWNlMGU3My5wZGY%3D',type:'新北市政府資料'},
+      {label:'大鑽蘆洲首席預售備查',url:'https://www.land.ntpc.gov.tw/News.aspx?PageSize=20&_Query=a57b2e19-ab70-4142-80ea-976f35abb5bb&n=11769&page=39&sms=9679',type:'新北市政府資料'},
+      {label:'大鑽蘆洲首席完工資料',url:'https://www.plex.com.tw/projects/view/id/5729',type:'建案公開資料'},
+    ],
+  },
+  {
+    id:'shanshi',name:'山石興業',aliases:['山石興業'],reviewed:'2026-09-14',confidence:'中高',
+    scores:{delivery:75,quality:80,governance:70,service:72,risk:76},
+    summary:'2018 年設立、現登記資本額 2,000 萬元；樹里画已有建照、官方預售契約、價金信託與實價登錄，並取得黃金級綠建築標章，另有泊山石、泊樂 MRT 等過往作品線索。',
+    caveat:'特定案的綠建築與履約資料完整，達 B 級；但公司年資、資本與可獨立核對的完工交付序列仍有限，恆溫工法等行銷敘述不直接當作長期品質成果。',
+    sources:[
+      {label:'山石興業公司登記',url:'https://findbiz.nat.gov.tw/fts/company/69305132',type:'經濟部商工資料'},
+      {label:'樹里画官方預售契約',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?icon=..pdf&n=5qi56YeM55S7LnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMS9yZWxmaWxlLzk2NzkvNjQxMjU2L2VhZTQ4ODEyLTBkN2EtNDFmMy1iZWExLThlNjY2ZWQyYjc0ZC5wZGY%3D',type:'新北市政府資料'},
+      {label:'樹里画價金信託備查',url:'https://www.land.ntpc.gov.tw/News.aspx?PageSize=20&_Query=a57b2e19-ab70-4142-80ea-976f35abb5bb&n=11769&page=26&sms=9679',type:'新北市政府資料'},
+      {label:'樹里画黃金級綠建築標章',url:'https://ws.moi.gov.tw/Download.ashx?icon=.pdf&n=MTEz5bm05bqm5YWo6YOo6YCa6YGO5qGI5Lu25LiA6Ka96KGoLTXmnIgt546L5Y2aLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvNDM2L3JlbGZpbGUvMTI0NjUvMzE2NjgyL2M2NTcxM2E4LTQ3YWItNDU5MC1iODlmLTJkZWQ0NWE2ZGU3OC5wZGY%3D',type:'內政部綠建築資料'},
+    ],
+  },
+  {
+    id:'shanye',name:'山業建設',aliases:['山業建設'],reviewed:'2026-09-14',confidence:'中高',
+    scores:{delivery:76,quality:74,governance:69,service:69,risk:70},
+    summary:'2004 年設立、資本額 3,000 萬元且登記正常；山業寓璽已有正式預售契約、建照、實價登錄，並於 2024 年完工，另有 104 林建字第 00177 號工程紀錄可核對。',
+    caveat:'跨期工程與已完工小型社區支持 B 級；但公開售後、治理與品質制度有限，且既有工程曾有未先提報逕流廢水污染削減計畫的裁罰紀錄，風險分下修。',
+    sources:[
+      {label:'山業建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/27283558',type:'經濟部商工資料'},
+      {label:'山業寓璽官方預售契約',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?icon=..pdf&n=5bGx5qWt5a%2BT55K9LnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMS9yZWxmaWxlLzk2NzkvNjM5NTMwL2MwY2FjZGZmLTNlYWMtNGYyMi1iNWNiLTM5ZmUyMjYxOTQ4Zi5wZGY%3D',type:'新北市政府資料'},
+      {label:'山業寓璽完工社區資料',url:'https://community.yungching.com.tw/building/73905',type:'社區公開資料'},
+      {label:'山業建設工程裁罰紀錄',url:'https://thaubing.gcaa.org.tw/corp/27283558',type:'政府裁罰資料彙整'},
+    ],
+  },
+  {
+    id:'sanlight',name:'三輝建設／山輝建設',aliases:['三輝建設','山輝建設'],reviewed:'2026-09-14',confidence:'高',
+    scores:{delivery:86,quality:86,governance:84,service:81,risk:83},
+    summary:'三輝品牌已有 32 年發展與多案作品；山輝建設 2003 年設立、資本額 26.4 億元，公開年報股權資料可確認山輝、三輝與元茂營造的關係。三輝敦画具建照、開發信託及施工監測資料。',
+    caveat:'長期交付、垂直整合、資本與治理關係均有證據，達 A 級；但非以完整公開財報與全案售後統計為基礎，且品牌與各專案法人仍須區分，因此不列 S。',
+    sources:[
+      {label:'山輝建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/80565275',type:'經濟部商工資料'},
+      {label:'三輝建設官方作品資料',url:'https://www.sanlight.com.tw/',type:'公司官方資料'},
+      {label:'三輝敦画預售備查與開發信託',url:'https://land.gov.taipei/News_Content.aspx?n=E8D96FA6BB2B310E&s=55D5D69BC0EC5A23&sms=06A4332DF37FE327',type:'臺北市政府資料'},
+      {label:'山輝與三輝股權關係資料',url:'https://www.bop.com.tw/api/ArticleFile/e636201d-e48e-424a-b95a-f7d936f86ded',type:'金融機構法定揭露'},
+      {label:'三輝敦画施工監測資料',url:'https://www-ws.gov.taipei/001/Upload/845/relfile/-1/845/2a1b5b50-13e7-4378-bcb2-03888bf5c462.pdf',type:'臺北市建築管理資料'},
+    ],
+  },
 ].map(profile=>{
   const score=profile.scores?weightedScore(profile.scores):null;
   return {...profile,score,rating:profile.rating||ratingFromScore(score)};
