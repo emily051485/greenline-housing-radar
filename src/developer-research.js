@@ -4864,6 +4864,60 @@ export const developerResearch=[
       {label:'柏鴻君臨建案資料',url:'https://newhouse.591.com.tw/131506',type:'建案公開資料'},
     ],
   },
+  {
+    id:'yongpei-development',name:'永沛開發建設股份有限公司',aliases:['永沛開發建設股份有限公司','永沛開發建設','永沛建設'],reviewed:'2026-09-14',confidence:'高',
+    scores:{delivery:80,quality:82,governance:78,service:72,risk:80},
+    summary:'2016 年設立、實收資本額 2 億元；官方作品集可核對 2020 年信義之心、2025 年衍見築及興建中的夏沐時，且持續公開夏沐時各樓層鋼筋、機電查驗與混凝土澆置等工程履歷。',
+    caveat:'公司法人年資與已交付作品數仍少於大型老牌建商；「三十年經驗」屬團隊自述，未直接折算成公司交付年資。現有資本、完工作品及施工揭露支持 B 級，但尚不足升至 A。',
+    sources:[
+      {label:'經濟部商工登記（永沛開發建設）',url:'https://findbiz.nat.gov.tw/fts/company/43941137',type:'官方公司登記'},
+      {label:'永沛開發建設官方作品集',url:'https://www.yongpeidevelop.com.tw/%E7%B6%93%E5%85%B8%E5%BB%BA%E7%AF%89',type:'建商官方資料'},
+      {label:'夏沐時官方建案與工程履歷',url:'https://www.yongpeidevelop.com.tw/%E5%A4%8F%E6%B2%90%E6%99%82',type:'建商官方資料'},
+    ],
+  },
+  {
+    id:'changyin-construction',name:'常殷建設股份有限公司',aliases:['常殷建設股份有限公司','常殷建設'],reviewed:'2026-09-14',confidence:'高',
+    scores:{delivery:86,quality:82,governance:82,service:72,risk:82},
+    summary:'1993 年成立、實收資本額 4.5 億元；官方資料可核對常殷品天廈、常殷峰澤、常殷泊美等完工作品，以及常殷一域與金泰段等後續案，具有逾 30 年持續開發與都更履歷。',
+    caveat:'公司存續、資本與跨案交付證據完整，但工程品質制度及交屋後服務成效仍以公司揭露為主，缺少足以跨過 A 級門檻的獨立量化資料；總分 81 分，列 B 級上緣。',
+    sources:[
+      {label:'經濟部商工登記（常殷建設）',url:'https://findbiz.nat.gov.tw/fts/company/84137775',type:'官方公司登記'},
+      {label:'常殷建設官方沿革與作品集',url:'https://changyin.com.tw/',type:'建商官方資料'},
+    ],
+  },
+  {
+    id:'kangbao-construction',name:'康寶建設股份有限公司',aliases:['康寶建設股份有限公司','康寶建設'],reviewed:'2026-09-14',confidence:'中高',
+    scores:{delivery:76,quality:76,governance:74,service:66,risk:78},
+    summary:'2005 年設立、實收資本額 1 億元；康寶日出印象可由建照、預售資訊與行政院消保處聯合查核資料交叉確認，現已進入使照申請階段，具可驗證的開發與履約軌跡。',
+    caveat:'目前公開可核對的跨案完工履歷、工程品質制度及長期售後成果有限；聯合查核資料只證明個案接受政府檢查，不等同品質背書，因此保守列 B 級下段。',
+    sources:[
+      {label:'經濟部商工登記（康寶建設）',url:'https://findbiz.nat.gov.tw/fts/company/27813542',type:'官方公司登記'},
+      {label:'行政院消保處預售屋聯合查核資料',url:'https://www.ey.gov.tw/File/AD457970E388F4B7?A=C',type:'官方契約查核'},
+      {label:'康寶日出印象建照與建案資料',url:'https://newhouse.591.com.tw/128292',type:'建案公開資料'},
+    ],
+  },
+  {
+    id:'lihyuan-construction',name:'麗源建設股份有限公司',aliases:['麗源建設股份有限公司','麗源建設'],reviewed:'2026-09-14',confidence:'高',
+    scores:{delivery:90,quality:86,governance:84,service:78,risk:84},
+    summary:'1995 年設立、實收資本額 20 億元；官方作品集跨越心悅中原、星光道、微笑台北、好風光、海豔、富域等多個年度與區域，關係企業笙泰營造並公開三級品質、生產履歷及社區設備驗收流程。',
+    caveat:'資本、跨案交付與工程整合證據均強，但品質與服務成果仍有相當部分來自集團自行揭露，未以大型單案或行銷用語直接推至 S；總分 85 分，列 A。',
+    sources:[
+      {label:'經濟部商工登記（麗源建設）',url:'https://findbiz.nat.gov.tw/fts/company/89496932',type:'官方公司登記'},
+      {label:'麗源建設官方歷年作品集',url:'https://www.lih-yuan.com.tw/cases.php?cid=1',type:'建商官方資料'},
+      {label:'笙泰營造品質制度與實績',url:'https://www.lih-yuan.com.tw/shengtai.php',type:'集團官方工程資料'},
+    ],
+  },
+  {
+    id:'worldvista-united',name:'華威聯合股份有限公司',aliases:['華威聯合股份有限公司','華威聯合'],reviewed:'2026-09-14',confidence:'高',
+    scores:{delivery:92,quality:86,governance:84,service:78,risk:84},
+    summary:'1991 年設立、實收資本額 2.9 億元；集團官方資料列有全台逾 80 個投資興建案，並具聯浩營造、水蓮物業及聯邦保全等關係事業。華威豐耘官方個案亦明確揭露基地、投資興建及設計團隊。',
+    caveat:'跨區域作品量與垂直整合能力明確，但「口碑佳、客戶滿意」屬公司自述，公開售後指標與獨立品質統計仍有限；總分 86 分，列 A，不因案量直接列 S。',
+    sources:[
+      {label:'經濟部商工登記（華威聯合）',url:'https://findbiz.nat.gov.tw/fts/company/86335618',type:'官方公司登記'},
+      {label:'華威聯合機構官方沿革與事業體',url:'https://www.wvug.com.tw/',type:'建商官方資料'},
+      {label:'華威豐耘官方建案資料',url:'https://case.hiyes.tw/HarvestMansion/index.html',type:'建案官方資料'},
+    ],
+  },
 ].map(profile=>{
   const score=profile.scores?weightedScore(profile.scores):null;
   return {...profile,score,rating:profile.rating||ratingFromScore(score)};
