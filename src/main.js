@@ -649,6 +649,24 @@ $('#transit-filter')?.addEventListener('change',event=>{
 });
 $('#search-filter').addEventListener('input',()=>{render();syncTableFilters();});
 document.querySelectorAll('[data-scroll]').forEach(button=>button.addEventListener('click',()=>$('#'+button.dataset.scroll).scrollIntoView({behavior:'smooth'})));
+document.querySelectorAll('[data-open-risk]').forEach(button=>button.addEventListener('click',()=>{
+  $('#map-section').scrollIntoView({behavior:'smooth'});
+  window.setTimeout(()=>{
+    const panel=document.querySelector('.flood-control');
+    if(!panel)return;
+    document.querySelectorAll('.map-panel').forEach(item=>{
+      item.classList.remove('panel-open');
+      item.querySelector('.map-panel-toggle')?.setAttribute('aria-expanded','false');
+      const icon=item.querySelector('.map-panel-toggle span');
+      if(icon)icon.textContent='＋';
+    });
+    panel.classList.add('panel-open');
+    const toggle=panel.querySelector('.map-panel-toggle');
+    toggle?.setAttribute('aria-expanded','true');
+    const icon=toggle?.querySelector('span');
+    if(icon)icon.textContent='−';
+  },450);
+}));
 $('#refresh-hazards').addEventListener('click',()=>loadHazardsReliable(true));
 updateStationOptions();
 updateDistrictOptions();

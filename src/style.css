@@ -112,6 +112,9 @@ main{display:flex;flex-direction:column}.hero{order:1}.stats-wrap{order:2}.map-s
 }
 
 /* Keep builder tiers visually distinct across tables, maps and legends. */
+.risk-discovery{display:flex;align-items:center;justify-content:space-between;gap:20px;width:min(720px,100%);margin-top:26px;padding:14px 15px 14px 17px;border:1px solid rgba(20,35,29,.16);background:rgba(255,255,255,.58);backdrop-filter:blur(8px)}
+.risk-discovery>div{display:flex;align-items:center;gap:12px}.risk-discovery-icon{display:grid;place-items:center;flex:0 0 34px;width:34px;height:34px;border:1px solid #315a9a;border-radius:50%;color:#315a9a;font-size:19px}.risk-discovery p{margin:0!important;line-height:1.35!important}.risk-discovery b,.risk-discovery small{display:block}.risk-discovery b{font-size:12px}.risk-discovery small{margin-top:4px;color:var(--muted);font-size:10px;line-height:1.55}.risk-discovery button{flex:none;padding:10px 13px;border:0;border-radius:2px;background:#315a9a;color:#fff;font-size:11px;font-weight:700}.risk-discovery button span{margin-left:9px;color:#dce6ff}
+@media(max-width:560px){.risk-discovery{display:block;margin-top:20px;padding:13px}.risk-discovery button{width:100%;margin-top:11px}.risk-discovery-icon{flex-basis:30px;width:30px;height:30px}}
 .grade-b,.pin.b{background:#c69a32;color:#201b0e}
 .grade-c,.pin.c{background:#9da6a2;color:#fff}
 .marker-b{background:#c69a32;color:#201b0e}
