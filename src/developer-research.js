@@ -2672,6 +2672,51 @@ export const developerResearch=[
       {label:'公平會公處字第 111002 號',url:'https://www.ftc.gov.tw/uploadDecision/46a0d7e4-1847-42d3-b370-5b5dc653b03a.pdf',type:'中央政府處分資料'},
     ],
   },
+  {
+    id:'zeyang',name:'澤暘建設',aliases:['澤暘建設'],reviewed:'2026-09-14',confidence:'中高',
+    scores:{delivery:77,quality:77,governance:71,service:73,risk:75},
+    summary:'公司前身於 2009 年設立，2017 年更名為澤暘建設，目前實收資本額 2,500 萬元；「澤暘松江」可由公開市場研究資料核對投資興建身分。',
+    caveat:'法人年資不短，但使用現名的推案履歷、完工品質、售後制度及財務治理揭露有限，列 B 級下段；資本額與單一預售案均不能單獨證明交屋品質。',
+    sources:[
+      {label:'澤暘建設公司登記與更名紀錄',url:'https://findbiz.nat.gov.tw/fts/company/29067107',type:'官方公司資料'},
+      {label:'信義代銷市場分析月報',url:'https://res.sinyi-rema.com.tw/static/upload/83bf5aa3f28aadc454d4b7a99beaa0b8.pdf',type:'市場研究資料'},
+    ],
+  },
+  {
+    id:'tenglin',name:'藤霖國際開發',aliases:['藤霖國際開發'],reviewed:'2026-09-14',confidence:'高',
+    scores:{delivery:83,quality:81,governance:78,service:77,risk:79},
+    summary:'2005 年設立，實收資本額已達 7.03 億元，營業範圍涵蓋土地開發、投資興建、都市更新與危老重建；官方網站可直接核對「文林君閱」等個案。',
+    caveat:'資本規模與持續營運支持履約能力，但非公開發行公司，缺少完整的歷年交屋、第三方品質、售後績效與財務治理資料，現階段列 B 而非因資本額直接給 A。',
+    sources:[
+      {label:'藤霖國際開發公司登記',url:'https://findbiz.nat.gov.tw/fts/company/27556620',type:'官方公司資料'},
+      {label:'藤霖國際開發公司介紹',url:'https://tl-corp.com.tw/about/',type:'建商官方資料'},
+      {label:'文林君閱官方個案頁',url:'https://tl-corp.com.tw/%E5%A3%AB%E6%9E%97%E6%96%87%E6%9E%97%E5%90%9B%E9%96%B1%E5%8D%B1%E8%80%81%E6%A1%88/',type:'建商官方資料'},
+    ],
+  },
+  {
+    id:'zoar',name:'左耳開發建設',aliases:['左耳開發建設','左耳建設'],reviewed:'2026-09-14',confidence:'中高',
+    scores:{delivery:82,quality:84,governance:74,service:77,risk:78},
+    summary:'2007 年設立，2025 年登記資本額已增至 1.37 億元；官方網站可核對「南海敘」及過往作品，並揭露部分建築獎項與設計團隊。',
+    caveat:'作品與設計品質資料支持 B 級上段，但公開財務、公司治理、售後保固流程與量化服務成效仍有限，尚不足跨入 A 級。',
+    sources:[
+      {label:'左耳開發建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/28711403',type:'官方公司資料'},
+      {label:'左耳開發建設官方網站',url:'https://zoar.com.tw/',type:'建商官方資料'},
+      {label:'南海敘官方個案頁',url:'https://www.zoar.com.tw/works-article.php?id=1',type:'建商官方資料'},
+      {label:'臺北市公司變更登記清冊',url:'https://serv.gcis.nat.gov.tw/pub/cmpy/reportAction.do?fileName=379100000Gchange11409.pdf&method=report&reportClass=cmpyCity&subPath=11409',type:'政府登記資料'},
+    ],
+  },
+  {
+    id:'changle',name:'長樂建設',aliases:['長樂建設'],reviewed:'2026-09-14',confidence:'中高',
+    scores:{delivery:70,quality:74,governance:68,service:70,risk:74},
+    summary:'2021 年設立、資本額 2,800 萬元，官方網站可確認其社子在地定位與「藏樂」工程進度，屬可辨識且正在推案的建商。',
+    caveat:'公司成立與品牌推案時間尚短，目前缺少完整完工交屋週期、第三方品質驗證、售後績效及治理揭露；依相同門檻列 C，並不代表個案工程品質已被判定不良。',
+    sources:[
+      {label:'長樂建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/91016993',type:'官方公司資料'},
+      {label:'長樂建設官方網站',url:'https://chang-le.com.tw/',type:'建商官方資料'},
+      {label:'藏樂工程進度',url:'https://chang-le.com.tw/%E8%97%8F%E6%A8%82%E5%BB%BA%E6%A1%88%E9%80%B2%E5%BA%A6',type:'建商官方資料'},
+      {label:'臺北市公司變更登記清冊',url:'https://serv.gcis.nat.gov.tw/pub/cmpy/reportAction.do?fileName=379100000Gchange11402.pdf&method=report&reportClass=cmpyCity&subPath=11402',type:'政府登記資料'},
+    ],
+  },
 ].map(profile=>{
   const score=profile.scores?weightedScore(profile.scores):null;
   return {...profile,score,rating:profile.rating||ratingFromScore(score)};
