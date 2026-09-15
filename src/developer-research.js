@@ -993,7 +993,7 @@ export const developerResearch=[
     ],
   },
   {
-    id:'pauian',name:'璞園建築團隊',aliases:['璞園開發','璞永建設','璞全建設','璞石建設','璞元建設','璞昌建設','璞毅開發','築觀建築','璞億建設'],reviewed:'2026-09-14',confidence:'中高',
+    id:'pauian',name:'璞園建築團隊',aliases:['璞園開發','璞永建設','璞全建設','璞石建設','璞元建設','璞昌建設','璞毅開發','築觀建築','璞億建設','璞慧建設股份有限公司','璞慧建設'],reviewed:'2026-09-14',confidence:'中高',
     scores:{delivery:87,quality:88,governance:75,service:84,risk:78},
     summary:'1996 年成立並垂直整合開發、營造、代銷、交屋售服與空間設計；官方團隊名單明列璞園開發、璞永、璞全等事業體，作品與工程進度可交叉核對。',
     caveat:'交付、品質與售服體系完整，但非公開發行集團，公司級財務與治理透明度低於 S 級標竿，評為 A 級。',
@@ -2567,7 +2567,7 @@ export const developerResearch=[
     ],
   },
   {
-    id:'horngjuu',name:'宏築建設',aliases:['宏築建設'],reviewed:'2026-09-14',confidence:'高',
+    id:'horngjuu',name:'宏築建設／立築開發',aliases:['宏築建設','立築開發股份有限公司','立築開發'],reviewed:'2026-09-14',confidence:'高',
     scores:{delivery:84,quality:84,governance:76,service:78,risk:78},
     summary:'1996 年設立、實收資本額6.212億元；官方登記並可核對其對聯築、佑築等開發公司的法人持股，官網公開團隊、歷年作品與都更服務。',
     caveat:'規模、存續與集團開發能力具基礎，但非上市櫃公司，財務治理、售後與第三方品質證據仍不足以穩定跨入 A，暫列 B。',
@@ -5109,6 +5109,39 @@ export const developerResearch=[
       {label:'臺北市建照資料（金朋馥蓊）',url:'https://www-ws.gov.taipei/Download.ashx?icon=..pdf&n=MTExMDkwMeiHszExMjAzMzHmoLjnmbzkuYvlu7rnhacucGRm&u=LzAwMS9VcGxvYWQvNDYxL3JlbGZpbGUvNTg1NTEvODg4NzM4OS9lYzhmYjAyNy0wZTg0LTRkYzQtYmEwMi0xMDllMWE0ZjdhMTgucGRm',type:'官方建照資料'},
       {label:'臺北市工地評核（金朋馥蓊）',url:'https://www-ws.gov.taipei/Download.ashx?icon=.pdf&n=MTE05bm0N%2BaciOeoveaguCjnrYnntJop5ZCN5YaKLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvNDUzL3JlbGZpbGUvNTYzMzgvOTQ1Mzg4MC81OWE1NDQwNC01ZWE2LTQ0ODAtYTAwOC0zMzU3Nzk4NzkyNWUucGRm',type:'官方工程評核'},
       {label:'金朋馥蓊建照與建案資料',url:'https://newhouse.591.com.tw/136425',type:'建案公開資料'},
+    ],
+  },
+  {
+    id:'everrise-construction',name:'達永建設股份有限公司',aliases:['達永建設股份有限公司','達永建設'],reviewed:'2026-09-14',confidence:'高',
+    scores:{delivery:87,quality:86,governance:84,service:78,risk:84},
+    summary:'1992 年設立、實收資本額 5 億元；官方作品集可核對達永春嶺、沐夏、秋鄉、冬慶、崌里東、吾南室及吉祥如藝等跨年度案件，並公開結構、防水、建材及建築標章等品質內容。',
+    caveat:'存續、資本、跨案交付與工法揭露均有相當基礎，但公司層級的售後成效與獨立品質統計仍有限；總分 84 分，列 A。',
+    sources:[
+      {label:'經濟部商工登記（達永建設）',url:'https://findbiz.nat.gov.tw/fts/company/86853800',type:'官方公司登記'},
+      {label:'達永建設官方歷年作品',url:'https://page.line.me/192wrtyx/showcase/1752851645640208',type:'建商官方資料'},
+      {label:'吉祥如藝官方建案與工程規格',url:'https://erc-group.com.tw/project/jixiang/',type:'建商官方資料'},
+    ],
+  },
+  {
+    id:'junlei-construction',name:'君壘建設股份有限公司',aliases:['君壘建設股份有限公司','君壘建設'],reviewed:'2026-09-14',confidence:'中高',
+    scores:{delivery:76,quality:74,governance:76,service:64,risk:74},
+    summary:'2005 年設立、實收資本額約 1.14 億元；信義藏豐可由建照、預售資料與瑞興銀行價金信託接續公告確認開發及履約安排。',
+    caveat:'公司存續與資本具基礎，但目前公開可核對的跨案交付、工程制度與售後績效有限；信託受託銀行變更本身不代表違約或品質問題。總分 73 分，列 B 級下段。',
+    sources:[
+      {label:'經濟部商工登記（君壘建設）',url:'https://findbiz.nat.gov.tw/fts/company/27553222',type:'官方公司登記'},
+      {label:'瑞興銀行信義藏豐價金信託公告',url:'https://www.taipeistarbank.com.tw/News/Detail/f1a702da-2ffd-4544-a158-72d7dbdf0f9a',type:'金融機構公告'},
+    ],
+  },
+  {
+    id:'baohong-development',name:'寶鴻開發股份有限公司（寶茂建設團隊）',aliases:['寶鴻開發股份有限公司','寶鴻開發'],reviewed:'2026-09-14',confidence:'中高',
+    scores:{delivery:78,quality:80,governance:72,service:68,risk:78},
+    summary:'2013 年設立，官方登記資料可見寶茂建設為法人股東；琢格77由寶鴻與寶茂共同開發、寶鉅營造承造，且臺北市預售備查確認不動產開發信託。',
+    caveat:'可採計寶茂團隊的跨案開發與售服支援，但寶鴻本身資本與獨立交付樣本較有限，琢格77亦尚未完成；總分 75 分，列 B。',
+    sources:[
+      {label:'臺北市公司變更登記清冊（寶鴻開發）',url:'https://serv.gcis.nat.gov.tw/pub/cmpy/reportAction.do?fileName=10910DOC.pdf&method=report&reportClass=cmpy&subPath=10910',type:'官方公司登記'},
+      {label:'臺北市預售備查（琢格77）',url:'https://land.gov.taipei/News.aspx?PageSize=20&n=B65381CDC625B8D7&page=2&sms=98E2FE72A7A915BD',type:'官方預售備查'},
+      {label:'琢格77開發團隊資料',url:'https://www.wellsfuture.com/allprojects/%E7%90%A2%E6%A0%BC77',type:'建案公開資料'},
+      {label:'寶茂建設官方作品與客服',url:'https://www.baomaobuilding.com/home',type:'合作建商官方資料'},
     ],
   },
 ].map(profile=>{
