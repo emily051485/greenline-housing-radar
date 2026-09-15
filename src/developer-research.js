@@ -1018,6 +1018,49 @@ export const developerResearch=[
       {label:'114 年公開說明書',url:'https://www.twfhcsec.com.tw/Content/fileredirect?Path=MTIzNDAwMDA1Njc4QDPijF26THW0WM0SwfrNT9GVqShCBbmcV5ZZEQjxM7OGrotMHKIhGc6lE66OFc13qIzFwQxt3jaoO_i0494XfLJ4B8k7UxoWxQ',type:'公開市場資料'},
     ],
   },
+  {
+    id:'bes',name:'中華工程',aliases:['中華工程'],reviewed:'2026-09-14',confidence:'高',
+    scores:{delivery:90,quality:85,governance:88,service:76,risk:72},
+    summary:'股票代號 2515 的上市工程公司，具數十年公共工程、住宅與大型土地開發履歷，財務與公司治理資料均受公開市場規範。',
+    caveat:'工程交付與治理能力強，但住宅售後服務及個別建案品質量化揭露較少，綜合評為 A 級。',
+    sources:[
+      {label:'公開資訊觀測站',url:'https://mops.twse.com.tw/',type:'公開市場資料'},
+      {label:'經濟部商工登記',url:'https://findbiz.nat.gov.tw/fts/company/75094900',type:'政府資料'},
+    ],
+  },
+  {
+    id:'kobinda',name:'國賓大建設',aliases:['國賓大建設'],reviewed:'2026-09-14',confidence:'中',
+    scores:{delivery:80,quality:78,governance:64,service:71,risk:68},
+    summary:'2010 年設立、實收資本額 9.5 億元；官網揭露由世國營造延伸的垂直整合能力、已售及南港大型規劃案，政府都更案卷可確認實施者身分。',
+    caveat:'資本、營造背景與推案規模具優勢，但非公開發行公司，售後與第三方品質量化資料仍有限，評為 B 級。',
+    sources:[
+      {label:'經濟部公司登記',url:'https://findbiz.nat.gov.tw/fts/company/25112798',type:'政府資料'},
+      {label:'國賓大建設官網',url:'https://www.kobinda.com/',type:'建商官網'},
+      {label:'南港玉成段都更案卷',url:'https://www-ws.gov.taipei/Download.ashx?icon=.pdf&n=5a%2BGKOmBrinmk6zoqILoh7rljJfluILljZfmuK%2FljYDnjonmiJDmrrXkuIDlsI%2FmrrUxNjnlnLDomZ%2FnrYkyMOethuWcn%2BWcsOmDveW4guabtOaWsOS6i%2BalreioiOeVq%2BahiF%2Flhazogb3mnIPnmbzoqIDopoHpu54ucGRm&u=LzAwMS9VcGxvYWQvNDU5L2NrZmlsZS8wNDMxMWEyNy0yOGQ5LTQ2NGEtOTkyYS01NDVhYjYzOWI5NTEucGRm',type:'政府案卷'},
+    ],
+  },
+  {
+    id:'lehomearc',name:'樂居昀集',aliases:['樂居昀集','樂居均集'],reviewed:'2026-09-14',confidence:'中低',
+    scores:{delivery:72,quality:71,governance:57,service:66,risk:62},
+    summary:'品牌自 2010 年營運，官網可核對昀集柏寓、昀集富昱及公司統編；政府備查清冊另以「樂居均集」字樣登錄，已納入同一別名。',
+    caveat:'已有完銷與新推案紀錄，但公司級財務、長期交付、售後與第三方品質證據仍少，評為 C 級。',
+    sources:[
+      {label:'樂居昀集官網',url:'https://www.lehomearc.com/',type:'建商官網'},
+      {label:'昀集富昱個案官網',url:'https://yunji-fuyu.tw/',type:'建案官網'},
+      {label:'新北市預售屋備查清冊',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?n=MTEw5bm06IezMTE05bm05bey5YKZ5p%2Bl5bu65qGI5riF5YaKLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMzk5L3JlbGZpbGUvODk5My85NDY5L2NkZTQ4OTJkLTQzMzAtNDY3Zi1hYmExLTI3YzJiYjI0MjYxNi5wZGY%3D',type:'政府資料'},
+    ],
+  },
+  {
+    id:'rwhome',name:'若水環境整合',aliases:['若水環境整合'],reviewed:'2026-09-14',confidence:'中',
+    scores:{delivery:72,quality:73,governance:58,service:67,risk:63},
+    summary:'公司官網可核對上城若水、若水秧翠等案，並揭露以生態、綠能、環控整合住宅的產品方向；商工登記確認其為公司法人。',
+    caveat:'確為建設開發角色而非環境顧問，但公開完工量、財務治理、售後及性能驗證有限，評為 C 級。',
+    sources:[
+      {label:'若水環境整合官網',url:'https://rwhome.com.tw/',type:'建商官網'},
+      {label:'若水建築理念',url:'https://rwhome.com.tw/building.php',type:'建商官網'},
+      {label:'經濟部公司登記',url:'https://findbiz.nat.gov.tw/fts/company/53345307',type:'政府資料'},
+    ],
+  },
 ].map(profile=>{
   const score=profile.scores?weightedScore(profile.scores):null;
   return {...profile,score,rating:profile.rating||ratingFromScore(score)};
