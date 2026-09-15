@@ -4256,6 +4256,49 @@ export const developerResearch=[
       {label:'潮中山建照資料',url:'https://www-ws.gov.taipei/001/Upload/845/relfile/-1/845/982a1794-1f04-4441-a3c4-b4f1acbbc422.pdf',type:'臺北市政府建照資料'},
     ],
   },
+  {
+    id:'cmedia-construction',name:'驊訊建設',aliases:['驊訊建設'],reviewed:'2026-09-14',confidence:'中',
+    scores:{delivery:68,quality:76,governance:72,service:62,risk:74},
+    summary:'2017 年設立、實收資本額 2,100 萬元，法人董事包含德孚建設；目前可明確核實的住宅案為中山區「TWIN LINE」，已有預售備查與 29 筆實價登錄紀錄。',
+    caveat:'公司與建案角色可確認，但現有公開推案紀錄集中於單一小型華廈，尚缺多案交屋、長期品質與售後資料；關係法人德孚建設的履歷不能直接全部歸入驊訊，因此列 C 級。',
+    sources:[
+      {label:'驊訊建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/55740177',type:'經濟部商工登記'},
+      {label:'驊訊建設推案紀錄',url:'https://build.myhousing.com.tw/company/493815/',type:'建案公開資料'},
+    ],
+  },
+  {
+    id:'jiez',name:'傑座建設',aliases:['傑座建設'],reviewed:'2026-09-14',confidence:'中',
+    scores:{delivery:66,quality:74,governance:70,service:64,risk:74},
+    summary:'公司前身為 2013 年成立的仲介事業，2019 年更名傑座建設，目前實收資本額 3,000 萬元；臺北市建管資料確認「中正傑座－甄豪宅」為 15 戶先建後售案，建商官網亦揭露其工程與不動產服務沿革。',
+    caveat:'創辦團隊宣稱具多年營建經驗，但公司本體目前可核實的住宅開發仍集中於單一案，且尚缺交屋後品質、保固及住戶服務資料；個人或前身事業經驗不等同建商履約量，故列 C 級。',
+    sources:[
+      {label:'傑座建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/54362367',type:'經濟部商工登記'},
+      {label:'傑座建設官方沿革',url:'https://jz1688.mystrikingly.com/',type:'建商官方資料'},
+      {label:'甄豪宅建照與銷售資料',url:'https://www-ws.gov.taipei/Download.ashx?icon=..pdf&n=MTExMDQzMOiHszExMTA4MzHmoLjnmbzkuYvlu7rnhact5Zue5aCx5bu656h6JmV5pys5pyD5pyD5ZOh6ICFLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvNDYxL3JlbGZpbGUvNTg1NTEvODg4NzM4OS8wZjE2YTMzZC1lMWU5LTQyZmItOGEzMy0wNmMyYzIyNmExNWMucGRm',type:'臺北市政府建管資料'},
+    ],
+  },
+  {
+    id:'progiant',name:'保強建設',aliases:['保強建設開發','保強建設'],reviewed:'2026-09-14',confidence:'高',
+    scores:{delivery:88,quality:86,governance:84,service:80,risk:82},
+    summary:'1997 年設立、實收資本額 3.135 億元，主要法人股東為強盛新與利晉工程；官方履歷可核實捷運保強大樓、都會通、卡第兒、卡地雅、紀汎希、臺大OPUS ONE、中山里仁及捷13聯開案等跨期作品。',
+    caveat:'長期履約、多案完工、資本及利晉工程合作能力支持 A 級；但公司並非公開發行，定期財務、售後績效與重大風險揭露仍不及 S 級上市建商完整，因此不以網站所述獎項或理念推升至 S。',
+    sources:[
+      {label:'保強建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/97477873',type:'經濟部商工登記'},
+      {label:'保強建設官方實績',url:'https://www.pgcd.com.tw/',type:'建商官方實績'},
+      {label:'里哲建案起造資料',url:'https://fangnote.info/2024/%E9%87%8C%E5%93%B2/index.html',type:'建案公開資料'},
+    ],
+  },
+  {
+    id:'lexuan',name:'樂軒建設',aliases:['樂軒建設'],reviewed:'2026-09-14',confidence:'中',
+    scores:{delivery:64,quality:72,governance:68,service:60,risk:72},
+    summary:'樂軒建設統編 85066782，至少自 2020 年已有公司變更紀錄，資本額 1,600 萬元；目前與宏鋼／宏剛建設共同投資「京典 Atelier 111」，為 41 坪基地、19 戶的小型預售華廈。',
+    caveat:'正確公司主體已與同名且解散的餐飲公司區分，但目前缺乏可驗證的其他完工住宅、售後制度與獨立品質紀錄；共同投資案亦不能把全部成果歸於樂軒，故列 C 級。',
+    sources:[
+      {label:'樂軒建設公司變更公報',url:'https://serv.gcis.nat.gov.tw/pub/cmpy/reportAction.do?fileName=11212DOC.pdf&method=report&reportClass=cmpy&subPath=11212',type:'經濟部公司登記公報'},
+      {label:'京典 Atelier 111建案資料',url:'https://newhouse.591.com.tw/141352',type:'建案公開資料'},
+      {label:'京典 Atelier 111成交與規劃',url:'https://www.leju.com.tw/community/L88d1557452a712',type:'成交與社區資料'},
+    ],
+  },
 ].map(profile=>{
   const score=profile.scores?weightedScore(profile.scores):null;
   return {...profile,score,rating:profile.rating||ratingFromScore(score)};
