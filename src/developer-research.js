@@ -892,6 +892,45 @@ export const developerResearch=[
       {label:'士林光華段都更專區',url:'https://www.harvest-tw.com/shilin/',type:'建商官網'},
     ],
   },
+  {
+    id:'hansheng',name:'瀚昇國際開發',aliases:['瀚昇國際開發','瀚昇有限公司'],reviewed:'2026-09-14',confidence:'中低',
+    scores:{delivery:69,quality:66,governance:56,service:62,risk:61},
+    summary:'政府審計資料可核對其士林至善段危老合建案，臺北市施工資料亦確認同址建照、起造人與承造人；公司後續更名為瀚昇國際開發。',
+    caveat:'可確認開發角色與在建案，但長期完工、財務治理、售後與品質資料不足，依現有證據列 C 級。',
+    sources:[
+      {label:'政府危老重建執行情形',url:'https://auditreport.audit.gov.tw/ServerFile/Get/6385734265071417106556f6d6e8254b298dd3bc9ad209f950',type:'政府資料'},
+      {label:'臺北市建照施工資料',url:'https://www.arch.org.tw/Content/Files/News/35bb276c89b44b9fabbac8272594ef1d.pdf',type:'政府資料'},
+    ],
+  },
+  {
+    id:'dongguan',name:'東冠建設',aliases:['東冠建設'],reviewed:'2026-09-14',confidence:'低',
+    scores:{delivery:70,quality:66,governance:56,service:62,risk:60},
+    summary:'2006 年設立、登記資本額約 1.3 億元，可確認住宅開發與都市更新等營業項目。',
+    caveat:'目前缺少足夠的官網作品、近期交付、售後與第三方品質證據，因此只作低信心 C 級初評。',
+    sources:[
+      {label:'經濟部公司登記',url:'https://findbiz.nat.gov.tw/fts/company/28085850',type:'政府資料'},
+    ],
+  },
+  {
+    id:'zhanyi',name:'展宜建築開發',aliases:['展宜建築開發'],reviewed:'2026-09-14',confidence:'中',
+    scores:{delivery:73,quality:71,governance:59,service:66,risk:63},
+    summary:'登記資本額 1.6 億元；臺北市預售備查與建照資料可核對展宜本植、士林蘭雅段等案，既有展宜浦城亦有成屋紀錄。',
+    caveat:'已有跨案紀錄，但公開財務治理、售後及工程品質量化資料仍少，評為 C 級。',
+    sources:[
+      {label:'經濟部公司變更登記清冊',url:'https://serv.gcis.nat.gov.tw/pub/cmpy/reportAction.do?fileName=11502DOC.pdf&method=report&reportClass=cmpy&subPath=11502',type:'政府資料'},
+      {label:'臺北市預售備查',url:'https://land.gov.taipei/News.aspx?n=E8D96FA6BB2B310E&sms=06A4332DF37FE327',type:'政府資料'},
+      {label:'臺北市核發建照資料',url:'https://www-ws.gov.taipei/Download.ashx?icon=..pdf&n=MTExMDkwMeiHszExMjAzMzHmoLjnmbzkuYvlu7rnhacucGRm&u=LzAwMS9VcGxvYWQvNDYxL3JlbGZpbGUvNTg1NTEvODg4NzM4OS9lYzhmYjAyNy0wZTg0LTRkYzQtYmEwMi0xMDllMWE0ZjdhMTgucGRm',type:'政府資料'},
+    ],
+  },
+  {
+    id:'yihua_dev',name:'義華建設開發',aliases:['義華建設開發'],reviewed:'2026-09-14',confidence:'中低',
+    scores:{delivery:69,quality:70,governance:55,service:64,risk:60},
+    summary:'義華 Nº1 個案官網可核對投資興建者、國際設計合作及士林基地資訊，確認其為實際建設角色。',
+    caveat:'可核實作品仍集中於單一個案，缺少長期交付、財務治理、售後與第三方品質資料，列 C 級。',
+    sources:[
+      {label:'義華 Nº1 個案官網',url:'https://yihua-n1.com.tw/',type:'建案官網'},
+    ],
+  },
 ].map(profile=>{
   const score=profile.scores?weightedScore(profile.scores):null;
   return {...profile,score,rating:profile.rating||ratingFromScore(score)};
