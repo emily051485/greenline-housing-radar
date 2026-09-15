@@ -324,6 +324,56 @@ export const developerResearch=[
       {label:'永續經營',url:'https://leyoung.com.tw/duty/sustainable.html',type:'公司揭露'},
     ],
   },
+  {
+    id:'hongpu',name:'宏普建設',aliases:['宏普建設'],reviewed:'2026-09-14',confidence:'高',
+    scores:{delivery:87,quality:82,governance:90,service:78,risk:78},
+    summary:'上市公司且連續發布永續報告，可查財務治理與公司級永續制度；長期推案履歷明確。',
+    caveat:'公開治理資料完整，但個案工程與售後量化成果相對有限，因此落在 A 級門檻而非 S。',
+    sources:[
+      {label:'永續報告書',url:'https://www.hong-pu.com.tw/tw/esg/report',type:'公司報告'},
+      {label:'證交所個股資料',url:'https://wwwc.twse.com.tw/pdf/ch/2536_ch.pdf',type:'公開市場資料'},
+    ],
+  },
+  {
+    id:'fubonland',name:'富邦建設',aliases:['富邦建設'],reviewed:'2026-09-14',confidence:'中高',
+    scores:{delivery:90,quality:87,governance:88,service:91,risk:83},
+    summary:'具有長期推案與集團治理基礎，官網明列數位報修、結構、設備與公共防水等保固維修項目。',
+    caveat:'富邦集團治理能力不能直接等同每一住宅個案品質；仍須核對個案營造廠與買賣契約保固年限。',
+    sources:[
+      {label:'客服與保固維修',url:'https://www.fubonland.com.tw/customer',type:'公司揭露'},
+      {label:'富邦建設官網',url:'https://www.fubonland.com.tw/',type:'公司揭露'},
+    ],
+  },
+  {
+    id:'hungsheng',name:'宏盛建設',aliases:['宏盛建設'],reviewed:'2026-09-14',confidence:'中高',
+    scores:{delivery:87,quality:79,governance:88,service:76,risk:70},
+    summary:'上市公司、成立與推案時間長，官網可查公司沿革及定期財務報告，履約與治理證據優於一般私人建商。',
+    caveat:'工程品質與售後服務的公開量化指標不足，故現階段保守維持 B 級。',
+    sources:[
+      {label:'關於宏盛',url:'https://www.hsc.com.tw/about.php',type:'公司揭露'},
+      {label:'公開財務報告',url:'https://www.hsc.com.tw/area_edm.php?id=339',type:'公開財報'},
+    ],
+  },
+  {
+    id:'jut',name:'忠泰建設',aliases:['忠泰建設'],reviewed:'2026-09-14',confidence:'中高',
+    scores:{delivery:89,quality:90,governance:75,service:86,risk:78},
+    summary:'1987 年起經營，從開發、規劃、營造到售後形成完整體系，並揭露日系施工顧問、標準工法與教育訓練沿革。',
+    caveat:'私人公司財務與風險揭露不如上市建商完整，品牌設計聲量亦不能代替個案施工查驗。',
+    sources:[
+      {label:'忠泰建設介紹',url:'https://www.jut.com.tw/about/',type:'公司揭露'},
+      {label:'忠泰集團事業體',url:'https://jutgroup.jut.com.tw/',type:'公司揭露'},
+    ],
+  },
+  {
+    id:'itai',name:'義泰建設',aliases:['義泰建設'],reviewed:'2026-09-14',confidence:'中',
+    scores:{delivery:75,quality:82,governance:68,service:79,risk:67},
+    summary:'2021 年成立的忠泰集團建築品牌，可部分承接集團營造、設計與售服體系，但自身完工履歷仍短。',
+    caveat:'不可直接複製忠泰建設的完整履歷與分數；待義泰自身交屋及售後紀錄增加後再覆核。',
+    sources:[
+      {label:'義泰建設官網',url:'https://www.itaigroup.com.tw/',type:'公司揭露'},
+      {label:'忠泰集團事業體',url:'https://jutgroup.jut.com.tw/',type:'公司揭露'},
+    ],
+  },
 ].map(profile=>{
   const score=profile.scores?weightedScore(profile.scores):null;
   return {...profile,score,rating:profile.rating||ratingFromScore(score)};

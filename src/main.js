@@ -98,7 +98,7 @@ map.addControl(new maplibregl.AttributionControl({compact:true,customAttribution
 function markerElement(project){
   const el=document.createElement('button');
   el.className=`map-project-marker marker-${project.rating.toLowerCase()}${project.locationStatus==='estimated'?' marker-estimated':''}${isMapped(project)?'':' marker-pending'}`;
-  el.type='button';el.textContent=project.rating==='NR'?'·':project.rating;el.title=`${project.locationStatus==='estimated'?(project.siteGeometry?'宗地中心定位':'範圍定位'):isMapped(project)?'已定位':'待定位'}｜${project.name}`;
+  el.type='button';el.textContent=project.rating==='NR'?'?':project.rating==='NA'?'·':project.rating;el.title=`${ratingLabel(project.rating)}｜${project.locationStatus==='estimated'?(project.siteGeometry?'宗地中心定位':'範圍定位'):isMapped(project)?'已定位':'待定位'}｜${project.name}`;
   return el;
 }
 function popupHtml(project){

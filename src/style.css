@@ -7,6 +7,7 @@
 .pin.pending{background:var(--green);opacity:.6}
 .pin.s{background:var(--ink)}
 .pin.a{background:var(--green)}
+.pin.nr{background:#7b8580}.pin.na{background:#aaa8a1}
 .marker-s{background:var(--ink);color:var(--lime)}
 .pin.s{background:var(--ink)}
 .marker-a{background:var(--green);color:white}
