@@ -2849,6 +2849,48 @@ export const developerResearch=[
       {label:'臺北市預售建案備查清冊',url:'https://www-ws.gov.taipei/001/Upload/305/relfile/11498/7146725/569ab337-c262-418c-a8a9-3ca08f7cd8a1.pdf',type:'臺北市政府資料'},
     ],
   },
+  {
+    id:'hongshan',name:'宏善開發',aliases:['宏善開發'],reviewed:'2026-09-14',confidence:'中高',
+    scores:{delivery:76,quality:76,governance:72,service:73,risk:76},
+    summary:'2017 年設立、登記資本額已增至 9,000 萬元，「宏道一品」可由預售公開資料與政府契約聯合稽查名單確認為實際推案公司。',
+    caveat:'目前可核對履歷仍以單一大型預售案為主，外界所稱宏國關係僅作背景、不把宏國全部實績轉移計分；公司級品質、售後與治理資料有限，因此列 B 級下段。',
+    sources:[
+      {label:'宏善開發公司登記',url:'https://findbiz.nat.gov.tw/fts/company/52645039',type:'官方公司資料'},
+      {label:'臺北市公司變更登記清冊',url:'https://serv.gcis.nat.gov.tw/pub/cmpy/reportAction.do?fileName=11209DOC.pdf&method=report&reportClass=cmpy&subPath=11209',type:'政府登記資料'},
+      {label:'預售屋買賣契約聯合稽查結果',url:'https://www.wugu.ntpc.gov.tw/uploaddowndoc?dis=wugu02&file=wugu02%2F202602241537470.pdf&filedisplay=115%E5%B9%B42%E6%9C%88%E6%B6%88%E8%B2%BB%E8%80%85%E5%AE%A3%E5%B0%8E.pdf&flag=doc',type:'中央與地方政府稽查資料'},
+    ],
+  },
+  {
+    id:'deken',name:'得墾建設',aliases:['得墾建設'],reviewed:'2026-09-14',confidence:'中高',
+    scores:{delivery:70,quality:73,governance:68,service:69,risk:73},
+    summary:'2019 年設立、實收資本額 2,000 萬元，可核對「得墾之心」與「京之硯」兩個推案，且京之硯具有銀行信託專戶資料。',
+    caveat:'公司與品牌年資短，兩案仍不足以形成跨週期完工、交屋及售後履歷，且公開品質與治理資料有限，列 C；信託專戶僅證明資金保障安排，不等於建商品質背書。',
+    sources:[
+      {label:'得墾建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/85076901',type:'官方公司資料'},
+      {label:'京之硯銀行信託專戶',url:'https://web.ubot.com.tw/trust/house.asp?id=HAAT',type:'銀行公開資料'},
+      {label:'得墾建設公開作品資料',url:'https://www.asianmaterials.net/company/146117/index.html',type:'產業名錄資料'},
+    ],
+  },
+  {
+    id:'yuanzhen',name:'原真建設',aliases:['原真建設'],reviewed:'2026-09-14',confidence:'高',
+    scores:{delivery:70,quality:73,governance:68,service:69,risk:73},
+    summary:'法人前身於 2016 年設立，2021 年更名為原真建設，目前實收資本額約 2,800 萬元；「原真界」備查起造人可與公司登記身分相互核對。',
+    caveat:'使用建商品牌名稱的時間較短，目前缺少多案完工交屋、第三方工程品質、售後績效及公司治理資料，列 C；營業項目廣泛不等於各項能力均已具實績。',
+    sources:[
+      {label:'原真建設公司登記與更名紀錄',url:'https://findbiz.nat.gov.tw/fts/company/42769550',type:'官方公司資料'},
+    ],
+  },
+  {
+    id:'kuangpeng',name:'廣朋實業',aliases:['廣朋實業'],reviewed:'2026-09-14',confidence:'高',
+    scores:{delivery:85,quality:82,governance:85,service:81,risk:78},
+    summary:'2004 年設立、實收資本額約 2.64 億元，為公開發行公司；官方網站設有歷年實績、工程進度、售後服務與投資者專區，可核對「峰源－大方無隅」及其他開發營運。',
+    caveat:'公開發行治理、長期營運及售後管道支持 A 級門檻；但公開的第三方工程品質與售後量化成果仍不及 S 級建商完整，且停車場、租賃等非住宅業務不納入住宅品質加分。',
+    sources:[
+      {label:'廣朋實業公司登記',url:'https://findbiz.nat.gov.tw/fts/company/80665204',type:'官方公司資料'},
+      {label:'廣朋實業官方網站',url:'https://www.kpclc.com.tw/',type:'建商官方資料'},
+      {label:'臺北市工地總檢資料',url:'https://www.arch.org.tw/Content/Files/News/40f6ad5526a44faf8945efcbb7df437d.pdf',type:'臺北市政府公開資料'},
+    ],
+  },
 ].map(profile=>{
   const score=profile.scores?weightedScore(profile.scores):null;
   return {...profile,score,rating:profile.rating||ratingFromScore(score)};
