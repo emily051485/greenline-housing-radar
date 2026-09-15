@@ -4528,6 +4528,61 @@ export const developerResearch=[
       {label:'輕山敘成屋與成交資料',url:'https://www.leju.com.tw/community/Le6c1254768feea',type:'成屋成交資料'},
     ],
   },
+  {
+    id:'huayang-project',name:'花樣有限公司',aliases:['花樣有限公司','花漾有限公司'],reviewed:'2026-09-14',confidence:'中',
+    scores:{delivery:62,quality:68,governance:58,service:56,risk:58},
+    summary:'松捷樂的預售備查、成交資料與判決內容均可確認花樣公司接手基地、續建並對外銷售，屬實際專案開發者而非單純代銷。',
+    caveat:'公司接手原合建案後曾涉及權利移轉爭議訴訟，雖判決未認定共同詐欺，但目前缺少其他住宅交付與售後履歷，故列 C 級並保留較高風險折減。',
+    sources:[
+      {label:'臺北市預售契約未核備名單',url:'https://www-ws.gov.taipei/001/Upload/305/relfile/11498/7146725/f2fc61cd-c9c8-40d9-9c77-a3cc7553da6f.pdf',type:'政府預售資料'},
+      {label:'臺北地院112年度重訴字第205號',url:'https://lawplayer.com/judgment/TPDV%2C112%2C%E9%87%8D%E8%A8%B4%2C205%2C20230928%2C1_463148224b8d4fee7f5673cbeb1252a8ac8211b5',type:'司法公開資料'},
+      {label:'松捷樂建案與成交資料',url:'https://dualtaipei.datazen.info/taipei/project/%E6%9D%BE%E6%8D%B7%E6%A8%82',type:'實價與建案資料'},
+    ],
+  },
+  {
+    id:'shuanghua',name:'双華建設股份有限公司',aliases:['双華建設股份有限公司','雙華建設股份有限公司','双華建設','雙華建設'],reviewed:'2026-09-14',confidence:'中高',
+    scores:{delivery:82,quality:84,governance:78,service:72,risk:80},
+    summary:'2014年設立、資本額達億元規模，官方網站列出多個住宅與辦公作品；青琉的地址、建照與投資興建身分可由公司官網及成交資料交叉核對。',
+    caveat:'具多案作品與一定公司規模，但公開售後制度、治理資訊及第三方跨案品質統計仍有限，因此列 B 級。',
+    sources:[
+      {label:'双華建設公司登記資料',url:'https://www.findcompany.com.tw/%E5%8F%8C%E8%8F%AF%E5%BB%BA%E8%A8%AD%E8%82%A1%E4%BB%BD%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8',type:'公司登記公開資料'},
+      {label:'双華建設公司與作品介紹',url:'https://www.shuanghua.com.tw/about',type:'建商官方資料'},
+      {label:'青琉官方作品頁',url:'https://www.shuanghua.com.tw/archives/portfolio/%E9%9D%92%E7%90%89',type:'建商官方作品'},
+    ],
+  },
+  {
+    id:'demu-construction',name:'德沐建設股份有限公司（德孚體系）',aliases:['德沐建設股份有限公司','德沐建設'],reviewed:'2026-09-14',confidence:'中',
+    scores:{delivery:66,quality:76,governance:72,service:62,risk:74},
+    summary:'2020年設立、實收資本額2,500萬元，由德孚建設持股；德孚昀品的官方專案頁、預售契約與成交資料均確認德沐為投資興建者。',
+    caveat:'可參考德孚體系的開發支援，但德沐本體目前主要是尚未完整交付的單案紀錄，不能直接承接母公司全部履歷，故列 C 級。',
+    sources:[
+      {label:'經濟部德沐建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/83156324',type:'政府公司登記'},
+      {label:'德孚昀品官方專案頁',url:'https://www.devoted-constn.com.tw/02-open.aspx?id=2',type:'建商官方作品'},
+      {label:'德孚昀品預售與成交資料',url:'https://dualtaipei.datazen.info/taipei/project/%E5%BE%B7%E5%AD%9A%E6%98%80%E5%93%81',type:'實價與建案資料'},
+    ],
+  },
+  {
+    id:'lianyuan-construction',name:'蓮園建設股份有限公司',aliases:['蓮園建設股份有限公司','蓮園建設'],reviewed:'2026-09-14',confidence:'中高',
+    scores:{delivery:86,quality:82,governance:76,service:74,risk:80},
+    summary:'1991年設立、實收資本額6,500萬元，公司官網列有2003年至2021年的多筆作品並持續揭露工程進度；蓮園心邑亦為目前正式推案。',
+    caveat:'長期多案交付是主要優勢，但屬私人建商，公開治理、售後成效與第三方品質統計仍不及大型上市建商，因此列 B 級。',
+    sources:[
+      {label:'經濟部蓮園建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/23988393',type:'政府公司登記'},
+      {label:'蓮園建設官方網站與作品',url:'https://www.build.com.tw/',type:'建商官方作品'},
+      {label:'內政部預售屋備查開放資料',url:'https://data.gov.tw/dataset/176351',type:'政府預售備查'},
+    ],
+  },
+  {
+    id:'qiaofuxing',name:'僑府興建設股份有限公司',aliases:['僑府興建設股份有限公司','僑府興建設有限公司','僑府興建設'],reviewed:'2026-09-14',confidence:'中',
+    scores:{delivery:78,quality:76,governance:74,service:68,risk:72},
+    summary:'2004年設立、現為股份有限公司且實收資本額8,500萬元；公園首璽可確認與五十甲建設共同投資，另有既有住宅作品線索。',
+    caveat:'公司存續與資本具基礎，但公開作品、售後制度及第三方品質資料仍不完整，且個案有共同投資角色，故列 B 級下緣。',
+    sources:[
+      {label:'經濟部僑府興建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/80664676',type:'政府公司登記'},
+      {label:'公園首璽建案資料',url:'https://taichunghouse.imobile01.com/info/1363559',type:'建案公開資料'},
+      {label:'內政部預售屋備查開放資料',url:'https://data.gov.tw/dataset/176351',type:'政府預售備查'},
+    ],
+  },
 ].map(profile=>{
   const score=profile.scores?weightedScore(profile.scores):null;
   return {...profile,score,rating:profile.rating||ratingFromScore(score)};

@@ -62,6 +62,8 @@ const verifiedTextCorrections=new Map(Object.entries({
   '松江桓?':'松江．桓榀',
 }));
 const verifiedProjectBuilderCorrections=new Map([
+  ['松捷樂','花樣有限公司（投資興建）'],
+  ['青琉','備查起造人：双華建設股份有限公司'],
   ['耕玥','備查起造人：恒緯建設有限公司'],
   ['家?美','備查起造人：家悅建設股份有限公司'],
   ['璽來登日朗','備查起造人：家悅建設股份有限公司／家偉開發事業股份有限公司／家聖建設開發股份有限公司'],
