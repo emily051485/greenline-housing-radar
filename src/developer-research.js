@@ -4033,6 +4033,54 @@ export const developerResearch=[
       {label:'暉騰靚市場角色資料',url:'https://www.plex.com.tw/projects/view/id/9308',type:'建案公開資料'},
     ],
   },
+  {
+    id:'beicheng',name:'北城建設開發',aliases:['北城建設開發'],reviewed:'2026-09-14',confidence:'中高',
+    scores:{delivery:80,quality:82,governance:78,service:72,risk:78},
+    summary:'2000 年設立、登記實收資本額 1.35 億元；臺北市都更清冊確認北城為羅斯福路案實施者與起造人，案件 2018 年核定、2020 年開工，採 21 層 SRC 制震規劃。',
+    caveat:'長期法人存續、都更整合與大型在建案支持 B 級；但目前可直接核實的跨案完工、交屋、售後保固與客訴成效有限，產品網站的耐震與品質說明也屬個案自述，因此不升 A。',
+    sources:[
+      {label:'北城建設開發公司登記',url:'https://findbiz.nat.gov.tw/fts/company/70557135',type:'經濟部商工登記'},
+      {label:'臺北市都更實施者清冊',url:'https://www-ws.gov.taipei/001/Upload/459/relfile/22615/3491578/25d7852e-51d5-4e62-8977-481a9f33dcc9.pdf',type:'臺北市政府公開資料'},
+      {label:'北城．羅斯福產品資料',url:'https://creator-taiwan.com/project/%E5%8C%97%E5%9F%8E%C2%B7%E7%BE%85%E6%96%AF%E7%A6%8F/',type:'建案公開資料'},
+      {label:'承造商工程實績',url:'https://www.chief-cons.com/projects',type:'營造廠官方資料'},
+    ],
+  },
+  {
+    id:'taishin-construction',name:'台欣建設（建豐機構）',aliases:['台欣建設'],reviewed:'2026-09-14',confidence:'中',
+    scores:{delivery:80,quality:78,governance:78,service:70,risk:78},
+    summary:'1993 年設立、登記實收資本額 1.9 億元；新北市公開契約與市場資料可確認其為鳳鳴欣苑賣方及投資興建者，84 戶住宅已於 2025 年完工並有大量預售成交紀錄。',
+    caveat:'市場資料將台欣列入建豐機構，但尚不足以把建豐其他法人全部作品直接歸入台欣；目前可核實的台欣自身作品與售後樣本仍少，因此依直接證據列 B，而非按集團名稱升級。',
+    sources:[
+      {label:'台欣建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/84448291',type:'經濟部商工登記'},
+      {label:'鳳鳴欣苑預售契約',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?icon=..pdf&n=6bOz6bO05qyj6IuRLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMS9yZWxmaWxlLzk2NzkvNjgwNTQzLzljZmE2Nzk1LTU4MzUtNGNkMC1hZmNhLWFiNjJmMTdiYWMwNi5wZGY%3D',type:'新北市政府公開資料'},
+      {label:'鳳鳴欣苑完工與成交資料',url:'https://www.plex.com.tw/projects/view/id/4517',type:'建案公開資料'},
+      {label:'新北市已備查建案清冊',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?n=MTEw5bm06IezMTE05LiK5Y2K5bm05bey5YKZ5p%2Bl5bu65qGI5riF5YaKLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMzk5L3JlbGZpbGUvODk5My85NDY5L2UwZjQwYjRjLTkyMjEtNDliZS1hMzA5LTE0MWExNmQ1MzVlNS5wZGY%3D',type:'新北市政府公開資料'},
+    ],
+  },
+  {
+    id:'taisin',name:'台信建設',aliases:['台信建設'],reviewed:'2026-09-14',confidence:'中',
+    scores:{delivery:68,quality:74,governance:68,service:64,risk:72},
+    summary:'公司登記資料可追溯至 2011 年、資本額 3,000 萬元；新北市公開預售契約確認台信為台信琢岳賣方，112土建字第00368號規劃地上19層、地下5層、128戶。',
+    caveat:'台信琢岳仍在興建，且目前只查得一個可明確歸屬此法人的住宅案；名稱近似的台信開發建設不能在缺乏股權與董監事證據下直接合併，交屋、售後與品質成效待驗證，故列 C。',
+    sources:[
+      {label:'台信建設公司登記異動',url:'https://serv.gcis.nat.gov.tw/pub/cmpy/reportAction.do?fileName=10810NTC.pdf&method=report&reportClass=cmpy&subPath=10810',type:'經濟部公司登記清冊'},
+      {label:'台信琢岳預售契約',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?icon=..pdf&n=5Y%2Bw5L%2Bh55Ci5bKzLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMS9yZWxmaWxlLzk2NzkvNzI4NzkwLzQ1NWZjMjkwLTlkNjctNDFmYy04MWVmLWU1ZmYwOWRjNzMxMy5wZGY%3D',type:'新北市政府公開資料'},
+      {label:'台信琢岳建案資料',url:'https://newhouse.591.com.tw/135198',type:'建案公開資料'},
+      {label:'新北市已備查建案清冊',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?n=MTEw5bm06IezMTE05LiK5Y2K5bm05bey5YKZ5p%2Bl5bu65qGI5riF5YaKLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMzk5L3JlbGZpbGUvODk5My85NDY5L2UwZjQwYjRjLTkyMjEtNDliZS1hMzA5LTE0MWExNmQ1MzVlNS5wZGY%3D',type:'新北市政府公開資料'},
+    ],
+  },
+  {
+    id:'youcheng',name:'右成建設開發',aliases:['右成建設開發'],reviewed:'2026-09-14',confidence:'中',
+    scores:{delivery:68,quality:74,governance:70,service:66,risk:74},
+    summary:'2015 年設立、登記資本額由 50 萬元逐步增至 5,000 萬元；官方網站及新北市預售資料確認右成為心晴好開發與契約主體，111板建字第00484號規劃 64 戶。',
+    caveat:'心晴好目前仍是主要可辨識住宅樣本，市場資料另列瑞恩開發參與，但不足以將其履歷轉移給右成；跨案完工、售後與品質統計有限，因此列 C。',
+    sources:[
+      {label:'右成建設開發公司登記',url:'https://findbiz.nat.gov.tw/fts/company/24736086',type:'經濟部商工登記'},
+      {label:'心晴好官方產品頁',url:'https://www.ychappy.com.tw/products_detail/56',type:'公司官方資料'},
+      {label:'心晴好預售契約查詢',url:'https://www.land.ntpc.gov.tw/News.aspx?PageSize=20&_Query=a57b2e19-ab70-4142-80ea-976f35abb5bb&n=11769&page=25&sms=9679',type:'新北市政府公開資料'},
+      {label:'心晴好個案資料',url:'https://www.plex.com.tw/projects/view/id/3518',type:'建案公開資料'},
+    ],
+  },
 ].map(profile=>{
   const score=profile.scores?weightedScore(profile.scores):null;
   return {...profile,score,rating:profile.rating||ratingFromScore(score)};
