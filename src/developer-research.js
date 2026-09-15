@@ -660,6 +660,129 @@ export const developerResearch=[
       {label:'公司登記資料',url:'https://findbiz.nat.gov.tw/fts/company/80600218',type:'政府資料'},
     ],
   },
+  {
+    id:'foxbeauty',name:'福美國際建設',aliases:['福美國際建設'],reviewed:'2026-09-14',confidence:'中低',
+    scores:{delivery:68,quality:68,governance:54,service:68,risk:62},
+    summary:'2020 年成立，官網揭露從建築設計、營造到銷售與客服的一體化服務；目前可核實的公司年資與完工履歷仍短。',
+    caveat:'公開治理、財務與跨景氣循環交付證據有限，依現有證據保守評為 C 級，不以品牌文案替代實績。',
+    sources:[
+      {label:'福美國際建設官網',url:'https://www.foxbeauty.com.tw/index.html',type:'建商官網'},
+    ],
+  },
+  {
+    id:'hokan',name:'合康建設',aliases:['合康建設'],reviewed:'2026-09-14',confidence:'中',
+    scores:{delivery:80,quality:75,governance:63,service:70,risk:68},
+    summary:'2002 年設立、實收資本額 2.6 億元；官網可核對多案作品，個案官網亦明列投資興建者，已有可辨識的雙北交付履歷。',
+    caveat:'具二十年以上存續及作品證據，但公開財務、售後量化與品質驗證仍少，故列 B 級下緣。',
+    sources:[
+      {label:'經濟部商工登記',url:'https://findbiz.nat.gov.tw/fts/company/13117658',type:'政府資料'},
+      {label:'合康建設作品',url:'https://www.hokan-archi.com.tw/projects.php',type:'建商官網'},
+      {label:'合康個案官網',url:'https://www.hokanfm.com.tw/',type:'建案官網'},
+    ],
+  },
+  {
+    id:'dongying',name:'東瑩建設',aliases:['東瑩建設'],reviewed:'2026-09-14',confidence:'中',
+    scores:{delivery:84,quality:76,governance:60,service:71,risk:68},
+    summary:'官網揭露逾二十年沿革與跨年度作品，政府都更公聽會資料亦可核對其實施者身分及過往實績。',
+    caveat:'長期交付紀錄可辨識，但非公開發行公司，治理、售後及工程品質量化資料較有限，評為 B 級。',
+    sources:[
+      {label:'東瑩建設官網',url:'https://www.dongyinggroup.com/',type:'建商官網'},
+      {label:'東瑩集團沿革',url:'https://dongyinggroup.com/01.html',type:'建商官網'},
+      {label:'永和民治段都更公聽會資料',url:'https://dongyinggroup.com/upload/%E6%B0%B8%E5%92%8C%E5%8D%80%E6%B0%91%E6%B2%BB%E6%AE%B5%E5%85%AC%E8%81%BD%E6%9C%83%E7%B0%A1%E5%A0%B1.pdf',type:'政府案卷'},
+    ],
+  },
+  {
+    id:'junmei',name:'鈞美建設',aliases:['鈞美建設'],reviewed:'2026-09-14',confidence:'中低',
+    scores:{delivery:70,quality:70,governance:56,service:66,risk:62},
+    summary:'官網可核對危老、都市更新方向、作品與公聽會進度，確認其確為開發建設角色。',
+    caveat:'已有個案與程序資料，但長期完工、公開財務、售後及第三方品質證據不足，依現有證據列 C 級。',
+    sources:[
+      {label:'鈞美建設官網',url:'https://jun-mei.com.tw/',type:'建商官網'},
+    ],
+  },
+  {
+    id:'apricity',name:'立陽開發',aliases:['立陽開發'],reviewed:'2026-09-14',confidence:'中',
+    scores:{delivery:80,quality:78,governance:64,service:72,risk:68},
+    summary:'2014 年設立，實收資本額逾 7 億元；公司官網揭露土地重劃背景與林口、龜山布局，新北市備查清冊可核對仟壹、仟極、山侘一生等案。',
+    caveat:'具規模、持續推案與官方備查紀錄，但公開財務、售後績效及第三方品質數據仍有限，評為 B 級。',
+    sources:[
+      {label:'經濟部商工登記',url:'https://findbiz.nat.gov.tw/fts/company/54735465',type:'政府資料'},
+      {label:'立陽開發品牌與沿革',url:'https://www.apricitydevtw.com/about',type:'建商官網'},
+      {label:'新北市預售屋備查清冊',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?n=MTEw5bm06IezMTE05bm05bey5YKZ5p%2Bl5bu65qGI5riF5YaKLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMzk5L3JlbGZpbGUvODk5My85NDY5L2NkZTQ4OTJkLTQzMzAtNDY3Zi1hYmExLTI3YzJiYjI0MjYxNi5wZGY%3D',type:'政府資料'},
+    ],
+  },
+  {
+    id:'homeplanter',name:'宏樸建設',aliases:['宏樸建設'],reviewed:'2026-09-14',confidence:'中低',
+    scores:{delivery:70,quality:72,governance:55,service:66,risk:62},
+    summary:'官網可確認公司身分、林口在地定位與目前作品，另有個案官網可交叉核對實際推案。',
+    caveat:'目前能核對的長期交付、財務治理、售後及第三方品質證據仍少，依現有證據保守列 C 級。',
+    sources:[
+      {label:'宏樸建築官網',url:'https://www.homeplanter.co/',type:'建商官網'},
+      {label:'宏樸如嶼個案官網',url:'https://beautyofthemoment.com.tw/index.html',type:'建案官網'},
+    ],
+  },
+  {
+    id:'shengde',name:'盛德建設',aliases:['盛德建設'],reviewed:'2026-09-14',confidence:'中',
+    scores:{delivery:78,quality:74,governance:61,service:69,risk:65},
+    summary:'2012 年設立、實收資本額 1.553 億元；同體系營造官網揭露逾三十年大台北工程經驗，可確認建設與施工能力背景。',
+    caveat:'公司存續及營造背景明確，但建設品牌的完工清單、財務治理與售後量化資料較少，依現有證據列 C 級。',
+    sources:[
+      {label:'經濟部商工登記',url:'https://findbiz.nat.gov.tw/fts/company/53725329',type:'政府資料'},
+      {label:'盛德營造官網',url:'https://www.shendeconstruction.com/home',type:'關係企業官網'},
+    ],
+  },
+  {
+    id:'zhuhe',name:'築禾建設',aliases:['築禾建設'],reviewed:'2026-09-14',confidence:'中',
+    scores:{delivery:82,quality:78,governance:66,service:72,risk:70},
+    summary:'2012 年設立，最新商工登記實收資本額 21 億元；新北市公開的預售契約可核對築禾琢立、忠孝苑等案及其賣方身分。',
+    caveat:'資本與多案推案證據較完整，但並非公開發行公司，公開售後與第三方品質資料仍有限，評為 B 級。',
+    sources:[
+      {label:'經濟部商工登記',url:'https://findbiz.nat.gov.tw/fts/company/53684538',type:'政府資料'},
+      {label:'築禾琢立預售契約',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?icon=..pdf&n=56%2BJ56a%2B55Ci56uLLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMS9yZWxmaWxlLzk2NzkvNzMwODE3LzRlMThlNGZhLTVjYzAtNDgyYy04OTdiLTEyNjIyZDljZWNmMC5wZGY%3D',type:'政府資料'},
+      {label:'築禾忠孝苑預售契約',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?icon=..pdf&n=56%2BJ56a%2B5b%2Bg5a2d6IuRLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMS9yZWxmaWxlLzk2NzkvNzI5OTI2L2JiNWFjZDlmLTA4YzItNDQxNi1iMWE0LTdkOGE4ZDNkNDE4MS5wZGY%3D',type:'政府資料'},
+    ],
+  },
+  {
+    id:'fuyu',name:'馥羽開發建設',aliases:['馥羽開發建設','欣羽股份有限公司','欣羽有限公司'],reviewed:'2026-09-14',confidence:'中',
+    scores:{delivery:79,quality:78,governance:65,service:72,risk:69},
+    summary:'經濟部歷史登記顯示，欣羽股份有限公司於 2023 年更名為馥羽開發建設，實收資本額 14.3 億元；現為馥華集團建築事業體之一。',
+    caveat:'公司規模與集團資源可核對，但以新名稱累積的獨立交付、售後及公開治理資料仍有限，評為 B 級。',
+    sources:[
+      {label:'經濟部商工登記與更名紀錄',url:'https://findbiz.nat.gov.tw/fts/company/53718426',type:'政府資料'},
+      {label:'馥華集團事業體資料',url:'https://www.104.com.tw/company/1a2x6bkmhe',type:'公司公開資料'},
+    ],
+  },
+  {
+    id:'futingfeng',name:'富庭峰建設',aliases:['富庭峰建設'],reviewed:'2026-09-14',confidence:'中',
+    scores:{delivery:72,quality:69,governance:57,service:65,risk:63},
+    summary:'新北市備查清冊可核對米蘭日光、水悅日光、築家三案，公開預售契約亦確認其為米蘭日光賣方。',
+    caveat:'具連續推案及正式契約證據，但公司年資、完工品質、售後與治理公開資料仍少，列 C 級。',
+    sources:[
+      {label:'新北市預售屋備查清冊',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?n=MTEw5bm06IezMTE05bm05bey5YKZ5p%2Bl5bu65qGI5riF5YaKLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMzk5L3JlbGZpbGUvODk5My85NDY5L2NkZTQ4OTJkLTQzMzAtNDY3Zi1hYmExLTI3YzJiYjI0MjYxNi5wZGY%3D',type:'政府資料'},
+      {label:'米蘭日光預售契約',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?icon=..pdf&n=57Gz6Jit5pel5YWJLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMS9yZWxmaWxlLzk2NzkvNjM4NTA5LzExYmViNGI4LTE4NTAtNDQzMC04ZjViLTMwMDE3NWRiM2NlZi5wZGY%3D',type:'政府資料'},
+    ],
+  },
+  {
+    id:'fangyuan',name:'方圓開發建設',aliases:['方圓開發建設'],reviewed:'2026-09-14',confidence:'中',
+    scores:{delivery:80,quality:76,governance:63,service:70,risk:68},
+    summary:'2005 年設立、實收資本額 2.02 億元；政府公司登記與已完成都更案資料可核對公司存續、開發角色及推案。',
+    caveat:'具近二十年存續及都更實績，但公開財務、售後與第三方品質量化資料有限，評為 B 級。',
+    sources:[
+      {label:'經濟部商工登記',url:'https://findbiz.nat.gov.tw/fts/company/28067261',type:'政府資料'},
+      {label:'方圓開發都更案資料',url:'https://www.fds-archi.com/urban/',type:'關係企業官網'},
+    ],
+  },
+  {
+    id:'newmoon',name:'新月建設',aliases:['新月建設'],reviewed:'2026-09-14',confidence:'中',
+    scores:{delivery:84,quality:75,governance:62,service:70,risk:68},
+    summary:'1997 年設立、實收資本額 2.005 億元；新北市公開預售契約與備查頁可核對其賣方身分及近期推案。',
+    caveat:'長期存續與持續推案證據明確，但公開財務、售後與第三方品質量化資訊較少，評為 B 級。',
+    sources:[
+      {label:'經濟部商工登記',url:'https://findbiz.nat.gov.tw/fts/company/97394698',type:'政府資料'},
+      {label:'新月御景預售契約',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?icon=..pdf&n=5a%2BM5b6h5piVLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMS9yZWxmaWxlLzk2NzkvNzI4Nzg2LzMyYmY5Yjk4LTVhMzItNDJmOS1iNjk2LTFlOTZmYmE3NmIyNC5wZGY%3D',type:'政府資料'},
+      {label:'新北市預售屋契約查詢',url:'https://www.land.ntpc.gov.tw/News.aspx?PageSize=20&n=11769&page=8&sms=9679',type:'政府資料'},
+    ],
+  },
 ].map(profile=>{
   const score=profile.scores?weightedScore(profile.scores):null;
   return {...profile,score,rating:profile.rating||ratingFromScore(score)};
