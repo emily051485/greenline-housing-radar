@@ -1664,6 +1664,98 @@ export const developerResearch=[
       {label:'築億峰尚建案資料',url:'https://www.neo-vision.com.tw/web/project_single.aspx?pk=88',type:'建案公開資料'},
     ],
   },
+  {
+    id:'furong',name:'福容開發',aliases:['福容開發'],reviewed:'2026-09-14',confidence:'高',
+    scores:{delivery:84,quality:78,governance:74,service:72,risk:55},
+    summary:'2002 年設立、實收資本額 20 億元；政府資料可核對預售、都更及建照案件，福容大都會公開資料亦揭露其麗寶集團背景。',
+    caveat:'具集團資源與跨案履歷，但住宅品質、售後量化及單一法人治理揭露仍有限；「君悅富國」銷售廣告曾因夾層空間呈現不當遭公平會處分，已下修風險分，評為 B 級。',
+    sources:[
+      {label:'經濟部公司登記',url:'https://findbiz.nat.gov.tw/fts/company/80051114',type:'政府資料'},
+      {label:'臺北市都市更新案卷',url:'https://www-ws.gov.taipei/001/Upload/459/relfile/22615/3491578/cbfcff08-bfd8-4ace-937c-339cbfa1c680.pdf',type:'政府案卷'},
+      {label:'公平會行政處分',url:'https://www.ftc.gov.tw/upload/1130514-1120712.pdf',type:'政府資料'},
+      {label:'福容建案官網',url:'https://www.furong.com.tw/',type:'建商官網'},
+    ],
+  },
+  {
+    id:'runhome',name:'潤鴻建築',aliases:['潤鴻建築'],reviewed:'2026-09-14',confidence:'中高',
+    scores:{delivery:70,quality:78,governance:62,service:68,risk:67},
+    summary:'2020 年設立、實收資本額 1.5 億元；官網列有日麗、日研、日昕與善化案，並揭露與潤麗營造的開發營造整合及健康低碳訴求。',
+    caveat:'公司與現有作品多處於較早期階段，長期完工交付、治理、售後成效及第三方品質驗證尚不足，現階段評為 C 級。',
+    sources:[
+      {label:'經濟部公司登記',url:'https://findbiz.nat.gov.tw/fts/company/82850182',type:'政府資料'},
+      {label:'潤鴻建築官網',url:'https://runhome-arch.com.tw/',type:'建商官網'},
+      {label:'潤鴻作品列表',url:'https://runhome-arch.com.tw/achievements.php',type:'建商官網'},
+      {label:'新北市預售案清冊',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?n=MTEw5bm06IezMTE05bm05bey5YKZ5p%2Bl5bu65qGI5riF5YaKLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMzk5L3JlbGZpbGUvODk5My85NDY5L2NkZTQ4OTJkLTQzMzAtNDY3Zi1hYmExLTI3YzJiYjI0MjYxNi5wZGY%3D',type:'政府資料'},
+    ],
+  },
+  {
+    id:'baohe',name:'寶和建設',aliases:['寶和建設'],reviewed:'2026-09-14',confidence:'中高',
+    scores:{delivery:77,quality:79,governance:65,service:72,risk:69},
+    summary:'2019 年設立，目前實收資本額 1.395 億元；公司官網列出好植、稙秀、植青與妍稙，其中植青已為新成屋，形成初步交付履歷。',
+    caveat:'團隊年資與工程理念主要來自公司自行揭露，法人本身仍年輕，長期售後、治理及第三方品質量化有限，評為 B 級。',
+    sources:[
+      {label:'經濟部公司登記',url:'https://findbiz.nat.gov.tw/fts/company/82953878',type:'政府資料'},
+      {label:'寶和建設官網',url:'https://baohe.com.tw/',type:'建商官網'},
+      {label:'寶和妍稙個案資料',url:'https://www.fuyugroup.com.tw/?at=builddetails&cl=build&id=80&md=index',type:'建案公開資料'},
+    ],
+  },
+  {
+    id:'shanglin',name:'上林建設',aliases:['上林建設'],reviewed:'2026-09-14',confidence:'中高',
+    scores:{delivery:68,quality:70,governance:57,service:65,risk:64},
+    summary:'2004 年設立，目前實收資本額 1,850 萬元，2021 年由石利建設更名；政府預售資料可核對上林旭，公開市場資料另可核對上林云。',
+    caveat:'目前可確認的住宅作品及公開制度資料不多，且缺乏長期交付、財務治理、售後與第三方品質量化，現階段評為 C 級。',
+    sources:[
+      {label:'經濟部公司登記',url:'https://findbiz.nat.gov.tw/fts/company/27379408',type:'政府資料'},
+      {label:'上林旭預售契約',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?icon=..pdf&n=5LiK5p6X5petLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMS9yZWxmaWxlLzk2NzkvNzM5NjAwL2U0ZDk3ZjI2LTM0YWYtNDI5NS1hMzAwLWVjM2M0NDkwNTY0NS5wZGY%3D',type:'政府資料'},
+      {label:'新北市預售案清冊',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?n=MTEw5bm06IezMTE05bm05bey5YKZ5p%2Bl5bu65qGI5riF5YaKLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMzk5L3JlbGZpbGUvODk5My85NDY5L2NkZTQ4OTJkLTQzMzAtNDY3Zi1hYmExLTI3YzJiYjI0MjYxNi5wZGY%3D',type:'政府資料'},
+    ],
+  },
+  {
+    id:'jiahao',name:'家豪建設',aliases:['家豪建設'],reviewed:'2026-09-14',confidence:'中高',
+    scores:{delivery:86,quality:79,governance:63,service:74,risk:70},
+    summary:'1999 年設立、資本額 2,500 萬元；公司徵才資料揭露與大將營造採自地、自建、自售模式，早安北大系列已累積逾 30 期，另有政府審查案卷可交叉核對。',
+    caveat:'長期區域交付履歷明確，但期數及品質制度主要為公司自行揭露，公開財務治理、售後成效與第三方品質量化仍有限，評為 B 級。',
+    sources:[
+      {label:'經濟部公司登記',url:'https://findbiz.nat.gov.tw/fts/company/70677602',type:'政府資料'},
+      {label:'新北市都市設計審議案卷',url:'https://www.planning.ntpc.gov.tw/uploaddowndoc?file=downloaddata%2F202310041608122.pdf&filedisplay=0928%E4%B8%8A%E5%8D%88-%E5%BC%B5-%28%E4%B8%80%29%E5%AE%B6%E8%B1%AA%E4%B8%89%E5%B3%BD%E5%A4%A7%E5%AD%B8%E6%AE%B5%E4%B8%80%E5%B0%8F%E6%AE%B5112-1%28%E4%BA%8C%29%E9%9C%96%E6%98%8C%E6%9E%97%E5%8F%A3%E5%B7%A5%E4%BA%8C%E6%AE%B5207%281%E8%AE%8A%29.pdf&flag=doc',type:'政府案卷'},
+      {label:'家豪建設公司介紹',url:'https://www.104.com.tw/company/wgvmaq8',type:'公司揭露'},
+    ],
+  },
+  {
+    id:'wenjie',name:'文傑建設',aliases:['文傑建設'],reviewed:'2026-09-14',confidence:'中高',
+    scores:{delivery:79,quality:73,governance:61,service:68,risk:60},
+    summary:'1996 年設立、實收資本額 2,500 萬元；政府預售清冊可核對文傑鉑悅，另有在建住宅與黃金級綠建築工程資料。',
+    caveat:'法人年期長但公開作品、治理、售後及品質制度量化有限；工地曾有營建空污防制缺失紀錄，已保守反映於風險分，現階段評為 C 級。',
+    sources:[
+      {label:'經濟部公司登記',url:'https://findbiz.nat.gov.tw/fts/company/97060685',type:'政府資料'},
+      {label:'新北市預售案清冊',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?n=MTEw5bm06IezMTE05bm05bey5YKZ5p%2Bl5bu65qGI5riF5YaKLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMzk5L3JlbGZpbGUvODk5My85NDY5L2NkZTQ4OTJkLTQzMzAtNDY3Zi1hYmExLTI3YzJiYjI0MjYxNi5wZGY%3D',type:'政府資料'},
+      {label:'文傑建設環境裁處資料',url:'https://thaubing.gcaa.org.tw/corp/97060685',type:'政府資料彙整'},
+      {label:'青鈿營造工程實績',url:'https://qingtain.com.tw/project-detail/50',type:'工程公開資料'},
+    ],
+  },
+  {
+    id:'heyun',name:'荷蘊建設',aliases:['荷蘊建設'],reviewed:'2026-09-14',confidence:'中高',
+    scores:{delivery:72,quality:71,governance:59,service:66,risk:65},
+    summary:'2018 年設立，目前資本額 2,900 萬元；政府預售契約可核對荷蘊煦及其 18 戶規模，公開案況另顯示品牌已持續推至第九期。',
+    caveat:'已有連續推案及一件使用執照可核對，但作品規模較小，治理、售後與第三方品質制度揭露仍不足，評為 C 級。',
+    sources:[
+      {label:'經濟部公司登記',url:'https://findbiz.nat.gov.tw/fts/company/54926458',type:'政府資料'},
+      {label:'荷蘊煦預售契約',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?icon=..pdf&n=6I236JiK54WmLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMS9yZWxmaWxlLzk2NzkvNzM0NDI5LzQ2NzliNmU1LTU3MDUtNDk3MC1hMDZlLWIzODA3M2ZhNzRkOC5wZGY%3D',type:'政府資料'},
+      {label:'荷蘊煦建案資料',url:'https://newhouse.591.com.tw/138092',type:'建案公開資料'},
+    ],
+  },
+  {
+    id:'lifu',name:'力馥建設',aliases:['力馥建設'],reviewed:'2026-09-14',confidence:'中高',
+    scores:{delivery:82,quality:82,governance:68,service:78,risk:72},
+    summary:'2015 年設立、實收資本額 7,000 萬元；力璞品牌揭露北北桃十餘座作品、12 項品質保證與專人客服，政府清冊亦可核對力璞學。',
+    caveat:'品牌具跨案履歷及服務制度，但力馥與力璞關係公司的實際責任仍須逐案辨識，相關制度多為公司自行揭露，評為 B 級。',
+    sources:[
+      {label:'經濟部公司登記',url:'https://findbiz.nat.gov.tw/fts/company/24892086',type:'政府資料'},
+      {label:'新北市預售案清冊',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?n=MTEw5bm06IezMTE05bm05LiK5Y2K5bm05bey5YKZ5p%2Bl5bu65qGI5riF5YaKLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMzk5L3JlbGZpbGUvODk5My85NDY5L2UwZjQwYjRjLTkyMjEtNDliZS1hMzA5LTE0MWExNmQ1MzVlNS5wZGY%3D',type:'政府資料'},
+      {label:'力璞水御品質與客服',url:'https://www.lifeatriverside.tw/',type:'建案官網'},
+      {label:'同業連帶擔保審核名單',url:'https://www.redat.org.tw/storage/upload/members/1100831%E5%AF%A9%E6%A0%B8%E9%80%9A%E9%81%8E%E5%90%8D%E5%96%AE%28%E7%99%BB%E7%B6%B2%29-1633399711.pdf',type:'公會資料'},
+    ],
+  },
 ].map(profile=>{
   const score=profile.scores?weightedScore(profile.scores):null;
   return {...profile,score,rating:profile.rating||ratingFromScore(score)};
