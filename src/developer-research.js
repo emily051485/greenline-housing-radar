@@ -1269,6 +1269,49 @@ export const developerResearch=[
       {label:'睿泰川矅預售契約核備',url:'https://www-ws.gov.taipei/001/Upload/305/relfile/11498/7640523/2613d0b4-7d54-493f-823b-d74eaca5ac54.pdf',type:'政府資料'},
     ],
   },
+  {
+    id:'mitsubashi',name:'三橋建設',aliases:['三橋建設'],reviewed:'2026-09-14',confidence:'高',
+    scores:{delivery:80,quality:82,governance:83,service:76,risk:76},
+    summary:'2021 年成立、實收資本額 12 億元，由上市建商宏普持股 51%、台灣三井不動產持股 49%；J PARK A、B 區已有完整備查及大量實價揭露。',
+    caveat:'股東開發、治理與資本支援很強，但三橋法人本身仍是新公司且自有完工交付紀錄有限，因此不直接沿用母公司評級，評為 B 級。',
+    sources:[
+      {label:'經濟部公司登記與股權',url:'https://findbiz.nat.gov.tw/fts/company/91052786',type:'政府資料'},
+      {label:'三井不動產臺灣事業資料',url:'https://www.mitsuifudosan.co.jp/tw/corporate/news/2017/0110_01/download/20170110.pdf',type:'公司公開資料'},
+    ],
+  },
+  {
+    id:'shihda',name:'世達建設',aliases:['世達建設'],reviewed:'2026-09-14',confidence:'中高',
+    scores:{delivery:82,quality:79,governance:61,service:71,risk:68},
+    summary:'1992 年設立，公開案況可核對世達斐麗、舞春秋、大安 VISION、古亭匯等成屋，以及碧水岸與世達懿居等新案。',
+    caveat:'具三十餘年法人歷史與跨期交付作品，但資本規模、公開治理、售後及第三方品質量化仍有限，評為 B 級。',
+    sources:[
+      {label:'公司登記公開資料',url:'https://mygov.tw/company/86692707',type:'政府資料彙整'},
+      {label:'世達建案彙整',url:'https://build.myhousing.com.tw/company/480445/',type:'建案公開資料'},
+      {label:'世達碧水岸建案資料',url:'https://www.plex.com.tw/projects/view/id/4243',type:'建案公開資料'},
+    ],
+  },
+  {
+    id:'hongye',name:'宏燁建設',aliases:['宏燁建設'],reviewed:'2026-09-14',confidence:'中低',
+    scores:{delivery:73,quality:71,governance:57,service:66,risk:62},
+    summary:'官方個案網站及新北市預售契約可核對宏燁文旅，臺北市備查另可確認宏燁文華，兩案均由宏燁建設擔任銷售或興建角色。',
+    caveat:'目前可核實作品集中於兩件預售案，長期交付、公司財務治理、售後及第三方品質資料不足，評為 C 級。',
+    sources:[
+      {label:'宏燁建案官網',url:'https://www.hyhouse.tw/',type:'建案官網'},
+      {label:'新北市宏燁文旅預售契約',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?icon=..pdf&n=5a6P54eB5paH5peFLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMS9yZWxmaWxlLzk2NzkvNzMwODE2LzFlMzFlYTE3LTllNmEtNGVmZC05ZDgyLWJjZTEyMzk3NWJmMi5wZGY%3D',type:'政府資料'},
+    ],
+  },
+  {
+    id:'baoyi',name:'寶誼資產',aliases:['寶誼資產'],reviewed:'2026-09-14',confidence:'中',
+    scores:{delivery:72,quality:72,governance:61,service:68,risk:64},
+    summary:'2012 年成立，後由有限公司改制為股份有限公司；官網與政府施工資料可核對南陽龍踞、南京鉑蘊，並可確認起造、營造及建照資訊。',
+    caveat:'已有連續開發案，但多仍在興建，法人本身的完工交付、治理、售後與品質量化資料有限，評為 C 級。',
+    sources:[
+      {label:'經濟部公司登記',url:'https://findbiz.nat.gov.tw/fts/company/83469825',type:'政府資料'},
+      {label:'華造南京鉑蘊官網',url:'https://www.timelessshine01.com/',type:'建案官網'},
+      {label:'臺北市建照施工資料',url:'https://www.arch.org.tw/Content/Files/News/44241633b8bf481b96b2163d124eeb4c.pdf',type:'政府資料'},
+      {label:'華誼建設進度資料',url:'https://www.huayibuild.com.tw/news',type:'建商官網'},
+    ],
+  },
 ].map(profile=>{
   const score=profile.scores?weightedScore(profile.scores):null;
   return {...profile,score,rating:profile.rating||ratingFromScore(score)};
