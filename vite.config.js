@@ -6,6 +6,7 @@ export default defineConfig({
       input:{
         greenLine:'index.html',
         greaterTaipei:'greater-taipei/index.html',
+        developers:'developers/index.html',
       },
     },
   },

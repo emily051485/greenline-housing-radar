@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="大台北預售建案建商研究整理：品牌等級、推案樣本、資料透明度、案件成熟度與定位證據。" />
+    <title>建商研究｜大台北預售建案</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;600;700&family=Outfit:wght@500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/src/style.css" />
+    <link rel="stylesheet" href="/src/developers.css" />
+  </head>
+  <body class="developer-page">
+    <header class="topbar">
+      <a class="brand" href="../greater-taipei/"><span class="brand-mark">D</span><span>建商研究<small>DEVELOPER RESEARCH</small></span></a>
+      <nav><a href="../greater-taipei/">大台北預售建案</a><a href="../">綠線潛力建案</a><a href="#methodology">評分方法</a></nav>
+    </header>
+
+    <main>
+      <section class="developer-hero">
+        <span class="eyebrow"><span></span>DEVELOPER DUE DILIGENCE</span>
+        <h1>不只看等級，<br><em>看分數怎麼來。</em></h1>
+        <p>把目前 S／A／B／C 研究分級拆成多個可比較維度。分數反映本站現有資料與研究判斷，不是政府評鑑，也不等同建築品質保證。</p>
+      </section>
+
+      <section class="developer-index">
+        <div class="developer-toolbar">
+          <label>建商搜尋<input id="developer-search" type="search" placeholder="輸入建商名稱"></label>
+          <label>最低等級<select id="developer-rating"><option value="all">全部等級</option><option value="S">S 級</option><option value="A">A 級以上</option><option value="B" selected>B 級以上</option><option value="C">C 級以上</option></select></label>
+          <label>排序<select id="developer-sort"><option value="score">綜合研究分</option><option value="projects">本站建案數</option><option value="transparency">資料透明度</option><option value="name">建商名稱</option></select></label>
+        </div>
+        <div class="developer-summary"><b id="developer-count">0</b> 家建商符合條件</div>
+        <div id="developer-cards" class="developer-cards"></div>
+        <div id="developer-empty" class="empty" hidden>沒有符合目前條件的建商。</div>
+      </section>
+
+      <section class="score-method" id="methodology">
+        <div class="section-heading"><div><span class="kicker">SCORING METHOD</span><h2>評分怎麼看</h2></div></div>
+        <div class="method-grid">
+          <article><b>40%</b><h3>品牌與履約基準</h3><p>沿用本站現有 S／A／B／C 研究分級，綜合歷年推案、規模、履約與公開爭議。屬研究初評，不是政府評鑑。</p></article>
+          <article><b>20%</b><h3>資料透明度</h3><p>依該建商建案中可取得坪數、價格與來源連結的比例計算；資訊尚未公開不必然代表建商品質較差。</p></article>
+          <article><b>15%</b><h3>本站推案樣本</h3><p>依目前資料庫收錄案件數換算，表示可供研究的樣本量，不直接等於市場占有率。</p></article>
+          <article><b>10%</b><h3>案件成熟度</h3><p>依已進入預售、完工或取得更明確進度的案件比例計算。</p></article>
+          <article><b>15%</b><h3>定位證據</h3><p>依完整門牌、官方座標、估計位置與待定位案件比例計算。</p></article>
+        </div>
+        <div class="research-warning"><strong>目前尚未納入綜合分</strong><span>售後服務、保固處理、財務負債、施工缺失及重大爭議仍需逐家公司蒐集一致且可追溯的證據；在完成前不以印象分數代替。</span></div>
+      </section>
+    </main>
+    <nav class="scope-switcher" aria-label="網站頁面"><a href="../greater-taipei/">大台北預售建案</a><a href="../">綠線潛力建案</a><a class="active" href="./">建商研究</a></nav>
+    <footer><span>大台北預售建案 · Developer research</span><span>研究型工具，分數不構成購屋、投資或品質保證</span></footer>
+    <script type="module" src="/src/developers.js"></script>
+  </body>
+</html>
