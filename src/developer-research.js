@@ -3064,6 +3064,49 @@ export const developerResearch=[
       {label:'臺北市預售契約查核季報',url:'https://www-ws.gov.taipei/Download.ashx?icon=..pdf&n=MTE05bm056ysMeWto%2BWLleaFi%2BWto%2BWgsS5wZGY%3D&u=LzAwMS9VcGxvYWQvMzA1L3JlbGZpbGUvMTAxNjIvOTQwMTIxMC9mZTg0OTBjZi0xNjYxLTQxYzAtYTQwZi0wNzE1YmU5MWUxY2UucGRm',type:'臺北市政府資料'},
     ],
   },
+  {
+    id:'chengkuan',name:'誠寬建設',aliases:['誠寬建設'],reviewed:'2026-09-14',confidence:'中高',
+    scores:{delivery:82,quality:82,governance:74,service:77,risk:78},
+    summary:'1997 年設立、實收資本額 2,500 萬元；公司與信昶甲級營造長期協作，官方列有日日好日、山川不白及多類住宅、廠辦工程，最新案亦有持續工程進度。',
+    caveat:'具跨期工程與完工履歷，但財務治理、售後成效及品質檢測的量化揭露有限，故列 B 而非 A。',
+    sources:[
+      {label:'誠寬建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/97479979',type:'經濟部商工資料'},
+      {label:'誠寬建設與信昶營造實績',url:'https://sorgsam.com.tw/construct.aspx',type:'公司官方資料'},
+      {label:'山川不白工程進度',url:'https://newhouse.591.com.tw/140060/dynamic',type:'建案公開資料'},
+    ],
+  },
+  {
+    id:'puching',name:'璞慶建設',aliases:['璞慶建設'],reviewed:'2026-09-14',confidence:'高',
+    scores:{delivery:84,quality:84,governance:79,service:79,risk:80},
+    summary:'2009 年設立、實收資本額 4 億元，主要法人股東為璞永建設；仁仰官方資料明列璞永、璞園團隊與璞慶共同投資興建，資本及集團工程支援可驗證。',
+    caveat:'具成熟團隊、充足資本及可核對的法人持股關係，達 A 級入門；但仍以璞慶法人自身資料評分，公開治理、售後量化及個別法人跨案交付證據尚不足以接近 S 級。',
+    sources:[
+      {label:'璞慶建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/28986423',type:'經濟部商工資料'},
+      {label:'璞園仁仰官方網站',url:'https://pycg-renyang.com.tw/',type:'建案官方資料'},
+      {label:'璞園仁仰建案資料',url:'https://www.plex.com.tw/projects/view/id/6170',type:'建案公開資料'},
+    ],
+  },
+  {
+    id:'zhuopu',name:'琢樸建設',aliases:['琢樸建設'],reviewed:'2026-09-14',confidence:'中',
+    scores:{delivery:67,quality:72,governance:66,service:68,risk:70},
+    summary:'仁愛玉璽官方網站、建照號碼與臺北市預售備查可確認琢樸建設為實際開發與銷售主體，並採不動產開發信託。',
+    caveat:'目前可查資料集中於仁愛玉璽單案，缺少公司資本、跨期完工、售後及品質制度的充分官方揭露，故列 C；產品宣傳不能替代交付能力證據。',
+    sources:[
+      {label:'仁愛玉璽官方網站',url:'https://jry-zhuopu.netlify.app/',type:'建案官方資料'},
+      {label:'臺北市仁愛玉璽預售備查',url:'https://land.gov.taipei/News_Content.aspx?n=E8D96FA6BB2B310E&s=984A917000F2E6D9&sms=06A4332DF37FE327',type:'臺北市政府資料'},
+    ],
+  },
+  {
+    id:'yuanzuo',name:'源座建設開發',aliases:['源座建設開發'],reviewed:'2026-09-14',confidence:'中高',
+    scores:{delivery:77,quality:77,governance:72,service:74,risk:76},
+    summary:'2010 年設立、實收資本額 3,500 萬元；政府建照與預售備查均可確認友座安森由其投資興建，且已有完工門牌及交易紀錄。',
+    caveat:'建商身分與單案交付可驗證，但跨案規模、售後服務、工程品質及治理公開資料仍有限，因此列 B 級下段。',
+    sources:[
+      {label:'源座建設開發公司登記',url:'https://findbiz.nat.gov.tw/fts/company/29161172',type:'經濟部商工資料'},
+      {label:'友座安森建照資料',url:'https://www-ws.gov.taipei/Download.ashx?icon=..pdf&n=MTA5MDEzMeiHszExMTA0Mjnlu7rmoYjos4foqIros4fmlpkucGRm&u=LzAwMS9VcGxvYWQvNDYxL3JlbGZpbGUvNTg1NTEvODYyMjg5MC8xMWI0YmY2Zi04MzMzLTRhZWQtYTU2Ni03MjE3MzVlODQ3OTgucGRm',type:'臺北市政府資料'},
+      {label:'友座安森預售備查',url:'https://www-ws.gov.taipei/001/Upload/305/relfile/11498/8530909/0d57135f-e666-4ae2-a344-215f708ec3c4.pdf',type:'臺北市政府資料'},
+    ],
+  },
 ].map(profile=>{
   const score=profile.scores?weightedScore(profile.scores):null;
   return {...profile,score,rating:profile.rating||ratingFromScore(score)};
