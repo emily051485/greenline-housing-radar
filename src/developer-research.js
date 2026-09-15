@@ -2891,6 +2891,50 @@ export const developerResearch=[
       {label:'臺北市工地總檢資料',url:'https://www.arch.org.tw/Content/Files/News/40f6ad5526a44faf8945efcbb7df437d.pdf',type:'臺北市政府公開資料'},
     ],
   },
+  {
+    id:'kingland',name:'富裔實業',aliases:['富裔實業'],reviewed:'2026-09-14',confidence:'高',
+    scores:{delivery:87,quality:83,governance:85,service:60,risk:58},
+    summary:'1997 年設立，實收資本額約 13.64 億元，具定期財務資料與自有營造、建築科技等關係企業；官方資料可追溯富裔巨蛋、松裔、國王雙子星等推案與工程進度。',
+    caveat:'公平會 114044 處分書認定「國王雙子星」銷售過程未提供共有部分分管表，且於契約審閱前要求支付定金，富裔實業遭罰 160 萬元。此為銷售資訊與契約程序違規，不是結構安全判定，但明顯下修服務與風險分數，因此列 B。',
+    sources:[
+      {label:'富裔實業公司登記',url:'https://findbiz.nat.gov.tw/fts/company/97477509',type:'經濟部商工資料'},
+      {label:'富裔實業投資人專區',url:'https://www.kingland.com.tw/TradChinese/Investors/Investors/1',type:'公司官方資料'},
+      {label:'公平會公處字第 114044 號',url:'https://www.ftc.gov.tw/uploadDecision/8924e9ce-3957-4e6f-a79c-ad72060150e5.pdf',type:'中央政府裁罰資料'},
+    ],
+  },
+  {
+    id:'fusheng-development',name:'復盛開發',aliases:['復盛開發'],reviewed:'2026-09-14',confidence:'中',
+    scores:{delivery:70,quality:72,governance:68,service:69,risk:73},
+    summary:'2019 年設立、實收資本額 3,000 萬元；臺北市預售屋備查資料可確認「復盛寧夏 YES!」與復盛開發的建商關係及價金信託安排。',
+    caveat:'目前可驗證的完工履歷、售後制度、工程品管與公司治理公開資料仍少，不能只因已有預售案名便推定為成熟品牌，因此保守列 C；這不是負面安全結論。',
+    sources:[
+      {label:'復盛開發公司登記',url:'https://findbiz.nat.gov.tw/fts/company/82921709',type:'經濟部商工資料'},
+      {label:'臺北市 113 年預售建案備查',url:'https://land.gov.taipei/News.aspx?PageSize=20&n=8A62273E3E42E818&page=6&sms=C26A9E324E37B468',type:'臺北市政府資料'},
+      {label:'復盛天母站前預售契約核備表',url:'https://www-ws.gov.taipei/001/Upload/305/relfile/11498/7640523/c8ff4681-be74-4aa1-b1ae-ebd6586c5cbb.pdf',type:'臺北市政府資料'},
+    ],
+  },
+  {
+    id:'sinzongyang',name:'新總陽建設',aliases:['新總陽建設'],reviewed:'2026-09-14',confidence:'中高',
+    scores:{delivery:86,quality:83,governance:78,service:78,risk:80},
+    summary:'1994 年設立、實收資本額 2.01 億元；政府資料可驗證其為北投大業段都市更新案的實施者與起造人，並已取得 111 建字第 0307 號建照，另持有營造公司股權。',
+    caveat:'公司年資、資本與可驗證執行紀錄穩健，但公開的售後服務量化資料、治理報告及跨案品質揭露不及 A 級門檻，故列 B。',
+    sources:[
+      {label:'新總陽建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/89258452',type:'經濟部商工資料'},
+      {label:'臺北市都市更新實施者清冊',url:'https://www-ws.gov.taipei/001/Upload/459/relfile/22615/3491578/25d7852e-51d5-4e62-8977-481a9f33dcc9.pdf',type:'臺北市政府資料'},
+      {label:'臺北市建造執照摘要',url:'https://www-ws.gov.taipei/001/Upload/845/relfile/-1/845/8ffb061f-6721-465c-9c9c-33cfc631f1a3.pdf',type:'臺北市政府資料'},
+    ],
+  },
+  {
+    id:'jingxing',name:'景星建設',aliases:['景星建設'],reviewed:'2026-09-14',confidence:'低',
+    scores:{delivery:66,quality:68,governance:42,service:58,risk:45},
+    summary:'市場與工程紀錄皆將「御品園」標示為景星建設興建，工程亦有開工、上樑及使用執照紀錄；但同名法人在經濟部商工登記顯示已於 2005 年解散。',
+    caveat:'案場使用的建商名稱與目前可查公司法人狀態存在重大落差，尚無法確認是否為地主自建、品牌沿用或另有實際履約主體。先以低置信 C 級辨識並醒目保留警示，購屋前必須以契約所載出賣人、起造人與履約保證主體重新核對。',
+    sources:[
+      {label:'景星建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/16197155',type:'經濟部商工資料'},
+      {label:'御品園工程進度紀錄',url:'https://www.an-sin.com.tw/news/fe81e3ea4fe54b2498b691ee815e12cf',type:'專案管理公司資料'},
+      {label:'御品園建案及使用執照資料',url:'https://www.plex.com.tw/projects/view/id/3754',type:'建案公開資料'},
+    ],
+  },
 ].map(profile=>{
   const score=profile.scores?weightedScore(profile.scores):null;
   return {...profile,score,rating:profile.rating||ratingFromScore(score)};
