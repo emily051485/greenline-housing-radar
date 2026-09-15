@@ -2003,6 +2003,100 @@ export const developerResearch=[
       {label:'立軒慕玥建案官網',url:'https://www.li-hsuanmuyue.com.tw/',type:'建案官網'},
     ],
   },
+  {
+    id:'jiarui',name:'佳瑞建設',aliases:['佳瑞建設'],reviewed:'2026-09-14',confidence:'高',
+    scores:{delivery:82,quality:76,governance:72,service:72,risk:58},
+    summary:'1998 年設立、實收資本額 2.1 億元；政府備查清冊可核對佳瑞心公園、佳瑞向上，並有長期跨案推案履歷。',
+    caveat:'公司年期、資本與案量具規模，但公開治理及售後成效有限；過往曾有預售契約查核改善及廣告不實處分紀錄，已下修風險分，評為 B 級。',
+    sources:[
+      {label:'經濟部公司登記',url:'https://findbiz.nat.gov.tw/fts/company/16570630',type:'政府資料'},
+      {label:'新北市預售屋備查清冊',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?n=MTEw5bm06IezMTE05LiK5Y2K5bm05bey5YKZ5p%2Bl5bu65qGI5riF5YaKLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMzk5L3JlbGZpbGUvODk5My85NDY5L2UwZjQwYjRjLTkyMjEtNDliZS1hMzA5LTE0MWExNmQ1MzVlNS5wZGY%3D',type:'政府資料'},
+      {label:'桃園市預售契約查核',url:'https://1950.tycg.gov.tw/news/admin/upt.asp?cid=&con=&day=&key=&month=&p0=890&pageNO=00012&uid=&year=',type:'政府資料'},
+      {label:'公平會處分彙編',url:'https://www.ftc.gov.tw/upload/c53c8a24-234b-48bb-a404-d874f71b1d75.pdf',type:'政府資料'},
+    ],
+  },
+  {
+    id:'xinmao',name:'欣懋建設',aliases:['欣懋建設'],reviewed:'2026-09-14',confidence:'高',
+    scores:{delivery:78,quality:76,governance:68,service:72,risk:65},
+    summary:'公司登記與政府備查可核對欣懋極綻、欣懋川玥及渼麗綻；極綻曾接手停工工程，後續取得使用執照並完成交屋。',
+    caveat:'具完成續建及多案推進能力，但法人本身年期較短、治理與售後量化揭露有限；工地承攬營造廠曾有廢棄物申報裁處，評為 B 級。',
+    sources:[
+      {label:'新北市公司變更登記清冊',url:'https://serv.gcis.nat.gov.tw/pub/cmpy/reportAction.do?fileName=11103NTC.pdf&method=report&reportClass=cmpy&subPath=11103',type:'政府資料'},
+      {label:'新北市預售屋備查清冊',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?n=MTEw5bm06IezMTE05LiK5Y2K5bm05bey5YKZ5p%2Bl5bu65qGI5riF5YaKLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMzk5L3JlbGZpbGUvODk5My85NDY5L2UwZjQwYjRjLTkyMjEtNDliZS1hMzA5LTE0MWExNmQ1MzVlNS5wZGY%3D',type:'政府資料'},
+      {label:'欣懋極綻續建與交屋紀錄',url:'https://www.yuesion.com.tw/works-article.php?id=7',type:'合作建商揭露'},
+      {label:'工地環境裁處彙整',url:'https://thaubing.gcaa.org.tw/corp/24376929',type:'政府資料彙整'},
+    ],
+  },
+  {
+    id:'hecheng',name:'河成生活科技建設',aliases:['河成生活科技建設'],reviewed:'2026-09-14',confidence:'高',
+    scores:{delivery:84,quality:79,governance:74,service:74,risk:72},
+    summary:'2004 年設立、實收資本額 1 億元；官方都更資料列出五星彩系列、河成港等實績，預售備查亦可核對河成湛與河成心湛。',
+    caveat:'具逾二十年法人年期、都更實施者資格及跨案履歷，但品質、售後及治理成效多缺乏第三方量化資料，評為 B 級。',
+    sources:[
+      {label:'經濟部公司登記',url:'https://findbiz.nat.gov.tw/fts/company/80645094',type:'政府資料'},
+      {label:'新北市都市更新事業計畫',url:'https://www.uro.ntpc.gov.tw/Uploads/Announce/2025-03/6ef6ecb0-5af4-4790-a417-cacb33eb4050.pdf',type:'政府資料'},
+      {label:'新北市預售屋備查清冊',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?n=MTEw5bm06IezMTE05LiK5Y2K5bm05bey5YKZ5p%2Bl5bu65qGI5riF5YaKLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMzk5L3JlbGZpbGUvODk5My85NDY5L2UwZjQwYjRjLTkyMjEtNDliZS1hMzA5LTE0MWExNmQ1MzVlNS5wZGY%3D',type:'政府資料'},
+      {label:'河成建設官網',url:'https://hclife.tw/',type:'建商官網'},
+    ],
+  },
+  {
+    id:'hongsheng',name:'泓昇建設',aliases:['泓昇建設'],reviewed:'2026-09-14',confidence:'高',
+    scores:{delivery:82,quality:76,governance:70,service:72,risk:58},
+    summary:'2013 年設立；新北市都更文件可核對泓昇 WIN、WISH、原宿及昇美四項實績，並確認其具都市更新實施者資格。',
+    caveat:'已有多案履歷與近期完工紀錄，但公司治理、售後及品質量化揭露有限；原宿工地曾因空污防制缺失遭記點，已反映於風險分，評為 B 級。',
+    sources:[
+      {label:'經濟部公司登記',url:'https://findbiz.nat.gov.tw/fts/company/54307822',type:'政府資料'},
+      {label:'新北市都市更新公聽會資料',url:'https://www.uro.ntpc.gov.tw/Uploads/Announce/2025-02/a0a8db38-ba2a-491c-83db-ce5d6be0bbfc.pdf',type:'政府資料'},
+      {label:'新北市預售屋備查清冊',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?n=MTEw5bm06IezMTE05LiK5Y2K5bm05bey5YKZ5p%2Bl5bu65qGI5riF5YaKLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMzk5L3JlbGZpbGUvODk5My85NDY5L2UwZjQwYjRjLTkyMjEtNDliZS1hMzA5LTE0MWExNmQ1MzVlNS5wZGY%3D',type:'政府資料'},
+      {label:'原宿工地裁處彙整',url:'https://thaubing.gcaa.org.tw/facility/F17097008020',type:'政府資料彙整'},
+    ],
+  },
+  {
+    id:'jinhechang',name:'金和昌建設',aliases:['金和昌建設'],reviewed:'2026-09-14',confidence:'高',
+    scores:{delivery:80,quality:74,governance:68,service:69,risk:70},
+    summary:'2004 年設立、目前實收資本額 5,000 萬元；公開案況可核對琢硯、金和昌仰沐與蒔沐等跨年度作品。',
+    caveat:'公司年期及連續推案提供一定履約基礎，但可公開核對的治理、品質制度與售後成效仍有限，評為 B 級門檻。',
+    sources:[
+      {label:'經濟部公司登記',url:'https://findbiz.nat.gov.tw/fts/company/80718722',type:'政府資料'},
+      {label:'新北市預售屋備查清冊',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?n=MTEw5bm06IezMTE05LiK5Y2K5bm05bey5YKZ5p%2Bl5bu65qGI5riF5YaKLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMzk5L3JlbGZpbGUvODk5My85NDY5L2UwZjQwYjRjLTkyMjEtNDliZS1hMzA5LTE0MWExNmQ1MzVlNS5wZGY%3D',type:'政府資料'},
+      {label:'桃園歷年推案資料',url:'https://taoyuan.prince.tw/h_intro_list.php',type:'建案公開資料'},
+    ],
+  },
+  {
+    id:'jindongxing',name:'金東興建設',aliases:['金東興建設'],reviewed:'2026-09-14',confidence:'高',
+    scores:{delivery:73,quality:71,governance:64,service:66,risk:70},
+    summary:'2014 年設立，目前登記資本額 2,500 萬元；政府備查及工程資料可核對竹林苑與妙佳人兩案。',
+    caveat:'已有可辨識住宅作品，但公開案量、交付年期、品質制度、治理與售後證據仍偏少，現階段評為 C 級。',
+    sources:[
+      {label:'新北市公司變更登記清冊',url:'https://serv.gcis.nat.gov.tw/pub/cmpy/reportAction.do?fileName=11301NTC.pdf&method=report&reportClass=cmpy&subPath=11301',type:'政府資料'},
+      {label:'妙佳人預售契約',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?icon=..pdf&n=5aaZ5L2z5Lq6LnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMS9yZWxmaWxlLzk2NzkvNzI5OTM0LzdkNzI5ZTE2LWFhOTktNDc4Zi1iMjAyLTI2NTQwY2EyMWI4OC5wZGY%3D',type:'政府資料'},
+      {label:'竹林苑工程列管資料',url:'https://thaubing.gcaa.org.tw/corp/16935435',type:'政府資料彙整'},
+    ],
+  },
+  {
+    id:'guanshen',name:'冠宸建設',aliases:['冠宸建設'],reviewed:'2026-09-14',confidence:'高',
+    scores:{delivery:72,quality:73,governance:62,service:68,risk:68},
+    summary:'2017 年設立，目前資本額 1,500 萬元；政府文件可核對林口開發申請，備查資料可辨識冠宸星野與雲天下。',
+    caveat:'具林口在地推案及相關企業背景，但法人規模、已交付案量、治理與售後公開證據均有限，現階段評為 C 級。',
+    sources:[
+      {label:'經濟部公司登記',url:'https://findbiz.nat.gov.tw/fts/company/66601497',type:'政府資料'},
+      {label:'新北市山坡地審查紀錄',url:'https://www.publicwork.ntpc.gov.tw/userfiles/1060400/files/108_10_01-%E5%86%A0%E5%AE%B8%E5%BB%BA%E8%A8%AD%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8-%E4%BA%8C%E9%9A%8E%E7%8F%BE%E5%A0%B4%E6%9C%83%E5%8B%98%E6%9A%A8%E7%AC%AC1%E6%AC%A1%E6%9C%83%E8%AD%B0%E7%B4%80%E9%8C%84.pdf',type:'政府資料'},
+      {label:'新北市預售屋備查清冊',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?n=MTEw5bm06IezMTE05LiK5Y2K5bm05bey5YKZ5p%2Bl5bu65qGI5riF5YaKLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMzk5L3JlbGZpbGUvODk5My85NDY5L2UwZjQwYjRjLTkyMjEtNDliZS1hMzA5LTE0MWExNmQ1MzVlNS5wZGY%3D',type:'政府資料'},
+    ],
+  },
+  {
+    id:'yuanxin',name:'原昕建設',aliases:['原昕建設'],reviewed:'2026-09-14',confidence:'高',
+    scores:{delivery:79,quality:80,governance:70,service:78,risk:65},
+    summary:'2017 年設立、實收資本額 1.58 億元；官網持續揭露吾境、吾為、吾旭與原昕賞，其中吾為已交屋，另揭露五年防水保固及三年室內粉刷服務。',
+    caveat:'具明確交屋、施工進度及較具體保固承諾，但法人年期仍短，治理及第三方品質成效資料有限；共同工地曾有水污裁處，評為 B 級。',
+    sources:[
+      {label:'經濟部公司登記',url:'https://findbiz.nat.gov.tw/fts/company/68562581',type:'政府資料'},
+      {label:'原昕建設作品',url:'https://www.yx17.com.tw/case.php',type:'建商官網'},
+      {label:'原昕建設工程進度',url:'https://yx17.com.tw/progress.php',type:'建商官網'},
+      {label:'新北市預售屋備查清冊',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?n=MTEw5bm06IezMTE05bm05bey5YKZ5p%2Bl5bu65qGI5riF5YaKLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMzk5L3JlbGZpbGUvODk5My85NDY5L2NkZTQ4OTJkLTQzMzAtNDY3Zi1hYmExLTI3YzJiYjI0MjYxNi5wZGY%3D',type:'政府資料'},
+      {label:'共同工地環境裁處彙整',url:'https://thaubing.gcaa.org.tw/corp/54735465',type:'政府資料彙整'},
+    ],
+  },
 ].map(profile=>{
   const score=profile.scores?weightedScore(profile.scores):null;
   return {...profile,score,rating:profile.rating||ratingFromScore(score)};
