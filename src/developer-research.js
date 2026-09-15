@@ -1139,6 +1139,50 @@ export const developerResearch=[
       {label:'力麒建設年報關係人資料',url:'https://www.rhd.com.tw/upload/download_files/355dc83c135dc86b3b48ace575153753.pdf',type:'公司財務資料'},
     ],
   },
+  {
+    id:'jinghui',name:'晶匯建設開發',aliases:['晶匯建設開發'],reviewed:'2026-09-14',confidence:'中低',
+    scores:{delivery:68,quality:72,governance:57,service:64,risk:62},
+    summary:'2020 年設立、實收資本額 2,500 萬元；政府備查可核對昀集柏寓與圓山耑宇，前者採日商大林組施工並已揭露實價交易。',
+    caveat:'住宅開發仍屬起步階段，現有案多未完工，公司治理、售後與長期交付資料不足，評為 C 級。',
+    sources:[
+      {label:'經濟部公司登記',url:'https://findbiz.nat.gov.tw/fts/company/83225510',type:'政府資料'},
+      {label:'臺北市預售備查',url:'https://land.gov.taipei/News.aspx?PageSize=20&n=E8D96FA6BB2B310E&page=3&sms=06A4332DF37FE327',type:'政府資料'},
+      {label:'昀集柏寓工程公開資料',url:'https://estate.ltn.com.tw/article/21577',type:'媒體報導'},
+    ],
+  },
+  {
+    id:'lianju',name:'聯鉅建設',aliases:['聯鉅建設'],reviewed:'2026-09-14',confidence:'中低',
+    scores:{delivery:71,quality:70,governance:56,service:65,risk:63},
+    summary:'2013 年設立、資本額 3,000 萬元；圓山綻及聯鉅北投湛的預售、建照、產品與營造資料可相互核對。',
+    caveat:'可確認連續推案，但作品數、完工追蹤、財務治理、售後及第三方品質資料仍少，評為 C 級。',
+    sources:[
+      {label:'公司登記公開資料',url:'https://mygov.tw/company/54652675',type:'政府資料彙整'},
+      {label:'聯鉅北投湛建案資料',url:'https://newhouse.591.com.tw/138165/detail',type:'建案公開資料'},
+    ],
+  },
+  {
+    id:'yilian',name:'毅聯建設',aliases:['毅聯建設'],reviewed:'2026-09-14',confidence:'中高',
+    scores:{delivery:80,quality:77,governance:66,service:72,risk:69},
+    summary:'2011 年設立、實收資本額 3.385 億元；官網揭露首善等完工實績，以及毅聯首馥、毅聯 WIN 與多件都更案，政府公聽會文件可確認實施者身分。',
+    caveat:'具完工與多案開發履歷，但非公開發行公司，售後、品質及治理量化資訊仍有限，評為 B 級。',
+    sources:[
+      {label:'毅聯建設官網',url:'https://yi-lian.tw/about.php',type:'建商官網'},
+      {label:'毅聯開發案列表',url:'https://yi-lian.tw/Development.php',type:'建商官網'},
+      {label:'毅聯完工實績',url:'https://yi-lian.tw/Performance.php',type:'建商官網'},
+      {label:'經濟部公司登記',url:'https://findbiz.nat.gov.tw/fts/company/53564127',type:'政府資料'},
+    ],
+  },
+  {
+    id:'delsin',name:'大昕建設',aliases:['大昕建設','大昕投資開發'],reviewed:'2026-09-14',confidence:'中',
+    scores:{delivery:75,quality:74,governance:61,service:68,risk:66},
+    summary:'公司法人自 2000 年設立，2020 年由大昕投資開發更為現名，實收資本額 1.5 億元；官網及商標資料可核對林琚、大安昕境與大安昕居等案。',
+    caveat:'已有住宅作品及持續推案，但可公開核驗的完工廣度、治理、售後與第三方品質量化仍不足，評為 C 級。',
+    sources:[
+      {label:'大昕建設官網',url:'https://delsin.com.tw/',type:'建商官網'},
+      {label:'經濟部公司登記',url:'https://findbiz.nat.gov.tw/fts/company/70544006',type:'政府資料'},
+      {label:'公司商標與案名資料',url:'https://www.findcompany.com.tw/%E5%A4%A7%E6%98%95%E5%BB%BA%E8%A8%AD%E8%82%A1%E4%BB%BD%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8',type:'公開資料彙整'},
+    ],
+  },
 ].map(profile=>{
   const score=profile.scores?weightedScore(profile.scores):null;
   return {...profile,score,rating:profile.rating||ratingFromScore(score)};
