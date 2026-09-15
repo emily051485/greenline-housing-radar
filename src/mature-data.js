@@ -1,5 +1,6 @@
 import { integratedProjects } from './generated/integrated-projects.js';
 import { matureRegistryProjects } from './generated/mature-registry-projects.js';
+import { findDeveloperResearch } from './developer-research.js';
 
 const lineStations={
   R:'象山、台北101/世貿、信義安和、大安、大安森林公園、東門、中正紀念堂、台大醫院、台北車站、中山、雙連、民權西路、圓山、劍潭、士林、芝山、明德、石牌、唭哩岸、奇岩、北投、新北投、復興崗、忠義、關渡、竹圍、紅樹林、淡水',
@@ -54,5 +55,13 @@ const visibleTextFields=['name','builder','district','station','address','status
 export const matureProjects=rawMatureProjects.map(project=>{
   const repaired={...project,id:String(project.id).replace(/[?？]+/g,'missing')};
   for(const field of visibleTextFields)repaired[field]=repairRegistryText(repaired[field]);
+  const research=findDeveloperResearch(repaired.builder);
+  if(research){
+    repaired.rating=research.rating;
+    repaired.ratingBasis=`建商研究 ${research.score} 分（${research.reviewed} 覆核）；評級由履約、工程制度、財務治理、售後保固與風險管理加權推導`;
+  }else if(repaired.rating!=='NR'){
+    repaired.rating='NR';
+    repaired.ratingBasis='待評估：尚未完成一致口徑的公司級公開資料查核，不以品牌名稱或案量推定等級';
+  }
   return repaired;
 });

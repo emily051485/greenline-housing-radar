@@ -1,4 +1,5 @@
 import { integratedProjects } from './generated/integrated-projects.js';
+import { findDeveloperResearch } from './developer-research.js';
 
 const seedProjects = [
   {id:1,name:'松山車站特定區更新案',city:'台北市',district:'松山區',station:'松山',walk:6,address:'八德路四段與松山路口周邊',builder:'待選定實施者',rating:'B',status:'整合／審議中',completion:'2031（估）',type:'都更／未開賣',size:'待公告',price:'待公告',lat:25.0494,lng:121.5779,source:'臺北都市開發審議地圖',verified:true},
@@ -12,7 +13,13 @@ const seedProjects = [
 ];
 
 // 有政府案件時以整合結果為主；種子資料只作離線備援。
-export const projects = integratedProjects.length ? integratedProjects : seedProjects;
+const rawProjects=integratedProjects.length ? integratedProjects : seedProjects;
+export const projects=rawProjects.map(project=>{
+  const research=findDeveloperResearch(project.builder);
+  if(research)return {...project,rating:research.rating,ratingBasis:`建商研究 ${research.score} 分（${research.reviewed} 覆核）；評級由五項公開證據加權推導`};
+  if(project.rating==='NR')return project;
+  return {...project,rating:'NR',ratingBasis:'待評估：尚未完成一致口徑的公司級公開資料查核，不以品牌名稱或案量推定等級'};
+});
 
 export const greenLine = [
   [25.0501,121.5777],[25.0514,121.5650],[25.0518,121.5518],[25.0520,121.5440],[25.0521,121.5331],[25.0527,121.5200],[25.0517,121.5134],[25.0422,121.5083],[25.0353,121.5006],[25.0279,121.5067],[25.0264,121.5229],[25.0205,121.5285],[25.0149,121.5342],[25.0018,121.5390],[24.9920,121.5413],[24.9828,121.5414],[24.9750,121.5428],[24.9676,121.5415],[24.9579,121.5376]
