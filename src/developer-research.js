@@ -4431,6 +4431,48 @@ export const developerResearch=[
       {label:'臺北市悅己誠群預售備查',url:'https://www-ws.gov.taipei/001/Upload/305/relfile/11498/7146725/569ab337-c262-418c-a8a9-3ca08f7cd8a1.pdf',type:'政府預售備查'},
     ],
   },
+  {
+    id:'hanhongyuan',name:'漢鴻願建設股份有限公司（鴻基建設機構）',aliases:['漢鴻願建設股份有限公司','漢鴻願建設'],reviewed:'2026-09-14',confidence:'中高',
+    scores:{delivery:74,quality:80,governance:76,service:70,risk:78},
+    summary:'2022年設立，資本額已增至1.15億元；鴻基建設機構官方沿革與大直案作品頁均確認漢鴻願為集團成員及晶綻大直投資興建者。',
+    caveat:'可參考母集團的開發經驗，但漢鴻願本體成立時間短、晶綻大直仍在預售，不能把集團全部交付紀錄直接視為本公司履歷，故列 B 級下緣。',
+    sources:[
+      {label:'經濟部漢鴻願公司變更登記清冊',url:'https://serv.gcis.nat.gov.tw/pub/cmpy/reportAction.do?fileName=11505ALC.pdf&method=report&reportClass=cmpy&subPath=11505',type:'政府公司登記'},
+      {label:'鴻基建設機構歷史沿革',url:'https://gdg.com.tw/%E9%82%81%E5%90%91%E9%B4%BB%E5%9F%BA/%E6%AD%B7%E5%8F%B2%E6%B2%BF%E9%9D%A9/',type:'集團官方資料'},
+      {label:'鴻基大直案官方作品頁',url:'https://gdg.com.tw/%E5%BB%BA%E7%AF%89%E8%B6%B3%E8%B7%A1/%E5%A4%A7%E7%9B%B4%E6%A1%88/',type:'建商官方作品'},
+    ],
+  },
+  {
+    id:'heyi-construction',name:'和沂建設股份有限公司',aliases:['和沂建設股份有限公司','和沂建設'],reviewed:'2026-09-14',confidence:'中',
+    scores:{delivery:60,quality:70,governance:72,service:56,risk:72},
+    summary:'2025年設立，實收資本額2,000萬元，股東由京程建設與德孚建設組成；湖芯AIT的預售備查及建照資料可確認其為專案投資興建者。',
+    caveat:'公司本體成立未滿兩年且首案尚未交付，股東公司的經驗不能直接等同和沂自身履歷；售後及品質尚待實際驗證，故列 C 級。',
+    sources:[
+      {label:'經濟部和沂建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/60784142',type:'政府公司登記'},
+      {label:'內政部預售屋備查開放資料',url:'https://data.gov.tw/dataset/176351',type:'政府預售備查'},
+    ],
+  },
+  {
+    id:'tenghsin-construction',name:'騰鑫建設股份有限公司',aliases:['騰鑫建設股份有限公司','騰鑫建設'],reviewed:'2026-09-14',confidence:'中',
+    scores:{delivery:62,quality:74,governance:72,service:58,risk:74},
+    summary:'2023年設立、目前資本額9,000萬元，住宅開發為公司主體；公司官網與湖漾VISTA公開資料均確認其投資興建身分及合作營造團隊。',
+    caveat:'公司成立時間短，湖漾VISTA仍是尚未交付的早期作品，公開資料尚不足以驗證長期售後與跨案品質，因此列 C 級。',
+    sources:[
+      {label:'經濟部騰鑫建設公司變更清冊',url:'https://serv.gcis.nat.gov.tw/pub/cmpy/reportAction.do?fileName=11503DOC.pdf&method=report&reportClass=cmpy&subPath=11503',type:'政府公司登記'},
+      {label:'騰鑫建設官方網站',url:'https://www.tenghsin.com/',type:'建商官方資料'},
+      {label:'湖漾VISTA建案資料',url:'https://newhouse.591.com.tw/139488',type:'建案公開資料'},
+    ],
+  },
+  {
+    id:'ziyang-development',name:'紫陽開發股份有限公司',aliases:['紫陽開發股份有限公司','紫陽開發'],reviewed:'2026-09-14',confidence:'中',
+    scores:{delivery:72,quality:74,governance:72,service:62,risk:76},
+    summary:'1997年設立、實收資本額6,000萬元，登記含住宅開發業；紫陽新苑的起造與大量預售成交資料可確認公司確實參與住宅開發。',
+    caveat:'稅籍主要活動偏向不動產租賃與停車場管理，目前可核實的住宅品牌履歷集中於紫陽新苑，售後及跨案品質證據有限，故列 C 級。',
+    sources:[
+      {label:'紫陽開發公司登記資料',url:'https://www.findcompany.com.tw/%E7%B4%AB%E9%99%BD%E9%96%8B%E7%99%BC%E8%82%A1%E4%BB%BD%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8',type:'公司登記公開資料'},
+      {label:'內政部預售屋備查開放資料',url:'https://data.gov.tw/dataset/176351',type:'政府預售備查'},
+    ],
+  },
 ].map(profile=>{
   const score=profile.scores?weightedScore(profile.scores):null;
   return {...profile,score,rating:profile.rating||ratingFromScore(score)};

@@ -27,10 +27,13 @@ const existingNames=new Set(verifiedExisting.map(project=>project.name.replace(/
 // records above, but their exported names contain damaged glyphs and therefore
 // cannot be caught by the generic normalized-name check.
 const verifiedRegistryDuplicates=new Set(['崧?']);
+// Commercial-only projects do not belong in the residential shortlist even if
+// their source row was exported through the same pre-sale registry pipeline.
+const excludedNonResidentialNames=new Set(['奧斯卡內湖舊宗商辦案']);
 const rawMatureProjects=[
   ...verifiedExisting,
   ...matureRegistryProjects
-    .filter(project=>!verifiedRegistryDuplicates.has(project.name)&&!existingNames.has(project.name.replace(/[・。\s]/g,'')))
+    .filter(project=>!excludedNonResidentialNames.has(project.name)&&!verifiedRegistryDuplicates.has(project.name)&&!existingNames.has(project.name.replace(/[・。\s]/g,'')))
     .map(project=>({...project,lines:project.lines?.length?project.lines:(stationLines[project.station]||[])})),
 ];
 
