@@ -977,7 +977,7 @@ export const developerResearch=[
     ],
   },
   {
-    id:'pauian',name:'璞園建築團隊',aliases:['璞園開發','璞永建設','璞全建設'],reviewed:'2026-09-14',confidence:'中高',
+    id:'pauian',name:'璞園建築團隊',aliases:['璞園開發','璞永建設','璞全建設','璞石建設','璞元建設','璞昌建設','璞毅開發','築觀建築','璞億建設'],reviewed:'2026-09-14',confidence:'中高',
     scores:{delivery:87,quality:88,governance:75,service:84,risk:78},
     summary:'1996 年成立並垂直整合開發、營造、代銷、交屋售服與空間設計；官方團隊名單明列璞園開發、璞永、璞全等事業體，作品與工程進度可交叉核對。',
     caveat:'交付、品質與售服體系完整，但非公開發行集團，公司級財務與治理透明度低於 S 級標竿，評為 A 級。',
@@ -1059,6 +1059,84 @@ export const developerResearch=[
       {label:'若水環境整合官網',url:'https://rwhome.com.tw/',type:'建商官網'},
       {label:'若水建築理念',url:'https://rwhome.com.tw/building.php',type:'建商官網'},
       {label:'經濟部公司登記',url:'https://findbiz.nat.gov.tw/fts/company/53345307',type:'政府資料'},
+    ],
+  },
+  {
+    id:'xingfuqian',name:'興富謙建設',aliases:['興富謙建設'],reviewed:'2026-09-14',confidence:'中',
+    scores:{delivery:74,quality:72,governance:58,service:67,risk:64},
+    summary:'2009 年設立、實收資本額 7,800 萬元；官網可核對謙旭、靜吾間、謙邸及臺北市多處住宅作品，政府名冊亦可交叉確認其危老重建相關專業人員。',
+    caveat:'已有跨案推案履歷，但公開完工量、財務治理、售後與第三方品質證據仍有限，依現有證據評為 C 級。',
+    sources:[
+      {label:'興富謙建設官網',url:'https://www.xfq-arch.com.tw/',type:'建商官網'},
+      {label:'興富謙作品資料',url:'https://www.xfq-arch.com.tw/project/project07.html',type:'建商官網'},
+      {label:'經濟部公司登記',url:'https://findbiz.nat.gov.tw/fts/company/24469551',type:'政府資料'},
+      {label:'臺北市危老重建推動師名冊',url:'https://www-ws.gov.taipei/001/Upload/845/relfile/-1/845/4ccc3f9e-9772-466d-b4b0-69b97e594dc0.pdf',type:'政府資料'},
+    ],
+  },
+  {
+    id:'deryunn',name:'德運建設',aliases:['德運建設'],reviewed:'2026-09-14',confidence:'中高',
+    scores:{delivery:84,quality:82,governance:67,service:77,risk:70},
+    summary:'1991 年設立、實收資本額 2 億元；官網揭露三十餘年開發履歷、逾九百位地主合作經驗，以及由開發、營造到交屋售服的自有團隊。',
+    caveat:'交付、工程整合與都更履歷具規模，但非公開發行公司，財務治理與售後成效的外部量化仍有限，評為 B 級。',
+    sources:[
+      {label:'德運建設官網',url:'https://www.deryunn.com.tw/',type:'建商官網'},
+      {label:'德運團隊與服務流程',url:'https://www.deryunn.com.tw/phone/04.aspx',type:'公司公開資料'},
+      {label:'經濟部公司登記',url:'https://findbiz.nat.gov.tw/fts/company/86153551',type:'政府資料'},
+    ],
+  },
+  {
+    id:'dongteng',name:'東騰開發',aliases:['東騰開發'],reviewed:'2026-09-14',confidence:'中',
+    scores:{delivery:82,quality:76,governance:65,service:70,risk:68},
+    summary:'1991 年設立、目前實收資本額 20 億元；公司登記可確認長期營運與關係企業東峻建設，業界保證文件亦能核對已有取得使用執照的開發案。',
+    caveat:'資本與交付證據足以確認成熟開發能力，但公司官網、治理、售後與品質量化資訊不足，保守評為 B 級。',
+    sources:[
+      {label:'東騰開發公司登記',url:'https://findbiz.nat.gov.tw/fts/company/86389846',type:'政府資料'},
+      {label:'東峻建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/28002916',type:'政府資料'},
+      {label:'預售履約保證審核名單',url:'https://redat.yooniks.co/storage/upload/members/1131226%E5%AF%A9%E6%A0%B8%E9%80%9A%E9%81%8E%E5%90%8D%E5%96%AE%28%E7%99%BB%E7%B6%B2%29-1735196185.pdf',type:'公會資料'},
+    ],
+  },
+  {
+    id:'yuansheng',name:'沅陞建設',aliases:['沅陞建設'],reviewed:'2026-09-14',confidence:'中',
+    scores:{delivery:74,quality:72,governance:60,service:68,risk:65},
+    summary:'2018 年設立、實收資本額 1.12 億元；官網可核對多件住宅個案及北投大業段整合中計畫，確認其為實際開發角色。',
+    caveat:'已有連續推案紀錄，但公司成立年期較短，公開完工、治理、售後與第三方品質證據仍不足，評為 C 級。',
+    sources:[
+      {label:'沅陞建設官網',url:'https://www.yuansheng.tw/',type:'建商官網'},
+      {label:'沅陞建案列表',url:'https://www.yuansheng.tw/case',type:'建商官網'},
+      {label:'經濟部公司登記',url:'https://findbiz.nat.gov.tw/fts/company/50752103',type:'政府資料'},
+    ],
+  },
+  {
+    id:'huankuan',name:'圜寬生活開發',aliases:['圜寬生活開發'],reviewed:'2026-09-14',confidence:'中',
+    scores:{delivery:73,quality:70,governance:59,service:66,risk:64},
+    summary:'2007 年設立，2017 年由崇雅建設更為現名，實收資本額 6,400 萬元；官方契約可核對石上青的出賣人身分，另有蒔嶼等連續推案。',
+    caveat:'可確認實際開發與銷售角色，但公開完工、公司治理、售後及第三方品質資料有限，評為 C 級。',
+    sources:[
+      {label:'經濟部公司登記',url:'https://findbiz.nat.gov.tw/fts/company/28757287',type:'政府資料'},
+      {label:'新北市石上青預售契約',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?icon=..pdf&n=55%2Bz5LiK6Z2SLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMS9yZWxmaWxlLzk2NzkvNzM0MDk0LzRmZjFlYjIzLWY5MDUtNDVhNi04ZWRkLTFjYTY5ZTYyZjJhNS5wZGY%3D',type:'政府資料'},
+      {label:'臺北市預售契約查核結果',url:'https://www-ws.gov.taipei/001/Upload/305/relfile/11569/9356110/89c17307-ea8d-41fe-9203-6ecdf329b6df.pdf',type:'政府資料'},
+    ],
+  },
+  {
+    id:'pinxuan',name:'品宣建設',aliases:['品宣建設'],reviewed:'2026-09-14',confidence:'中',
+    scores:{delivery:76,quality:75,governance:57,service:68,risk:64},
+    summary:'官網可核對自 2009 年草山硯至萬芳品硯、天母知鈺、蘭雅琚等作品，個案頁亦揭露基地、結構、設計與戶數規劃。',
+    caveat:'具十餘年及多件小型住宅履歷，但公司財務治理、售後成效與第三方工程品質量化不足，評為 C 級。',
+    sources:[
+      {label:'品宣建設官網',url:'https://pinxuan.com.tw/',type:'建商官網'},
+      {label:'蘭雅琚個案資料',url:'https://pinxuan.com.tw/phone/03-open.aspx?id=2',type:'建商官網'},
+      {label:'知鈺個案公開資料',url:'https://www.fuyugroup.com.tw/?at=builddetails&cl=build&id=67&md=index',type:'建案公開資料'},
+    ],
+  },
+  {
+    id:'liming',name:'力銘建設',aliases:['力銘建設'],reviewed:'2026-09-14',confidence:'中',
+    scores:{delivery:71,quality:73,governance:67,service:68,risk:68},
+    summary:'2020 年設立，實收資本額已增至 15 億元；公司董事與力麗、力麒體系關係可由公開年報核對，現有力銘裏埕與力銘耘山等開發案。',
+    caveat:'資本與團隊背景強，但公司本身成立較新，尚缺足夠完工交付、售後與品質追蹤紀錄，現階段評為 C 級而不沿用關係企業等級。',
+    sources:[
+      {label:'經濟部公司登記',url:'https://findbiz.nat.gov.tw/fts/company/83409806',type:'政府資料'},
+      {label:'臺北市力銘耘山預售備查',url:'https://land.gov.taipei/News_Content.aspx?n=C5E5C63DD6252B3C&s=2C6B2E14DDCDD649&sms=9C2D5C5091ACE29B',type:'政府資料'},
+      {label:'力麒建設年報關係人資料',url:'https://www.rhd.com.tw/upload/download_files/355dc83c135dc86b3b48ace575153753.pdf',type:'公司財務資料'},
     ],
   },
 ].map(profile=>{
