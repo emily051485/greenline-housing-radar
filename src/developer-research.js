@@ -1534,6 +1534,50 @@ export const developerResearch=[
       {label:'春城營造公司登記',url:'https://findbiz.nat.gov.tw/fts/company/05110370',type:'政府資料'},
     ],
   },
+  {
+    id:'jianyi',name:'建義建設開發',aliases:['建義建設開發'],reviewed:'2026-09-14',confidence:'中高',
+    scores:{delivery:76,quality:80,governance:70,service:76,risk:69},
+    summary:'2006 年設立，目前實收資本額 12 億元；紐約心光官網及預售資料可核對紐約心光、紐約沐光，並揭露結構 15 年、防水 5 年及售後服務承諾。',
+    caveat:'資本與產品保固明確，但公開可直接歸屬的交付作品仍有限，獎項亦以公司自述為主；治理與長期售後尚待驗證，評為 B 級。',
+    sources:[
+      {label:'經濟部公司登記',url:'https://findbiz.nat.gov.tw/fts/company/28404670',type:'政府資料'},
+      {label:'紐約心光官網與保固',url:'https://ls.newurban.tw/',type:'建案官網'},
+      {label:'新北市預售案清冊',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?n=MTEw5bm06IezMTE05LiK5Y2K5bm05bey5YKZ5p%2Bl5bu65qGI5riF5YaKLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMzk5L3JlbGZpbGUvODk5My85NDY5L2UwZjQwYjRjLTkyMjEtNDliZS1hMzA5LTE0MWExNmQ1MzVlNS5wZGY%3D',type:'政府資料'},
+    ],
+  },
+  {
+    id:'zhibao',name:'智寶建設',aliases:['智寶建設'],reviewed:'2026-09-14',confidence:'中高',
+    scores:{delivery:79,quality:78,governance:59,service:75,risk:67},
+    summary:'2008 年設立，目前實收資本額 1,500 萬元；公開案況可核對智寶汐科1綻、智寶家合、智寶360+及智寶好苑景等跨區作品。',
+    caveat:'具多案與成屋履歷，個案並以契約揭露 30 年結構、5 年防水保固；但資本規模、治理與第三方品質證據有限，評為 B 級。',
+    sources:[
+      {label:'經濟部公司登記',url:'https://findbiz.nat.gov.tw/fts/company/29089361',type:'政府資料'},
+      {label:'智寶建案彙整',url:'https://build.myhousing.com.tw/company/488846/',type:'建案公開資料'},
+      {label:'智寶好苑景與保固資料',url:'https://market.591.com.tw/5894664/overview',type:'建案公開資料'},
+    ],
+  },
+  {
+    id:'guanyi',name:'冠弈建設',aliases:['冠弈建設'],reviewed:'2026-09-14',confidence:'中高',
+    scores:{delivery:73,quality:75,governance:59,service:69,risk:65},
+    summary:'2020 年設立，目前實收資本額 3,000 萬元；新北市預售清冊可核對勝輝凰邸與大盛麗，兩案對外以勝輝機構品牌推案。',
+    caveat:'勝輝機構宣稱具二十餘案履歷，但冠弈法人本身成立時間短，不直接承接全部集團成績；交付、治理及售後證據有限，評為 C 級。',
+    sources:[
+      {label:'經濟部公司登記',url:'https://findbiz.nat.gov.tw/fts/company/83308770',type:'政府資料'},
+      {label:'新北市預售案清冊',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?n=MTEw5bm06IezMTE05bm05bey5YKZ5p%2Bl5bu65qGI5riF5YaKLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMzk5L3JlbGZpbGUvODk5My85NDY5L2NkZTQ4OTJkLTQzMzAtNDY3Zi1hYmExLTI3YzJiYjI0MjYxNi5wZGY%3D',type:'政府資料'},
+      {label:'勝輝機構官網',url:'https://www.sunglory.tw/',type:'建商官網'},
+    ],
+  },
+  {
+    id:'yuantaiding',name:'元泰鼎開發',aliases:['元泰鼎開發'],reviewed:'2026-09-14',confidence:'中高',
+    scores:{delivery:77,quality:76,governance:58,service:68,risk:65},
+    summary:'公司登記資料可核對其開發資格與 4,500 萬元資本；政府都審、預售與營造資料可確認天麗及富麗天景，其中富麗天景採 SRC 並由億東營造承造。',
+    caveat:'已有一件近期完工及一件預售案，但公開法人沿革、財務治理、售後與第三方品質資料仍有限，評為 C 級。',
+    sources:[
+      {label:'公司登記公開資料',url:'https://www.findcompany.com.tw/%E5%85%83%E6%B3%B0%E9%BC%8E%E9%96%8B%E7%99%BC%E8%82%A1%E4%BB%BD%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8',type:'政府資料彙整'},
+      {label:'新北市都市設計審議資料',url:'https://www.planning.ntpc.gov.tw/home.jsp?dataserno=201809140004&id=10&mcustomize=download_view.jsp&mserno=201801090002&parentpath=0&t=null',type:'政府資料'},
+      {label:'億東營造富麗天景實績',url:'https://www.itcbuild.com.tw/?p=1116',type:'營造官網'},
+    ],
+  },
 ].map(profile=>{
   const score=profile.scores?weightedScore(profile.scores):null;
   return {...profile,score,rating:profile.rating||ratingFromScore(score)};
