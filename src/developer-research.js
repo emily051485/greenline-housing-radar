@@ -1312,6 +1312,48 @@ export const developerResearch=[
       {label:'華誼建設進度資料',url:'https://www.huayibuild.com.tw/news',type:'建商官網'},
     ],
   },
+  {
+    id:'hengyue',name:'恆悅建設',aliases:['恆悅建設'],reviewed:'2026-09-14',confidence:'中',
+    scores:{delivery:73,quality:72,governance:57,service:67,risk:64},
+    summary:'2014 年設立，政府備查及交易資料可核對恆悅植心苑、恆悅麗山，另有內湖土地取得紀錄，可確認仍持續投入住宅開發。',
+    caveat:'現有主要作品多仍在興建，公司資本、長期交付、治理、售後及第三方品質證據有限，評為 C 級。',
+    sources:[
+      {label:'經濟部公司登記',url:'https://findbiz.nat.gov.tw/fts/company/24705838',type:'政府資料'},
+      {label:'內湖土地取得與案況',url:'https://chpan.com.tw/?p=10202',type:'建案公開資料'},
+    ],
+  },
+  {
+    id:'yixuan',name:'邑軒建設',aliases:['邑軒建設'],reviewed:'2026-09-14',confidence:'中低',
+    scores:{delivery:69,quality:72,governance:56,service:65,risk:62},
+    summary:'2019 年設立、實收資本額 5,000 萬元；臺北市建照與公開案況可核對麗湖嵐天及山釀，兩案均採土地買斷的小型住宅策略。',
+    caveat:'品牌仍處早期階段，僅兩件主要作品，長期交付、治理、售後與品質追蹤資料不足，評為 C 級。',
+    sources:[
+      {label:'經濟部公司登記',url:'https://findbiz.nat.gov.tw/fts/company/83485830',type:'政府資料'},
+      {label:'臺北市建照資料',url:'https://www-ws.gov.taipei/001/Upload/845/relfile/-1/845/3cc7f15e-1661-4d7e-8fba-a47a8622673a.pdf',type:'政府資料'},
+      {label:'山釀品牌與案況訪談',url:'https://decohome1986.pixnet.net/blog/posts/13365664616',type:'媒體報導'},
+    ],
+  },
+  {
+    id:'haohua',name:'壕華建設',aliases:['壕華建設'],reviewed:'2026-09-14',confidence:'中',
+    scores:{delivery:81,quality:77,governance:59,service:70,risk:66},
+    summary:'友座建築團隊旗下開發公司，可核對 2019 年友座君綻、2021 年友座森鄰、2022 年友座哲園等成屋及友座詠青新案，另有都更實施者案卷。',
+    caveat:'已有連續成屋交付紀錄，但公司財務治理、售後與第三方品質量化仍有限，評為 B 級。',
+    sources:[
+      {label:'壕華建案彙整',url:'https://www.plex.com.tw/projects/index/type/developer/query/%E5%A3%95%E8%8F%AF%E5%BB%BA%E8%A8%AD',type:'建案公開資料'},
+      {label:'都市更新公聽會資料',url:'https://youdraw.com.tw/wp-content/uploads/2022/04/3.2-%E4%BA%8B%E6%A5%AD%E8%A8%88%E7%95%AB%E5%85%AC%E8%81%BD%E6%9C%83-%E7%B0%A1%E5%A0%B1.pdf',type:'政府案卷'},
+    ],
+  },
+  {
+    id:'jiateng',name:'家騰建設',aliases:['家騰建設'],reviewed:'2026-09-14',confidence:'中高',
+    scores:{delivery:80,quality:77,governance:63,service:72,risk:67},
+    summary:'2010 年設立，官網可核對復春大樓、采豐所在等既有作品及家騰真、南京健康聯合大樓等都更與危老案，政府案卷亦確認其實施者身分。',
+    caveat:'具跨期作品與複雜更新案經驗，但非公開發行公司，財務治理、售後及品質量化資訊仍有限，評為 B 級。',
+    sources:[
+      {label:'家騰建設作品',url:'https://www.jiateng-group.com/%E5%80%8B%E6%A1%88',type:'建商官網'},
+      {label:'經濟部公司登記',url:'https://findbiz.nat.gov.tw/fts/company/53106903',type:'政府資料'},
+      {label:'內湖都更公聽會紀錄',url:'https://www-ws.gov.taipei/001/Upload/459/relfile/18558/123341/637d9827-1197-463d-9b0f-20b1e839a1d5.pdf',type:'政府案卷'},
+    ],
+  },
 ].map(profile=>{
   const score=profile.scores?weightedScore(profile.scores):null;
   return {...profile,score,rating:profile.rating||ratingFromScore(score)};
