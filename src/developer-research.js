@@ -431,7 +431,7 @@ export const developerResearch=[
     id:'yuetai',name:'岳泰建設',aliases:['岳泰建設'],reviewed:'2026-09-14',confidence:'中',
     scores:{delivery:76,quality:78,governance:57,service:68,risk:64},
     summary:'官方網站列出興建中住宅、危老與都更案件，並說明規劃分析與專業顧問服務，具可辨識的持續推案能力。',
-    caveat:'公司級財務、工程查驗、保固流程與售後績效揭露有限，故現階段保守評為 B 級下緣。',
+    caveat:'公司級財務、工程查驗、保固流程與售後績效揭露有限，故現階段保守評為 C。',
     sources:[
       {label:'公司、建案與都更資料',url:'https://www.yuetai-const.com.tw/',type:'公司揭露'},
     ],
@@ -654,7 +654,7 @@ export const developerResearch=[
     id:'yungsiung',name:'永雄建設',aliases:['永雄建設'],reviewed:'2026-09-14',confidence:'中',
     scores:{delivery:79,quality:75,governance:61,service:70,risk:67},
     summary:'2003 年成立且持續增資，官方網站可核對多個板橋、林口、新莊與八里作品及個案營造資訊。',
-    caveat:'具有持續履歷，但缺少公司級工程查驗、保固年限、售後績效及公開治理報告，暫列 B。',
+    caveat:'具有持續履歷，但缺少公司級工程查驗、保固年限、售後績效及公開治理報告，暫列 C。',
     sources:[
       {label:'公司與建案作品',url:'https://www.yyt.com.tw/',type:'公司揭露'},
       {label:'公司登記資料',url:'https://findbiz.nat.gov.tw/fts/company/80600218',type:'政府資料'},
