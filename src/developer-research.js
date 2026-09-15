@@ -5296,6 +5296,57 @@ export const developerResearch=[
       {label:'冠輝文蔚建案資料',url:'https://newhouse.591.com.tw/141178/detail',type:'建案公開資料'},
     ],
   },
+  {
+    id:'hanglung-construction-tw',name:'恆隆建設',aliases:['恆隆建設股份有限公司','恆隆建設'],reviewed:'2026-09-14',confidence:'中',
+    scores:{delivery:76,quality:78,governance:70,service:66,risk:76},
+    summary:'2012 年設立，官方網站持續揭露「恆隆聚」放樣、觀測、連續壁與開挖等施工節點，具可核對的實際投資興建與工進紀錄。',
+    caveat:'目前跨案完工、公司財務、交屋缺失與售後績效證據有限；且不可與香港恒隆地產或名稱相近的恆聚集團混同，總分 73 分，列 B 級。',
+    sources:[
+      {label:'恆隆建設與恆隆聚施工紀錄',url:'https://www.hang-lung.com.tw/h/Album?cat=104003&key=frtir&page=2',type:'公司官方資料'},
+      {label:'台北市預售屋建案查詢',url:'https://lvr.land.moi.gov.tw/',type:'政府預售資料'},
+    ],
+  },
+  {
+    id:'kangching-construction',name:'康景建設',aliases:['康景建設股份有限公司','康景建設'],reviewed:'2026-09-14',confidence:'中高',
+    scores:{delivery:80,quality:80,governance:76,service:70,risk:78},
+    summary:'2011 年設立、實收資本額 1.16 億元，官方資料可核對北投慶龍門、三重雙捷座、木柵沐心及康HOME等跨區作品，並公開使用執照與施工節點。',
+    caveat:'已有多案履歷與一定資本規模，但量化售後、品質缺失與連續財務揭露仍不足；總分 77 分，列 B 級。',
+    sources:[
+      {label:'經濟部商工登記（康景建設）',url:'https://findbiz.nat.gov.tw/fts/company/53229010',type:'政府公司資料'},
+      {label:'康景建設官方網站',url:'https://kang-ching.com.tw/aboutus.html',type:'公司官方資料'},
+    ],
+  },
+  {
+    id:'hnamc',name:'華南金資產管理',aliases:['華南金資產管理股份有限公司','華南金資產管理(股)公司','華南金資產管理'],reviewed:'2026-09-14',confidence:'高',
+    scores:{delivery:84,quality:86,governance:92,service:78,risk:88},
+    summary:'華南金融集團旗下公股資產管理公司，已明確以實施者或起造人身分提供整合、融資、工程、交屋與售後服務；華穗、華垿及多件都更危老案可由官方專區核對。',
+    caveat:'它是具實際投資興建能力的 AMC，不應列為非建商；但住宅交屋樣本仍少，金融集團治理優勢也不能取代每案營造品質，總分 85 分，列 A 級。',
+    sources:[
+      {label:'華南金資產管理都更危老業務',url:'https://www.hnamc.com.tw/urban-renewal',type:'公司官方資料'},
+      {label:'都更危老案件進度',url:'https://www.hnamc.com.tw/main-list',type:'公司官方資料'},
+      {label:'華穗開工與工程查核說明',url:'https://www.moneydj.com/kmdj/news/newsviewer.aspx?a=083f3132-2436-4024-ab58-c2feea9f11ee',type:'公司新聞資料'},
+    ],
+  },
+  {
+    id:'hanpu-architecture',name:'漢璞建築（漢寶集團）',aliases:['漢璞建築股份有限公司','漢璞建築'],reviewed:'2026-09-14',confidence:'中高',
+    scores:{delivery:82,quality:82,governance:76,service:72,risk:80},
+    summary:'「漢寶西門綻」可核對為漢寶集團旗下漢璞建築投資興建；集團官方另列捷運學府、漢寶科技大樓、漢寶雙捷贊、漢寶天匯與幸福綻等作品及客服管道。',
+    caveat:'集團作品能提供履歷支撐，但漢璞本身仍是獨立契約主體，不能把所有漢寶關係企業成果無條件合併；總分 79 分，列 B 級。',
+    sources:[
+      {label:'漢寶開發建設官方作品與客服',url:'https://han-bau.com.tw/',type:'集團官方資料'},
+      {label:'漢寶西門綻建案資料',url:'https://www.plex.com.tw/projects/view/id/4290',type:'建案公開資料'},
+    ],
+  },
+  {
+    id:'oak-construction',name:'橡樹建設',aliases:['橡樹建設股份有限公司','橡樹建設'],reviewed:'2026-09-14',confidence:'中',
+    scores:{delivery:66,quality:72,governance:68,service:62,risk:74},
+    summary:'「橡樹貴麗」已有台北市預售契約備查與台北富邦不動產開發信託，可確認橡樹建設為實際投資興建者而非單純信託或代辦角色。',
+    caveat:'目前公開可核對資料集中於單一預售案，尚缺完工交屋、跨案品質、售後及公司治理紀錄；總分 68 分，列 C 級。',
+    sources:[
+      {label:'台北市橡樹貴麗預售與履約保證',url:'https://land.gov.taipei/News_Content.aspx?n=E8D96FA6BB2B310E&s=DC97BB67E2AE5C67&sms=06A4332DF37FE327',type:'政府預售資料'},
+      {label:'內政部預售屋建案查詢',url:'https://lvr.land.moi.gov.tw/',type:'政府預售資料'},
+    ],
+  },
 ].map(profile=>{
   const score=profile.scores?weightedScore(profile.scores):null;
   return {...profile,score,rating:profile.rating||ratingFromScore(score)};
