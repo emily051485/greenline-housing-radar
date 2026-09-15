@@ -4334,6 +4334,50 @@ export const developerResearch=[
       {label:'耕玥建案資料',url:'https://tp.housetube.tw/45558',type:'建案公開資料'},
     ],
   },
+  {
+    id:'shengyuan-development',name:'陞遠建設開發股份有限公司',aliases:['陞遠建設開發股份有限公司','陞遠建設'],reviewed:'2026-09-14',confidence:'中',
+    scores:{delivery:68,quality:74,governance:74,service:62,risk:76},
+    summary:'2011年設立、目前實收資本額2億元，住宅開發為登記本業；官網可核對陞遠學與中正區南海段危老案，後者即目前的陞遠琚基地。',
+    caveat:'公司規模與存續時間具一定基礎，但現有公開作品及完工後服務證據仍少，陞遠琚也尚未形成可觀察的交付履歷，因此暫列 C 級。',
+    sources:[
+      {label:'陞遠建設公司登記資料',url:'https://www.findcompany.com.tw/%E9%99%9E%E9%81%A0%E5%BB%BA%E8%A8%AD%E9%96%8B%E7%99%BC%E8%82%A1%E4%BB%BD%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8',type:'公司登記公開資料'},
+      {label:'陞遠建設南海段危老案',url:'https://syuan.com.tw/news03.php',type:'建商官方作品'},
+      {label:'陞遠建設官網',url:'https://syuan.com.tw/',type:'建商官方資料'},
+    ],
+  },
+  {
+    id:'tsungyeh',name:'總業建設股份有限公司（國雄集團）',aliases:['總業建設股份有限公司','總業建設'],reviewed:'2026-09-14',confidence:'中高',
+    scores:{delivery:88,quality:84,governance:74,service:78,risk:78},
+    summary:'公司自1979年設立並持續營運，國雄集團官網可核對逾30年開發歷史及多項作品；國雄中正亦由官方專案頁明列總業建設投資興建。',
+    caveat:'長期交付與集團作品是優勢，但屬私人建商，公開治理、售後績效與可量化第三方品質資料不如上市大型建商完整，因此維持 B 級。',
+    sources:[
+      {label:'經濟部總業建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/30878266',type:'政府公司登記'},
+      {label:'國雄集團經營歷史',url:'https://www.kingdom.com.tw/history',type:'建商官方資料'},
+      {label:'國雄中正官方建案頁',url:'https://www.kingdom.com.tw/%E5%9C%8B%E9%9B%84%E4%B8%AD%E6%AD%A3',type:'建商官方作品'},
+    ],
+  },
+  {
+    id:'fufeng-construction',name:'富豊建設股份有限公司',aliases:['富豊建設股份有限公司','富豊建設'],reviewed:'2026-09-14',confidence:'中',
+    scores:{delivery:72,quality:78,governance:76,service:62,risk:78},
+    summary:'公司登記資本額2.5億元，菁席的投資興建身分可由臺北市預售備查與官方工程進度資料交叉確認，且已有多筆預售成交紀錄。',
+    caveat:'目前能可靠核對的住宅履歷主要集中於菁席，跨案交付、長期售後及品質統計不足；財務規模不能替代實際住宅履歷，故列 B 級下緣。',
+    sources:[
+      {label:'富豊建設公司官網',url:'https://www.ftnet.com.tw/fl/',type:'建商官方資料'},
+      {label:'臺北市預售建案備查資料',url:'https://land.gov.taipei/News.aspx?PageSize=20&n=B65381CDC625B8D7&page=6&sms=98E2FE72A7A915BD',type:'政府預售備查'},
+      {label:'臺北市建照工程進度資料',url:'https://www.arch.org.tw/Content/Files/News/34dc08cba0e246248b946dcbf0fd372b.pdf',type:'官方工程資料'},
+    ],
+  },
+  {
+    id:'huaho-asset',name:'華和資產管理股份有限公司',aliases:['華和資產管理股份有限公司','華和資產管理'],reviewed:'2026-09-14',confidence:'中高',
+    scores:{delivery:80,quality:80,governance:82,service:72,risk:80},
+    summary:'2003年設立、實收資本額約12.12億元；公司官網明列土地開發、房屋興建、危老與都更業務及多個具名作品，華和淳萃起造與銷售資料亦可由官方資料核對。',
+    caveat:'公司資本與存續時間穩健，但公開售後制度及第三方跨案品質統計仍有限；登記營業項目也以金融債權收買為主，評等不因資本額直接升至 A。',
+    sources:[
+      {label:'經濟部華和資產管理公司登記',url:'https://findbiz.nat.gov.tw/fts/company/80522023',type:'政府公司登記'},
+      {label:'華和資產管理官網與作品',url:'https://hua-ho.com.tw/',type:'建商官方資料'},
+      {label:'臺北市110建字第0219號資料',url:'https://www-ws.gov.taipei/Download.ashx?icon=..pdf&n=MTA5MDEzMeiHszExMTA0Mjnlu7rmoYjos4foqIros4fmlpkucGRm&u=LzAwMS9VcGxvYWQvNDYxL3JlbGZpbGUvNTg1NTEvODYyMjg5MC8xMWI0YmY2Zi04MzMzLTRhZWQtYTU2Ni03MjE3MzVlODQ3OTgucGRm',type:'官方建照資料'},
+    ],
+  },
 ].map(profile=>{
   const score=profile.scores?weightedScore(profile.scores):null;
   return {...profile,score,rating:profile.rating||ratingFromScore(score)};
