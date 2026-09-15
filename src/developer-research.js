@@ -2587,13 +2587,15 @@ export const developerResearch=[
     ],
   },
   {
-    id:'janda',name:'震大建設',aliases:['震大建設'],reviewed:'2026-09-14',confidence:'高',
+    id:'janda',name:'震大建設／震一建設',aliases:['震大建設','震一建設'],reviewed:'2026-09-14',confidence:'高',
     scores:{delivery:88,quality:90,governance:76,service:82,risk:80},
-    summary:'1984 年設立，官方作品年表可追溯多批住宅案，並揭露國家卓越建設獎、金石首獎及施工品質類獎項；另設有免付費客服專線，交屋與售後服務的可辨識度較高。',
-    caveat:'長期推案與品質獎項支持 A 級，但屬非公開發行公司，治理、財務與售後成效的定期公開資料不及上市櫃建商完整，因此不以單一獎項推升至 S。',
+    summary:'震大建設 1984 年設立，官方作品年表可追溯多批住宅案，並揭露國家卓越建設獎、金石首獎及施工品質類獎項；震一建設則於 2002 年設立、實收資本額 9 億元，震大懷真公開資料並列兩家公司，確認為同一推案體系。',
+    caveat:'長期推案、資本與品質獎項支持 A 級，但兩家公司均非公開發行，治理、財務與售後成效的定期公開資料不及上市櫃建商完整，因此不以單一豪宅案或獎項推升至 S。',
     sources:[
       {label:'震大建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/12482024',type:'官方公司資料'},
+      {label:'震一建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/80288005',type:'官方公司資料'},
       {label:'震大建設歷年作品與獎項',url:'https://www.jan-da.com/album.php?lang=tw&tb=1',type:'建商官方資料'},
+      {label:'震大懷真建案與使用執照',url:'https://newhouse.591.com.tw/130929/detail',type:'建案公開資料'},
     ],
   },
   {
@@ -4217,6 +4219,41 @@ export const developerResearch=[
       {label:'愛瑪市建照施工資料',url:'https://www.arch.org.tw/Content/Files/News/44241633b8bf481b96b2163d124eeb4c.pdf',type:'臺北市建築施工資料'},
       {label:'葉財記工程裁罰紀錄',url:'https://thaubing.gcaa.org.tw/corp/11776704',type:'環境裁罰資料彙整'},
       {label:'葉財記歷年代表作品',url:'https://newfrontier.com.tw/2016/09/06/%E5%BE%9E%E7%B8%BD%E7%B5%B1%E6%95%A6%E5%8D%97%E5%AF%93%E6%89%80-%E7%9C%8B%E8%A6%8B%E5%8F%B0%E7%81%A3%E5%BB%BA%E7%AF%89%E5%B7%A8%E6%93%98%E5%93%81%E7%89%8C%E8%91%89%E8%B2%A1%E8%A8%98/',type:'關係企業品牌沿革'},
+    ],
+  },
+  {
+    id:'chengmei',name:'誠美建築開發',aliases:['誠美建築開發'],reviewed:'2026-09-14',confidence:'中高',
+    scores:{delivery:84,quality:84,governance:80,service:72,risk:80},
+    summary:'2006 年設立、資本額 1.6 億元；可核實「誠美知寓」已完成預售資訊及契約備查，另與璞真建設成立璞真誠美開發「璞真宇見」，合資公司目前實收資本額已達 4.85 億元，具個案與合作履約能力。',
+    caveat:'公司年資、資本與璞真合作案支持 B 級上緣，但誠美自身公開作品清冊、售後制度及第三方長期品質資料仍不如大型品牌完整；璞真的全部履歷亦不能直接歸入誠美，因此尚未達 A 級門檻。',
+    sources:[
+      {label:'誠美建築開發公司資料',url:'https://mygov.tw/company/28178739',type:'公司登記資料彙整'},
+      {label:'誠美知寓預售備查',url:'https://www-ws.gov.taipei/001/Upload/305/relfile/11498/7146725/8868b20a-69d7-43e9-84e9-966359d46616.pdf',type:'臺北市政府預售資料'},
+      {label:'璞真誠美公司登記',url:'https://findbiz.nat.gov.tw/fts/company/25144285',type:'經濟部商工登記'},
+      {label:'璞真宇見官方個案',url:'https://www.pj.com.tw/tw/projects/%E7%92%9E%E7%9C%9F%E5%AE%87%E8%A6%8B',type:'合作建商官方個案'},
+    ],
+  },
+  {
+    id:'dingji-development',name:'鼎吉開發',aliases:['鼎吉開發'],reviewed:'2026-09-14',confidence:'中高',
+    scores:{delivery:76,quality:82,governance:76,service:68,risk:78},
+    summary:'2010 年設立、實收資本額 6,500 萬元；臺北市建照資料確認鼎吉中山由鼎吉開發起造、盛德營造承造，官方品牌另有鼎吉水岸等在推個案，鼎吉中山採制震與較完整設備規劃。',
+    caveat:'公司存續逾十年且已有完工／在售案例，列 B 級；但可直接核實的住宅交屋量、售後服務與財務揭露仍有限，勝輝機構或合作團隊的整體履歷不能全部視為鼎吉自身成果。',
+    sources:[
+      {label:'鼎吉開發公司登記',url:'https://findbiz.nat.gov.tw/fts/company/53201694',type:'經濟部商工登記'},
+      {label:'鼎吉中山官方個案',url:'https://www.ding-ji.tw/about2/9',type:'建商官方個案'},
+      {label:'鼎吉中山建照資料',url:'https://www-ws.gov.taipei/Download.ashx?icon=..pdf&n=5YWs5ZGK57ay56uZLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvNDYxL3JlbGZpbGUvNjIyMjUvOTE2NTkyMC83ZTFjNmM4MS0yZjJlLTQxMDktOTdkOC03MzY4OGE2ODEyOTkucGRm',type:'臺北市政府建照資料'},
+      {label:'鼎吉中山規劃資料',url:'https://newhouse.591.com.tw/131580/detail',type:'建案公開資料'},
+    ],
+  },
+  {
+    id:'xinhemao',name:'新合茂建設',aliases:['新合茂建設'],reviewed:'2026-09-14',confidence:'中',
+    scores:{delivery:68,quality:76,governance:72,service:62,risk:76},
+    summary:'2020 年設立，目前實收資本額 3,000 萬元；臺北市建照資料可確認「潮中山」由新合茂起造、傑昇營造承造，官方網站持續公布動土、上樑等工程節點。',
+    caveat:'公司與個案身分均可核實，但目前主要住宅履歷集中在潮中山，尚缺多案交屋、長期住戶品質與售後資料；工程進度公告不等同交屋實績，因此保守列 C 級。',
+    sources:[
+      {label:'新合茂建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/83516101',type:'經濟部商工登記'},
+      {label:'新合茂建設官方消息',url:'https://www.xinhemao.com/pages/?Ipg=32',type:'建商官方工程進度'},
+      {label:'潮中山建照資料',url:'https://www-ws.gov.taipei/001/Upload/845/relfile/-1/845/982a1794-1f04-4441-a3c4-b4f1acbbc422.pdf',type:'臺北市政府建照資料'},
     ],
   },
 ].map(profile=>{
