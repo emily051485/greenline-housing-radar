@@ -2574,6 +2574,48 @@ export const developerResearch=[
       {label:'麗明營造2024永續報告',url:'https://esg.best-giving.com/upload/2025_08_06_1010110.pdf',type:'公司治理資料'},
     ],
   },
+  {
+    id:'janda',name:'震大建設',aliases:['震大建設'],reviewed:'2026-09-14',confidence:'高',
+    scores:{delivery:88,quality:90,governance:76,service:82,risk:80},
+    summary:'1984 年設立，官方作品年表可追溯多批住宅案，並揭露國家卓越建設獎、金石首獎及施工品質類獎項；另設有免付費客服專線，交屋與售後服務的可辨識度較高。',
+    caveat:'長期推案與品質獎項支持 A 級，但屬非公開發行公司，治理、財務與售後成效的定期公開資料不及上市櫃建商完整，因此不以單一獎項推升至 S。',
+    sources:[
+      {label:'震大建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/12482024',type:'官方公司資料'},
+      {label:'震大建設歷年作品與獎項',url:'https://www.jan-da.com/album.php?lang=tw&tb=1',type:'建商官方資料'},
+    ],
+  },
+  {
+    id:'sanying',name:'三穎建設',aliases:['三穎建設開發','三穎建設'],reviewed:'2026-09-14',confidence:'高',
+    scores:{delivery:84,quality:84,governance:74,service:78,risk:78},
+    summary:'2004 年設立，實收資本額已增至 1.4 億元；官方資料說明其涵蓋土地開發、規劃、設計與營造管理，且有可核對的住宅作品與建材規劃資訊。',
+    caveat:'已有約二十年營運及持續推案能力，但公開財務、公司治理、第三方品質驗證與售後量化紀錄仍有限，現階段列 B，不因個別案的行銷資訊上調。',
+    sources:[
+      {label:'三穎建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/27419886',type:'官方公司資料'},
+      {label:'三穎建設公司介紹',url:'https://www.sanying-corp.com/about',type:'建商官方資料'},
+      {label:'三穎建設作品資料',url:'https://www.sanying-corp.com/DevCase1/docs/20260310slides.pdf',type:'建商官方資料'},
+    ],
+  },
+  {
+    id:'grandaman',name:'阿曼開發',aliases:['阿曼開發'],reviewed:'2026-09-14',confidence:'高',
+    scores:{delivery:86,quality:83,governance:77,service:76,risk:80},
+    summary:'1991 年設立，實收資本額 10 億元且仍正常營運；南京西路案可由臺北市都市更新公開文件與建照資訊交叉核對，具長期開發及大型個案執行基礎。',
+    caveat:'年資、資本規模與可核對個案支持穩定履約，但官方公開的歷年品質、售後服務與治理資料仍不足以達 A 級門檻，暫列 B 並保留後續調整。',
+    sources:[
+      {label:'阿曼開發公司登記',url:'https://findbiz.nat.gov.tw/fts/company/86469398',type:'官方公司資料'},
+      {label:'南京西路案都市更新公開文件',url:'https://www-ws.gov.taipei/Download.ashx?icon=.pdf&n=5a%2BGKOmBrinmk6zoqILoh7rljJfluILmnb7lsbHljYDnvo7ku4HmrrXkuozlsI%2FmrrU1MDHlnLDomZ%2FnrYk5562G5Zyf5Zyw6YO95biC5pu05paw5LqL5qWt6KiI55Wr5qGI5YWs6IG95pyD55m86KiA6KaB6bueLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvNDU5L2NrZmlsZS9mNmI5NjdkMy01M2ViLTQyOTAtODRmYi02MTY4MjUzNTczYWIucGRm',type:'臺北市政府資料'},
+    ],
+  },
+  {
+    id:'wangzhou',name:'旺洲開發',aliases:['旺洲開發','炎洲集團建設事業'],reviewed:'2026-09-14',confidence:'高',
+    scores:{delivery:87,quality:85,governance:86,service:84,risk:78},
+    summary:'為上市公司炎洲集團百分之百持有的建設事業體系，官方年表可追溯 2004 年以來多個完工與推案作品，並揭露從土地、規劃、銷售、營造到售後服務的一體化流程。',
+    caveat:'母公司治理與財報揭露、連續作品及售後制度支持 A 級；但建設事業規模與跨景氣週期的住宅履歷仍不及 S 級龍頭，因此維持 A。',
+    sources:[
+      {label:'旺洲開發公司與歷年作品',url:'https://www.ycarchi.com/about',type:'建商官方資料'},
+      {label:'炎洲集團年報',url:'https://www.ycgroup.tw/upload/investors_files/11fefbc8da131ca64fa1b3d80728236d.pdf',type:'上市公司官方資料'},
+      {label:'旺洲開發最新消息',url:'https://www.ycarchi.com/news',type:'建商官方資料'},
+    ],
+  },
 ].map(profile=>{
   const score=profile.scores?weightedScore(profile.scores):null;
   return {...profile,score,rating:profile.rating||ratingFromScore(score)};
