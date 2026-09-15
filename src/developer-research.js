@@ -3674,6 +3674,54 @@ export const developerResearch=[
       {label:'中央一邸完工與交易資料',url:'https://www.plex.com.tw/projects/view/id/5363/page/1',type:'成屋與實價資料'},
     ],
   },
+  {
+    id:'fuliwang',name:'富麗旺建設',aliases:['富麗旺建設'],reviewed:'2026-09-14',confidence:'中高',
+    scores:{delivery:78,quality:82,governance:78,service:73,risk:78},
+    summary:'2006 年設立，2026 年登記實收資本額增至 3.13 億元；新北市官方備查清冊可核對明志學、地景富邑與地景新世代，地景富邑另有承造廠商公開的耐震標章及 SRC 工程資料。',
+    caveat:'資本規模、連續推案及可驗證的耐震規劃支持 B 級；但目前作品集中泰山，已交屋案、長期售後制度、財務與客訴統計公開程度仍不足以評為 A。',
+    sources:[
+      {label:'富麗旺建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/28370875',type:'經濟部商工登記'},
+      {label:'新北市預售屋備查清冊',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?n=MTEw5bm06IezMTE05bm05bey5YKZ5p%2Bl5bu65qGI5riF5YaKLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMzk5L3JlbGZpbGUvODk5My85NDY5L2NkZTQ4OTJkLTQzMzAtNDY3Zi1hYmExLTI3YzJiYjI0MjYxNi5wZGY%3D',type:'新北市政府資料'},
+      {label:'地景富邑耐震標章工程資料',url:'https://www.uehara.com.tw/project_page/1/35.html',type:'承造廠商工程資料'},
+      {label:'富麗旺公開推案紀錄',url:'https://build.myhousing.com.tw/company/488651/',type:'建案公開資料'},
+    ],
+  },
+  {
+    id:'huanyi',name:'桓億建設',aliases:['桓億建設'],reviewed:'2026-09-14',confidence:'中高',
+    scores:{delivery:73,quality:78,governance:76,service:68,risk:76},
+    summary:'法人前身東林建設於 1996 年設立，2009 年更名桓億建設，登記實收資本額 1.3 億元；目前可由都更規劃單位、承造廠商與建照資料交叉核對桓桓溫州及龍泉段住宅工程。',
+    caveat:'法人年資、資本與實際工程支持 B 級低段；但官網幾乎沒有公開作品、品質標準或售後制度，可驗證的已交付樣本也有限，因此不以年資直接推升評等。',
+    sources:[
+      {label:'桓億建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/96926731',type:'經濟部商工登記'},
+      {label:'桓億建設官方網站',url:'https://www.huanyi.com.tw/',type:'公司官方資料'},
+      {label:'桓桓溫州都更與開工紀錄',url:'https://www.dtrc.com.tw/post/post/data/downtown/tw/news/4186/',type:'都更規劃單位資料'},
+      {label:'龍泉段住宅工程紀錄',url:'https://www.taiwankumagai.com.tw/news-detail/website-process__7/',type:'承造廠商工程資料'},
+    ],
+  },
+  {
+    id:'lienyun',name:'連雲建設',aliases:['連雲建設'],reviewed:'2026-09-14',confidence:'高',
+    scores:{delivery:88,quality:90,governance:80,service:84,risk:83},
+    summary:'連雲建設法人於 1984 年設立，登記實收資本額 3.85 億元，集團建築脈絡可追溯至 1954 年；官方完整列出泰安連雲、靜心連雲、臺北學等跨期作品，以及智慧建築、金質獎、金石獎與 FIABCI 世界卓越建築獎紀錄。',
+    caveat:'長期交付、集團營造整合、公開品質架構與多項可核對作品支持 A 級中高段；但仍屬私人企業，財務、跨案保固履行與客訴統計透明度尚不及 S 級大型上市建商。',
+    sources:[
+      {label:'連雲建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/36264666',type:'經濟部商工登記'},
+      {label:'連雲建築沿革與獎項',url:'https://www.lienyun.com/about',type:'公司官方資料'},
+      {label:'連雲作品與 8B 品質架構',url:'https://www.lienyun.com/',type:'公司官方資料'},
+      {label:'連雲集合住宅設計與完工資料',url:'https://static1.squarespace.com/static/56a0aaa21c1210d63aaad89d/t/5cac458a71c10bcd62900c64/1554793867685/Lien-Yun%2BResidential%2BBuilding.pdf',type:'建築師工程資料'},
+    ],
+  },
+  {
+    id:'jingcheng',name:'精誠國際建設企業',aliases:['精誠國際建設企業'],reviewed:'2026-09-14',confidence:'高',
+    scores:{delivery:76,quality:79,governance:74,service:76,risk:78},
+    summary:'2003 年設立、登記實收資本額 4,000 萬元；官方沿革可核對璦丁堡、臺北捷座及敦南精誠等投資或合作開發經驗，敦南案亦有臺北市都更實施者與預售契約查核資料。',
+    caveat:'長期容積移轉、都市更新整合與數筆投資興建經驗支持 B 級；但公司核心歷史仍以容移服務為主，自有品牌住宅交付量與交屋後售後績效公開樣本有限，暫不列 A。',
+    sources:[
+      {label:'精誠國際建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/80156314',type:'經濟部商工登記'},
+      {label:'精誠沿革與建案作品',url:'https://landplus.com.tw/about/',type:'公司官方資料'},
+      {label:'敦南案都市更新公聽會資料',url:'https://www-ws.gov.taipei/Download.ashx?icon=.pdf&n=5a%2BGKOmBrinmk6zoqILoh7rvpaPluILlpKflronljYDlpKflronmrrXkuInlsI%2FmrrUyNDMg5Zyw6Jmf562JMTXlnJ%2FlnLDpg73luILmm7TmlrDkuovmpa3oqIjnlavlj4rmrIrliKnorormj5voqIjnlavmoYgt5YWs6IG95pyD55m86KiA6KaB6bueLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvNDU5L2NrZmlsZS84ODIyZWZiZC02NTAwLTRlNDQtYjMxOC1jODVjNDY4ODAxZWUucGRm',type:'臺北市政府資料'},
+      {label:'預售建案契約查核季報',url:'https://www-ws.gov.taipei/001/Upload/305/relfile/10162/9401210/fe8490cf-1661-41c0-a40f-0715be91e1ce.pdf',type:'臺北市政府資料'},
+    ],
+  },
 ].map(profile=>{
   const score=profile.scores?weightedScore(profile.scores):null;
   return {...profile,score,rating:profile.rating||ratingFromScore(score)};
