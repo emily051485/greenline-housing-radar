@@ -4702,6 +4702,61 @@ export const developerResearch=[
       {label:'森原建設作品資料（寶徠花園）',url:'https://senyuan.tw/build-case/detail/9',type:'合作建商官方資料'},
     ],
   },
+  {
+    id:'baosheng-project',name:'寶盛建設股份有限公司（寶亞得玥起造人）',aliases:['寶盛建設股份有限公司','寶盛建設'],reviewed:'2026-09-14',confidence:'低',
+    scores:{delivery:58,quality:70,governance:58,service:56,risk:54},
+    summary:'「寶亞得玥」的預售備查與建案公開資料均列寶盛建設股份有限公司為起造／投資興建者，並可由寶亞品牌官網核對案名；但目前無法用公開商工資料唯一配對到仍存續的同名法人。',
+    caveat:'經濟部搜尋到的同名股份有限公司為 1993 年解散的臺中公司，顯然不應直接當作本案公司；在統編或正式集團關係取得前，只以本案可驗證資料暫列 C，且標示低信心，未套用寶亞建設整體評分。',
+    sources:[
+      {label:'寶亞建設官方作品（寶亞得玥）',url:'https://baoya.tw/',type:'品牌官方資料'},
+      {label:'寶亞得玥建案暨建照資料',url:'https://newhouse.591.com.tw/141376',type:'建案公開資料'},
+      {label:'經濟部同名公司查詢（用於排除誤配）',url:'https://findbiz.nat.gov.tw/fts/company/23218402',type:'官方公司登記'},
+    ],
+  },
+  {
+    id:'xieding-construction',name:'協鼎建設股份有限公司',aliases:['協鼎建設股份有限公司','協鼎建設'],reviewed:'2026-09-14',confidence:'高',
+    scores:{delivery:74,quality:74,governance:70,service:60,risk:55},
+    summary:'2006 年設立、實收資本額 9,000 萬元，資本近年逐步增加；「一心居」的建照、預售及成交資料可核對，具實際住宅推案紀錄。',
+    caveat:'經濟部現行登記同時記載 2026-04-30 至 2027-04-30 停業，屬重要的持續營運風險訊號，已大幅反映於風險維度；在復業與交付狀況確認前暫列 C。',
+    sources:[
+      {label:'經濟部商工登記（協鼎建設）',url:'https://findbiz.nat.gov.tw/fts/company/28228034',type:'官方公司登記'},
+      {label:'臺北市建照資料（一心居）',url:'https://www-ws.gov.taipei/Download.ashx?icon=..pdf&n=MTExMDQzMOiHszExMTA4MzHmoLjnmbzkuYvlu7rnhact5Zue5aCx5bu6566h6JmV5pys5pyD5pyD5ZOh6ICFLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvNDYxL3JlbGZpbGUvNTg1NTEvODg4NzM4OS8wZjE2YTMzZC1lMWU5LTQyZmItOGEzMy0wNmMyYzIyNmExNWMucGRm',type:'官方建管資料'},
+      {label:'一心居建案資料',url:'https://tp.housetube.tw/45063',type:'建案公開資料'},
+    ],
+  },
+  {
+    id:'yuexi-construction',name:'悅禧建設股份有限公司',aliases:['悅禧建設股份有限公司','悅禧建設'],reviewed:'2026-09-14',confidence:'中',
+    scores:{delivery:74,quality:78,governance:72,service:64,risk:76},
+    summary:'2004 年設立、實收資本額 3,000 萬元，登記持續正常；「千百度」已有預售備查、建照及大量實價成交可核對，建案官網亦明列悅禧建設。',
+    caveat:'公司存續逾 20 年，但可公開驗證的跨案完工履歷與售後制度仍有限；總分 73 分，列 B 級下段，不以單案銷售量取代品質與售後證據。',
+    sources:[
+      {label:'經濟部商工登記（悅禧建設）',url:'https://findbiz.nat.gov.tw/fts/company/27537526',type:'官方公司登記'},
+      {label:'千百度建案官網',url:'https://www.techhill.tw/case.html',type:'建案官方資料'},
+      {label:'千百度建案與成交資料',url:'https://fangnote.info/2024/%E5%8D%83%E7%99%BE%E5%BA%A6/index.html',type:'建案公開資料'},
+    ],
+  },
+  {
+    id:'shoudun-construction',name:'首敦建設股份有限公司（鴻祥機構合作案）',aliases:['首敦建設股份有限公司','首敦建設'],reviewed:'2026-09-14',confidence:'中高',
+    scores:{delivery:82,quality:84,governance:78,service:72,risk:80},
+    summary:'2011 年設立、實收資本額 6,000 萬元；「天母鑲玉」由首敦與鴻祥開發共同投資、鴻祥營造承造，鴻祥機構具長期土木建築履歷與多次優良營造業紀錄。',
+    caveat:'鴻祥機構的工程能力可佐證本案團隊，但首敦並非官網列出的核心集團公司，故不把機構全部歷史無條件歸入首敦；目前以合作案證據列 B 級。',
+    sources:[
+      {label:'臺北市公司變更登記清冊（首敦建設）',url:'https://serv.gcis.nat.gov.tw/pub/cmpy/reportAction.do?fileName=11404DOC.pdf&method=report&reportClass=cmpy&subPath=11404',type:'官方公司登記'},
+      {label:'鴻祥機構官方網站暨天母鑲玉工程',url:'https://www.hxc.com.tw/',type:'合作團隊官方資料'},
+      {label:'天母鑲玉投資興建資料',url:'https://res.sinyi-rema.com.tw/static/upload/0021e6ce3c6698de9a73fca73df55fb5.pdf',type:'建案公開資料'},
+    ],
+  },
+  {
+    id:'quanjia-international',name:'全家國際開發股份有限公司',aliases:['全家國際開發股份有限公司','全家國際開發'],reviewed:'2026-09-14',confidence:'中',
+    scores:{delivery:74,quality:76,governance:74,service:64,risk:76},
+    summary:'2002 年設立、實收資本額 6,000 萬元，登記營業包含住宅開發，並由法人股東參與治理；「天郁」的預售備查、建照與市場資料一致列其為投資興建者。',
+    caveat:'這家公司與全家便利商店無關，也不同於「全家開發股份有限公司」；目前住宅作品與售後制度的公開資料不多，總分 73 分、列 B 級下段。',
+    sources:[
+      {label:'新北市公司變更登記清冊（全家國際開發）',url:'https://serv.gcis.nat.gov.tw/pub/cmpy/reportAction.do?fileName=376410000Achange11311.pdf&method=report&reportClass=cmpyCity&subPath=11311',type:'官方公司登記'},
+      {label:'天郁建照及建案資料',url:'https://newhouse.591.com.tw/124215',type:'建案公開資料'},
+      {label:'全家國際開發公司公開簡介',url:'https://trade.1111.com.tw/Comp_Info.aspx?vNo=54025',type:'公司公開資料'},
+    ],
+  },
 ].map(profile=>{
   const score=profile.scores?weightedScore(profile.scores):null;
   return {...profile,score,rating:profile.rating||ratingFromScore(score)};
