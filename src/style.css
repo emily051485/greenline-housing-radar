@@ -110,3 +110,9 @@ main{display:flex;flex-direction:column}.hero{order:1}.stats-wrap{order:2}.map-s
   .table-scroll th:first-child,.table-scroll td:first-child{width:175px;min-width:175px;max-width:185px}
   .table-scroll td:first-child strong{white-space:normal;overflow-wrap:anywhere;line-height:1.45}
 }
+
+/* Keep builder tiers visually distinct across tables, maps and legends. */
+.grade-b,.pin.b{background:#c69a32;color:#201b0e}
+.grade-c,.pin.c{background:#9da6a2;color:#fff}
+.marker-b{background:#c69a32;color:#201b0e}
+.marker-c{background:#9da6a2;color:#fff}

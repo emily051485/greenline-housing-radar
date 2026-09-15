@@ -190,7 +190,7 @@ function distanceMeters(a,b){const dLat=radians(b.lat-a.lat),dLng=radians(b.lng-
 function nearestExit(point){let nearest=null;for(const exit of transitPoints){const distance=distanceMeters(point,exit);if(!nearest||distance<nearest.distance)nearest={...exit,distance};}return nearest;}
 function builderInfo(value=''){
   const clean=value.replace(/股份有限公司.*/,'股份有限公司').replace(/有限公司.*/,'有限公司').trim();
-  const rules=[['S',/華固|潤泰/],['A',/國揚|國泰建設|大陸建設|富邦建設|忠泰|長虹|宏盛|冠德|皇翔|遠雄|璞園|亞昕|昇陽|宏普/],['B',/興富發|達麗|茂德|甲山林|愛山林|漢皇|將捷|麗寶|寶佳|合環|敦年|馥華|新碩/]];
+  const rules=[['S',/華固|潤泰|國泰建設/],['A',/國揚|大陸建設|富邦建設|忠泰|長虹|宏盛|冠德|皇翔|遠雄|璞園|亞昕|昇陽|宏普/],['B',/興富發|達麗|茂德|甲山林|愛山林|漢皇|將捷|麗寶|寶佳|合環|敦年|馥華|新碩/]];
   const knownRating=rules.find(([,pattern])=>pattern.test(clean))?.[0];
   const developerCompany=(/(建設|建築|開發|興業|營造|地產).*(?:股份)?有限公司|(?:股份)?有限公司.*(建設|開發|興業|營造|地產)/.test(clean)||/誼盛國際|得育企業/.test(clean))&&!/建築經理|商業銀行|信託/.test(clean);
   const rating=knownRating||(developerCompany?'C':'NR');

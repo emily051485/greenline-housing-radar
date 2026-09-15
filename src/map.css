@@ -1,7 +1,8 @@
 .map-project-marker{display:grid;place-items:center;width:30px;height:30px;padding:0;border:3px solid #fff;border-radius:50%;box-shadow:0 4px 14px #0005;font:700 11px Outfit;cursor:pointer}
 .map-project-marker.marker-s{background:var(--ink);color:var(--lime)}
 .map-project-marker.marker-a{background:var(--green);color:#fff}
-.map-project-marker.marker-b,.map-project-marker.marker-c{background:#d8c86c;color:var(--ink)}
+.map-project-marker.marker-b{background:#c69a32;color:#201b0e}
+.map-project-marker.marker-c{background:#9da6a2;color:#fff}
 .map-project-marker.marker-nr{background:#7b8580;color:#fff}
 .map-project-marker.marker-pending{opacity:.6!important;box-shadow:0 2px 7px rgba(20,35,29,.16)}
 .map-project-marker.marker-pending:hover,.map-project-marker.marker-pending:focus{opacity:.88!important}
