@@ -3794,6 +3794,54 @@ export const developerResearch=[
       {label:'裏山作品與售後制度',url:'https://estate.ltn.com.tw/article/12986',type:'建案公開報導'},
     ],
   },
+  {
+    id:'fusheng-tech',name:'富晟科技',aliases:['富晟科技'],reviewed:'2026-09-14',confidence:'高',
+    scores:{delivery:58,quality:68,governance:58,service:58,risk:35},
+    summary:'2019 年設立、目前實收資本額 2,300 萬元，登記事業包含住宅開發；中山富寓為可核對的首筆住宅案，已有官方預售備查與 20 筆實價登錄。',
+    caveat:'遠東銀行公告中山富寓買方價金曾未依規定於期限內交付信託，且催告後仍未提出說明、補足或改善；加上尚無已交屋與售後樣本，因此風險明顯高於一般新建商，暫列 C 低段。',
+    sources:[
+      {label:'富晟科技公司登記資料',url:'https://info.technews.tw/company/85043162-%E5%AF%8C%E6%99%9F%E7%A7%91%E6%8A%80%E8%82%A1%E4%BB%BD%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8',type:'經濟部公開資料鏡像'},
+      {label:'中山富寓預售備查',url:'https://land.gov.taipei/News.aspx?PageSize=20&n=F32F7D59F5852BC9&page=5&sms=977CB461C1F4F2E8',type:'臺北市政府資料'},
+      {label:'預售價金信託異常公告',url:'https://www.feib.com.tw/activity?id=3950',type:'受託銀行正式公告'},
+      {label:'中山富寓產品與交易資料',url:'https://market.591.com.tw/5934918/overview',type:'建案與實價資料'},
+    ],
+  },
+  {
+    id:'hongji-rewish',name:'鴻基再來願（鴻基建設機構）',aliases:['鴻基再來願'],reviewed:'2026-09-14',confidence:'高',
+    scores:{delivery:76,quality:82,governance:72,service:73,risk:76},
+    summary:'2019 年成立、登記資本額 9,010 萬元，為鴻基建設機構旗下不動產基金與建設項目公司；中山晶綻具官方預售備查、不動產開發信託、實價交易及國家建築金質獎規劃設計類紀錄。',
+    caveat:'有多個項目公司與雙站匯、中山晶綻等推案脈絡，品質規劃具外部佐證，達 B 級；但法人及品牌年資短、已交付與長期售後樣本有限，項目公司的財務資訊亦不宜與整個機構混算。',
+    sources:[
+      {label:'鴻基機構沿革與項目公司',url:'https://gdg.com.tw/%E5%BB%BA%E8%A8%AD%E6%A9%9F%E6%A7%8B/%E9%A0%98%E8%88%AA%E9%A6%96%E5%B8%AD/',type:'公司官方資料'},
+      {label:'中山晶綻官方預售備查',url:'https://land.gov.taipei/News.aspx?PageSize=20&n=F32F7D59F5852BC9&page=2&sms=977CB461C1F4F2E8',type:'臺北市政府資料'},
+      {label:'中山晶綻金質獎紀錄',url:'https://www.cna.com.tw/postwrite/chi/326819',type:'獎項公開資料'},
+      {label:'中山晶綻建案與交易資料',url:'https://market.591.com.tw/5889991/overview',type:'建案與實價資料'},
+    ],
+  },
+  {
+    id:'leader-development',name:'利大建設',aliases:['利大建設'],reviewed:'2026-09-14',confidence:'高',
+    scores:{delivery:80,quality:79,governance:75,service:74,risk:78},
+    summary:'2010 年設立、2025 年登記實收資本額增至 1.5 億元；官方網站可核對中華帝標、信義大悅、士林大悅及中山鴻鼎等跨年度住宅作品，並公開建築、營造與結構團隊。',
+    caveat:'連續作品與資本規模支持 B 級中段；但屬私人建商，工程品質標準、交屋後保固流程、客訴統計及財務治理揭露仍有限，尚不足以列 A。',
+    sources:[
+      {label:'利大建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/53088975',type:'經濟部商工登記'},
+      {label:'中山鴻鼎官方建案頁',url:'https://leader.tw/build_case01.html',type:'公司官方資料'},
+      {label:'利大建設歷年實績',url:'https://leader.tw/build_case01.html',type:'公司官方資料'},
+      {label:'中山鴻鼎預售公開資料',url:'https://data.gov.tw/dataset/176351',type:'政府開放資料'},
+    ],
+  },
+  {
+    id:'zhuyuan-wanshixing',name:'祝園實業／萬賜興建設（甲山林體系）',aliases:['祝園實業','萬賜興建設'],reviewed:'2026-09-14',confidence:'高',
+    scores:{delivery:85,quality:86,governance:84,service:84,risk:82},
+    summary:'祝園實業 1990 年設立並為愛山林建設、甲山林建設等公司的法人股東；中山麗池由祝園與實收資本額 7.916 億元的萬賜興建設共同投資，採達欣工程承造，已有官方備查及大量預售交易。',
+    caveat:'甲山林體系的開發銷售規模、關係企業資本與專業承造團隊支持 A 級；但中山麗池仍在施工，祝園自身公開住宅作品與跨案售後統計少於集團整體，因此不列 S。',
+    sources:[
+      {label:'祝園實業公司登記',url:'https://findbiz.nat.gov.tw/fts/company/23906772',type:'經濟部商工登記'},
+      {label:'萬賜興建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/24542103',type:'經濟部商工登記'},
+      {label:'祝園持有愛山林建設資料',url:'https://findbiz.nat.gov.tw/fts/company/22190686',type:'經濟部商工登記'},
+      {label:'中山麗池建設與承造團隊',url:'https://newhouse.591.com.tw/134798',type:'建案公開資料'},
+    ],
+  },
 ].map(profile=>{
   const score=profile.scores?weightedScore(profile.scores):null;
   return {...profile,score,rating:profile.rating||ratingFromScore(score)};
