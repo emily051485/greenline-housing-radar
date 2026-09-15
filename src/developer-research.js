@@ -1444,6 +1444,52 @@ export const developerResearch=[
       {label:'億東營造沿革與 ISO',url:'https://www.itcbuild.com.tw/?page_id=4',type:'營造官網'},
     ],
   },
+  {
+    id:'yonglun',name:'詠綸建設',aliases:['詠綸建設'],reviewed:'2026-09-14',confidence:'中高',
+    scores:{delivery:72,quality:76,governance:62,service:67,risk:66},
+    summary:'2014 年設立，目前實收資本額 9,000 萬元；官網與臺北市預售查核可核對首案詠綸湛及後續詠綸朔望。',
+    caveat:'已有兩件台北市預售案且首案公開資訊顯示完售，但公司仍在早期交付階段，治理、售後與完工品質追蹤不足，評為 C 級。',
+    sources:[
+      {label:'經濟部公司登記',url:'https://findbiz.nat.gov.tw/fts/company/24734572',type:'政府資料'},
+      {label:'詠綸建設官網',url:'https://www.yonglun.co/',type:'建商官網'},
+      {label:'臺北市預售契約查核',url:'https://www-ws.gov.taipei/001/Upload/305/relfile/10162/9345867/80a44162-6259-4edd-80bf-1c5438b9affa.pdf',type:'政府資料'},
+    ],
+  },
+  {
+    id:'yuchengxin',name:'玉承欣國際',aliases:['玉承欣國際'],reviewed:'2026-09-14',confidence:'高',
+    scores:{delivery:71,quality:76,governance:64,service:70,risk:66},
+    summary:'2019 年設立，目前實收資本額 1 億元；由建築師團隊主導危老重建，官網可核對松德88、信義蒔代與敦南宴三案。',
+    caveat:'專業團隊、資本與案源可確認，但主要作品仍集中於近年危老及預售案，尚缺長期交付、售後與第三方品質紀錄，評為 C 級。',
+    sources:[
+      {label:'經濟部公司登記',url:'https://findbiz.nat.gov.tw/fts/company/82879929',type:'政府資料'},
+      {label:'玉承欣案例實績',url:'https://www.urchance-int.com/projects-%E9%A0%90%E6%8E%A8%E5%80%8B%E6%A1%88/',type:'建商官網'},
+      {label:'敦南宴個案官網',url:'https://wowpan.com.tw/dunnan-reunion/',type:'建案官網'},
+      {label:'臺北市預售契約查核',url:'https://www-ws.gov.taipei/001/Upload/305/relfile/10162/9345867/80a44162-6259-4edd-80bf-1c5438b9affa.pdf',type:'政府資料'},
+    ],
+  },
+  {
+    id:'daguang',name:'大廣建設',aliases:['大廣建設'],reviewed:'2026-09-14',confidence:'中高',
+    scores:{delivery:73,quality:72,governance:63,service:66,risk:63},
+    summary:'公司法人始於 2001 年、2018 年由室內裝修公司更名為建設公司，目前實收資本額 1.5 億元；政府資料可核對中研苑士與大廣豊仁。',
+    caveat:'已有一件可交屋案及持續推案，但作為建商品牌的年期仍短，公開作品、售後、治理與第三方品質證據有限，評為 C 級。',
+    sources:[
+      {label:'經濟部公司登記',url:'https://findbiz.nat.gov.tw/fts/company/12853881',type:'政府資料'},
+      {label:'臺北市中研苑士資料',url:'https://www-ws.gov.taipei/001/Upload/305/relfile/11498/7146725/c9258d2f-2084-4e5b-a3fe-58252682fe0f.pdf',type:'政府資料'},
+      {label:'新北市預售案清冊',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?n=MTEw5bm06IezMTE05LiK5Y2K5bm05bey5YKZ5p%2Bl5bu65qGI5riF5YaKLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMzk5L3JlbGZpbGUvODk5My85NDY5L2UwZjQwYjRjLTkyMjEtNDliZS1hMzA5LTE0MWExNmQ1MzVlNS5wZGY%3D',type:'政府資料'},
+    ],
+  },
+  {
+    id:'zhuyuan',name:'築源建設',aliases:['築源建設'],reviewed:'2026-09-14',confidence:'高',
+    scores:{delivery:70,quality:81,governance:68,service:66,risk:69},
+    summary:'1996 年設立，目前實收資本額 12.87 億元；政府建照及預售備查可核對築源南港南、東御苑兩期，東御苑由大陸工程承造並採 SC 與制震規劃。',
+    caveat:'資本規模及工程合作陣容強，但目前可核對的品牌住宅集中於南港兩期且仍在興建，完工交付與售後證據尚不足，評為 C 級。',
+    sources:[
+      {label:'經濟部公司登記',url:'https://findbiz.nat.gov.tw/fts/company/96936457',type:'政府資料'},
+      {label:'臺北市建照施工資料',url:'https://www.arch.org.tw/Content/Files/News/8399465ca3274ec196a73873f099f358.pdf',type:'政府資料'},
+      {label:'臺北市預售備查',url:'https://land.gov.taipei/News_Content.aspx?n=E8D96FA6BB2B310E&s=DC1B2958230208F6&sms=06A4332DF37FE327',type:'政府資料'},
+      {label:'築源南港官網',url:'https://tophills.com.tw/',type:'建案官網'},
+    ],
+  },
 ].map(profile=>{
   const score=profile.scores?weightedScore(profile.scores):null;
   return {...profile,score,rating:profile.rating||ratingFromScore(score)};
