@@ -4378,6 +4378,59 @@ export const developerResearch=[
       {label:'臺北市110建字第0219號資料',url:'https://www-ws.gov.taipei/Download.ashx?icon=..pdf&n=MTA5MDEzMeiHszExMTA0Mjnlu7rmoYjos4foqIros4fmlpkucGRm&u=LzAwMS9VcGxvYWQvNDYxL3JlbGZpbGUvNTg1NTEvODYyMjg5MC8xMWI0YmY2Zi04MzMzLTRhZWQtYTU2Ni03MjE3MzVlODQ3OTgucGRm',type:'官方建照資料'},
     ],
   },
+  {
+    id:'jinling-development',name:'金陵開發股份有限公司',aliases:['金陵開發股份有限公司','金陵開發'],reviewed:'2026-09-14',confidence:'中',
+    scores:{delivery:66,quality:72,governance:70,service:60,risk:72},
+    summary:'公司至少自2003年前後持續登記，現有資本額3,000萬元；廈川里美的投資興建身分、地址與建照可由預售建案資料交叉確認。',
+    caveat:'目前可靠的住宅作品證據集中於廈川里美，缺少跨案完工、售後服務與品質統計，故以單案型開發者列 C 級。',
+    sources:[
+      {label:'臺北市公司變更登記清冊',url:'https://serv.gcis.nat.gov.tw/pub/cmpy/reportAction.do?fileName=379100000Gchange11112.pdf&method=report&reportClass=cmpyCity&subPath=11112',type:'政府公司登記'},
+      {label:'廈川里美建案資料',url:'https://www.house579.com.tw/newhouse/43b88fd1-3475-40be-8a93-af9b0e56e4d6',type:'建案公開資料'},
+    ],
+  },
+  {
+    id:'junpin-construction',name:'雋品建設股份有限公司',aliases:['雋品建設股份有限公司','雋品建設'],reviewed:'2026-09-14',confidence:'中高',
+    scores:{delivery:70,quality:82,governance:76,service:64,risk:78},
+    summary:'2018年設立、實收資本額1.64億元，具住宅開發與都市更新本業；雍雋品的起造、規劃與獲獎設計資料可核對，另有南港都更實施者紀錄。',
+    caveat:'設計與資本條件具基礎，但主要住宅案仍在興建，尚缺足夠完工交付及住戶售後紀錄，因此僅列 B 級下緣。',
+    sources:[
+      {label:'經濟部雋品建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/50875040',type:'政府公司登記'},
+      {label:'雋品建築團隊官網',url:'https://www.junpin.com.tw/index.php?logo=1',type:'建商官方資料'},
+      {label:'雋品南港都更實施者資料',url:'https://www-ws.gov.taipei/001/Upload/459/relfile/18558/123339/f635a1b2-cab6-47e3-905c-5afa86ca2276.pdf',type:'政府都更資料'},
+    ],
+  },
+  {
+    id:'vigorlin',name:'佳毅國際有限公司',aliases:['佳毅國際有限公司','佳毅國際'],reviewed:'2026-09-14',confidence:'中',
+    scores:{delivery:70,quality:70,governance:62,service:56,risk:70},
+    summary:'1994年設立，Vigorlin東門的名稱、原公司英文名與原登記地址可互相對應，且該住宅案已完工，確認不是單純誤植的公司名稱。',
+    caveat:'登記本業是菸酒與國際貿易，資本額500萬元，未見持續住宅開發或專業售後制度；視為一次性自建／投資興建者，列 C 級。',
+    sources:[
+      {label:'佳毅國際公司登記資料',url:'https://www.findcompany.com.tw/%E4%BD%B3%E6%AF%85%E5%9C%8B%E9%9A%9B%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8',type:'公司登記公開資料'},
+      {label:'佳毅國際公司官網',url:'https://www.vigorlin.com.tw/p3.php',type:'公司官方資料'},
+    ],
+  },
+  {
+    id:'fortune-construction',name:'富樂群建設股份有限公司',aliases:['富樂群建設股份有限公司','富樂群建設'],reviewed:'2026-09-14',confidence:'中高',
+    scores:{delivery:80,quality:82,governance:76,service:70,risk:78},
+    summary:'2006年設立、實收資本額1.2億元，官方建照資料可見不只一個基地；光里蘊由富樂群與隆遠集團合作，並納入璞園建築團隊作品頁。',
+    caveat:'具近20年公司歷史與多基地紀錄，但公開的獨立售後、財務治理及跨案品質統計有限，合作案成果亦不能全數歸因於單一公司，故列 B 級。',
+    sources:[
+      {label:'經濟部富樂群建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/28224494',type:'政府公司登記'},
+      {label:'璞園建築團隊光里蘊作品頁',url:'https://pyct.com.tw/project/guang-li-yun/',type:'合作團隊官方作品'},
+      {label:'臺北市光里蘊預售備查',url:'https://www-ws.gov.taipei/001/Upload/305/relfile/11498/8530909/768ee9b5-63a5-4650-adc2-59b77cba8d82.pdf',type:'政府預售備查'},
+    ],
+  },
+  {
+    id:'honesteam',name:'誠群建設股份有限公司',aliases:['誠群建設股份有限公司','誠群建設'],reviewed:'2026-09-14',confidence:'中高',
+    scores:{delivery:76,quality:78,governance:76,service:68,risk:78},
+    summary:'2014年設立、實收資本額8,000萬元，住宅開發為登記本業；官網列出悅己誠群的完整團隊與基地資料，另有大道東推案紀錄。',
+    caveat:'已有小型案完工與另一案紀錄，但整體樣本仍少，售後與長期品質缺乏量化公開證據，因此列 B 級而不向 A 級推定。',
+    sources:[
+      {label:'經濟部誠群建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/24764435',type:'政府公司登記'},
+      {label:'悅己誠群官方建案頁',url:'https://www.honesteam.com.tw/%E5%A4%A7%E6%B9%96%E5%8D%B1%E8%80%81%E6%94%B9%E5%BB%BA',type:'建商官方作品'},
+      {label:'臺北市悅己誠群預售備查',url:'https://www-ws.gov.taipei/001/Upload/305/relfile/11498/7146725/569ab337-c262-418c-a8a9-3ca08f7cd8a1.pdf',type:'政府預售備查'},
+    ],
+  },
 ].map(profile=>{
   const score=profile.scores?weightedScore(profile.scores):null;
   return {...profile,score,rating:profile.rating||ratingFromScore(score)};
