@@ -5347,6 +5347,57 @@ export const developerResearch=[
       {label:'內政部預售屋建案查詢',url:'https://lvr.land.moi.gov.tw/',type:'政府預售資料'},
     ],
   },
+  {
+    id:'xingyang-construction',name:'興洋建設',aliases:['興洋建設股份有限公司','興洋建設'],reviewed:'2026-09-14',confidence:'中',
+    scores:{delivery:82,quality:80,governance:74,service:68,risk:78},
+    summary:'可核對興洋君冠、興洋興天地、興洋圓環、興洋得月、世紀之光等多案履歷；興洋君冠亦由都市更新研究發展基金會列明興洋為實施者。',
+    caveat:'跨案履歷存在，但公司財務、工程查驗、交屋缺失與售後績效公開度有限；總分 77 分，列 B 級。',
+    sources:[
+      {label:'興洋君冠都市更新個案',url:'https://www.ur.org.tw/plan/career_view/52',type:'都更專業機構資料'},
+      {label:'興洋君冠建案資料',url:'https://market.591.com.tw/5880882/overview',type:'建案公開資料'},
+    ],
+  },
+  {
+    id:'longbon-international',name:'龍邦國際興業',aliases:['龍邦國際興業股份有限公司','龍邦國際興業','龍邦國際','龍邦開發股份有限公司'],reviewed:'2026-09-14',confidence:'高',
+    scores:{delivery:86,quality:82,governance:90,service:74,risk:82},
+    summary:'1988 年設立的上市公司、實收資本額約 39.47 億元，具長期不動產開發與公開財報基礎；龍邦豐馥可由建築師、建照及預售查核資料交叉核對。',
+    caveat:'近年業務已多元化，住宅品牌售後與工程品質量化揭露不及專注型大型建商，不能只因上市與資本額直接列 S；總分 83 分，列 A 級。',
+    sources:[
+      {label:'經濟部商工登記（龍邦國際）',url:'https://findbiz.nat.gov.tw/fts/company/22817273',type:'政府公司資料'},
+      {label:'龍邦豐馥建築師作品',url:'https://www.sunlinarchitect.com/zh-tw/project.php?act=view&id=20',type:'專業團隊資料'},
+      {label:'台北市預售契約查核季報',url:'https://www-ws.gov.taipei/001/Upload/305/relfile/10162/9345867/80a44162-6259-4edd-80bf-1c5438b9affa.pdf',type:'政府預售資料'},
+    ],
+  },
+  {
+    id:'fengzu-development',name:'豊租開發建設',aliases:['豊租開發建設有限公司','豊租開發建設'],reviewed:'2026-09-14',confidence:'中',
+    scores:{delivery:58,quality:66,governance:62,service:58,risk:68},
+    summary:'2023 年設立、資本額 1,000 萬元；中庄新墅預售契約可確認公司為賣方與投資興建者，建照及四戶產品資料明確。',
+    caveat:'成立時間短且目前僅能核對單一四戶預售案，尚無完工、交屋、售後與跨案品質紀錄；總分 62 分，列 C 級。',
+    sources:[
+      {label:'中庄新墅官方預售契約',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?icon=..pdf&n=5Lit5bqE5paw5aKFLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMS9yZWxmaWxlLzk2NzkvNzQwOTEzLzlmODQxMjIxLWM1ODUtNDA1Mi1iNDM0LTFkZjk3YzIxZTdiNS5wZGY%3D',type:'政府預售契約'},
+      {label:'公司公開登記整理',url:'https://mygov.tw/company/94209848',type:'公司登記資料'},
+    ],
+  },
+  {
+    id:'huangyi-industrial',name:'瑝益實業',aliases:['瑝益實業有限公司','瑝益實業'],reviewed:'2026-09-14',confidence:'中',
+    scores:{delivery:62,quality:68,governance:64,service:58,risk:70},
+    summary:'2018 年設立、資本額 1,000 萬元；文昌匯可核對由瑝益實業與宏信建設共同投資，另有豪豐營造及正式建照資料。',
+    caveat:'目前公司自身公開履歷集中於單一合作案，宏信建設與營造團隊的紀錄不能完全轉移為瑝益評分；總分 64 分，列 C 級。',
+    sources:[
+      {label:'經濟部公司設立與變更清冊',url:'https://serv.gcis.nat.gov.tw/pub/cmpy/reportAction.do?fileName=10711NTC.pdf&method=report&reportClass=cmpy&subPath=10711',type:'政府公司資料'},
+      {label:'文昌匯建案資料',url:'https://newhouse.591.com.tw/141850/detail',type:'建案公開資料'},
+    ],
+  },
+  {
+    id:'heyi-construction',name:'和毅建設',aliases:['和毅建設股份有限公司','和毅建設'],reviewed:'2026-09-14',confidence:'中高',
+    scores:{delivery:80,quality:78,governance:78,service:68,risk:78},
+    summary:'2006 年設立、實收資本額 2.41 億元；四季 Lavie 已於 2024 年完工，預售契約、建照與成交資料均可核對公司為賣方及投資興建者。',
+    caveat:'市場資料稱其為寶佳機構案，但目前不以非正式標示取代法人關係證據；自身可核對的跨案與量化售後資料仍少，總分 77 分，列 B 級。',
+    sources:[
+      {label:'經濟部商工登記（和毅建設）',url:'https://findbiz.nat.gov.tw/fts/company/28095246',type:'政府公司資料'},
+      {label:'四季 Lavie 官方預售契約',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?icon=..pdf&n=5Zub5a2jTGF2aWUucGRm&u=LzAwMS9VcGxvYWQvMS9yZWxmaWxlLzk2NzkvNjgwMjkxLzEyMjVlNzY2LWM3MzQtNGY2NS04YjY5LTJhNzBkNDQ1ZmVlNy5wZGY%3D',type:'政府預售契約'},
+    ],
+  },
 ].map(profile=>{
   const score=profile.scores?weightedScore(profile.scores):null;
   return {...profile,score,rating:profile.rating||ratingFromScore(score)};
