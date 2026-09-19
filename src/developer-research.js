@@ -6229,6 +6229,50 @@ export const developerResearch=[
       {label:'優學建案與成交資料',url:'https://www.plex.com.tw/projects/view/id/6232',type:'建案公開資料'},
     ],
   },
+  {
+    id:'hechuang-development',name:'合創開發',aliases:['合創開發','合創開發股份有限公司'],reviewed:'2026-09-18',confidence:'中高',
+    scores:{delivery:68,quality:70,governance:60,service:60,risk:70},
+    summary:'公司於 2019 年設立、目前實收資本額 2,000 萬元；官方預售契約與備查資料確認合創為「海鷗日光」賣方，該案已於 2025 年完工，形成 22 戶、有門牌與成交資料的小型住宅社區。',
+    caveat:'已完成一件可核對的住宅案，優於只有預售階段的公司；但單一 22 戶社區仍不足以證明跨案履約與品質穩定性，公司財務治理、工程稽核、保固與客訴統計也未充分公開。總分 66 分，列 C 級。',
+    sources:[
+      {label:'合創開發公司變更登記清冊',url:'https://serv.gcis.nat.gov.tw/pub/cmpy/reportAction.do?fileName=376410000Achange11412.pdf&method=report&reportClass=cmpyCity&subPath=11412',type:'經濟部官方資料'},
+      {label:'海鷗日光官方預售契約',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?icon=..pdf&n=5rW36beX5pel5YWJLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMS9yZWxmaWxlLzk2NzkvNjM3NDE4L2FjMmFmYTUwLWE0MWItNGM2YS1hZTM1LWIzZjcxMjA1YmY0Yi5wZGY%3D',type:'新北市政府'},
+      {label:'海鷗日光完工社區資料',url:'https://community.yungching.com.tw/building/73233',type:'完工建物資料'},
+    ],
+  },
+  {
+    id:'heyan-construction',name:'合硯建設',aliases:['合硯建設','合硯建設股份有限公司'],reviewed:'2026-09-18',confidence:'中高',
+    scores:{delivery:72,quality:72,governance:64,service:62,risk:72},
+    summary:'公司於 2014 年設立、目前實收資本額 1.05 億元；官方預售契約可確認「四季琢硯」共 191 戶及其建照，公開建管與社區資料顯示該案已取得 113 鶯使字第00263號使用執照並完成交付。',
+    caveat:'四季琢硯是具規模且已取得使照的正向履約樣本，但目前未找到合硯其他足以核對的完整交付案；寶佳／合康體系關係不能直接替代該法人的跨案品質、公司治理及售後成果。總分 68 分，列 C 級。',
+    sources:[
+      {label:'合硯建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/24695091',type:'官方公司資料'},
+      {label:'四季琢硯官方預售契約',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?icon=..pdf&n=5Zub5a2j55Ci56GvLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMS9yZWxmaWxlLzk2NzkvNjQxMDkwLzg5YTdiYzNmLTlmYWEtNDM4Yi1hYjE5LWFjNmVjMmQzNDk0My5wZGY%3D',type:'新北市政府'},
+      {label:'四季琢硯使照與社區資料',url:'https://market.591.com.tw/5904760/overview',type:'建管與社區資料彙整'},
+    ],
+  },
+  {
+    id:'jiqing-construction',name:'吉慶建設',aliases:['吉慶建設','吉慶建設股份有限公司'],reviewed:'2026-09-18',confidence:'中高',
+    scores:{delivery:48,quality:68,governance:62,service:58,risk:70},
+    summary:'公司於 2012 年設立、目前實收資本額 5,000 萬元；新北市官方備查清冊與建案資料可確認吉慶為板橋都更案「新板東京」賣方，規劃 177 戶，已取得建照並進入預售。',
+    caveat:'新板東京預計 2031 年完工，目前尚未交付；雖公司存續超過十年，仍未找到足以核對的其他住宅完工履歷、公司級工程制度、財務治理、保固及客訴結果，因此不以法人年資或都更案規模替代履約證據。總分 60 分，列 C 級。',
+    sources:[
+      {label:'吉慶建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/54028808',type:'官方公司資料'},
+      {label:'新北市預售備查案清冊',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?n=MTEw5bm06IezMTE05bm05bey5YKZ5p%2Bl5bu65qGI5riF5YaKLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMzk5L3JlbGZpbGUvODk5My85NDY5L2NkZTQ4OTJkLTQzMzAtNDY3Zi1hYmExLTI3YzJiYjI0MjYxNi5wZGY%3D',type:'新北市政府'},
+      {label:'新板東京建照與規劃資料',url:'https://res.sinyi-rema.com.tw/static/upload/641ed5bf25f5d617a46b9d2004ecd487.pdf',type:'建案公開資料'},
+    ],
+  },
+  {
+    id:'chengmei-development',name:'成美開發建設',aliases:['成美開發建設','成美開發建設有限公司'],reviewed:'2026-09-18',confidence:'中高',
+    scores:{delivery:50,quality:66,governance:58,service:58,risk:68},
+    summary:'公司於 2020 年設立、資本額 1,000 萬元；新北市官方備查清冊可確認「米蘭大苑」，公開推案紀錄另列住宅案「米蘭敦品－名門區」，目前已進入預售銷售。',
+    caveat:'米蘭大苑屬廠辦／工廠產品，不能直接視為住宅交屋經驗；米蘭敦品住宅案尚未完成，因此此法人的住宅履約、品質與售後服務仍待實際交付驗證，公司財務及治理資料也有限。總分 59 分，列 C 級。',
+    sources:[
+      {label:'成美開發建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/83278115',type:'官方公司資料'},
+      {label:'新北市預售備查案清冊',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?n=MTEw5bm06IezMTE05LiK5Y2K5bm05bey5YKZ5p%2Bl5bu65qGI5riF5YaKLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMzk5L3JlbGZpbGUvODk5My85NDY5L2UwZjQwYjRjLTkyMjEtNDliZS1hMzA5LTE0MWExNmQ1MzVlNS5wZGY%3D',type:'新北市政府'},
+      {label:'成美開發建設推案紀錄',url:'https://build.myhousing.com.tw/company/481952/',type:'建案資料彙整'},
+    ],
+  },
 ].map(profile=>{
   const score=profile.scores?weightedScore(profile.scores):null;
   return {...profile,score,rating:profile.rating||ratingFromScore(score)};
