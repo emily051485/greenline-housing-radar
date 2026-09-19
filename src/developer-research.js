@@ -290,12 +290,16 @@ export const developerResearch=[
     ],
   },
   {
-    id:'lihshinn',name:'立信建設',aliases:['立信建設'],reviewed:'2026-09-14',confidence:'低',
-    scores:{delivery:77,quality:70,governance:48,service:67,risk:59},
-    summary:'2001 年成立並有江翠北側等開發履歷，也設有售服窗口；可比的公司級品管、治理及保固資料有限。',
-    caveat:'C 級主要反映公開證據不足，而非已確認品質不良。購屋時應特別核對營造廠、保固與既有社區紀錄。',
+    id:'lihshinn',name:'立信機構',aliases:['立信建設','立信機構','耕居建設股份有限公司','耕居建設'],reviewed:'2026-09-18',confidence:'中高',
+    scores:{delivery:82,quality:78,governance:66,service:78,risk:72},
+    summary:'立信機構 2001 年成立，官方資料可核對土地開發、立信工營造、藝舍代銷、首信物業與售後窗口的垂直體系；2019 年成立的耕居建設為其危老都更子公司，已有多案進度及立信藏玉正式預售契約。',
+    caveat:'跨期開發與自有營造、物業及售服體系可確認，但私人集團缺乏連續財報、第三方品質統計與售後成果量化；總分 76 分，列 B 級。',
     sources:[
-      {label:'公司與售服窗口',url:'https://www.lihshinn.com/',type:'公司揭露'},
+      {label:'立信機構事業版圖與售服',url:'https://www.lihshinn.com/?page_id=2807',type:'集團官方資料'},
+      {label:'立信機構大事記',url:'https://www.lihshinn.com/?page_id=3390',type:'集團官方資料'},
+      {label:'耕居建設都更危老實績',url:'https://www.gengerect.com/project',type:'子公司官方資料'},
+      {label:'耕居建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/82967459',type:'政府公司資料'},
+      {label:'立信藏玉預售契約',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?icon=..pdf&n=56uL5L%2Bh6JeP546JLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMS9yZWxmaWxlLzk2NzkvNzM5NDI0LzMxMmU0ZDM5LTFkMzgtNDA2NS1hMTRhLTYyODg4YmQ1MDk2NS5wZGY%3D',type:'政府預售契約'},
     ],
   },
   {
@@ -5501,6 +5505,53 @@ export const developerResearch=[
     sources:[
       {label:'鋒霖機構公園漾工程紀錄',url:'https://www.fenglin.com.tw/product_cg327404.html',type:'集團官方資料'},
       {label:'公園漾官方預售契約',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?icon=..pdf&n=5YWs5ZyS5ry%2BLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMS9yZWxmaWxlLzk2NzkvNjM5OTE3LzVkMzUxMGZkLTA0NmMtNGJkYi1hMWNlLWIyZTcwZTUxNDYwZS5wZGY%3D',type:'政府預售契約'},
+    ],
+  },
+  {
+    id:'qunfeng-development',name:'群豐開發',aliases:['群豐開發股份有限公司','群豐開發','群豐建設'],reviewed:'2026-09-18',confidence:'中',
+    scores:{delivery:68,quality:68,governance:62,service:64,risk:68},
+    summary:'2016 年設立、目前登記資本額 6,000 萬元；新北市官方預售契約、建照及成屋資料可確認日日囍由群豐開發投資興建並已完工。',
+    caveat:'公司官網雖宣示社區管理與售後服務，但頁面仍留有他牌建商文字及不一致聯絡資訊，且可核對作品集中於單一案；總分 66 分，列 C 級。',
+    sources:[
+      {label:'群豐開發公司登記',url:'https://findbiz.nat.gov.tw/fts/company/45132890',type:'政府公司資料'},
+      {label:'日日囍預售契約',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?icon=..pdf&n=5pel5pel5ZuNLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMS9yZWxmaWxlLzk2NzkvNzI0MTk3L2E5Y2NlYzE3LWQwMDktNGM5Ny05OTQyLWU2MGQzMzQxYjUyZC5wZGY%3D',type:'政府預售契約'},
+      {label:'群豐開發官方網站',url:'https://www.qfdc.com.tw/',type:'公司官方資料'},
+    ],
+  },
+  {
+    id:'puyuan-santory',name:'璞園建設（三多立集團）',aliases:['璞園建設股份有限公司','璞園建設有限公司'],reviewed:'2026-09-18',confidence:'高',
+    scores:{delivery:81,quality:79,governance:66,service:70,risk:65},
+    summary:'1993 年設立，政府登記、三多立官方關係企業名單及法院公開文件均確認此法人屬三多立集團，與同名的「璞園建築團隊」不同；可核對三多立涵美、左岸瀾庭等跨期作品。',
+    caveat:'長期存續與集團作品支持交付能力，但非公開發行公司，財務、售後與品質量化揭露有限，且集團治理曾見公開訴訟；總分 74 分，列 B 級，不沿用璞園建築團隊的 A 級。',
+    sources:[
+      {label:'璞園建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/84553602',type:'政府公司資料'},
+      {label:'三多立關係企業名單',url:'https://santoryconstruction.com.tw/about.php',type:'集團官方資料'},
+      {label:'左岸瀾庭預售契約',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?icon=..pdf&n=5bem5bK454C%2B5bqtLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMS9yZWxmaWxlLzk2NzkvNzE2OTQ0Lzk5OTFhMDAyLTU5ZTQtNDlhZC1hMDUxLTMyZGRhYjExZjI2YS5wZGY%3D',type:'政府預售契約'},
+      {label:'三多立集團法人關係裁定',url:'https://lawplayer.com/judgment/PCDV%2C113%2C%E5%8F%B8%2C57%2C20250508%2C1_740310eaf67a62ef326790a69aff5a2e66efe35e',type:'司法公開資料'},
+    ],
+  },
+  {
+    id:'tangxi-construction',name:'唐璽建設',aliases:['唐璽建設股份有限公司','唐璽建設'],reviewed:'2026-09-18',confidence:'中高',
+    scores:{delivery:78,quality:77,governance:66,service:66,risk:72},
+    summary:'2015 年設立、實收資本額 9,400 萬元；正義綻正式預售契約及公開推案紀錄可交叉核對花園綻、欣璞綻等危老重建作品，並有智慧建築標章個案。',
+    caveat:'已有多案與危老重建履歷，但公司級財務、制度化品管、保固及售後成果仍缺乏持續公開資料；總分 72 分，列 B 級門檻。',
+    sources:[
+      {label:'唐璽建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/24735002',type:'政府公司資料'},
+      {label:'正義綻預售契約',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?icon=..pdf&n=5q2j576p57a7LnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMS9yZWxmaWxlLzk2NzkvNjM3Nzc1L2JkZTM4NGQ3LTY1NWEtNGFlMS05NmU5LTcxOGQ5NGNlOGQzMi5wZGY%3D',type:'政府預售契約'},
+      {label:'唐璽建設推案紀錄',url:'https://build.myhousing.com.tw/company/486036/',type:'建案公開資料'},
+      {label:'唐璽花園綻智慧建築標章',url:'https://www.smartdaily.com.tw/?p=17047',type:'第三方標章資料'},
+    ],
+  },
+  {
+    id:'light-era',name:'光世代建設開發',aliases:['光世代建設開發股份有限公司','光世代建設開發','光世代建設'],reviewed:'2026-09-18',confidence:'高',
+    scores:{delivery:82,quality:84,governance:94,service:72,risk:86},
+    summary:'2008 年設立、實收資本額 30 億元，經濟部登記及中華電信年報均確認為中華電信 100% 持有子公司；官方作品涵蓋萬囍、光點與南港機房商辦，光曜亦有新北市正式預售備查。',
+    caveat:'母公司治理、資本與專案管理能力強，且作品含綠建築個案；住宅交付樣本與住戶售後成效仍少於長期大型住宅建商，因此總分 83 分，列 A 級。',
+    sources:[
+      {label:'光世代公司登記',url:'https://findbiz.nat.gov.tw/fts/company/28430311',type:'政府公司資料'},
+      {label:'光世代官方作品',url:'https://www.light-era.com.tw/03.aspx',type:'公司官方資料'},
+      {label:'中華電信 2025 年報',url:'https://www.cht.com.tw/home/cht/-/media/web/pdf/investors/annual-report/2025/2025_annual-report_cn.pdf?sc_lang=zh-tw',type:'母公司治理資料'},
+      {label:'新北市光曜預售備查',url:'https://www.land.ntpc.gov.tw/News.aspx?PageSize=20&n=11769&page=16&sms=9679',type:'政府預售資料'},
     ],
   },
 ].map(profile=>{
