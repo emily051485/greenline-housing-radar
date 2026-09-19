@@ -6273,6 +6273,52 @@ export const developerResearch=[
       {label:'成美開發建設推案紀錄',url:'https://build.myhousing.com.tw/company/481952/',type:'建案資料彙整'},
     ],
   },
+  {
+    id:'jiarongtai-development',name:'佳榮泰建設開發',aliases:['佳榮泰建設','佳榮泰建設股份有限公司','佳榮泰建設開發','佳榮泰建設開發股份有限公司','佳榮泰都更開發股份有限公司'],reviewed:'2026-09-18',confidence:'中高',
+    scores:{delivery:48,quality:70,governance:65,service:60,risk:70},
+    summary:'公司於 2009 年設立，曾使用佳榮泰都更開發名稱，目前實收資本額 2 億元；官方預售查詢可確認五股「新花開」採價金返還保證，規劃 70 戶並已有多筆預售成交，官網另揭露 BIM 管理與安心建材履歷。',
+    caveat:'法人年資、資本額與都更整合經驗是正向條件，但新花開預計 2027 年交付，目前未找到足以核對的其他完整住宅交屋、品質缺失、保固時效或客訴統計；整合中案件也不能當成已交付實績。總分 62 分，列 C 級。',
+    sources:[
+      {label:'佳榮泰建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/24409463',type:'官方公司資料'},
+      {label:'新北市預售屋契約查詢',url:'https://www.land.ntpc.gov.tw/News.aspx?PageSize=20&n=11769&page=21&sms=9679',type:'新北市政府'},
+      {label:'新花開官方網站',url:'https://jrt-xinhuakai.com.tw/',type:'建案官方'},
+      {label:'新花開建案與成交資料',url:'https://www.plex.com.tw/projects/view/id/4554',type:'建案公開資料'},
+    ],
+  },
+  {
+    id:'diangao-construction',name:'典高建設',aliases:['典高建設','典高建設股份有限公司'],reviewed:'2026-09-18',confidence:'中',
+    scores:{delivery:48,quality:66,governance:62,service:58,risk:65},
+    summary:'公司登記資料可追溯至 2008 年，目前實收資本額 6,000 萬元；三峽「典高長月」已進入預售備查，公開資料顯示其為數十戶至數百戶規模的集合住宅規劃。',
+    caveat:'目前不同公開頁面對長月戶數出現 74 戶與 282 戶兩種口徑，且案件尚未交付；也未找到其他可可靠歸屬於典高的完整住宅交屋、公司級工程制度、財務治理或售後統計，因此不以公司存續年資推定履約能力。總分 59 分，列 C 級。',
+    sources:[
+      {label:'典高建設公司變更登記清冊',url:'https://serv.gcis.nat.gov.tw/pub/cmpy/reportAction.do?fileName=11311NTC.pdf&method=report&reportClass=cmpy&subPath=11311',type:'經濟部官方資料'},
+      {label:'典高長月公開案況',url:'https://www.leju.com.tw/community_list?area=F237&city=F&is_new=1',type:'建案資料彙整'},
+    ],
+  },
+  {
+    id:'xieyang-construction',name:'協揚建設',aliases:['協揚建設','協揚建設股份有限公司'],reviewed:'2026-09-18',confidence:'中高',
+    scores:{delivery:68,quality:68,governance:58,service:58,risk:70},
+    summary:'公司於 2021 年設立、實收資本額 1,000 萬元；官方預售契約確認協揚為蘆洲「長安幸福匯」賣方，該案規劃 33 戶住宅與 1 戶店面，已進入近期完工、驗屋及門牌成交階段。',
+    caveat:'已有一件住宅案接近或進入交付，是具體履約訊號；但公司年資短、住宅樣本仍只有一案，缺乏可比較的跨案品質、財務治理、保固與客訴處理紀錄。總分 64 分，列 C 級。',
+    sources:[
+      {label:'協揚建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/91096588',type:'官方公司資料'},
+      {label:'長安幸福匯官方預售契約',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?icon=..pdf&n=6ZW35a6J5bm456aP5YyvLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMS9yZWxmaWxlLzk2NzkvNjM5NzY5LzFkYjRjMDU4LTJhZDYtNDI2NS1hZDEzLTQ2NDUzOWQyNjVlNi5wZGY%3D',type:'新北市政府'},
+      {label:'長安幸福匯建案規劃',url:'https://tp.housetube.tw/43354',type:'建案公開資料'},
+      {label:'長安幸福匯驗屋紀錄',url:'https://tripletrust.com.tw/%E5%BB%BA%E6%A1%88%E5%AF%A6%E7%B8%BE-%E8%98%86%E6%B4%B2%E5%8D%80-%E5%8D%94%E6%8F%9A-%E9%95%B7%E5%AE%89%E5%B9%B8%E7%A6%8F%E5%8C%AF/',type:'工程查驗資料'},
+    ],
+  },
+  {
+    id:'zhoutai-construction',name:'周泰建設',aliases:['周泰建設','周泰建設有限公司','周泰建設股份有限公司'],reviewed:'2026-09-18',confidence:'中高',
+    scores:{delivery:72,quality:74,governance:64,service:65,risk:72},
+    summary:'公司於 2016 年設立，2024 年由有限公司變更為股份有限公司，目前實收資本額 2,580 萬元；官方網站揭露自有眾磐營造團隊、已完工的林口周泰富鴻與三重博暘科技總部，以及興建中的周泰詠安、板橋埔墘案。',
+    caveat:'已有住宅與非住宅完工軌跡、自有營造及後續推案，證據優於單一預售公司；但可核對的住宅交付樣本仍少，且公司級財務治理、工程缺失、保固時效與客訴統計尚未充分公開。總分 70 分，列 C 級。',
+    sources:[
+      {label:'周泰建設公司變更登記清冊',url:'https://serv.gcis.nat.gov.tw/pub/cmpy/reportAction.do?fileName=11311NTC.pdf&method=report&reportClass=cmpy&subPath=11311',type:'經濟部官方資料'},
+      {label:'周泰建設官方網站',url:'https://www.zhou-tai.com.tw/',type:'建商官方'},
+      {label:'周泰詠安官方預售查詢',url:'https://www.land.ntpc.gov.tw/News.aspx?PageSize=20&n=11769&page=22&sms=9679',type:'新北市政府'},
+      {label:'周泰詠安工程資料',url:'https://www.zhou-tai.com.tw/project/33/',type:'建商官方'},
+    ],
+  },
 ].map(profile=>{
   const score=profile.scores?weightedScore(profile.scores):null;
   return {...profile,score,rating:profile.rating||ratingFromScore(score)};
