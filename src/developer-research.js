@@ -6546,6 +6546,52 @@ export const developerResearch=[
       {label:'監察院第 6 屆第 79 次會議紀錄',url:'https://www-ws.cy.gov.tw/Download.ashx?icon=..pdf&n=5YWn5pePKOesrDY55qyhKeacg%2BitsOe0gOmMhC5wZGY%3D&u=LzAwMS9VcGxvYWQvMy9yZWxmaWxlLzkxNDQvMzczMzIvZTdlZDI3MzUtM2U5OC00ZWUwLTg2YWQtYzdiODBmMGUxNWMyLnBkZg%3D%3D',type:'監察院公開資料'},
     ],
   },
+  {
+    id:'kaiyue-construction',name:'凱越建設',aliases:['凱越建設','凱越建設股份有限公司'],reviewed:'2026-09-18',confidence:'高',
+    scores:{delivery:88,quality:80,governance:76,service:72,risk:78},
+    summary:'1998 年設立、實收資本額 3.7 億元；公司官網可核對集賢賦玉已取得使用執照，以及天藝、海上皇宮、凱越豐耘、凱越豐汎等不同階段作品，新北市備查亦可核實凱越豐汎。',
+    caveat:'具長期存續、資本規模及多案履約證據，但非公開發行公司，財務、售後時效與第三方品質統計仍不如 S、A 級品牌完整。總分 79 分，列 B 級。',
+    sources:[
+      {label:'凱越建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/16594865',type:'經濟部商工登記公示資料'},
+      {label:'凱越建設官網與工程紀錄',url:'https://kycon.com.tw/?p=gkbi',type:'建商官方資料'},
+      {label:'新北市預售屋備查建案清冊',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?n=MTEw5bm06IezMTE05bm05bey5YKZ5p%2Bl5bu65qGI5riF5YaKLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMzk5L3JlbGZpbGUvODk5My85NDY5L2NkZTQ4OTJkLTQzMzAtNDY3Zi1hYmExLTI3YzJiYjI0MjYxNi5wZGY%3D',type:'新北市政府公開資料'},
+      {label:'同業連帶擔保審核名單',url:'https://redat.yooniks.co/storage/upload/members/1131226%E5%AF%A9%E6%A0%B8%E9%80%9A%E9%81%8E%E5%90%8D%E5%96%AE%28%E7%99%BB%E7%B6%B2%29-1735196185.pdf',type:'不動產開發公會資料'},
+    ],
+  },
+  {
+    id:'tongyuan-construction',name:'統元建設（統揚機構）',aliases:['統元建設','統元建設股份有限公司'],reviewed:'2026-09-18',confidence:'中高',
+    scores:{delivery:78,quality:76,governance:66,service:68,risk:72},
+    summary:'統元建設 2023 年設立、資本額 2,500 萬元；統元極美官網與官方契約可核對責任法人，案網並揭露其為統揚機構旗下企業及悠遊居、陽明一會、漾都心、陽明上隱、克拉美地等作品。',
+    caveat:'集團約 30 年作品可作履約脈絡，但統元本身是新設法人，不能把所有關係企業歷史等同於本公司的財務與售後紀錄，因此治理及服務分數保守。總分 73 分，列 B 級。',
+    sources:[
+      {label:'統元建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/94241220',type:'經濟部商工登記公示資料'},
+      {label:'統元極美官方網站',url:'https://tongyuan.tw/',type:'建案官方資料'},
+      {label:'統元極美預售屋買賣契約',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?icon=..pdf&n=57Wx5YWD5qW1576OLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMS9yZWxmaWxlLzk2NzkvNzM5MTU2L2M3YmY2OWYyLWExOGUtNDFkOC04ODIxLWMzZWEyYjYyMDYxYS5wZGY%3D',type:'新北市政府公開契約'},
+      {label:'統揚建設官方網站',url:'https://toneyoung.com.tw/',type:'關係企業官方資料'},
+    ],
+  },
+  {
+    id:'jinmanyi-development',name:'金滿意建設開發',aliases:['金滿意建設開發','金滿意建設開發股份有限公司','金滿意建設開發有限公司'],reviewed:'2026-09-18',confidence:'中高',
+    scores:{delivery:70,quality:70,governance:68,service:62,risk:72},
+    summary:'2006 年設立、實收資本額 5,600 萬元；政府清冊可核實詠芙，市場推案紀錄另可交叉核對台信有逸市，已有超過單一案件的開發紀錄。',
+    caveat:'公司存續及兩案紀錄可確認，但官方網站、工程制度、完工後服務與客訴處理資訊有限，尚不足支持 B 級的穩定跨案證據。總分 68 分，列 C 級。',
+    sources:[
+      {label:'金滿意建設開發公司登記',url:'https://findbiz.nat.gov.tw/fts/company/28166311',type:'經濟部商工登記公示資料'},
+      {label:'新北市預售屋備查建案清冊',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?n=MTEw5bm06IezMTE05bm05bey5YKZ5p%2Bl5bu65qGI5riF5YaKLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMzk5L3JlbGZpbGUvODk5My85NDY5L2NkZTQ4OTJkLTQzMzAtNDY3Zi1hYmExLTI3YzJiYjI0MjYxNi5wZGY%3D',type:'新北市政府公開資料'},
+      {label:'金滿意建設推案紀錄',url:'https://build.myhousing.com.tw/company/484752/',type:'住展建案資料'},
+    ],
+  },
+  {
+    id:'qinghe-development',name:'晴合建設開發',aliases:['晴合建設開發','晴合建設開發股份有限公司'],reviewed:'2026-09-18',confidence:'中高',
+    scores:{delivery:45,quality:68,governance:62,service:55,risk:70},
+    summary:'2023 年設立，實收資本額已由 2,500 萬元增至 3,600 萬元；晴合豐川已有建照及公開銷售資料，可核實其投資興建身分。',
+    caveat:'目前主要可核實晴合豐川一案，尚未形成完工交付、跨案工程品質及售後保固樣本；同址或同負責人的其他公司不直接併入履歷。總分 59 分，列 C 級。',
+    sources:[
+      {label:'晴合建設開發公司登記',url:'https://findbiz.nat.gov.tw/fts/company/82972896',type:'經濟部商工登記公示資料'},
+      {label:'晴合豐川建案資料',url:'https://newhouse.591.com.tw/140811',type:'建案公開資料'},
+      {label:'新北市預售屋備查資料入口',url:'https://www.land.ntpc.gov.tw/News.aspx?n=11769&sms=9679',type:'新北市政府公開資料'},
+    ],
+  },
 ].map(profile=>{
   const score=profile.scores?weightedScore(profile.scores):null;
   return {...profile,score,rating:profile.rating||ratingFromScore(score)};
