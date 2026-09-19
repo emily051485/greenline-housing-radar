@@ -201,13 +201,15 @@ export const developerResearch=[
     ],
   },
   {
-    id:'paujar',name:'寶佳機構',aliases:['寶佳機構','寶佳建設'],reviewed:'2026-09-14',confidence:'不足',rating:'NR',
-    scores:null,
-    summary:'已確認為涵蓋大量不同建設公司的機構品牌，但無法取得足以代表所有關係公司的統一品管、售服與財務證據。',
-    caveat:'不做集團總分。寶佳相關建案必須依實際起造公司分開研究；把數十家公司合成 B 或 C 都會造成誤導。',
+    id:'paujar',name:'寶佳建設（不代表全體寶佳機構）',aliases:['寶佳機構','寶佳建設','寶佳建設股份有限公司'],reviewed:'2026-09-18',confidence:'中高',
+    scores:{delivery:88,quality:72,governance:66,service:65,risk:65},
+    summary:'寶佳建設股份有限公司於 1994 年設立、目前實收資本額 5.15 億元；政府契約、都審與使用執照資料可核對寶佳淳青及其他集合住宅案，具長期且大量的住宅開發履歷。',
+    caveat:'本評分只適用統編 84855607 的寶佳建設，不代表寶佳機構旗下數十家關係企業。量體與履約能力明確，但公司級財務治理、跨案品質指標、保固時效和客訴統計不足，且關係企業責任主體容易混淆。總分 73 分，列 B 級下緣。',
     sources:[
       {label:'立法院公聽會資料',url:'https://lis.ly.gov.tw/pubhearc/ttsbooki?N139396%3A0079-0090%3A_self=',type:'政府紀錄'},
-      {label:'寶佳建設公司概況',url:'https://www.104.com.tw/company/12zcu5eg',type:'公司徵才頁'},
+      {label:'寶佳建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/84855607',type:'經濟部官方資料'},
+      {label:'寶佳淳青預售屋契約',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?icon=..pdf&n=5a%2B25L2z5rez6Z2SLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMS9yZWxmaWxlLzk2NzkvNzI5OTMzL2M2OTY3NWExLTJmN2EtNGE0MS05M2FhLThjYTdiZDZjOWUyMC5wZGY%3D',type:'新北市官方契約'},
+      {label:'寶佳建設參與建案彙整',url:'https://www.archi.net.tw/tw/company/75433/index.html',type:'建築產業資料'},
     ],
   },
   {
@@ -335,13 +337,16 @@ export const developerResearch=[
     ],
   },
   {
-    id:'goodman',name:'國美建設',aliases:['國美建設'],reviewed:'2026-09-14',confidence:'中',
+    id:'goodman',name:'國美建設／國聚開發',aliases:['國美建設','國聚開發','國聚開發股份有限公司','寶亞建設','寶亞建設股份有限公司'],reviewed:'2026-09-18',confidence:'中高',
     scores:{delivery:82,quality:79,governance:58,service:77,risk:66},
-    summary:'官網可核對品牌沿革、安全、設計與售後承諾，也有可辨識的歷年作品；但缺少公司級財務、治理與量化售服揭露。',
-    caveat:'工程與售服內容主要為公司自述，尚無足夠公開報告交叉驗證，因此治理與風險項保守給分。',
+    summary:'國美官網可核對品牌沿革、設計與售後承諾；國聚開發於 2004 年設立、實收資本額 3 億元，官方契約可核對國美珩月，另由寶亞新公舘契約中的相同統編 80672090 確認「寶亞建設」為同一法人的歷史名稱。',
+    caveat:'合併依據是官方契約中的相同統編，不是只因品牌名稱相近。多案交付與國美機構合作關係明確，但工程、售服內容仍主要為公司自述，缺少公開財務及量化客訴成果。總分 74 分，列 B 級。',
     sources:[
       {label:'關於國美',url:'https://goodmangroup.tw/about-us/',type:'公司揭露'},
       {label:'國美機構官網',url:'https://goodmangroup.tw/',type:'公司揭露'},
+      {label:'國聚開發公司登記',url:'https://findbiz.nat.gov.tw/fts/company/80672090',type:'經濟部官方資料'},
+      {label:'國美珩月預售屋契約',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?icon=..pdf&n=5ZyL576O54%2Bp5pyILnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMS9yZWxmaWxlLzk2NzkvNjM4NzgwLzU5MWM0Njg2LWUzOTQtNGE0OS1hZTdmLWUzOWM2ZDEyN2I1ZS5wZGY%3D',type:'新北市官方契約'},
+      {label:'寶亞新公舘契約（統編 80672090）',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?icon=..pdf&n=5a%2B25Lqe5paw5YWs6IiYLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMS9yZWxmaWxlLzk2NzkvNjQwNDAyLzIwMzJjZDc0LWFjMmItNDJhMi1iNGNmLTVmNzk0YzY0NmQ5OC5wZGY%3D',type:'新北市官方契約'},
     ],
   },
   {
@@ -6458,6 +6463,18 @@ export const developerResearch=[
       {label:'勝輝機構公司沿革',url:'https://www.sunglory.tw/about.php',type:'建商官方資料'},
       {label:'勝輝機構建築作品',url:'https://www.sunglory.tw/case.php',type:'建商官方資料'},
       {label:'新北市預售屋買賣契約查詢',url:'https://www.land.ntpc.gov.tw/News.aspx?PageSize=20&n=11769&page=22&sms=9679',type:'新北市官方資料'},
+    ],
+  },
+  {
+    id:'yuanhong-development',name:'遠宏開發',aliases:['遠宏開發','遠宏開發股份有限公司'],reviewed:'2026-09-18',confidence:'中高',
+    scores:{delivery:66,quality:70,governance:64,service:60,risk:70},
+    summary:'公司於 2020 年設立、2021 年由遠寬投資更名，現實收資本額 5,200 萬元；新北市官方備查可確認遠宏為泰山「文華閱」賣方，該案 83 戶並於 2024 年取得完工、門牌與成交資料。',
+    caveat:'文華閱提供一件完整的預售至完工履約樣本，且有第三方工程查驗紀錄；但公司年資短、目前未找到第二件可可靠歸屬的住宅案，也缺乏公司級品管、財務治理、保固時效與客訴統計。總分 66 分，列 C 級。',
+    sources:[
+      {label:'遠宏開發公司登記',url:'https://findbiz.nat.gov.tw/fts/company/83584769',type:'經濟部官方資料'},
+      {label:'新北市預售屋買賣契約查詢',url:'https://www.land.ntpc.gov.tw/News.aspx?PageSize=20&_Query=a57b2e19-ab70-4142-80ea-976f35abb5bb&n=11769&page=36&sms=9679',type:'新北市官方資料'},
+      {label:'文華閱完工社區資料',url:'https://community.yungching.com.tw/building/93359',type:'社區公開資料'},
+      {label:'文華閱第三方工程查驗紀錄',url:'https://tripletrust.com.tw/%E5%BB%BA%E6%A1%88%E5%AF%A6%E7%B8%BE-%E6%B3%B0%E5%B1%B1%E5%8D%80-%E9%81%A0%E5%AE%8F-%E6%96%87%E8%8F%AF%E9%96%B1/',type:'第三方查驗資料'},
     ],
   },
 ].map(profile=>{
