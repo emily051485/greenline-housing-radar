@@ -7921,6 +7921,67 @@ export const developerResearch=[
       {label:'碧瑤機構推案紀錄',url:'https://build.myhousing.com.tw/company/491219/',type:'市場建案履歷交叉核對'},
     ],
   },
+  {
+    id:'baowei-construction',name:'寶偉建設',aliases:['寶偉建設','寶偉建設有限公司'],reviewed:'2026-09-18',confidence:'中高',
+    scores:{delivery:78,quality:78,governance:66,service:65,risk:74},
+    summary:'2006 年成立，資本額 2,020 萬元；可直接核對 2013 年前後完工、共 18 戶的夏朵莊園／寶偉Chateau，以及目前 84 戶的寶偉遇花園，已有相隔十年以上的兩筆直接作品。',
+    caveat:'長期存續與完工社區支持基本履約能力，但直接作品量仍不大，公司級財務透明度、工程稽核、保固時效與客訴成果未公開；候選智慧／綠建築標章也不等同最終取得。總分 73 分，列為 B 級。',
+    sources:[
+      {label:'寶偉建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/28392317',type:'官方經濟部商工登記資料'},
+      {label:'寶偉遇花園備查清冊',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?n=MTEw5bm06IezMTE05bm05bey5YKZ5p%2Bl5bu65qGI5riF5YaKLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMzk5L3JlbGZpbGUvODk5My85NDY5L2NkZTQ4OTJkLTQzMzAtNDY3Zi1hYmExLTI3YzJiYjI0MjYxNi5wZGY%3D',type:'新北市政府預售屋官方資料'},
+      {label:'寶偉遇花園建照與規模',url:'https://market.591.com.tw/5935778/overview',type:'市場建案與建照資料'},
+      {label:'夏朵莊園完工社區資料',url:'https://community.rakuya.com.tw/55774',type:'完工建物與交易資料'},
+    ],
+  },
+  {
+    id:'chongyang-development',name:'崇陽開發',aliases:['崇陽開發','崇陽開發股份有限公司'],reviewed:'2026-09-18',confidence:'中',
+    scores:{delivery:68,quality:78,governance:76,service:70,risk:76},
+    summary:'2012 年成立，資本額 3.8 億元；官方預售契約可確認水美慕河由崇陽開發銷售，規劃 126 戶、建照 112淡建字第00277號，並取得黃金級候選綠建築證書。公司與水美開發、維陽建設及春輝營造有可交叉核對的關係企業脈絡。',
+    caveat:'資本、開發信託、溫泉水權安排與候選綠建築證書提供較完整的個案證據，但水美慕河仍在興建，崇陽法人自身可核對的完工交付與售後樣本不足；不把水美機構其他法人作品全部移轉計分。總分 73 分，列為 B 級。',
+    sources:[
+      {label:'崇陽開發公司登記',url:'https://findbiz.nat.gov.tw/fts/company/53777986',type:'官方經濟部商工登記資料'},
+      {label:'水美慕河預售屋契約',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?icon=..pdf&n=5rC0576O5oWV5rKzLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMS9yZWxmaWxlLzk2NzkvNzI0MDQ4L2NiYWJjZmRmLTM4NzgtNGFlMC04MDQyLWNkMTRlNGNlZTU3NC5wZGY%3D',type:'新北市政府預售屋官方資料'},
+      {label:'候選綠建築證書清冊',url:'https://ws.moi.gov.tw/Download.ashx?icon=.pdf&n=MTE05bm05bqm5YWo6YOo6YCa6YGO5qGI5Lu25LiA6Ka96KGoLeeOi%2BWNmi005pyILnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvNDM2L3JlbGZpbGUvMTI0NjUvMzI4MDQ5LzRmZDQ4NWMyLTk3ZjYtNDExMC05N2FhLTQ1ZjBjZDBlZWYwOS5wZGY%3D',type:'內政部官方標章資料'},
+      {label:'水美機構關係企業說明',url:'https://www.104.com.tw/company/1a2x6bj1w7',type:'企業公開資料交叉核對'},
+    ],
+  },
+  {
+    id:'xingui-development',name:'新貴開發',aliases:['新貴開發','新貴開發股份有限公司'],reviewed:'2026-09-18',confidence:'高',
+    scores:{delivery:80,quality:76,governance:64,service:62,risk:48},
+    summary:'2011 年成立，資本額 3,500 萬元；可核對松江新貴、靜心多多及淡水台北別墅等不同案，具完工與持續推案紀錄，台北別墅亦有新北市官方預售契約。',
+    caveat:'臺北市 2016 年稽查指出靜心多多契約多項內容不符規定並限期改正；新北市另於 2025 年因其淡水整體開發案未依環評內容執行，裁罰 30 萬元並處環境講習。負面紀錄已明確下修治理與風險，總分 69 分，列為 C 級。',
+    sources:[
+      {label:'新貴開發公司登記',url:'https://findbiz.nat.gov.tw/fts/company/53524701',type:'官方經濟部商工登記資料'},
+      {label:'台北別墅預售屋契約',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?icon=..pdf&n=5Y%2Bw5YyX5Yil5aKFLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMS9yZWxmaWxlLzk2NzkvNzE2OTQ1LzMxOTQwNDQ2LWY0MTEtNGQ0Ni05ZDAyLWUwZGI4ZjJlMzZjNC5wZGY%3D',type:'新北市政府預售屋官方資料'},
+      {label:'靜心多多預售屋稽查結果',url:'https://land.gov.taipei/News_Content.aspx?n=0ABE9F8A3E5B75C2&s=1AAB3D7A235A14B1&sms=72544237BBE4C5F6',type:'臺北市政府官方稽查資料'},
+      {label:'新貴開發環評裁罰紀錄',url:'https://thaubing.gcaa.org.tw/facility/A34097058997',type:'環境裁罰公開資料彙整'},
+      {label:'松江新貴完工社區資料',url:'https://www.plex.com.tw/projects/transactions/id/2218/address/%E6%B0%91%E6%AC%8A%E6%9D%B1%E8%B7%AF%E4%BA%8C%E6%AE%B5135%E5%B7%B736%E8%99%9F7%E6%A8%93',type:'完工建物與交易資料'},
+    ],
+  },
+  {
+    id:'dongjian-international',name:'東建國際建設',aliases:['東建國際建設','東建國際建設股份有限公司'],reviewed:'2026-09-18',confidence:'中',
+    scores:{delivery:66,quality:74,governance:76,service:62,risk:76},
+    summary:'2006 年成立，實收資本額已增至 1.59 億元；官方備查清冊與契約可確認伊豆莊園II由東建國際建設及家有公司共同出售，基地約 1,873 坪、規劃約 236 戶。',
+    caveat:'法人年資及資本額具一定基礎，但目前完整歸屬東建國際本身的住宅紀錄仍集中於伊豆莊園II，不能把名稱相近的東泰國際或其他合作方作品直接併入；完工品質與公司級售後資料尚不足。總分 70 分，列為 C 級。',
+    sources:[
+      {label:'東建國際建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/28350597',type:'官方經濟部商工登記資料'},
+      {label:'伊豆莊園II預售屋契約',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?icon=..pdf&n=5LyK6LGG6I6K5ZySSUkucGRm&u=LzAwMS9VcGxvYWQvMS9yZWxmaWxlLzk2NzkvNzI5NDg3L2QxOTQwYjJiLTgwOTAtNDliMS05YWVkLWNjMDdjMDY1ZTQwMy5wZGY%3D',type:'新北市政府預售屋官方資料'},
+      {label:'伊豆莊園II備查清冊',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?n=MTEw5bm06IezMTE05bm05bey5YKZ5p%2Bl5bu65qGI5riF5YaKLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMzk5L3JlbGZpbGUvODk5My85NDY5L2NkZTQ4OTJkLTQzMzAtNDY3Zi1hYmExLTI3YzJiYjI0MjYxNi5wZGY%3D',type:'新北市政府預售屋官方資料'},
+      {label:'伊豆莊園II建案規模',url:'https://www.plex.com.tw/projects/view/id/5467',type:'市場建案資料交叉核對'},
+    ],
+  },
+  {
+    id:'xifu-construction',name:'溪福建設',aliases:['溪福建設','溪福建設股份有限公司'],reviewed:'2026-09-18',confidence:'高',
+    scores:{delivery:88,quality:76,governance:64,service:68,risk:50},
+    summary:'1998 年成立，實收資本額 3,500 萬元；可核對三希堂、發現之旅2、富景、新旅城、囍悅MRT、御莊園及自遊城等跨區作品，具長期、多案與完工交付軌跡。',
+    caveat:'公平交易委員會 2014 年認定三希堂廣告把機房、儲藏室與陽台標為臥室，構成虛偽不實及引人錯誤表示，裁罰 20 萬元。雖長期案量支持履約分，此項可核驗紀錄須下修治理與風險；總分 72 分，列為 B 級。',
+    sources:[
+      {label:'溪福建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/16697953',type:'官方經濟部商工登記資料'},
+      {label:'自遊城預售屋契約',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?icon=..pdf&n=6Ieq6YGK5Z%2BOLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMS9yZWxmaWxlLzk2NzkvNjQwMDE4L2NhOTIwNTcwLWFkNTctNDdmNC1iOWI1LTQ4NTBiMDQyZGI1ZS5wZGY%3D',type:'新北市政府預售屋官方資料'},
+      {label:'溪福建設歷年建案',url:'https://build.myhousing.com.tw/company/490210/',type:'市場建案履歷彙整'},
+      {label:'公平會三希堂處分書',url:'https://www.ftc.gov.tw/upload/4e589d54-8e5e-472e-baec-62e36a9da47f.pdf',type:'公平交易委員會官方裁罰資料'},
+    ],
+  },
 ].map(profile=>{
   const score=profile.scores?weightedScore(profile.scores):null;
   return {...profile,score,rating:profile.rating||ratingFromScore(score)};
