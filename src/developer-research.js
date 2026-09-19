@@ -5754,6 +5754,30 @@ export const developerResearch=[
       {label:'新北市預售備查清冊',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?n=MTEw5bm06IezMTE05bm05bey5YKZ5p%2Bl5bu65qGI5riF5YaKLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMzk5L3JlbGZpbGUvODk5My85NDY5L2NkZTQ4OTJkLTQzMzAtNDY3Zi1hYmExLTI3YzJiYjI0MjYxNi5wZGY%3D',type:'政府預售資料'},
     ],
   },
+  {
+    id:'herobear-development',name:'伊洛熊多媒體科技',aliases:['伊洛熊多媒體科技有限公司','伊洛熊多媒體科技'],reviewed:'2026-09-18',confidence:'高',
+    scores:{delivery:45,quality:55,governance:55,service:50,risk:68},
+    summary:'公司登記可確認法人存續及 2,000 萬元資本額；雖公司名稱並非典型建設業品牌，僑家晶鑽正式預售契約明確將伊洛熊列為賣方，依法承擔 17 戶預售案的契約責任。',
+    caveat:'目前只找到單一小型預售案，未見可核對的住宅完工交付、工程品管、售後制度或連續財務資料；不能因其名稱不像建商而排除，也不能因取得建照就推定成熟履約能力。總分 53 分，列 C 級。',
+    sources:[
+      {label:'伊洛熊公司登記',url:'https://findbiz.nat.gov.tw/fts/company/28139321',type:'政府公司資料'},
+      {label:'新北市公司變更登記清冊',url:'https://serv.gcis.nat.gov.tw/pub/cmpy/reportAction.do?fileName=11304NTC.pdf&method=report&reportClass=cmpy&subPath=11304',type:'政府公司資料'},
+      {label:'僑家晶鑽預售契約',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?icon=..pdf&n=5YOR5a625pm26ZG9LnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMS9yZWxmaWxlLzk2NzkvNzQxMTg0L2I1ZDFiNTMxLTlhZTktNDA2My04OTkzLWQ4ZjJhYmEyNGViYy5wZGY%3D',type:'政府預售契約'},
+    ],
+  },
+  {
+    id:'hetang-consulting',name:'合唐工程顧問',aliases:['合唐工程顧問有限公司','合唐工程顧問'],reviewed:'2026-09-18',confidence:'高',
+    scores:{delivery:75,quality:72,governance:64,service:60,risk:68},
+    summary:'2007 年設立、資本額 5,800 萬元；政府都審資料確認合唐為金山 27 戶集合住宅申請單位，備查與成屋資料另可核對合唐焞晶、合唐合韻及合唐儷賞等跨區案件。',
+    caveat:'已有多案與完工樣本，但公司官網、施工查驗、保固處理、財務治理及住戶服務成效揭露不足；2017 年廣告看板污染裁罰金額小，僅保守反映而不過度放大。總分 68 分，列 C 級。',
+    sources:[
+      {label:'合唐工程顧問公司登記',url:'https://findbiz.nat.gov.tw/fts/company/28629235',type:'政府公司資料'},
+      {label:'合唐金山案都市設計審議',url:'https://www.ntcaa.org.tw/Content/Files/News/3ed87e569ba84456b6561df80c97bdd5.pdf',type:'政府審議資料'},
+      {label:'新北市預售備查查詢',url:'https://www.land.ntpc.gov.tw/News.aspx?PageSize=20&n=11769&page=14&sms=9679',type:'政府預售資料'},
+      {label:'合唐推案與完工紀錄',url:'https://build.myhousing.com.tw/company/481536/',type:'建案公開資料'},
+      {label:'環境裁處資料彙整',url:'https://thaubing.gcaa.org.tw/corp/28629235',type:'政府資料彙整'},
+    ],
+  },
 ].map(profile=>{
   const score=profile.scores?weightedScore(profile.scores):null;
   return {...profile,score,rating:profile.rating||ratingFromScore(score)};
