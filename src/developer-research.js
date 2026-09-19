@@ -5926,6 +5926,50 @@ export const developerResearch=[
       {label:'愛山林年報專案揭露',url:'https://www.isanlin.com/files/113%E5%B9%B4%E5%BA%A6%E8%82%A1%E6%9D%B1%E6%9C%83%E5%B9%B4%E5%A0%B1%28%E4%B8%AD%E6%96%87%E7%89%88%29.pdf',type:'上市公司年報'},
     ],
   },
+  {
+    id:'chungli-construction',name:'崇利建設',aliases:['崇利建設','崇利建設股份有限公司','崇利元信','崇利元信股份有限公司'],reviewed:'2026-09-18',confidence:'中高',
+    scores:{delivery:82,quality:78,governance:65,service:72,risk:72},
+    summary:'公司於 2012 年設立，官方網站可交叉核對崇利大吾蔚、崇利中山、崇利台北京城與崇利華漾等連續推案，並設有建築業績、客戶服務與都市更新專區；至少已有台北京城全新完工與多個蘆洲生活圈個案可供後續履歷查核。',
+    caveat:'現階段可確認的是公司登記、官方推案序列與售服入口，尚缺上市櫃等級的公開財務、交屋後修繕統計及第三方品質量化資料；因此交付履歷給予正向評價，但治理、服務與風險維度不作高分推定。總分 75 分，列 B 級。',
+    sources:[
+      {label:'崇利建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/53721956',type:'官方公司資料'},
+      {label:'崇利建設官方網站',url:'https://www.chungli-tw.com/',type:'建商官方'},
+      {label:'崇利建築業績與熱銷個案',url:'https://www.chungli-tw.com/portal_b3.php',type:'建商官方'},
+    ],
+  },
+  {
+    id:'jieyang-development',name:'捷洋開發',aliases:['捷洋開發','捷洋開發股份有限公司','捷洋開發有限公司'],reviewed:'2026-09-18',confidence:'中',
+    scores:{delivery:78,quality:75,governance:65,service:65,risk:72},
+    summary:'公司於 2005 年設立、目前實收資本額 1.2 億元；可核對 2014 年取得使用執照、115 戶的捷洋天湛完工社區，以及與誠家興建設共同列名的捷洋蔚來預售案，顯示並非僅有單一備查名稱。',
+    caveat:'完成案與現行預售案均能交叉核對，但公開可查的完整案量、公司治理、售後修繕機制與住戶長期回饋仍不足；不能只因資本額或單一完工案推定為成熟大型建商。總分 71 分，列 C 級。',
+    sources:[
+      {label:'捷洋開發公司登記',url:'https://findbiz.nat.gov.tw/fts/company/28021505',type:'官方公司資料'},
+      {label:'捷洋蔚來預售屋契約',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?icon=..pdf&n=5o235rSL6JSa5L6GLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMS9yZWxmaWxlLzk2NzkvNzMyMTg0LzI0MzYxYWJlLTkzODItNGVkMy1iOWNkLTVmMjYwODFlZGQyMy5wZGY%3D',type:'官方預售資料'},
+      {label:'捷洋天湛建物資料',url:'https://bpm.com.tw/property/bnvh/',type:'完工建物資料'},
+    ],
+  },
+  {
+    id:'xinsheng-construction',name:'莘聖建設',aliases:['莘聖建設','莘聖建設股份有限公司'],reviewed:'2026-09-18',confidence:'高',
+    scores:{delivery:25,quality:20,governance:45,service:40,risk:15},
+    summary:'公司於 2020 年設立、目前實收資本額 2,200 萬元；目前可辨識的主要住宅案為莘聖沐光居。該案 2025 年地下室開挖期間發生嚴重損鄰，政府資料記載鄰房傾斜並進行緊急疏散與搶災，後續審查及施工抽查機制亦因該公安事件調整。',
+    caveat:'重大事故已由新北市政府資料確認，但最終肇因、各參與單位責任與賠償結果仍應以鑑定、裁判或主管機關最終文件為準；本評分不預斷法律責任，而是將已發生的工程風險、住戶衝擊及有限交付履歷反映於品質與風險維度。總分 30 分，列 C 級。',
+    sources:[
+      {label:'莘聖建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/83709120',type:'官方公司資料'},
+      {label:'六張街工地損鄰處置',url:'https://www.publicwork.ntpc.gov.tw/home.jsp?act=be4f48068b2b0031&dataserno=b0e765656df00b5b255b8c7942d142ce&id=11',type:'新北市政府'},
+      {label:'公安事件後開挖審查紀錄',url:'https://www.planning.ntpc.gov.tw/uploaddowndoc?file=downloaddata%2F202505231531430.pdf&filedisplay=%5B%E9%81%AE%E7%BD%A9%5D%E7%99%BC%E6%96%87-%E5%85%AC%E8%81%BD%E6%9C%83%E7%B4%80%E9%8C%84%28%E5%AE%9A%E7%A8%BF%29.pdf&flag=doc',type:'新北市政府'},
+    ],
+  },
+  {
+    id:'jinchang-construction',name:'金錩建設',aliases:['金錩建設','金錩建設股份有限公司'],reviewed:'2026-09-18',confidence:'中',
+    scores:{delivery:75,quality:72,governance:62,service:60,risk:70},
+    summary:'公司於 2010 年設立、資本額 1 億元；可交叉核對 2013 年完工的釉裡紅 A、B 區，以及目前的覓靚101個案，具實際完成住宅個案紀錄。',
+    caveat:'現有證據可確認公司身分與至少兩區完工履歷，但公開案量不大，且缺少公司層級的財務治理、售後保固流程、長期住戶服務與工程品質統計；另有代銷資料將覓靚101投資建設寫為「金銘建設」，與政府資料庫及其他建案資料不一致，本站暫依政府資料所列金錩建設並保留查核註記。總分 68 分，列 C 級。',
+    sources:[
+      {label:'金錩建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/53097622',type:'官方公司資料'},
+      {label:'金錩建設推案紀錄',url:'https://build.myhousing.com.tw/company/484780/',type:'建案資料'},
+      {label:'釉裡紅 A 區完工資料',url:'https://www.plex.com.tw/projects/view/id/1625',type:'完工建案資料'},
+    ],
+  },
 ].map(profile=>{
   const score=profile.scores?weightedScore(profile.scores):null;
   return {...profile,score,rating:profile.rating||ratingFromScore(score)};
