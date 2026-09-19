@@ -6089,6 +6089,52 @@ export const developerResearch=[
       {label:'百邑富都匯完工資料',url:'https://www.baifong.com.tw/showcases/project/baiyi-fuduhui',type:'建案公開資料'},
     ],
   },
+  {
+    id:'quanyixing-construction',name:'全邑興建設',aliases:['全邑興建設','全邑興建設股份有限公司','全邑地產有限公司'],reviewed:'2026-09-18',confidence:'中高',
+    scores:{delivery:72,quality:70,governance:62,service:65,risk:70},
+    summary:'公司前身全邑地產於 2018 年設立，2019 年更名為全邑興建設，目前實收資本額 2,000 萬元；全邑興・美已有實價及完工社區資料，官方網站另揭露中和預推案與板橋成功段都市更新進度。',
+    caveat:'已有一案交付與後續開發軌跡，但公司年資、跨案完工數、工程制度、財務治理及售後服務成效仍不足；網站所稱數十年選地經驗屬團隊敘述，不能等同此法人自 2018 年起的交付履歷。總分 68 分，列 C 級。',
+    sources:[
+      {label:'全邑興建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/50842816',type:'官方公司資料'},
+      {label:'全邑興建設官方網站',url:'https://all-round.com.tw/',type:'建商官方'},
+      {label:'全邑興・美公開資料',url:'https://fangnote.info/2022/%E5%85%A8%E9%82%91%E8%88%88%E7%BE%8E/',type:'完工建案資料'},
+    ],
+  },
+  {
+    id:'hongfu-development',name:'宏富開發建設',aliases:['宏富開發建設','宏富開發建設有限公司','宏富建設'],reviewed:'2026-09-18',confidence:'中高',
+    scores:{delivery:60,quality:68,governance:60,service:60,risk:70},
+    summary:'公司於 2011 年設立、目前資本額 2,800 萬元；星波畔預售契約可確認宏富為賣方，公開案況顯示該案採先建後售，且有成交與工程資料可供持續追蹤。',
+    caveat:'媒體將星波畔稱為宏富的「開業鉅作」，目前未找到足以核對的其他完整交付案、公司級品質制度、財務治理或售後統計；先建後售可降低部分完工不確定性，但不能替代實際交屋與保固紀錄。總分 63 分，列 C 級。',
+    sources:[
+      {label:'宏富開發建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/53429811',type:'官方公司資料'},
+      {label:'星波畔官方預售契約',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?icon=..pdf&n=5pif5rOi55WULnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMS9yZWxmaWxlLzk2NzkvNzM2NTE1LzMyYTRmZTZmLWMxNTgtNGI3ZS05ZDg3LWQ0NzVjY2E3M2NlYy5wZGY%3D',type:'新北市政府'},
+      {label:'星波畔個案資料',url:'https://www.plex.com.tw/projects/view/id/8071',type:'建案公開資料'},
+    ],
+  },
+  {
+    id:'dibao-development',name:'帝寶開發（碧瑤機構）',aliases:['帝寶開發','帝寶開發股份有限公司'],reviewed:'2026-09-18',confidence:'中',
+    scores:{delivery:75,quality:72,governance:60,service:62,risk:70},
+    summary:'公司於 2005 年設立，與碧瑤機構使用相同地址及代表人關係公司；可歸屬於帝寶法人的個案至少包括已形成社區的碧瑤帝景，以及目前備查、興建中的碧瑤敦灃。',
+    caveat:'市場資料會把新浩、永錡、翰鴻與帝寶等不同法人合稱碧瑤機構，但本站只採帝寶可核對的個案，不將其他關係公司作品全部移轉；公司自身財務、品質稽核、保固與客訴統計不足。總分 68 分，列 C 級。',
+    sources:[
+      {label:'帝寶開發公司登記',url:'https://findbiz.nat.gov.tw/fts/company/27804065',type:'官方公司資料'},
+      {label:'碧瑤敦灃預售備查清冊',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?n=MTEw5bm06IezMTE05bm05bey5YKZ5p%2Bl5bu65qGI5riF5YaKLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMzk5L3JlbGZpbGUvODk5My85NDY5L2NkZTQ4OTJkLTQzMzAtNDY3Zi1hYmExLTI3YzJiYjI0MjYxNi5wZGY%3D',type:'新北市政府'},
+      {label:'碧瑤敦灃建照與團隊資料',url:'https://newhouse.591.com.tw/135625/detail',type:'建案公開資料'},
+      {label:'碧瑤帝景完工社區資料',url:'https://community.rakuya.com.tw/9706',type:'完工建物資料'},
+    ],
+  },
+  {
+    id:'dongtai-international',name:'東泰國際建設',aliases:['東泰國際建設','東泰國際建設股份有限公司'],reviewed:'2026-09-18',confidence:'中高',
+    scores:{delivery:62,quality:68,governance:62,service:60,risk:64},
+    summary:'公司於 2005 年設立、目前實收資本額 8,000 萬元；新北市預售契約與交易資料可核對伊豆莊園一、二期，規劃約 168 戶，目前屬興建／預售階段。',
+    caveat:'法人存續逾二十年，但目前住宅公開履歷集中在尚未交付的伊豆莊園系列，缺乏可核對的既有住宅交屋、品質制度、公司治理與售後服務成果；公司年資不等於住宅交付年資。總分 63 分，列 C 級。',
+    sources:[
+      {label:'東泰國際建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/27809857',type:'官方公司資料'},
+      {label:'伊豆莊園預售契約查詢',url:'https://www.land.ntpc.gov.tw/News.aspx?PageSize=20&n=11769&page=20&sms=9679',type:'新北市政府'},
+      {label:'伊豆莊園規劃資料',url:'https://estate.ltn.com.tw/article/18378',type:'建案公開資料'},
+      {label:'東泰國際建案索引',url:'https://www.plex.com.tw/projects/index/type/developer/query/%E6%9D%B1%E6%B3%B0%E5%9C%8B%E9%9A%9B%E5%BB%BA%E8%A8%AD/status/all',type:'建案資料彙整'},
+    ],
+  },
 ].map(profile=>{
   const score=profile.scores?weightedScore(profile.scores):null;
   return {...profile,score,rating:profile.rating||ratingFromScore(score)};
