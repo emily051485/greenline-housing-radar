@@ -16,6 +16,8 @@ const ratedProjects=matureProjects.filter(project=>['S','A','B','C'].includes(pr
 document.querySelector('#profile-total').textContent=profiles.length;
 document.querySelector('#rated-project-total').textContent=ratedProjects;
 document.querySelector('#pending-project-total').textContent=matureProjects.filter(project=>project.rating==='NR').length;
+document.querySelector('#developer-flag option[value="major"]').textContent=`${developerFlagDefinitions.major.label}（${profiles.filter(profile=>profile.flags.major).length}）`;
+document.querySelector('#developer-flag option[value="limited"]').textContent=`${developerFlagDefinitions.limited.label}（${profiles.filter(profile=>profile.flags.limited).length}）`;
 
 function radarHtml(profile){
   const labels=['履約推案','工程制度','財務治理','售後保固','風險管理'];
