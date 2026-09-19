@@ -8103,6 +8103,67 @@ export const developerResearch=[
       {label:'新北預售備查建案清冊',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?n=MTEw5bm06IezMTE05bm05bey5YKZ5p%2Bl5bu65qGI5riF5YaKLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMzk5L3JlbGZpbGUvODk5My85NDY5L2NkZTQ4OTJkLTQzMzAtNDY3Zi1hYmExLTI3YzJiYjI0MjYxNi5wZGY%3D',type:'政府備查清冊'},
     ],
   },
+  {
+    id:'quanhong-construction-16071682',name:'泉泓建設',aliases:['泉泓建設','泉泓建設有限公司'],reviewed:'2026-09-19',confidence:'中',
+    scores:{delivery:74,quality:74,governance:66,service:62,risk:74},
+    summary:'1997 年設立、資本額 2,500 萬元；官方備查契約可確認「泉泓沐風」由泉泓建設直接出售，建照及市場資料亦可交叉核對該案規模與規劃。',
+    caveat:'公司年資長，但目前能可靠歸屬的直接作品、完工交付、品質制度與售後成效資料仍集中於單一小型案；年資不能替代跨案履歷與服務證據，因此總分 70 分，列 C 級。',
+    sources:[
+      {label:'泉泓建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/16071682',type:'經濟部商工登記'},
+      {label:'泉泓沐風預售契約',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?icon=..pdf&n=5rOJ5rOT5rKQ6aKoLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMS9yZWxmaWxlLzk2NzkvNjM4Nzg4LzcxZDMyZGY0LTQ4YmEtNDVlYi05YzEyLWY3MWZiNjEwZGI5NS5wZGY%3D',type:'政府備查契約'},
+      {label:'泉泓沐風市場調查',url:'https://www.myhousing.com.tw/n/n02/n0202/new-taipei-city/131626/',type:'專業房市媒體'},
+      {label:'泉泓沐風建照工程紀錄',url:'https://thaubing.gcaa.org.tw/facility/F05C3776',type:'政府資料彙整'},
+    ],
+  },
+  {
+    id:'dingshi-construction-50903290',name:'鼎實建設',aliases:['鼎實建設','鼎實建設股份有限公司'],reviewed:'2026-09-19',confidence:'中高',
+    scores:{delivery:80,quality:80,governance:70,service:66,risk:74},
+    summary:'2018 年設立，實收資本額已由初期 100 萬元增至 2.4 億元；公司官網列有「唯我」及多筆鼎實機構作品，且公開工程資料可核對其他商辦與住宅開發活動。',
+    caveat:'官網列示部分作品可能屬鼎實機構過往或關係體系參與，不能全部視為現行統編 50903290 的獨立完工實績；目前亦缺少保固、客訴與交屋品質的連續量化揭露，故總分 75 分，列 B 級。',
+    sources:[
+      {label:'鼎實建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/50903290',type:'經濟部商工登記'},
+      {label:'鼎實建設官方網站',url:'https://capstonegroup.com.tw/',type:'公司與建案揭露'},
+      {label:'鼎實建設參與建案整理',url:'https://www.archi.net.tw/tw/company/141867/index.html',type:'營建產業資料'},
+      {label:'鼎實內湖商辦工程紀錄',url:'https://thaubing.gcaa.org.tw/corp/50903290',type:'政府資料彙整'},
+    ],
+  },
+  {
+    id:'longjinbao-construction-42965223',name:'龍金寶建設',aliases:['龍金寶建設','龍金寶建設有限公司'],reviewed:'2026-09-19',confidence:'中高',
+    scores:{delivery:82,quality:78,governance:68,service:64,risk:76},
+    summary:'2018 年設立、資本額 5,600 萬元；新竹市官方建案名冊、預售價金信託與市場推案紀錄可交叉確認多筆住宅作品，「富春居」亦列入新北市預售備查清冊。',
+    caveat:'已有跨案推案與完工信託紀錄，履歷不應只按富春居 13 戶判斷；但公司年資仍短，品質、售後、客訴及財務治理缺乏連續量化揭露，市場作品清單也需逐案區分共同投資角色，故總分 74 分，列 B 級。',
+    sources:[
+      {label:'龍金寶建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/42965223',type:'經濟部商工登記'},
+      {label:'新竹市建案名冊',url:'https://land.hccg.gov.tw/news/?file_rename=5bu65qGI5ZCN5YaKXzI0MDEzMTAxNTUzNQ%283D%283D.pdf&folder=news2_files_935&mode=dl_file&parent_id=10004&type_id=10653',type:'政府建案清冊'},
+      {label:'雲硯－青青信託完成公告',url:'https://customer.ktb.com.tw/new/personal/a756b0b1',type:'銀行信託公告'},
+      {label:'新北預售備查建案清冊',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?n=MTEw5bm06IezMTE05bm05bey5YKZ5p%2Bl5bu65qGI5riF5YaKLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMzk5L3JlbGZpbGUvODk5My85NDY5L2NkZTQ4OTJkLTQzMzAtNDY3Zi1hYmExLTI3YzJiYjI0MjYxNi5wZGY%3D',type:'政府備查清冊'},
+      {label:'龍金寶推案紀錄',url:'https://build.myhousing.com.tw/company/492706/',type:'專業房市媒體'},
+    ],
+  },
+  {
+    id:'baoyuan-development-83523497',name:'寶源開發',aliases:['寶源開發','寶源開發股份有限公司'],reviewed:'2026-09-19',confidence:'中',
+    scores:{delivery:64,quality:76,governance:68,service:60,risk:72},
+    summary:'2020 年設立、實收資本額 2,000 萬元；官方備查契約、建照與開發信託資料可確認其為「湯泉綠中海 2」直接出賣人及開發主體，該案規模約 196 戶並持續施工。',
+    caveat:'公司設立時間與本案啟動接近，公開資料呈現明顯專案公司特徵；大型單案的總銷或戶數不能等同多案交付能力，目前亦無足夠完工、售後與品質追蹤資料，故總分 68 分，列 C 級。',
+    sources:[
+      {label:'寶源開發公司登記',url:'https://findbiz.nat.gov.tw/fts/company/83523497',type:'經濟部商工登記'},
+      {label:'湯泉綠中海 2 預售契約',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?icon=..pdf&n=5rmv5rOJ57ag5Lit5rW3Mi5wZGY%3D&u=LzAwMS9VcGxvYWQvMS9yZWxmaWxlLzk2NzkvNzI4MDc0LzQ3YzA5ZTUxLThjYTgtNGVkZS1hYTNiLWZjMWQxOWI0MDVjZi5wZGY%3D',type:'政府備查契約'},
+      {label:'新北預售契約查詢',url:'https://www.land.ntpc.gov.tw/News.aspx?PageSize=20&_Query=a57b2e19-ab70-4142-80ea-976f35abb5bb&n=11769&page=18&sms=9679',type:'政府預售備查'},
+      {label:'湯泉綠中海建案資料',url:'https://newhouse.591.com.tw/125347',type:'市場建案資料'},
+    ],
+  },
+  {
+    id:'xingyuan-construction-12637478',name:'興遠建設',aliases:['興遠建設','興遠建設有限公司'],reviewed:'2026-09-19',confidence:'中',
+    scores:{delivery:76,quality:78,governance:66,service:64,risk:74},
+    summary:'2000 年設立、資本額 2,500 萬元；新北都設審議紀錄與官方預售契約均可確認其為央北「鳳翔」的直接開發及出賣主體，該案為 94 戶高層住宅且目前已取得使用執照。',
+    caveat:'成立年資與大型單案完工可支持基本履約判斷，但目前可靠公開作品仍集中於鳳翔，缺少跨案品質、售後服務、客訴與治理量化證據；總分 72 分，僅達 B 級門檻，不代表與大型 B 級建商同質。',
+    sources:[
+      {label:'興遠建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/12637478',type:'經濟部商工登記'},
+      {label:'鳳翔預售契約',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?icon=..pdf&n=6bOz57%2BULnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMS9yZWxmaWxlLzk2NzkvNjM5MTMxLzMwMjJkZDMxLWYyNzUtNDkxNC1iYmY1LTI3YTQ1ZjY4OTJmZi5wZGY%3D',type:'政府備查契約'},
+      {label:'鳳翔都市設計審議',url:'https://www.planning.ntpc.gov.tw/uploaddowndoc?file=downloaddata%2F201808071012130.pdf&filedisplay=1070724%E9%82%B1%E7%B5%84%E9%83%BD%E8%A8%AD%E6%9C%83%E5%B0%88%E6%A1%88%E5%B0%8F%E7%B5%84%E6%9C%83%E8%AD%B0%E7%B4%80%E9%8C%84-+%E5%90%8D%E6%BC%BE%E4%BA%8B%E6%A5%AD%E6%9D%BF%E6%A9%8B%E5%8D%80%E7%92%B0%E7%BF%A0%E6%AE%B531%E5%9C%B0%E8%99%9F1%E7%AD%86%E5%9C%9F%E5%9C%B0%E9%9B%86%E5%90%88%E4%BD%8F%E5%AE%85%E6%96%B0%E5%BB%BA%E5%B7%A5%E7%A8%8B.pdf&flag=doc',type:'政府審議紀錄'},
+      {label:'鳳翔建案現況',url:'https://newhouse.591.com.tw/120052',type:'市場建案資料'},
+    ],
+  },
 ].map(profile=>{
   const score=profile.scores?weightedScore(profile.scores):null;
   return {...profile,score,rating:profile.rating||ratingFromScore(score)};
