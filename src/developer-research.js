@@ -7023,6 +7023,63 @@ export const developerResearch=[
       {label:'景安旭建案資料',url:'https://newhouse.591.com.tw/138028/detail',type:'市場建案交叉核對'},
     ],
   },
+  {
+    id:'fengyun-development',name:'楓韻開發',aliases:['楓韻開發','楓韻開發股份有限公司'],reviewed:'2026-09-18',confidence:'中',
+    scores:{delivery:82,quality:80,governance:78,service:68,risk:78},
+    summary:'2010 年設立，實收資本額 5.355 億元；「楓韻元山居」已取得 113 中使字第 00072 號使用執照並完成交屋，公開成交與社區資料可持續核對，具備直接完工履約樣本。',
+    caveat:'資本與已完工個案支持較穩健的履約與治理評價，但目前公開可直接歸屬的住宅作品仍集中於元山居；湯臣集團背景只作組織脈絡參考，不把海外或其他法人作品全部灌入。售後制度公開度也有限。總分 78 分，列為 B 級。',
+    sources:[
+      {label:'楓韻開發公司登記',url:'https://findbiz.nat.gov.tw/fts/company/25139332',type:'經濟部商工登記公示資料'},
+      {label:'楓韻元山居使用執照與社區資料',url:'https://market.591.com.tw/5917103/overview',type:'市場建案與實價資料交叉核對'},
+      {label:'楓韻元山居完工社區資料',url:'https://www.leju.com.tw/community/Laf2137421a33f6?mode=buy',type:'市場社區交叉核對'},
+    ],
+  },
+  {
+    id:'tengtai-construction-yuetai',name:'騰泰建設（岳泰機構）',aliases:['騰泰建設','騰泰建設股份有限公司'],reviewed:'2026-09-18',confidence:'中',
+    scores:{delivery:80,quality:80,governance:72,service:68,risk:76},
+    summary:'2005 年設立，實收資本額 1 億元；新北市預售屋備查確認「擎天峰和」由騰泰建設推出，岳泰建設機構官網另公開多件已完工、興建中與都更作品及基地規劃。',
+    caveat:'岳泰機構作品年表可支持團隊經驗與工程脈絡，但不將岳泰等其他法人名下的全部作品直接計為騰泰的法人交屋實績；騰泰可直接核對的住宅樣本仍以擎天峰和為核心，公開售後與財務資訊有限。總分 76 分，列為 B 級。',
+    sources:[
+      {label:'騰泰建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/28005940',type:'經濟部商工登記公示資料'},
+      {label:'岳泰建設機構作品與工程資料',url:'https://www.yuetai-const.com.tw/',type:'建設機構官方資料'},
+      {label:'擎天峰和預售屋契約備查',url:'https://www.land.ntpc.gov.tw/News.aspx?PageSize=20&_Query=a57b2e19-ab70-4142-80ea-976f35abb5bb&n=11769&page=35&sms=9679',type:'新北市政府地政局官方資料'},
+      {label:'預售屋備查建案清冊',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?n=MTEw5bm06IezMTE05bm05bey5YKZ5p%2Bl5bu65qGI5riF5YaKLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMzk5L3JlbGZpbGUvODk5My85NDY5L2NkZTQ4OTJkLTQzMzAtNDY3Zi1hYmExLTI3YzJiYjI0MjYxNi5wZGY%3D',type:'新北市政府地政局官方資料'},
+    ],
+  },
+  {
+    id:'jinya-construction',name:'陣屋建設',aliases:['陣屋建設','陣屋建設股份有限公司'],reviewed:'2026-09-18',confidence:'中低',
+    scores:{delivery:50,quality:70,governance:62,service:56,risk:70},
+    summary:'2020 年設立，實收資本額 1,450 萬元；「雙捷萃」官方預售屋契約確認陣屋與廷豪建設同為賣方，建照為 113 中建字第 00413 號、規劃 25 戶住宅。',
+    caveat:'目前可直接核對的建案以共同開發的雙捷萃為主，仍在興建且無足夠完工交屋、長期售後與跨案品質樣本；共同案成果不能全部歸於陣屋單一法人。總分 61 分，列為 C 級。',
+    sources:[
+      {label:'陣屋建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/83549861',type:'經濟部商工登記公示資料'},
+      {label:'雙捷萃預售屋買賣契約',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?icon=..pdf&n=6ZuZ5o236JCDLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMS9yZWxmaWxlLzk2NzkvNzM4OTIzLzFjNWY3MWRlLTJjMzQtNDc4ZS1iN2M1LWZjMzAwMGQ5NzIwNS5wZGY%3D',type:'新北市政府地政局官方契約'},
+      {label:'雙捷萃建案資料',url:'https://market.591.com.tw/6013490/overview',type:'市場建案交叉核對'},
+    ],
+  },
+  {
+    id:'tinghao-construction',name:'廷豪建設',aliases:['廷豪建設','廷豪建設股份有限公司'],reviewed:'2026-09-18',confidence:'中低',
+    scores:{delivery:68,quality:72,governance:66,service:60,risk:72},
+    summary:'2010 年設立；「雙捷萃」官方預售屋契約確認廷豪與陣屋建設共同銷售，廷豪官網並公開北投、永和等開發中或整合中案件，具持續土地開發軌跡。',
+    caveat:'公司已有多處開發管線，但多數仍在整合、申照或興建階段，不能等同已完工交屋實績；雙捷萃亦為共同開發案，公開財務與售後制度有限，因此維持保守分級。總分 67 分，列為 C 級。',
+    sources:[
+      {label:'廷豪建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/53217838',type:'經濟部商工登記公示資料'},
+      {label:'雙捷萃預售屋買賣契約',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?icon=..pdf&n=6ZuZ5o236JCDLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMS9yZWxmaWxlLzk2NzkvNzM4OTIzLzFjNWY3MWRlLTJjMzQtNDc4ZS1iN2M1LWZjMzAwMGQ5NzIwNS5wZGY%3D',type:'新北市政府地政局官方契約'},
+      {label:'廷豪建設案例介紹',url:'https://ting-hao.net/projects.html',type:'建商官方資料'},
+    ],
+  },
+  {
+    id:'baoya-international-development',name:'寶亞國際開發建設',aliases:['寶亞國際開發建設','寶亞國際開發建設股份有限公司','長樺開發建設股份有限公司'],reviewed:'2026-09-18',confidence:'中',
+    scores:{delivery:68,quality:78,governance:78,service:64,risk:76},
+    summary:'2021 年以長樺開發建設設立，2025 年更名為寶亞國際開發建設，實收資本額 2.82 億元；「寶亞世界公舘」官方網站確認其為投資興建法人，並採耐震設計與綠建築標章規劃。',
+    caveat:'寶亞建設機構自 2010 年累積多件作品，可支持團隊與技術脈絡，但本法人較新，不能直接承接寶亞、寶悅、新悅或漢亞等其他法人全部完工履歷；世界公舘仍為預售興建中，直接交屋與售後樣本有限。總分 73 分，列為 B 級。',
+    sources:[
+      {label:'寶亞國際開發建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/90183698',type:'經濟部商工登記公示資料'},
+      {label:'寶亞世界公舘官方網站',url:'https://www.newworldnewlife.com/',type:'建案官方資料'},
+      {label:'寶亞建設機構作品資料',url:'https://baoya.tw/',type:'建設機構官方資料'},
+      {label:'寶亞世界公舘契約備查',url:'https://www.land.ntpc.gov.tw/News.aspx?PageSize=20&_Query=a57b2e19-ab70-4142-80ea-976f35abb5bb&n=11769&page=1&sms=9679',type:'新北市政府地政局官方資料'},
+    ],
+  },
 ].map(profile=>{
   const score=profile.scores?weightedScore(profile.scores):null;
   return {...profile,score,rating:profile.rating||ratingFromScore(score)};
