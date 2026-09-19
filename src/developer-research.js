@@ -6916,6 +6916,67 @@ export const developerResearch=[
       {label:'好植契約查核結果',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?n=5paw5YyX5biCMTE056ysMuasoeafpeaguOe1kOaenC5wZGY%3D&u=LzAwMS9VcGxvYWQvMzk5L3JlbGZpbGUvMC8xNDE3MC81ZmQ0M2M1My01NTkwLTQ2YzItYjFkYy1iYWJlNjYxNzllYmYucGRm',type:'新北市政府契約查核'},
     ],
   },
+  {
+    id:'chengjia-chronicle-construction',name:'成家誌建設',aliases:['成家誌建設','成家誌建設股份有限公司'],reviewed:'2026-09-18',confidence:'中低',
+    scores:{delivery:45,quality:68,governance:62,service:54,risk:70},
+    summary:'2024 年設立，實收資本額 2,000 萬元；新北市預售屋買賣定型化契約備查資料確認「成家心悅」由成家誌建設銷售，並可交叉核對建照與 28 戶住宅規模。',
+    caveat:'法人設立時間短，目前可直接歸屬的住宅案以成家心悅為主，尚無足夠完工交屋、長期售後與跨景氣履約樣本；董事或團隊過往經歷不直接當作公司實績。總分 58 分，列為 C 級。',
+    sources:[
+      {label:'成家誌建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/93560750',type:'經濟部商工登記公示資料'},
+      {label:'成家心悅預售屋契約備查',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?icon=..pdf&n=5oiQ5a625b%2BD5oKFLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMS9yZWxmaWxlLzk2NzkvNzM5NDE5Lzg2ZGFhNWIzLWI4YTktNDFjYS1hZTQ1LTAxZDdhMmU1NzM1Yi5wZGY%3D',type:'新北市政府地政局官方資料'},
+      {label:'成家心悅建案資料',url:'https://www.house579.com.tw/newhouse/bf02d328-23fa-4793-96ee-291af86c5bc6',type:'市場建案交叉核對'},
+    ],
+  },
+  {
+    id:'chengyi-construction-hedian',name:'誠毅建設（和典機構）',aliases:['誠毅建設','誠毅建設股份有限公司'],reviewed:'2026-09-18',confidence:'中',
+    scores:{delivery:82,quality:80,governance:72,service:70,risk:76},
+    summary:'2010 年設立，為和典建設機構旗下法人；集團官網揭露自 1990 年起的組織與推案脈絡，現階段可由新北市預售屋備查直接確認誠毅建設共同參與「和典永峰」。',
+    caveat:'和典機構的長期推案經驗可支持團隊與治理判斷，但不將和典、暐傑等其他法人名下的全部完工案直接算成誠毅建設的法人實績；誠毅本身可核對的近期直接樣本仍以和典永峰為主。總分 77 分，列為 B 級。',
+    sources:[
+      {label:'誠毅建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/24498079',type:'經濟部商工登記公示資料'},
+      {label:'和典建設機構沿革與關係企業',url:'https://hedian.tw/agency-about',type:'建設機構官方資料'},
+      {label:'和典永峰工程進度',url:'https://hedian.tw/construction-schedule?id=5',type:'建設機構官方資料'},
+      {label:'新北市預售屋契約備查查詢',url:'https://www.land.ntpc.gov.tw/News.aspx?PageSize=20&n=11769&page=10&sms=9679',type:'新北市政府地政局官方資料'},
+      {label:'和典永峰建案資料',url:'https://market.591.com.tw/5951586/overview',type:'市場建案交叉核對'},
+    ],
+  },
+  {
+    id:'chengxin-international-development',name:'誠新國際開發',aliases:['誠新國際開發','誠新國際開發股份有限公司'],reviewed:'2026-09-18',confidence:'中低',
+    scores:{delivery:68,quality:74,governance:78,service:62,risk:74},
+    summary:'2013 年設立，實收資本額 5.1 億元，業務範圍涵蓋投資、能源與不動產；新北市預售屋備查名冊將「和典永峰－誠新」與誠毅建設分列，可確認其為本案共同投資興建法人之一。',
+    caveat:'資本與公司治理基礎較完整，但目前可直接歸屬於誠新國際開發的住宅完工、交屋與售後樣本有限，不能因共同投資或關係企業背景就承接和典機構全部歷史實績。總分 71 分，列為 C 級。',
+    sources:[
+      {label:'誠新國際開發公司登記',url:'https://findbiz.nat.gov.tw/fts/company/54175603',type:'經濟部商工登記公示資料'},
+      {label:'新北市預售屋契約備查查詢',url:'https://www.land.ntpc.gov.tw/News.aspx?PageSize=20&n=11769&page=10&sms=9679',type:'新北市政府地政局官方資料'},
+      {label:'預售屋備查建案清冊',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?n=MTEw5bm06IezMTE05bm05bey5YKZ5p%2Bl5bu65qGI5riF5YaKLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMzk5L3JlbGZpbGUvODk5My85NDY5L2NkZTQ4OTJkLTQzMzAtNDY3Zi1hYmExLTI3YzJiYjI0MjYxNi5wZGY%3D',type:'新北市政府地政局官方資料'},
+      {label:'誠新國際開發公司介紹',url:'https://www.yes123.com.tw/wk_index/comp_info.asp?p_id=20171226134736_54175603',type:'企業背景交叉核對'},
+    ],
+  },
+  {
+    id:'xinquan-construction',name:'欣詮建設',aliases:['欣詮建設','欣詮建設股份有限公司'],reviewed:'2026-09-18',confidence:'中',
+    scores:{delivery:78,quality:75,governance:70,service:66,risk:75},
+    summary:'2014 年設立，實收資本額 8,800 萬元；可交叉核對和雅琚、上仁一品苑與村上璞等多案參與紀錄，具備持續推案與共同開發經驗。',
+    caveat:'已有多案軌跡，但公開資訊以個別建案與合作方資料為主，缺少完整官方作品年表、財務揭露及可量化售後資料；共同開發案件也不全部歸功於單一法人。總分 73 分，列為 B 級。',
+    sources:[
+      {label:'欣詮建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/24746296',type:'經濟部商工登記公示資料'},
+      {label:'和雅琚建案資料',url:'https://newhouse.591.com.tw/137430/detail',type:'市場建案交叉核對'},
+      {label:'上仁一品苑合作建案',url:'https://www.great-general.com.tw/product-detail-3162247.html',type:'合作建商官方資料'},
+      {label:'臺北市預售屋契約備查清冊',url:'https://www-ws.gov.taipei/001/Upload/305/relfile/11455/130336/e2469e12-b82e-494c-b1ef-7ae0be5fdbf3.pdf',type:'臺北市政府官方資料'},
+    ],
+  },
+  {
+    id:'guanghong-construction',name:'廣鴻建設',aliases:['廣鴻建設','廣鴻建設股份有限公司'],reviewed:'2026-09-18',confidence:'中低',
+    scores:{delivery:50,quality:68,governance:62,service:54,risk:70},
+    summary:'2019 年設立，登記資本額 3,000 萬元；新北市預售屋契約備查與案場官網均可確認「宜安三六」由廣鴻建設推出，法人、案名與銷售資料可以相互核對。',
+    caveat:'目前公開可驗證的直接住宅實績集中於宜安三六，尚缺足夠完工交屋、長期售後與跨案品質樣本，因此先維持保守評級。總分 60 分，列為 C 級。',
+    sources:[
+      {label:'廣鴻建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/85011133',type:'經濟部商工登記公示資料'},
+      {label:'新北市公司變更登記清冊',url:'https://serv.gcis.nat.gov.tw/pub/cmpy/reportAction.do?fileName=376410000Achange11302.pdf&method=report&reportClass=cmpyCity&subPath=11302',type:'經濟部商工行政官方資料'},
+      {label:'宜安三六預售屋契約備查',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?icon=..pdf&n=5a6c5a6J5LiJ5YWtLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMS9yZWxmaWxlLzk2NzkvNzIzNTg4Lzc0ZDFmNWQwLTgwNjUtNDgwZC1hOTFmLWRhMGI2N2U4NmJiZC5wZGY%3D',type:'新北市政府地政局官方資料'},
+      {label:'宜安三六官方網站',url:'https://yian36.heya-ad.tw/',type:'建案官方資料'},
+      {label:'宜安三六建案資料',url:'https://market.591.com.tw/5933833/overview',type:'市場建案交叉核對'},
+    ],
+  },
 ].map(profile=>{
   const score=profile.scores?weightedScore(profile.scores):null;
   return {...profile,score,rating:profile.rating||ratingFromScore(score)};
@@ -6923,7 +6984,7 @@ export const developerResearch=[
 
 export const findDeveloperResearch=value=>{
   const text=String(value||'');
-  const candidates=text.replace(/^(?:備查起造人|投資興建)：/,'').split(/[／、]/).map(part=>part.trim()).filter(Boolean);
+  const candidates=text.replace(/^(?:備查起造人|共同投資興建|投資興建)：/,'').split(/[／、]/).map(part=>part.trim()).filter(Boolean);
   const exact=developerResearch.find(profile=>profile.aliases.some(alias=>candidates.some(candidate=>candidate===alias||candidate.startsWith(`${alias}（`))));
   if(exact)return exact;
   return developerResearch.find(profile=>profile.aliases.some(alias=>text.includes(alias)))||null;
