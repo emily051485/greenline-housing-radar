@@ -14,7 +14,7 @@ export const weightedScore=scores=>Math.round(developerRubric.reduce((sum,item)=
 export const isNonBuilderRole=value=>{
   const text=String(value||'').trim();
   // 紀州樂章為地主自主更新案；台灣金融聯合都市更新服務是全案管理服務者，並非投資興建品牌。
-  if(/臺?灣金融聯合都市更新服務/.test(text))return true;
+  if(/臺?灣金融聯合都市更新服務|財團法人台灣省私立台灣盲人重建院/.test(text))return true;
   if(/建築經理|建經|商業銀行|銀行股份|信託|都市更新會|更新單元.*會|臺北市政府|新北市政府|待選定實施者|自然人|等\s*\d*\s*(?:人|名)|起造人：[^：]{1,6}○○$/.test(text))return true;
 
   // 備查資料有時直接列出完整自然人姓名、共同起造人或法定監護人。
@@ -839,10 +839,10 @@ export const developerResearch=[
     ],
   },
   {
-    id:'tongyi_dev',name:'統一工商綜合區開發',aliases:['統一工商綜合區開發'],reviewed:'2026-09-14',confidence:'中',
+    id:'tongyi_dev',name:'統一工商綜合區開發',aliases:['統一工商綜合區開發','統一工商綜合區開發股份有限公司','統一工商綜合開發','統一工商綜合開發股份有限公司'],reviewed:'2026-09-18',confidence:'中高',
     scores:{delivery:82,quality:76,governance:67,service:71,risk:69},
     summary:'2002 年設立、實收資本額 26.16 億元；新北市備查清冊與契約可核對城品學苑、日安 PARK、富都馨等案，政府都更文件亦確認實施者身分。',
-    caveat:'公司規模、存續與多案紀錄明確，但非公開發行公司，售後及第三方品質量化資料有限，評為 B 級。',
+    caveat:'公司規模、存續與多案紀錄明確，但非公開發行公司，售後及第三方品質量化資料有限；備查欄位偶爾漏掉法定名稱中的「區」字，已依公司與案件資料納入別名。總分 74 分，列 B 級。',
     sources:[
       {label:'經濟部商工登記',url:'https://findbiz.nat.gov.tw/fts/company/13066118',type:'政府資料'},
       {label:'新北市預售屋備查清冊',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?n=MTEw5bm06IezMTE05bm05bey5YKZ5p%2Bl5bu65qGI5riF5YaKLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMzk5L3JlbGZpbGUvODk5My85NDY5L2NkZTQ4OTJkLTQzMzAtNDY3Zi1hYmExLTI3YzJiYjI0MjYxNi5wZGY%3D',type:'政府資料'},
@@ -6521,6 +6521,29 @@ export const developerResearch=[
       {label:'聯虹建設官方作品',url:'https://lianhong-arch.com.tw/portal_c1_cnt.php?button_num=c1&folder_id=42&owner_num=c1_1563',type:'建商官方資料'},
       {label:'新北市已備查建案清冊',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?n=MTEw5bm06IezMTE05bm05bey5YKZ5p%2Bl5bu65qGI5riF5YaKLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMzk5L3JlbGZpbGUvODk5My85NDY5L2NkZTQ4OTJkLTQzMzAtNDY3Zi1hYmExLTI3YzJiYjI0MjYxNi5wZGY%3D',type:'新北市官方清冊'},
       {label:'同業連帶擔保審核名單',url:'https://redat.yooniks.co/storage/upload/members/1131226%E5%AF%A9%E6%A0%B8%E9%80%9A%E9%81%8E%E5%90%8D%E5%96%AE%28%E7%99%BB%E7%B6%B2%29-1735196185.pdf',type:'不動產開發公會資料'},
+    ],
+  },
+  {
+    id:'tailung-steel-development',name:'泰隆鋼鐵（泰隆丰和）',aliases:['泰隆鋼鐵','泰隆鋼鐵股份有限公司'],reviewed:'2026-09-18',confidence:'中高',
+    scores:{delivery:55,quality:68,governance:75,service:55,risk:70},
+    summary:'泰隆鋼鐵為長期存續的鋼鐵公司，亦是中和「泰隆丰和」官方建案頁與預售備查所列投資興建／賣方；住宅案約為單一土地轉型開發，不能把工業年資直接視為住宅交付年資。',
+    caveat:'公司本體存續與資產基礎可支撐治理分數，但目前僅核實一件住宅開發，尚缺住宅完工履歷、跨案品管、保固及客訴成果。總分 64 分，列 C 級。',
+    sources:[
+      {label:'泰隆鋼鐵公司登記',url:'https://findbiz.nat.gov.tw/fts/company/33233867',type:'經濟部商工登記公示資料'},
+      {label:'泰隆丰和建案頁',url:'https://www.newland.tw/one/riverflow',type:'建案官方公開資料'},
+      {label:'泰隆丰和預售備查彙整',url:'https://dualtaipei.datazen.info/newtaipei/project/%E6%B3%B0%E9%9A%86%E4%B8%B0%E5%92%8C',type:'政府資料再利用'},
+    ],
+  },
+  {
+    id:'huahong-enterprise',name:'華鋐企業',aliases:['華鋐企業','華鋐企業股份有限公司'],reviewed:'2026-09-18',confidence:'高',
+    scores:{delivery:78,quality:65,governance:45,service:60,risk:35},
+    summary:'2013 年設立、實收資本額 3,000 萬元；官方契約與備查資料可核對華鋐晴晨、華鋐晴朗、華鋐晴光等案，已有多案及完工社區。',
+    caveat:'履約樣本多於單案公司，但監察院 2026 年會議資料記載正在調查華鋐晴朗容積移轉許可遭撤銷及可能影響購屋人權益；此為調查中事項，不等同已認定犯罪，但足以使治理與風險分數保守。總分 60 分，列 C 級。',
+    sources:[
+      {label:'華鋐企業公司登記',url:'https://findbiz.nat.gov.tw/fts/company/54349251',type:'經濟部商工登記公示資料'},
+      {label:'新北市預售屋備查建案清冊',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?n=MTEw5bm06IezMTE05LiK5Y2K5bm05bey5YKZ5p%2Bl5bu65qGI5riF5YaKLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMzk5L3JlbGZpbGUvODk5My85NDY5L2UwZjQwYjRjLTkyMjEtNDliZS1hMzA5LTE0MWExNmQ1MzVlNS5wZGY%3D',type:'新北市政府公開資料'},
+      {label:'華鋐晴晨預售屋買賣契約',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?icon=..pdf&n=6I%2Bv6YuQ5pm05pmoLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMS9yZWxmaWxlLzk2NzkvNjM3Nzg4LzE1ZjRhZWM4LTg3MjAtNGQxOS04ZGE0LWY1YTQwMWQ4ZjBiNS5wZGY%3D',type:'新北市政府公開契約'},
+      {label:'監察院第 6 屆第 79 次會議紀錄',url:'https://www-ws.cy.gov.tw/Download.ashx?icon=..pdf&n=5YWn5pePKOesrDY55qyhKeacg%2BitsOe0gOmMhC5wZGY%3D&u=LzAwMS9VcGxvYWQvMy9yZWxmaWxlLzkxNDQvMzczMzIvZTdlZDI3MzUtM2U5OC00ZWUwLTg2YWQtYzdiODBmMGUxNWMyLnBkZg%3D%3D',type:'監察院公開資料'},
     ],
   },
 ].map(profile=>{
