@@ -7125,6 +7125,54 @@ export const developerResearch=[
       {label:'中正吻鑽建案資料',url:'https://www.leju.com.tw/community/L769155719fd2ac',type:'市場建案交叉核對'},
     ],
   },
+  {
+    id:'rongzuo-construction-youzuo',name:'榮座建設（友座建築團隊）',aliases:['榮座建設','榮座建設股份有限公司'],reviewed:'2026-09-18',confidence:'中',
+    scores:{delivery:78,quality:76,governance:70,service:66,risk:74},
+    summary:'2003 年設立，現行實收資本額 1.25 億元；新北市預售屋備查與建案資料確認「友座豐禾」由榮座建設投資興建，並以友座建築團隊品牌推案，建照為 114 永建字第 00279 號。',
+    caveat:'友座團隊具有跨法人開發經驗，但榮座與住欣等仍為不同法律主體，本評分不直接移植其他友座法人全部作品；榮座目前可直接核對的近期樣本以友座豐禾為主，且仍在興建。總分 73 分，列為 B 級。',
+    sources:[
+      {label:'榮座建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/80177057',type:'經濟部商工登記公示資料'},
+      {label:'友座建設機構官方網站',url:'https://youdraw.com.tw/%E9%A6%96%E9%A0%81/',type:'建設機構官方資料'},
+      {label:'友座豐禾預售屋契約備查',url:'https://www.land.ntpc.gov.tw/News.aspx?PageSize=20&_Query=a57b2e19-ab70-4142-80ea-976f35abb5bb&n=11769&page=3&sms=9679',type:'新北市政府地政局官方資料'},
+      {label:'友座豐禾建案資料',url:'https://newhouse.591.com.tw/140560',type:'市場建案交叉核對'},
+    ],
+  },
+  {
+    id:'libaijia-construction',name:'利百加建設',aliases:['利百加建設','利百加建設有限公司','利百加建設股份有限公司'],reviewed:'2026-09-18',confidence:'中低',
+    scores:{delivery:68,quality:72,governance:64,service:60,risk:72},
+    summary:'2019 年以有限公司設立，後改制為股份有限公司，統編維持 54974198，現行登記資本額 4,000 萬元；官方契約及市場資料確認其投資興建永和「民有印象」。',
+    caveat:'民有印象具有預售成交及智慧建築銀級標章資料，但目前可直接歸屬的住宅作品仍以此單案為主，完整使用執照、長期交屋品質、財務與售後制度公開度有限，因此維持保守評分。總分 67 分，列為 C 級。',
+    sources:[
+      {label:'利百加建設公司設立登記',url:'https://serv.gcis.nat.gov.tw/pub/cmpy/reportAction.do?fileName=371030000Asetup10802.pdf&method=report&reportClass=cmpyCityItem&subPath=10802',type:'經濟部商工行政官方資料'},
+      {label:'利百加建設公司變更登記',url:'https://serv.gcis.nat.gov.tw/pub/cmpy/reportAction.do?fileName=11502ALC.pdf&method=report&reportClass=cmpy&subPath=11502',type:'經濟部商工行政官方資料'},
+      {label:'民有印象預售屋買賣契約',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?icon=..pdf&n=5rCR5pyJ5Y2w6LGhLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMS9yZWxmaWxlLzk2NzkvNjQwMzkyL2M2MTU3YWIwLThjNTItNDJiMi05ZTg1LTEzM2YwZmRhMjMzNC5wZGY%3D',type:'新北市政府地政局官方契約'},
+      {label:'民有印象智慧建築銀級資料',url:'https://www.ezcontw.com/li-bai-jia-jian-she-min-you-yin-xiang/',type:'標章資料交叉核對'},
+    ],
+  },
+  {
+    id:'hengyue-construction',name:'恆岳建設',aliases:['恆岳建設','恆岳建設股份有限公司','恆海建設股份有限公司'],reviewed:'2026-09-18',confidence:'中高',
+    scores:{delivery:80,quality:82,governance:76,service:76,risk:78},
+    summary:'2010 年設立，現行實收資本額 1.15 億元；官方網站公開恆詠、恆美學、品美學等經典實績，以及尚美與多處都更進度，並設有售後服務聯絡管道，具連續推案與服務制度。',
+    caveat:'多案作品與公開服務管道支持穩健 B 級，但仍屬私有區域型建商，缺少上市櫃等級財務揭露、第三方長期品質統計與重大工程稽核資料；創辦人個人三十年經驗也不等同公司法人實績。總分 79 分，列為 B 級。',
+    sources:[
+      {label:'恆岳建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/25122439',type:'經濟部商工登記公示資料'},
+      {label:'恆岳建設官方網站與實績',url:'https://huang-yue.com/',type:'建商官方資料'},
+      {label:'恆岳建設公司與團隊介紹',url:'https://huang-yue.com/%E6%81%86%E5%B2%B3%E5%BB%BA%E8%A8%AD/',type:'建商官方資料'},
+    ],
+  },
+  {
+    id:'xingqiao-construction',name:'星喬建設',aliases:['星喬建設','星喬建設股份有限公司'],reviewed:'2026-09-18',confidence:'中',
+    scores:{delivery:82,quality:78,governance:74,service:68,risk:76},
+    summary:'1995 年設立，實收資本額 3.6646 億元；官方預售契約確認「星喬逸家人」，另可核對「星喬和峰」等直接推案與完工資料，具長期法人年資、資本規模及多案履約軌跡。',
+    caveat:'公司年資、資本與多案證據均較完整，但公開資訊仍缺系統化工程品管、售後保固績效與完整財務揭露；個別工期疑慮缺乏足夠官方結論，不直接作負面定論，也不因此升至 A 級。總分 76 分，列為 B 級。',
+    sources:[
+      {label:'星喬建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/89496665',type:'經濟部商工登記公示資料'},
+      {label:'星喬逸家人預售屋買賣契約',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?icon=..pdf&n=5pif5Zas6YC45a625Lq6LnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMS9yZWxmaWxlLzk2NzkvNzI4Nzk5L2JhNGViYzY3LTA3ZGYtNDVlYi1hNDliLTIyMWQxMTZlN2JjZS5wZGY%3D',type:'新北市政府地政局官方契約'},
+      {label:'星喬逸家人預售屋備查',url:'https://www.land.ntpc.gov.tw/News.aspx?PageSize=20&_Query=a57b2e19-ab70-4142-80ea-976f35abb5bb&n=11769&page=31&sms=9679',type:'新北市政府地政局官方資料'},
+      {label:'星喬和峰完工與建案資料',url:'https://www.plex.com.tw/projects/view/id/523',type:'市場建案交叉核對'},
+      {label:'星喬建設推案紀錄',url:'https://build.myhousing.com.tw/company/485414/',type:'市場建案交叉核對'},
+    ],
+  },
 ].map(profile=>{
   const score=profile.scores?weightedScore(profile.scores):null;
   return {...profile,score,rating:profile.rating||ratingFromScore(score)};
