@@ -6977,6 +6977,52 @@ export const developerResearch=[
       {label:'宜安三六建案資料',url:'https://market.591.com.tw/5933833/overview',type:'市場建案交叉核對'},
     ],
   },
+  {
+    id:'hongding-development',name:'泓鼎開發',aliases:['泓鼎開發','泓鼎開發股份有限公司'],reviewed:'2026-09-18',confidence:'中低',
+    scores:{delivery:50,quality:68,governance:60,service:54,risk:68},
+    summary:'2013 年設立，登記資本額 500 萬元；新北市預售屋契約備查及建案資料可共同確認「泓鼎秀山」由泓鼎開發投資興建，建照為 113 中建字第 00385 號、規劃 60 戶住宅。',
+    caveat:'目前可直接歸屬並公開核對的住宅推案集中於泓鼎秀山，且尚在興建，缺少完成交屋、長期售後及跨案品質樣本；不因成立年資本身提高履約評價。總分 59 分，列為 C 級。',
+    sources:[
+      {label:'泓鼎開發公司登記',url:'https://findbiz.nat.gov.tw/fts/company/28089693',type:'經濟部商工登記公示資料'},
+      {label:'新北市預售屋契約備查查詢',url:'https://www.land.ntpc.gov.tw/News.aspx?PageSize=20&n=11769&page=8&sms=9679',type:'新北市政府地政局官方資料'},
+      {label:'泓鼎秀山建案資料',url:'https://newhouse.591.com.tw/139521',type:'市場建案交叉核對'},
+    ],
+  },
+  {
+    id:'weiju-development-construction',name:'偉鉅開發建設',aliases:['偉鉅開發建設','偉鉅開發建設股份有限公司','偉鉅開發股份有限公司'],reviewed:'2026-09-18',confidence:'中低',
+    scores:{delivery:54,quality:70,governance:64,service:56,risk:70},
+    summary:'2020 年設立、2021 年更名為現名，實收資本額 2,000 萬元；新北市預售屋備查與建案資料均確認「偉鉅中山双匯」由本法人投資興建，建照為 113 中建字第 00328 號。',
+    caveat:'雖與偉鉅土地開發同由黃志彰擔任代表人，但兩者是不同法人；本評分只計偉鉅開發建設可直接核對的實績，不承接另一法人自 2005 年起的全部年資。中山双匯仍在興建，交屋與售後樣本不足。總分 62 分，列為 C 級。',
+    sources:[
+      {label:'偉鉅開發建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/83412963',type:'經濟部商工登記公示資料'},
+      {label:'偉鉅中山双匯契約備查',url:'https://www.land.ntpc.gov.tw/News.aspx?PageSize=20&_Query=a57b2e19-ab70-4142-80ea-976f35abb5bb&n=11769&page=1&sms=9679',type:'新北市政府地政局官方資料'},
+      {label:'偉鉅中山双匯建案資料',url:'https://newhouse.591.com.tw/141568',type:'市場建案交叉核對'},
+    ],
+  },
+  {
+    id:'weiju-land-development',name:'偉鉅土地開發',aliases:['偉鉅土地開發','偉鉅土地開發有限公司'],reviewed:'2026-09-18',confidence:'中',
+    scores:{delivery:70,quality:72,governance:70,service:62,risk:72},
+    summary:'2005 年設立，登記資本額 1.48 億元；可由公司登記、商標及案場資料核對「偉鉅雙捷韻」，另有新北市都審文件記錄其淡水土地開發案，顯示並非僅為單次設立的案場法人。',
+    caveat:'法人年資與資本規模較完整，但公開可核對資料仍以興建中個案、都審及銷售資訊為主，缺少可量化的完整交屋年表、售後制度與財務揭露；也不將偉鉅開發建設名下的中山双匯直接算入本法人實績。總分 69 分，列為 C 級。',
+    sources:[
+      {label:'偉鉅土地開發公司登記',url:'https://findbiz.nat.gov.tw/fts/company/27552096',type:'經濟部商工登記公示資料'},
+      {label:'偉鉅雙捷韻官方網站',url:'https://8sms.tw/sh/',type:'建案官方資料'},
+      {label:'偉鉅雙捷韻建案資料',url:'https://newhouse.591.com.tw/141617/detail',type:'市場建案交叉核對'},
+      {label:'淡水海天段都市設計審議資料',url:'https://www.planning.ntpc.gov.tw/uploaddowndoc?dis=downloaddata&file=downloaddata%2F202407181005341.pdf&filedisplay=0709%E4%B8%8B%E5%8D%88-%E8%B3%80%E5%8F%8A%E5%9D%A1%E5%AF%A9-%28%E4%B8%80%29%E5%81%89%E9%89%85%E6%B7%A1%E6%B0%B4%E6%B5%B7%E5%A4%A9%E6%AE%B5641-6%E5%9C%B0%E8%99%9F8.pdf&flag=doc',type:'新北市政府官方審議資料'},
+    ],
+  },
+  {
+    id:'jinfeng-construction',name:'金豐建設',aliases:['金豐建設','金豐建設股份有限公司'],reviewed:'2026-09-18',confidence:'中',
+    scores:{delivery:82,quality:76,governance:72,service:68,risk:76},
+    summary:'1991 年設立，實收資本額 1 億元；新北市官方完工都更清冊記錄其三重長壽段案件已於 2023 年完工，預售屋備查則確認現有「景安旭」，具跨年度推案與完工履約樣本。',
+    caveat:'已有官方完工紀錄與現行推案，可支持履約評分；但缺少完整官方作品年表、公開財務與系統化售後保固資料，因此不以成立逾三十年直接推定為大型品牌級治理。總分 75 分，列為 B 級。',
+    sources:[
+      {label:'金豐建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/86124923',type:'經濟部商工登記公示資料'},
+      {label:'新北市近五年已完工都市更新案件',url:'https://www.uro.ntpc.gov.tw/Uploads/PageServiceFileGroup/2026-01/c5f893af-0e27-4fa7-aa47-ea6122a490b0.pdf',type:'新北市政府都市更新處官方資料'},
+      {label:'新北市預售屋契約備查查詢',url:'https://www.land.ntpc.gov.tw/News.aspx?PageSize=20&n=11769&page=11&sms=9679',type:'新北市政府地政局官方資料'},
+      {label:'景安旭建案資料',url:'https://newhouse.591.com.tw/138028/detail',type:'市場建案交叉核對'},
+    ],
+  },
 ].map(profile=>{
   const score=profile.scores?weightedScore(profile.scores):null;
   return {...profile,score,rating:profile.rating||ratingFromScore(score)};
