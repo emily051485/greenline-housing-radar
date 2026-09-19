@@ -1,0 +1,10 @@
+.developer-radar{margin:14px 0 0;text-align:center}
+.developer-radar svg{display:block;width:100%;max-width:320px;height:auto;margin:auto;overflow:visible}
+.radar-grid{fill:none;stroke:#dce1dd;stroke-width:1}
+.radar-axis{stroke:#e3e7e3;stroke-width:1}
+.radar-area{fill:#0e7048;fill-opacity:.16;stroke:#0e7048;stroke-width:2;stroke-linejoin:round}
+.radar-point{fill:#0e7048;stroke:#fff;stroke-width:1.5}
+.radar-label{font-size:11px;fill:#40564a}
+.radar-scale{font-size:9px;fill:#68736d;paint-order:stroke;stroke:#fff;stroke-width:3px;stroke-linejoin:round}
+.developer-radar figcaption{font-size:10px;line-height:1.6;color:var(--muted)}
+@media(max-width:620px){.developer-radar svg{max-width:290px}}

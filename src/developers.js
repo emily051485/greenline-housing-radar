@@ -1,4 +1,5 @@
 import { matureProjects } from './mature-data.js';
+import './developer-radar.css';
 import { developerResearch,developerRubric } from './developer-research.js';
 
 const ratingRank={S:4,A:3,B:2,C:1,NR:0};
@@ -14,6 +15,27 @@ document.querySelector('#profile-total').textContent=profiles.length;
 document.querySelector('#rated-project-total').textContent=ratedProjects;
 document.querySelector('#pending-project-total').textContent=matureProjects.filter(project=>project.rating==='NR').length;
 
+function radarHtml(profile){
+  const labels=['履約推案','工程制度','財務治理','售後保固','風險管理'];
+  const point=(index,value)=>{
+    const angle=-Math.PI/2+index*Math.PI*2/5;
+    return [160+Math.cos(angle)*82*value/100,123+Math.sin(angle)*82*value/100];
+  };
+  const coordinates=points=>points.map(p=>p.map(n=>n.toFixed(2)).join(',')).join(' ');
+  const values=dimensions.map(([,key])=>profile.scores?.[key]);
+  const valid=value=>Number.isFinite(value)&&value>=0&&value<=100;
+  const complete=values.every(valid);
+  const description=dimensions.map(([label],index)=>`${label}：${valid(values[index])?values[index]+' 分':'待研究'}`).join('；');
+  return `<figure class="developer-radar"><svg viewBox="0 0 320 250" role="img" aria-label="${escapeHtml(profile.name+' 五軸評分，固定 0 至 100 分。'+description)}">
+    ${[20,40,60,80,100].map(level=>`<polygon class="radar-grid" points="${coordinates(dimensions.map((_,i)=>point(i,level)))}"/>`).join('')}
+    ${dimensions.map((_,i)=>`<line class="radar-axis" x1="160" y1="123" x2="${point(i,100)[0]}" y2="${point(i,100)[1]}"/>`).join('')}
+    ${complete?`<polygon class="radar-area" points="${coordinates(values.map((value,i)=>point(i,value)))}"/>`:''}
+    ${values.map((value,i)=>valid(value)?`<circle class="radar-point" cx="${point(i,value)[0]}" cy="${point(i,value)[1]}" r="3"><title>${escapeHtml(dimensions[i][0])} ${value} 分</title></circle>`:'').join('')}
+    ${labels.map((label,i)=>{const [x,y]=point(i,132);return `<text class="radar-label" x="${x}" y="${y}" text-anchor="middle" dominant-baseline="middle">${label}</text>`;}).join('')}
+    ${[0,50,100].map(level=>`<text class="radar-scale" x="166" y="${point(0,level)[1]+4}">${level}</text>`).join('')}
+    </svg><figcaption>五軸各 0–100 分${complete?'':' · 資料未齊，僅顯示已評分項目'}</figcaption></figure>`;
+}
+
 function render(){
   const query=document.querySelector('#developer-search').value.trim().toLowerCase();
   const minimum=document.querySelector('#developer-rating').value;
@@ -24,7 +46,8 @@ function render(){
   empty.hidden=result.length>0;
   cards.innerHTML=result.map(profile=>`<article class="developer-card">
     <header><span class="grade grade-${profile.rating.toLowerCase()}">${profile.rating==='NR'?'—':profile.rating}</span><div><h2>${escapeHtml(profile.name)}</h2><small>研究信心 ${profile.confidence} · 本站 ${profile.count} 案</small></div><strong>${profile.score??'—'}<small>${profile.score==null?'不評分':'/100'}</small></strong></header>
-    <div class="score-bars">${profile.scores?dimensions.map(([label,key])=>`<div><span>${label}<b>${profile.scores[key]}</b></span><i><em style="width:${profile.scores[key]}%"></em></i></div>`).join(''):'<p>集團責任主體無法一致對應，暫不顯示看似精確的維度分數。</p>'}</div>
+    ${radarHtml(profile)}
+    <div class="score-bars">${profile.scores?dimensions.map(([label,key])=>`<div><span>${label}<b>${Number.isFinite(profile.scores[key])?profile.scores[key]:'待研究'}</b></span>${Number.isFinite(profile.scores[key])?`<i><em style="width:${profile.scores[key]}%"></em></i>`:''}</div>`).join(''):'<p>集團責任主體無法一致對應，暫不顯示看似精確的維度分數。</p>'}</div>
     <p class="research-summary">${escapeHtml(profile.summary)}</p>
     <p class="research-caveat"><b>判讀限制</b>${escapeHtml(profile.caveat)}</p>
     <div class="research-meta"><span>覆核 ${profile.reviewed}</span>${profile.sources.map(source=>`<a href="${source.url}" target="_blank" rel="noopener">${escapeHtml(source.label)}<small>${escapeHtml(source.type)}</small></a>`).join('')}</div>
