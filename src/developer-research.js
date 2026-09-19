@@ -5742,6 +5742,18 @@ export const developerResearch=[
       {label:'大業官方工程進度',url:'https://hercci.com/%E5%B7%A5%E7%A8%8B%E9%80%B2%E5%BA%A6/%E6%9D%BF%E6%A9%8B-%E5%A4%A7%E6%A5%AD/',type:'公司官方資料'},
     ],
   },
+  {
+    id:'honor-construction',name:'丞石建築開發',aliases:['丞石建築開發股份有限公司','丞石建築開發有限公司','丞石建築開發','丞石建築'],reviewed:'2026-09-18',confidence:'高',
+    scores:{delivery:76,quality:76,governance:76,service:72,risk:78},
+    summary:'2011 年設立，2025 年改制股份有限公司並將實收資本額增至 5.7 億元；正式預售契約確認閱讀台灣的賣方責任，官網並持續揭露閱讀台灣交屋、朗沐及新識界等案件。',
+    caveat:'資本擴充、跨案推進與閱讀台灣交屋支持 B 級，但公司級施工查驗、保固處理時效、住戶滿意度及完整財務仍未量化公開；官網活動與品牌敘事不能取代第三方品質證據。總分 75 分，列 B 級。',
+    sources:[
+      {label:'丞石建築開發公司登記',url:'https://findbiz.nat.gov.tw/fts/company/53325647',type:'政府公司資料'},
+      {label:'丞石建築官方網站',url:'https://honor-home.com.tw/',type:'公司官方資料'},
+      {label:'閱讀台灣預售契約',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?icon=..pdf&n=6Zax6K6A5Y%2Bw54GjLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMS9yZWxmaWxlLzk2NzkvNjM5NTk1LzJhYzRiYTAwLTQyNDAtNGFmMy05ODQ5LWE0N2RiY2NlN2YzMi5wZGY%3D',type:'政府預售契約'},
+      {label:'新北市預售備查清冊',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?n=MTEw5bm06IezMTE05bm05bey5YKZ5p%2Bl5bu65qGI5riF5YaKLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMzk5L3JlbGZpbGUvODk5My85NDY5L2NkZTQ4OTJkLTQzMzAtNDY3Zi1hYmExLTI3YzJiYjI0MjYxNi5wZGY%3D',type:'政府預售資料'},
+    ],
+  },
 ].map(profile=>{
   const score=profile.scores?weightedScore(profile.scores):null;
   return {...profile,score,rating:profile.rating||ratingFromScore(score)};
