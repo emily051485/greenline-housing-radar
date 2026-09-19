@@ -6364,6 +6364,54 @@ export const developerResearch=[
       {label:'忠順景舞極建照與成交資料',url:'https://dualtaipei.datazen.info/newtaipei/project/%E5%BF%A0%E9%A0%86%E6%99%AF%E8%88%9E%E6%A5%B5',type:'建管與實價資料彙整'},
     ],
   },
+  {
+    id:'shengfeng-construction',name:'昇峰建設',aliases:['昇峰建設','昇峰建設股份有限公司'],reviewed:'2026-09-18',confidence:'中高',
+    scores:{delivery:65,quality:70,governance:64,service:60,risk:72},
+    summary:'公司於 2017 年設立、目前實收資本額 5,000 萬元；新北市官方契約與備查頁可確認昇峰為「昇峰安曼」賣方，另有「日日和」推案紀錄，現案規劃 153 戶住宅及 3 戶店面。',
+    caveat:'公司登記與現案信託／契約資料明確，並非只有名稱相近的起造人；但目前可可靠核對的住宅作品仍少，昇峰安曼尚未形成完整交屋與售後樣本，公司亦未公開制度化品管、保固時效或客訴統計。總分 66 分，列 C 級。',
+    sources:[
+      {label:'昇峰建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/66656979',type:'經濟部官方資料'},
+      {label:'新店地政預售屋備查查詢',url:'https://www.xindian.land.ntpc.gov.tw/cp.aspx?n=12001',type:'新北市官方資料'},
+      {label:'昇峰安曼預售屋買賣契約',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?icon=..pdf&n=5piH5bOw5a6J5pu8LnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMS9yZWxmaWxlLzk2NzkvNzM1MjU0L2E4ZWRhMGRlLTBmMGMtNDJmMS04ZDVjLTgyYjgxNWMzZDZiYy5wZGY%3D',type:'新北市官方契約'},
+      {label:'昇峰安曼建案規劃',url:'https://newhouse.591.com.tw/137396/detail',type:'建案公開資料'},
+    ],
+  },
+  {
+    id:'changtian-construction',name:'昌田建設',aliases:['昌田建設','昌田建設有限公司'],reviewed:'2026-09-18',confidence:'中高',
+    scores:{delivery:60,quality:68,governance:62,service:58,risk:70},
+    summary:'公司於 2007 年設立、資本額 3,100 萬元；官方預售契約、備查清冊及成交資料可確認「昌田捷境」由昌田建設銷售，為中和景平路的小型危老重建住宅案。',
+    caveat:'公司年資不短且現案政府文件完整，但目前能可靠歸屬至同一法人的住宅履歷仍集中於昌田捷境，尚缺多案完工比較、公司級工程制度、財務治理、保固與客訴處理成果。總分 63 分，列 C 級。',
+    sources:[
+      {label:'昌田建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/28872821',type:'經濟部官方資料'},
+      {label:'昌田捷境預售屋買賣契約',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?icon=..pdf&n=5piM55Sw5o235aKDLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMS9yZWxmaWxlLzk2NzkvNjM4Nzg1L2I0ZGFhNmQyLTdhNzQtNGM1ZC1hYmU5LWY3NDVkNzljOGMxNS5wZGY%3D',type:'新北市官方契約'},
+      {label:'新北市已備查建案清冊',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?n=MTEw5bm06IezMTE05bm05bey5YKZ5p%2Bl5bu65qGI5riF5YaKLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMzk5L3JlbGZpbGUvODk5My85NDY5L2NkZTQ4OTJkLTQzMzAtNDY3Zi1hYmExLTI3YzJiYjI0MjYxNi5wZGY%3D',type:'新北市官方清冊'},
+      {label:'昌田建設推案紀錄',url:'https://build.myhousing.com.tw/company/483809/',type:'建案公開資料'},
+    ],
+  },
+  {
+    id:'changrui-construction',name:'昌瑞建設',aliases:['昌瑞建設','昌瑞建設有限公司'],reviewed:'2026-09-18',confidence:'中高',
+    scores:{delivery:64,quality:68,governance:62,service:58,risk:68},
+    summary:'公司於 2016 年設立、目前資本額 3,300 萬元；官方預售契約與備查清冊確認昌瑞為新莊「至賦」賣方，該案 22 戶並已形成近期完工社區與實價成交資料。',
+    caveat:'至賦提供一件接近或完成交付的具體履約樣本，但尚未找到可可靠歸屬昌瑞的第二件住宅作品，也沒有公司級品管、財務治理、保固時效及客訴處理統計；不以名稱相似公司或建照案推高分數。總分 64 分，列 C 級。',
+    sources:[
+      {label:'昌瑞建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/45906016',type:'經濟部官方資料'},
+      {label:'至賦預售屋買賣契約',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?icon=..pdf&n=6Iez6LOmLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMS9yZWxmaWxlLzk2NzkvNjgwNTQwLzJjOTRmZjljLTc4YzgtNGJhMC1hMTIwLWZiOGIwZTA1MmE4YS5wZGY%3D',type:'新北市官方契約'},
+      {label:'新北市已備查建案清冊',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?n=MTEw5bm06IezMTE05bm05bey5YKZ5p%2Bl5bu65qGI5riF5YaKLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMzk5L3JlbGZpbGUvODk5My85NDY5L2NkZTQ4OTJkLTQzMzAtNDY3Zi1hYmExLTI3YzJiYjI0MjYxNi5wZGY%3D',type:'新北市官方清冊'},
+      {label:'至賦建案與完工資料',url:'https://www.plex.com.tw/projects/view/id/5040',type:'建案公開資料'},
+    ],
+  },
+  {
+    id:'mingwei-construction',name:'明緯建設',aliases:['明緯建設','明緯建設股份有限公司'],reviewed:'2026-09-18',confidence:'高',
+    scores:{delivery:88,quality:78,governance:70,service:68,risk:78},
+    summary:'公司於 1992 年設立、實收資本額 6,500 萬元；官方作品頁列出自 1994 年台大公館、永和之星、湖悅、筑丰系列至星野之森多期作品，政府交易分析亦可核對沐松、沐石、沐月、沐川的戶數與成交。',
+    caveat:'長期、多案及星野之森分期交付使履約分數明顯高於單案公司；但公司不是公開發行建商，財務、工程稽核、保固處理時效及客訴統計的外部揭露仍有限，因此列 B 而非 A。總分 77 分，列 B 級。',
+    sources:[
+      {label:'明緯建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/86521319',type:'經濟部官方資料'},
+      {label:'明緯建設官方作品彙整',url:'https://mingwayltd.com.tw/portfolio/',type:'建商官方資料'},
+      {label:'汐止區預售屋價量分析',url:'https://www-ws.land.ntpc.gov.tw/001/Upload/404/relfile/9025/7512/b5d6b128-6013-44cf-a203-5a907e6c4479.pdf',type:'新北市官方分析'},
+      {label:'明緯建設推案紀錄',url:'https://build.myhousing.com.tw/company/483901/',type:'建案公開資料'},
+    ],
+  },
 ].map(profile=>{
   const score=profile.scores?weightedScore(profile.scores):null;
   return {...profile,score,rating:profile.rating||ratingFromScore(score)};
