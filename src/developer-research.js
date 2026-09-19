@@ -5868,14 +5868,16 @@ export const developerResearch=[
     ],
   },
   {
-    id:'puyang-group',name:'蒲陽建設機構',aliases:['蒲陽建設','蒲陽建設股份有限公司','昌慶開發建設','昌慶開發建設股份有限公司'],reviewed:'2026-09-18',confidence:'中高',
+    id:'puyang-group',name:'蒲陽建設機構',aliases:['蒲陽建設','蒲陽建設股份有限公司','昌慶開發建設','昌慶開發建設股份有限公司','勝隆開發建設','勝隆開發建設股份有限公司'],reviewed:'2026-09-18',confidence:'中高',
     scores:{delivery:85,quality:80,governance:68,service:78,risk:72},
-    summary:'公司官網揭露 33 年、累積超過 2,300 戶，並提供一對一服務、工程 E 化及第三方查驗；蒲陽南山官網確認昌慶開發建設為蒲陽團隊的投資興建法人。',
+    summary:'公司官網揭露 33 年、累積超過 2,300 戶，並提供一對一服務、工程 E 化及第三方查驗；官方預售資料與蒲陽官網可交叉確認昌慶開發建設、勝隆開發建設均為蒲陽品牌個案的實際投資興建法人。',
     caveat:'長期案量與服務制度具正面支撐，但戶數、品質及售服成果多為公司自行揭露，尚缺公開財報、缺失率、報修時效等可持續比較的外部證據。總分 78 分，列 B 級。',
     sources:[
       {label:'蒲陽建設機構與服務制度',url:'https://www.pyagency.com.tw/',type:'公司揭露'},
       {label:'蒲陽南山投資興建資料',url:'https://puyangnanshan.creator-taiwan.com/',type:'建案官網'},
       {label:'蒲陽建設公司資料',url:'https://findbiz.nat.gov.tw/fts/company/86683382',type:'政府公司資料'},
+      {label:'勝隆開發建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/28845753',type:'經濟部商工登記公示資料'},
+      {label:'蒲陽頂溪預售屋備查',url:'https://www.land.ntpc.gov.tw/News.aspx?PageSize=20&_Query=a57b2e19-ab70-4142-80ea-976f35abb5bb&n=11769&page=3&sms=9679',type:'新北市政府地政局官方資料'},
     ],
   },
   {
@@ -7171,6 +7173,42 @@ export const developerResearch=[
       {label:'星喬逸家人預售屋備查',url:'https://www.land.ntpc.gov.tw/News.aspx?PageSize=20&_Query=a57b2e19-ab70-4142-80ea-976f35abb5bb&n=11769&page=31&sms=9679',type:'新北市政府地政局官方資料'},
       {label:'星喬和峰完工與建案資料',url:'https://www.plex.com.tw/projects/view/id/523',type:'市場建案交叉核對'},
       {label:'星喬建設推案紀錄',url:'https://build.myhousing.com.tw/company/485414/',type:'市場建案交叉核對'},
+    ],
+  },
+  {
+    id:'liuliju-construction',name:'琉璃居建設',aliases:['琉璃居建設','琉璃居建設有限公司'],reviewed:'2026-09-18',confidence:'中低',
+    scores:{delivery:58,quality:60,governance:58,service:52,risk:72},
+    summary:'2014 年設立，現行資本額 1,500 萬元；新北市預售屋備查清冊確認琉璃居建設為永和「詠和頌」的契約建設公司，建照為 112 永建字第 00015 號。',
+    caveat:'法人與單案責任可明確核對，但目前可直接歸屬的住宅開發證據集中於 26 戶的詠和頌，尚無足夠跨案完工、施工品質、財務治理或量化售後服務資料；不能只因已備查便推定為 B 級。總分 59 分，列為 C 級。',
+    sources:[
+      {label:'琉璃居建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/24539064',type:'經濟部商工登記公示資料'},
+      {label:'琉璃居建設公司變更登記',url:'https://serv.gcis.nat.gov.tw/pub/cmpy/reportAction.do?fileName=376410000Achange11409.pdf&method=report&reportClass=cmpyCity&subPath=11409',type:'經濟部商工行政官方資料'},
+      {label:'詠和頌預售屋備查清冊',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?n=MTEw5bm06IezMTE05bm05bey5YKZ5p%2Bl5bu65qGI5riF5YaKLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMzk5L3JlbGZpbGUvODk5My85NDY5L2NkZTQ4OTJkLTQzMzAtNDY3Zi1hYmExLTI3YzJiYjI0MjYxNi5wZGY%3D',type:'新北市政府地政局官方資料'},
+      {label:'詠和頌建案規格',url:'https://build.myhousing.com.tw/company/486523/',type:'市場建案交叉核對'},
+    ],
+  },
+  {
+    id:'yenjing-international',name:'晏京國際開發（晏京機構）',aliases:['晏京國際開發','晏京國際開發股份有限公司','晏京建設','晏京建設股份有限公司'],reviewed:'2026-09-18',confidence:'高',
+    scores:{delivery:88,quality:82,governance:70,service:76,risk:78},
+    summary:'晏京品牌自 1990 年代在宜蘭推案，官網列有多件已完工作品與戶數，晏京國際開發法人自 2006 年存續、實收資本額 8,409 萬元；新北市官方契約確認其為永和 M PLUS 賣方。',
+    caveat:'長期跨案交付、自有營造體系與公開聯絡管道支持穩健 B 級；但品質、獎項及售後主張多為公司自行揭露，仍缺公開財報、第三方缺失率及報修完成率等一致量化證據，故不升至 A 級。總分 80 分，列為 B 級。',
+    sources:[
+      {label:'晏京國際開發公司登記',url:'https://findbiz.nat.gov.tw/fts/company/28372564',type:'經濟部商工登記公示資料'},
+      {label:'晏京機構公司、作品與服務資料',url:'https://www.yen-jing.com/',type:'建商官方資料'},
+      {label:'M PLUS 建案官方資料',url:'https://www.yen-jing.com/?us_portfolio=%E5%8F%B0%E5%8C%97-m-plus',type:'建商官方資料'},
+      {label:'M PLUS 預售屋買賣契約',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?icon=..pdf&n=TSBQTFVTLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMS9yZWxmaWxlLzk2NzkvNzM0MTA2Lzc5MjI1ZjMyLTdkNjgtNDE0ZC04ZWQwLWFkNGVjZDU0Yjk2My5wZGY%3D',type:'新北市政府地政局官方契約'},
+    ],
+  },
+  {
+    id:'fujulu-construction',name:'富鉅祿建設（富鉅鼎集團）',aliases:['富鉅祿建設','富鉅祿建設股份有限公司'],reviewed:'2026-09-18',confidence:'中高',
+    scores:{delivery:84,quality:76,governance:74,service:64,risk:72},
+    summary:'2010 年設立，現行實收資本額 4 億元；可直接核對政大爵鼎一期、二期完工，以及和平官址使用執照與汐科爵鼎預售建照，具多案履約及都市更新執行經驗。',
+    caveat:'資本規模、完工樣本與持續推案支持 B 級，但集團不同案仍可能使用不同專案法人，不把祿鼎等關係公司作品全數歸給富鉅祿；公司級工程查驗、財務與售後績效公開度仍有限。總分 75 分，列為 B 級。',
+    sources:[
+      {label:'富鉅祿建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/25115227',type:'經濟部商工登記公示資料'},
+      {label:'富鉅祿都市更新與使用執照資料',url:'https://www-ws.gov.taipei/001/Upload/459/relfile/22615/3491578/008a5da7-3bfb-4399-9a72-6d779af20d76.pdf',type:'臺北市政府官方資料'},
+      {label:'政大爵鼎完工個案',url:'https://www.plex.com.tw/projects/index/type/developer/query/%E5%AF%8C%E9%89%85%E7%A5%BF%E5%BB%BA%E8%A8%AD',type:'完工建案交叉核對'},
+      {label:'汐科爵鼎建照與建案資料',url:'https://newhouse.591.com.tw/136501?bid=3227',type:'市場建案交叉核對'},
     ],
   },
 ].map(profile=>{
