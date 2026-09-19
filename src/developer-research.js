@@ -7378,6 +7378,70 @@ export const developerResearch=[
       {label:'統創曜工程實績',url:'https://www.dehwa.com.tw/dh/case_01_detail?id=275&page=1',type:'營造團隊工程資料'},
     ],
   },
+  {
+    id:'fudian-construction',name:'福典建設',aliases:['福典建設','福典建設有限公司'],reviewed:'2026-09-18',confidence:'中高',
+    scores:{delivery:82,quality:78,governance:70,service:70,risk:78},
+    summary:'2005 年設立、資本額已增至 1.6 億元；公司官網、政府契約及成屋資料可交叉確認其直接興建 2007 年「福林寶典」、約 2012 年「福林國典」與 2026 年完工的「福林沄典」，已有跨期交屋樣本。',
+    caveat:'公司年資、資本與至少三案的時間序列支持 B 級履約能力，且福林沄典的賣方、建照及完工資料可核對；但公開公司級施工稽核、交屋缺失率、售後完成率及財務治理資料仍有限。總分 76 分，列為 B 級。',
+    sources:[
+      {label:'福典建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/27676619',type:'經濟部商工登記公示資料'},
+      {label:'福典建設官方網站',url:'https://www.fudian.com.tw/',type:'建商官方資料'},
+      {label:'福林沄典預售屋買賣契約',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?icon=..pdf&n=56aP5p6X5rKE5YW4LnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMS9yZWxmaWxlLzk2NzkvNjgwNTQxL2EyZGM3YzNhLWFlZTItNDU0MC05MmJjLTFhZDQwZWM4YzcxOS5wZGY%3D',type:'新北市政府地政局官方契約'},
+      {label:'福林寶典成屋資料',url:'https://community.yungching.com.tw/building/11304/detail',type:'成屋市場資料'},
+      {label:'福林國典成屋資料',url:'https://community.rakuya.com.tw/604',type:'成屋市場資料'},
+      {label:'福林沄典完工與建照資料',url:'https://www.plex.com.tw/projects/view/id/3814',type:'建案交叉核對'},
+    ],
+  },
+  {
+    id:'qianhe-asset-management',name:'謙和資產管理顧問',aliases:['謙和資產管理顧問','謙和資產管理顧問股份有限公司'],reviewed:'2026-09-18',confidence:'中高',
+    scores:{delivery:50,quality:68,governance:66,service:55,risk:70},
+    summary:'2018 年設立、實收資本額 2,000 萬元，登記業務包含住宅及大樓開發；新北市官方預售契約可確認其為「謙和文化博」賣方，並採預售履約擔保機制。',
+    caveat:'公司與本案的法律責任可清楚核對，但公開資料顯示謙和文化博是其第一個住宅建案，尚無同一法人可驗證的完工交屋、跨案施工品質與售後保固樣本；不因案名與預售成交紀錄推定履約實績。總分 61 分，列為 C 級。',
+    sources:[
+      {label:'謙和資產管理顧問公司登記',url:'https://findbiz.nat.gov.tw/fts/company/50861550',type:'經濟部商工登記公示資料'},
+      {label:'謙和文化博預售屋買賣契約',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?icon=..pdf&n=6KyZ5ZKM5paH5YyW5Y2aLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMS9yZWxmaWxlLzk2NzkvNzI0MDQ2LzA1Y2EwMWU5LWZiNzgtNDIzMi1hYWRiLWQzMmY2NDkzZWI1MC5wZGY%3D',type:'新北市政府地政局官方契約'},
+      {label:'新北市預售屋契約查詢',url:'https://www.land.ntpc.gov.tw/News.aspx?PageSize=20&n=11769&page=20&sms=9679',type:'新北市政府地政局官方資料'},
+      {label:'謙和文化博首案與產品資料',url:'https://housetour.com.tw/%E6%9D%BF%E6%A9%8B%E8%AC%99%E5%92%8C%E6%96%87%E5%8C%96%E5%8D%9A%E8%A9%95%E5%83%B9/',type:'市場建案交叉核對'},
+    ],
+  },
+  {
+    id:'liman-construction',name:'禮滿建設',aliases:['禮滿建設','禮滿建設股份有限公司'],reviewed:'2026-09-18',confidence:'中高',
+    scores:{delivery:76,quality:75,governance:68,service:65,risk:74},
+    summary:'2014 年設立、實收資本額 7,000 萬元；官方網站列有禮閱、松耘樸石與禮御三案，新北市官方契約及建管資料確認禮滿為板橋 176 戶「禮御」賣方與起造人，該案目前已取得成屋使用樣本。',
+    caveat:'已有多案作品脈絡與一件大型直接完工案，達 B 級最低門檻；但禮閱及松耘樸石的交屋歸屬、公司級施工查驗、長期售後及財務治理仍未充分公開，不能只用集團自述的「30 年」當作法人年資。總分 72 分，列為 B 級。',
+    sources:[
+      {label:'禮滿建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/54702653',type:'經濟部商工登記公示資料'},
+      {label:'禮滿建設官方作品',url:'https://liman.8sms.tw/hot.php',type:'建商官方資料'},
+      {label:'禮御預售屋買賣契約',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?icon=..pdf&n=56au5b6hLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMS9yZWxmaWxlLzk2NzkvNzI4Nzk3L2FkNDNlZTMxLTBhYTctNDEyNC05NjhkLWEzZWU4ZjYwNDNiOS5wZGY%3D',type:'新北市政府地政局官方契約'},
+      {label:'禮御使用執照申請紀錄',url:'https://building-management.publicwork.ntpc.gov.tw/bp_detail.jsp?ri=253839',type:'新北市政府建管官方資料'},
+      {label:'禮滿禮御成屋報導',url:'https://money.udn.com/money/story/5638/9742076',type:'成屋狀態交叉核對'},
+    ],
+  },
+  {
+    id:'vibo-construction',name:'威堡建設',aliases:['威堡建設','威堡建設股份有限公司'],reviewed:'2026-09-18',confidence:'高',
+    scores:{delivery:84,quality:80,governance:72,service:76,risk:76},
+    summary:'2008 年設立、實收資本額已增至 1.6 億元；官方網站完整列出 2010 晶典名第、2016 威堡合筑、2017 威堡今綻及 2025 鑄見，並提供工程進度、線上報修與客服入口，形成可驗證的跨案履約序列。',
+    caveat:'三件既有成屋、現行大型都更案、資本規模及公開報修管道支持穩健 B 級；惟公司非公開發行，跨案缺失率、修繕時效、財務報表與第三方品質驗證仍不足，尚不升至 A 級。總分 78 分，列為 B 級。',
+    sources:[
+      {label:'威堡建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/28843191',type:'經濟部商工登記公示資料'},
+      {label:'威堡建設官方作品與服務',url:'https://www.vibo98.com.tw/',type:'建商官方資料'},
+      {label:'鑄見預售屋買賣契約',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?icon=..pdf&n=6ZGE6KaLLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMS9yZWxmaWxlLzk2NzkvNzM5NTk1L2EwYjZmNWUyLTIzYjEtNDI2NC1hOGFhLWNhMzY2MmE2YzE5NC5wZGY%3D',type:'新北市政府地政局官方契約'},
+      {label:'威堡建設中和都更核定計畫',url:'https://www.vibo98.com.tw/upload/photos/1/113.06%E5%80%8B%E8%B3%87%E9%81%AE%E8%94%BD-%E6%93%AC%E8%A8%82%E6%96%B0%E5%8C%97%E5%B8%82%E4%B8%AD%E5%92%8C%E5%8D%80%E5%BE%A9%E8%88%88%E6%AE%B5613%E5%9C%B0%E8%99%9F%E7%AD%8919%E7%AD%86%28%E5%8E%9F11%E7%AD%86%29%E5%9C%9F%E5%9C%B0%E9%83%BD%E5%B8%82%E6%9B%B4%E6%96%B0%E4%BA%8B%E6%A5%AD%E8%A8%88%E7%95%AB%E6%A1%88%28%E6%A0%B8%E5%AE%9A%E7%89%88%29_1.pdf',type:'都市更新核定文件'},
+    ],
+  },
+  {
+    id:'chiaopang-development',name:'喬邦開發',aliases:['喬邦開發','喬邦開發股份有限公司','喬邦國際建設','喬邦國際建設有限公司'],reviewed:'2026-09-18',confidence:'中高',
+    scores:{delivery:84,quality:75,governance:68,service:66,risk:60},
+    summary:'2004 年設立、2010 年由喬邦國際建設更為現名，實收資本額 9,500 萬元；成屋與官方契約資料可確認樹林第一站、金城 ONE、喬邦信義 VS 復興及現行 J12，具跨區、跨期直接推案紀錄。',
+    caveat:'三件成屋與現行官方備查案支持 B 級履約能力；但 2022 年建築師公會曾公開轉知其與受託建築師就另一危老案有合約糾紛，現有資料未見最終責任判定，因此只作風險折減、不推定公司違法；售後與品質量化資料亦有限。總分 73 分，列為 B 級。',
+    sources:[
+      {label:'喬邦開發公司登記',url:'https://findbiz.nat.gov.tw/fts/company/80698541',type:'經濟部商工登記公示資料'},
+      {label:'J12 預售屋買賣契約',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?icon=..pdf&n=SjEyLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMS9yZWxmaWxlLzk2NzkvNzI4NzkyLzM1MjhjZjQ3LWUyNWQtNDM5OS05YzM2LTIzYWM1YWU0NGE3NC5wZGY%3D',type:'新北市政府地政局官方契約'},
+      {label:'新北市預售建案清冊',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?n=MTEw5bm06IezMTE05bm05bey5YKZ5p%2Bl5bu65qGI5riF5YaKLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMzk5L3JlbGZpbGUvODk5My85NDY5L2NkZTQ4OTJkLTQzMzAtNDY3Zi1hYmExLTI3YzJiYjI0MjYxNi5wZGY%3D',type:'新北市政府地政局官方資料'},
+      {label:'喬邦歷年推案與成屋資料',url:'https://www.plex.com.tw/projects/index/type/developer/query/%E5%96%AC%E9%82%A6%E9%96%8B%E7%99%BC',type:'市場建案交叉核對'},
+      {label:'建築師公會合約糾紛轉知',url:'https://www.ntcaa.org.tw/News/news_more?id=bde4be9ed501405a8a052cd86621fd47',type:'建築師公會公開文件'},
+    ],
+  },
 ].map(profile=>{
   const score=profile.scores?weightedScore(profile.scores):null;
   return {...profile,score,rating:profile.rating||ratingFromScore(score)};
