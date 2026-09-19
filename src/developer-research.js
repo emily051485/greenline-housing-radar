@@ -8164,6 +8164,70 @@ export const developerResearch=[
       {label:'鳳翔建案現況',url:'https://newhouse.591.com.tw/120052',type:'市場建案資料'},
     ],
   },
+  {
+    id:'zhukang-construction-82999071',name:'築康建設',aliases:['築康建設','築康建設股份有限公司'],reviewed:'2026-09-19',confidence:'中',
+    scores:{delivery:65,quality:75,governance:64,service:60,risk:72},
+    summary:'2023 年設立，初始實收資本額 200 萬元；官方備查契約確認其為「築康安安」直接出賣人，該 46 戶住宅已取得 2026 年使用執照並出現成屋交易。',
+    caveat:'公司成立時間與築康安安推案高度接近，現階段呈現單案開發公司特徵；取得使照證明單案完成，不足以證明跨案履約、售後服務與長期品質，且公開治理資料有限，故總分 67 分，列 C 級。',
+    sources:[
+      {label:'築康建設設立登記',url:'https://serv.gcis.nat.gov.tw/pub/cmpy/reportAction.do?fileName=11203ALS.pdf&method=report&reportClass=cmpy&subPath=11203',type:'經濟部公司登記清冊'},
+      {label:'築康安安預售契約',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?icon=..pdf&n=56%2BJ5bq35a6J5a6JLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMS9yZWxmaWxlLzk2NzkvNzI0MjAyLzBjZWYyOTE2LTEzMTctNGVkOS1iYmE2LTNlZTZiMjdlYzI4MS5wZGY%3D',type:'政府備查契約'},
+      {label:'新北預售契約查詢',url:'https://www.land.ntpc.gov.tw/News.aspx?PageSize=20&n=11769&page=19&sms=9679',type:'政府預售備查'},
+      {label:'築康安安使照與成交資料',url:'https://dualtaipei.datazen.info/newtaipei/project/%E7%AF%89%E5%BA%B7%E5%AE%89%E5%AE%89',type:'政府資料交叉整理'},
+    ],
+  },
+  {
+    id:'fugui-construction-91040234',name:'馥桂建設',aliases:['馥桂建設','馥桂建設股份有限公司'],reviewed:'2026-09-19',confidence:'中',
+    scores:{delivery:60,quality:72,governance:62,service:58,risk:72},
+    summary:'2021 年設立，實收資本額由 500 萬元增至 800 萬元；官方預售契約與備查頁確認「馥桂吉第」由馥桂建設直接出售，採價金信託。',
+    caveat:'目前可靠公開資料僅支持單一小型華廈案，且公司年資、資本與跨案完工履歷均有限；價金信託是個案履約機制，不等同建商整體品質或售後能力，故總分 64 分，列 C 級。',
+    sources:[
+      {label:'馥桂建設設立登記',url:'https://serv.gcis.nat.gov.tw/pub/cmpy/reportAction.do?fileName=11008ALS.pdf&method=report&reportClass=cmpy&subPath=11008',type:'經濟部公司登記清冊'},
+      {label:'馥桂建設資本變更',url:'https://serv.gcis.nat.gov.tw/pub/cmpy/reportAction.do?fileName=11404NTC.pdf&method=report&reportClass=cmpy&subPath=11404',type:'經濟部公司登記清冊'},
+      {label:'馥桂吉第預售契約',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?icon=..pdf&n=6aal5qGC5ZCJ56ysLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMS9yZWxmaWxlLzk2NzkvNzI0MjA5LzU1ZDY0NzA2LTM3ZWMtNDgxMS05YTFjLWZhZTUzY2E5N2RmMy5wZGY%3D',type:'政府備查契約'},
+      {label:'新北預售契約查詢',url:'https://www.land.ntpc.gov.tw/News.aspx?PageSize=20&n=11769&page=20&sms=9679',type:'政府預售備查'},
+    ],
+  },
+  {
+    id:'huatai-development-80656872',name:'華太開發建設',aliases:['華太開發建設','華太開發建設有限公司'],reviewed:'2026-09-19',confidence:'中高',
+    scores:{delivery:82,quality:78,governance:66,service:68,risk:74},
+    summary:'2003 年設立、資本額 3,000 萬元，長期在新店中央新村推案；既成社區與市場資料可辨識華太馥御系列，官方契約確認「馥御 NO.7」由該公司直接出售且已於 2024 年完工。',
+    caveat:'本評分僅適用統編 80656872 的新店華太開發建設，不能混用台中華太建設的作品與資本；雖具系列案履歷，私人公司仍缺少完整案表、交屋缺失、保固與客訴量化揭露，故總分 74 分，列 B 級。',
+    sources:[
+      {label:'華太開發建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/80656872',type:'經濟部商工登記'},
+      {label:'馥御 NO.7 預售契約',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?icon=..pdf&n=6aal5b6hTk8uNy5wZGY%3D&u=LzAwMS9VcGxvYWQvMS9yZWxmaWxlLzk2NzkvNjgwMTA1LzQ3NDA3ZjllLTljZmMtNDJhNi05ZjhkLTVlMGIyMzYyZDU3ZS5wZGY%3D',type:'政府備查契約'},
+      {label:'馥御 NO.7 完工與成交資料',url:'https://www.plex.com.tw/projects/view/id/5537',type:'市場建案資料'},
+      {label:'華太馥御既成社區',url:'https://buy.housefun.com.tw/Buy/Building/10716/',type:'既成社區資料'},
+      {label:'新北預售契約查詢',url:'https://www.land.ntpc.gov.tw/News.aspx?PageSize=20&n=11769&page=24&sms=9679',type:'政府預售備查'},
+    ],
+  },
+  {
+    id:'esane-international-28848203',name:'誼盛國際',aliases:['誼盛國際','誼盛國際股份有限公司'],reviewed:'2026-09-19',confidence:'中高',
+    scores:{delivery:86,quality:82,governance:72,service:72,risk:76},
+    summary:'2008 年設立、實收資本額 6 億元，為湯泉／寶路體系的開發公司；可核對已完工的雙和湯泉及施工中的 634 戶寶鈺，後者有官方都設審議、建照、預售契約與不動產開發信託。',
+    caveat:'資本與兩筆大型直接開發案支持較高履約分，但集團品牌歷年案不能一律歸入誼盛單一法人；公司也缺少上市櫃等級的連續財報、工程缺失、保固及客訴量化揭露，故總分 78 分，列 B 級。',
+    sources:[
+      {label:'誼盛國際公司登記',url:'https://findbiz.nat.gov.tw/fts/company/28848203',type:'經濟部商工登記'},
+      {label:'寶鈺預售契約',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?icon=..pdf&n=5a%2B26Yi6LnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMS9yZWxmaWxlLzk2NzkvNzM4NjgwL2MzYWU3Y2YwLTU0OTItNDcyMC05YTUwLTg5NmI0Y2IyMzczOC5wZGY%3D',type:'政府備查契約'},
+      {label:'寶鈺都市設計審議',url:'https://www.planning.ntpc.gov.tw/uploaddowndoc?file=downloaddata%2F202407221045050.pdf&filedisplay=113%E5%B9%B48th-%28%E5%B0%88%E6%A1%88%29%E5%A1%AD%E4%BB%94%E5%9C%B3%E5%9C%B0%E5%8D%80%E6%B3%95%E5%AE%9A%E9%80%80%E7%B8%AE%28%E4%B8%80%29%E5%9C%9F%E5%9F%8E%E5%93%A1%E7%A6%8F%E6%AE%B5581%E5%9C%B0%E8%99%9F8%28%E4%BA%8C%29%E8%AA%BC%E7%9B%9B%E6%96%B0%E5%BA%97%E6%96%AF%E9%A6%A8%E6%AE%B561%E3%80%8168%E3%80%8169.pdf&flag=doc',type:'政府審議紀錄'},
+      {label:'新店預售備查資料',url:'https://www.xindian.land.ntpc.gov.tw/cp.aspx?n=12001',type:'政府建照與備查'},
+      {label:'雙和湯泉既成社區',url:'https://buy.housefun.com.tw/buy/building/94750',type:'既成社區資料'},
+      {label:'湯泉機構作品頁',url:'https://www.townic.com.tw/',type:'集團作品揭露'},
+    ],
+  },
+  {
+    id:'fengjian-construction-29161784',name:'豐健建設',aliases:['豐健建設','豐健建設股份有限公司'],reviewed:'2026-09-19',confidence:'中高',
+    scores:{delivery:76,quality:78,governance:70,service:65,risk:74},
+    summary:'2010 年設立，實收資本額已增至 5,000 萬元；官方預售契約確認其為 35 戶「日和淳」直接出賣人，公司亦以實施者身分推動三重集美段都市更新案。',
+    caveat:'已有完銷住宅與都更推動紀錄，但公開可核對的完工作品數仍少，且品質、交屋、保固與客訴缺少長期量化資料；都市更新事業計畫進度也不能預先視為完工實績，故總分 73 分，列 B 級。',
+    sources:[
+      {label:'豐健建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/29161784',type:'經濟部商工登記'},
+      {label:'日和淳預售契約',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?icon=..pdf&n=5pel5ZKM5rezLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMS9yZWxmaWxlLzk2NzkvNjgwMTAzLzM5NGQwZGI2LTM1ODctNDI5Yi04MmE1LTY0ZjU1ZjMzODc3Mi5wZGY%3D',type:'政府備查契約'},
+      {label:'新北預售契約查詢',url:'https://www.land.ntpc.gov.tw/News.aspx?PageSize=20&n=11769&page=24&sms=9679',type:'政府預售備查'},
+      {label:'集美段都市更新公告',url:'https://www.uro.ntpc.gov.tw/Announce/Detail/e6173c84-0fe6-4022-ad81-6b5c57b83a5f',type:'政府都更資料'},
+      {label:'日和淳市場追蹤',url:'https://www.myhousing.com.tw/n/n02/n0202/new-taipei-city/149395/',type:'專業房市媒體'},
+    ],
+  },
 ].map(profile=>{
   const score=profile.scores?weightedScore(profile.scores):null;
   return {...profile,score,rating:profile.rating||ratingFromScore(score)};
