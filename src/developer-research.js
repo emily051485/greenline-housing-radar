@@ -153,14 +153,17 @@ export const developerResearch=[
     ],
   },
   {
-    id:'hanhuang',name:'漢皇集團',aliases:['漢皇開發','漢皇建設','漢吉建設'],reviewed:'2026-09-14',confidence:'中低',
-    scores:{delivery:79,quality:76,governance:51,service:72,risk:63},
-    summary:'長期深耕雙和並具開發、營造與售服整合履歷；目前可取得資料以公司品牌與作品介紹為主。',
-    caveat:'缺少可比的財務治理文件、量化售服成效與明確通用保固條款，C 級主要反映證據不足，不代表已證實品質差。',
+    id:'hanhuang',name:'漢皇集團',aliases:['漢皇開發','漢皇建設','漢吉建設','漢吉建設股份有限公司','漢永建設','漢永建設股份有限公司'],reviewed:'2026-09-18',confidence:'中',
+    scores:{delivery:83,quality:78,governance:62,service:74,risk:72},
+    summary:'長期深耕雙和並具開發、營造與售服整合履歷；公司登記確認漢永建設自 1992 年存續，漢皇官網及政府預售備查也交叉確認漢永為漢皇一寓投資興建法人。',
+    caveat:'已有跨期作品、相當實收資本與官方備查證據，但品質、保固處理及財務治理仍以公司自述為主，尚缺上市公司等級的連續量化揭露。總分 75 分，列 B 級。',
     sources:[
       {label:'公司沿革與作品',url:'https://www.hanhuang.com.tw/about',type:'公司揭露'},
       {label:'都更與服務流程',url:'https://hanhuang.com.tw/renovations',type:'公司揭露'},
       {label:'企業責任',url:'https://hanhuang.com.tw/responsibilities',type:'公司揭露'},
+      {label:'漢永建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/86519828',type:'政府公司資料'},
+      {label:'漢皇一寓建案團隊',url:'https://www.hanhuang.com.tw/projects/han-huang-yi-yu',type:'公司揭露'},
+      {label:'新北市預售備查查詢',url:'https://www.land.ntpc.gov.tw/News.aspx?PageSize=20&n=11769&page=4&sms=9679',type:'政府預售資料'},
     ],
   },
   {
@@ -955,7 +958,7 @@ export const developerResearch=[
     ],
   },
   {
-    id:'tatungdev',name:'大同開發',aliases:['大同開發','大同資產開發'],reviewed:'2026-09-14',confidence:'中高',
+    id:'tatungdev',name:'大同開發',aliases:['大同開發','大同開發股份有限公司','大同資產開發','大同資產開發股份有限公司','尚志資產開發','尚志資產開發股份有限公司'],reviewed:'2026-09-18',confidence:'高',
     scores:{delivery:84,quality:82,governance:78,service:76,risk:73},
     summary:'原大同資產開發於 2026 年更名為大同開發；官網可核對大同莊園系列、大同新紀元與新豐采的開工、完工、完銷及建築獎項。',
     caveat:'具集團資源與跨案交付，但公司級售後、品質量化及獨立治理揭露不及 A 級標竿，評為 B 級。',
@@ -963,6 +966,7 @@ export const developerResearch=[
       {label:'經濟部更名登記',url:'https://findbiz.nat.gov.tw/fts/company/29508603',type:'政府資料'},
       {label:'大同資產開發案況',url:'https://tadctatung.com.tw/news.html',type:'建商官網'},
       {label:'大同公司年報',url:'https://tatung.com/Content/download/investors/113%E4%B8%AD%E6%96%87%E5%B9%B4%E5%A0%B1.pdf',type:'公司財務資料'},
+      {label:'尚志資產更名佐證',url:'https://www.etatung.com/upload/0cab03e4-99ae-4ff6-a381-ada540c6823a.pdf',type:'關係企業財報'},
     ],
   },
   {
@@ -5799,6 +5803,54 @@ export const developerResearch=[
       {label:'新北市公司設立登記清冊',url:'https://serv.gcis.nat.gov.tw/pub/cmpy/reportAction.do?fileName=376410000Asetup10706.pdf&method=report&reportClass=cmpyCity&subPath=10706',type:'政府公司資料'},
       {label:'新北市預售備查清冊',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?n=MTEw5bm06IezMTE05bm05bey5YKZ5p%2Bl5bu65qGI5riF5YaKLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMzk5L3JlbGZpbGUvODk5My85NDY5L2NkZTQ4OTJkLTQzMzAtNDY3Zi1hYmExLTI3YzJiYjI0MjYxNi5wZGY%3D',type:'政府預售資料'},
       {label:'中興匯成屋與開發團隊',url:'https://buy.housefun.com.tw/Buy/Building/97465/',type:'成屋公開資料'},
+    ],
+  },
+  {
+    id:'jean-group',name:'新美齊',aliases:['新美齊','新美齊股份有限公司','新美齊集團'],reviewed:'2026-09-18',confidence:'高',
+    scores:{delivery:84,quality:83,governance:87,service:82,risk:78},
+    summary:'上市公司（2442），具 30 年以上營運歷史、跨案作品與公開財務治理架構；官方建案網站可核對新美齊 The Top 等案，並設有建案住戶線上服務。',
+    caveat:'治理與履約證據明顯高於一般未公開建商，但國際獎項及品質主張仍多由公司揭露，公開資料未提供一致的完工缺失率、報修完成率或全案通用保固成效。總分 83 分，列 A 級。',
+    sources:[
+      {label:'新美齊公司登記與上市資料',url:'https://findbiz.nat.gov.tw/fts/company/22006274',type:'政府公司資料'},
+      {label:'新美齊集團與營運履歷',url:'https://www.jean.com.tw/',type:'公司揭露'},
+      {label:'新美齊建案作品',url:'https://building.jean.com.tw/tw/index',type:'公司揭露'},
+      {label:'新美齊建設線上服務',url:'https://service.jean.com.tw/CROnlineService/CRLogin',type:'公司售服'},
+      {label:'證券集保投資人關係平台',url:'https://irplatform.tdcc.com.tw/ir/zh/contact/detail/5FE5F3C1-F9BB-4FC1-9A6C-7588905B3C66',type:'官方投資人資料'},
+    ],
+  },
+  {
+    id:'yide-construction',name:'億德建設',aliases:['億德建設','億德建設股份有限公司'],reviewed:'2026-09-18',confidence:'中高',
+    scores:{delivery:82,quality:76,governance:60,service:65,risk:72},
+    summary:'2005 年設立、實收資本 4 億元；官方網站列出南港風華、南港風尚、內湖風禾、新店風華與土城風華等跨區作品，政府與環境資料亦可核對多筆建照工程。',
+    caveat:'多案履歷與資本規模支持基本履約能力，但作品與團隊資訊主要來自公司官網，尚缺連續財務、施工查驗、售後處理及住戶服務成效等量化揭露。總分 72 分，列 B 級。',
+    sources:[
+      {label:'億德建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/27566731',type:'政府公司資料'},
+      {label:'億德建設作品與團隊',url:'https://yide-arch.com/',type:'公司揭露'},
+      {label:'億德建設工程裁處公開資料',url:'https://thaubing.gcaa.org.tw/corp/27566731',type:'政府資料彙整'},
+    ],
+  },
+  {
+    id:'yixin-construction',name:'益欣建設',aliases:['益欣建設','益欣建設股份有限公司'],reviewed:'2026-09-18',confidence:'中高',
+    scores:{delivery:72,quality:68,governance:58,service:58,risk:68},
+    summary:'2013 年設立；政府預售契約確認益欣為三重 72 戶益欣湛陽賣方，另可核對竹北已完工益欣森陽及桃園、新竹後續推案。',
+    caveat:'已有跨縣市推案與至少一件完工樣本，但資本規模較小，且缺少公司級作品總表、工程品管、保固服務、財務治理及量化客訴處理資料。總分 65 分，列 C 級。',
+    sources:[
+      {label:'益欣建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/54031331',type:'政府公司資料'},
+      {label:'益欣湛陽預售契約',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?icon=..pdf&n=55uK5qyj5rmb6Zm9LnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMS9yZWxmaWxlLzk2NzkvNzE2NzAxLzhiNjFkZWJjLTg2NjQtNDM5ZS05OTU3LWQzMTBkM2QxYWU4Ny5wZGY%3D',type:'政府預售契約'},
+      {label:'益欣森陽完工作品',url:'https://www.lelinllc.com.tw/case/%E7%9B%8A%E6%AC%A3%E6%A3%AE%E9%99%BD/',type:'專業顧問作品資料'},
+      {label:'益欣盛陽建案官網',url:'https://www.yixinsunyoung.tw/',type:'建案官網'},
+    ],
+  },
+  {
+    id:'guoju-dinglv',name:'國巨投資／頂率開發',aliases:['國巨投資','國巨投資股份有限公司','頂率開發','頂率開發股份有限公司'],reviewed:'2026-09-18',confidence:'高',
+    scores:{delivery:65,quality:65,governance:67,service:58,risk:76},
+    summary:'公司登記確認國巨投資持有頂率開發全部股份；兩家公司分別具 30 億元與 62 億元實收資本，政府預售契約亦確認頂率為都廳大院 2 賣方。',
+    caveat:'資本與專案責任主體明確，但目前公開證據集中於都廳大院系列，尚缺可歸屬於此體系的多案完工交付、工程品管、售後服務與連續財務揭露；也不得與電子元件上市公司國巨混同。總分 65 分，列 C 級。',
+    sources:[
+      {label:'國巨投資公司登記',url:'https://findbiz.nat.gov.tw/fts/company/67236103',type:'政府公司資料'},
+      {label:'頂率開發公司登記',url:'https://findbiz.nat.gov.tw/fts/company/53090297',type:'政府公司資料'},
+      {label:'都廳大院 2 預售契約',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?icon=..pdf&n=6YO95buz5aSn6ZmiMi3poILnjocucGRm&u=LzAwMS9VcGxvYWQvMS9yZWxmaWxlLzk2NzkvNzI0MjAwL2VhNTFjYmQ1LTgxZTMtNDg2OS04MDUzLTNlZDVkMTk0OGI0Yi5wZGY%3D',type:'政府預售契約'},
+      {label:'愛山林年報專案揭露',url:'https://www.isanlin.com/files/113%E5%B9%B4%E5%BA%A6%E8%82%A1%E6%9D%B1%E6%9C%83%E5%B9%B4%E5%A0%B1%28%E4%B8%AD%E6%96%87%E7%89%88%29.pdf',type:'上市公司年報'},
     ],
   },
 ].map(profile=>{
