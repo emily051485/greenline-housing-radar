@@ -250,13 +250,15 @@ export const developerResearch=[
     ],
   },
   {
-    id:'yeashin',name:'亞昕國際',aliases:['亞昕國際'],reviewed:'2026-09-14',confidence:'中高',
+    id:'yeashin',name:'亞昕國際',aliases:['亞昕國際','亞昕國際開發股份有限公司','亞昕國際開發','全虹建設股份有限公司','全虹建設'],reviewed:'2026-09-18',confidence:'高',
     scores:{delivery:89,quality:82,governance:90,service:78,risk:76},
-    summary:'1995 年成立且長期公開發行，財務與公司治理資料可追溯；工程與售後的公司級量化揭露相對不足。',
-    caveat:'目前高分主要來自長期履約與治理透明，不能直接解讀為個案施工或售服同樣達到高分。',
+    summary:'1995 年成立且長期公開發行，財務與公司治理資料可追溯；公司登記及公開說明書確認全虹建設為亞昕直接持股子公司，亞昕昕富琚契約亦明列雙方共同為賣方。',
+    caveat:'目前高分主要來自長期履約與治理透明，不能直接解讀為每個子公司個案的施工或售服同樣達到高分；總分 84 分，列 A 級。',
     sources:[
       {label:'TDCC 投資人關係',url:'https://irplatform.tdcc.com.tw/ir/zh/contact/detail/23379679-2C27-4D84-8617-42640C32DE88',type:'公開平台'},
       {label:'公開財務報告',url:'https://shop.nstock.tw/api/v2/stock-financial-report/report?type=0&url=https%3A%2F%2Fmopsov.twse.com.tw%2Fnas%2FSTR%2F521320250909M001.pdf',type:'公開財報'},
+      {label:'全虹建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/80551624',type:'政府公司資料'},
+      {label:'亞昕昕富琚預售契約',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?icon=..pdf&n=5Lqe5piV5piV5a%2BM55CaLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMS9yZWxmaWxlLzk2NzkvNzQwOTExLzAyMTE2MmEyLTY4MjctNDBjOS1hZGJhLThhYWQzMWVhMmZiYS5wZGY%3D',type:'政府預售契約'},
     ],
   },
   {
@@ -5608,6 +5610,52 @@ export const developerResearch=[
       {label:'邑城仰睦預售契約',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?icon=..pdf&n=6YKR5Z%2BO5Luw552mLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMS9yZWxmaWxlLzk2NzkvNzM1MjQ1LzNjNWM4MzU0LTNmNmYtNDE1OS05YWE4LTI2OWE5Nzc1OTdiOC5wZGY%3D',type:'政府預售契約'},
       {label:'邑昇實業 2023 永續報告',url:'https://eiso.com.tw/wp-content/uploads/2024/08/FINAL2023%E9%82%91%E6%98%87%E5%AF%A6%E6%A5%AD%E6%B0%B8%E7%BA%8C%E5%A0%B1%E5%91%8A%E6%9B%B8.pdf',type:'母公司治理資料'},
       {label:'公司治理評鑑結果',url:'https://cgc.twse.com.tw/static/20250430/8a828e1795f53c640196859a4f96001a_113%E5%B9%B4%28%E7%AC%AC11%E5%B1%86%29%E5%85%AC%E5%8F%B8%E6%B2%BB%E7%90%86%E8%A9%95%E9%91%91%E7%B3%BB%E7%B5%B1%E8%A9%95%E9%91%91%E7%B5%90%E6%9E%9C%E6%9A%A8%E8%A9%95%E9%91%91%E7%A8%8B%E5%BA%8EFINAL.pdf',type:'官方治理評鑑'},
+    ],
+  },
+  {
+    id:'tungwei-construction',name:'東煒建設',aliases:['東煒建設股份有限公司','東煒建設'],reviewed:'2026-09-18',confidence:'高',
+    scores:{delivery:88,quality:86,governance:70,service:78,risk:80},
+    summary:'1989 年設立、實收資本額 5.25 億元；官方網站可核對跨期住宅與商用作品，並公開日系模板工法、跨國設計合作及營造整合方法。',
+    caveat:'長期交付、工程方法與資本能力完整，但屬私人公司，財務治理、保固與住戶售後成果的量化揭露仍低於 A 級公開標竿；總分 81 分，列 B 級。',
+    sources:[
+      {label:'東煒建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/23474275',type:'政府公司資料'},
+      {label:'東煒建設經典作品',url:'https://home.tungwei.com.tw/works_classic.aspx',type:'公司官方資料'},
+      {label:'東煒營造整合與工法',url:'https://home.tungwei.com.tw/about_integration.aspx',type:'公司官方資料'},
+      {label:'東煒玉川預售建案查詢',url:'https://lvr.land.moi.gov.tw/',type:'政府預售資料'},
+    ],
+  },
+  {
+    id:'xinquan-construction',name:'信銓建設',aliases:['信銓建設股份有限公司','信銓建設','信詮建設'],reviewed:'2026-09-18',confidence:'中高',
+    scores:{delivery:64,quality:76,governance:70,service:62,risk:75},
+    summary:'2020 年設立、實收資本額 4 億元；正式預售契約、都更審議文件及建築金石獎資料均可確認信銓星宇廣場的開發主體、SRC 規模與規劃團隊。',
+    caveat:'大型都更案的資本與規劃證據明確，但目前仍以單一在建案為主，尚無自身完工交付、保固與住戶售後樣本；總分 69 分，列 C 級。',
+    sources:[
+      {label:'信銓建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/83504576',type:'政府公司資料'},
+      {label:'信銓星宇廣場預售契約',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?icon=..pdf&n=5L%2Bh6YqT5pif5a6H5buj5aC0LnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMS9yZWxmaWxlLzk2NzkvNzMwODA4L2EwZjkwMWExLTg0MjYtNGQzMy04ZmQ5LWY3NTQzYzM2ZmVhZi5wZGY%3D',type:'政府預售契約'},
+      {label:'新北市都市設計審議資料',url:'https://www.ntcaa.org.tw/Content/Files/News/0256fe81815448cda452668e53778b02.pdf',type:'政府審議資料'},
+    ],
+  },
+  {
+    id:'seektrue-construction',name:'拾初建設',aliases:['拾初建設有限公司','拾初建設'],reviewed:'2026-09-18',confidence:'中高',
+    scores:{delivery:70,quality:76,governance:62,service:65,risk:76},
+    summary:'拾初明昕已於 2025 年完工，正式預售契約與成屋資料可核對 21 戶規模；同體系另有甲級拾初營造與拾初設計，形成開發、營造及設計整合。',
+    caveat:'垂直團隊與首案完工是正面證據，但目前住宅交付樣本仍只有一個小型案，公司級財務及長期售後資料有限；總分 70 分，列 C 級。',
+    sources:[
+      {label:'拾初明昕預售契約',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?icon=..pdf&n=5ou%2B5Yid5piO5piVLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMS9yZWxmaWxlLzk2NzkvNzIzNDY2LzJjNDUzMWJjLTdiOGItNDBiOC05OTBiLTY1OTQ1ZWJjYWUyZC5wZGY%3D',type:'政府預售契約'},
+      {label:'拾初團隊官方工程頁',url:'https://seek-true.com/n3.html',type:'公司官方資料'},
+      {label:'拾初營造公司登記',url:'https://findbiz.nat.gov.tw/fts/company/25033443',type:'政府公司資料'},
+      {label:'拾初明昕成屋資料',url:'https://www.leju.com.tw/community/La66140488a040a',type:'建案公開資料'},
+    ],
+  },
+  {
+    id:'changhong-international',name:'昌鴻國際建設',aliases:['昌鴻國際建設股份有限公司','昌鴻國際建設','昌鴻建設'],reviewed:'2026-09-18',confidence:'中高',
+    scores:{delivery:79,quality:80,governance:66,service:70,risk:76},
+    summary:'2015 年設立、實收資本額 3,000 萬元；官方作品涵蓋北中南及日本專案，並揭露關係企業昌奕工程顧問負責專案管理、耐震標章監督至保固維護。',
+    caveat:'跨區作品與工程顧問整合支持 B 級，但私人公司財務、第三方品質統計及完工後售服成果仍未充分量化；總分 75 分，列 B 級。',
+    sources:[
+      {label:'昌鴻國際建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/24786331',type:'政府公司資料'},
+      {label:'昌鴻官方作品與團隊',url:'https://www.exic.com.tw/index.html',type:'公司官方資料'},
+      {label:'新北市預售建案查詢',url:'https://www.land.ntpc.gov.tw/News.aspx?n=11769&sms=9679',type:'政府預售資料'},
     ],
   },
 ].map(profile=>{
