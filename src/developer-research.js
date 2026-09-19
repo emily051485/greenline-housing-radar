@@ -7863,6 +7863,64 @@ export const developerResearch=[
       {label:'國鉅興官方網站',url:'https://guo.jyu-sing.tw/',type:'建案官方網站'},
     ],
   },
+  {
+    id:'zelin-construction',name:'擇林建設',aliases:['擇林建設','擇林建設股份有限公司'],reviewed:'2026-09-18',confidence:'中',
+    scores:{delivery:58,quality:72,governance:72,service:58,risk:74},
+    summary:'2022 年成立，實收資本額 9,000 萬元；新北市官方備查清冊可直接確認林口「寶閣」由擇林建設申報，法人與個案對應明確。',
+    caveat:'目前可可靠歸屬的直接住宅作品仍以寶閣為主，尚缺跨案完工、售後服務時效及品質缺失統計。資本額提供一定履約基礎，但不能取代交付紀錄；總分 66 分，列為 C 級。',
+    sources:[
+      {label:'擇林建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/90293288',type:'官方經濟部商工登記資料'},
+      {label:'擇林建設設立登記清冊',url:'https://serv.gcis.nat.gov.tw/pub/cmpy/reportAction.do?fileName=11107NTS.pdf&method=report&reportClass=cmpy&subPath=11107',type:'官方公司設立登記資料'},
+      {label:'寶閣預售備查清冊',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?n=MTEw5bm06IezMTE05LiK5Y2K5bm05bey5YKZ5p%2Bl5bu65qGI5riF5YaKLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMzk5L3JlbGZpbGUvODk5My85NDY5L2UwZjQwYjRjLTkyMjEtNDliZS1hMzA5LTE0MWExNmQ1MzVlNS5wZGY%3D',type:'新北市政府預售屋官方資料'},
+    ],
+  },
+  {
+    id:'yichang-construction',name:'毅錩建設',aliases:['毅錩建設','毅錩建設股份有限公司'],reviewed:'2026-09-18',confidence:'中',
+    scores:{delivery:62,quality:74,governance:70,service:60,risk:74},
+    summary:'2017 年成立，實收資本額 3,500 萬元；新北市官方契約查詢可核對金山築麗園，規劃 67 戶住宅、建照及不動產開發信託資料皆已公開。',
+    caveat:'公司已有約九年存續時間，但目前能完整核驗的住宅交付樣本仍有限，築麗園也仍在興建階段；尚無公開的公司級工程稽核、保固與客訴統計。總分 67 分，列為 C 級。',
+    sources:[
+      {label:'毅錩建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/69670222',type:'官方經濟部商工登記資料'},
+      {label:'築麗園官方契約查詢',url:'https://www.land.ntpc.gov.tw/News.aspx?PageSize=20&n=11769&page=20&sms=9679',type:'新北市政府預售屋官方資料'},
+      {label:'築麗園建案規模資料',url:'https://www.house579.com.tw/newhouse/0ec1215c-4b57-4ee0-945f-885df5f8380c',type:'市場建案交叉核對'},
+    ],
+  },
+  {
+    id:'fuhelian-construction',name:'阜和聯建設',aliases:['阜和聯建設','阜和聯建設股份有限公司'],reviewed:'2026-09-18',confidence:'中',
+    scores:{delivery:52,quality:74,governance:72,service:58,risk:74},
+    summary:'2022 年成立，實收資本額已增至 5,000 萬元；官方預售契約與水權公告可核對金山縵云由阜和聯建設開發，基地、溫泉水權及銷售主體具公開資料。',
+    caveat:'縵云仍是目前最主要且可核驗的直接建案，公司設立時間短，缺少完工交付與跨案售後樣本；溫泉水權是個案資源證明，不等同建築品質或長期服務能力。總分 65 分，列為 C 級。',
+    sources:[
+      {label:'阜和聯建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/90213145',type:'官方經濟部商工登記資料'},
+      {label:'縵云預售屋契約',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?icon=..pdf&n=57i15LqRLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMS9yZWxmaWxlLzk2NzkvNzM4MzI4L2JhYTZmNmNmLWFjMGItNDE5OS1iZmYxLTBkNjBhMTViNDU5Mi5wZGY%3D',type:'新北市政府預售屋官方資料'},
+      {label:'縵云官方建案網站',url:'https://manyun.jays99.com/',type:'建案官方網站'},
+      {label:'縵云溫泉水權公告',url:'https://doc2-exthird.ntpc.gov.tw/NTPC_SODPUBLISH/FILE/0000000/PUBLISH/114/1/11415.pdf',type:'新北市政府官方公告'},
+    ],
+  },
+  {
+    id:'fulixing-development',name:'富利興開發',aliases:['富利興開發','富利興開發股份有限公司'],reviewed:'2026-09-18',confidence:'中',
+    scores:{delivery:72,quality:76,governance:68,service:64,risk:72},
+    summary:'2018 年成立，目前資本額 2,000 萬元；景賀為 125 戶住宅、5 戶店面的中型社區，市場與實價資料可交叉確認已於 2025 年完工，提供一筆具規模的直接交付樣本。',
+    caveat:'景賀完工可提高履約可信度，但目前仍不足以建立多案、長期售後與品質穩定度。市場有人稱其屬寶佳體系，本站沒有把未經法人層級官方證據確認的集團案量移轉計分；總分 71 分，列為 C 級。',
+    sources:[
+      {label:'富利興開發公司登記',url:'https://findbiz.nat.gov.tw/fts/company/50978572',type:'官方經濟部商工登記資料'},
+      {label:'富利興開發變更登記清冊',url:'https://serv.gcis.nat.gov.tw/pub/cmpy/reportAction.do?fileName=376410000Achange11410.pdf&method=report&reportClass=cmpyCity&subPath=11410',type:'官方公司變更登記資料'},
+      {label:'景賀完工與建案資料',url:'https://www.plex.com.tw/projects/transactions/id/4055/address/%E8%8E%8A%E6%B3%B0%E8%B7%AF1092%E8%99%9F9%E6%A8%93',type:'市場建案與完工資料'},
+      {label:'景賀社區規模資料',url:'https://newhouse.591.com.tw/home/housingArticle/detail?id=2381',type:'市場建案交叉核對'},
+    ],
+  },
+  {
+    id:'biyao-development',name:'碧瑤開發',aliases:['碧瑤開發','碧瑤開發股份有限公司'],reviewed:'2026-09-18',confidence:'中高',
+    scores:{delivery:80,quality:78,governance:70,service:68,risk:74},
+    summary:'2009 年成立，實收資本額 2,800 萬元；新北市官方備查資料可直接核對碧瑤一品唐、琢漢及碧瑤一品雋等不同個案，已具跨案開發履歷，一品雋另有 111泰建字第00129號建照及成交紀錄。',
+    caveat:'多案與長期存續支持 B 級，但碧瑤機構旗下存在不同法人，本站只計碧瑤開發自身可核對的作品，不把帝寶、翰鴻等關係公司全部併入；公司級財務治理、保固與客訴成果仍缺乏量化揭露。總分 75 分，列為 B 級。',
+    sources:[
+      {label:'碧瑤開發公司登記',url:'https://findbiz.nat.gov.tw/fts/company/25065319',type:'官方經濟部商工登記資料'},
+      {label:'碧瑤開發預售備查案清冊',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?n=MTEw5bm06IezMTE05bm05bey5YKZ5p%2Bl5bu65qGI5riF5YaKLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMzk5L3JlbGZpbGUvODk5My85NDY5L2NkZTQ4OTJkLTQzMzAtNDY3Zi1hYmExLTI3YzJiYjI0MjYxNi5wZGY%3D',type:'新北市政府預售屋官方資料'},
+      {label:'碧瑤一品雋建照與規模',url:'https://market.591.com.tw/5889019/overview',type:'市場建案與建照資料'},
+      {label:'碧瑤機構推案紀錄',url:'https://build.myhousing.com.tw/company/491219/',type:'市場建案履歷交叉核對'},
+    ],
+  },
 ].map(profile=>{
   const score=profile.scores?weightedScore(profile.scores):null;
   return {...profile,score,rating:profile.rating||ratingFromScore(score)};
