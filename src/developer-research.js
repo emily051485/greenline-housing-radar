@@ -5716,6 +5716,32 @@ export const developerResearch=[
       {label:'頂埔綻完工社區資料',url:'https://www.leju.com.tw/community/L20a136355aa1de',type:'成屋公開資料'},
     ],
   },
+  {
+    id:'kingstone-group',name:'寶石建設機構（甲豪／甲鴻）',aliases:['甲豪建設股份有限公司','甲豪建設','甲鴻建設股份有限公司','甲鴻建設','寶石建設機構'],reviewed:'2026-09-18',confidence:'高',
+    scores:{delivery:88,quality:78,governance:68,service:70,risk:76},
+    summary:'寶石建設機構官網揭露品牌自 1985 年起累積逾 30 座、3,000 戶；甲豪與甲鴻為不同契約法人，但公司登記的負責人、三重辦公地址及寶石敦岳／寶石睿岳官方個案資料均可確認其集團關係。',
+    caveat:'長期跨案履歷足以支持 B 級，但甲豪、甲鴻仍是各自負責的契約主體，不能把集團全部成果視為單一法人履約；私人集團也缺少連續財報、第三方品管與量化售後揭露。總分 77 分，列 B 級。',
+    sources:[
+      {label:'寶石建設機構官方網站',url:'https://kingstonetw.com/',type:'集團官方資料'},
+      {label:'甲豪建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/16501395',type:'政府公司資料'},
+      {label:'甲鴻建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/46188745',type:'政府公司資料'},
+      {label:'寶石睿岳官方個案網站',url:'https://case.hiyes.tw/kingstonelandmark/index.html',type:'建案官方資料'},
+      {label:'新北市預售備查查詢',url:'https://www.land.ntpc.gov.tw/News.aspx?PageSize=20&n=11769&page=17&sms=9679',type:'政府預售資料'},
+    ],
+  },
+  {
+    id:'hercci-development',name:'禾琚建築',aliases:['禾琚股份有限公司','禾琚股份','禾琚建築'],reviewed:'2026-09-18',confidence:'高',
+    scores:{delivery:88,quality:84,governance:72,service:78,risk:80},
+    summary:'禾琚股份有限公司 2006 年設立、實收資本額 9,800 萬元；官方作品可核對大安布朗亨、閱禾琚、天母紘琚及江翠系列多個跨期成屋，大業亦有持續工程進度及正式預售資料。',
+    caveat:'長期交付、制震／SRC 作品與交屋後服務主張支持 B 級高段，但相關品質與售服內容主要來自公司自行揭露，未見缺失率、處理時效、完整財務或第三方稽核量化。總分 81 分，列 B 級。',
+    sources:[
+      {label:'禾琚股份公司登記',url:'https://findbiz.nat.gov.tw/fts/company/28003942',type:'政府公司資料'},
+      {label:'禾琚建築官方網站',url:'https://hercci.com/',type:'公司官方資料'},
+      {label:'禾琚歷年建築實績',url:'https://hercci.com/%E7%B6%93%E5%85%B8%E6%A5%AD%E7%B8%BE/',type:'公司官方資料'},
+      {label:'禾琚售後服務說明',url:'https://hercci.com/%E9%97%9C%E6%96%BC%E7%A6%BE%E7%90%9A/',type:'公司官方資料'},
+      {label:'大業官方工程進度',url:'https://hercci.com/%E5%B7%A5%E7%A8%8B%E9%80%B2%E5%BA%A6/%E6%9D%BF%E6%A9%8B-%E5%A4%A7%E6%A5%AD/',type:'公司官方資料'},
+    ],
+  },
 ].map(profile=>{
   const score=profile.scores?weightedScore(profile.scores):null;
   return {...profile,score,rating:profile.rating||ratingFromScore(score)};
