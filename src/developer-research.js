@@ -6592,6 +6592,53 @@ export const developerResearch=[
       {label:'新北市預售屋備查資料入口',url:'https://www.land.ntpc.gov.tw/News.aspx?n=11769&sms=9679',type:'新北市政府公開資料'},
     ],
   },
+  {
+    id:'yuanfu-construction',name:'圓富建設企業',aliases:['圓富建設','圓富建設企業','圓富建設企業股份有限公司'],reviewed:'2026-09-18',confidence:'高',
+    scores:{delivery:84,quality:79,governance:72,service:69,risk:76},
+    summary:'1992 年設立、實收資本額 1 億元；官方網站揭露逾 30 年開發歷程、熱銷與經典業績，圓富登峰與圓富 ONE 等案亦可由市場及備查資料交叉核對。',
+    caveat:'具長期存續、跨案紀錄及自有品牌網站，但非公開發行公司，財務、售後服務成效與第三方工程品質統計仍有限。總分 77 分，列 B 級。',
+    sources:[
+      {label:'圓富建設企業公司登記',url:'https://findbiz.nat.gov.tw/fts/company/86884727',type:'經濟部商工登記公示資料'},
+      {label:'圓富建設官方網站',url:'https://www.yuanfuconstruction.com/',type:'建商官方資料'},
+      {label:'圓富建設公司介紹',url:'https://www.yuanfuconstruction.com/about.php',type:'建商官方資料'},
+      {label:'圓富 ONE 建案資料',url:'https://newhouse.591.com.tw/138878',type:'建案公開資料'},
+    ],
+  },
+  {
+    id:'dongtai-development',name:'東泰開發建設（新濠機構）',aliases:['東泰開發建設','東泰開發建設股份有限公司'],reviewed:'2026-09-18',confidence:'高',
+    scores:{delivery:86,quality:82,governance:74,service:72,risk:77},
+    summary:'2003 年設立、實收資本額 1.5 億元；政府契約可確認其為新濠漾 4 英倫公園賣方，新濠機構另有新濠漾系列及新濠一川等作品，其中新濠一川獲新北市優良建築工程評選肯定。',
+    caveat:'具有跨案履約、資本規模與工程獎項證據；案網將投資興建誤植為「東泰開發事業」，本評等以公司登記及政府契約所載「東泰開發建設」為準。非公開發行公司，財務與售後量化資料仍有限。總分 79 分，列 B 級。',
+    sources:[
+      {label:'東泰開發建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/80594551',type:'經濟部商工登記公示資料'},
+      {label:'新濠漾 4 英倫公園預售屋契約',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?icon=..pdf&n=5paw5r%2Bg5ry%2BNOiLseWAq%2BWFrOWcki5wZGY%3D&u=LzAwMS9VcGxvYWQvMS9yZWxmaWxlLzk2NzkvNzM1MjQzLzdjODg2YzFiLWI3YjAtNDQ4Ny1iY2MzLTg5ZDVmODkzY2IzZS5wZGY%3D',type:'新北市政府公開契約'},
+      {label:'新濠漾 4 英倫公園官方網站',url:'https://londonpark.com.tw/',type:'建案官方資料'},
+      {label:'新濠建設機構作品',url:'https://www.nu-house.com.tw/Works/Detail/30',type:'建商官方資料'},
+    ],
+  },
+  {
+    id:'qunhe-construction',name:'群禾建設',aliases:['群禾建設','群禾建設股份有限公司'],reviewed:'2026-09-18',confidence:'中高',
+    scores:{delivery:62,quality:74,governance:72,service:62,risk:74},
+    summary:'1996 年設立、實收資本額 1 億元；官方網站可核實群禾青禾，以及新京王自地自建與數件都更規劃案，政府契約亦確認群禾青禾由該公司銷售興建。',
+    caveat:'公司存續與資本條件穩定，但官網列出的多數案件仍是自建或都更規劃，不能視為已交付住宅；目前可核實的品牌完工、售後及跨案品質樣本不足。總分 68 分，列 C 級。',
+    sources:[
+      {label:'群禾建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/97298597',type:'經濟部商工登記公示資料'},
+      {label:'群禾建設公司介紹',url:'https://www.shaobros.com.tw/about',type:'建商官方資料'},
+      {label:'群禾建設作品',url:'https://shaobros.com.tw/projects',type:'建商官方資料'},
+      {label:'群禾青禾預售屋契約',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?icon=..pdf&n=576k56a%2B6Z2S56a%2BLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMS9yZWxmaWxlLzk2NzkvNzQwMjgwL2M3Y2E2OGY3LTFhNjUtNDM2NC04Y2Q2LWY5YTNlNGJlODE4Yy5wZGY%3D',type:'新北市政府公開契約'},
+    ],
+  },
+  {
+    id:'quanmei-construction',name:'詮美建設',aliases:['詮美建設','詮美建設股份有限公司'],reviewed:'2026-09-18',confidence:'中高',
+    scores:{delivery:68,quality:70,governance:66,service:60,risk:72},
+    summary:'2008 年設立，實收資本額 2026 年增至 3,200 萬元；目前可核實詮美琦玉舊案與詮美湛新案，具超過單一案的開發軌跡。',
+    caveat:'公司存續與兩案軌跡可確認，但缺少自有官方作品庫、工程制度、完工後保固與客訴處理成果，市場頁面只能補充案件存在，不能替代品質證據。總分 67 分，列 C 級。',
+    sources:[
+      {label:'詮美建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/28916567',type:'經濟部商工登記公示資料'},
+      {label:'詮美湛建案資料',url:'https://www.leju.com.tw/community/L6fe1556575063f',type:'建案公開資料'},
+      {label:'新北市預售屋備查資料入口',url:'https://www.land.ntpc.gov.tw/News.aspx?n=11769&sms=9679',type:'新北市政府公開資料'},
+    ],
+  },
 ].map(profile=>{
   const score=profile.scores?weightedScore(profile.scores):null;
   return {...profile,score,rating:profile.rating||ratingFromScore(score)};
