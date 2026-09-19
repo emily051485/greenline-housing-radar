@@ -7568,6 +7568,66 @@ export const developerResearch=[
       {label:'京澄中路系列作品說明',url:'https://jingcheng.tw/%E6%A1%83%E5%9C%92%E4%B8%AD%E8%B7%AF%E9%87%8D%E5%8A%83%E5%8D%80%E7%81%AB%E7%86%B1-%E4%BA%AC%E6%BE%84%E5%BB%BA%E7%AF%89%E6%89%8E%E6%A0%B9%E6%8E%A8%E4%B8%80%E7%B3%BB%E5%88%97%E4%BD%9C%E5%93%81/',type:'建商官方資料'},
     ],
   },
+  {
+    id:'shengming-construction',name:'晟銘建設',aliases:['晟銘建設','晟銘建設有限公司'],reviewed:'2026-09-18',confidence:'中高',
+    scores:{delivery:84,quality:74,governance:65,service:62,risk:74},
+    summary:'2007 年設立；官方契約確認其為「川弘 INSIGHT」賣方，該案已於 2025 年完工，另可核實約 2011 年完工的天之驕子墨寶區、綠璽區，形成三件小型住宅的跨期交屋序列。',
+    caveat:'三件直接作品與近期完工案使履約分數達 B 級最低門檻，但公司規模及資本有限，且缺少公司級施工查驗、售後保固完成率與財務揭露；不把名稱相近的川弘建設作品自動併入。總分 72 分，列為 B 級。',
+    sources:[
+      {label:'晟銘建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/28735524',type:'經濟部商工登記公示資料'},
+      {label:'川弘 INSIGHT 預售屋買賣契約',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?icon=..pdf&n=5bed5byYSU5TSUdIVC5wZGY%3D&u=LzAwMS9VcGxvYWQvMS9yZWxmaWxlLzk2NzkvNjgwMjk3LzM1YzVlNjhjLTQ2NDQtNDQ4OS04MTFhLTY0MDkyYzI3MDM0ZS5wZGY%3D',type:'新北市政府地政局官方契約'},
+      {label:'川弘 INSIGHT 完工資料',url:'https://www.plex.com.tw/projects/view/id/3758',type:'成屋市場資料'},
+      {label:'天之驕子墨寶區成屋資料',url:'https://community.yungching.com.tw/building/6566',type:'成屋市場資料'},
+      {label:'晟銘建設推案紀錄',url:'https://build.myhousing.com.tw/company/486335/',type:'市場建案交叉核對'},
+    ],
+  },
+  {
+    id:'yuexuan-development-construction',name:'玥軒開發建設（立軒體系）',aliases:['玥軒開發建設','玥軒開發建設股份有限公司'],reviewed:'2026-09-18',confidence:'高',
+    scores:{delivery:58,quality:75,governance:82,service:66,risk:62},
+    summary:'2023 年設立、現行實收資本額 6.5 億元；公司登記顯示上市櫃建商立軒開發建設為法人董事，官方契約確認玥軒為林口 144 戶「立軒天邸」賣方，具有可驗證的集團治理支援。',
+    caveat:'集團關係與資本結構明確，但法律賣方玥軒本身仍只有一件在建案，不能把立軒全部歷年作品直接當成自身交屋履歷；立軒天邸工地另曾因空污防制缺失遭罰 10 萬元，故風險分數折減。總分 69 分，列為 C 級。',
+    sources:[
+      {label:'玥軒開發建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/94043278',type:'經濟部商工登記公示資料'},
+      {label:'立軒開發建設公司與公開發行資料',url:'https://findbiz.nat.gov.tw/fts/company/22182927',type:'經濟部商工登記公示資料'},
+      {label:'立軒天邸預售屋買賣契約',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?icon=..pdf&n=56uL6LuS5aSp6YK4LnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMS9yZWxmaWxlLzk2NzkvNzI4Nzg5LzFlZDBiZTdkLTRhYzYtNDRmMi1hNWVjLWViMDAxNTNlZTdkMi5wZGY%3D',type:'新北市政府地政局官方契約'},
+      {label:'立軒天邸環境裁罰紀錄',url:'https://thaubing.gcaa.org.tw/facility/F17097011643',type:'政府裁罰資料彙整'},
+    ],
+  },
+  {
+    id:'mingxuan-development-construction',name:'銘軒開發建設（立軒體系）',aliases:['銘軒開發建設','銘軒開發建設股份有限公司'],reviewed:'2026-09-18',confidence:'高',
+    scores:{delivery:75,quality:75,governance:78,service:68,risk:66},
+    summary:'2021 年設立；公司登記顯示其股份現由立軒地產開發代表，官方契約與成屋資料確認銘軒直接興建的「立軒天頤」已於 2023 年完工，具一件可驗證的大型住宅交屋樣本。',
+    caveat:'立軒體系關係與直接完工案支持 B 級，但銘軒現行實收資本額已由曾有的 3.5 億元降至 1,000 萬元，且仍缺第二件直接交屋案；母體作品與服務只能作治理支援，不全部移植為銘軒自身實績。總分 73 分，列為 B 級。',
+    sources:[
+      {label:'銘軒開發建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/90745874',type:'經濟部商工登記公示資料'},
+      {label:'銘軒增資登記紀錄',url:'https://serv.gcis.nat.gov.tw/pub/cmpy/reportAction.do?fileName=11304NTC.pdf&method=report&reportClass=cmpy&subPath=11304',type:'經濟部商工行政官方資料'},
+      {label:'立軒天頤預售契約資料',url:'https://www.lawinsider.com/zh/contracts/i25HX20a59k',type:'預售契約交叉核對'},
+      {label:'立軒天頤成屋資料',url:'https://community.yungching.com.tw/building/93006',type:'成屋市場資料'},
+    ],
+  },
+  {
+    id:'yixing-construction',name:'頤興建設',aliases:['頤興建設','頤興建設有限公司'],reviewed:'2026-09-18',confidence:'高',
+    scores:{delivery:48,quality:68,governance:68,service:55,risk:72},
+    summary:'2024 年設立、現行資本額 1.5 億元；新北市官方契約確認其與佑翰建設共同擔任林口 174 戶「立陽頤興」賣方，法人、基地、建照與履約責任可清楚核對。',
+    caveat:'資本與共同賣方責任明確，但頤興法人本身目前僅有一件新案，尚無直接完工交屋、跨案品質、售後保固或長期財務樣本；共同賣方佑翰的作品也不直接計入頤興。總分 61 分，列為 C 級。',
+    sources:[
+      {label:'頤興建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/95494361',type:'經濟部商工登記公示資料'},
+      {label:'立陽頤興預售屋買賣契約',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?icon=..pdf&n=56uL6Zm96aCk6IiIKOmgpOiIiCkucGRm&u=LzAwMS9VcGxvYWQvMS9yZWxmaWxlLzk2NzkvNzM5NDIxL2Y4YTk2Yzc0LWY2YjYtNDEzNS04NGVhLTI1MmE3YzAzODI0YS5wZGY%3D',type:'新北市政府地政局官方契約'},
+      {label:'新北市預售建案清冊',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?n=MTEw5bm06IezMTE05bm05bey5YKZ5p%2Bl5bu65qGI5riF5YaKLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMzk5L3JlbGZpbGUvODk5My85NDY5L2NkZTQ4OTJkLTQzMzAtNDY3Zi1hYmExLTI3YzJiYjI0MjYxNi5wZGY%3D',type:'新北市政府地政局官方資料'},
+    ],
+  },
+  {
+    id:'yijie-enterprise',name:'易捷興業',aliases:['易捷興業','易捷興業股份有限公司'],reviewed:'2026-09-18',confidence:'高',
+    scores:{delivery:50,quality:70,governance:64,service:55,risk:72},
+    summary:'2024 年設立、實收資本額 2,500 萬元；官方契約、建照及公司官網確認其為林口 24 戶「易捷聿白」投資興建及賣方，統編、基地與產品規格均可核對。',
+    caveat:'法律責任與公開資訊完整，但易捷聿白是目前唯一可直接核實的住宅案，尚未形成完整交屋、跨案施工品質與售後保固樣本；官網所列國際設計獎項只能支持設計面，不能替代履約證據。總分 61 分，列為 C 級。',
+    sources:[
+      {label:'易捷興業公司登記',url:'https://findbiz.nat.gov.tw/fts/company/93722798',type:'經濟部商工登記公示資料'},
+      {label:'易捷興業設立登記',url:'https://serv.gcis.nat.gov.tw/pub/cmpy/reportAction.do?fileName=11301ALS.pdf&method=report&reportClass=cmpy&subPath=11301',type:'經濟部商工行政官方資料'},
+      {label:'易捷聿白預售屋買賣契約',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?icon=..pdf&n=5piT5o236IG%2F55m9LnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMS9yZWxmaWxlLzk2NzkvNzM4OTE3L2NiZGFmY2YwLTQ0MWYtNDBlZS1iOGRhLWI1NDIyNzVlYzEyZC5wZGY%3D',type:'新北市政府地政局官方契約'},
+      {label:'易捷興業官方網站',url:'https://www.ej-arch.com/',type:'建商官方資料'},
+    ],
+  },
 ].map(profile=>{
   const score=profile.scores?weightedScore(profile.scores):null;
   return {...profile,score,rating:profile.rating||ratingFromScore(score)};
