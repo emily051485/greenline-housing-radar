@@ -7080,6 +7080,51 @@ export const developerResearch=[
       {label:'寶亞世界公舘契約備查',url:'https://www.land.ntpc.gov.tw/News.aspx?PageSize=20&_Query=a57b2e19-ab70-4142-80ea-976f35abb5bb&n=11769&page=1&sms=9679',type:'新北市政府地政局官方資料'},
     ],
   },
+  {
+    id:'hongsheng-construction',name:'紘盛建設',aliases:['紘盛建設','紘盛建設股份有限公司'],reviewed:'2026-09-18',confidence:'中',
+    scores:{delivery:72,quality:72,governance:64,service:60,risk:72},
+    summary:'2019 年設立，實收資本額 2,500 萬元；「紘盛逸居」取得 112 股使字第 00298 號使用執照，規劃 94 戶住宅與 2 戶店面，已有直接完工與新成屋交付樣本。',
+    caveat:'完工使用執照可支持基本履約能力，但目前公開可直接歸屬的作品仍集中於紘盛逸居，缺少跨案品質、長期售後、公司財務與工程制度揭露，因此不因單一大型案完工就提高至 B 級。總分 68 分，列為 C 級。',
+    sources:[
+      {label:'紘盛建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/83456315',type:'經濟部商工登記公示資料'},
+      {label:'紘盛逸居建照與使用執照資料',url:'https://newhouse.591.com.tw/134807/detail',type:'市場建案與執照交叉核對'},
+      {label:'紘盛逸居實價與備查資料',url:'https://fangnote.info/2023/%E7%B4%98%E7%9B%9B%E9%80%B8%E5%B1%85/index.html',type:'公開資料交叉核對'},
+    ],
+  },
+  {
+    id:'yingbao-construction',name:'盈寶建設（鑫寶團隊）',aliases:['盈寶建設','盈寶建設股份有限公司'],reviewed:'2026-09-18',confidence:'中',
+    scores:{delivery:80,quality:76,governance:72,service:66,risk:76},
+    summary:'2017 年設立，實收資本額 2 億元；可直接核對已取得 113 重使字第 00037 號使用執照的「盛河八方」，以及官方預售契約備查中的「盛溪八方」，形成完工案加在建案的連續履約軌跡。',
+    caveat:'已有直接完工與後續推案，比單案法人具更多履約證據；但公開資訊主要來自個案頁與鑫寶團隊資料，缺少完整財務、工程稽核與量化售後服務揭露，因此維持 B 級而非更高級距。總分 74 分，列為 B 級。',
+    sources:[
+      {label:'盈寶建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/66905962',type:'經濟部商工登記公示資料'},
+      {label:'盛溪八方預售屋買賣契約',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?icon=..pdf&n=55ub5rqq5YWr5pa5LnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMS9yZWxmaWxlLzk2NzkvNjQwNTI5LzZkNmM2MDhhLWRkMDYtNGU4Yy1iYmZlLWI2ZmYxMDZmNTUxZi5wZGY%3D',type:'新北市政府地政局官方契約'},
+      {label:'盛河八方使用執照與社區資料',url:'https://market.591.com.tw/53948/overview',type:'市場建案與執照交叉核對'},
+      {label:'鑫寶團隊盛溪八方工程資料',url:'https://www.xin-bao.com.tw/project/21.html',type:'建築團隊官方資料'},
+    ],
+  },
+  {
+    id:'fumao-development-lihpao',name:'福茂開發（麗寶機構）',aliases:['福茂開發','福茂開發股份有限公司'],reviewed:'2026-09-18',confidence:'中高',
+    scores:{delivery:82,quality:82,governance:80,service:72,risk:80},
+    summary:'2006 年設立，實收資本額 6 億元，屬麗寶機構住宅開發法人；「麗寶微風水漾」已取得 114 股使字第 00331 號使用執照並可隨時交屋，具明確直接完工履約、資本與集團工程資源支撐。',
+    caveat:'麗寶集團的規模與工程系統可作治理及資源背景，但不將其他關係法人全部作品直接歸屬福茂；目前資料庫中可直接核對的福茂住宅樣本仍以微風水漾為主，公開售後量化資料亦有限。總分 79 分，列為 B 級。',
+    sources:[
+      {label:'福茂開發公司登記',url:'https://findbiz.nat.gov.tw/fts/company/28137098',type:'經濟部商工登記公示資料'},
+      {label:'麗寶微風水漾官方網站',url:'https://www.beeplus.com.tw/event/thebeautifulriver/',type:'建案官方資料'},
+      {label:'微風水漾使用執照與銷售資料',url:'https://newhouse.591.com.tw/136452?cate_name=fullhousing',type:'市場建案與執照交叉核對'},
+      {label:'預售屋備查建案清冊',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?n=MTEw5bm06IezMTE05LiK5Y2K5bm05bey5YKZ5p%2Bl5bu65qGI5riF5YaKLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMzk5L3JlbGZpbGUvODk5My85NDY5L2UwZjQwYjRjLTkyMjEtNDliZS1hMzA5LTE0MWExNmQ1MzVlNS5wZGY%3D',type:'新北市政府地政局官方資料'},
+    ],
+  },
+  {
+    id:'fanxiang-construction-development',name:'汎翔建設開發',aliases:['汎翔建設開發','汎翔建設開發股份有限公司','汎翔實業有限公司','汎翔國際物業管理有限公司'],reviewed:'2026-09-18',confidence:'中低',
+    scores:{delivery:48,quality:68,governance:62,service:54,risk:68},
+    summary:'法人最早於 2002 年設立，但 2023 年才由汎翔實業更名並轉為建設開發公司，目前實收資本額 4,000 萬元；可核對的住宅開發案為永和「中正吻鑽」。',
+    caveat:'早期法人年資主要屬物業或實業階段，不能視為二十餘年住宅開發履歷；中正吻鑽仍缺完整公開銷售、完工交屋與售後樣本，故按轉型後的直接證據保守評估。總分 59 分，列為 C 級。',
+    sources:[
+      {label:'汎翔建設開發公司登記與更名紀錄',url:'https://findbiz.nat.gov.tw/fts/company/80290918',type:'經濟部商工登記公示資料'},
+      {label:'中正吻鑽建案資料',url:'https://www.leju.com.tw/community/L769155719fd2ac',type:'市場建案交叉核對'},
+    ],
+  },
 ].map(profile=>{
   const score=profile.scores?weightedScore(profile.scores):null;
   return {...profile,score,rating:profile.rating||ratingFromScore(score)};
