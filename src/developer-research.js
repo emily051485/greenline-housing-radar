@@ -5778,6 +5778,29 @@ export const developerResearch=[
       {label:'環境裁處資料彙整',url:'https://thaubing.gcaa.org.tw/corp/28629235',type:'政府資料彙整'},
     ],
   },
+  {
+    id:'yichen-development',name:'亦臣',aliases:['亦臣有限公司','亦臣'],reviewed:'2026-09-18',confidence:'中高',
+    scores:{delivery:65,quality:65,governance:62,service:58,risk:70},
+    summary:'公司登記可確認亦臣 2013 年設立、資本額 2,510 萬元；建照與成屋資料顯示其與其他起造人共同開發永恆之新，該案 49 戶並於 2026 年取得使用執照。',
+    caveat:'完工使照是正面履約證據，但亦臣屬共同開發主體，不能把整案成果全歸於單一法人；目前未見其他住宅作品、公司級品管、保固服務或財務治理揭露。總分 64 分，列 C 級。',
+    sources:[
+      {label:'亦臣公司登記',url:'https://findbiz.nat.gov.tw/fts/company/54291069',type:'政府公司資料'},
+      {label:'新北市公司變更登記清冊',url:'https://serv.gcis.nat.gov.tw/pub/cmpy/reportAction.do?fileName=10801NTC.pdf&method=report&reportClass=cmpy&subPath=10801',type:'政府公司資料'},
+      {label:'永恆之新建照、使照與實價資料',url:'https://dualtaipei.datazen.info/newtaipei/project/%E6%B0%B8%E6%81%86%E4%B9%8B%E6%96%B0',type:'政府資料彙整'},
+    ],
+  },
+  {
+    id:'zhuhe-industrial',name:'竹禾實業',aliases:['竹禾實業有限公司','竹禾實業'],reviewed:'2026-09-18',confidence:'中高',
+    scores:{delivery:65,quality:66,governance:58,service:56,risk:70},
+    summary:'2018 年設立，登記資本由 100 萬元增至 1,700 萬元；新北市備查清冊列竹禾為中興匯責任主體，成屋資料則確認其與恆坤實業共同投資、全國營造承造。',
+    caveat:'中興匯已形成成屋與社區管理樣本，但屬共同開發且目前只找到單一住宅案；公司級工程制度、保固處理、財務與其他交付履歷皆未充分公開。總分 63 分，列 C 級。',
+    sources:[
+      {label:'竹禾實業公司登記',url:'https://findbiz.nat.gov.tw/fts/company/42727216',type:'政府公司資料'},
+      {label:'新北市公司設立登記清冊',url:'https://serv.gcis.nat.gov.tw/pub/cmpy/reportAction.do?fileName=376410000Asetup10706.pdf&method=report&reportClass=cmpyCity&subPath=10706',type:'政府公司資料'},
+      {label:'新北市預售備查清冊',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?n=MTEw5bm06IezMTE05bm05bey5YKZ5p%2Bl5bu65qGI5riF5YaKLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMzk5L3JlbGZpbGUvODk5My85NDY5L2NkZTQ4OTJkLTQzMzAtNDY3Zi1hYmExLTI3YzJiYjI0MjYxNi5wZGY%3D',type:'政府預售資料'},
+      {label:'中興匯成屋與開發團隊',url:'https://buy.housefun.com.tw/Buy/Building/97465/',type:'成屋公開資料'},
+    ],
+  },
 ].map(profile=>{
   const score=profile.scores?weightedScore(profile.scores):null;
   return {...profile,score,rating:profile.rating||ratingFromScore(score)};
