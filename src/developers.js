@@ -55,7 +55,7 @@ function render(){
     ${radarHtml(profile)}
     <p class="research-summary">${escapeHtml(profile.summary)}</p>
     <p class="research-caveat"><b>判讀限制</b>${escapeHtml(profile.caveat)}</p>
-    ${profile.flags.records.length?`<div class="developer-risk-records">${profile.flags.records.map(record=>`<article><h3>${escapeHtml(record.title)}</h3><p>${escapeHtml(record.detail)}</p><div>${record.sources.map(source=>`<a href="${source.url}" target="_blank" rel="noopener">${escapeHtml(source.label)}<small>${escapeHtml(source.type)}</small></a>`).join('')}</div></article>`).join('')}</div>`:''}
+    ${profile.flags.records.length?`<div class="developer-risk-records">${profile.flags.records.map(record=>`<article><h3>${escapeHtml(record.title)}</h3><p>${escapeHtml(record.detail)}</p><div>${record.sources.map(source=>`<a href="${source.url}" target="_blank" rel="noopener">${escapeHtml(source.label)}<small>${escapeHtml(source.type)}</small></a>`).join('')}</div></article>`).join('')}<p class="developer-score-impact"><b>評分影響</b>已反映於：${profile.flags.impact.map(escapeHtml).join('、')}</p></div>`:''}
     <div class="research-meta"><span>覆核 ${profile.reviewed}</span>${profile.sources.map(source=>`<a href="${source.url}" target="_blank" rel="noopener">${escapeHtml(source.label)}<small>${escapeHtml(source.type)}</small></a>`).join('')}</div>
   </article>`).join('');
 }

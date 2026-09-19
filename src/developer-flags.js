@@ -1,4 +1,88 @@
 const majorRiskRecordsByName={
+  '景星建設':[
+    {
+      title:'建商品牌與法人狀態待核對',
+      detail:'案場使用的建商名稱與目前可查公司法人狀態存在落差，尚待確認實際出賣人、起造人及履約保證主體；這是主體辨識風險，不代表已發生工程事故。',
+      sourceLabels:['景星建設公司登記','御品園建案及使用執照資料'],
+    },
+  ],
+  '立鵬資產':[
+    {
+      title:'公共設施廣告不實處分',
+      detail:'公平會曾就關係建案長耀挹品的公共設施廣告不實作成行政處分；本站不把關係企業全部履歷移轉給立鵬，並將處分納入治理與風險評估。',
+      sourceLabels:['公平會行政決定'],
+    },
+  ],
+  '新貴開發':[
+    {
+      title:'預售契約缺失與環評裁罰',
+      detail:'臺北市稽查曾指出靜心多多契約多項內容不符規定並要求改善；新北市另有未依環評內容執行的裁罰紀錄。',
+      sourceLabels:['靜心多多預售屋稽查結果','新貴開發環評裁罰紀錄'],
+    },
+  ],
+  '金鑽號事業':[
+    {
+      title:'建案廣告不實處分',
+      detail:'公平會曾就沐夏會館廣告不實作成處分並裁罰 50 萬元；公司亦非典型住宅開發登記，購屋前應再確認履約主體。',
+      sourceLabels:['公平會廣告不實處分'],
+    },
+  ],
+  '福容開發':[
+    {
+      title:'夾層空間廣告處分',
+      detail:'君悅富國銷售廣告曾因夾層空間呈現不當遭公平會處分；此為銷售資訊風險，不是建物結構安全判定。',
+      sourceLabels:['公平會行政處分'],
+    },
+  ],
+  '喜琚建築開發':[
+    {
+      title:'不動產銷售違規紀錄',
+      detail:'臺北市不動產開發業者銷售違規統計列有正式裁罰紀錄；標籤反映公司治理與銷售流程風險，不代表個案工程品質已被判定不良。',
+      sourceLabels:['臺北市不動產開發業者銷售違規統計'],
+    },
+  ],
+  '佳瑞建設':[
+    {
+      title:'契約查核改善與廣告處分紀錄',
+      detail:'官方資料可見預售契約查核改善及廣告不實處分紀錄，本站已將其反映在治理、服務與風險分數。',
+      sourceLabels:['桃園市預售契約查核','公平會處分彙編'],
+    },
+  ],
+  '三境建設':[
+    {
+      title:'陽台外推廣告不實',
+      detail:'公平會認定華亭樹廣告以陽台外推作為室內空間圖示，構成虛偽不實及引人錯誤表示，處三境建設 20 萬元罰鍰。',
+      sourceLabels:['公平會公處字第 101190 號'],
+    },
+  ],
+  '甲士林建設':[
+    {
+      title:'公共設施廣告處分紀錄',
+      detail:'公平會曾就相關建案公共設施內容與核准用途不符作成處分，本站已下修治理及風險評分。',
+      sourceLabels:['水立方廣告公平會處分'],
+    },
+  ],
+  '名軒開發':[
+    {
+      title:'實品屋用途與夾層設計不實',
+      detail:'公平會認定名軒富麗將一般事務所實品屋裝潢為住宅使用並展示未經核准的夾層設計，處名軒開發 150 萬元罰鍰。',
+      sourceLabels:['公平會公處字第114050號'],
+    },
+  ],
+  '怡富開發建設股份有限公司（怡富機構）':[
+    {
+      title:'建案廣告不實處分紀錄',
+      detail:'公平會曾就時尚之星廣告不實作成處分；紀錄已反映於風險分數，並不等同旗下所有個案均有相同問題。',
+      sourceLabels:['公平交易委員會處分書'],
+    },
+  ],
+  '安家國際企業股份有限公司':[
+    {
+      title:'安家 T HOUSE 廣告／銷售處分',
+      detail:'公平會就安家 T HOUSE 的廣告及銷售資訊作成正式處分，本站已將紀錄反映於治理與風險分數。',
+      sourceLabels:['公平交易委員會安家 T HOUSE 處分書'],
+    },
+  ],
   '富晟科技':[
     {
       title:'預售價金未依規定交付信託',
@@ -164,11 +248,28 @@ function resolveRecordSources(record,profile){
   return (record.sourceLabels||[]).map(label=>profile.sources.find(source=>source.label===label)).filter(Boolean);
 }
 
+const impactLabels={delivery:'履約與推案',quality:'工程品質制度',governance:'財務與治理',service:'售後與保固',risk:'風險管理'};
+function impactDimensions(records){
+  const dimensions=new Set(['risk']);
+  const titles=records.map(record=>record.title).join('、');
+  if(/塌陷|下陷|火災|損鄰|公安|工程/.test(titles))dimensions.add('quality');
+  if(/信託|完工|停工|停業|信用|退票|營運|履約|法人狀態|主體/.test(titles)){
+    dimensions.add('delivery');
+    dimensions.add('governance');
+  }
+  if(/廣告|契約|銷售|消費|公共設施|實品屋|空間|用途/.test(titles)){
+    dimensions.add('governance');
+    dimensions.add('service');
+  }
+  if(/調查|容積|歷史爭議|裁罰/.test(titles))dimensions.add('governance');
+  return [...dimensions].map(key=>impactLabels[key]);
+}
+
 export function getDeveloperFlags(profile){
   const records=(majorRiskRecordsByName[profile.name]||[]).map(record=>({...record,sources:resolveRecordSources(record,profile)}));
   const caveat=profile.caveat||'';
   const limited=['B','C'].includes(profile.rating)&&limitedEvidencePattern.test(caveat)&&!substantiveNegativePattern.test(caveat)&&records.length===0;
-  return {major:records.length>0,limited,records};
+  return {major:records.length>0,limited,records,impact:impactDimensions(records)};
 }
 
 export const developerFlagDefinitions={
