@@ -5970,6 +5970,52 @@ export const developerResearch=[
       {label:'釉裡紅 A 區完工資料',url:'https://www.plex.com.tw/projects/view/id/1625',type:'完工建案資料'},
     ],
   },
+  {
+    id:'sinyi-development',name:'信義開發',aliases:['信義開發','信義開發股份有限公司'],reviewed:'2026-09-18',confidence:'高',
+    scores:{delivery:82,quality:90,governance:94,service:88,risk:88},
+    summary:'信義房屋百分之百持有的開發子公司，2012 年成立；台灣住宅履歷可核對信義謙石、信義嘉和、信義嘉品與信義嘉學。2024 永續報告揭露嘉學工程進度、BIM、建築生產履歷及低碳作法，嘉學並取得鑽石級綠建築、鑽石級低碳建築與黃金級智慧建築候選證書。',
+    caveat:'母集團上市治理、永續揭露與住戶前期服務制度均相對完整，但信義開發在台灣的已交付住宅案量仍少於傳統大型上市建商，候選證書也不等同完工後正式標章；因此品質與治理高分，交付維度保守。總分 88 分，列 A 級。',
+    sources:[
+      {label:'信義開發官方網站',url:'https://www.sinyidev.com.tw/',type:'建商官方'},
+      {label:'信義開發歷史建案',url:'https://www.xinyikf.com.tw/building/3',type:'建商官方'},
+      {label:'信義開發 2024 永續報告書',url:'https://www.sinyidev.com.tw/_files/ugd/d9b28b_4ccafdbbb68247c6a65d0fbef9f7cf9c.pdf',type:'公司永續報告'},
+      {label:'信義房屋重大訊息：嘉學工程',url:'https://www.sinyi.com.tw/investors/corporate-governance/news-events/material-information/664162eade2a8',type:'上市公司公告'},
+    ],
+  },
+  {
+    id:'founding-construction',name:'皇鼎建設',aliases:['皇鼎建設','皇鼎建設開發','皇鼎建設開發股份有限公司'],reviewed:'2026-09-18',confidence:'高',
+    scores:{delivery:92,quality:87,governance:90,service:90,risk:83},
+    summary:'1991 年成立的上市建商（5533），官方永續報告揭露實收資本額、四十餘棟住宅與廠辦履歷，以及從銷售、施工、驗收到售後的服務流程；2024 年總體顧客滿意度為 95%，並持續公開財報、法說與推案存量。',
+    caveat:'公司治理、交付案量與售後量化資訊均顯著優於多數中小型建商；不過產品橫跨住宅與廠辦，官方滿意度屬公司自行調查，仍不能直接代表每一案施工品質或個別客訴結果。總分 89 分，列 A 級。',
+    sources:[
+      {label:'皇鼎建設官方簡介',url:'https://www.founding.com.tw/about.php',type:'建商官方'},
+      {label:'皇鼎建設 2024 永續報告書',url:'https://www.founding.com.tw/uploads/download/pages/%E7%9A%87%E9%BC%8E%E5%BB%BA%E8%A8%AD2024%E6%B0%B8%E7%BA%8C%E5%A0%B1%E5%91%8A%E6%9B%B8%20-%20final2.pdf',type:'公司永續報告'},
+      {label:'皇鼎法說與財務資料',url:'https://www.founding.com.tw/investor04.php',type:'上市公司公告'},
+      {label:'皇鼎熱銷與經典作品',url:'https://www.founding.com.tw/classic.php',type:'建商官方'},
+    ],
+  },
+  {
+    id:'jiasheng-construction',name:'佳陞建設',aliases:['佳陞建設','佳陞建設股份有限公司'],reviewed:'2026-09-18',confidence:'中',
+    scores:{delivery:86,quality:76,governance:66,service:68,risk:72},
+    summary:'公司登記實收資本額 3.5 億元；公開商標與建案資料可串聯大河戀、自由大道、佳陞景綻、佳陞吉市、Park188、佳陞運動家、佳陞景漾、佳陞禾樂及 2024 年完工的佳陞Park99，具連續推案與交付軌跡。',
+    caveat:'案量履歷足以支持交付維度，但目前缺少公司官方工程規範、財務治理、售後保固績效與重大爭議彙整；商標和建案平台能證明品牌使用及個案存在，不能取代品質查驗。總分 75 分，列 B 級。',
+    sources:[
+      {label:'佳陞建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/97257913',type:'官方公司資料'},
+      {label:'佳陞建設商標與歷史名稱',url:'https://www.findcompany.com.tw/%E4%BD%B3%E9%99%9E%E5%BB%BA%E8%A8%AD%E8%82%A1%E4%BB%BD%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8',type:'公司與商標彙整'},
+      {label:'佳陞Park99完工資料',url:'https://www.plex.com.tw/projects/view/id/4851',type:'完工建案資料'},
+    ],
+  },
+  {
+    id:'xiutai-development',name:'秀泰建設開發',aliases:['秀泰建設開發','秀泰建設開發股份有限公司'],reviewed:'2026-09-18',confidence:'中',
+    scores:{delivery:72,quality:70,governance:60,service:60,risk:68},
+    summary:'公司於 2015 年設立、登記資本額 5,050 萬元；可由新北市預售備查確認其與向田建設共同推出豐盛，並由實價與社區資料確認該案已形成完工社區；另有土城明德段商辦、集合住宅案的官方都審紀錄。',
+    caveat:'已有共同開發完工案與另一筆開發紀錄，但公開資料未能充分拆分秀泰、向田及家泰在豐盛案的實際工程與售後責任，也缺少公司級品質制度、保固績效及財務揭露；不把共同開發成果全部歸功於單一公司。總分 66 分，列 C 級。',
+    sources:[
+      {label:'秀泰建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/54872636',type:'官方公司資料'},
+      {label:'豐盛預售屋備查',url:'https://www.land.ntpc.gov.tw/News.aspx?PageSize=20&_Query=a57b2e19-ab70-4142-80ea-976f35abb5bb&n=11769&page=35&sms=9679',type:'新北市政府'},
+      {label:'秀泰土城明德段都審紀錄',url:'https://www.planning.ntpc.gov.tw/uploaddowndoc?dis=downloaddata&file=downloaddata%2F202001151003520.pdf&filedisplay=1115-%E8%B3%80-+%28%E4%B8%80%29%E6%9D%B1%E4%BA%9E%E6%A8%B9%E6%9E%97%E5%8D%9A%E6%84%9B%E6%AE%B5846-6%E5%9C%B0%E8%99%9F11+%28%E4%BA%8C%29%E6%9D%BE%E6%96%B0%E6%B7%B1%E5%9D%91%E6%B0%B8%E5%AE%89%E6%AE%B5256%E5%9C%B0%E8%99%9F8+%28%E4%B8%89%29%E6%96%B0%E5%A4%A7%E6%88%BF%E6%96%B0%E8%8E%8A%E6%96%87%E5%BE%B7%E6%AE%B5235%E5%9C%B0%E8%99%9F6%28%E5%9B%9B%29%E7%A7%80%E6%B3%B0%E5%9C%9F%E5%9F%8E%E6%98%8E%E5%BE%B7%E6%AE%B521.pdf&flag=doc',type:'新北市政府'},
+    ],
+  },
 ].map(profile=>{
   const score=profile.scores?weightedScore(profile.scores):null;
   return {...profile,score,rating:profile.rating||ratingFromScore(score)};
