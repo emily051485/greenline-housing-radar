@@ -8228,6 +8228,68 @@ export const developerResearch=[
       {label:'日和淳市場追蹤',url:'https://www.myhousing.com.tw/n/n02/n0202/new-taipei-city/149395/',type:'專業房市媒體'},
     ],
   },
+  {
+    id:'zhuyue-development-53179530',name:'築悅開發建設',aliases:['築悅開發','築悅開發建設','築悅開發建設股份有限公司'],reviewed:'2026-09-19',confidence:'中高',
+    scores:{delivery:80,quality:80,governance:72,service:66,risk:76},
+    summary:'2010 年設立，實收資本額已由 2,500 萬元增至 8,000 萬元；官方都設審議可確認其為新莊 202 戶「日健昌」申請單位，過往三重大仁段住宅亦曾取得候選智慧建築證書。',
+    caveat:'公司具十年以上開發年資與跨期工程紀錄，但目前可直接核對的完整作品清單、歷案交付表現、保固與客訴量化揭露仍不足；候選智慧建築證書也不等同最終標章或全面施工品質，故總分 75 分，列 B 級。',
+    sources:[
+      {label:'築悅開發建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/53179530',type:'經濟部商工登記'},
+      {label:'日健昌都市設計審議',url:'https://www.planning.ntpc.gov.tw/uploaddowndoc?dis=downloaddata&file=downloaddata%2F202202110822401.pdf&filedisplay=0126%E4%B8%8B%E5%8D%88-%E8%98%87-%28%E4%B8%80%29%E7%AF%89%E6%82%85%E6%96%B0%E8%8E%8A%E5%92%8C%E5%B9%B3%E6%AE%B5565%E5%9C%B0%E8%99%9F8%28%E4%BA%8C%29%E9%BA%97%E5%AF%B6%E6%96%B0%E8%8E%8A%E5%89%AF%E9%83%BD%E5%BF%83%E6%AE%B5%E4%B8%80%E5%B0%8F%E6%AE%B519%283%E8%AE%8A%29%28%E4%B8%89%29%E8%AA%A0%E6%AF%85%E4%B8%AD%E5%92%8C%E7%A7%80%E5%B1%B1%E6%AE%B5272%E5%9C%B0%E8%99%9F13.pdf&flag=doc',type:'政府審議紀錄'},
+      {label:'歷年智慧建築證書名錄',url:'https://ws.moi.gov.tw/001/Upload/436/relfile/12464/220452/6e32fa16-c069-46e0-b975-e2c48641b7ca.pdf',type:'內政部標章名錄'},
+      {label:'日健昌建案規劃',url:'https://market.591.com.tw/6613286/overview',type:'市場建案資料'},
+    ],
+  },
+  {
+    id:'xiangtai-development-27779684',name:'翔泰開發',aliases:['翔泰開發','翔泰開發有限公司'],reviewed:'2026-09-19',confidence:'中',
+    scores:{delivery:70,quality:74,governance:65,service:60,risk:72},
+    summary:'2005 年設立、資本額 2,000 萬元；建照、預售市場資料與官方備查清冊可交叉確認其為新莊 79 戶「玄泰蔦居」的直接投資興建公司。',
+    caveat:'公司登記年資長，但目前可可靠歸屬的住宅作品、完工交付、工程品管及售後服務證據仍集中於玄泰蔦居單一在建案；不能僅憑成立年份推定成熟履約能力，故總分 68 分，列 C 級。',
+    sources:[
+      {label:'翔泰開發公司登記',url:'https://findbiz.nat.gov.tw/fts/company/27779684',type:'經濟部商工登記'},
+      {label:'玄泰蔦居建案與建照',url:'https://newhouse.591.com.tw/140903/detail',type:'市場建案資料'},
+      {label:'新北預售備查建案清冊',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?n=MTEw5bm06IezMTE05bm05bey5YKZ5p%2Bl5bu65qGI5riF5YaKLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMzk5L3JlbGZpbGUvODk5My85NDY5L2NkZTQ4OTJkLTQzMzAtNDY3Zi1hYmExLTI3YzJiYjI0MjYxNi5wZGY%3D',type:'政府備查清冊'},
+    ],
+  },
+  {
+    id:'taiding-construction-69754524',name:'泰鼎建設',aliases:['泰鼎建設','泰鼎建設股份有限公司'],reviewed:'2026-09-19',confidence:'中高',
+    scores:{delivery:78,quality:78,governance:72,service:66,risk:74},
+    summary:'2018 年設立，實收資本額已增至 1 億元；官方契約與工程資料可確認其直接開發「雅朵花園」及 125 戶「自由之丘」，前案已有完工社區管理紀錄，後案持續交付。',
+    caveat:'本評分適用統編 69754524 的現行泰鼎建設，不是 1999 年已撤銷的同名公司；雖已有兩案可核對，仍缺少較長期的跨案品質、保固、客訴與治理量化資料，故總分 74 分，列 B 級。',
+    sources:[
+      {label:'泰鼎建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/69754524',type:'經濟部商工登記'},
+      {label:'自由之丘預售契約',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?icon=..pdf&n=6Ieq55Sx5LmL5LiYLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMS9yZWxmaWxlLzk2NzkvNjQwMzkzLzllNWRlNGM1LTQxMzMtNDEwNy1hNDE1LWRmMWFkMmNmNWQzYy5wZGY%3D',type:'政府備查契約'},
+      {label:'雅朵花園契約查核表',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?icon=..pdf&n=6ZuF5py16Iqx5ZySLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMS9yZWxmaWxlLzk2NDAvNjMyNzgzLzFhOThkZTBjLWY3ZDEtNDVjMy05N2YyLWE0NDE3Yjk1MGJkOC5wZGY%3D',type:'政府契約查核'},
+      {label:'自由之丘工程紀錄',url:'https://thaubing.gcaa.org.tw/facility/F06C7278',type:'政府資料彙整'},
+      {label:'自由之丘完工與成交資料',url:'https://www.plex.com.tw/projects/transactions/id/3337/address/%E7%A6%8F%E7%BE%8E%E8%A1%97287%E8%99%9F10%E6%A8%93',type:'市場建案資料'},
+    ],
+  },
+  {
+    id:'dongjin-development-86824670',name:'東進開發建設',aliases:['東進開發建設','東進開發建設股份有限公司'],reviewed:'2026-09-19',confidence:'中高',
+    scores:{delivery:80,quality:76,governance:68,service:65,risk:74},
+    summary:'1992 年設立、實收資本額 2,000 萬元；官方契約確認「東進新莊苑」由公司直接出售，該都更案已於 2025 年完工，另有泰山既成住宅及迴龍廠辦等跨案開發紀錄。',
+    caveat:'長年資與多案活動支持基本履約判斷，但公司資本規模有限，住宅作品清單、施工品質、交屋缺失、保固及客訴處理均缺少完整量化揭露；廠辦案也不能直接替代住宅售後實績，故總分 73 分，列 B 級。',
+    sources:[
+      {label:'東進開發建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/86824670',type:'經濟部商工登記'},
+      {label:'東進新莊苑預售契約',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?icon=..pdf&n=5p2x6YCy5paw6I6K6IuRIC5wZGY%3D&u=LzAwMS9VcGxvYWQvMS9yZWxmaWxlLzk2NzkvNjM3NTU4LzY0Y2M0ZjMyLTllN2MtNDUyMi05YTY0LWUyNjlhN2M5YTZhMC5wZGY%3D',type:'政府備查契約'},
+      {label:'東進工程列管紀錄',url:'https://thaubing.gcaa.org.tw/corp/86824670',type:'政府資料彙整'},
+      {label:'東進新莊苑完工資料',url:'https://www.plex.com.tw/projects/view/id/1145',type:'市場建案資料'},
+      {label:'東進迴龍工業城',url:'https://newhouse.591.com.tw/141779',type:'市場建案資料'},
+    ],
+  },
+  {
+    id:'chenxi-development-82852816',name:'宸熙建設開發',aliases:['宸熙建設','宸熙建設開發','宸熙建設開發股份有限公司'],reviewed:'2026-09-19',confidence:'中高',
+    scores:{delivery:84,quality:82,governance:78,service:70,risk:78},
+    summary:'2019 年設立，實收資本額已由 2,000 萬元增至 4 億元；官方契約、都更審議與公司網站可確認「宸熙丰悅」已完工，並持續推動新莊全安段等都市更新案。',
+    caveat:'資本擴充、首案完工及多筆都更推動提高履約與治理判斷，但公司本身年資仍短；所屬機構自述的 30 年經驗不能全部歸入此法人，且售後、保固、客訴及長期品質資料仍不足，故總分 79 分，列 B 級。',
+    sources:[
+      {label:'宸熙建設開發公司登記',url:'https://findbiz.nat.gov.tw/fts/company/82852816',type:'經濟部商工登記'},
+      {label:'宸熙建設官方網站',url:'https://chen-shipor.com.tw/',type:'公司與建案揭露'},
+      {label:'宸熙丰悅預售契約',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?icon=..pdf&n=5a6454aZ5Liw5oKFLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMS9yZWxmaWxlLzk2NzkvNjM5MTI5LzVlZjEzZjg2LWVkYWMtNGI3Ni04YmY2LTczOWMwMzlmZTUxMC5wZGY%3D',type:'政府備查契約'},
+      {label:'全安段都更審議紀錄',url:'https://www.planning.ntpc.gov.tw/uploaddowndoc?file=downloaddata%2F202109231724420.pdf&filedisplay=1100906%E3%80%8C%E6%96%B0%E5%8C%97%E5%B8%82%E9%83%BD%E5%B8%82%E6%9B%B4%E6%96%B0%E5%8F%8A%E7%88%AD%E8%AD%B0%E8%99%95%E7%90%86%E5%AF%A9%E8%AD%B0%E6%9C%83%E3%80%8D%E7%AC%AC25%E6%AC%A1%E6%9C%83%E8%AD%B0%E7%B4%80%E9%8C%84.pdf&flag=doc',type:'政府都更資料'},
+      {label:'宸熙丰悅完工資料',url:'https://www.plex.com.tw/projects/view/id/1534',type:'市場建案資料'},
+    ],
+  },
 ].map(profile=>{
   const score=profile.scores?weightedScore(profile.scores):null;
   return {...profile,score,rating:profile.rating||ratingFromScore(score)};
