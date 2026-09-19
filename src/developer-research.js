@@ -6734,6 +6734,54 @@ export const developerResearch=[
       {label:'富域事業公司與開發介紹',url:'https://www.104.com.tw/company/1a2x6bk0ti',type:'公司公開資料'},
     ],
   },
+  {
+    id:'jiafu-development',name:'嘉福開發',aliases:['嘉福開發','嘉福開發股份有限公司'],reviewed:'2026-09-18',confidence:'中',
+    scores:{delivery:52,quality:70,governance:64,service:56,risk:72},
+    summary:'2015 年設立、資本額 2,500 萬元；新北市預售屋契約可確認嘉福開發是「青鳥之美」房屋建物賣方，建照與公開案場資料亦一致指向該公司投資興建。',
+    caveat:'目前可直接核對的住宅推案以 40 戶「青鳥之美」為主，且公開資料仍缺少足夠的長期交屋、社區維護與售後樣本；嘉福營造為本案營造廠，不把營造公司的其他工程自動算成嘉福開發實績。總分 62 分，列 C 級。',
+    sources:[
+      {label:'嘉福開發公司登記',url:'https://findbiz.nat.gov.tw/fts/company/54853531',type:'經濟部商工登記公示資料'},
+      {label:'青鳥之美預售屋契約',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?icon=..pdf&n=6Z2S6bOl5LmL576OLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMS9yZWxmaWxlLzk2NzkvNzI5OTMyLzY5Njc5YTJiLTcyNzEtNDE1Yy1iZDQzLTc1NDJhYTk3NTVmMy5wZGY%3D',type:'新北市政府預售屋契約'},
+      {label:'青鳥之美案場資料',url:'https://market.591.com.tw/5936361/overview',type:'建案公開資料'},
+    ],
+  },
+  {
+    id:'qunyang-construction',name:'群揚建設',aliases:['群揚建設','群揚建設有限公司'],reviewed:'2026-09-18',confidence:'中',
+    scores:{delivery:70,quality:74,governance:68,service:62,risk:74},
+    summary:'2013 年設立、資本額 7,000 萬元；可交叉核對輕游居、群揚 MORI 與青鳥之森等推案，且新北市政府契約查詢確認青鳥之森由群揚建設申報並採同業連帶擔保。',
+    caveat:'已有跨區產品與較完整的開發時間軸，但公司未提供可系統檢視的官方作品、售後政策與財務揭露；青鳥之森屬低密度透天型產品，也不宜直接推論其集合住宅售後能力。總分 69 分，列 C 級。',
+    sources:[
+      {label:'群揚建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/54032063',type:'經濟部商工登記公示資料'},
+      {label:'青鳥之森契約備查',url:'https://www.land.ntpc.gov.tw/News.aspx?PageSize=20&n=11769&page=24&sms=9679',type:'新北市政府預售屋契約'},
+      {label:'群揚建設山坡地審查紀錄',url:'https://www.publicwork.ntpc.gov.tw/userfiles/1060400/files/108_09_25-%E7%BE%A4%E6%8F%9A%E5%BB%BA%E8%A8%AD%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8-%E4%BA%8C%E9%9A%8E%E7%8F%BE%E5%A0%B4%E6%9C%83%E5%8B%98%E6%9A%A8%E7%AC%AC1%E6%AC%A1%E6%9C%83%E8%AD%B0%E7%B4%80%E9%8C%84.pdf',type:'新北市政府審查資料'},
+      {label:'青鳥之森案場資料',url:'https://market.591.com.tw/5921523/overview',type:'建案公開資料'},
+      {label:'群揚輕游居案場資料',url:'https://build.myhousing.com.tw/36614/',type:'建案公開資料'},
+    ],
+  },
+  {
+    id:'shuofu-construction',name:'碩福建設',aliases:['碩福建設','碩福建設有限公司'],reviewed:'2026-09-18',confidence:'中低',
+    scores:{delivery:52,quality:62,governance:60,service:54,risk:62},
+    summary:'2018 年設立、資本額 2,000 萬元；「信義聚」建照、案場資料與投資興建名義均可對應碩福建設，另有判決資料顯示公司曾參與新竹秋葉原建案工程。',
+    caveat:'可驗證案量與完工社區樣本仍少，信義聚尚在預售興建階段；工程款判決屬建商與承攬商間爭議，僅作治理風險背景，不等同購屋客訴或建物安全結論。總分 58 分，列 C 級。',
+    sources:[
+      {label:'碩福建設公司設立資料',url:'https://serv.gcis.nat.gov.tw/pub/cmpy/reportAction.do?fileName=376410000Asetup10711.pdf&method=report&reportClass=cmpyCityItem&subPath=10711',type:'新北市公司設立登記清冊'},
+      {label:'信義聚建照與案場資料',url:'https://newhouse.591.com.tw/141420',type:'建案公開資料'},
+      {label:'碩福建設工程款判決',url:'https://lawplayer.com/judgment/PCDV%2C112%2C%E5%BB%BA%2C12%2C20231114%2C1_3f6f6415ad5d68b24ee9a2891e2fda8d38163ea0',type:'法院判決公開資料'},
+    ],
+  },
+  {
+    id:'jiaxin-construction',name:'家信建設',aliases:['家信建設','家信建設有限公司'],reviewed:'2026-09-18',confidence:'中高',
+    scores:{delivery:78,quality:73,governance:68,service:64,risk:74},
+    summary:'2005 年設立、資本額 1,600 萬元；可核對 150國際時尚商辦、26藝、女王萬歲、女王萬歲2與家豪大將等推案，形成約二十年的跨期作品紀錄。',
+    caveat:'完成作品與持續推案優於單案公司，但規模仍屬區域型建商，官方網站、財務資訊、售後制度與可量化住戶回饋不足；因此交屋實績達 B 級基礎，治理與服務分數保持保守。總分 72 分，列 B 級。',
+    sources:[
+      {label:'家信建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/27598298',type:'經濟部商工登記公示資料'},
+      {label:'家豪大將都市設計審議',url:'https://www.planning.ntpc.gov.tw/uploaddowndoc?file=downloaddata%2F202309281721301.pdf&filedisplay=0921%E4%B8%8A%E5%8D%88-%E5%BC%B5%28%E4%B8%80%29%E4%B8%9E%E7%9F%B3%E6%9E%97%E5%8F%A3%E5%8A%9B%E8%A1%8C%E6%AE%B51111%28%E4%BA%8C%29%E5%AE%B6%E4%BF%A1%E4%B8%89%E5%B3%BD%E5%A4%A7%E5%AD%B8%E6%AE%B5%E4%B8%80%E5%B0%8F%E6%AE%B527.pdf&flag=doc',type:'新北市政府都市設計審議'},
+      {label:'家信建設推案紀錄',url:'https://build.myhousing.com.tw/company/486084/',type:'建案公開資料'},
+      {label:'26藝社區資料',url:'https://market.591.com.tw/34351/overview',type:'完工社區公開資料'},
+      {label:'家豪大將案場資料',url:'https://market.591.com.tw/6535397/overview',type:'建案公開資料'},
+    ],
+  },
 ].map(profile=>{
   const score=profile.scores?weightedScore(profile.scores):null;
   return {...profile,score,rating:profile.rating||ratingFromScore(score)};
