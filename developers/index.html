@@ -32,11 +32,13 @@
           <span><b id="pending-project-total">0</b> 筆尚待逐家查核</span>
         </div>
         <div class="developer-toolbar">
+          <label>查核標籤<select id="developer-flag"><option value="all" selected>全部標籤</option><option value="major">重大事件／高風險紀錄</option><option value="limited">資料有限，保守評分</option><option value="clear">無上述標籤</option></select></label>
           <label>建商搜尋<input id="developer-search" type="search" placeholder="輸入建商名稱"></label>
           <label>最低等級<select id="developer-rating"><option value="all" selected>全部等級</option><option value="S">S 級</option><option value="A">A 級以上</option><option value="B">B 級以上</option><option value="C">C 級以上</option></select></label>
           <label>排序<select id="developer-sort"><option value="score">綜合研究分</option><option value="projects">本站建案數</option><option value="confidence">證據來源數</option><option value="name">建商名稱</option></select></label>
         </div>
         <div class="developer-summary"><b id="developer-count">0</b> 家建商符合條件</div>
+        <div class="developer-flag-guide"><span class="developer-flag flag-major">重大事件／高風險紀錄</span><p>有可開啟的查核來源，不代表法院已判定責任或旗下每一個案都有相同問題。</p><span class="developer-flag flag-limited">資料有限，保守評分</span><p>因公開證據不足而壓低評分，不等於已發現品質問題。</p></div>
         <div id="developer-cards" class="developer-cards"></div>
         <div id="developer-empty" class="empty" hidden>沒有符合目前條件的建商。</div>
       </section>
