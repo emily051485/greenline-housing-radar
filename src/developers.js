@@ -25,9 +25,10 @@ document.querySelector('#environment-audit-total').textContent=developerRiskAudi
 document.querySelector('#ftc-audit-date').textContent=new Date(developerRiskAuditMeta.generatedAt).toLocaleDateString('zh-TW');
 
 function radarHtml(profile){
-  const labels=['履約推案','工程制度','財務治理','售後保固','風險管理'];
+  const labels=['履約推案','工程制度','財務治理','售後保固'];
+  const dimensionCount=dimensions.length;
   const point=(index,value)=>{
-    const angle=-Math.PI/2+index*Math.PI*2/5;
+    const angle=-Math.PI/2+index*Math.PI*2/dimensionCount;
     return [160+Math.cos(angle)*82*value/100,123+Math.sin(angle)*82*value/100];
   };
   const coordinates=points=>points.map(p=>p.map(n=>n.toFixed(2)).join(',')).join(' ');
@@ -35,14 +36,14 @@ function radarHtml(profile){
   const valid=value=>Number.isFinite(value)&&value>=0&&value<=100;
   const complete=values.every(valid);
   const description=dimensions.map(([label],index)=>`${label}：${valid(values[index])?values[index]+' 分':'待研究'}`).join('；');
-  return `<figure class="developer-radar"><svg viewBox="0 0 320 250" role="img" aria-label="${escapeHtml(profile.name+' 五軸評分，固定 0 至 100 分。'+description)}">
+  return `<figure class="developer-radar"><svg viewBox="0 0 320 250" role="img" aria-label="${escapeHtml(profile.name+' 四項基礎能力評分，固定 0 至 100 分。'+description)}">
     ${[20,40,60,80,100].map(level=>`<polygon class="radar-grid" points="${coordinates(dimensions.map((_,i)=>point(i,level)))}"/>`).join('')}
     ${dimensions.map((_,i)=>`<line class="radar-axis" x1="160" y1="123" x2="${point(i,100)[0]}" y2="${point(i,100)[1]}"/>`).join('')}
     ${complete?`<polygon class="radar-area" points="${coordinates(values.map((value,i)=>point(i,value)))}"/>`:''}
     ${values.map((value,i)=>valid(value)?`<circle class="radar-point" cx="${point(i,value)[0]}" cy="${point(i,value)[1]}" r="3"><title>${escapeHtml(dimensions[i][0])} ${value} 分</title></circle>`:'').join('')}
     ${labels.map((label,i)=>{const [x,y]=point(i,132);return `<text class="radar-label" x="${x}" y="${y-5}" text-anchor="middle"><tspan x="${x}">${label}</tspan><tspan class="radar-value" x="${x}" dy="17">${valid(values[i])?values[i]+' 分':'待研究'}</tspan></text>`;}).join('')}
     ${[0,50,100].map(level=>`<text class="radar-scale" x="166" y="${point(0,level)[1]+4}">${level}</text>`).join('')}
-    </svg><figcaption>五軸各 0–100 分${complete?'':' · 資料未齊，僅顯示已評分項目'}</figcaption></figure>`;
+    </svg><figcaption>四項基礎能力各 0–100 分；事件風險另行扣分${complete?'':' · 資料未齊，僅顯示已評分項目'}</figcaption></figure>`;
 }
 
 function render(){
@@ -57,6 +58,8 @@ function render(){
   cards.innerHTML=result.map(profile=>`<article class="developer-card">
     <header><span class="grade grade-${profile.rating.toLowerCase()}">${profile.rating==='NR'?'—':profile.rating}</span><div><h2>${escapeHtml(profile.name)}</h2><small>研究信心 ${profile.confidence} · 本站 ${profile.count} 案</small></div><strong>${profile.score??'—'}<small>${profile.score==null?'不評分':'/100'}</small></strong></header>
     ${(profile.flags.major||profile.flags.governance||profile.flags.regulatory||profile.flags.limited)?`<div class="developer-flags">${profile.flags.major?`<span class="developer-flag flag-major">${developerFlagDefinitions.major.label}</span>`:''}${profile.flags.governance?`<span class="developer-flag flag-governance">${developerFlagDefinitions.governance.label}</span>`:''}${profile.flags.regulatory?`<span class="developer-flag flag-regulatory">${developerFlagDefinitions.regulatory.label}</span>`:''}${profile.flags.limited?`<span class="developer-flag flag-limited">${developerFlagDefinitions.limited.label}</span>`:''}</div>`:''}
+    <div class="developer-score-equation" aria-label="計分結果"><span><small>基礎能力</small><b>${profile.baseScore??'—'}</b></span><i>−</i><span><small>風險調整</small><b>${profile.riskAdjustment??0}</b></span><i>＝</i><span class="score-final"><small>最終分</small><b>${profile.score??'—'}</b></span>${profile.ratingCap?`<em>評級上限 ${profile.ratingCap}</em>`:''}</div>
+    ${profile.riskReasons.length?`<p class="developer-score-reasons">${profile.riskReasons.map(escapeHtml).join(' · ')}</p>`:''}
     ${radarHtml(profile)}
     <p class="research-summary">${escapeHtml(profile.summary)}</p>
     <p class="research-caveat"><b>判讀限制</b>${escapeHtml(profile.caveat)}</p>

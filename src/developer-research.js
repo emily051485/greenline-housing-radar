@@ -1,13 +1,31 @@
+import {capDeveloperRating,getDeveloperRiskAssessment} from './developer-flags.js';
+
 export const developerRubric=[
-  {key:'delivery',label:'履約與推案',weight:25},
-  {key:'quality',label:'工程品質制度',weight:25},
+  {key:'delivery',label:'履約與推案',weight:30},
+  {key:'quality',label:'工程品質制度',weight:30},
   {key:'governance',label:'財務與治理',weight:20},
   {key:'service',label:'售後與保固',weight:20},
-  {key:'risk',label:'風險管理',weight:10},
 ];
 
 export const ratingFromScore=score=>score>=90?'S':score>=82?'A':score>=72?'B':'C';
 export const weightedScore=scores=>Math.round(developerRubric.reduce((sum,item)=>sum+(scores[item.key]??0)*item.weight,0)/100);
+const normalizeLegacyCaveat=(text,rating)=>{
+  const cleaned=String(text||'')
+    .replace(/五維總分\s*\d+\s*分[，、]?\s*(?:評為|列為|列|維持)?\s*[SABC]\s*級?(?:高分|低段|中段|下段)?。?/g,'')
+    .replace(/(?:故|因此)?總分\s*\d+\s*分[^。；]*(?:[。；]|$)/g,'')
+    .replace(/總分\s*\d+\s*分[，、]?\s*(?:評為|列為|列|維持)?\s*[SABC]\s*級?(?:高分|低段|中段|下段)?。?/g,'')
+    .replace(/依五維門檻列\s*[SABC]\s*級?。?/g,'')
+    .replace(/故現階段保守維持\s*[SABC]\s*級?。?/g,'')
+    .replace(/故維持\s*[SABC]\s*級?(?:上緣|高分|低段|中段|下段)?。?/g,'')
+    .replace(/依現有證據列\s*[SABC]\s*級?。?/g,'')
+    .replace(/綜合列\s*[SABC]\s*級?。?/g,'')
+    .replace(/先列\s*[SABC]\s*級?(?:並保留升評空間)?。?/g,'')
+    .replace(/現階段評為\s*[SABC]\s*級?(?:高分|低段|中段|下段)?。?/g,'')
+    .replace(/(?<!不)評為\s*[SABC]\s*級?(?:高分|低段|中段|下段)?。?/g,'')
+    .replace(/\s{2,}/g,' ')
+    .trim();
+  return `${cleaned}${cleaned&&!/[。！？]$/.test(cleaned)?'。':''}依本頁現行公式評為 ${rating} 級。`;
+};
 
 // 預售備查的「起造人」可能是建經、銀行、政府、更新會或自然人；
 // 這些角色不是住宅品牌，不應混入尚待研究的建商統計。
@@ -8648,8 +8666,13 @@ export const developerResearch=[
     ],
   },
 ].map(profile=>{
-  const score=profile.scores?weightedScore(profile.scores):null;
-  return {...profile,score,rating:profile.rating||ratingFromScore(score)};
+  const baseScore=profile.scores?weightedScore(profile.scores):null;
+  const risk=getDeveloperRiskAssessment(profile);
+  const score=baseScore==null?null:Math.max(0,baseScore-risk.penalty);
+  const uncappedRating=score==null?'NR':ratingFromScore(score);
+  const rating=capDeveloperRating(uncappedRating,risk.ratingCap);
+  const caveat=score==null?profile.caveat:normalizeLegacyCaveat(profile.caveat,rating);
+  return {...profile,caveat,baseScore,riskAdjustment:risk.penalty,riskReasons:risk.reasons,ratingCap:risk.ratingCap,score,uncappedRating,rating};
 });
 
 export const findDeveloperResearch=value=>{

@@ -108,7 +108,7 @@ export const matureProjects=rawMatureProjects.map(project=>{
   const research=findDeveloperResearch(repaired.builder);
   if(research){
     repaired.rating=research.rating;
-    repaired.ratingBasis=research.score==null?`建商研究已覆核（${research.reviewed}）：${research.caveat}`:`建商研究 ${research.score} 分（${research.reviewed} 覆核）；評級由履約、工程制度、財務治理、售後保固與風險管理加權推導`;
+    repaired.ratingBasis=research.score==null?`建商研究已覆核（${research.reviewed}）：${research.caveat}`:`建商研究 ${research.score} 分（基礎 ${research.baseScore} − 風險調整 ${research.riskAdjustment}；${research.reviewed} 覆核）`;
   }else if(isNonBuilderRole(repaired.builder)){
     repaired.rating='NA';
     repaired.ratingBasis='不適用建商評等：備查起造人為建經、銀行、政府、更新會、公益財團法人、自然人或尚待選定實施者，不直接視為住宅品牌';

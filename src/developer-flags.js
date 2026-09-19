@@ -293,7 +293,7 @@ const recordSeverity=record=>{
   return 'regulatory';
 };
 
-const impactLabels={delivery:'履約與推案',quality:'工程品質制度',governance:'財務與治理',service:'售後與保固',risk:'風險管理'};
+const impactLabels={delivery:'履約與推案',quality:'工程品質制度',governance:'財務與治理',service:'售後與保固',risk:'風險調整'};
 function impactDimensions(records){
   const dimensions=new Set(['risk']);
   const titles=records.map(record=>record.title).join('、');
@@ -310,13 +310,64 @@ function impactDimensions(records){
   return [...dimensions].map(key=>impactLabels[key]);
 }
 
-export function getDeveloperFlags(profile){
+function riskData(profile){
   const records=(majorRiskRecordsByName[profile.name]||[]).map(record=>({...record,severity:record.severity||recordSeverity(record),sources:resolveRecordSources(record,profile)}));
   const regulatoryRecords=developerRiskCandidates.filter(record=>record.id===profile.id&&record.name===profile.name).map(record=>({
     ...record,
     reversed:/撤銷原處分|全部撤銷/.test(record.title),
     historical:Number(record.date.slice(0,4))<2015,
   }));
+  return {records,regulatoryRecords};
+}
+
+const ratingOrder={C:1,B:2,A:3,S:4};
+const severeCriticalPattern=/無法依約|信用貶落|退票|停工|停業|結束營業|延遲履約|特定事由/;
+const recentGovernancePattern=/持續使用|未揭露|銷售前資訊未提供/;
+const eventYear=record=>Number(String(record.date||'').slice(0,4))||0;
+
+export function capDeveloperRating(rating,cap){
+  if(!cap||!ratingOrder[rating]||ratingOrder[rating]<=ratingOrder[cap])return rating;
+  return cap;
+}
+
+export function getDeveloperRiskAssessment(profile){
+  const {records,regulatoryRecords}=riskData(profile);
+  const criticalRecords=records.filter(record=>record.severity==='critical');
+  const governanceRecords=records.filter(record=>record.severity==='governance');
+  const manualRegulatoryRecords=records.filter(record=>record.severity==='regulatory');
+  const activeRegulatory=regulatoryRecords.filter(record=>!record.reversed);
+  const recentRegulatory=activeRegulatory.filter(record=>eventYear(record)>=2019);
+  const modernRegulatory=activeRegulatory.filter(record=>eventYear(record)>=2015&&eventYear(record)<2019);
+  let penalty=0;
+  let ratingCap=null;
+  const reasons=[];
+
+  if(criticalRecords.length){
+    penalty=Math.min(25,8+Math.max(0,criticalRecords.length-1)*5);
+    const severe=criticalRecords.some(record=>severeCriticalPattern.test(`${record.title} ${record.detail}`));
+    ratingCap=severe?'C':'B';
+    reasons.push(`重大公安／履約事件 ${criticalRecords.length} 筆`);
+    reasons.push(severe?'仍涉及履約、信用或營運存續風險，評級最高 C':'重大事件評級最高 B');
+  }else if(governanceRecords.length){
+    penalty=Math.min(12,5+Math.max(0,governanceRecords.length-1)*3+Math.min(4,recentRegulatory.length));
+    const recentOrRepeated=recentRegulatory.length>0||activeRegulatory.length>=2||governanceRecords.some(record=>recentGovernancePattern.test(`${record.title} ${record.detail}`));
+    ratingCap=recentOrRepeated?'B':null;
+    reasons.push(`交易／治理事件 ${governanceRecords.length} 筆`);
+    if(recentRegulatory.length)reasons.push(`2019 年後公平會有效裁處 ${recentRegulatory.length} 筆`);
+    if(ratingCap)reasons.push('近期或重複治理事件，評級最高 B');
+  }else{
+    const unmatchedManual=activeRegulatory.length?0:manualRegulatoryRecords.length;
+    penalty=Math.min(5,recentRegulatory.length*2+modernRegulatory.length+unmatchedManual);
+    if(recentRegulatory.length)reasons.push(`2019 年後公平會有效裁處 ${recentRegulatory.length} 筆`);
+    if(modernRegulatory.length)reasons.push(`2015–2018 年公平會有效裁處 ${modernRegulatory.length} 筆`);
+    if(unmatchedManual)reasons.push(`其他一般裁處紀錄 ${unmatchedManual} 筆`);
+  }
+
+  return {penalty,ratingCap,reasons,counts:{critical:criticalRecords.length,governance:governanceRecords.length,regulatory:activeRegulatory.length}};
+}
+
+export function getDeveloperFlags(profile){
+  const {records,regulatoryRecords}=riskData(profile);
   const audit=developerRiskAudit.find(record=>record.id===profile.id&&record.name===profile.name);
   const caveat=profile.caveat||'';
   const limited=['B','C'].includes(profile.rating)&&limitedEvidencePattern.test(caveat)&&!substantiveNegativePattern.test(caveat)&&records.length===0;

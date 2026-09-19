@@ -16,7 +16,7 @@ const seedProjects = [
 const rawProjects=integratedProjects.length ? integratedProjects : seedProjects;
 export const projects=rawProjects.map(project=>{
   const research=findDeveloperResearch(project.builder);
-  if(research)return {...project,rating:research.rating,ratingBasis:research.score==null?`建商研究已覆核（${research.reviewed}）：${research.caveat}`:`建商研究 ${research.score} 分（${research.reviewed} 覆核）；評級由五項公開證據加權推導`};
+  if(research)return {...project,rating:research.rating,ratingBasis:research.score==null?`建商研究已覆核（${research.reviewed}）：${research.caveat}`:`建商研究 ${research.score} 分（基礎 ${research.baseScore} − 風險調整 ${research.riskAdjustment}；${research.reviewed} 覆核）`};
   if(isNonBuilderRole(project.builder))return {...project,rating:'NA',ratingBasis:'不適用建商評等：此欄為建經、銀行、政府、更新會、自然人或尚待選定實施者，不直接視為住宅品牌'};
   if(project.rating==='NR')return project;
   return {...project,rating:'NR',ratingBasis:'待評估：尚未完成一致口徑的公司級公開資料查核，不以品牌名稱或案量推定等級'};
