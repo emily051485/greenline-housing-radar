@@ -6477,6 +6477,52 @@ export const developerResearch=[
       {label:'文華閱第三方工程查驗紀錄',url:'https://tripletrust.com.tw/%E5%BB%BA%E6%A1%88%E5%AF%A6%E7%B8%BE-%E6%B3%B0%E5%B1%B1%E5%8D%80-%E9%81%A0%E5%AE%8F-%E6%96%87%E8%8F%AF%E9%96%B1/',type:'第三方查驗資料'},
     ],
   },
+  {
+    id:'delin-development',name:'德鄰開發',aliases:['德鄰開發','德鄰開發股份有限公司'],reviewed:'2026-09-18',confidence:'中高',
+    scores:{delivery:45,quality:68,governance:60,service:58,risk:70},
+    summary:'公司於 2018 年設立、資本額 1,000 萬元；官方預售契約與建照可確認德鄰為板橋「德鄰織樺」賣方，並由同興營造承攬施工。',
+    caveat:'建案網站所稱「在地傳承一甲子」屬團隊或營造背景，不能直接等同 2018 年成立法人的交付年資；目前本法人尚缺已完工住宅樣本、財務治理、保固與客訴成果。總分 59 分，列 C 級。',
+    sources:[
+      {label:'德鄰開發公司登記',url:'https://findbiz.nat.gov.tw/fts/company/50972970',type:'經濟部官方資料'},
+      {label:'德鄰織樺預售屋契約',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?icon=..pdf&n=5b636YSw57mU5qi6LnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMS9yZWxmaWxlLzk2NzkvNzI5OTMxL2M2MjUxYWJkLTZhMzgtNDRkMy04ZmM5LWFlYWE5ZjFkYmZlYS5wZGY%3D',type:'新北市官方契約'},
+      {label:'德鄰織樺建案與建照資料',url:'https://dream-house.com.tw/portal_c1_cnt_page.php?button_num=c1&cnt_id=666648&folder_id=99496&owner_num=c1_74088',type:'建案公開資料'},
+    ],
+  },
+  {
+    id:'meifu-construction',name:'美富建設',aliases:['美富建設','美富建設股份有限公司'],reviewed:'2026-09-18',confidence:'中高',
+    scores:{delivery:45,quality:68,governance:60,service:58,risk:70},
+    summary:'公司於 2021 年設立；官方預售契約確認美富為五股「美富・加倍家」賣方，統編 90749392，現案已有建照、39 筆實價交易與明確建材規格。',
+    caveat:'公司與案件主體清楚，但目前未找到本法人其他已完工住宅作品；建材表與營造團隊只能證明規格，尚不能代替完工品質、售後服務與財務治理成果。總分 59 分，列 C 級。',
+    sources:[
+      {label:'美富建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/90749392',type:'經濟部官方資料'},
+      {label:'美富・加倍家預售屋契約',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?icon=..pdf&n=576O5a%2BMLuWKoOWAjeWuti5wZGY%3D&u=LzAwMS9VcGxvYWQvMS9yZWxmaWxlLzk2NzkvNjM5NTI4LzhiMWYxNmJjLTYxZjEtNDg5OC1hYTdlLWU1YmI1NzdjZTAwMS5wZGY%3D',type:'新北市官方契約'},
+      {label:'美富・加倍家建案規格',url:'https://newhouse.591.com.tw/131045/detail',type:'建案公開資料'},
+    ],
+  },
+  {
+    id:'fulong-construction',name:'福隆建設',aliases:['福隆建設','福隆建設股份有限公司'],reviewed:'2026-09-18',confidence:'高',
+    scores:{delivery:88,quality:80,governance:70,service:68,risk:76},
+    summary:'公司於 1994 年設立、實收資本額 4 億元；官方網站列出鼎隆苑、台大敦仁、鼎隆江晏及鼎隆大苑等多件住宅，政府工地與環境資料亦可核對多個不同年度工程。',
+    caveat:'長期存續、跨案完工與較大資本規模支持 B 級；但公司不是公開發行建商，品質制度、財務資訊、保固時效與客訴成果的外部揭露仍不足以升到 A。總分 77 分，列 B 級。',
+    sources:[
+      {label:'福隆建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/84917316',type:'經濟部官方資料'},
+      {label:'福隆建設官方作品',url:'https://fu-long.nongdesign.com/',type:'建商官方資料'},
+      {label:'福隆建設歷年工程資料',url:'https://thaubing.gcaa.org.tw/corp/84917316',type:'政府資料彙整'},
+      {label:'臺北市工地評鑑名冊',url:'https://www-ws.gov.taipei/001/Upload/453/relfile/22269/3452945/66116351771.pdf',type:'臺北市官方資料'},
+    ],
+  },
+  {
+    id:'lianhong-construction',name:'聯虹建設',aliases:['聯虹建設','聯虹建設股份有限公司'],reviewed:'2026-09-18',confidence:'高',
+    scores:{delivery:82,quality:78,governance:68,service:65,risk:74},
+    summary:'公司於 1995 年設立、實收資本額 3.5 億元；官方作品頁與政府備查清冊可核對聯虹天耀、長虹天聚、聯虹瑋玥及聯虹珺玥等案，具跨案開發履歷。',
+    caveat:'公司長期存續且具有多案與履約保證紀錄，但「一脈相承長虹」屬品牌關係敘述，不能把長虹建設的全部上市櫃治理與作品直接移轉給聯虹；外部售後與品質統計亦有限。總分 74 分，列 B 級。',
+    sources:[
+      {label:'聯虹建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/89961352',type:'經濟部官方資料'},
+      {label:'聯虹建設官方作品',url:'https://lianhong-arch.com.tw/portal_c1_cnt.php?button_num=c1&folder_id=42&owner_num=c1_1563',type:'建商官方資料'},
+      {label:'新北市已備查建案清冊',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?n=MTEw5bm06IezMTE05bm05bey5YKZ5p%2Bl5bu65qGI5riF5YaKLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMzk5L3JlbGZpbGUvODk5My85NDY5L2NkZTQ4OTJkLTQzMzAtNDY3Zi1hYmExLTI3YzJiYjI0MjYxNi5wZGY%3D',type:'新北市官方清冊'},
+      {label:'同業連帶擔保審核名單',url:'https://redat.yooniks.co/storage/upload/members/1131226%E5%AF%A9%E6%A0%B8%E9%80%9A%E9%81%8E%E5%90%8D%E5%96%AE%28%E7%99%BB%E7%B6%B2%29-1735196185.pdf',type:'不動產開發公會資料'},
+    ],
+  },
 ].map(profile=>{
   const score=profile.scores?weightedScore(profile.scores):null;
   return {...profile,score,rating:profile.rating||ratingFromScore(score)};
