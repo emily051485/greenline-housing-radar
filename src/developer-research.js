@@ -7318,6 +7318,66 @@ export const developerResearch=[
       {label:'新北市預售建案清冊',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?n=MTEw5bm06IezMTE05bm05bey5YKZ5p%2Bl5bu65qGI5riF5YaKLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMzk5L3JlbGZpbGUvODk5My85NDY5L2NkZTQ4OTJkLTQzMzAtNDY3Zi1hYmExLTI3YzJiYjI0MjYxNi5wZGY%3D',type:'新北市政府地政局官方資料'},
     ],
   },
+  {
+    id:'liangjiang-construction',name:'良將建設（溪福建築團隊）',aliases:['良將建設','良將建設有限公司'],reviewed:'2026-09-18',confidence:'中高',
+    scores:{delivery:82,quality:73,governance:68,service:64,risk:72},
+    summary:'1996 年設立、資本額 2.005 億元；新北市官方契約確認其為板橋 179 戶「芯哲園」賣方，公會資料亦顯示良將曾為溪福、潤旺預售案提供同業連帶擔保，且相關案已取得使用執照。',
+    caveat:'長期法人年資、資本與通過同業擔保審核支持 B 級履約能力，但擔任保證公司不等於那些建案均由良將興建；公司級作品總表、施工缺失、售後完成率與財務揭露仍不足。總分 72 分，列為 B 級。',
+    sources:[
+      {label:'良將建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/96855314',type:'經濟部商工登記公示資料'},
+      {label:'芯哲園預售屋買賣契約',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?icon=..pdf&n=6Iqv5ZOy5ZySLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMS9yZWxmaWxlLzk2NzkvNzM1NTEyL2MwOTVmY2JjLTdmNTctNGVjMC05ZDU3LWQ2MTQ4ZTBmMTllNC5wZGY%3D',type:'新北市政府地政局官方契約'},
+      {label:'預售屋同業連帶擔保審核紀錄',url:'https://redat.yooniks.co/storage/upload/members/1131226%E5%AF%A9%E6%A0%B8%E9%80%9A%E9%81%8E%E5%90%8D%E5%96%AE%28%E7%99%BB%E7%B6%B2%29-1735196185.pdf',type:'建築開發公會審核資料'},
+      {label:'良將建設推案資料',url:'https://www.plex.com.tw/projects/index/type/developer/query/%E8%89%AF%E5%B0%87%E5%BB%BA%E8%A8%AD/order/hot/status/all/page/1',type:'市場建案交叉核對'},
+    ],
+  },
+  {
+    id:'chengde-construction',name:'城德建設',aliases:['城德建設','城德建設有限公司','城德建設股份有限公司'],reviewed:'2026-09-18',confidence:'中',
+    scores:{delivery:75,quality:72,governance:62,service:60,risk:74},
+    summary:'2006 年設立，2017 年由有限公司改制為股份有限公司，實收資本額 2,000 萬元；官方預售契約與成屋資料確認其直接興建板橋 101 戶「城德華福」，目前已可交屋。',
+    caveat:'已有大型直接完工樣本與第三方驗屋工程紀錄，但公開可核實的跨案作品、公司級品管、售後保固及財務治理資料仍有限，現階段不因單案完工直接升至 B 級。總分 69 分，列為 C 級。',
+    sources:[
+      {label:'城德建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/28074137',type:'經濟部商工登記公示資料'},
+      {label:'城德華福預售屋買賣契約',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?icon=..pdf&n=5Z%2BO5b636I%2Bv56aPLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMS9yZWxmaWxlLzk2NzkvNzMwODA3L2U2Mzg4YTk5LTk3ZGQtNDI2MS04MWE3LTYyMmE1OTE2YzhhMS5wZGY%3D',type:'新北市政府地政局官方契約'},
+      {label:'城德華福成屋資料',url:'https://newhouse.591.com.tw/139599',type:'成屋市場資料'},
+      {label:'城德華福第三方驗屋紀錄',url:'https://tripletrust.com.tw/%E5%BB%BA%E6%A1%88%E5%AF%A6%E7%B8%BE-%E6%9D%BF%E6%A9%8B%E5%8D%80-%E5%9F%8E%E5%BE%B7-%E5%9F%8E%E5%BE%B7%E8%8F%AF%E7%A6%8F/',type:'第三方工程資料'},
+    ],
+  },
+  {
+    id:'xianghong-construction',name:'祥泓建設（春木林建築團隊）',aliases:['祥泓建設','祥泓建設股份有限公司'],reviewed:'2026-09-18',confidence:'中高',
+    scores:{delivery:78,quality:75,governance:65,service:62,risk:72},
+    summary:'2018 年設立、現行資本額 500 萬元；春木林建築團隊官網與政府都更文件確認其為實際開發法人，已完成 19 戶「祥泓湛」，並持續推動 182 戶「祥泓大觀」。',
+    caveat:'已有直接完工交屋與後續大型都更案，較單案新法人完整；但資本規模小，且集團其他公司的作品不能全部歸入祥泓，公司級施工查驗、售後與財務資料仍不足。總分 71 分，列為 C 級。',
+    sources:[
+      {label:'祥泓建設公司變更登記',url:'https://serv.gcis.nat.gov.tw/pub/cmpy/reportAction.do?fileName=11407NTC.pdf&method=report&reportClass=cmpy&subPath=11407',type:'經濟部商工行政官方資料'},
+      {label:'春木林建築團隊與祥泓作品',url:'https://cmling.com.tw/',type:'建築團隊官方資料'},
+      {label:'祥泓大觀都市更新計畫',url:'https://cmling.com.tw/wp-content/uploads/2020/12/%E6%9D%BF%E6%A9%8B%E5%8D%80%E5%A4%A7%E5%90%8C%E6%AE%B5%E9%83%BD%E5%B8%82%E6%9B%B4%E6%96%B0%E4%BA%8B%E6%A5%AD%E8%A8%88%E7%95%AB%E5%85%AC%E5%B1%95%E7%89%88.pdf',type:'都市更新公開文件'},
+      {label:'祥泓湛完工與成交資料',url:'https://www.plex.com.tw/projects/view/id/8963',type:'完工建案交叉核對'},
+    ],
+  },
+  {
+    id:'jinghe-construction',name:'晶合建設',aliases:['晶合建設','晶合建設股份有限公司','興樓建設','興樓建設股份有限公司'],reviewed:'2026-09-18',confidence:'中低',
+    scores:{delivery:55,quality:68,governance:62,service:54,risk:72},
+    summary:'法人於 2018 年設立，2021 年由興樓建設更名為晶合建設，現行實收資本額 4,400 萬元；新北市官方契約確認其為板橋 61 戶「晶合豐川」賣方。',
+    caveat:'法人、資本與契約責任清楚，但公開資料稱晶合豐川為公司首件危老合建案，目前仍缺可直接歸屬的完工交屋、跨案品質、售後保固與長期財務樣本。總分 61 分，列為 C 級。',
+    sources:[
+      {label:'晶合建設公司登記與更名紀錄',url:'https://findbiz.nat.gov.tw/fts/company/42722492',type:'經濟部商工登記公示資料'},
+      {label:'晶合豐川預售屋買賣契約',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?icon=..pdf&n=5pm25ZCI6LGQ5bedLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMS9yZWxmaWxlLzk2NzkvNzIzNDcwLzFmNDdkOWI1LTUyZDYtNGQxNC1iOTEzLTU3MmJlNDViNjI1Yi5wZGY%3D',type:'新北市政府地政局官方契約'},
+      {label:'晶合豐川建照與建案資料',url:'https://market.591.com.tw/5933963/overview',type:'市場建案交叉核對'},
+    ],
+  },
+  {
+    id:'tongneng-development',name:'統能開發建設（統創集團）',aliases:['統能開發建設','統能開發建設股份有限公司','振康開發建設','振康開發建設股份有限公司'],reviewed:'2026-09-18',confidence:'高',
+    scores:{delivery:82,quality:80,governance:80,service:68,risk:76},
+    summary:'2010 年設立、現行實收資本額 12.272 億元，董監事資料可確認統創建設開發為重要法人股東；政府建照與備查資料確認其直接興建板橋 254 戶 SRC 案「統創曜」，目前已有成屋門牌與百筆以上交易樣本。',
+    caveat:'資本規模、集團治理、完整大型案與成屋樣本支持 B 級；但目前可直接歸屬統能法人的公開住宅作品仍集中於統創曜，且售後保固、缺失率與跨案交付資料未達 A 級所需完整度。總分 78 分，列為 B 級。',
+    sources:[
+      {label:'統能開發建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/53100627',type:'經濟部商工登記公示資料'},
+      {label:'統創曜建造執照統計',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?n=MTEw5bm0MTHmnIjlu7rnhafntbHoqIjooagucGRm&u=LzAwMS9VcGxvYWQvNDAwL3JlbGZpbGUvOTM1OC82Mzc3OTcvMWUzMjhjZjEtMWQ4OS00ZDEyLTlkOWUtYzczMzZmYjE4ZWU1LnBkZg%3D%3D',type:'新北市政府官方資料'},
+      {label:'統創曜預售備查清冊',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?n=MTEw5bm06IezMTE05bm05bey5YKZ5p%2Bl5bu65qGI5riF5YaKLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMzk5L3JlbGZpbGUvODk5My85NDY5L2NkZTQ4OTJkLTQzMzAtNDY3Zi1hYmExLTI3YzJiYjI0MjYxNi5wZGY%3D',type:'新北市政府地政局官方資料'},
+      {label:'統創曜成屋與交易資料',url:'https://www.leju.com.tw/community/L96011092914144',type:'成屋市場資料'},
+      {label:'統創曜工程實績',url:'https://www.dehwa.com.tw/dh/case_01_detail?id=275&page=1',type:'營造團隊工程資料'},
+    ],
+  },
 ].map(profile=>{
   const score=profile.scores?weightedScore(profile.scores):null;
   return {...profile,score,rating:profile.rating||ratingFromScore(score)};
