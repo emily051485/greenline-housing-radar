@@ -284,6 +284,15 @@ function resolveRecordSources(record,profile){
   return (record.sourceLabels||[]).map(label=>profile.sources.find(source=>source.label===label)).filter(Boolean);
 }
 
+const criticalRiskPattern=/塌陷|下陷|火災|損鄰|無法依約|停工|信用貶落|退票|特定事由|結束營業|延遲履約|停業與停工|污染水體|預售價金未依規定交付信託/;
+const governanceRiskPattern=/未揭露|持續使用|銷售前資訊未提供|重大歷史爭議|信託查核|容積移轉|協商未到場|主體辨識|法人狀態|契約缺失與環評|目前登記停業/;
+const recordSeverity=record=>{
+  const text=`${record.title} ${record.detail}`;
+  if(criticalRiskPattern.test(text))return 'critical';
+  if(governanceRiskPattern.test(text))return 'governance';
+  return 'regulatory';
+};
+
 const impactLabels={delivery:'履約與推案',quality:'工程品質制度',governance:'財務與治理',service:'售後與保固',risk:'風險管理'};
 function impactDimensions(records){
   const dimensions=new Set(['risk']);
@@ -302,7 +311,7 @@ function impactDimensions(records){
 }
 
 export function getDeveloperFlags(profile){
-  const records=(majorRiskRecordsByName[profile.name]||[]).map(record=>({...record,sources:resolveRecordSources(record,profile)}));
+  const records=(majorRiskRecordsByName[profile.name]||[]).map(record=>({...record,severity:record.severity||recordSeverity(record),sources:resolveRecordSources(record,profile)}));
   const regulatoryRecords=developerRiskCandidates.filter(record=>record.id===profile.id&&record.name===profile.name).map(record=>({
     ...record,
     reversed:/撤銷原處分|全部撤銷/.test(record.title),
@@ -311,11 +320,15 @@ export function getDeveloperFlags(profile){
   const audit=developerRiskAudit.find(record=>record.id===profile.id&&record.name===profile.name);
   const caveat=profile.caveat||'';
   const limited=['B','C'].includes(profile.rating)&&limitedEvidencePattern.test(caveat)&&!substantiveNegativePattern.test(caveat)&&records.length===0;
-  return {major:records.length>0,regulatory:regulatoryRecords.some(record=>!record.reversed),limited,records,regulatoryRecords,audit,impact:impactDimensions(records)};
+  const critical=records.some(record=>record.severity==='critical');
+  const governance=records.some(record=>record.severity==='governance');
+  const manualRegulatory=records.some(record=>record.severity==='regulatory');
+  return {major:critical,critical,governance,regulatory:manualRegulatory||regulatoryRecords.some(record=>!record.reversed),limited,records,regulatoryRecords,audit,impact:impactDimensions(records)};
 }
 
 export const developerFlagDefinitions={
-  major:{label:'重大事件／高風險紀錄',description:'有官方、司法、受託銀行或消保資料支持的重大公安、履約、營運或信用事件；不等同法院已判定責任，也不代表旗下每一個案都有相同問題。'},
+  major:{label:'重大公安／履約風險',description:'公安事故、無法依約完工、停工、信用貶落、信託重大異常或官方認定情節重大事件。'},
+  governance:{label:'交易／治理風險',description:'重要交易資訊未揭露、信託或契約缺失、治理爭議等，嚴重度高於一般廣告裁處，但不等同工程公安事故。'},
   regulatory:{label:'公平會裁處紀錄',description:'以建商完整公司名稱或已確認別名，逐筆比對公平會行政決定；廣告或交易資訊裁處不等同工程重大事故，已撤銷者另行標示。'},
   limited:{label:'資料有限，保守評分',description:'目前缺少足夠的跨案交付、品管、財務治理或售後證據，因此先採較保守分數；不是負面事件標籤。'},
 };
