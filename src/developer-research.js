@@ -6819,6 +6819,55 @@ export const developerResearch=[
       {label:'宸實建設推案紀錄',url:'https://build.myhousing.com.tw/company/599426/',type:'建案公開資料'},
     ],
   },
+  {
+    id:'yuefeng-construction',name:'悅峰建設',aliases:['悅峰建設','悅峰建設股份有限公司','國賦建設實業股份有限公司'],reviewed:'2026-09-18',confidence:'中',
+    scores:{delivery:72,quality:74,governance:66,service:64,risk:74},
+    summary:'前身為國賦建設，資本額 3,300 萬元；可核對悅峰 WE時代、悅峰釀、悅峰 I HOME、悅峰甜蕃茄及永和文化段都更案，具連續跨區推案紀錄。',
+    caveat:'案量已高於單案型公司，但完工後住戶回饋、售後制度及公司財務揭露仍不足，部分近期案件尚未形成長期維護樣本；因此交屋與品質採中段分數，總分 70 分，列 C 級。',
+    sources:[
+      {label:'悅峰建設官方網站',url:'https://yuefong.com/',type:'公司官方資料'},
+      {label:'悅峰 I HOME預售屋契約',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?icon=..pdf&n=5oKF5bOwIEkgSE9NRS5wZGY%3D&u=LzAwMS9VcGxvYWQvMS9yZWxmaWxlLzk2NzkvNjM5NDM3LzE2NjM4OThhLWZiYzEtNDMwMS1iMzQ4LWE5M2ZkOGNiM2ZmYi5wZGY%3D',type:'新北市政府預售屋契約'},
+      {label:'悅峰建設推案紀錄',url:'https://build.myhousing.com.tw/company/486256/',type:'建案公開資料'},
+      {label:'永和文化段都更資料',url:'https://yuefong.com/files/system/files/1130413%E6%82%85%E5%B3%B0%E6%B0%B8%E5%92%8C%E4%BA%8B%E6%A5%AD%E5%85%AC%E8%81%BD%E6%9C%83%E7%B0%A1%E5%A0%B1.pdf',type:'都市更新公開資料'},
+    ],
+  },
+  {
+    id:'xinshengyang-development',name:'薪昇暘開發',aliases:['薪昇暘開發','薪昇暘開發股份有限公司'],reviewed:'2026-09-18',confidence:'中高',
+    scores:{delivery:76,quality:75,governance:82,service:65,risk:75},
+    summary:'2015 年由上市公司益航投資成立、目前登記資本額 3 億元；可核對半島花園與朗沐，且益航年報、法說及重大訊息持續揭露子公司持股、開發進度與朗沐工程發包。',
+    caveat:'母公司公開資訊使治理透明度優於一般區域建商，但住宅交屋樣本與售後服務紀錄仍不算多；朗沐另與丞石建築共同投資興建，不能將合作方全部實績歸給薪昇暘。總分 75 分，列 B 級。',
+    sources:[
+      {label:'益航集團薪昇暘介紹',url:'https://www.firsteam.com.tw/corporate_information.html',type:'母公司官方資料'},
+      {label:'益航年報持股資料',url:'https://www.firsteam.com.tw/doc/reports/2015_2601_20160623F04_20161117_172618.pdf',type:'上市公司年報'},
+      {label:'益航法人說明會資料',url:'https://www.firsteam.com.tw/doc/%E7%9B%8A%E8%88%AA%E6%B3%95%E8%AA%AA%E7%B0%A1%E5%A0%B12022.pdf',type:'上市公司法說資料'},
+      {label:'朗沐官方網站',url:'https://lamour.honor-home.com.tw/',type:'建案官方資料'},
+      {label:'朗沐工程發包公告',url:'https://www.moneydj.com/kmdj/news/newsviewer.aspx?a=8f1b43e5-e50b-4fa4-92b4-381fb96b9267',type:'公開資訊觀測站轉載'},
+    ],
+  },
+  {
+    id:'hongshen-investment',name:'宏燊投資',aliases:['宏燊投資','宏燊投資有限公司'],reviewed:'2026-09-18',confidence:'中',
+    scores:{delivery:58,quality:70,governance:64,service:56,risk:72},
+    summary:'2006 年設立、資本額 5,000 萬元；雖公司名稱為投資公司，但新北市預售契約明列宏燊投資為彩桐莊園賣方，並以公司名義完成預售備查及建照申請，屬本案實際開發主體。',
+    caveat:'公司與宏燊建設、東泰國際建設及鴻燊營造存在股權或負責人關聯，但法律主體不同，未把關係企業全部作品移植為宏燊投資的交屋實績；目前直接可核對推案仍以彩桐莊園為主。總分 63 分，列 C 級。',
+    sources:[
+      {label:'宏燊投資公司登記',url:'https://findbiz.nat.gov.tw/fts/company/28162883',type:'經濟部商工登記公示資料'},
+      {label:'彩桐莊園預售屋契約',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?icon=..pdf&n=5b2p5qGQ6I6K5ZySLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMS9yZWxmaWxlLzk2NzkvNzI5NDkwLzllOTQ4MTJkLWU1MjktNDQzMC1iMTRhLWU3YzBiMDczMTU3Yy5wZGY%3D',type:'新北市政府預售屋契約'},
+      {label:'彩桐莊園契約備查',url:'https://www.land.ntpc.gov.tw/News.aspx?PageSize=20&_Query=a57b2e19-ab70-4142-80ea-976f35abb5bb&n=11769&page=16&sms=9679',type:'新北市政府預售屋備查'},
+      {label:'宏燊投資推案紀錄',url:'https://build.myhousing.com.tw/company/482699/',type:'建案公開資料'},
+    ],
+  },
+  {
+    id:'deyou-construction',name:'德佑建設',aliases:['德佑建設','德佑建設股份有限公司'],reviewed:'2026-09-18',confidence:'中低',
+    scores:{delivery:50,quality:68,governance:62,service:54,risk:70},
+    summary:'2020 年設立、實收資本額 1,500 萬元；政府預售契約、110土建字第00632-01號建照與案場資料均確認「慕軒」由德佑建設投資興建。',
+    caveat:'慕軒為 115 戶都更型住宅，但目前尚未取得使用執照，缺少交屋後品質、公共設施維護及售後處理樣本；亦未找到可獨立核對的其他完工住宅，評分不以單一案行銷規格補足履歷。總分 60 分，列 C 級。',
+    sources:[
+      {label:'德佑建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/83702576',type:'經濟部商工登記公示資料'},
+      {label:'慕軒預售屋契約',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?icon=..pdf&n=5oWV6LuSLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMS9yZWxmaWxlLzk2NzkvNjgwMTA0LzRkNWQ5Mjc3LTBlMjgtNDRhNS1iMjVlLTFmZmEyYjRjZTdlNi5wZGY%3D',type:'新北市政府預售屋契約'},
+      {label:'慕軒建照與案場資料',url:'https://newhouse.591.com.tw/127019/detail',type:'建案公開資料'},
+      {label:'慕軒政府備查清冊',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?n=MTEw5bm06IezMTE05bm05bey5YKZ5p%2Bl5bu65qGI5riF5YaKLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMzk5L3JlbGZpbGUvODk5My85NDY5L2NkZTQ4OTJkLTQzMzAtNDY3Zi1hYmExLTI3YzJiYjI0MjYxNi5wZGY%3D%3D',type:'新北市政府預售屋備查'},
+    ],
+  },
 ].map(profile=>{
   const score=profile.scores?weightedScore(profile.scores):null;
   return {...profile,score,rating:profile.rating||ratingFromScore(score)};
