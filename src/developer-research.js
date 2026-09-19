@@ -7982,6 +7982,66 @@ export const developerResearch=[
       {label:'公平會三希堂處分書',url:'https://www.ftc.gov.tw/upload/4e589d54-8e5e-472e-baec-62e36a9da47f.pdf',type:'公平交易委員會官方裁罰資料'},
     ],
   },
+  {
+    id:'jiansheng-development-42651877',name:'建陞開發',aliases:['建陞開發','建陞開發股份有限公司'],reviewed:'2026-09-18',confidence:'中高',
+    scores:{delivery:78,quality:76,governance:78,service:66,risk:76},
+    summary:'2015 年成立，實收資本額 1.86 億元；新北市都審資料可確認海天段47-1地號案由建陞開發申請，規劃 236 戶，另有土城集合住宅工程及與大隱合作、已完成建物登記並終止開發信託的小藍海案。',
+    caveat:'資料庫暫稱「宏國海天案」容易與 1994 年完工的宏國海天社區混淆；本評分只採建陞自己的海天段新案、土城工程與小藍海合作案，不把宏國建設舊社區算入。公開售後成果仍有限，總分 75 分，列為 B 級。',
+    sources:[
+      {label:'建陞開發公司登記',url:'https://findbiz.nat.gov.tw/fts/company/42651877',type:'官方經濟部商工登記資料'},
+      {label:'海天段47-1地號案都審資料',url:'https://www.planning.ntpc.gov.tw/uploaddowndoc?dis=downloaddata&file=downloaddata%2F202407050918290.pdf&filedisplay=0627%E4%B8%8A%E5%8D%88-%E8%B3%80-%28%E4%B8%80%29%E5%BB%BA%E9%99%9E%E6%B7%A1%E6%B0%B4%E6%B5%B7%E5%A4%A9%E6%AE%B547-1%281%E8%AE%8A%29.pdf&flag=doc',type:'新北市政府都市設計審議資料'},
+      {label:'小藍海案信託終止公告',url:'https://www.feib.com.tw/activity?id=3347',type:'金融機構開發信託公告'},
+      {label:'建陞土城集合住宅工程',url:'https://thaubing.gcaa.org.tw/facility/F13B0927',type:'公開營建工程資料彙整'},
+    ],
+  },
+  {
+    id:'zhimao-construction',name:'致茂建設',aliases:['致茂建設','致茂建設股份有限公司'],reviewed:'2026-09-18',confidence:'中',
+    scores:{delivery:52,quality:74,governance:70,service:58,risk:74},
+    summary:'2022 年成立，實收資本額 2,000 萬元；新北市官方契約及建案官網可確認致茂橋豐由致茂建設投資興建，規劃 2 至 3 房並採價金信託。',
+    caveat:'致茂橋豐是目前最主要且可完整核驗的直接作品，仍在預售興建階段；公司成立時間短，尚無跨案完工、保固處理與住戶服務成果。產品配備及電動車規劃屬個案規格，不能替代交付實績；總分 65 分，列為 C 級。',
+    sources:[
+      {label:'致茂建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/90377478',type:'官方經濟部商工登記資料'},
+      {label:'致茂橋豐預售屋契約',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?icon=..pdf&n=6Ie06IyC5qmL6LGQLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMS9yZWxmaWxlLzk2NzkvNzM5MTU0LzFkOGVlNjQ5LWVhZDUtNDQ3MS1hYjdkLTNiY2VlMGM4MTg1NS5wZGY%3D',type:'新北市政府預售屋官方資料'},
+      {label:'致茂橋豐官方網站',url:'https://www.qiaofenghome.tw/',type:'建案官方網站'},
+      {label:'致茂橋豐官方契約查詢',url:'https://www.land.ntpc.gov.tw/News.aspx?PageSize=20&n=11769&page=5&sms=9679',type:'新北市政府預售屋官方資料'},
+    ],
+  },
+  {
+    id:'yuanbang-development',name:'員邦建設開發',aliases:['員邦建設開發','員邦建設開發股份有限公司'],reviewed:'2026-09-18',confidence:'中',
+    scores:{delivery:58,quality:76,governance:76,service:62,risk:74},
+    summary:'2022 年成立，實收資本額已增至 1.2 億元；員邦徊由員邦建設開發直接投資興建，規劃 171 戶、建照 113淡建字第00405號，公司亦以實施者身分推動新莊立德段都市更新案。',
+    caveat:'資本增資、預售案及都更實施者身分證明具持續開發能力，但公司仍新，員邦徊尚未完工，缺乏交付、保固時效與跨案品質樣本；都更公聽會代表程序進度，不等同完工實績。總分 69 分，列為 C 級。',
+    sources:[
+      {label:'員邦建設開發公司登記',url:'https://findbiz.nat.gov.tw/fts/company/90302174',type:'官方經濟部商工登記資料'},
+      {label:'員邦徊建照與規模',url:'https://market.591.com.tw/5935848/overview',type:'市場建案與建照資料'},
+      {label:'員邦徊預售備查清冊',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?n=MTEw5bm06IezMTE05LiK5Y2K5bm05bey5YKZ5p%2Bl5bu65qGI5riF5YaKLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMzk5L3JlbGZpbGUvODk5My85NDY5L2UwZjQwYjRjLTkyMjEtNDliZS1hMzA5LTE0MWExNmQ1MzVlNS5wZGY%3D',type:'新北市政府預售屋官方資料'},
+      {label:'新莊立德段都更公聽會',url:'https://www.uro.ntpc.gov.tw/Uploads/Announce/2026-02/d628e7c0-69f7-405e-959e-ff6d7ba68fd8.pdf',type:'新北市政府都市更新官方資料'},
+    ],
+  },
+  {
+    id:'fulida-development',name:'富利達開發',aliases:['富利達開發','富利達開發股份有限公司'],reviewed:'2026-09-18',confidence:'中高',
+    scores:{delivery:84,quality:78,governance:72,service:68,risk:76},
+    summary:'2003 年成立，實收資本額 4,000 萬元；可核對林口富麗達等已形成社區的作品，以及目前淡水 135 戶住宅、3 戶店面的富麗ONE，具有長期存續、完工社區與持續推案紀錄。',
+    caveat:'已有跨期直接作品支持履約能力，但公司並非公開發行公司，財務治理、工程缺失統計、保固時效及客訴結果仍缺乏公司級揭露；市場社區資料僅作完工與規模交叉核對。總分 76 分，列為 B 級。',
+    sources:[
+      {label:'富利達開發公司登記',url:'https://findbiz.nat.gov.tw/fts/company/80619743',type:'官方經濟部商工登記資料'},
+      {label:'富麗ONE預售備查清冊',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?n=MTEw5bm06IezMTE05bm05bey5YKZ5p%2Bl5bu65qGI5riF5YaKLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMzk5L3JlbGZpbGUvODk5My85NDY5L2NkZTQ4OTJkLTQzMzAtNDY3Zi1hYmExLTI3YzJiYjI0MjYxNi5wZGY%3D',type:'新北市政府預售屋官方資料'},
+      {label:'富麗ONE建照與規模',url:'https://www.house579.com.tw/newhouse/62618388-0e22-4d1a-bfc0-cbfda9c4d100',type:'市場建案與建照資料'},
+      {label:'林口富麗達完工社區資料',url:'https://community.yungching.com.tw/building/6467/detail',type:'完工建物資料'},
+    ],
+  },
+  {
+    id:'xinghe-construction',name:'興合建設',aliases:['興合建設','興合建設股份有限公司'],reviewed:'2026-09-18',confidence:'中高',
+    scores:{delivery:86,quality:80,governance:74,service:70,risk:76},
+    summary:'2004 年成立，實收資本額 5,000 萬元；可核對新品苑、新品川、中湖苑、新柑園及新井澤等跨區作品，內政部資料另顯示八里中庄段案取得合格級候選綠建築證書，具長期、多案與完工軌跡。',
+    caveat:'多案與超過二十年存續支持較高履約分，但候選綠建築證書只代表設計／施工階段審查，不能取代最終標章與住戶品質結果；公司級財務、保固及客訴統計仍有限。總分 78 分，列為 B 級。',
+    sources:[
+      {label:'興合建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/27309683',type:'官方經濟部商工登記資料'},
+      {label:'興合建設歷年建案',url:'https://build.myhousing.com.tw/company/492526/',type:'市場建案履歷彙整'},
+      {label:'八里案候選綠建築清冊',url:'https://ws.moi.gov.tw/001/Upload/436/relfile/12465/220458/995e4f90-b489-4b6f-a3ed-ed7d70c22399.pdf',type:'內政部官方標章資料'},
+      {label:'興合建設同業連帶擔保紀錄',url:'https://redat.yooniks.co/storage/upload/members/1131226%E5%AF%A9%E6%A0%B8%E9%80%9A%E9%81%8E%E5%90%8D%E5%96%AE%28%E7%99%BB%E7%B6%B2%29-1735196185.pdf',type:'不動產開發公會審核資料'},
+    ],
+  },
 ].map(profile=>{
   const score=profile.scores?weightedScore(profile.scores):null;
   return {...profile,score,rating:profile.rating||ratingFromScore(score)};
