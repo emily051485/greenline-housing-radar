@@ -8042,6 +8042,67 @@ export const developerResearch=[
       {label:'興合建設同業連帶擔保紀錄',url:'https://redat.yooniks.co/storage/upload/members/1131226%E5%AF%A9%E6%A0%B8%E9%80%9A%E9%81%8E%E5%90%8D%E5%96%AE%28%E7%99%BB%E7%B6%B2%29-1735196185.pdf',type:'不動產開發公會審核資料'},
     ],
   },
+  {
+    id:'wanqi-construction-86691236',name:'萬企建設',aliases:['萬企建設','萬企建設股份有限公司'],reviewed:'2026-09-19',confidence:'中高',
+    scores:{delivery:90,quality:84,governance:70,service:74,risk:72},
+    summary:'1992 年設立、實收資本額 3.3 億元；萬企機構官網揭露近百棟、逾 2 萬戶的長期作品量，並由關係企業供應預拌混凝土。官方預售契約可確認「萬企君品－上善區」由萬企建設直接出售。',
+    caveat:'案量與垂直整合有利於履約及品管判讀，但近百棟、2 萬戶與品質敘述主要來自公司自述，且私人公司缺少上市櫃等級的財務、售後與客訴量化揭露；萬企大業工地另有 2021 年營建揚塵缺失改善紀錄，故總分 80 分，維持 B 級。',
+    sources:[
+      {label:'萬企建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/86691236',type:'經濟部商工登記'},
+      {label:'萬企機構品牌與作品履歷',url:'https://www.wuc.com.tw/article.php?lang=tw&tb=3',type:'公司揭露'},
+      {label:'萬企君品－上善區預售契約',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?icon=..pdf&n=6JCs5LyB5ZCb5ZOBLeS4iuWWhOWNgC5wZGY%3D&u=LzAwMS9VcGxvYWQvMS9yZWxmaWxlLzk2NzkvNzI4NzkzLzAwNzYwZDhkLWY5OTctNDEzMi04MzZiLTg5NDkyY2NjYmFlZC5wZGY%3D',type:'政府備查契約'},
+      {label:'萬企大業環境稽查紀錄',url:'https://thaubing.gcaa.org.tw/facility/F10097011208?order=penalty_money&sort=desc',type:'政府裁罰資料彙整'},
+    ],
+  },
+  {
+    id:'hongsheng-construction-23825201',name:'鴻陞建設',aliases:['鴻陞建設','鴻陞建設股份有限公司'],reviewed:'2026-09-19',confidence:'中高',
+    scores:{delivery:86,quality:80,governance:68,service:70,risk:74},
+    summary:'1990 年設立、實收資本額 6,200 萬元，與萬企建設同址並列於萬企機構沿革；官方契約與備查清冊可確認「萬企君品－厚德區」由鴻陞建設直接出售，且公司已持續營運逾 35 年。',
+    caveat:'可採認同一機構的長期施工經驗，但鴻陞仍是獨立契約主體，不能把萬企建設的全部案量與資本直接移植；公司亦缺少個別完工量、保固處理與客訴成效的量化揭露，故總分 77 分，列 B 級。',
+    sources:[
+      {label:'鴻陞建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/23825201',type:'經濟部商工登記'},
+      {label:'萬企機構沿革與歷年作品',url:'https://www.wuc.com.tw/article.php?lang=tw&tb=3',type:'公司揭露'},
+      {label:'萬企君品－厚德區預售契約',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?icon=..pdf&n=6JCs5LyB5ZCb5ZOBLeWOmuW%2Bt%2BWNgC5wZGY%3D&u=LzAwMS9VcGxvYWQvMS9yZWxmaWxlLzk2NzkvNzE2OTQyLzNiNThjYTk2LTcxZTktNDliNi1hNDIyLWRkNmFjYTU1ZTdmMi5wZGY%3D',type:'政府備查契約'},
+      {label:'新北預售備查建案清冊',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?n=MTEw5bm06IezMTE05LiK5Y2K5bm05bey5YKZ5p%2Bl5bu65qGI5riF5YaKLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMzk5L3JlbGZpbGUvODk5My85NDY5L2UwZjQwYjRjLTkyMjEtNDliZS1hMzA5LTE0MWExNmQ1MzVlNS5wZGY%3D',type:'政府備查清冊'},
+    ],
+  },
+  {
+    id:'lianyan-construction-69461436',name:'聯硯建設',aliases:['聯硯建設','聯硯建設股份有限公司'],reviewed:'2026-09-19',confidence:'中',
+    scores:{delivery:70,quality:75,governance:68,service:62,risk:74},
+    summary:'2016 年設立，現行實收資本額 1 億元；官方備查契約與建照資料可確認「聯硯繪」由聯硯建設投資興建及出售，具可辨識的直接作品與信託架構。',
+    caveat:'目前可交叉驗證的直接住宅作品仍集中於聯硯繪，尚不足以支持成熟建商的跨案履歷；品質、交屋後保固、客訴處理與治理也缺乏連續量化資料，因此總分 70 分，先列 C 級，待新增完工與售後證據再調整。',
+    sources:[
+      {label:'聯硯建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/69461436',type:'經濟部商工登記'},
+      {label:'聯硯繪備查資料',url:'https://www.land.ntpc.gov.tw/News.aspx?PageSize=20&n=11769&page=38&sms=9679',type:'政府預售備查'},
+      {label:'聯硯繪建案與成屋歸戶',url:'https://jiananwatch.tw/case/G1FE11008130001/',type:'實價登錄交叉整理'},
+      {label:'聯硯繪建照工程紀錄',url:'https://thaubing.gcaa.org.tw/facility/F10B7582',type:'政府資料彙整'},
+    ],
+  },
+  {
+    id:'deyu-enterprise-80215783',name:'得育企業',aliases:['得育企業','得育企業股份有限公司'],reviewed:'2026-09-19',confidence:'中高',
+    scores:{delivery:78,quality:78,governance:68,service:66,risk:74},
+    summary:'2002 年設立、實收資本額 3.35 億元；除既成案「豪泰時尚」外，亦與華南金資產管理合作央北基地，華南金資產管理官網可確認得育為該案合作方。',
+    caveat:'資本規模、年資及金融機構共同開發可提高履約信心，但公開可核對的完整作品清單、施工品質指標、售後服務成效與客訴資料仍有限；不能只因資本額高就評為 A，故總分 73 分，列 B 級。',
+    sources:[
+      {label:'得育企業公司登記',url:'https://findbiz.nat.gov.tw/fts/company/80215783',type:'經濟部商工登記'},
+      {label:'央北合作開發案',url:'https://www.hnamc.com.tw/main-list/detail/17',type:'華南金資產管理'},
+      {label:'華南金合作契約公告',url:'https://www.moneydj.com/kmdj/news/newsviewer.aspx?a=afbfe4d2-2c40-4de8-b71c-1f19ca81cea0',type:'公開資訊轉載'},
+      {label:'豪泰時尚社區資料',url:'https://community.yungching.com.tw/building/44066',type:'既成案交叉資料'},
+    ],
+  },
+  {
+    id:'orient-basis-53436622',name:'東基開發建設',aliases:['東基開發建設','東基開發建設股份有限公司'],reviewed:'2026-09-19',confidence:'中高',
+    scores:{delivery:78,quality:84,governance:72,service:76,risk:76},
+    summary:'2011 年設立、實收資本額 7,760 萬元，具都市更新與危老全案管理經驗；「東基 M1」有官方備查契約，專案並公開耐震、綠建築及智慧建築標章規劃。',
+    caveat:'東基官網自述主要採地主自建、全案管理顧問與委建模式，角色不完全等同傳統大量推案建商；標章規劃與制度仍需區分候選、設計及最終取得狀態，公開售後量化資料也有限，故總分 78 分，列 B 級。',
+    sources:[
+      {label:'東基開發建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/53436622',type:'經濟部商工登記'},
+      {label:'東基公司定位與服務模式',url:'https://orient-basis.tw/',type:'公司揭露'},
+      {label:'東基 M1 預售契約',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?icon=..pdf&n=5p2x5Z%2B6TTEucGRm&u=LzAwMS9VcGxvYWQvMS9yZWxmaWxlLzk2NzkvNzM4OTMyL2JjODgxYzU1LWUxZTktNGJjYS1hMWQ3LThlODVkN2YyZGEzYy5wZGY%3D',type:'政府備查契約'},
+      {label:'東基 M1 官方網站',url:'https://dgm1.tw/',type:'建案揭露'},
+      {label:'新北預售備查建案清冊',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?n=MTEw5bm06IezMTE05bm05bey5YKZ5p%2Bl5bu65qGI5riF5YaKLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMzk5L3JlbGZpbGUvODk5My85NDY5L2NkZTQ4OTJkLTQzMzAtNDY3Zi1hYmExLTI3YzJiYjI0MjYxNi5wZGY%3D',type:'政府備查清冊'},
+    ],
+  },
 ].map(profile=>{
   const score=profile.scores?weightedScore(profile.scores):null;
   return {...profile,score,rating:profile.rating||ratingFromScore(score)};
