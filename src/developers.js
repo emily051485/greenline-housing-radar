@@ -31,7 +31,7 @@ function radarHtml(profile){
     ${dimensions.map((_,i)=>`<line class="radar-axis" x1="160" y1="123" x2="${point(i,100)[0]}" y2="${point(i,100)[1]}"/>`).join('')}
     ${complete?`<polygon class="radar-area" points="${coordinates(values.map((value,i)=>point(i,value)))}"/>`:''}
     ${values.map((value,i)=>valid(value)?`<circle class="radar-point" cx="${point(i,value)[0]}" cy="${point(i,value)[1]}" r="3"><title>${escapeHtml(dimensions[i][0])} ${value} 分</title></circle>`:'').join('')}
-    ${labels.map((label,i)=>{const [x,y]=point(i,132);return `<text class="radar-label" x="${x}" y="${y}" text-anchor="middle" dominant-baseline="middle">${label}</text>`;}).join('')}
+    ${labels.map((label,i)=>{const [x,y]=point(i,132);return `<text class="radar-label" x="${x}" y="${y-5}" text-anchor="middle"><tspan x="${x}">${label}</tspan><tspan class="radar-value" x="${x}" dy="17">${valid(values[i])?values[i]+' 分':'待研究'}</tspan></text>`;}).join('')}
     ${[0,50,100].map(level=>`<text class="radar-scale" x="166" y="${point(0,level)[1]+4}">${level}</text>`).join('')}
     </svg><figcaption>五軸各 0–100 分${complete?'':' · 資料未齊，僅顯示已評分項目'}</figcaption></figure>`;
 }
@@ -47,7 +47,6 @@ function render(){
   cards.innerHTML=result.map(profile=>`<article class="developer-card">
     <header><span class="grade grade-${profile.rating.toLowerCase()}">${profile.rating==='NR'?'—':profile.rating}</span><div><h2>${escapeHtml(profile.name)}</h2><small>研究信心 ${profile.confidence} · 本站 ${profile.count} 案</small></div><strong>${profile.score??'—'}<small>${profile.score==null?'不評分':'/100'}</small></strong></header>
     ${radarHtml(profile)}
-    <div class="score-bars">${profile.scores?dimensions.map(([label,key])=>`<div><span>${label}<b>${Number.isFinite(profile.scores[key])?profile.scores[key]:'待研究'}</b></span>${Number.isFinite(profile.scores[key])?`<i><em style="width:${profile.scores[key]}%"></em></i>`:''}</div>`).join(''):'<p>集團責任主體無法一致對應，暫不顯示看似精確的維度分數。</p>'}</div>
     <p class="research-summary">${escapeHtml(profile.summary)}</p>
     <p class="research-caveat"><b>判讀限制</b>${escapeHtml(profile.caveat)}</p>
     <div class="research-meta"><span>覆核 ${profile.reviewed}</span>${profile.sources.map(source=>`<a href="${source.url}" target="_blank" rel="noopener">${escapeHtml(source.label)}<small>${escapeHtml(source.type)}</small></a>`).join('')}</div>
