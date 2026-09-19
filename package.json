@@ -11,6 +11,7 @@
     "data:hazards": "node scripts/cache-environment-facilities.mjs",
     "data:mature": "node scripts/build-mature-projects.mjs",
     "data:mature:geocode": "node scripts/build-mature-projects.mjs --geocode",
+    "data:developer-risks": "node scripts/audit-developer-risks.mjs",
     "dev": "vite --configLoader runner",
     "build": "vite build --configLoader runner",
     "preview": "vite preview",

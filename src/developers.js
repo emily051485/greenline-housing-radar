@@ -2,7 +2,7 @@ import './mobile-navigation.js';
 import { matureProjects } from './mature-data.js';
 import './developer-radar.css';
 import { developerResearch,developerRubric } from './developer-research.js';
-import { developerFlagDefinitions,getDeveloperFlags } from './developer-flags.js';
+import { developerFlagDefinitions,getDeveloperFlags,developerRiskAuditMeta } from './developer-flags.js';
 
 const ratingRank={S:4,A:3,B:2,C:1,NR:0};
 const escapeHtml=value=>String(value??'').replace(/[&<>'"]/g,char=>({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[char]));
@@ -17,7 +17,11 @@ document.querySelector('#profile-total').textContent=profiles.length;
 document.querySelector('#rated-project-total').textContent=ratedProjects;
 document.querySelector('#pending-project-total').textContent=matureProjects.filter(project=>project.rating==='NR').length;
 document.querySelector('#developer-flag option[value="major"]').textContent=`${developerFlagDefinitions.major.label}（${profiles.filter(profile=>profile.flags.major).length}）`;
+document.querySelector('#developer-flag option[value="regulatory"]').textContent=`${developerFlagDefinitions.regulatory.label}（${profiles.filter(profile=>profile.flags.regulatory).length}）`;
 document.querySelector('#developer-flag option[value="limited"]').textContent=`${developerFlagDefinitions.limited.label}（${profiles.filter(profile=>profile.flags.limited).length}）`;
+document.querySelector('#ftc-audit-total').textContent=developerRiskAuditMeta.sources.ftc.decisionCount.toLocaleString('zh-TW');
+document.querySelector('#environment-audit-total').textContent=developerRiskAuditMeta.sources.environment.penaltyCount.toLocaleString('zh-TW');
+document.querySelector('#ftc-audit-date').textContent=new Date(developerRiskAuditMeta.generatedAt).toLocaleDateString('zh-TW');
 
 function radarHtml(profile){
   const labels=['履約推案','工程制度','財務治理','售後保固','風險管理'];
@@ -45,17 +49,18 @@ function render(){
   const minimum=document.querySelector('#developer-rating').value;
   const flag=document.querySelector('#developer-flag').value;
   const sort=document.querySelector('#developer-sort').value;
-  const result=profiles.filter(profile=>(minimum==='all'||ratingRank[profile.rating]>=ratingRank[minimum])&&(!query||profile.name.toLowerCase().includes(query))&&(flag==='all'||(flag==='major'&&profile.flags.major)||(flag==='limited'&&profile.flags.limited)||(flag==='clear'&&!profile.flags.major&&!profile.flags.limited)));
+  const result=profiles.filter(profile=>(minimum==='all'||ratingRank[profile.rating]>=ratingRank[minimum])&&(!query||profile.name.toLowerCase().includes(query))&&(flag==='all'||(flag==='major'&&profile.flags.major)||(flag==='regulatory'&&profile.flags.regulatory)||(flag==='limited'&&profile.flags.limited)||(flag==='clear'&&!profile.flags.major&&!profile.flags.regulatory&&!profile.flags.limited)));
   result.sort((a,b)=>sort==='projects'?b.count-a.count:sort==='confidence'?b.sources.length-a.sources.length:sort==='name'?a.name.localeCompare(b.name,'zh-Hant'):(b.score??-1)-(a.score??-1)||b.count-a.count);
   countNode.textContent=result.length;
   empty.hidden=result.length>0;
   cards.innerHTML=result.map(profile=>`<article class="developer-card">
     <header><span class="grade grade-${profile.rating.toLowerCase()}">${profile.rating==='NR'?'—':profile.rating}</span><div><h2>${escapeHtml(profile.name)}</h2><small>研究信心 ${profile.confidence} · 本站 ${profile.count} 案</small></div><strong>${profile.score??'—'}<small>${profile.score==null?'不評分':'/100'}</small></strong></header>
-    ${(profile.flags.major||profile.flags.limited)?`<div class="developer-flags">${profile.flags.major?`<span class="developer-flag flag-major">${developerFlagDefinitions.major.label}</span>`:''}${profile.flags.limited?`<span class="developer-flag flag-limited">${developerFlagDefinitions.limited.label}</span>`:''}</div>`:''}
+    ${(profile.flags.major||profile.flags.regulatory||profile.flags.limited)?`<div class="developer-flags">${profile.flags.major?`<span class="developer-flag flag-major">${developerFlagDefinitions.major.label}</span>`:''}${profile.flags.regulatory?`<span class="developer-flag flag-regulatory">${developerFlagDefinitions.regulatory.label}</span>`:''}${profile.flags.limited?`<span class="developer-flag flag-limited">${developerFlagDefinitions.limited.label}</span>`:''}</div>`:''}
     ${radarHtml(profile)}
     <p class="research-summary">${escapeHtml(profile.summary)}</p>
     <p class="research-caveat"><b>判讀限制</b>${escapeHtml(profile.caveat)}</p>
     ${profile.flags.records.length?`<div class="developer-risk-records">${profile.flags.records.map(record=>`<article><h3>${escapeHtml(record.title)}</h3><p>${escapeHtml(record.detail)}</p><div>${record.sources.map(source=>`<a href="${source.url}" target="_blank" rel="noopener">${escapeHtml(source.label)}<small>${escapeHtml(source.type)}</small></a>`).join('')}</div></article>`).join('')}<p class="developer-score-impact"><b>評分影響</b>已反映於：${profile.flags.impact.map(escapeHtml).join('、')}</p></div>`:''}
+    ${profile.flags.regulatoryRecords.length?`<details class="developer-regulatory-records"><summary>公平會完整名稱比對：${profile.flags.regulatoryRecords.length} 筆</summary>${profile.flags.regulatoryRecords.map(record=>`<article><div><time>${escapeHtml(record.date)}</time>${record.reversed?'<span>處分已撤銷</span>':record.historical?'<span>歷史紀錄</span>':'<span>納入治理／風險複核</span>'}</div><p>${escapeHtml(record.title)}</p><a href="${record.url}" target="_blank" rel="noopener">開啟公平會原始決定</a></article>`).join('')}<small>完整名稱命中仍不等同事件嚴重度；已撤銷處分不扣分，2015 年前紀錄主要作歷史背景，近期重複或涉及交易資訊者優先影響治理與風險判讀。</small></details>`:''}
     <div class="research-meta"><span>覆核 ${profile.reviewed}</span>${profile.sources.map(source=>`<a href="${source.url}" target="_blank" rel="noopener">${escapeHtml(source.label)}<small>${escapeHtml(source.type)}</small></a>`).join('')}</div>
   </article>`).join('');
 }

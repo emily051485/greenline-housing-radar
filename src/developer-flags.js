@@ -1,4 +1,40 @@
+import {developerRiskAudit,developerRiskCandidates,developerRiskAuditMeta} from './generated/developer-risk-audit.js';
+
 const majorRiskRecordsByName={
+  '宏普建設':[
+    {
+      title:'預售重要交易資訊錯誤且持續使用',
+      detail:'公平會 2024 年處分認定，宏普中央公園銷售時提供之各戶持分總表有共有部分面積不足、遺漏及錯誤，且發現錯誤後仍持續以錯誤資訊交易；因此列為近期治理與消費交易高風險紀錄。',
+      sources:[{label:'公平會 2024 年行政決定',url:'https://www.ftc.gov.tw/uploadDecision/6c41aa26-7a65-422e-9306-6aed425975e9.pdf',type:'公平交易委員會'}],
+    },
+  ],
+  '興富發建設':[
+    {
+      title:'預售重要資訊未揭露與重複廣告裁處',
+      detail:'公平會 2022 年認定鉑愛悦銷售時未提供地盤圖、各戶持分總表及預售屋契約等重要資訊；2023 年文心愛悅戶數資訊另遭裁處。本站將近期重複的消費交易與廣告法遵紀錄反映於治理、服務及風險分數。',
+      sources:[
+        {label:'公平會 2022 年行政決定',url:'https://www.ftc.gov.tw/uploadDecision/aff78222-e048-41f3-9c27-dd4fd8fbfe6a.pdf',type:'公平交易委員會'},
+        {label:'公平會 2023 年行政決定',url:'https://www.ftc.gov.tw/uploadDecision/2cb647bd-cc40-482a-8f37-a097333ccb7b.pdf',type:'公平交易委員會'},
+      ],
+    },
+  ],
+  '遠雄建設':[
+    {
+      title:'銷售前資訊未提供與建案內容廣告裁處',
+      detail:'公平會 2021 年認定遠雄辦理涉及預售屋銷售之活動並收取保證金，卻未提供契約、停車平面圖及貸款金融機構等資訊；2022 年文心匯中庭花園內容另遭裁處。近期重複紀錄已反映於治理、服務與風險分數。',
+      sources:[
+        {label:'公平會 2021 年行政決定',url:'https://www.ftc.gov.tw/uploadDecision/f4383562-077f-4352-b3b0-fd834263dda8.pdf',type:'公平交易委員會'},
+        {label:'公平會 2022 年行政決定',url:'https://www.ftc.gov.tw/uploadDecision/3521ae96-7292-495e-9925-c4ac79a2ef50.pdf',type:'公平交易委員會'},
+      ],
+    },
+  ],
+  '茂德建設機構':[
+    {
+      title:'南港工地污染水體，環境部列為情節重大',
+      detail:'環境部資料記載，茂德建設南港集合住宅工程的基樁泥沙未妥善處理，泥漿水經雨水側溝流入大坑溪；2025 年裁罰 24.9 萬元並處環境講習，官方「情節重大」欄位為是。',
+      sources:[{label:'環境部列管事業污染源裁處資料',url:'https://data.gov.tw/dataset/34101',type:'環境部環境管理署'}],
+    },
+  ],
   '景星建設':[
     {
       title:'建商品牌與法人狀態待核對',
@@ -267,12 +303,21 @@ function impactDimensions(records){
 
 export function getDeveloperFlags(profile){
   const records=(majorRiskRecordsByName[profile.name]||[]).map(record=>({...record,sources:resolveRecordSources(record,profile)}));
+  const regulatoryRecords=developerRiskCandidates.filter(record=>record.id===profile.id).map(record=>({
+    ...record,
+    reversed:/撤銷原處分|全部撤銷/.test(record.title),
+    historical:Number(record.date.slice(0,4))<2015,
+  }));
+  const audit=developerRiskAudit.find(record=>record.id===profile.id);
   const caveat=profile.caveat||'';
   const limited=['B','C'].includes(profile.rating)&&limitedEvidencePattern.test(caveat)&&!substantiveNegativePattern.test(caveat)&&records.length===0;
-  return {major:records.length>0,limited,records,impact:impactDimensions(records)};
+  return {major:records.length>0,regulatory:regulatoryRecords.some(record=>!record.reversed),limited,records,regulatoryRecords,audit,impact:impactDimensions(records)};
 }
 
 export const developerFlagDefinitions={
   major:{label:'重大事件／高風險紀錄',description:'有官方、司法、受託銀行或消保資料支持的重大公安、履約、營運或信用事件；不等同法院已判定責任，也不代表旗下每一個案都有相同問題。'},
+  regulatory:{label:'公平會裁處紀錄',description:'以建商完整公司名稱或已確認別名，逐筆比對公平會行政決定；廣告或交易資訊裁處不等同工程重大事故，已撤銷者另行標示。'},
   limited:{label:'資料有限，保守評分',description:'目前缺少足夠的跨案交付、品管、財務治理或售後證據，因此先採較保守分數；不是負面事件標籤。'},
 };
+
+export {developerRiskAuditMeta};

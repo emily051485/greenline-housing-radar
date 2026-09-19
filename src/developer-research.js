@@ -77,14 +77,15 @@ export const developerResearch=[
     ],
   },
   {
-    id:'farglory',name:'遠雄建設',aliases:['遠雄建設'],reviewed:'2026-09-14',confidence:'高',
-    scores:{delivery:92,quality:89,governance:90,service:88,risk:75},
+    id:'farglory',name:'遠雄建設',aliases:['遠雄建設'],reviewed:'2026-09-19',confidence:'高',
+    scores:{delivery:92,quality:89,governance:84,service:82,risk:68},
     summary:'推案履歷、供應商評鑑、材料檢測與售服系統揭露充分；風險面採較保守評分。',
-    caveat:'大型集團跨期、跨案差異可能較大，品牌分數不能取代個案營造與爭議查核。',
+    caveat:'大型集團跨期、跨案差異可能較大；2021、2022 年公平會消費交易與建案內容裁處已扣減治理、服務與風險分數，仍不能取代個案營造與爭議查核。',
     sources:[
       {label:'歷年永續報告書',url:'https://www.farglory-land.com.tw/esg/sustainability-report-download/',type:'公司報告'},
       {label:'產品安全制度',url:'https://www.farglory-land.com.tw/esg/product-safety/',type:'公司揭露'},
       {label:'供應商管理',url:'https://www.farglory-land.com.tw/esg/supplier-management/',type:'公司揭露'},
+      {label:'文心匯公平會處分',url:'https://www.ftc.gov.tw/uploadDecision/3521ae96-7292-495e-9925-c4ac79a2ef50.pdf',type:'公平交易委員會'},
     ],
   },
   {
@@ -98,14 +99,15 @@ export const developerResearch=[
     ],
   },
   {
-    id:'highwealth',name:'興富發建設',aliases:['興富發建設'],reviewed:'2026-09-14',confidence:'中高',
-    scores:{delivery:91,quality:82,governance:87,service:80,risk:72},
+    id:'highwealth',name:'興富發建設',aliases:['興富發建設'],reviewed:'2026-09-19',confidence:'中高',
+    scores:{delivery:89,quality:78,governance:75,service:75,risk:55},
     summary:'案量與公開揭露充足，具品質流程、第三方完工驗證及售後機制；因跨案規模與風險差異採保守級距。',
-    caveat:'公司制度與品牌案量不能直接推論單一建案品質，尤其應逐案核對營造廠、工期及交屋紀錄。',
+    caveat:'2022 年預售重要資訊未揭露及 2023 年建案內容裁處已扣減治理、服務與風險分數；公司制度與品牌案量不能直接推論單一建案品質，仍應逐案核對營造廠、工期及交屋紀錄。',
     sources:[
       {label:'產品與品質管理',url:'https://esg.highwealth.com.tw/building/compliance',type:'公司揭露'},
       {label:'顧客服務',url:'https://esg.highwealth.com.tw/building/service',type:'公司揭露'},
       {label:'公開治理文件',url:'https://www.highwealth.com.tw/stakeholder.php?data_type=governance&page_type=governance',type:'公開財報'},
+      {label:'鉑愛悦公平會處分',url:'https://www.ftc.gov.tw/uploadDecision/aff78222-e048-41f3-9c27-dd4fd8fbfe6a.pdf',type:'公平交易委員會'},
     ],
   },
   {
@@ -142,10 +144,10 @@ export const developerResearch=[
     ],
   },
   {
-    id:'mawder',name:'茂德建設機構',aliases:['茂德建設','茂德建設股份有限公司','寶德建設','寶德建設股份有限公司','眾德建設','眾德建設股份有限公司'],reviewed:'2026-09-18',confidence:'中高',
-    scores:{delivery:86,quality:78,governance:57,service:76,risk:66},
+    id:'mawder',name:'茂德建設機構',aliases:['茂德建設','茂德建設股份有限公司','寶德建設','寶德建設股份有限公司','眾德建設','眾德建設股份有限公司'],reviewed:'2026-09-19',confidence:'中高',
+    scores:{delivery:86,quality:72,governance:57,service:76,risk:55},
     summary:'北台灣推案履歷與大型基地經驗可查，部分個案揭露結構、防水保固；公司級治理與量化售服資料較有限。',
-    caveat:'官網大量內容屬品牌或建案行銷，不能與經查證的永續報告等量齊觀，因此治理與風險分數保守。眾德建設為獨立法律主體，但政府都審、契約與茂德官網均顯示其與茂德共同開發紅布朗花園，故網站以機構層級呈現，不混淆為同一家公司。',
+    caveat:'環境部將 2025 年南港工地泥漿水流入大坑溪案件列為「情節重大」，已扣減工程品質與風險分數。眾德建設為獨立法律主體，但政府都審、契約與茂德官網均顯示其與茂德共同開發紅布朗花園，故網站以機構層級呈現，不混淆為同一家公司。',
     sources:[
       {label:'公司與歷年作品',url:'https://www.mawder.com.tw/aboutus',type:'公司揭露'},
       {label:'建案保固揭露',url:'https://www.mawder.com.tw/news/media/536',type:'公司揭露'},
@@ -153,6 +155,7 @@ export const developerResearch=[
       {label:'寶德建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/27611047',type:'政府公司資料'},
       {label:'紅布朗花園共同開發資料',url:'https://mawder.com.tw/news/media/832',type:'公司官方資料'},
       {label:'快樂王國投資興建資料',url:'https://www.mawder.com.tw/news/community/772',type:'公司揭露'},
+      {label:'南港工地環境裁罰',url:'https://data.gov.tw/dataset/34101',type:'環境部裁罰資料'},
     ],
   },
   {
@@ -372,13 +375,14 @@ export const developerResearch=[
     ],
   },
   {
-    id:'hongpu',name:'宏普建設',aliases:['宏普建設'],reviewed:'2026-09-14',confidence:'高',
-    scores:{delivery:87,quality:82,governance:90,service:78,risk:78},
+    id:'hongpu',name:'宏普建設',aliases:['宏普建設'],reviewed:'2026-09-19',confidence:'高',
+    scores:{delivery:87,quality:82,governance:72,service:70,risk:62},
     summary:'上市公司且連續發布永續報告，可查財務治理與公司級永續制度；長期推案履歷明確。',
-    caveat:'公開治理資料完整，但個案工程與售後量化成果相對有限，因此落在 A 級門檻而非 S。',
+    caveat:'2024 年公平會認定預售重要交易資訊錯誤，且發現後仍持續使用，已明確扣減治理、服務與風險分數；公開治理制度不能抵銷已確認的執行缺失。',
     sources:[
       {label:'永續報告書',url:'https://www.hong-pu.com.tw/tw/esg/report',type:'公司報告'},
       {label:'證交所個股資料',url:'https://wwwc.twse.com.tw/pdf/ch/2536_ch.pdf',type:'公開市場資料'},
+      {label:'宏普中央公園公平會處分',url:'https://www.ftc.gov.tw/uploadDecision/6c41aa26-7a65-422e-9306-6aed425975e9.pdf',type:'公平交易委員會'},
     ],
   },
   {
@@ -5091,14 +5095,15 @@ export const developerResearch=[
     ],
   },
   {
-    id:'zhufeng-enterprise',name:'筑丰興業股份有限公司（筑丰機構）',aliases:['筑丰興業股份有限公司','筑丰興業','筑丰建設有限公司','筑丰建設'],reviewed:'2026-09-14',confidence:'高',
-    scores:{delivery:86,quality:86,governance:84,service:80,risk:82},
+    id:'zhufeng-enterprise',name:'筑丰興業股份有限公司（筑丰機構）',aliases:['筑丰興業股份有限公司','筑丰興業','筑丰建設有限公司','筑丰建設'],reviewed:'2026-09-19',confidence:'高',
+    scores:{delivery:86,quality:86,governance:78,service:77,risk:68},
     summary:'2007 年設立，實收資本額已增至 3.8 億元；筑丰敦匯與筑丰天母等作品可核對，筑丰敦匯由日商日本國土開發承造並持續公開工程進度，集團另揭露建築物管與售後承諾。',
-    caveat:'資本、跨案作品、承造團隊與服務架構均較完整，但品質與售後成效仍多由公司自行揭露；總分 84 分，列 A，尚不推至 S。',
+    caveat:'2022 年公平會認定筑丰敦匯銷售率資訊為虛偽不實及引人錯誤，已扣減治理、服務與風險分數；資本、跨案作品與承造團隊仍支持履約及品質分數，但不再列 A。',
     sources:[
       {label:'經濟部商工登記（筑丰興業）',url:'https://findbiz.nat.gov.tw/fts/company/28486551',type:'官方公司登記'},
       {label:'筑丰敦匯官方建案與工程進度',url:'https://zhufeng.tw/%E7%AD%91%E4%B8%B0%E6%95%A6%E5%8C%AF/',type:'建商官方資料'},
       {label:'日商日本國土開發工程實績',url:'https://jdc-corpn.com.tw/wp-content/uploads/2023/06/%E6%97%A5%E6%9C%AC%E5%9C%8B%E5%9C%9F_2023DM-d.pdf',type:'承造商官方資料'},
+      {label:'筑丰敦匯公平會處分',url:'https://www.ftc.gov.tw/uploadDecision/1e458cef-18fc-4ffd-a157-edc779493553.pdf',type:'公平交易委員會'},
     ],
   },
   {

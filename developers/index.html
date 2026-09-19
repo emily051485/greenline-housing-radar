@@ -32,14 +32,14 @@
           <span><b id="pending-project-total">0</b> 筆尚待逐家查核</span>
         </div>
         <div class="developer-toolbar">
-          <label>查核標籤<select id="developer-flag"><option value="all" selected>全部標籤</option><option value="major">重大事件／高風險紀錄</option><option value="limited">資料有限，保守評分</option><option value="clear">無上述標籤</option></select></label>
+          <label>查核標籤<select id="developer-flag"><option value="all" selected>全部標籤</option><option value="major">重大事件／高風險紀錄</option><option value="regulatory">公平會裁處紀錄</option><option value="limited">資料有限，保守評分</option><option value="clear">無上述標籤</option></select></label>
           <label>建商搜尋<input id="developer-search" type="search" placeholder="輸入建商名稱"></label>
           <label>最低等級<select id="developer-rating"><option value="all" selected>全部等級</option><option value="S">S 級</option><option value="A">A 級以上</option><option value="B">B 級以上</option><option value="C">C 級以上</option></select></label>
           <label>排序<select id="developer-sort"><option value="score">綜合研究分</option><option value="projects">本站建案數</option><option value="confidence">證據來源數</option><option value="name">建商名稱</option></select></label>
         </div>
         <div class="developer-summary"><b id="developer-count">0</b> 家建商符合條件</div>
-        <div class="developer-flag-guide"><span class="developer-flag flag-major">重大事件／高風險紀錄</span><p>有可開啟的查核來源，不代表法院已判定責任或旗下每一個案都有相同問題。</p><span class="developer-flag flag-limited">資料有限，保守評分</span><p>因公開證據不足而壓低評分，不等於已發現品質問題。</p></div>
-        <div class="developer-audit-note"><strong>紀錄完整性：持續查核中</strong><span>目前顯示的是已找到且可連回官方、司法、受託銀行或消保資料的紀錄；「沒有紅標」不代表已證明無重大事件。跨機關資料沒有共同建商識別碼，仍須按公司統編、舊名、關係企業與個案名稱逐一反查。</span></div>
+        <div class="developer-flag-guide"><span class="developer-flag flag-major">重大事件／高風險紀錄</span><p>公安、履約、停工、信用或重大交易風險，不代表旗下每案都有相同問題。</p><span class="developer-flag flag-regulatory">公平會裁處紀錄</span><p>官方行政決定完整名稱命中；一般廣告裁處不會與重大工程事故混為一談。</p><span class="developer-flag flag-limited">資料有限，保守評分</span><p>因公開證據不足而壓低評分，不等於已發現品質問題。</p></div>
+        <div class="developer-audit-note"><strong>兩項官方資料庫已全量查核</strong><span>759 家建商已逐一比對公平會 <b id="ftc-audit-total">0</b> 筆行政決定，以及環境部 <b id="environment-audit-total">0</b> 筆「情節重大」裁罰（資料產生日期 <b id="ftc-audit-date">—</b>）。完整名稱命中會列出原始資料；已撤銷處分不扣分，歷史紀錄與近期案件分開判讀。法院、建管公安、消保與信託資料仍持續跨機關覆核，因此「沒有標籤」不等於已證明零風險。</span></div>
         <div id="developer-cards" class="developer-cards"></div>
         <div id="developer-empty" class="empty" hidden>沒有符合目前條件的建商。</div>
       </section>
