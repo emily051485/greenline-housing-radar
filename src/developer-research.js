@@ -7805,6 +7805,64 @@ export const developerResearch=[
       {label:'保固與產品資料交叉核對',url:'https://www.leju.com.tw/page_blog/view/2673',type:'市場建案交叉核對'},
     ],
   },
+  {
+    id:'liantai-construction',name:'聯太建設',aliases:['聯太建設','聯太建設股份有限公司'],reviewed:'2026-09-18',confidence:'中',
+    scores:{delivery:66,quality:74,governance:64,service:60,risk:74},
+    summary:'2018 年成立、實收資本額 2,500 萬元；可由官方公司登記及聯太淳青的建照、使照資料交叉確認為實際起造與推案公司。聯太淳青為 20 戶住宅加 4 戶店面的已完工小型案，提供一筆可直接驗證的交付紀錄。',
+    caveat:'目前能可靠核對的直接作品仍以聯太淳青為主，尚不足以建立跨景氣循環的長期交付、售後服務與治理紀錄。公司規模不大，品質分數反映已取得使用執照，而非把單一完工作品外推成成熟品牌；總分 67 分，列為 C 級。',
+    sources:[
+      {label:'聯太建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/50856212',type:'官方經濟部商工登記資料'},
+      {label:'聯太淳青建案基本資料',url:'https://market.591.com.tw/5876319/overview',type:'市場建案與建照／使照資料'},
+      {label:'聯太淳青營建工程資料',url:'https://thaubing.gcaa.org.tw/facility/F17B7418/local',type:'公開營建工程資料彙整'},
+    ],
+  },
+  {
+    id:'lianguang-construction',name:'聯廣建設',aliases:['聯廣建設','聯廣建設股份有限公司'],reviewed:'2026-09-18',confidence:'中',
+    scores:{delivery:58,quality:74,governance:76,service:60,risk:74},
+    summary:'2021 年成立，登記資本額已增至 4.1 億元；新北市官方預售屋契約可確認聯廣闊境由聯廣建設銷售，建照為 111林建字第00455號、規劃 119 戶，個案與公司身分皆可直接核對。',
+    caveat:'資本規模與預售契約揭露優於新設小型公司，但目前公開資料仍以聯廣闊境單一案為核心，尚缺足夠完工交付及跨案售後紀錄。因此不以高資本額取代實績，總分 68 分，列為 C 級。',
+    sources:[
+      {label:'聯廣建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/90458909',type:'官方經濟部商工登記資料'},
+      {label:'聯廣建設設立登記清冊',url:'https://serv.gcis.nat.gov.tw/pub/cmpy/reportAction.do?fileName=11009NTS.pdf&method=report&reportClass=cmpy&subPath=11009',type:'官方公司設立登記資料'},
+      {label:'聯廣闊境預售屋契約',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?icon=..pdf&n=6IGv5buj6ZeK5aKDLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMS9yZWxmaWxlLzk2NzkvNjgwNTQ1LzAxYTdkYTZkLTI3MzItNDBkMC04NGU5LTM5MzEwOTI3ODQ2Zi5wZGY%3D',type:'新北市政府預售屋官方資料'},
+    ],
+  },
+  {
+    id:'senzhu-development',name:'森築開發',aliases:['森築開發','森築開發股份有限公司'],reviewed:'2026-09-18',confidence:'高',
+    scores:{delivery:84,quality:80,governance:72,service:68,risk:52},
+    summary:'2011 年成立，實收資本額約 2.99 億元；具有上河園等完工案，並推動 510 戶的 CLASSY HOME，交付量體、公司存續期間與開發能力均高於單案型公司。',
+    caveat:'公平交易委員會 2020 年處分書記載，森築開發與一福開發銷售上河園時，對公共空間用途作虛偽不實及引人錯誤表示，森築遭處 100 萬元罰鍰。此為可核驗的重大負面紀錄，已明確下修治理與風險分數；即使有規模及實績，總分仍為 74 分，列為 B 級。',
+    sources:[
+      {label:'森築開發公司登記',url:'https://findbiz.nat.gov.tw/fts/company/53338930',type:'官方經濟部商工登記資料'},
+      {label:'CLASSY HOME 備查案清冊',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?n=MTEw5bm06IezMTE05bm05bey5YKZ5p%2Bl5bu65qGI5riF5YaKLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMzk5L3JlbGZpbGUvODk5My85NDY5L2NkZTQ4OTJkLTQzMzAtNDY3Zi1hYmExLTI3YzJiYjI0MjYxNi5wZGY%3D',type:'新北市政府預售屋官方資料'},
+      {label:'CLASSY HOME 建案資料',url:'https://newhouse.591.com.tw/133583',type:'市場建案與規模資料'},
+      {label:'公平會上河園處分書',url:'https://www.ftc.gov.tw/uploadDecision/a26e21f6-d4f9-4432-abab-5921195abebb.pdf',type:'公平交易委員會官方裁罰資料'},
+    ],
+  },
+  {
+    id:'weizhu-construction',name:'偉築建設',aliases:['偉築建設','偉築建設股份有限公司'],reviewed:'2026-09-18',confidence:'中高',
+    scores:{delivery:82,quality:78,governance:76,service:68,risk:76},
+    summary:'2007 年成立，實收資本額 2.192 億元；公開作品可交叉核對偉築新豐洲、紐約艾美、日月星辰及目前 498 戶的百達莊園，已有跨案而非單一預售案的推案履歷。',
+    caveat:'公司年資、資本與多案紀錄支持 B 級，但公開售後制度、住戶回饋統計及品質認證仍有限；百達莊園的同業連帶擔保屬履約機制，不能直接等同建商品質保證。總分 76 分，列為 B 級。',
+    sources:[
+      {label:'偉築建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/28631746',type:'官方經濟部商工登記資料'},
+      {label:'偉築建設歷年建案',url:'https://build.myhousing.com.tw/company/486794/',type:'市場建案履歷彙整'},
+      {label:'百達莊園官方契約查詢',url:'https://www.land.ntpc.gov.tw/News.aspx?PageSize=20&_Query=a57b2e19-ab70-4142-80ea-976f35abb5bb&n=11769&page=3&sms=9679',type:'新北市政府預售屋官方資料'},
+      {label:'百達莊園建案資料',url:'https://newhouse.591.com.tw/140169',type:'市場建案與規模資料'},
+    ],
+  },
+  {
+    id:'guoju-development',name:'國鉅開發建設',aliases:['國鉅開發建設','國鉅開發建設股份有限公司','國鉅開發'],reviewed:'2026-09-18',confidence:'中',
+    scores:{delivery:76,quality:76,governance:66,service:70,risk:74},
+    summary:'2009 年成立、實收資本額 3,000 萬元；官方契約可確認國鉅興的銷售主體與統編，集團網站另列國華綻等作品，亦可由較早期八里案的建照資料確認並非只為單案新設。',
+    caveat:'已有多案線索與約 17 年公司年資，但資本規模偏小，網站所稱全流程服務與「17大保證」主要屬企業自述，尚缺獨立且可量化的長期售後及品質資料。總分 73 分，列為 B 級。',
+    sources:[
+      {label:'國鉅開發建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/25042230',type:'官方經濟部商工登記資料'},
+      {label:'國鉅興預售屋契約',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?icon=..pdf&n=5ZyL6YmF6IiILnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMS9yZWxmaWxlLzk2NzkvNzI4MDc1LzZlN2M2MmFhLWE1ZDctNGRkMC05MWVmLTJhYjBlOTQ1NDcwYy5wZGY%3D',type:'新北市政府預售屋官方資料'},
+      {label:'國鉅機構作品與服務',url:'https://guojuurban.com/',type:'建商官方網站'},
+      {label:'國鉅興官方網站',url:'https://guo.jyu-sing.tw/',type:'建案官方網站'},
+    ],
+  },
 ].map(profile=>{
   const score=profile.scores?weightedScore(profile.scores):null;
   return {...profile,score,rating:profile.rating||ratingFromScore(score)};
