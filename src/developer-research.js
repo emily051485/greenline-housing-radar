@@ -5658,6 +5658,19 @@ export const developerResearch=[
       {label:'新北市預售建案查詢',url:'https://www.land.ntpc.gov.tw/News.aspx?n=11769&sms=9679',type:'政府預售資料'},
     ],
   },
+  {
+    id:'fenghui-construction',name:'豐滙建設開發（宏國集團）',aliases:['豐滙建設開發股份有限公司','豐滙建設開發','豐滙建設'],reviewed:'2026-09-18',confidence:'高',
+    scores:{delivery:82,quality:82,governance:74,service:75,risk:78},
+    summary:'2017 年設立、實收資本額 2.3 億元；新北市預售備查清冊可核對宏道豐滙與宏道仁滙，宏道仁滙官網及承造營造廠資料也一致確認豐滙建設與森鉅建設共同投資興建。',
+    caveat:'宏國集團六十年履歷可作品牌背景，但不直接等同豐滙自身交付年資；目前可確認重複推案、正式契約、專業團隊及防水保固，惟私人公司財務、跨案品管與量化售後揭露仍有限。總分 79 分，列 B 級。',
+    sources:[
+      {label:'豐滙建設開發公司登記',url:'https://findbiz.nat.gov.tw/fts/company/55746876',type:'政府公司資料'},
+      {label:'新北市已備查建案清冊',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?n=MTEw5bm06IezMTE05bm05bey5YKZ5p%2Bl5bu65qGI5riF5YaKLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMzk5L3JlbGZpbGUvODk5My85NDY5L2NkZTQ4OTJkLTQzMzAtNDY3Zi1hYmExLTI3YzJiYjI0MjYxNi5wZGY%3D',type:'政府預售資料'},
+      {label:'宏道仁滙官方網站',url:'https://zenhui.hungkuogroup.com.tw/',type:'建案官方資料'},
+      {label:'宏道仁滙預售契約',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?icon=..pdf&n=5a6P6YGT5LuB5ruZLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMS9yZWxmaWxlLzk2NzkvNzM0MTA0L2Q5MjlhNjhkLTU0YTgtNDEyZC04MzFiLTYzMmFmZTY0MzNiOC5wZGY%3D',type:'政府預售契約'},
+      {label:'宏道仁滙承造工程資料',url:'https://www.uehara.com.tw/project_page/1/41.html',type:'承造公司資料'},
+    ],
+  },
 ].map(profile=>{
   const score=profile.scores?weightedScore(profile.scores):null;
   return {...profile,score,rating:profile.rating||ratingFromScore(score)};
@@ -5665,7 +5678,7 @@ export const developerResearch=[
 
 export const findDeveloperResearch=value=>{
   const text=String(value||'');
-  const candidates=text.replace(/^備查起造人：/,'').split(/[／、]/).map(part=>part.trim()).filter(Boolean);
+  const candidates=text.replace(/^(?:備查起造人|投資興建)：/,'').split(/[／、]/).map(part=>part.trim()).filter(Boolean);
   const exact=developerResearch.find(profile=>profile.aliases.some(alias=>candidates.some(candidate=>candidate===alias||candidate.startsWith(`${alias}（`))));
   if(exact)return exact;
   return developerResearch.find(profile=>profile.aliases.some(alias=>text.includes(alias)))||null;

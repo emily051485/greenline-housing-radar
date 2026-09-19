@@ -62,6 +62,7 @@ const verifiedTextCorrections=new Map(Object.entries({
   '松江桓?':'松江．桓榀',
 }));
 const verifiedProjectBuilderCorrections=new Map([
+  ['宏道仁?','投資興建：豐滙建設開發股份有限公司／森鉅建設股份有限公司'],
   ['文昌匯','備查起造人：瑝益實業有限公司／宏信建設股份有限公司'],
   ['友座大學之道','備查起造人：住欣建設股份有限公司（友座機構）'],
   ['松捷樂','花樣有限公司（投資興建）'],
@@ -72,6 +73,7 @@ const verifiedProjectBuilderCorrections=new Map([
   ['中?中央廣場、??','備查起造人：中悅建設開發股份有限公司'],
 ]);
 const verifiedProjectNameCorrections=new Map([
+  ['宏道仁?','宏道仁滙'],
   ['輕山?','輕山敘'],
   ['成華織心?','成華織心画'],
 ]);
