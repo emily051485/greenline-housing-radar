@@ -1,3 +1,4 @@
+import './mobile-navigation.js';
 import { projects as greenProjects } from './data.js';
 import { matureProjects } from './mature-data.js';
 import { cachedMetroRoutes } from './generated/metro-routes.js';

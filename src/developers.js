@@ -1,3 +1,4 @@
+import './mobile-navigation.js';
 import { matureProjects } from './mature-data.js';
 import './developer-radar.css';
 import { developerResearch,developerRubric } from './developer-research.js';
