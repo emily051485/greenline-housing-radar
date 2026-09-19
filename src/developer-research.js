@@ -7211,6 +7211,54 @@ export const developerResearch=[
       {label:'汐科爵鼎建照與建案資料',url:'https://newhouse.591.com.tw/136501?bid=3227',type:'市場建案交叉核對'},
     ],
   },
+  {
+    id:'hongyu-construction-85028394',name:'鋐宇建設',aliases:['鋐宇建設','鋐宇建設股份有限公司'],reviewed:'2026-09-18',confidence:'中低',
+    scores:{delivery:58,quality:70,governance:60,service:58,risk:60},
+    summary:'2019 年設立；新北市官方預售契約確認統編 85028394 的鋐宇建設為汐止「明峰佳園」賣方，另有學府之森等工程查驗紀錄，可確認其為實際住宅開發法人。',
+    caveat:'公司官網陳列多處規劃案並提出一條龍與品質管理主張，但現階段可驗證的直接完工交付與長期售後樣本仍少；本票裁定只屬程序性支付命令資料，不據此推定實體違約，仍因資訊有限保守評分。總分 62 分，列為 C 級。',
+    sources:[
+      {label:'鋐宇建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/85028394',type:'經濟部商工登記公示資料'},
+      {label:'明峰佳園預售屋買賣契約',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?icon=..pdf&n=5piO5bOw5L2z5ZySLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMS9yZWxmaWxlLzk2NzkvNjQxMDkyLzY0M2YwODdjLTU3MzMtNDlkMS1iODhmLTUwOTc5OGUwOTQ5OC5wZGY%3D',type:'新北市政府地政局官方契約'},
+      {label:'鋐宇建設公司與規劃案',url:'https://hongyu413.mystrikingly.com/',type:'建商官方資料'},
+      {label:'學府之森第三方工程查驗',url:'https://tripletrust.com.tw/%E5%BB%BA%E6%A1%88%E5%AF%A6%E7%B8%BE-%E5%9C%9F%E5%9F%8E%E5%8D%80-%E9%8B%90%E5%AE%87-%E5%AD%B8%E5%BA%9C%E4%B9%8B%E6%A3%AE/',type:'第三方工程資料'},
+    ],
+  },
+  {
+    id:'dili-construction',name:'帝利建設',aliases:['帝利建設','帝利建設股份有限公司'],reviewed:'2026-09-18',confidence:'中高',
+    scores:{delivery:84,quality:74,governance:68,service:62,risk:70},
+    summary:'1989 年設立、實收資本額 3,846 萬元；可核對文湖苑／極峰等既有完工作品，官方預售契約確認帝利采極由帝利建設銷售，且該案已於 2024 年取得成屋樣本。',
+    caveat:'長期法人年資與跨案完工支持基本履約能力，但公開作品、施工品管、售後處理與財務治理資訊不完整，不能僅以三十餘年公司年資升至 A 級。總分 73 分，列為 B 級。',
+    sources:[
+      {label:'帝利建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/23417134',type:'經濟部商工登記公示資料'},
+      {label:'帝利采極預售屋買賣契約',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?icon=..pdf&n=5bid5Yip6YeH5qW1LnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMS9yZWxmaWxlLzk2NzkvNjM3Nzg1L2RlNTljNDA2LWRlNDgtNGE4Mi1iMDNlLTg0YjdmMmU4ZGYzYi5wZGY%3D',type:'新北市政府地政局官方契約'},
+      {label:'帝利采極完工資料',url:'https://www.plex.com.tw/projects/view/id/3083',type:'完工建案交叉核對'},
+      {label:'文湖苑極峰社區資料',url:'https://www.sinyi.com.tw/communitylist/communityinfo/0024222',type:'完工社區交叉核對'},
+    ],
+  },
+  {
+    id:'gengxin-urban-renewal',name:'耕薪都市更新（耕建築）',aliases:['耕薪都市更新','耕薪都市更新股份有限公司','耕薪建設','耕建築'],reviewed:'2026-09-18',confidence:'高',
+    scores:{delivery:88,quality:86,governance:80,service:80,risk:78},
+    summary:'2006 年設立，現行實收資本額 13 億元；官網與政府都更資料可核對耕曦、耕云、耕隱、勤耕延吉等跨期完工履歷，以及由規劃、整合、施工管理至交屋保固的都更服務鏈。',
+    caveat:'資本、都更執行經驗、完工作品與服務流程均有較完整證據，達 A 級門檻；但仍為未公開發行公司，品質與客服成果缺乏跨案缺失率、修繕時效等外部量化統計，因此不列 S 級。總分 83 分，列為 A 級。',
+    sources:[
+      {label:'耕薪都市更新公司登記',url:'https://findbiz.nat.gov.tw/fts/company/28175141',type:'經濟部商工登記公示資料'},
+      {label:'耕建築公司發展與工程里程碑',url:'https://www.in-life.com.tw/about-inlife/',type:'建商官方資料'},
+      {label:'耕建築完工作品',url:'https://www.in-life.com.tw/inlife-portfolio/',type:'建商官方資料'},
+      {label:'臺北市核定都市更新案件清冊',url:'https://www-ws.gov.taipei/001/Upload/459/relfile/22615/3491578/791472dc-bc0d-4de5-adcf-78ac57caba20.pdf',type:'臺北市政府官方資料'},
+    ],
+  },
+  {
+    id:'ziyuan-construction',name:'梓園建設',aliases:['梓園建設','梓園建設股份有限公司'],reviewed:'2026-09-18',confidence:'中',
+    scores:{delivery:75,quality:70,governance:64,service:58,risk:74},
+    summary:'2002 年設立、實收資本額 5,000 萬元；可核對桃園大溪「園堡」72 戶完工工程，現於汐止推出梓園 NEXT，建案官網與預售資料均確認梓園為投資興建者。',
+    caveat:'法人年資與至少一件完工樣本提供基本履約支撐，但公開可核實作品仍少，且缺少公司級施工查驗、財務治理、保固制度與售後績效資料，現階段維持 C 級。總分 68 分，列為 C 級。',
+    sources:[
+      {label:'梓園建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/80109468',type:'經濟部商工登記公示資料'},
+      {label:'梓園 NEXT 建案官網',url:'https://next-ziyuan.tw/',type:'建案官方資料'},
+      {label:'梓園園堡完工工程',url:'https://www.kungfuconstruction.com.tw/modules/cart/index.php/product/view/10',type:'營造公司完工實績'},
+      {label:'梓園 NEXT 建照與建案資料',url:'https://newhouse.591.com.tw/141852',type:'市場建案交叉核對'},
+    ],
+  },
 ].map(profile=>{
   const score=profile.scores?weightedScore(profile.scores):null;
   return {...profile,score,rating:profile.rating||ratingFromScore(score)};
