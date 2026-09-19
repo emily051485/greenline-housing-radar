@@ -7628,6 +7628,63 @@ export const developerResearch=[
       {label:'易捷興業官方網站',url:'https://www.ej-arch.com/',type:'建商官方資料'},
     ],
   },
+  {
+    id:'guangli-construction',name:'廣立建設',aliases:['廣立建設','廣立建設有限公司'],reviewed:'2026-09-18',confidence:'中高',
+    scores:{delivery:58,quality:68,governance:64,service:56,risk:72},
+    summary:'2012 年設立、資本額 2,000 萬元；新北市官方契約確認其為林口「春耕雅苑」賣方，另有雲林縣官方履約保證清冊可核實「廣立天下」，形成兩件跨縣市直接推案紀錄。',
+    caveat:'法人年資與兩件備查案可核實，但目前未找到同一法人已取得使用執照並完成交屋的充分證據，施工品質、售後保固及財務治理資料也有限；不因公司成立較早即推定有長期交屋履歷。總分 63 分，列為 C 級。',
+    sources:[
+      {label:'廣立建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/53858690',type:'經濟部商工登記公示資料'},
+      {label:'春耕雅苑預售屋買賣契約',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?icon=..pdf&n=5pil6ICV6ZuF6IuRLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMS9yZWxmaWxlLzk2NzkvNzM5ODEzLzExMjg0MWJmLTI1NGEtNDg2Zi1hOGFiLWU1YmI1YWJjYWY1NS5wZGY%3D',type:'新北市政府地政局官方契約'},
+      {label:'廣立天下履約保證清冊',url:'https://ws.yunlin.gov.tw/Download.ashx?n=6Zuy5p6X57ijMTE05LiK5Y2K5bm06aCQ5ZSu5bGL5bGl57SE5pOU5L%2Bd5qmf5Yi2LnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvNDExL3JlbGZpbGUvOTI2OC84OTczLzliNmQ0MDAxLWMyOTUtNDBhYy1iYjM2LTQ0MWM4MTBkYzIyYi5wZGY%3D',type:'雲林縣政府官方資料'},
+    ],
+  },
+  {
+    id:'dehong-construction',name:'德弘建設（春木林建築團隊）',aliases:['德弘建設','德弘建設有限公司'],reviewed:'2026-09-18',confidence:'中高',
+    scores:{delivery:62,quality:75,governance:68,service:60,risk:62},
+    summary:'2003 年設立、資本額 8,800 萬元；春木林建築團隊官網及新北市契約查核資料確認德弘與田原開發共同推出林口大型案「原森 TWIN TOWERS」，公司、共同賣方與品牌關係可辨識。',
+    caveat:'法人年資、資本及團隊工程經驗是正面證據，但目前可直接歸屬德弘法人的完工住宅樣本仍不足；官方抽查並顯示本案部分契約項目不符合，雖不等同建築品質缺失，仍納入治理與風險折減。總分 66 分，列為 C 級。',
+    sources:[
+      {label:'德弘建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/80700342',type:'經濟部商工登記公示資料'},
+      {label:'春木林建築團隊官方網站',url:'https://cmling.com.tw/',type:'建築團隊官方資料'},
+      {label:'原森 TWIN TOWERS 契約查核結果',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?icon=.pdf&n=5paw5YyX5biCMTE05LiK5Y2K5bm06aCQ5ZSu5bGL6LK36LOj5a6a5Z6L5YyW5aWR57SE5p%2Bl5qC457WQ5p6cLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMzk5L3JlbGZpbGUvMC8xMzk0My9jNzA0MTM3Mi1hZGExLTRiNzItOTc5NC0xMzg0MGM2YmRmOGEucGRm',type:'新北市政府地政局官方資料'},
+    ],
+  },
+  {
+    id:'jiamu-construction',name:'家睦建設',aliases:['家睦建設','家睦建設股份有限公司'],reviewed:'2026-09-18',confidence:'高',
+    scores:{delivery:50,quality:68,governance:62,service:54,risk:72},
+    summary:'2022 年設立、實收資本額 1,000 萬元；新北市官方契約確認其為林口 36 戶「家睦中山」賣方，建照、基地、營造團隊及履約責任均可核對。',
+    caveat:'法律責任明確，但目前只有一件尚未完整交屋的住宅案，且資本規模較小；公開資料不足以驗證跨案施工品質、售後保固、財務承受力或家固營造與家睦之間是否存在可移植的集團履歷。總分 60 分，列為 C 級。',
+    sources:[
+      {label:'家睦建設設立登記',url:'https://serv.gcis.nat.gov.tw/pub/cmpy/reportAction.do?fileName=376410000Asetup11105.pdf&method=report&reportClass=cmpyCityItem&subPath=11105',type:'經濟部商工行政官方資料'},
+      {label:'家睦中山預售屋買賣契約',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?icon=..pdf&n=5a62552m5Lit5bGxLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMS9yZWxmaWxlLzk2NzkvNzM1NTExL2FkZGE3YWU3LTdiM2QtNDZiMy04NWY3LTBlMzQ4MDJiODI0Yy5wZGY%3D',type:'新北市政府地政局官方契約'},
+      {label:'家睦中山建照與產品資料',url:'https://market.591.com.tw/5974899/overview',type:'市場建案交叉核對'},
+    ],
+  },
+  {
+    id:'fuhong-construction',name:'富浤建設',aliases:['富浤建設','富浤建設股份有限公司','富泓建設股份有限公司'],reviewed:'2026-09-18',confidence:'高',
+    scores:{delivery:50,quality:72,governance:70,service:60,risk:72},
+    summary:'2024 年設立、實收資本額 1.65 億元；公司登記、建案官網與新北市契約查詢均確認法律名稱為富浤建設，並由其直接投資興建林口「富浤一響」。',
+    caveat:'一份政府彙整清冊曾寫成「富泓建設／富泓一響」，與公司登記、契約查詢及案場官網不一致，本資料以可辨識統編的富浤為準並保留誤植別名；公司目前僅有一件在建案，尚無直接完工交屋及跨案售後樣本。總分 64 分，列為 C 級。',
+    sources:[
+      {label:'富浤建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/95433219',type:'經濟部商工登記公示資料'},
+      {label:'富浤一響建案官網',url:'https://www.goldenboulevard.com.tw/',type:'建案官方資料'},
+      {label:'富浤一響預售屋官方查詢',url:'https://www.land.ntpc.gov.tw/News.aspx?PageSize=20&_Query=a57b2e19-ab70-4142-80ea-976f35abb5bb&n=11769&page=3&sms=9679',type:'新北市政府地政局官方資料'},
+      {label:'名稱異體之預售建案清冊',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?n=MTEw5bm06IezMTE05bm05bey5YKZ5p%2Bl5bu65qGI5riF5YaKLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMzk5L3JlbGZpbGUvODk5My85NDY5L2NkZTQ4OTJkLTQzMzAtNDY3Zi1hYmExLTI3YzJiYjI0MjYxNi5wZGY%3D',type:'新北市政府地政局官方資料'},
+    ],
+  },
+  {
+    id:'futang-construction',name:'富棠建設（富堡機構）',aliases:['富棠建設','富棠建設股份有限公司'],reviewed:'2026-09-18',confidence:'中高',
+    scores:{delivery:78,quality:76,governance:68,service:66,risk:74},
+    summary:'2011 年設立、實收資本額 5,000 萬元；官方契約確認其為 186 戶「富堡晶鑄」賣方，另可核實 2023 年完工「富堡仁愛」及富堡品牌其他林口作品，具直接完工與後續大型推案紀錄。',
+    caveat:'已有直接成屋與現行大型案，達 B 級最低門檻；但富堡機構品牌年資不能自動等同富棠法人全部履歷，富堡菁英匯等作品仍需逐案確認法律起造人，且公開售後、施工缺失率與財務資料有限。總分 73 分，列為 B 級。',
+    sources:[
+      {label:'富棠建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/53461847',type:'經濟部商工登記公示資料'},
+      {label:'富堡晶鑄預售屋買賣契約',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?icon=..pdf&n=5a%2BM5aCh5pm26ZGELnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMS9yZWxmaWxlLzk2NzkvNzI5MzM3LzA0ZGM0NGY1LWYzMzYtNDg0MS04YWYzLTk2MjY2MjU2NDA4NC5wZGY%3D',type:'新北市政府地政局官方契約'},
+      {label:'富堡仁愛成屋資料',url:'https://www.plex.com.tw/index/index/order/hot/status/all/page/22',type:'成屋市場資料'},
+      {label:'富堡晶鑄建案資料',url:'https://newhouse.591.com.tw/135826/detail',type:'市場建案交叉核對'},
+    ],
+  },
 ].map(profile=>{
   const score=profile.scores?weightedScore(profile.scores):null;
   return {...profile,score,rating:profile.rating||ratingFromScore(score)};
