@@ -6319,6 +6319,51 @@ export const developerResearch=[
       {label:'周泰詠安工程資料',url:'https://www.zhou-tai.com.tw/project/33/',type:'建商官方'},
     ],
   },
+  {
+    id:'zhoudao-development',name:'周道開發建設',aliases:['周道開發建設','周道開發建設有限公司'],reviewed:'2026-09-18',confidence:'中高',
+    scores:{delivery:66,quality:68,governance:56,service:58,risk:68},
+    summary:'公司於 2018 年設立、目前資本額 220 萬元；新北市官方預售查詢確認周道為土城「品山月」賣方，該案已形成永安街門牌、近期完工社區與成交資料。',
+    caveat:'已有一件小型住宅案完成，是實質履約證據；但資本規模小、可核對住宅樣本仍僅一案，且未找到公司級工程制度、財務治理、保固時效與客訴處理統計。司法判決所載侵占行為人是受買方委託者，非周道，因此不把該刑案誤列為建商違規。總分 63 分，列 C 級。',
+    sources:[
+      {label:'周道開發建設公司變更登記清冊',url:'https://serv.gcis.nat.gov.tw/pub/cmpy/reportAction.do?fileName=376410000Achange11307.pdf&method=report&reportClass=cmpyCity&subPath=11307',type:'經濟部官方資料'},
+      {label:'品山月官方預售查詢',url:'https://www.land.ntpc.gov.tw/News.aspx?PageSize=20&_Query=a57b2e19-ab70-4142-80ea-976f35abb5bb&n=11769&page=25&sms=9679',type:'新北市政府'},
+      {label:'品山月社區資料',url:'https://market.591.com.tw/5935814/overview',type:'完工建物資料'},
+    ],
+  },
+  {
+    id:'hezhou-construction',name:'和洲建設',aliases:['和洲建設','和洲建設股份有限公司'],reviewed:'2026-09-18',confidence:'中高',
+    scores:{delivery:85,quality:72,governance:65,service:60,risk:62},
+    summary:'公司於 2013 年設立、目前實收資本額 2.1 億元；公開推案紀錄可核對和洲甜me2、紅不讓、和洲金剛、和洲HOUSE、和洲興綻前及和洲艾美等多案，和洲艾美官方契約確認由和洲興建、共 208 戶。',
+    caveat:'多案與完工社區提供一定履約樣本，但公司級工程稽核、保固及客訴統計未公開；和洲金剛住戶公開討論曾反映設備、漏水與報修等待等問題，屬尚未經主管機關裁決的個案陳述，不能視為定案，但足以提醒交屋前加強查驗與訪談管委會。總分 70 分，列 C 級。',
+    sources:[
+      {label:'和洲建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/54299745',type:'官方公司資料'},
+      {label:'和洲艾美官方預售契約',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?icon=..pdf&n=5ZKM5rSy6Im%2B576OLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMS9yZWxmaWxlLzk2NzkvNzE2Njk0LzI5OWJiOGRlLTk4MDctNGFjZC1iYjFlLWJiNmFmN2M5NmVjYS5wZGY%3D',type:'新北市政府'},
+      {label:'和洲建設推案紀錄',url:'https://build.myhousing.com.tw/company/483384/',type:'建案資料彙整'},
+      {label:'和洲金剛住戶公開討論',url:'https://www.mobile01.com/topicdetail.php?f=456&t=6921263',type:'住戶個案陳述'},
+    ],
+  },
+  {
+    id:'yuexuan-development',name:'岳軒開發建設',aliases:['岳軒開發建設','岳軒開發建設有限公司','岳軒開發建設股份有限公司'],reviewed:'2026-09-18',confidence:'中高',
+    scores:{delivery:52,quality:70,governance:64,service:62,risk:70},
+    summary:'公司於 2020 年設立，2025 年改制股份有限公司，目前實收資本額 1 億元；官方網站揭露 7 件危老／都更單元核准及多件工進案，官方預售契約確認「岳軒京選」共 49 戶並已取得建照。',
+    caveat:'都更整合量、資本規模與多案工進是正向證據，但岳軒京選及網站列示住宅案仍以興建中為主，未找到足以檢驗的公司自身住宅交屋、保固與客訴結果；關係品牌案也不直接互相移轉履歷。總分 63 分，列 C 級。',
+    sources:[
+      {label:'岳軒開發建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/83612929',type:'官方公司資料'},
+      {label:'岳軒開發建設官方網站',url:'https://www.yuesion.com.tw/',type:'建商官方'},
+      {label:'岳軒京選官方預售契約',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?icon=..pdf&n=5bKz6LuS5Lqs6YG4LnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMS9yZWxmaWxlLzk2NzkvNzMyOTAxLzliZTMxMDRiLWIxMWMtNDEzYy05NDIwLThmYzFkZGFjN2IyNS5wZGY%3D',type:'新北市政府'},
+    ],
+  },
+  {
+    id:'zhongshun-construction',name:'忠順建設',aliases:['忠順建設','忠順建設股份有限公司'],reviewed:'2026-09-18',confidence:'中高',
+    scores:{delivery:45,quality:66,governance:60,service:58,risk:68},
+    summary:'公司於 2016 年設立、目前實收資本額 4,000 萬元；官方預售契約與建照資料確認忠順、日華開發及地主共同銷售淡水「忠順景舞極」，規劃 62 戶並已出現預售成交。',
+    caveat:'忠順景舞極於 2025 年底取得建照、目前尚未交付，而且是共同開發案；未找到忠順其他可可靠核對的住宅完工履歷，也缺乏公司級品質制度、財務治理、保固與客訴統計。總分 58 分，列 C 級。',
+    sources:[
+      {label:'忠順建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/52337547',type:'官方公司資料'},
+      {label:'忠順景舞極官方預售契約',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?icon=..pdf&n=5b%2Bg6aCG5pmv6Iie5qW1LnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMS9yZWxmaWxlLzk2NzkvNzQwNTcxLzEzNWRhMWJlLTkwMWEtNDQzNy1iODJiLTM0NmUyMWU0MWMxZS5wZGY%3D',type:'新北市政府'},
+      {label:'忠順景舞極建照與成交資料',url:'https://dualtaipei.datazen.info/newtaipei/project/%E5%BF%A0%E9%A0%86%E6%99%AF%E8%88%9E%E6%A5%B5',type:'建管與實價資料彙整'},
+    ],
+  },
 ].map(profile=>{
   const score=profile.scores?weightedScore(profile.scores):null;
   return {...profile,score,rating:profile.rating||ratingFromScore(score)};
