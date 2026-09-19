@@ -303,12 +303,12 @@ function impactDimensions(records){
 
 export function getDeveloperFlags(profile){
   const records=(majorRiskRecordsByName[profile.name]||[]).map(record=>({...record,sources:resolveRecordSources(record,profile)}));
-  const regulatoryRecords=developerRiskCandidates.filter(record=>record.id===profile.id).map(record=>({
+  const regulatoryRecords=developerRiskCandidates.filter(record=>record.id===profile.id&&record.name===profile.name).map(record=>({
     ...record,
     reversed:/撤銷原處分|全部撤銷/.test(record.title),
     historical:Number(record.date.slice(0,4))<2015,
   }));
-  const audit=developerRiskAudit.find(record=>record.id===profile.id);
+  const audit=developerRiskAudit.find(record=>record.id===profile.id&&record.name===profile.name);
   const caveat=profile.caveat||'';
   const limited=['B','C'].includes(profile.rating)&&limitedEvidencePattern.test(caveat)&&!substantiveNegativePattern.test(caveat)&&records.length===0;
   return {major:records.length>0,regulatory:regulatoryRecords.some(record=>!record.reversed),limited,records,regulatoryRecords,audit,impact:impactDimensions(records)};
