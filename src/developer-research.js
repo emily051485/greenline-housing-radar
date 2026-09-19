@@ -6135,6 +6135,55 @@ export const developerResearch=[
       {label:'東泰國際建案索引',url:'https://www.plex.com.tw/projects/index/type/developer/query/%E6%9D%B1%E6%B3%B0%E5%9C%8B%E9%9A%9B%E5%BB%BA%E8%A8%AD/status/all',type:'建案資料彙整'},
     ],
   },
+  {
+    id:'diyang-construction',name:'帝洋建設',aliases:['帝洋建設','帝洋建設股份有限公司'],reviewed:'2026-09-18',confidence:'中高',
+    scores:{delivery:72,quality:72,governance:60,service:60,risk:70},
+    summary:'公司於 2014 年設立、目前實收資本額 2,800 萬元；可確認與建洋建設共同投資「山水城州」，官方預售契約可核對建照，建案已於 2026 年取得使用執照並形成 184 戶社區及大量成交紀錄。',
+    caveat:'山水城州是共同投資案，不能把全部成果單獨歸給帝洋；目前也未找到足以支持跨案穩定性的其他完整交付紀錄、公司級品質制度、財務揭露及售後統計。完成一件大型案是正向證據，但樣本仍少。總分 67 分，列 C 級。',
+    sources:[
+      {label:'帝洋建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/54717380',type:'官方公司資料'},
+      {label:'山水城州官方預售契約',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?icon=..pdf&n=5bGx5rC05Z%2BO5beeLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMS9yZWxmaWxlLzk2NzkvNjM4MDgxL2M0MjgxZDVhLWQxNWMtNDllNC04NjU2LTkzYWFhNjY2OTg1ZC5wZGY%3D',type:'新北市政府'},
+      {label:'山水城州建照、使照與成交資料',url:'https://dualtaipei.datazen.info/newtaipei/project/%E5%B1%B1%E6%B0%B4%E5%9F%8E%E5%B7%9E',type:'建管與實價資料彙整'},
+      {label:'山水城州建案資料',url:'https://www.plex.com.tw/projects/view/id/642',type:'建案公開資料'},
+    ],
+  },
+  {
+    id:'hezhan-construction',name:'合展建設',aliases:['合展建設','合展建設股份有限公司'],reviewed:'2026-09-18',confidence:'中高',
+    scores:{delivery:82,quality:76,governance:66,service:68,risk:72},
+    summary:'公司於 2015 年設立、目前實收資本額 2.1 億元；公開推案紀錄可核對悦禾、家禾、大觀富琚、晶采學、悦恬及雲禾月等多案。雲禾月官網與官方預售契約進一步揭露建照、112 戶規模、格局、結構工法及設備。',
+    caveat:'合展屬寶佳體系可由公開聽證資料交叉確認，但本站只計合展法人可核對的作品，不直接承接整個寶佳機構履歷。已有多案與較完整產品揭露，惟公司級財務治理、工程稽核、保固與客訴統計仍有限。總分 74 分，列 B 級。',
+    sources:[
+      {label:'合展建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/54845272',type:'官方公司資料'},
+      {label:'雲禾月官方預售契約',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?icon=..pdf&n=6Zuy56a%2B5pyILnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMS9yZWxmaWxlLzk2NzkvNzM5NTk3L2ZjYzU3ZDIyLTA0YzQtNDNiNS05YjRlLWY4NjAwNmQyNzllYy5wZGY%3D',type:'新北市政府'},
+      {label:'雲禾月官方網站',url:'https://yunheyu.tw/',type:'建案官方'},
+      {label:'合展建設推案紀錄',url:'https://build.myhousing.com.tw/company/481540/',type:'建案資料彙整'},
+      {label:'寶佳關係公司公開聽證資料',url:'https://lis.ly.gov.tw/pubhearc/ttsbooki?N139396%3A0079-0090%3A_self=',type:'立法院公開資料'},
+    ],
+  },
+  {
+    id:'xiehe-construction',name:'協和建設',aliases:['協和建設','協和建設股份有限公司'],reviewed:'2026-09-18',confidence:'中高',
+    scores:{delivery:90,quality:78,governance:68,service:70,risk:72},
+    summary:'公司於 1991 年設立、目前實收資本額 2.17 億元；公開推案紀錄可核對新市168、心之界、協和品學、協和紀、協和閱、安和琉域及協和新中興等跨區、跨期作品，新北市備查清冊亦確認協和新中興的賣方。',
+    caveat:'協和具有長期且多案的交付樣本，也可由立法院公開資料確認其為寶佳體系關係公司；但非公開發行公司，品質稽核、財務治理、保固時效及客訴統計仍欠缺公司級公開證據，不能只用案量推定服務品質。總分 77 分，列 B 級。',
+    sources:[
+      {label:'協和建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/86375414',type:'官方公司資料'},
+      {label:'新北市預售備查案清冊',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?n=MTEw5bm06IezMTE05bm05bey5YKZ5p%2Bl5bu65qGI5riF5YaKLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMzk5L3JlbGZpbGUvODk5My85NDY5L2NkZTQ4OTJkLTQzMzAtNDY3Zi1hYmExLTI3YzJiYjI0MjYxNi5wZGY%3D',type:'新北市政府'},
+      {label:'協和建設推案紀錄',url:'https://build.myhousing.com.tw/company/483301/',type:'建案資料彙整'},
+      {label:'寶佳關係公司公開聽證資料',url:'https://lis.ly.gov.tw/pubhearc/ttsbooki?N139396%3A0079-0090%3A_self=',type:'立法院公開資料'},
+    ],
+  },
+  {
+    id:'hejun-construction',name:'和峻建設',aliases:['和峻建設','和峻建設股份有限公司'],reviewed:'2026-09-18',confidence:'中高',
+    scores:{delivery:92,quality:80,governance:68,service:72,risk:74},
+    summary:'公司於 2004 年設立、目前實收資本額 4 億元；公開資料可核對美樹館、光合市、年紀青、樹學院、璞樂、富御捷境、和峻沐光、智匯學及和峻上中央等多件完工或預售案，形成跨雙北、桃園、新竹及台中的長期推案樣本。',
+    caveat:'和峻具有較長法人年資、較高實收資本與多案交付軌跡，並可由公開資料確認寶佳體系關係；但本站不把整個寶佳機構案量計入和峻，且公司級財務、工程稽核、保固與客訴結果揭露仍有限。總分 78 分，列 B 級。',
+    sources:[
+      {label:'和峻建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/27444148',type:'官方公司資料'},
+      {label:'和峻建設推案紀錄',url:'https://build.myhousing.com.tw/company/483391/',type:'建案資料彙整'},
+      {label:'樹學院建案資料',url:'https://build.myhousing.com.tw/49796/',type:'建案公開資料'},
+      {label:'寶佳關係公司公開聽證資料',url:'https://lis.ly.gov.tw/pubhearc/ttsbooki?N139396%3A0079-0090%3A_self=',type:'立法院公開資料'},
+    ],
+  },
 ].map(profile=>{
   const score=profile.scores?weightedScore(profile.scores):null;
   return {...profile,score,rating:profile.rating||ratingFromScore(score)};
