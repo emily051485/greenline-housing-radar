@@ -7442,6 +7442,70 @@ export const developerResearch=[
       {label:'建築師公會合約糾紛轉知',url:'https://www.ntcaa.org.tw/News/news_more?id=bde4be9ed501405a8a052cd86621fd47',type:'建築師公會公開文件'},
     ],
   },
+  {
+    id:'yuxiang-construction',name:'聿翔建設',aliases:['聿翔建設','聿翔建設股份有限公司'],reviewed:'2026-09-18',confidence:'中高',
+    scores:{delivery:55,quality:72,governance:72,service:58,risk:68},
+    summary:'2022 年設立、實收資本額 1.75 億元；新北市官方契約確認其為林口 51 戶「聿翔沐風」賣方，統編、代表人、建照及履約責任均可核對，目前預計於 2026 年第四季完工。',
+    caveat:'資本與契約責任明確，但同一法人目前只有一件尚未完成交屋的住宅案；代表人徐明潔另任聿瑞、聿德等公司負責人，只能證明關聯管理，不能把那些公司的作品算成聿翔實績。另有兩筆土地雜草環境裁罰，金額輕微但納入風險紀錄。總分 65 分，列為 C 級。',
+    sources:[
+      {label:'聿翔建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/90135057',type:'經濟部商工登記公示資料'},
+      {label:'聿翔沐風預售屋買賣契約',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?icon=..pdf&n=6IG%2F57%2BU5rKQ6aKoLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMS9yZWxmaWxlLzk2NzkvNzI5NDkxL2U3NjhhMzliLTJkYTUtNGJmZi1hMzMxLWRjYmE3MWMxOGU2Ny5wZGY%3D',type:'新北市政府地政局官方契約'},
+      {label:'聿翔沐風建案官網',url:'https://wind.wooostock.com/',type:'建案官方資料'},
+      {label:'聿翔沐風建照與工程狀態',url:'https://market.591.com.tw/5936455/overview',type:'市場建案交叉核對'},
+      {label:'聿翔環境裁罰紀錄',url:'https://thaubing.gcaa.org.tw/facility/H42097045777',type:'政府裁罰資料彙整'},
+    ],
+  },
+  {
+    id:'yurui-construction',name:'聿瑞建設',aliases:['聿瑞建設','聿瑞建設股份有限公司'],reviewed:'2026-09-18',confidence:'中高',
+    scores:{delivery:74,quality:72,governance:65,service:60,risk:72},
+    summary:'2020 年設立；官方契約確認其為「松柏硯」起造人與賣方，成屋資料顯示該案 71 戶已於 2025 年完工，形成一件可驗證的直接交屋樣本。',
+    caveat:'已完成第一件中型住宅案，但現行登記實收資本額已由曾有的 1.65 億元降至 1,500 萬元，且尚缺第二件直接完工案、公司級品管與售後保固數據；與聿翔、聿德共用負責人及地址不等於法人責任相同。總分 69 分，列為 C 級。',
+    sources:[
+      {label:'聿瑞建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/83077454',type:'經濟部商工登記公示資料'},
+      {label:'松柏硯預售屋買賣契約',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?icon=..pdf&n=5p2%2B5p%2BP56GvLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMS9yZWxmaWxlLzk2NzkvNjM4ODc2Lzk1YjRlZDVhLWY3MWQtNDhmMy1hZmNkLWI1ODQwNzQzMmQ1MC5wZGY%3D',type:'新北市政府地政局官方契約'},
+      {label:'松柏硯完工社區資料',url:'https://community.yungching.com.tw/building/95459',type:'成屋市場資料'},
+      {label:'新北市預售建案清冊',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?n=MTEw5bm06IezMTE05LiK5Y2K5bm05bey5YKZ5p%2Bl5bu65qGI5riF5YaKLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMzk5L3JlbGZpbGUvODk5My85NDY5L2UwZjQwYjRjLTkyMjEtNDliZS1hMzA5LTE0MWExNmQ1MzVlNS5wZGY%3D',type:'新北市政府地政局官方資料'},
+    ],
+  },
+  {
+    id:'yude-enterprise-83413800',name:'聿德企業（統編 83413800）',aliases:['聿德企業股份有限公司（統編 83413800）','聿德企業股份有限公司'],reviewed:'2026-09-18',confidence:'高',
+    scores:{delivery:52,quality:72,governance:70,service:58,risk:70},
+    summary:'「聿德觀璟」官方契約明載賣方為聿德企業股份有限公司、統編 83413800；公開登記顯示實收資本額 8,400 萬元，該案 93 戶並採不動產開發信託。',
+    caveat:'市場上另有統編 66513446 的同名公司，雖負責人及地址相同，仍是不同法律主體，本評分不合併其年資或資產；統編 83413800 目前只確認一件尚待完整交屋的住宅案，跨案品質與售後樣本不足。總分 64 分，列為 C 級。',
+    sources:[
+      {label:'聿德企業公司登記（83413800）',url:'https://findbiz.nat.gov.tw/fts/company/83413800',type:'經濟部商工登記公示資料'},
+      {label:'聿德觀璟預售屋買賣契約',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?icon=..pdf&n=6IG%2F5b636KeA55KfLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMS9yZWxmaWxlLzk2NzkvNjgwMjkyLzAwN2E3ZTdmLTQzMzItNGY1Mi1iYWZiLWYxZDM1MDM3OTJiNS5wZGY%3D',type:'新北市政府地政局官方契約'},
+      {label:'新北市預售屋契約查詢',url:'https://www.land.ntpc.gov.tw/News.aspx?PageSize=20&n=11769&page=24&sms=9679',type:'新北市政府地政局官方資料'},
+      {label:'聿德觀璟建照與產品資料',url:'https://market.591.com.tw/5925100/overview',type:'市場建案交叉核對'},
+      {label:'同名公司登記（66513446）',url:'https://findbiz.nat.gov.tw/fts/company/66513446',type:'同名法人辨識資料'},
+    ],
+  },
+  {
+    id:'yujing-construction',name:'聿璟建設',aliases:['聿璟建設','聿璟建設股份有限公司'],reviewed:'2026-09-18',confidence:'中高',
+    scores:{delivery:72,quality:75,governance:72,service:62,risk:74},
+    summary:'2018 年設立、實收資本額 2 億元；官方契約與建案資料確認其直接興建林口 16 戶電梯透天「聿見美璟」，截至 2026 年已有完工狀態與正式基地門牌可核對。',
+    caveat:'高資本額與一件已完工的小型住宅案提供基本履約證據，但目前缺第二件可直接歸屬的交屋案、公司級施工查驗、售後保固與財務揭露；名稱同樣以「聿」起首，不代表與徐明潔旗下聿瑞／聿翔／聿德為同一集團。總分 71 分，列為 C 級。',
+    sources:[
+      {label:'聿璟建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/50974323',type:'經濟部商工登記公示資料'},
+      {label:'聿見美璟預售屋買賣契約',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?icon=..pdf&n=6IG%2F6KaL576O55KfLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMS9yZWxmaWxlLzk2NzkvNzM0MTA4L2RkNDcxNGYzLWNkYTQtNGEwYS05YTBkLTM2ZDljNmUxY2Q2NS5wZGY%3D',type:'新北市政府地政局官方契約'},
+      {label:'聿見美璟建案官網',url:'https://yjmj.com.tw/',type:'建案官方資料'},
+      {label:'聿見美璟完工與建照資料',url:'https://newhouse.591.com.tw/137879/detail',type:'完工建案交叉核對'},
+    ],
+  },
+  {
+    id:'songbao-construction',name:'宋寶建設',aliases:['宋寶建設','宋寶建設有限公司','宋寶建設股份有限公司'],reviewed:'2026-09-18',confidence:'高',
+    scores:{delivery:74,quality:70,governance:64,service:60,risk:68},
+    summary:'2019 年設立、現行實收資本額約 2,043 萬元；官方契約與使用執照資料確認其直接興建金山 35 戶「築馨園」，工程更換承造人後仍於 2024 年取得使照並完成交屋。',
+    caveat:'已有一件完整完工案，但仍是單案樣本；施工期間曾更換承造人並衍生工程款訴訟，法院駁回原承攬人對宋寶的請求，另一起買方解除契約案主要判宋寶勝訴，故紀錄作為風險背景而不直接視為公司違約。公司級品管與售後資料仍少。總分 68 分，列為 C 級。',
+    sources:[
+      {label:'宋寶建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/83456645',type:'經濟部商工登記公示資料'},
+      {label:'築馨園預售屋買賣契約',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?icon=..pdf&n=56%2BJ6aao5ZySLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMS9yZWxmaWxlLzk2NzkvNjM3NDUwL2RjZTc3MGM4LTZiMGUtNDU4Zi04ZWI4LTAyNWU4OGQ3NmExYS5wZGY%3D',type:'新北市政府地政局官方契約'},
+      {label:'築馨園使用執照統計',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?icon=.pdf&n=MTEz5bm05L2%2F55So5Z%2B354Wn5Z%2B65pys6LOH5paZ5LiA6Ka96KGoLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMS9yZWxmaWxlLzkzNTAvNzI4NzE4LzE2MDU4NjA3LWY5OGMtNDRjYS05OTQ1LTU2NmRmY2ZkZmM2MC5wZGY%3D',type:'新北市政府工務局官方資料'},
+      {label:'築馨園完工與成交資料',url:'https://www.plex.com.tw/projects/transactions/id/6180/address/%E4%BF%A1%E7%BE%A9%E8%B7%AF71%E8%99%9F7%E6%A8%93',type:'成屋市場資料'},
+      {label:'承攬工程款判決',url:'https://lawplayer.com/judgment/KLDV%2C113%2C%E5%BB%BA%2C12%2C20241016%2C1_365cbe335a4a8e252179f1139939f07c23cf901c',type:'司法院裁判書資料'},
+      {label:'買方解除契約判決',url:'https://lawplayer.com/judgment/KLDV%2C114%2C%E9%87%8D%E8%A8%B4%2C8%2C20250227%2C1_dd8b93592b74861a91bba07aeab77cd0df7ee27e',type:'司法院裁判書資料'},
+    ],
+  },
 ].map(profile=>{
   const score=profile.scores?weightedScore(profile.scores):null;
   return {...profile,score,rating:profile.rating||ratingFromScore(score)};
