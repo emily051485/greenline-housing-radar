@@ -129,3 +129,10 @@ main{display:flex;flex-direction:column}.hero{order:1}.stats-wrap{order:2}.map-s
 .grade-c,.pin.c{background:#9da6a2;color:#fff}
 .marker-b{background:#c69a32;color:#201b0e}
 .marker-c{background:#9da6a2;color:#fff}
+@media(max-width:900px){
+  html{scroll-padding-top:125px}
+  .topbar{height:auto;flex-wrap:wrap;gap:10px;padding:12px 4vw 0}
+  .topbar nav{display:flex;flex-basis:100%;min-width:0;gap:8px;overflow-x:auto;font-size:13px}
+  .topbar nav a{display:flex;flex:1 0 auto;align-items:center;justify-content:center;min-height:44px;padding:0 6px;white-space:nowrap;border-bottom:2px solid transparent}
+  .topbar nav a:hover,.topbar nav a:focus-visible{color:var(--green);border-bottom-color:var(--green)}
+}
