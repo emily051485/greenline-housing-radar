@@ -292,7 +292,7 @@ export const developerResearch=[
     ],
   },
   {
-    id:'lihshinn',name:'立信機構',aliases:['立信建設','立信機構','耕居建設股份有限公司','耕居建設'],reviewed:'2026-09-18',confidence:'中高',
+    id:'lihshinn',name:'立信機構',aliases:['立信建設','立信機構','立信資產管理股份有限公司','立信資產管理','耕居建設股份有限公司','耕居建設'],reviewed:'2026-09-18',confidence:'中高',
     scores:{delivery:82,quality:78,governance:66,service:78,risk:72},
     summary:'立信機構 2001 年成立，官方資料可核對土地開發、立信工營造、藝舍代銷、首信物業與售後窗口的垂直體系；2019 年成立的耕居建設為其危老都更子公司，已有多案進度及立信藏玉正式預售契約。',
     caveat:'跨期開發與自有營造、物業及售服體系可確認，但私人集團缺乏連續財報、第三方品質統計與售後成果量化；總分 76 分，列 B 級。',
@@ -302,6 +302,7 @@ export const developerResearch=[
       {label:'耕居建設都更危老實績',url:'https://www.gengerect.com/project',type:'子公司官方資料'},
       {label:'耕居建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/82967459',type:'政府公司資料'},
       {label:'立信藏玉預售契約',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?icon=..pdf&n=56uL5L%2Bh6JeP546JLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMS9yZWxmaWxlLzk2NzkvNzM5NDI0LzMxMmU0ZDM5LTFkMzgtNDA2NS1hMTRhLTYyODg4YmQ1MDk2NS5wZGY%3D',type:'政府預售契約'},
+      {label:'立信首馥預售契約',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?icon=..pdf&n=56uL5L%2BhLemmlummpS5wZGY%3D&u=LzAwMS9VcGxvYWQvMS9yZWxmaWxlLzk2NzkvNzMyODk2LzJlYjFmMjhhLTlmZDItNDRiMS1iZmVkLTUxMDg2MzJkNzNhYS5wZGY%3D',type:'政府預售契約'},
     ],
   },
   {
@@ -2118,9 +2119,9 @@ export const developerResearch=[
     ],
   },
   {
-    id:'lexuan',name:'樂軒開發建設',aliases:['樂軒開發建設'],reviewed:'2026-09-14',confidence:'高',
+    id:'lexuan',name:'樂軒／立軒開發建設',aliases:['樂軒開發建設股份有限公司','樂軒開發建設','立軒開發建設股份有限公司','立軒開發建設'],reviewed:'2026-09-18',confidence:'高',
     scores:{delivery:72,quality:74,governance:69,service:68,risk:72},
-    summary:'2021 年設立，目前實收資本額 1 億元；政府備查契約與清冊可核對立軒天翠、天玥及天語等案件。',
+    summary:'2021 年以樂軒開發建設設立，目前實收資本額 1 億元；政府契約以舊名列為立軒天翠賣方，後續公司與備查資料使用立軒開發建設名稱，可核對天翠、天玥及天語等案件。',
     caveat:'具集團開發團隊與連續推案，但樂軒法人本身成立時間短，已交付年期、售後及第三方品質成效仍不足，現階段評為 C 級。',
     sources:[
       {label:'經濟部公司登記',url:'https://findbiz.nat.gov.tw/fts/company/90568693',type:'政府資料'},
