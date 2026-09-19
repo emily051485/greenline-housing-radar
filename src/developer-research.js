@@ -7259,6 +7259,65 @@ export const developerResearch=[
       {label:'梓園 NEXT 建照與建案資料',url:'https://newhouse.591.com.tw/141852',type:'市場建案交叉核對'},
     ],
   },
+  {
+    id:'baojia-development-27658226',name:'寶嘉建設開發',aliases:['寶嘉建設開發','寶嘉建設開發股份有限公司','明田建設','明田建設股份有限公司'],reviewed:'2026-09-18',confidence:'中低',
+    scores:{delivery:64,quality:65,governance:62,service:56,risk:70},
+    summary:'法人於 2005 年設立、2018 年由明田建設更名，現行實收資本額 2,800 萬元；新北市官方契約確認其為板橋 13 戶「文化翡格」賣方，該案已有近期完工門牌與交易樣本。',
+    caveat:'公司存續時間與單案完成度具基本支撐，但目前可直接歸屬的公開住宅作品仍少，且缺少工程查驗、售後服務、財務治理及跨案交屋品質的量化證據。總分 63 分，列為 C 級。',
+    sources:[
+      {label:'寶嘉建設開發公司登記與更名紀錄',url:'https://findbiz.nat.gov.tw/fts/company/27658226',type:'經濟部商工登記公示資料'},
+      {label:'文化翡格預售屋買賣契約',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?icon=..pdf&n=5paH5YyW57%2Bh5qC8LnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMS9yZWxmaWxlLzk2NzkvNzM0NDIxLzY2Mjc3MzgxLWFhNjItNGY1YS1iMWRhLWJhZTJlYTA5MDBhNC5wZGY%3D',type:'新北市政府地政局官方契約'},
+      {label:'文化翡格完工社區資料',url:'https://market.591.com.tw/5954862/overview',type:'完工社區交叉核對'},
+    ],
+  },
+  {
+    id:'junhua-development',name:'駿華開發建設',aliases:['駿華開發建設','駿華開發建設股份有限公司','隆陞建設','隆陞建設股份有限公司'],reviewed:'2026-09-18',confidence:'中',
+    scores:{delivery:68,quality:68,governance:64,service:58,risk:70},
+    summary:'2003 年設立、2010 年由隆陞建設更名，現行實收資本額 4,000 萬元；新北市預售資料與建案官網確認其和忠碩不動產共同投資興建板橋「京東賞」。',
+    caveat:'法人年資與現行大型預售案可確認，但舊名時期與現名時期可直接驗證的完整交屋作品、工程查驗、售後制度及財務資訊仍不足，不能以法人存續年資直接推定品質。總分 65 分，列為 C 級。',
+    sources:[
+      {label:'駿華開發建設公司登記與更名紀錄',url:'https://findbiz.nat.gov.tw/fts/company/80554896',type:'經濟部商工登記公示資料'},
+      {label:'京東賞預售屋官方查詢',url:'https://www.land.ntpc.gov.tw/News.aspx?PageSize=20&n=11769&page=9&sms=9679',type:'新北市政府地政局官方資料'},
+      {label:'京東賞建案官網',url:'https://kyotokyo.com.tw/',type:'建案官方資料'},
+      {label:'隆陞建設工程紀錄',url:'https://www.boid.com.tw/?page_id=1645',type:'工程實績交叉核對'},
+    ],
+  },
+  {
+    id:'zhongshuo-real-estate',name:'忠碩不動產',aliases:['忠碩不動產','忠碩不動產股份有限公司'],reviewed:'2026-09-18',confidence:'中低',
+    scores:{delivery:58,quality:66,governance:66,service:56,risk:72},
+    summary:'2019 年設立，實收資本額已增至 9,000 萬元；新北市官方預售查詢確認忠碩不動產與駿華開發共同投資興建「京東賞」，屬實際開發法人而非仲介或代銷。',
+    caveat:'資本與契約責任明確，但目前可直接核實的住宅開發履歷集中於尚在興建的京東賞，缺少完工交屋、施工缺失、保固服務與長期財務資料，故保守列級。總分 63 分，列為 C 級。',
+    sources:[
+      {label:'忠碩不動產公司登記',url:'https://findbiz.nat.gov.tw/fts/company/83565926',type:'經濟部商工登記公示資料'},
+      {label:'忠碩不動產設立登記',url:'https://serv.gcis.nat.gov.tw/pub/cmpy/reportAction.do?fileName=10812ALS.pdf&method=report&reportClass=cmpy&subPath=10812',type:'經濟部商工行政官方資料'},
+      {label:'京東賞預售屋官方查詢',url:'https://www.land.ntpc.gov.tw/News.aspx?PageSize=20&n=11769&page=9&sms=9679',type:'新北市政府地政局官方資料'},
+      {label:'京東賞共同投資興建資料',url:'https://newhouse.591.com.tw/137654/detail',type:'市場建案交叉核對'},
+    ],
+  },
+  {
+    id:'youtai-construction-83546180',name:'宥泰建設',aliases:['宥泰建設','宥泰建設股份有限公司'],reviewed:'2026-09-18',confidence:'中',
+    scores:{delivery:62,quality:76,governance:66,service:60,risk:74},
+    summary:'2020 年設立、實收資本額 1 億元；政府都更計畫、建照與預售契約均確認其為板橋 158 戶「松柏大院」實施及開發主體，工程採 SRC 並由億東營造承攬。',
+    caveat:'大型都更整合、資本與工程團隊是正面證據，但宥泰法人本身仍屬首件可直接核實的大型住宅案；家勝機構過往作品不能在缺乏法律關係證據下全數移植，且本案尚未完工交屋。總分 67 分，列為 C 級。',
+    sources:[
+      {label:'宥泰建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/83546180',type:'經濟部商工登記公示資料'},
+      {label:'松柏大院預售屋買賣契約',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?icon=..pdf&n=5p2%2B5p%2BP5aSn6ZmiLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMS9yZWxmaWxlLzk2NzkvNzM4Njc3LzAxZDg5MGUxLTY0N2QtNDM1Zi1hMjZhLTQzMzIzNjRiOWUxOC5wZGY%3D',type:'新北市政府地政局官方契約'},
+      {label:'松柏大院都市更新計畫',url:'https://resource.iyp.tw/static.iyp.tw/37315/files/79a3f6c2-76ec-4e08-a53a-546737ad7d6f.pdf',type:'都市更新公開文件'},
+      {label:'松柏大院營造工程資料',url:'https://www.itcbuild.com.tw/?p=1160',type:'營造公司工程實績'},
+    ],
+  },
+  {
+    id:'fuzujia',name:'富足家',aliases:['富足家','富足家股份有限公司'],reviewed:'2026-09-18',confidence:'中低',
+    scores:{delivery:62,quality:62,governance:58,service:54,risk:64},
+    summary:'2015 年設立、實收資本額 1,000 萬元，登記業務含不動產開發與管理顧問；建照及備查資料可確認其為板橋 13 戶「板心恆鑽」起造法人，另有北市建照工程紀錄。',
+    caveat:'富足家另投資絔和建設與富洋地產，但各公司仍是獨立法律主體，不把關係企業作品直接併入；目前可驗證住宅交屋與售後樣本有限，且北市工程曾有泥沙污染周邊的裁處紀錄，故保守評分。總分 60 分，列為 C 級。',
+    sources:[
+      {label:'富足家公司登記',url:'https://findbiz.nat.gov.tw/fts/company/42607465',type:'經濟部商工登記公示資料'},
+      {label:'板心恆鑽建照資料',url:'https://fangnote.info/2024/%E6%9D%BF%E5%BF%83%E6%81%86%E9%91%BD/',type:'建照資料交叉核對'},
+      {label:'臺北市工程污染裁處公開資料',url:'https://www-ws.gov.taipei/Download.ashx?icon=.pdf&n=MTExMDcyOC3nrKwy5a2jMTI4NuS7tuizh%2BaWmeaVtOeQhuWFrOmWiyg35pyI5pu05pawMTI4NuS7tinjgJDpmYTku7bjgJEucGRm&u=LzAwMS9VcGxvYWQvNDQ4L2NrZmlsZS84OTEyYTk2Yy1mNTVhLTQ5ZmMtODZkZS00ZWI4ZTg1MmY5YzAucGRm',type:'臺北市政府官方資料'},
+      {label:'新北市預售建案清冊',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?n=MTEw5bm06IezMTE05bm05bey5YKZ5p%2Bl5bu65qGI5riF5YaKLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMzk5L3JlbGZpbGUvODk5My85NDY5L2NkZTQ4OTJkLTQzMzAtNDY3Zi1hYmExLTI3YzJiYjI0MjYxNi5wZGY%3D',type:'新北市政府地政局官方資料'},
+    ],
+  },
 ].map(profile=>{
   const score=profile.scores?weightedScore(profile.scores):null;
   return {...profile,score,rating:profile.rating||ratingFromScore(score)};
