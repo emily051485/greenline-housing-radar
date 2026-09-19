@@ -7685,6 +7685,67 @@ export const developerResearch=[
       {label:'富堡晶鑄建案資料',url:'https://newhouse.591.com.tw/135826/detail',type:'市場建案交叉核對'},
     ],
   },
+  {
+    id:'juhan-construction',name:'鉅翰建設',aliases:['鉅翰建設','鉅翰建設股份有限公司'],reviewed:'2026-09-18',confidence:'高',
+    scores:{delivery:48,quality:68,governance:66,service:55,risk:72},
+    summary:'2018 年設立、實收資本額 1,500 萬元；公司登記與新北市預售屋契約查詢可確認其為林口 11 戶「雲玥」賣方，並採同業連帶擔保。',
+    caveat:'法律主體與現行個案可明確核對，但目前只查得一件小型在建案，尚無可歸屬鉅翰法人的完工交屋、跨案品質與售後服務樣本；不把負責人或關係企業可能參與的作品自動併入。總分 60 分，列為 C 級。',
+    sources:[
+      {label:'鉅翰建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/50979827',type:'經濟部商工登記公示資料'},
+      {label:'雲玥預售屋契約查詢',url:'https://www.land.ntpc.gov.tw/News.aspx?PageSize=20&n=11769&page=5&sms=9679',type:'新北市政府地政局官方資料'},
+      {label:'鉅翰建設公司變更登記',url:'https://serv.gcis.nat.gov.tw/pub/cmpy/reportAction.do?fileName=11406NTC.pdf&method=report&reportClass=cmpy&subPath=11406',type:'經濟部商工行政官方資料'},
+    ],
+  },
+  {
+    id:'yuanfeng-construction',name:'源峰建設',aliases:['源峰建設','源峰建設股份有限公司'],reviewed:'2026-09-18',confidence:'中高',
+    scores:{delivery:84,quality:80,governance:82,service:68,risk:78},
+    summary:'2002 年設立、實收資本額 4 億元；公開建案資料可交叉核對多件推案及 2021 年完工「源峰澄境」，新北市官方契約另確認其為林口「源峰上境」賣方，具跨案履約與持續推案能力。',
+    caveat:'公司年資、資本與直接完工紀錄穩健，達 B 級；但作品數主要依市場資料彙整，未見上市櫃等級的定期財務、工程缺失率、售後時效與保固績效公開，因此不升列 A。總分 79 分，列為 B 級。',
+    sources:[
+      {label:'源峰建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/80061561',type:'經濟部商工登記公示資料'},
+      {label:'源峰上境預售屋契約查詢',url:'https://www.land.ntpc.gov.tw/News.aspx?PageSize=20&n=11769&page=11&sms=9679',type:'新北市政府地政局官方資料'},
+      {label:'源峰建設歷年建案',url:'https://www.plex.com.tw/projects/index/type/developer/query/%E6%BA%90%E5%B3%B0%E5%BB%BA%E8%A8%AD/order/most_viewed',type:'市場建案交叉核對'},
+      {label:'源峰澄境完工資料',url:'https://www.plex.com.tw/projects/view/id/3900',type:'成屋市場資料'},
+      {label:'源峰上境建案資料',url:'https://www.plex.com.tw/projects/view/id/8072',type:'市場建案交叉核對'},
+    ],
+  },
+  {
+    id:'ruide-development-93709325',name:'瑞德開發（統編 93709325）',aliases:['瑞德開發','瑞德開發股份有限公司'],reviewed:'2026-09-18',confidence:'高',
+    scores:{delivery:48,quality:74,governance:76,service:58,risk:72},
+    summary:'2024 年設立、實收資本額 2 億元；「瑞德豐錦」官方契約末頁載明統編 93709325、代表人王俊偉，並採合作金庫不動產開發信託，可排除另一家已廢止的同名公司。',
+    caveat:'資本與履約擔保條件尚可，且建案與達欣團隊共同公開；但瑞德法人本身仍是新設公司，目前只有 6 戶透天在建案，沒有直接完工、跨案售後或長期品質紀錄。達欣的品牌履歷不等同瑞德法人的履歷。總分 65 分，列為 C 級。',
+    sources:[
+      {label:'瑞德開發公司登記（93709325）',url:'https://findbiz.nat.gov.tw/fts/company/93709325',type:'經濟部商工登記公示資料'},
+      {label:'瑞德豐錦預售屋買賣契約',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?icon=..pdf&n=55Ge5b636LGQ6YymLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMS9yZWxmaWxlLzk2NzkvNzM4OTMzLzFlMjhjYzJiLTRhMjMtNDZiYS1hMzFkLTY5NmM3YmJhYWRiMS5wZGY%3D',type:'新北市政府地政局官方契約'},
+      {label:'瑞德豐錦建案官網',url:'https://www.rhett.com.tw/rivermark/index.php',type:'建案官方資料'},
+      {label:'已廢止同名公司登記',url:'https://findbiz.nat.gov.tw/fts/company/97406239',type:'經濟部商工登記公示資料'},
+    ],
+  },
+  {
+    id:'qunhe-construction',name:'群和建設（群祥機構）',aliases:['群和建設','群和建設股份有限公司'],reviewed:'2026-09-18',confidence:'高',
+    scores:{delivery:54,quality:76,governance:74,service:64,risk:74},
+    summary:'2023 年設立、實收資本額 6,000 萬元；公司登記、官方契約及群祥機構官網可確認其為集團成員與林口 100 戶「群和 FUTURE LINK」賣方，建案導入第三方建築履歷訴求。',
+    caveat:'可把群祥機構長期在地經驗視為團隊支援，但群和仍是獨立且新設的契約法人；目前尚無以群和名義完成交屋的直接樣本，集團其他公司作品不能全數移植為群和履歷。總分 68 分，列為 C 級。',
+    sources:[
+      {label:'群和建設設立登記',url:'https://serv.gcis.nat.gov.tw/pub/cmpy/reportAction.do?fileName=11212ALS.pdf&method=report&reportClass=cmpy&subPath=11212',type:'經濟部商工行政官方資料'},
+      {label:'群和建設資本變更登記',url:'https://serv.gcis.nat.gov.tw/pub/cmpy/reportAction.do?fileName=11303NTC.pdf&method=report&reportClass=cmpy&subPath=11303',type:'經濟部商工行政官方資料'},
+      {label:'群和 FUTURE LINK 預售屋買賣契約',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?icon=..pdf&n=576k5ZKMIEZVVFVSRSBMSU5LLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMS9yZWxmaWxlLzk2NzkvNzMzNjU3L2M3YjZmODE2LTc4YmEtNDZjMi1iMGIxLTMwNmYwNmU4N2E1MC5wZGY%3D',type:'新北市政府地政局官方契約'},
+      {label:'群祥機構團隊說明',url:'https://chain-shine.com.tw/about',type:'集團官方資料'},
+    ],
+  },
+  {
+    id:'fenglin-construction',name:'豐林營建（群祥機構）',aliases:['豐林營建','豐林營建股份有限公司','豐林營造有限公司'],reviewed:'2026-09-18',confidence:'中高',
+    scores:{delivery:82,quality:82,governance:76,service:72,risk:76},
+    summary:'1975 年設立，現為實收資本額 6,000 萬元的甲級綜合營造與開發法人；官方資料確認其為「群祥謙」投資興建及營造者，該案已取得使用執照，另有多件群祥體系工程紀錄。',
+    caveat:'長期營造履歷、內聘結構技師與直接取得使照的開發案支持 B 級；但豐林過往多數紀錄是承攬角色，不能把群祥機構其他建設公司的全部銷售與售後成果算到豐林，且量化售後與缺失率尚未公開。總分 78 分，列為 B 級。',
+    sources:[
+      {label:'豐林營建公司登記',url:'https://findbiz.nat.gov.tw/fts/company/64938616',type:'經濟部商工登記公示資料'},
+      {label:'群祥謙官方備查清冊',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?n=MTEw5bm06IezMTE05bm05bey5YKZ5p%2Bl5bu65qGI5riF5YaKLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMzk5L3JlbGZpbGUvODk5My85NDY5L2NkZTQ4OTJkLTQzMzAtNDY3Zi1hYmExLTI3YzJiYjI0MjYxNi5wZGY%3D',type:'新北市政府地政局官方資料'},
+      {label:'群祥機構團隊與工程制度',url:'https://chain-shine.com.tw/about',type:'集團官方資料'},
+      {label:'群祥謙建照與使照資料',url:'https://newhouse.591.com.tw/136225',type:'市場建案交叉核對'},
+      {label:'同業連帶擔保資格名單',url:'https://www.archper.org/download.php?id=165&tb=FileLoad',type:'新北市不動產開發公會資料'},
+    ],
+  },
 ].map(profile=>{
   const score=profile.scores?weightedScore(profile.scores):null;
   return {...profile,score,rating:profile.rating||ratingFromScore(score)};
