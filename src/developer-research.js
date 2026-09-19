@@ -6639,6 +6639,52 @@ export const developerResearch=[
       {label:'新北市預售屋備查資料入口',url:'https://www.land.ntpc.gov.tw/News.aspx?n=11769&sms=9679',type:'新北市政府公開資料'},
     ],
   },
+  {
+    id:'ruiyang-construction',name:'睿暘建設',aliases:['睿暘建設','睿暘建設股份有限公司'],reviewed:'2026-09-18',confidence:'高',
+    scores:{delivery:35,quality:55,governance:20,service:20,risk:10},
+    summary:'2021 年設立、資本額 1,500 萬元，為睿暘沁原始契約賣方；公開裁判記載該案延遲 465 日取得使用執照，之後變更起造人並由友信開發建設承受契約權利義務。公司目前登記為解散。',
+    caveat:'公司已結束營業，且唯一可核實案件發生延遲、起造人及契約承擔移轉；法院判決內容支持購屋人遲延利息請求。這是具體履約風險，不只是公開資料不足，因此治理、售後與風險分數大幅下修。總分 32 分，列 C 級。',
+    sources:[
+      {label:'睿暘建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/90688819',type:'經濟部商工登記公示資料'},
+      {label:'新北地院 115 年度重簡字第 496 號判決',url:'https://lawplayer.com/judgment/SJEV%2C115%2C%E9%87%8D%E7%B0%A1%2C496%2C20260814%2C1_f21439c789c0562d70c40cfa35efce028a0ea0e3',type:'司法院裁判資料再利用'},
+      {label:'睿暘沁公開銷售紀錄',url:'https://www.haiwo.com.tw/news/',type:'代銷公開資料'},
+    ],
+  },
+  {
+    id:'jutai-development',name:'聚泰開發建設',aliases:['聚泰開發建設','聚泰開發建設股份有限公司'],reviewed:'2026-09-18',confidence:'中高',
+    scores:{delivery:58,quality:69,governance:67,service:58,risk:72},
+    summary:'法人前身為創新資產管理，2022 年更名為聚泰開發建設，實收資本額其後增至 8,888 萬元；政府備查與契約查核可確認聚泰綻為其銷售興建案件。',
+    caveat:'雖由地寶建設官網列入作品脈絡，但聚泰本身目前主要可核實聚泰綻一案，關係企業過往完工案不直接全數併入；尚缺自身完工交付與售後樣本。總分 64 分，列 C 級。',
+    sources:[
+      {label:'聚泰開發建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/28698507',type:'經濟部商工登記公示資料'},
+      {label:'新北市預售屋契約查詢',url:'https://www.land.ntpc.gov.tw/News.aspx?PageSize=20&n=11769&page=9&sms=9679',type:'新北市政府公開資料'},
+      {label:'新北市預售屋契約查核結果',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?icon=.pdf&n=5paw5YyX5biCMTE05LiK5Y2K5bm06aCQ5ZSu5bGL6LK36LOj5a6a5Z6L5YyW5aWR57SE5p%2Bl5qC457WQ5p6cLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMzk5L3JlbGZpbGUvMC8xMzk0My9jNzA0MTM3Mi1hZGExLTRiNzItOTc5NC0xMzg0MGM2YmRmOGEucGRm',type:'新北市政府公開資料'},
+      {label:'地寶建設作品頁',url:'https://www.di-wei.com.tw/',type:'關係品牌官方資料'},
+    ],
+  },
+  {
+    id:'jingrui-construction',name:'璟銳建設（富璟集團）',aliases:['璟銳建設','璟銳建設有限公司'],reviewed:'2026-09-18',confidence:'中高',
+    scores:{delivery:72,quality:74,governance:66,service:62,risk:72},
+    summary:'公司統編 34249775、資本額 2,000 萬元；政府契約確認璟銳青由該公司銷售興建，地址與富璟建設官方聯絡地址一致，公開工程實績亦將璟銳青列為富璟集團案件。',
+    caveat:'公司存續時間長且具集團工程脈絡，但可直接歸屬璟銳法人的完工、保固與客訴成果仍不完整；集團品牌敘述不等同個別法人財務揭露。總分 69 分，列 C 級。',
+    sources:[
+      {label:'璟銳建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/34249775',type:'經濟部商工登記公示資料'},
+      {label:'璟銳青預售屋買賣契約',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?icon=..pdf&n=55Kf6Yqz6Z2SLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMS9yZWxmaWxlLzk2NzkvNjQwMTE4LzY1NmQ4YzdmLTg0MjctNDJhOS1hODg4LTU3ZGQxN2YyMThlYy5wZGY%3D',type:'新北市政府公開契約'},
+      {label:'富璟建設品牌理念',url:'https://luxury-construction.com/%E5%93%81%E7%89%8C%E7%90%86%E5%BF%B5/',type:'關係品牌官方資料'},
+    ],
+  },
+  {
+    id:'qianyu-construction',name:'謙宇建設',aliases:['謙宇建設','謙宇建設股份有限公司'],reviewed:'2026-09-18',confidence:'中高',
+    scores:{delivery:52,quality:70,governance:62,service:56,risk:70},
+    summary:'2017 年設立；政府清冊與預售契約可確認謙宇玥華為該公司案件，規劃耐震、智慧與綠建築標章，並採建商自售。',
+    caveat:'目前主要可核實謙宇玥華單一案件，尚未完工，缺少跨案交付、保固與長期品質成果；建材及標章規劃可支持工程面，但不能替代完工驗證。總分 61 分，列 C 級。',
+    sources:[
+      {label:'謙宇建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/66586502',type:'經濟部商工登記公示資料'},
+      {label:'謙宇玥華預售屋契約',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?icon=..pdf&n=6KyZ5a6H546l6I%2BvLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMS9yZWxmaWxlLzk2NzkvNzI5NDk5L2FiZjU4Y2Q5LWFlYmEtNDMwZS1iYmVhLTU2NWQzNjQwN2FlMC5wZGY%3D',type:'新北市政府公開契約'},
+      {label:'新北市預售屋備查建案清冊',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?n=MTEw5bm06IezMTE05bm05bey5YKZ5p%2Bl5bu65qGI5riF5YaKLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMzk5L3JlbGZpbGUvODk5My85NDY5L2NkZTQ4OTJkLTQzMzAtNDY3Zi1hYmExLTI3YzJiYjI0MjYxNi5wZGY%3D',type:'新北市政府公開資料'},
+      {label:'謙宇玥華建案資訊',url:'https://market.591.com.tw/5936032/overview',type:'建案公開資料'},
+    ],
+  },
 ].map(profile=>{
   const score=profile.scores?weightedScore(profile.scores):null;
   return {...profile,score,rating:profile.rating||ratingFromScore(score)};
