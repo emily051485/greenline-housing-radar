@@ -6868,6 +6868,54 @@ export const developerResearch=[
       {label:'慕軒政府備查清冊',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?n=MTEw5bm06IezMTE05bm05bey5YKZ5p%2Bl5bu65qGI5riF5YaKLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMzk5L3JlbGZpbGUvODk5My85NDY5L2NkZTQ4OTJkLTQzMzAtNDY3Zi1hYmExLTI3YzJiYjI0MjYxNi5wZGY%3D%3D',type:'新北市政府預售屋備查'},
     ],
   },
+  {
+    id:'yaocheng-construction',name:'耀承建設',aliases:['耀承建設','耀承建設股份有限公司'],reviewed:'2026-09-18',confidence:'中',
+    scores:{delivery:68,quality:74,governance:70,service:62,risk:72},
+    summary:'2018 年設立、實收資本額已增至 1 億元；可核對已成屋的耀承璽閱及耀承一品，後者政府契約、備查清冊與建照資料均一致指向耀承建設。',
+    caveat:'已有連續推案及一案成屋基礎，但官方網站尚未提供完整歷年作品、保固條款與售後處理數據；品牌所稱服務萬戶缺乏可核對案量，未直接納入實績計分。總分 69 分，列 C 級。',
+    sources:[
+      {label:'耀承建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/82791614',type:'經濟部商工登記公示資料'},
+      {label:'耀承建設官方網站',url:'https://www.yao-cheng.com.tw/',type:'公司官方資料'},
+      {label:'耀承一品預售屋契約',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?icon=..pdf&n=6ICA5om%2F5LiA5ZOBLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMS9yZWxmaWxlLzk2NzkvNjQwMDE2L2Y5ZGE3Y2MxLTg1NDQtNGEwNS05MTUwLWI1NjQ1MmE2YTVmZi5wZGY%3D',type:'新北市政府預售屋契約'},
+      {label:'耀承璽閱成屋資料',url:'https://community.yungching.com.tw/building/97900',type:'完工社區公開資料'},
+    ],
+  },
+  {
+    id:'longying-construction',name:'龍瑩建設',aliases:['龍瑩建設','龍瑩建設事業股份有限公司'],reviewed:'2026-09-18',confidence:'中',
+    scores:{delivery:60,quality:72,governance:66,service:58,risk:72},
+    summary:'2018 年設立、實收資本額 2,900 萬元；公司官網列有完工、興建中及即將銷售案件，政府契約與建照則確認中和「双和心」由龍瑩建設擔任賣方與投資興建者。',
+    caveat:'可確認具危老與住宅開發經驗，但官網作品頁缺少完整案名、完工年月與售後資料，現階段無法把未具名圖片全部當成交屋履歷；双和心仍是最完整的直接證據。總分 65 分，列 C 級。',
+    sources:[
+      {label:'龍瑩建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/42990911',type:'經濟部商工登記公示資料'},
+      {label:'龍瑩建設官方網站',url:'https://www.longyingtw.com/',type:'公司官方資料'},
+      {label:'双和心預售屋契約',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?icon=..pdf&n=5Y%2BM5ZKM5b%2BDLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMS9yZWxmaWxlLzk2NzkvNjQwMDEzL2Q0YmUzZDJlLTdjNTUtNDQ4YS1iY2E5LTRkNGZkNTA5Zjc2My5wZGY%3D',type:'新北市政府預售屋契約'},
+      {label:'双和心建案資料',url:'https://market.591.com.tw/5888979/overview',type:'建案公開資料'},
+    ],
+  },
+  {
+    id:'jinjiu-development',name:'金玖建設',aliases:['金玖建設','金玖建設開發','金玖建設開發有限公司'],reviewed:'2026-09-18',confidence:'中高',
+    scores:{delivery:78,quality:72,governance:68,service:65,risk:74},
+    summary:'2010 年設立、資本額 3,000 萬元；官方作品可核對光華廈、仁義廈、中園廈、双捷棧與民有琚，已形成跨新莊、三重、三峽及中和的連續小型住宅履歷。',
+    caveat:'多案履歷及自有作品頁支持 B 級下緣，但公司規模仍屬區域型，缺乏公開財務、標準保固、量化售後與大量住戶回饋；民有琚尚在預售興建，不能算成已交屋成果。總分 72 分，列 B 級。',
+    sources:[
+      {label:'金玖建設公司變更登記',url:'https://serv.gcis.nat.gov.tw/pub/cmpy/reportAction.do?fileName=11503NTC.pdf&method=report&reportClass=cmpy&subPath=11503',type:'新北市公司變更登記清冊'},
+      {label:'金玖建設官方介紹',url:'https://www.cj168.com.tw/pages/about',type:'公司官方資料'},
+      {label:'金玖建設歷年作品',url:'https://www.cj168.com.tw/items',type:'公司官方資料'},
+      {label:'民有琚契約備查',url:'https://www.land.ntpc.gov.tw/News.aspx?PageSize=20&_Query=a57b2e19-ab70-4142-80ea-976f35abb5bb&n=11769&page=14&sms=9679',type:'新北市政府預售屋備查'},
+    ],
+  },
+  {
+    id:'richtimes-development',name:'富時代地產開發',aliases:['富時代地產開發','富時代地產開發股份有限公司'],reviewed:'2026-09-18',confidence:'中',
+    scores:{delivery:50,quality:72,governance:68,service:58,risk:74},
+    summary:'2022 年設立、實收資本額 1,250 萬元；「好植」預售契約及新北市契約查核均確認富時代地產開發與寶和建設共同投資興建，並非單純代銷角色。',
+    caveat:'富時代機構具開發、危老與代銷整合經驗，但官方列出的過去作品多由寶和建設擔任建設公司，不能全部視為富時代法人自身的交屋實績；直接開發履歷仍以共同興建的好植為主。總分 63 分，列 C 級。',
+    sources:[
+      {label:'富時代地產開發公司登記',url:'https://findbiz.nat.gov.tw/fts/company/90117277',type:'經濟部商工登記公示資料'},
+      {label:'富時代地產官方介紹',url:'https://richtimes.tw/real-estate/',type:'公司官方資料'},
+      {label:'好植預售屋契約',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?icon=..pdf&n=5aW95qSNLeWvtuWSjC5wZGY%3D&u=LzAwMS9VcGxvYWQvMS9yZWxmaWxlLzk2NzkvNzM4OTI5LzY5NTA4MmRkLWVmZWMtNGU1OS05NGFiLTAyZmJiNjJiZjEyNS5wZGY%3D',type:'新北市政府預售屋契約'},
+      {label:'好植契約查核結果',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?n=5paw5YyX5biCMTE056ysMuasoeafpeaguOe1kOaenC5wZGY%3D&u=LzAwMS9VcGxvYWQvMzk5L3JlbGZpbGUvMC8xNDE3MC81ZmQ0M2M1My01NTkwLTQ2YzItYjFkYy1iYWJlNjYxNzllYmYucGRm',type:'新北市政府契約查核'},
+    ],
+  },
 ].map(profile=>{
   const score=profile.scores?weightedScore(profile.scores):null;
   return {...profile,score,rating:profile.rating||ratingFromScore(score)};
