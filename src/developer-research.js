@@ -6184,6 +6184,51 @@ export const developerResearch=[
       {label:'寶佳關係公司公開聽證資料',url:'https://lis.ly.gov.tw/pubhearc/ttsbooki?N139396%3A0079-0090%3A_self=',type:'立法院公開資料'},
     ],
   },
+  {
+    id:'jiaang-construction',name:'佳昂建設',aliases:['佳昂建設','佳昂建設股份有限公司'],reviewed:'2026-09-18',confidence:'中高',
+    scores:{delivery:88,quality:78,governance:66,service:68,risk:72},
+    summary:'公司於 2005 年設立、目前實收資本額 2.1 億元；官方網站揭露佳昂河沐、佳昂太和、佳昂太和2、佳昂家易及佳昂新家等跨桃園、台中、嘉義與淡水作品，佳昂新家另有官方預售契約及近期完工門牌、成交紀錄可交叉確認。',
+    caveat:'已有多年、多區與多案推案及交付樣本，規模也高於單案公司；但非公開發行公司，財務治理、工程缺失統計、保固時效及客訴處理成果仍缺乏公司級公開資料，因此不因寶佳體系關係或案量直接升為 A。總分 76 分，列 B 級。',
+    sources:[
+      {label:'佳昂建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/27603187',type:'官方公司資料'},
+      {label:'佳昂建設官方推案',url:'https://jiaang.com.tw/case.php',type:'建商官方'},
+      {label:'佳昂新家官方預售契約',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?icon=..pdf&n=5L2z5piC5paw5a62LnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMS9yZWxmaWxlLzk2NzkvNjQwNTM3Lzc1NDA5ZjU5LTVkMzAtNDQ0MS04MjU1LWE2MDhjZTA0ZTk3MS5wZGY%3D',type:'新北市政府'},
+    ],
+  },
+  {
+    id:'bangtai-construction',name:'邦泰建設',aliases:['邦泰建設','邦泰建設股份有限公司'],reviewed:'2026-09-18',confidence:'中高',
+    scores:{delivery:58,quality:68,governance:50,service:48,risk:40},
+    summary:'公司於 2014 年設立、目前實收資本額 1.3 億元；官方預售契約可確認邦泰為敦泰苑賣方，基地約 2,060 坪、規劃 144 戶，已有預售成交紀錄，但目前可可靠歸屬於此法人的住宅履歷仍集中在尚待完整交付的敦泰苑。',
+    caveat:'新北市 2026 年消費爭議「協商不到業者名單」列有邦泰預售屋案件；另三重都市更新官方會議紀錄要求釐清邦泰等公司與案件間的債務、票據訴訟及解約關係。兩者不等同已判定邦泰違法或敦泰苑有瑕疵，但屬應保留的治理與履約風險訊號，且目前交付樣本不足。總分 55 分，列 C 級。',
+    sources:[
+      {label:'邦泰建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/24565463',type:'官方公司資料'},
+      {label:'敦泰苑官方預售契約',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?icon=..pdf&n=5pWm5rOw6IuRLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMS9yZWxmaWxlLzk2NzkvNzM1MjQ3LzVhOWJjMmNmLTFkYTItNGE1OC05MTY0LWVhZjYwN2I4OTY1NS5wZGY%3D',type:'新北市政府'},
+      {label:'新北市協商不到業者名單',url:'https://www.ntpc.gov.tw/uploaddowndoc?dis=news&file=news%2F202606041347471.pdf&filedisplay=%E5%8D%94%E5%95%86%E4%B8%8D%E5%88%B0%E6%A5%AD%E8%80%85%E5%90%8D%E5%96%AE%28115%E5%B9%B45%E6%9C%88%29.pdf&flag=doc',type:'新北市政府'},
+      {label:'三重都市更新官方會議紀錄',url:'https://www.planning.ntpc.gov.tw/uploaddowndoc?file=downloaddata%2F202602251342510.pdf&filedisplay=1150204%E3%80%8C%E6%93%AC%E8%A8%82%E6%96%B0%E5%8C%97%E5%B8%82%E4%B8%89%E9%87%8D%E5%8D%80%E8%88%88%E8%8F%AF%E6%AE%B51258%E5%9C%B0%E8%99%9F%E7%AD%8911%E7%AD%86%E5%9C%9F%E5%9C%B0%E3%80%8D%E7%AC%AC2%E6%AC%A1%E5%B0%8F%E7%B5%84%E7%B4%80%E9%8C%84.pdf&flag=doc',type:'新北市政府'},
+    ],
+  },
+  {
+    id:'hechang-construction',name:'合昶建設',aliases:['合昶建設','合昶建設股份有限公司'],reviewed:'2026-09-18',confidence:'中高',
+    scores:{delivery:45,quality:65,governance:60,service:58,risk:68},
+    summary:'公司於 2020 年設立，實收資本額由 200 萬元逐步增至 6,000 萬元；目前可確認的雙北住宅案為三峽「合昶澄真」，規劃 22 戶、2 至 3 房，已進入預售備查與銷售階段。',
+    caveat:'資本額成長與完成預售備查是正向訊號，但合昶澄真仍未交付，尚無此法人可核對的住宅完工樣本，也缺乏工程制度、財務治理、保固及客訴統計；不把團隊或關係人的經驗視為公司自己的交付履歷。總分 58 分，列 C 級。',
+    sources:[
+      {label:'合昶建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/83081289',type:'官方公司資料'},
+      {label:'合昶澄真建案資料',url:'https://newhouse.591.com.tw/141421/detail',type:'建案公開資料'},
+    ],
+  },
+  {
+    id:'hexuan-construction',name:'合軒建設',aliases:['合軒建設','合軒建設有限公司'],reviewed:'2026-09-18',confidence:'中高',
+    scores:{delivery:50,quality:68,governance:58,service:60,risk:70},
+    summary:'公司於 2019 年設立、設立時資本額 1,000 萬元；官方預售契約確認合軒為林口「優學」賣方，規劃 84 戶住宅與 9 戶店面，已有多筆預售成交，並由春木林建築團隊網站揭露其工程與品質理念。',
+    caveat:'優學仍在興建，尚未形成可檢驗的完整交屋與保固紀錄；春木林團隊的共同品牌敘述不能直接替代合軒法人的跨案履歷，且目前未找到公司級財務治理、品質稽核與售後成果。總分 60 分，列 C 級。',
+    sources:[
+      {label:'合軒建設設立登記清冊',url:'https://serv.gcis.nat.gov.tw/pub/cmpy/reportAction.do?fileName=10805NTS.pdf&method=report&reportClass=cmpy&subPath=10805',type:'經濟部官方資料'},
+      {label:'優學官方預售契約',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?icon=..pdf&n=5YSq5a24LnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMS9yZWxmaWxlLzk2NzkvNzI5MzM5LzIyN2Q5N2Q0LWQwNDUtNDY3MS05ZmRhLTU5NDVmODg4OGMxNS5wZGY%3D',type:'新北市政府'},
+      {label:'春木林建築團隊官方網站',url:'https://cmling.com.tw/',type:'建築團隊官方'},
+      {label:'優學建案與成交資料',url:'https://www.plex.com.tw/projects/view/id/6232',type:'建案公開資料'},
+    ],
+  },
 ].map(profile=>{
   const score=profile.scores?weightedScore(profile.scores):null;
   return {...profile,score,rating:profile.rating||ratingFromScore(score)};
