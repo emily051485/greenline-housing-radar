@@ -6412,6 +6412,54 @@ export const developerResearch=[
       {label:'明緯建設推案紀錄',url:'https://build.myhousing.com.tw/company/483901/',type:'建案公開資料'},
     ],
   },
+  {
+    id:'fegc',name:'遠揚建設',aliases:['遠揚建設','遠揚建設股份有限公司'],reviewed:'2026-09-18',confidence:'高',
+    scores:{delivery:94,quality:90,governance:88,service:80,risk:90},
+    summary:'1978 年設立、目前實收資本額約 52.1 億元，為遠東集團營造建築事業成員；除住宅外具大型公共工程與園區開發履歷，遠揚之森已完工，遠揚之森 A+ 續由同一體系推進。',
+    caveat:'集團資源、長期工程履歷、資本規模及母集團永續／財務揭露均屬強項；但住宅售後服務時效、住戶滿意度與個案缺失統計仍未達頂級住宅建商的透明度，因此總分 89 分，列 A 級而非 S。',
+    sources:[
+      {label:'遠揚建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/36538005',type:'經濟部官方資料'},
+      {label:'遠東集團遠揚建設介紹',url:'https://www.feg.com.tw/tw/business/company.aspx?id=18',type:'集團官方資料'},
+      {label:'遠東集團營造建築事業歷史',url:'https://www.feg.com.tw/tw/business/index.aspx?id=12',type:'集團官方資料'},
+      {label:'遠東新世紀合併財務報告',url:'https://www.fenc.com/upload/ir/2025ConsolidatedFinancialReport_TW.pdf',type:'公開財務資料'},
+    ],
+  },
+  {
+    id:'townic-development',name:'湯泉國際開發',aliases:['湯泉國際開發','湯泉國際開發股份有限公司'],reviewed:'2026-09-18',confidence:'中高',
+    scores:{delivery:84,quality:76,governance:68,service:66,risk:72},
+    summary:'公司於 2010 年設立、實收資本額 6 億元；官方網站可核對湯泉綠中海等作品，淡海「台北灣銀河」亦有官方預售備查、數百筆實價交易及近期完工資料。',
+    caveat:'具大型社區開發與交屋能力，資本規模也高於多數單案公司；但品牌作品涉及關係企業與不同法人，不能全部無條件歸入本法人，且缺少外部財務、品質稽核及售後處理統計。總分 74 分，列 B 級。',
+    sources:[
+      {label:'湯泉國際開發公司登記',url:'https://findbiz.nat.gov.tw/fts/company/25137144',type:'經濟部官方資料'},
+      {label:'湯泉國際官方網站',url:'https://www.townic.com.tw/',type:'建商官方資料'},
+      {label:'新北市預售屋買賣契約查詢',url:'https://www.land.ntpc.gov.tw/News.aspx?n=11769&sms=9679',type:'新北市官方資料'},
+      {label:'內政部預售屋備查資料集',url:'https://data.gov.tw/dataset/176351',type:'政府開放資料'},
+    ],
+  },
+  {
+    id:'mega-building',name:'鉅陞建設',aliases:['鉅陞建設','鉅陞建設股份有限公司'],reviewed:'2026-09-18',confidence:'高',
+    scores:{delivery:84,quality:82,governance:72,service:82,risk:76},
+    summary:'公司於 2017 年設立、目前實收資本額 6.5 億元；官方作品涵蓋河藍灣、英倫花園、日和花園、南青山與多個中北部案，並公開施工說明會、24 小時工程影像、第三方自主驗屋及交屋服務流程。',
+    caveat:'已有多案及數百戶交屋，品質與服務做法的公開程度優於一般中型建商；惟相關滿意度與交屋速度多為公司自述，且非公開發行公司，財務與客訴成果缺乏獨立、連續揭露。總分 80 分，列 B 級。',
+    sources:[
+      {label:'鉅陞建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/52553544',type:'經濟部官方資料'},
+      {label:'鉅陞建築業績',url:'https://www.mega-building.com/case-portfolio',type:'建商官方資料'},
+      {label:'鉅陞品質與售後做法',url:'https://www.mega-building.com/case-hot',type:'建商官方資料'},
+      {label:'鉅陞 ONE 預售屋契約',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?icon=..pdf&n=6YmF6ZmeT05FLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMS9yZWxmaWxlLzk2NzkvNjQwNTQwLzYwODRkMzQ2LTZkYWQtNGEyMC04NDE2LTU1OGNjNTdkMTUxMi5wZGY%3D',type:'新北市官方契約'},
+    ],
+  },
+  {
+    id:'sunghuei-development',name:'勝輝地產開發',aliases:['勝輝地產開發','勝輝地產開發股份有限公司'],reviewed:'2026-09-18',confidence:'高',
+    scores:{delivery:90,quality:82,governance:70,service:76,risk:78},
+    summary:'本法人於 2006 年設立、目前實收資本額 2.85 億元；勝輝機構官方作品頁列有板橋、中和、新店及台北市多件住宅與商辦，並可由官方備查確認「勝輝一邸」由勝輝地產開發銷售。',
+    caveat:'長期多案、開發至客服的組織配置與資本成長支持其 B 級上緣；但官網所稱 1990 年起的「機構」履歷早於本法人設立，不能全數當成本法人交付紀錄，外部財務與售後績效也有限。總分 80 分，列 B 級。',
+    sources:[
+      {label:'勝輝地產開發公司登記',url:'https://findbiz.nat.gov.tw/fts/company/28081496',type:'經濟部官方資料'},
+      {label:'勝輝機構公司沿革',url:'https://www.sunglory.tw/about.php',type:'建商官方資料'},
+      {label:'勝輝機構建築作品',url:'https://www.sunglory.tw/case.php',type:'建商官方資料'},
+      {label:'新北市預售屋買賣契約查詢',url:'https://www.land.ntpc.gov.tw/News.aspx?PageSize=20&n=11769&page=22&sms=9679',type:'新北市官方資料'},
+    ],
+  },
 ].map(profile=>{
   const score=profile.scores?weightedScore(profile.scores):null;
   return {...profile,score,rating:profile.rating||ratingFromScore(score)};
