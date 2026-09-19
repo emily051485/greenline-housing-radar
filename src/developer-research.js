@@ -7746,6 +7746,65 @@ export const developerResearch=[
       {label:'同業連帶擔保資格名單',url:'https://www.archper.org/download.php?id=165&tb=FileLoad',type:'新北市不動產開發公會資料'},
     ],
   },
+  {
+    id:'fuhua-construction',name:'福樺建設',aliases:['福樺建設','福樺建設股份有限公司'],reviewed:'2026-09-18',confidence:'中高',
+    scores:{delivery:88,quality:86,governance:84,service:74,risk:80},
+    summary:'1997 年設立、實收資本額 5.38 億元，深耕林口近三十年；可核對 2016 年完工百戶「福樺謙邸」、已取得使照的「福樺中央大樓」及多件後續推案，並持續採用日本國土開發等專業團隊。',
+    caveat:'長期直接推案、資本規模與高層建築交付紀錄支持 A 級；但非上市櫃公司，公開財務、工程缺失率、保固處理時效及住戶滿意度不如 S 級品牌完整，設計獎項與高規格團隊也不能取代個案驗屋。總分 83 分，列為 A 級。',
+    sources:[
+      {label:'福樺建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/97373595',type:'經濟部商工登記公示資料'},
+      {label:'福樺建設作品頁',url:'https://www.fuhua.com.tw/project',type:'建商官方資料'},
+      {label:'福樺謙邸工程實績',url:'https://jdc-corpn.com.tw/cases/%E7%A6%8F%E6%A8%BA%E8%AC%99%E9%82%B8%E4%BD%8F%E5%AE%85%E5%A4%A7%E6%A8%93/',type:'營造商官方資料'},
+      {label:'福樺中央大樓建案官網',url:'https://case.hiyes.tw/CentralPlaza/index.html',type:'建案官方資料'},
+      {label:'福樺富貴莊園官方契約查詢',url:'https://www.land.ntpc.gov.tw/News.aspx?PageSize=20&n=11769&page=18&sms=9679',type:'新北市政府地政局官方資料'},
+    ],
+  },
+  {
+    id:'jumei-construction',name:'聚美建設',aliases:['聚美建設','聚美建設股份有限公司'],reviewed:'2026-09-18',confidence:'高',
+    scores:{delivery:64,quality:72,governance:64,service:60,risk:72},
+    summary:'2020 年設立、資本額 2,000 萬元；官方契約可確認其為林口 31 戶「聚美家」房屋賣方，該案已完工並形成可查實價與成屋社區資料。',
+    caveat:'已有一件直接完工案，履約證據優於純在建法人；但公司規模較小，目前未查得第二件可歸屬作品，也缺少跨案工程制度、售後保固績效與財務揭露，單一社區成交量不能替代品質證據。總分 66 分，列為 C 級。',
+    sources:[
+      {label:'聚美建設公司變更登記',url:'https://serv.gcis.nat.gov.tw/pub/cmpy/reportAction.do?fileName=11206NTC.pdf&method=report&reportClass=cmpy&subPath=11206',type:'經濟部商工行政官方資料'},
+      {label:'聚美家預售屋買賣契約',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?icon=..pdf&n=6IGa576O5a62LnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMS9yZWxmaWxlLzk2NzkvNjQwMDEyLzY4ODIyODljLTJkOTQtNGU5Ni05YTlhLTgzN2Q0ODg3NTdkZS5wZGY%3D',type:'新北市政府地政局官方契約'},
+      {label:'聚美家成屋與成交資料',url:'https://market.591.com.tw/5901678',type:'成屋市場資料'},
+    ],
+  },
+  {
+    id:'borun-development',name:'柏潤建設開發',aliases:['柏潤建設開發','柏潤建設開發事業股份有限公司'],reviewed:'2026-09-18',confidence:'高',
+    scores:{delivery:52,quality:72,governance:72,service:58,risk:72},
+    summary:'2022 年設立、實收資本額 1.1 億元；官方契約確認其為林口 13 戶透天案「蒔山晏」賣方，基地、建照與契約責任均可核對。',
+    caveat:'資本規模相對充足，但目前只查得一件小型案，且尚無可驗證的完整交屋、跨案施工品質、售後保固及長期治理紀錄；公司增資不能直接等同履約品質。總分 64 分，列為 C 級。',
+    sources:[
+      {label:'柏潤建設開發公司登記',url:'https://findbiz.nat.gov.tw/fts/company/90146049',type:'經濟部商工登記公示資料'},
+      {label:'蒔山晏預售屋買賣契約',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?icon=..pdf&n=6JKU5bGx5pmPLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMS9yZWxmaWxlLzk2NzkvNzE2Njk1LzljOWVjNzYwLTM1YjctNDcwNS1hMjU5LTFjYjdhMDU2Yjc1ZC5wZGY%3D',type:'新北市政府地政局官方契約'},
+      {label:'蒔山晏推案資料',url:'https://build.myhousing.com.tw/company/485545/',type:'市場建案交叉核對'},
+    ],
+  },
+  {
+    id:'hongbo-architecture',name:'閎博建築',aliases:['閎博建築','閎博建築有限公司'],reviewed:'2026-09-18',confidence:'高',
+    scores:{delivery:60,quality:72,governance:64,service:58,risk:72},
+    summary:'2023 年設立、資本額 1,880 萬元；官方契約確認其為林口 4 戶透天案「質琢」賣方，市場建照與使照資料顯示已於 2026 年取得使用執照並採先建後售。',
+    caveat:'完成使照可提高履約可信度，但目前僅一件極小型直接作品，尚不足以驗證跨案品質、售後能力與長期財務承受力；先建後售降低預售履約不確定性，不代表成屋零瑕疵。總分 65 分，列為 C 級。',
+    sources:[
+      {label:'閎博建築設立登記',url:'https://serv.gcis.nat.gov.tw/pub/cmpy/reportAction.do?fileName=11202ALS.pdf&method=report&reportClass=cmpy&subPath=11202',type:'經濟部商工行政官方資料'},
+      {label:'質琢預售土地買賣契約',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?icon=..pdf&n=6LOq55CiLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMS9yZWxmaWxlLzk2NzkvNzMzNjU5LzY5YWMxNjlmLWI3ZDMtNDNhMi04MDA5LTgzOTBkZWM3NzcyNS5wZGY%3D',type:'新北市政府地政局官方契約'},
+      {label:'閎博質琢建照與使照資料',url:'https://newhouse.591.com.tw/138418',type:'市場建案交叉核對'},
+    ],
+  },
+  {
+    id:'yirui-construction',name:'頤叡建設（頤昌品牌）',aliases:['頤叡建設','頤叡建設股份有限公司'],reviewed:'2026-09-18',confidence:'中高',
+    scores:{delivery:60,quality:82,governance:68,service:80,risk:74},
+    summary:'2022 年設立、實收資本額 3,000 萬元；官方契約確認其為林口 153 戶「頤昌松玥」賣方，品牌官網與工程頁將本案列為頤昌作品，並公開 12 年防水保固及 8 年室內油漆服務訴求。',
+    caveat:'具體長期保固承諾與較完整工程團隊資料使其達 B 級門檻；但頤叡法人仍是新公司且本案尚未完工，頤昌品牌經驗不能無條件等同頤叡的直接履約紀錄，保固也須以正式契約及實際執行為準。總分 73 分，列為 B 級。',
+    sources:[
+      {label:'頤叡建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/90154011',type:'經濟部商工登記公示資料'},
+      {label:'頤昌松玥預售屋買賣契約',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?icon=..pdf&n=6aCk5piM5p2%2B546lLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMS9yZWxmaWxlLzk2NzkvNzM0NDI3LzBlMmZkNmIxLWZjMjYtNDI0YS1iN2UzLWE5N2UyMjUxM2RjOS5wZGY%3D',type:'新北市政府地政局官方契約'},
+      {label:'頤昌松玥建案官網',url:'https://lessisfreedom.com.tw/',type:'建案官方資料'},
+      {label:'頤昌松玥工程進度',url:'https://e-c-architecture.com.tw/progress-content.php?id=19',type:'品牌官方資料'},
+      {label:'保固與產品資料交叉核對',url:'https://www.leju.com.tw/page_blog/view/2673',type:'市場建案交叉核對'},
+    ],
+  },
 ].map(profile=>{
   const score=profile.scores?weightedScore(profile.scores):null;
   return {...profile,score,rating:profile.rating||ratingFromScore(score)};
