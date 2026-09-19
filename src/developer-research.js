@@ -5671,6 +5671,50 @@ export const developerResearch=[
       {label:'宏道仁滙承造工程資料',url:'https://www.uehara.com.tw/project_page/1/41.html',type:'承造公司資料'},
     ],
   },
+  {
+    id:'yongkang-construction',name:'永康建設',aliases:['永康建設股份有限公司','永康開發建設股份有限公司','永康建設'],reviewed:'2026-09-18',confidence:'中高',
+    scores:{delivery:75,quality:83,governance:68,service:70,risk:76},
+    summary:'2016 年設立、現名自 2022 年使用，實收資本額 5,500 萬元；官方網站列有永康芬揚、永康真及數個整合中基地，並宣稱每案申請耐震設計與施工標章、由技師駐地監督。',
+    caveat:'耐震制度及跨案管線是明確加分，但已完工與長期住戶樣本仍少，客變服務也不等於交屋後維修績效；私人公司財務、缺失率及保固處理未量化。總分 75 分，列 B 級。',
+    sources:[
+      {label:'永康建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/42854388',type:'政府公司資料'},
+      {label:'永康建設官方網站',url:'https://yong-kang.com.tw/',type:'公司官方資料'},
+      {label:'永康真預售契約',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?icon=..pdf&n=5rC45bq355yfLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMS9yZWxmaWxlLzk2NzkvNzM0NzE5L2U0YWJiNGIyLTcwYTctNGViNS1iMGUxLWRmNDI1ZWRmYjMyNS5wZGY%3D',type:'政府預售契約'},
+    ],
+  },
+  {
+    id:'yudingjiang-construction',name:'玉鼎將建設',aliases:['玉鼎將建設股份有限公司','玉鼎將建設'],reviewed:'2026-09-18',confidence:'高',
+    scores:{delivery:52,quality:65,governance:68,service:55,risk:72},
+    summary:'2023 年設立、實收資本額已增至 5,000 萬元；正式公司登記與預售契約可確認香朵為其開發案，契約載明 37 戶、建照 113 重建字第00346號及賣方責任。',
+    caveat:'公司仍處於首案興建階段，尚無自身完工交付、住戶售後或跨案品管紀錄；資本增加是正面訊號，但不能替代履約樣本。總分 61 分，列 C 級。',
+    sources:[
+      {label:'玉鼎將建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/83028638',type:'政府公司資料'},
+      {label:'香朵預售契約',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?icon=..pdf&n=6aaZ5py1LnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMS9yZWxmaWxlLzk2NzkvNzM0NzE2LzRmMzBkNzY1LWMxNTktNGJhMy1iMjBmLTVlZTZmZmRiNDk4NC5wZGY%3D',type:'政府預售契約'},
+    ],
+  },
+  {
+    id:'yongqi-international',name:'永琦國際開發',aliases:['永琦國際開發股份有限公司','永琦國際開發'],reviewed:'2026-09-18',confidence:'高',
+    scores:{delivery:20,quality:45,governance:20,service:20,risk:10},
+    summary:'公司與永琦見璞的賣方身分可由公司登記、預售契約及新北市備查資料確認；但受託銀行在 2025 年公告建案已連續停工三個月以上，且公司未能提出財務改善方案。',
+    caveat:'受託銀行已認定達到客觀上無法依約完工交屋的契約「特定事由」，並召開買方受益權人會議處理信託餘額；這是直接且重大的履約、治理與風險負面證據。總分 25 分，列 C 級。',
+    sources:[
+      {label:'永琦國際開發公司登記',url:'https://findbiz.nat.gov.tw/fts/company/54727388',type:'政府公司資料'},
+      {label:'永琦見璞預售契約',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?icon=..pdf&n=5rC455Cm6KaL55KeLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMS9yZWxmaWxlLzk2NzkvNjM5OTE4LzkwMThkMTg1LTI0ZWUtNDAzYy1hZGVkLTNiMmZiYjgxMjQyOC5wZGY%3D',type:'政府預售契約'},
+      {label:'永琦見璞受益權人會議公告',url:'https://tcbbank.moneydj.com/SaveFile/Bond/%E5%85%AC%E5%91%8A%E6%9C%AC%E8%A1%8C114.03.06%E5%8F%AC%E9%96%8B%E6%B0%B8%E7%90%A6%E8%A6%8B%E7%92%9E%E5%8F%97%E7%9B%8A%E6%AC%8A%E4%BA%BA%E6%9C%83%E8%AD%B0.pdf',type:'受託銀行公告'},
+    ],
+  },
+  {
+    id:'yongfonglong-construction',name:'永豐隆建設',aliases:['永豐隆建設股份有限公司','永豐隆建設'],reviewed:'2026-09-18',confidence:'高',
+    scores:{delivery:58,quality:60,governance:20,service:45,risk:20},
+    summary:'2014 年設立，頂埔綻的預售備查、建照與現況資料可核對開發責任；社區已有 2025 年完工成屋紀錄，顯示工程最終完成。',
+    caveat:'受託銀行於 2024 年正式公告公司發生退票等信用貶落情事；即使個案後續完工，事件仍是重大財務治理與履約風險，且公司未見公開改善或量化售後資料。總分 45 分，列 C 級。',
+    sources:[
+      {label:'永豐隆建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/24709222',type:'政府公司資料'},
+      {label:'頂埔綻預售備查資料',url:'https://www.land.ntpc.gov.tw/News.aspx?PageSize=20&n=11769&page=30&sms=9679',type:'政府預售資料'},
+      {label:'永豐隆信用貶落信託公告',url:'https://www.hwataibank.com.tw/bank_announcement/23917/',type:'受託銀行公告'},
+      {label:'頂埔綻完工社區資料',url:'https://www.leju.com.tw/community/L20a136355aa1de',type:'成屋公開資料'},
+    ],
+  },
 ].map(profile=>{
   const score=profile.scores?weightedScore(profile.scores):null;
   return {...profile,score,rating:profile.rating||ratingFromScore(score)};
