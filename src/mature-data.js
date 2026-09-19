@@ -76,6 +76,7 @@ const verifiedProjectNameCorrections=new Map([
   ['宏道仁?','宏道仁滙'],
   ['輕山?','輕山敘'],
   ['成華織心?','成華織心画'],
+  ['鴻華天?','鴻華天滙'],
 ]);
 const repairRegistryText=value=>{
   if(typeof value!=='string'||!/[?？]/.test(value))return value;

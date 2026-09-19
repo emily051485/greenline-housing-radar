@@ -6685,6 +6685,55 @@ export const developerResearch=[
       {label:'謙宇玥華建案資訊',url:'https://market.591.com.tw/5936032/overview',type:'建案公開資料'},
     ],
   },
+  {
+    id:'hongsheng-construction',name:'鴻晟建設',aliases:['鴻晟建設','鴻晟建設股份有限公司'],reviewed:'2026-09-18',confidence:'中高',
+    scores:{delivery:70,quality:70,governance:62,service:60,risk:72},
+    summary:'現行法人 2012 年設立、實收資本額 1,000 萬元；政府備查、契約資料及成屋社區資料可確認鴻華天滙由其興建，並已於 2025 年取得成屋履歷。',
+    caveat:'可核實一件完整交付案件，但公開作品庫、跨案品質制度、財務與售後服務成果有限；另有一家 2004 年設立、2011 年解散的同名公司，不能混為同一法人履歷。總分 67 分，列 C 級。',
+    sources:[
+      {label:'鴻晟建設現行公司登記',url:'https://findbiz.nat.gov.tw/fts/company/54028357',type:'經濟部商工登記公示資料'},
+      {label:'新北市預售屋契約查詢',url:'https://www.land.ntpc.gov.tw/News.aspx?PageSize=20&n=11769&page=28&sms=9679',type:'新北市政府公開資料'},
+      {label:'新北市預售屋備查建案清冊',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?n=MTEw5bm06IezMTE05LiK5Y2K5bm05bey5YKZ5p%2Bl5bu65qGI5riF5YaKLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMzk5L3JlbGZpbGUvODk5My85NDY5L2UwZjQwYjRjLTkyMjEtNDliZS1hMzA5LTE0MWExNmQ1MzVlNS5wZGY%3D',type:'新北市政府公開資料'},
+      {label:'鴻華天滙成屋社區資料',url:'https://community.yungching.com.tw/building/94806',type:'成屋市場資料'},
+    ],
+  },
+  {
+    id:'lianshun-construction',name:'聯順建設（寶石機構）',aliases:['聯順建設','聯順建設股份有限公司'],reviewed:'2026-09-18',confidence:'高',
+    scores:{delivery:86,quality:79,governance:72,service:70,risk:76},
+    summary:'1991 年設立、實收資本額 5,600 萬元；寶石機構在三重、蘆洲深耕約 40 年，可核對寶石君品苑、寶石睿岳與寶石承岳等作品，寶石承岳現已完工。',
+    caveat:'具有長期存續、跨案及成屋交付證據，但非公開發行公司，財務透明度、售後時效與第三方品質統計仍不足以支持 A 級。總分 77 分，列 B 級。',
+    sources:[
+      {label:'聯順建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/86388327',type:'經濟部商工登記公示資料'},
+      {label:'新北市預售屋備查建案清冊',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?n=MTEw5bm06IezMTE05bm05bey5YKZ5p%2Bl5bu65qGI5riF5YaKLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMzk5L3JlbGZpbGUvODk5My85NDY5L2NkZTQ4OTJkLTQzMzAtNDY3Zi1hYmExLTI3YzJiYjI0MjYxNi5wZGY%3D',type:'新北市政府公開資料'},
+      {label:'寶石承岳建案頁',url:'https://www.hiyes.tw/BuildingCase/Show/ce0078a5-fa2f-4539-ab31-f0a3f7f42102',type:'建案公開資料'},
+      {label:'寶石機構品牌與作品報導',url:'https://market.ltn.com.tw/article/17398',type:'媒體與品牌資料'},
+      {label:'寶石承岳成屋社區資料',url:'https://www.sinyi.com.tw/communitylist/communityinfo/0035638',type:'成屋市場資料'},
+    ],
+  },
+  {
+    id:'jiayuan-construction',name:'家元建設',aliases:['家元建設','家元建設股份有限公司'],reviewed:'2026-09-18',confidence:'高',
+    scores:{delivery:82,quality:74,governance:68,service:65,risk:75},
+    summary:'1987 年設立、實收資本額 2,800 萬元；政府契約可核實心家家，公開資料顯示該案已於 2025 年完工，另可交叉核對內湖層峰極景等過往開發紀錄。',
+    caveat:'具長期存續及跨案完工證據，但缺少完整官方作品庫、工程品管制度、財務與售後服務量化揭露，因此評為 B 級下段。總分 73 分，列 B 級。',
+    sources:[
+      {label:'家元建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/22658351',type:'經濟部商工登記公示資料'},
+      {label:'心家家預售屋買賣契約',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?icon=..pdf&n=5b%2BD5a625a62LnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMS9yZWxmaWxlLzk2NzkvNjM5NTI3LzYwN2M3ODQ2LTQyM2ItNDUxNi05MTdjLTYzZTNiZjA1NmM1My5wZGY%3D',type:'新北市政府公開契約'},
+      {label:'家元建設列管工程紀錄',url:'https://thaubing.gcaa.org.tw/corp/22658351',type:'政府資料再利用'},
+      {label:'心家家成屋資料',url:'https://www.leju.com.tw/community/L5c813191616774',type:'成屋市場資料'},
+      {label:'層峰極景完工紀錄',url:'https://ec.ltn.com.tw/article/paper/1106534',type:'媒體公開資料'},
+    ],
+  },
+  {
+    id:'fuyu-enterprise',name:'富域事業',aliases:['富域事業','富域事業有限公司'],reviewed:'2026-09-18',confidence:'中高',
+    scores:{delivery:68,quality:68,governance:62,service:62,risk:72},
+    summary:'2011 年設立、資本額 1,500 萬元；公司長期在北大特區從事房仲與代銷，北大富御為其投資興建及企劃銷售案件，已有完工交屋及成交紀錄。',
+    caveat:'區域服務經驗與單案交付可確認，但住宅開發仍以北大富御為主要樣本，房仲成交經驗不能等同建商品管及保固履歷；缺少跨案工程與售後量化資料。總分 66 分，列 C 級。',
+    sources:[
+      {label:'富域事業公司登記資料',url:'https://serv.gcis.nat.gov.tw/pub/cmpy/reportAction.do?fileName=376410000Achange11102.pdf&method=report&reportClass=cmpyCityItem&subPath=11102',type:'新北市公司變更登記清冊'},
+      {label:'北大富御建案資料',url:'https://build.myhousing.com.tw/99490/',type:'住展建案資料'},
+      {label:'富域事業公司與開發介紹',url:'https://www.104.com.tw/company/1a2x6bk0ti',type:'公司公開資料'},
+    ],
+  },
 ].map(profile=>{
   const score=profile.scores?weightedScore(profile.scores):null;
   return {...profile,score,rating:profile.rating||ratingFromScore(score)};
