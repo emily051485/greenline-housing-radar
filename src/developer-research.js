@@ -7506,6 +7506,68 @@ export const developerResearch=[
       {label:'買方解除契約判決',url:'https://lawplayer.com/judgment/KLDV%2C114%2C%E9%87%8D%E8%A8%B4%2C8%2C20250227%2C1_dd8b93592b74861a91bba07aeab77cd0df7ee27e',type:'司法院裁判書資料'},
     ],
   },
+  {
+    id:'hongweiji-construction',name:'宏瑋基建設',aliases:['宏瑋基建設','宏瑋基建設股份有限公司','宏璟基建設股份有限公司'],reviewed:'2026-09-18',confidence:'中高',
+    scores:{delivery:58,quality:72,governance:70,service:58,risk:72},
+    summary:'2020 年設立，實收資本額由 2,800 萬元增至 1.6 億元；新北市官方備查清冊與建案資料確認其為鶯歌 116 戶「宏苑 The One」投資興建法人，基地、產品及成交紀錄均可核對。',
+    caveat:'官方清冊曾出現「宏璟基」字樣，與公司登記的宏瑋基應視為資料異體並保留別名比對；同一法人目前僅確認一件尚未完整交屋的住宅案，不能把設計、營造合作方或負責人其他事業當成自身履歷。總分 65 分，列為 C 級。',
+    sources:[
+      {label:'宏瑋基建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/83413978',type:'經濟部商工登記公示資料'},
+      {label:'宏瑋基建設設立登記',url:'https://serv.gcis.nat.gov.tw/pub/cmpy/reportAction.do?fileName=10912ALS.pdf&method=report&reportClass=cmpy&subPath=10912',type:'經濟部商工行政官方資料'},
+      {label:'宏苑 The One 預售備查清冊',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?n=MTEw5bm06IezMTE05LiK5Y2K5bm05bey5YKZ5p%2Bl5bu65qGI5riF5YaKLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMzk5L3JlbGZpbGUvODk5My85NDY5L2UwZjQwYjRjLTkyMjEtNDliZS1hMzA5LTE0MWExNmQ1MzVlNS5wZGY%3D',type:'新北市政府地政局官方資料'},
+      {label:'宏苑 The One 建案資料',url:'https://tp.housetube.tw/47752',type:'市場建案交叉核對'},
+    ],
+  },
+  {
+    id:'cunchuan-construction',name:'村泉建設',aliases:['村泉建設','村泉建設股份有限公司'],reviewed:'2026-09-18',confidence:'高',
+    scores:{delivery:55,quality:70,governance:66,service:56,risk:72},
+    summary:'2003 年設立、實收資本額 2,800 萬元；公司官網與新北市官方契約確認其為淡水 89 戶「村泉蒔美」投資興建及房地賣方，統編、建照、基地與履約責任均明確。',
+    caveat:'公司雖已成立逾二十年，但官網將村泉蒔美明確稱為「村泉品牌新首發」，目前沒有足夠證據把其他關聯作品算入同一法人；本案仍待完整完工交屋，跨案品質、售後與長期財務樣本不足。總分 63 分，列為 C 級。',
+    sources:[
+      {label:'村泉建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/80543667',type:'經濟部商工登記公示資料'},
+      {label:'村泉蒔美建案官網',url:'https://www.cunchuan.com.tw/portfolio-item/%E6%9D%91%E6%B3%89%E8%92%94%E7%BE%8E/',type:'建商官方資料'},
+      {label:'村泉蒔美預售屋買賣契約',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?icon=..pdf&n=5p2R5rOJ6JKU576OLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMS9yZWxmaWxlLzk2NzkvNzM4Njg5LzVhOWQ1YTFmLTQ3NWMtNGRjMS04MjVjLTI2MmIyNWU4Mzc0Ni5wZGY%3D',type:'新北市政府地政局官方契約'},
+      {label:'村泉蒔美成交資料',url:'https://www.leju.com.tw/community/L0a315113439b8a',type:'市場成交資料'},
+    ],
+  },
+  {
+    id:'liangyu-construction',name:'良昱建設',aliases:['良昱建設','良昱建設股份有限公司'],reviewed:'2026-09-18',confidence:'高',
+    scores:{delivery:84,quality:78,governance:78,service:68,risk:76},
+    summary:'2004 年設立，現行實收資本額 5.22 億元；官方契約確認其為「豐秀・大境－雅境區」賣方，另可核實 CASA450、天駿與麗盛南京等跨期成屋，已有多年直接開發及交屋序列。',
+    caveat:'法人年資、資本規模與多件成屋支持穩健 B 級，但市場將其標示為麗寶集團／麗盛團隊成員的說法，尚不足以把集團全部作品與售後能力直接移植；公司級施工缺失率、保固完成率及完整財務資料仍未公開。總分 77 分，列為 B 級。',
+    sources:[
+      {label:'良昱建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/27474472',type:'經濟部商工登記公示資料'},
+      {label:'豐秀・大境－雅境區預售屋契約',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?icon=..pdf&n=6LGQ56eALuWkp%2BWigy3pm4XlooPljYAucGRm&u=LzAwMS9VcGxvYWQvMS9yZWxmaWxlLzk2NzkvNzQwOTIwL2Q0MzdkYTc3LWMxOTctNGQ3Yi1iZDFhLWE2NTZhZDc1N2QzZS5wZGY%3D',type:'新北市政府地政局官方契約'},
+      {label:'新店地政預售屋備查資料',url:'https://www.xindian.land.ntpc.gov.tw/cp.aspx?n=12001',type:'新北市政府官方資料'},
+      {label:'良昱建設歷年成屋',url:'https://www.plex.com.tw/projects/index/type/developer/query/%E8%89%AF%E6%98%B1%E5%BB%BA%E8%A8%AD',type:'市場建案交叉核對'},
+    ],
+  },
+  {
+    id:'jingmei-construction',name:'京美建設',aliases:['京美建設','京美建設股份有限公司'],reviewed:'2026-09-18',confidence:'中高',
+    scores:{delivery:74,quality:80,governance:70,service:65,risk:74},
+    summary:'2018 年設立、實收資本額 2,500 萬元；官方網站列有京美晴海、中壢大華段住宅與京美賦玉等作品，新北市官方備查資料確認其為 104 戶「京美晴朗」賣方，且曾獲國家建築金質獎規劃設計類獎項。',
+    caveat:'已有首案接近完工、後續推案及外部規劃設計獎項，達 B 級最低門檻；但法人年資仍短、資本規模有限，現階段缺多件完整交屋、售後修繕成效、第三方施工缺失率及財務揭露，獎項也不等同實際施工品質保證。總分 73 分，列為 B 級。',
+    sources:[
+      {label:'京美建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/69445605',type:'經濟部商工登記公示資料'},
+      {label:'京美建設官方網站',url:'https://www.jingmeicon.com/',type:'建商官方資料'},
+      {label:'京美晴朗預售屋官方查詢',url:'https://www.land.ntpc.gov.tw/News.aspx?PageSize=20&_Query=a57b2e19-ab70-4142-80ea-976f35abb5bb&n=11769&page=3&sms=9679',type:'新北市政府地政局官方資料'},
+      {label:'淡海新市鎮建案官方統計',url:'https://www-ws.land.ntpc.gov.tw/001/Upload/405/relfile/9030/3196/4097cbd8-ce1b-428d-9b0a-6afa4846faf5.pdf',type:'新北市政府官方資料'},
+      {label:'京美晴朗建案官網',url:'https://jingmei-sunny.com.tw/',type:'建案官方資料'},
+    ],
+  },
+  {
+    id:'jingcheng-construction',name:'京澄建設',aliases:['京澄建設','京澄建設有限公司'],reviewed:'2026-09-18',confidence:'高',
+    scores:{delivery:92,quality:85,governance:78,service:72,risk:78},
+    summary:'2007 年設立、資本額已增至 2.0001 億元；官方網站與公開作品資料可核實首富、謙里、達爾菲系列、京上澄、園朗、無為、軒朗、雲朗、泰然、為美等跨期作品，並已由桃園擴展至鶯歌「京澄為德」。',
+    caveat:'長期交屋序列、持續推案與產品規劃表現達 A 級門檻；但公司非公開發行，完整財務、跨案缺失率、保固修繕時效及住戶滿意度未有一致量化揭露，因此不列 S 級，且關係企業澄果等作品僅在法律主體可辨識時作輔助。總分 82 分，列為 A 級。',
+    sources:[
+      {label:'京澄建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/28576005',type:'經濟部商工登記公示資料'},
+      {label:'京澄建築官方作品',url:'https://jingcheng.tw/project/',type:'建商官方資料'},
+      {label:'京澄為德建案官網',url:'https://jingcheng.tw/project/weiji/',type:'建案官方資料'},
+      {label:'京澄建設歷年作品列表',url:'https://www.104.com.tw/company/1a2x6bjxoc',type:'公司公開資料交叉核對'},
+      {label:'京澄中路系列作品說明',url:'https://jingcheng.tw/%E6%A1%83%E5%9C%92%E4%B8%AD%E8%B7%AF%E9%87%8D%E5%8A%83%E5%8D%80%E7%81%AB%E7%86%B1-%E4%BA%AC%E6%BE%84%E5%BB%BA%E7%AF%89%E6%89%8E%E6%A0%B9%E6%8E%A8%E4%B8%80%E7%B3%BB%E5%88%97%E4%BD%9C%E5%93%81/',type:'建商官方資料'},
+    ],
+  },
 ].map(profile=>{
   const score=profile.scores?weightedScore(profile.scores):null;
   return {...profile,score,rating:profile.rating||ratingFromScore(score)};
