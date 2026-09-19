@@ -5554,6 +5554,62 @@ export const developerResearch=[
       {label:'新北市光曜預售備查',url:'https://www.land.ntpc.gov.tw/News.aspx?PageSize=20&n=11769&page=16&sms=9679',type:'政府預售資料'},
     ],
   },
+  {
+    id:'jicheng-construction',name:'吉晟建設',aliases:['吉晟建設股份有限公司','吉晟建設'],reviewed:'2026-09-18',confidence:'中',
+    scores:{delivery:65,quality:68,governance:62,service:58,risk:70},
+    summary:'2019 年設立、實收資本額 2,500 萬元；公司登記、新北市建照與預售資料可確認吉晟賦由吉晟建設投資興建，並已有第三方工程查驗紀錄。',
+    caveat:'目前可核對住宅履歷集中於單一案，尚缺公司級品管制度、完工後售服成果及持續財務揭露；總分 64 分，列 C 級。',
+    sources:[
+      {label:'吉晟建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/85027487',type:'政府公司資料'},
+      {label:'新北市預售建案清冊',url:'https://www.land.ntpc.gov.tw/News.aspx?n=11769&sms=9679',type:'政府預售資料'},
+      {label:'吉晟賦工程查驗紀錄',url:'https://tripletrust.com.tw/%E5%BB%BA%E6%A1%88%E5%AF%A6%E7%B8%BE-%E4%B8%89%E9%87%8D%E5%8D%80-%E5%90%89%E6%99%9F-%E5%90%89%E6%99%9F%E8%B3%A6/',type:'第三方工程資料'},
+    ],
+  },
+  {
+    id:'shengtai-feng',name:'勝泰豐建設',aliases:['勝泰豐建設股份有限公司','勝泰豐建設'],reviewed:'2026-09-18',confidence:'高',
+    scores:{delivery:84,quality:80,governance:74,service:74,risk:76},
+    summary:'2006 年設立、目前實收資本額 1.383 億元；官方作品及成屋資料可核對勝泰豐澤、三和首澤、安慶首澤與碧湖首澤，並持續推動多件都更案。',
+    caveat:'跨案交付、資本與官方工程進度支持區域型建商的穩定履約能力，但私人公司財務、量化品管與長期售後揭露仍有限；總分 78 分，列 B 級。',
+    sources:[
+      {label:'勝泰豐建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/27998153',type:'政府公司資料'},
+      {label:'勝泰豐建設官方作品',url:'https://sheng-tai-feng.com/projects-2/',type:'公司官方資料'},
+      {label:'安慶首澤預售契約',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?icon=..pdf&n=5a6J5oW26aaW5r6kLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMS9yZWxmaWxlLzk2NzkvNjQxMDgzLzkyYzBjNWNjLTQ1MmYtNDFlNS04NWM5LWNkYzE4MzM0MWU5NS5wZGY%3D',type:'政府預售契約'},
+      {label:'勝泰豐完工案彙整',url:'https://www.plex.com.tw/projects/index/type/developer/query/%E5%8B%9D%E6%B3%B0%E8%B1%90%E5%BB%BA%E8%A8%AD',type:'建案公開資料'},
+    ],
+  },
+  {
+    id:'hongquan-realestate',name:'宏全建設地產',aliases:['宏全建設地產股份有限公司','宏全建設地產'],reviewed:'2026-09-18',confidence:'中高',
+    scores:{delivery:66,quality:70,governance:68,service:60,risk:72},
+    summary:'2022 年設立、實收資本額 5,000 萬元；官方預售契約確認宏全與遠宏共同銷售宏道巴黎花都，建照、基地及 168 戶規模均可核對。',
+    caveat:'目前自身住宅履歷集中於單一合作案，不能直接借用合作方或代銷公司的其他作品，品管及售後資料亦有限；總分 67 分，列 C 級。',
+    sources:[
+      {label:'宏全建設地產公司登記',url:'https://findbiz.nat.gov.tw/fts/company/90588229',type:'政府公司資料'},
+      {label:'宏道巴黎花都預售契約',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?icon=..pdf&n=5a6P6YGT5be06buO6Iqx6YO9LeWuj%2BWFqC5wZGY%3D&u=LzAwMS9VcGxvYWQvMS9yZWxmaWxlLzk2NzkvNzMyODg2L2U4MDhlMjcxLWI3MWYtNDU1YS1hNDM1LWM3ZDQxYjMxZTJmNi5wZGY%3D',type:'政府預售契約'},
+      {label:'新北市預售建案清冊',url:'https://www.land.ntpc.gov.tw/News.aspx?n=11769&sms=9679',type:'政府預售資料'},
+    ],
+  },
+  {
+    id:'mude-construction',name:'沐得建設',aliases:['沐得建設股份有限公司','沐得建設','沐得國際開發有限公司','沐得國際開發'],reviewed:'2026-09-18',confidence:'中',
+    scores:{delivery:58,quality:66,governance:62,service:56,risk:68},
+    summary:'公司前身沐得國際開發於 2021 年設立，2025 年改制為沐得建設；公司登記與建照資料可確認沐得晶品為其住宅開發案。',
+    caveat:'沐得晶品仍屬新案，尚無可驗證完工交付、住戶售後或跨案品質樣本；目前分數反映證據成熟度而非判定施工不良，總分 61 分，列 C 級。',
+    sources:[
+      {label:'沐得建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/83369092',type:'政府公司資料'},
+      {label:'內政部建案與建照查詢',url:'https://lvr.land.moi.gov.tw/',type:'政府建案資料'},
+    ],
+  },
+  {
+    id:'yicheng-construction',name:'邑城建設',aliases:['邑城建設股份有限公司','邑城建設'],reviewed:'2026-09-18',confidence:'高',
+    scores:{delivery:58,quality:72,governance:88,service:62,risk:80},
+    summary:'2021 年設立、實收資本額 7,000 萬元，經濟部登記確認由上櫃公司邑昇實業持有 80%；邑城仰睦已有正式預售契約，母公司亦有年報、永續報告與公司治理評鑑可追蹤。',
+    caveat:'公開市場母公司提升財務治理可信度，但邑城仰睦仍是住宅首案，製造業母公司的年資不能當成建築交付履歷；總分 71 分，列 C 級。',
+    sources:[
+      {label:'邑城建設公司登記',url:'https://findbiz.nat.gov.tw/fts/company/90480450',type:'政府公司資料'},
+      {label:'邑城仰睦預售契約',url:'https://www-ws.land.ntpc.gov.tw/Download.ashx?icon=..pdf&n=6YKR5Z%2BO5Luw552mLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMS9yZWxmaWxlLzk2NzkvNzM1MjQ1LzNjNWM4MzU0LTNmNmYtNDE1OS05YWE4LTI2OWE5Nzc1OTdiOC5wZGY%3D',type:'政府預售契約'},
+      {label:'邑昇實業 2023 永續報告',url:'https://eiso.com.tw/wp-content/uploads/2024/08/FINAL2023%E9%82%91%E6%98%87%E5%AF%A6%E6%A5%AD%E6%B0%B8%E7%BA%8C%E5%A0%B1%E5%91%8A%E6%9B%B8.pdf',type:'母公司治理資料'},
+      {label:'公司治理評鑑結果',url:'https://cgc.twse.com.tw/static/20250430/8a828e1795f53c640196859a4f96001a_113%E5%B9%B4%28%E7%AC%AC11%E5%B1%86%29%E5%85%AC%E5%8F%B8%E6%B2%BB%E7%90%86%E8%A9%95%E9%91%91%E7%B3%BB%E7%B5%B1%E8%A9%95%E9%91%91%E7%B5%90%E6%9E%9C%E6%9A%A8%E8%A9%95%E9%91%91%E7%A8%8B%E5%BA%8EFINAL.pdf',type:'官方治理評鑑'},
+    ],
+  },
 ].map(profile=>{
   const score=profile.scores?weightedScore(profile.scores):null;
   return {...profile,score,rating:profile.rating||ratingFromScore(score)};
